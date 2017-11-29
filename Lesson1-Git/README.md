@@ -12,7 +12,9 @@ In this lesson we will cover:
 ### Prerequisites:
 * [Github.com](https://www.github.com/) account.
 * If you are on a Windows computer you can install the [git-bash command terminal here](https://git-for-windows.github.io/)
-* If you are on a Mac or Linux device, git is preinstalled and you can access it fropm your terminal. 
+* If you are on a Mac, git is preinstalled and you can access it from your terminal. By pessing ⌘+space and entering "terminal". (You can make sure you have git installed by typing "which git" and pressing enter, if a file path appears on your screen you are go to go.)
+* If you are on a Linux machine, you may need to install git by accessing your terminal and entering "apt-get install git"
+* If you are having trouble installing Git, this resource will help: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ## Description of version control and Git
 
@@ -20,17 +22,17 @@ Version control is a concept in software engineering which applies to the manage
 
 ### Git
 
-Git was created in 2005 by Linus Torvalds(creator of Linux). Git allows a team to work concurrently on a single project, or "repository", all while staying current and up to date. This is done through branching, each member, or feature, can have a branch from the master branch. That branch can be edited as needed without interfering with the "master". When the time comes to merge the branches back together, git will evaluate where the changes were made and will correct the master to reflect those changes without interfering with other changes. Git also acts as a sort of time machine, allowing a team to revert ANY changes made to the source code throughout the history of the code. 
+Git was created in 2005 by Linus Torvalds. Git allows a team to work concurrently on a single project, or "repository", all while staying current and up to date. This is done through branching, each member, or feature, can have a branch from the master branch. That branch can be edited as needed without interfering with the "master". When the time comes to merge the branches back together, git will evaluate where the changes were made and will correct the master to reflect those changes without interfering with other changes. Git also acts as a sort of time machine, allowing a team to revert ANY changes made to the source code throughout the history of the code. 
 
 ### Github.com
 
-[Github.com](https://github.com) is a repository OF repositories. It is one of many, and the most popular. Git !== Github, although they work very well together. Github is a place for you to store your code, work on other project, and also act's as a portfolio for anything you've worked on. If you plan on being a developer you should have a Github account. We will be using Github extensivley throughout your time at Lambda School. 
+[Github.com](https://github.com) is a repository OF repositories. It is one of many, and the most popular. Git != Github, although they work very well together. Github is a place for you to store your code or find other projects. It also acts as a portfolio for any code you've worked on. If you plan on being a developer you should have a Github account. We will be using Github extensivley throughout your time at Lambda School. 
 
 ## Basic terminal commands:
 
 > We will be using the "Bash terminal" throughout your time at Lambda school. If you are on a Mac or Linux machine, you should have the terminal and git installed already, if you are on a Windows machine I recommend installing ["git-bash"](https://git-for-windows.github.io/).
 
-Within our bash terminal we can: traverse our file structure, add files, remove files, update files, and tons more! The terminal is a powerful tool to developers and you will be using it a lot in your proffesional development career. It is best to get accustomed to it now. To begin we will learn the 'basic' commands:
+Within our bash terminal we can: traverse our file structure, add files, remove files, update files, and tons more! The terminal is a powerful tool to developers and you will be using it a lot in your proffesional development career. It might look scary at first, but in time you will enjoy using it. It is best to get accustomed to it now. To begin we will learn the 'basic' commands:
 
 "List": Allows us to view the contents of the current folder we are in.
 ```bash
@@ -46,8 +48,12 @@ Within our bash terminal we can: traverse our file structure, add files, remove 
 ```bash
   $ mkdir
 ```
+"Touch" will create a new file.
+```bash
+  $ touch [file]
+```
 
-"Remove": permanently deletes a file. (WARNING! This bypasses any "trashcan" you may have and PERMANENTLY deletes the file)
+"Remove": permanently deletes a file. (WARNING! This bypasses any "trashcan" you may have and PERMANENTLY deletes the file) (also of note: This will not remove folders, we need a special command for that, that we will learn later.)
 ```bash
   $ rm [file]
 ```
@@ -60,9 +66,9 @@ As mentioned before, github is a central place to store, view, and download repo
 
 ### Forking
 
-Github.com allows users to creat their own copy of an repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo and at a future time you may be able to reincorporate the changes you have made to this branch with the master branch you forked from.
+Github.com allows users to create their own copy of an repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo and at a future time you may be able to reincorporate("pull") the changes you have made to this branch with the master branch you forked from.
 
-In order to fork a repo, you will visit the github repo of your choosing (for this exercize we will be using this repo). Anywhere within the repo you will see a "Fork" button in the upper right hand corner, click this. GIthub will take a moment and copy all of the data to your account and it is now available to you to work on. 
+In order to fork a repo, you will visit the github repo of your choosing (for this exercize we will be using [this](http://github.com/lambdaschool/precourse) repo). Anywhere within the repo you will see a "Fork" button in the upper right hand corner, click this. Github will take a moment and copy all of the data to your account and it is now available to you to work on. 
 
 ### Cloning
 
@@ -82,7 +88,7 @@ You now have a local copy of the repo saved to your machine!
 
 We will interact with git through our bash terminal, although in the future you may wish to use a Git GUI interface. 
 
-In this exercise, we will change a file in our project and then commit this change to memeory in git. 
+In this exercise, we will add a file to our project and then commit this change to memeory in git. 
 
 in your terminal, cd into the LambdaSchool/Precourse folder
 
@@ -156,6 +162,14 @@ Congratulations! You just pushed your first git commit!
   Once you have completed the changes you intend to make, it will be time to merge those changes with the master branch. If you are not making changes directly to your own repository, you will need to submit a "Pull Request" or "PR" as we will refer to it. This allows to owner(or manager/supervisor/lead/senior) of the original repo to look over the changes and decide if they want to include these changes in their master. We will do this through github.
 
   In this exercise, we will submit a pull request through github.com
+
+
+  ## Further reading and tutorials:
+
+  * [Git: official site](https://git-scm.com/)
+  * [Github: official tutorial](https://try.github.io/levels/1/challenges/1)
+  * [Codecademy: Learn Git](https://www.codecademy.com/learn/learn-git)
+  * [Git: official tutorial](https://git-scm.com/docs/gittutorial)
 
 
 
