@@ -1,0 +1,19 @@
+{
+  "name": "lambdaschoolprecourse",
+  "version": "1.0.0",
+  "description": "This repo contains the instruction material and assignments for Lambda School's pre-course program.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambdaschool/precourse.git"
+  },
+  "author": "Lambda School",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lambdaschool/precourse/issues"
+  },
+  "homepage": "https://github.com/lambdaschool/precourse#readme"
+}
