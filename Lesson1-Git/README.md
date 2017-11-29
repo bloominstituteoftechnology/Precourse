@@ -4,7 +4,7 @@
 In this lesson we will cover: 
 
 * Description of version control and Git.
-* Basic terminal commands (bash).
+* Basic terminal commands.
 * Forking and cloning an existing Github.com repo.
 * Basic Git commands (status, add, commit, push).
 * Submitting a Pull Request.
@@ -18,7 +18,7 @@ In this lesson we will cover:
 
 ## Description of version control and Git
 
-Version control is a concept in software engineering which applies to the management of source code. There are many systems for applying version control pratices to source code, we will be focusing on one of the most popular, "Git". 
+Version control is a concept in software engineering which applies to the management of source code. There are many systems for applying version control pratices to source code. We will be focusing on one of the most popular, "Git". 
 
 ### Git
 
@@ -26,13 +26,13 @@ Git was created in 2005 by Linus Torvalds. Git allows a team to work concurrentl
 
 ### Github.com
 
-[Github.com](https://github.com) is a repository OF repositories. It is one of many, and the most popular. Git != Github, although they work very well together. Github is a place for you to store your code or find other projects. It also acts as a portfolio for any code you've worked on. If you plan on being a developer you should have a Github account. We will be using Github extensivley throughout your time at Lambda School. 
+[Github.com](https://github.com) is a network to store your repositories, essentially it is a repository of repositories. It is one of many available on the internet, and the most popular. Git != Github, although they work very well together. Github is a place for you to store your code or find other projects. It also acts as a portfolio for any code you've worked on. If you plan on being a developer you should have a Github account. We will be using Github extensivley throughout your time at Lambda School. 
 
 ## Basic terminal commands:
 
-> We will be using the "Bash terminal" throughout your time at Lambda school. If you are on a Mac or Linux machine, you should have the terminal and git installed already, if you are on a Windows machine I recommend installing ["git-bash"](https://git-for-windows.github.io/).
+> We will be using the "terminal" or "command line" throughout your time at Lambda school. If you are on a Mac or Linux machine, you should have the terminal and git installed already, if you are on a Windows machine I recommend installing ["git-bash"](https://git-for-windows.github.io/).
 
-Within our bash terminal we can: traverse our file structure, add files, remove files, update files, and tons more! The terminal is a powerful tool to developers and you will be using it a lot in your proffesional development career. It might look scary at first, but in time you will enjoy using it. It is best to get accustomed to it now. To begin we will learn the 'basic' commands:
+Within our terminal we can: traverse our file structure, add files, remove files, update files, and tons more! The terminal is a very powerful tool for developers and you will be using it a lot in your proffesional development career. It might look scary at first, but in time you will enjoy using it. It is best to get accustomed to it now. To begin we will learn the 'basic' commands:
 
 "List": Allows us to view the contents of the current folder we are in.
 ```bash
@@ -86,20 +86,20 @@ You now have a local copy of the repo saved to your machine!
 
 ## Git commands:
 
-We will interact with git through our bash terminal, although in the future you may wish to use a Git GUI interface. 
+We will interact with git through our terminal, although in the future you may wish to use a Git GUI interface. 
 
-In this exercise, we will add a file to our project and then commit this change to memeory in git. 
+In this exercise, we will add a file to our project and then commit this change to memory in git. 
 
-in your terminal, cd into the LambdaSchool/Precourse folder
+In your terminal, cd into the LambdaSchool/Precourse folder
 
-then enter this in your terminal:
+Then enter the following in your terminal:
 ```bash
-  $ touch Lesson1-Git/newFIle.js
+  $ touch Lesson1-Git/newFile.js
 ```
 
 This will add a new file your your project titled "newFile.js"
 
-at this time wqe can use the git command "status"
+at this time we can use the git command "status"
 
 ```bash
   $ git status
@@ -127,7 +127,7 @@ This tells us that we have a file that has been changed, but is not saved into t
 To do this we will use the 'add' command:
 
 ```bash
-  git add Lesson1-Git/newFIle.js
+  git add Lesson1-Git/newFile.js
 ```
 
 This has added our changes to the history, now to save that history, we will use "commit". Commit will take all of our added changes and save it to git history. For future reference you will be able to leave a message about the changes, this will make it easier to go back and find the changes you(or anyone) are looking for in the future ,if you should need to. It is always a good idea to leave a consise description of the changes in your commit. A shorthand way of leaving an inline messge is using the '-m' flag and writing your message directly after, in quotes.
@@ -170,6 +170,7 @@ Congratulations! You just pushed your first git commit!
   * [Github: official tutorial](https://try.github.io/levels/1/challenges/1)
   * [Codecademy: Learn Git](https://www.codecademy.com/learn/learn-git)
   * [Git: official tutorial](https://git-scm.com/docs/gittutorial)
+  * [Termianl turorial](https://www.davidbaumgold.com/tutorials/command-line/)
 
 
 
