@@ -1,7 +1,7 @@
 # Lesson 1: Git fundamentals
 In this lesson we will cover: 
 
-* History of Git and version control.
+* Description of version control and Git.
 * Basic terminal commands (bash).
 * Forking and cloning an existing Github.com repo.
 * Basic Git commands (status, add, commit, push).
@@ -9,7 +9,131 @@ In this lesson we will cover:
 
 ### Prerequisites:
 * [Github.com](https://www.github.com/) account.
-* If you are on a Windows computer you can install the [git-bash command terminal here](https://github.com/git-for-windows/git/releases)
+* If you are on a Windows computer you can install the [git-bash command terminal here](https://git-for-windows.github.io/)
 * If you are on a Mac or Linux device, git is preinstalled and you can access it fropm your terminal. 
+
+## Description of version control and Git
+
+Version control is a concept in software engineering which applies to the management of source code. There are many systems for applying version control pratices to source code, we will be focusing on one of the most popular, "Git". 
+
+### Git
+
+Git was created in 2005 by Linus Torvalds(creator of Linux). Git allows a team to work concurrently on a single project, or "repository", all while staying current and up to date. This is done through branching, each member, or feature, can have a branch from the master branch. That branch can be edited as needed without interfering with the "master". When the time comes to merge the branches back together, git will evaluate where the changes were made and will correct the master to reflect those changes without interfering with other changes. Git also acts as a sort of time machine, allowing a team to revert ANY changes made to the source code throughout the history of the code. 
+
+### Github.com
+
+[Github.com](https://github.com) is a repository OF repositories. It is one of many, and the most popular. Git !== Github, although they work very well together. Github is a place for you to store your code, work on other project, and also act's as a portfolio for anything you've worked on. If you plan on being a developer you should have a Github account. We will be using Github extensivley throughout your time at Lambda School. 
+
+## Basic terminal commands:
+
+> We will be using the "Bash terminal" throughout your time at Lambda school. If you are on a Mac or Linux machine, you should have the terminal and git installed already, if you are on a Windows machine I recommend installing ["git-bash"](https://git-for-windows.github.io/).
+
+Within our bash terminal we can: traverse our file structure, add files, remove files, update files, and tons more! The terminal is a powerful tool to developers and you will be using it a lot in your proffesional development career. It is best to get accustomed to it now. To begin we will learn the 'basic' commands:
+
+"List": Allows us to view the contents of the current folder we are in.
+```bash
+  $ ls
+```
+
+"Change Directory": Allows us to move to a new folder or 'directory'.
+```bash
+  $ cd [folder]
+```
+
+"Make Directory": Makes a new file in the directory you are currently in.
+```bash
+  $ mkdir
+```
+
+"Remove": permanently deletes a file. (WARNING! This bypasses any "trashcan" you may have and PERMANENTLY deletes the file)
+```bash
+  $ rm [file]
+```
+
+In this exercise we will create a new folder titled: "LambdaSchool"
+
+## Github
+
+As mentioned before, github is a central place to store, view, and download repositories, it is not synonymous with "git". You need to have a github account in order to complete this exercise. 
+
+### Forking
+
+Github.com allows users to creat their own copy of an repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo and at a future time you may be able to reincorporate the changes you have made to this branch with the master branch you forked from.
+
+In order to fork a repo, you will visit the github repo of your choosing (for this exercize we will be using this repo). Anywhere within the repo you will see a "Fork" button in the upper right hand corner, click this. GIthub will take a moment and copy all of the data to your account and it is now available to you to work on. 
+
+### Cloning
+
+In order to work on a project you must clone(download) it to your local machine. To do this, visit the top level of the forked repo on your own account, and click on the green button in the upper right hand side of the page that says: "Clone or Download" a dropdown should appear and will can click on the clipboard icon to copy the address. (Note: you can download the entire repo, but this is not advised as cloning will do quite a few steps for you behind the scenes that will make your life much easier.)  
+
+Once you have the address copied, return to your terminal window and enter the following:
+
+```bash
+  $ cd LambdaSchool
+
+  $ git clone [copied address]
+```
+
+You now have a local copy of the repo saved to your machine!
+
+## Git commands:
+
+We will interact with git through our bash terminal, although in the future you may wish to use a Git GUI interface. 
+
+In this exercise, we will change a file in our project and then commit this change to memeory in git. 
+
+in your terminal, cd into the LambdaSchool/Precourse folder
+
+then enter this in your terminal:
+```bash
+  $ touch Lesson1-Git/newFIle.js
+```
+
+This will add a new file your your project titled "newFile.js"
+
+at this time wqe can use the git command "status"
+
+```bash
+  $ git status
+``` 
+
+You should see somehting along these lines:
+
+```bash
+  Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git checkout -- <file>..." to discard changes in working directory)
+
+	  modified:   Lesson1-Git/README.md
+
+  Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+
+	  Lesson1-Git/newFile.js
+  
+  no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+This tells us that we have a file that has been changed, but is not saved into the git history yet.
+
+To do this we will use the 'add' command:
+
+```bash
+  git add Lesson1-Git/newFIle.js
+```
+
+This has added our changes to the history, now to save that history, we will use "commit". Commit will take all of our added changes and save it to git history. For future refernce you will be able to leave a message about the changes, this will make it easier to go back and find the changes you are looking for in the future if you should need to. A shorthand way of leaving an inline messge is using the '-m' flag and leaving your message directly after, in quotes.
+
+```bash
+  git commit -m 'added new file, newFile.js'
+```
+
+
+
+
+
+
+
+
 
 
