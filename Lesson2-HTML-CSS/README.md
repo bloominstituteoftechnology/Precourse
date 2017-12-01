@@ -238,5 +238,5 @@ Now that we have our external stylesheet linked up to our HTML file, we should s
 
 * [MDN official CSS documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works)
 * [MDN official HTML documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [COdecademy: Learn HTML](https://www.codecademy.com/learn/learn-html)
-* [COdecademy: Learn CSS](https://www.codecademy.com/learn/learn-css)
+* [Codecademy: Learn HTML](https://www.codecademy.com/learn/learn-html)
+* [Codecademy: Learn CSS](https://www.codecademy.com/learn/learn-css)
