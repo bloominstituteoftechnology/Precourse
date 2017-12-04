@@ -1,5 +1,5 @@
 # Lesson 2: HTML/CSS fundamentals
-(Attention: These are the class notes, this is meant to serve as an accompaniment to the class)
+(Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
 
@@ -90,10 +90,32 @@ These are header tags, there are intended to be used as a way to present the sub
 
 ### \<img>
 
-THis element will display an image on the screen. It will always have a 'src' flag which points to the address of the image (kind of like the "href" flag in the "a" element). NOTE: img tags can be self closing, as in they do NOT need two tags simply put the / before the closing bracket in the first tag:
+This element will display an image on the screen. It will always have a 'src' flag which points to the address of the image (kind of like the "href" flag in the "a" element). NOTE: img tags can be self closing, as in they do NOT need two tags simply put the / before the closing bracket in the first tag:
 
 ```html
   <img src="http://www.lambdaschool.com/imageurl.jpg" />
+```
+
+### \<ul>
+
+This element represents an "unordered list" this is the parent element and will contain list items. There is also an ordered list, but is hardly ever used in modern web development.
+
+### \<li>
+
+These are our list items. Within these tags we can place any other element, these just represent our list items.
+
+```html
+  <ul>
+    <li>
+      <span>List Item One</span>
+    </li>
+    <li>
+      <span>List Item Two</span>
+    </li>
+    <li>
+      <span>List Item Three</span>
+    </li>
+  </ul>
 ```
 
 ## Introduction to CSS
@@ -156,17 +178,17 @@ Now that we have our selectors in place we need to tell the browser what to do w
 Now that we have some HTML elements selected we can begin to add styling. There are a LOT of different ways you can style an object, you can control how big or small it is, what color it is, where it is placed on the screen, or even if it invisible or not. We will go over some of the most common styling properties and how to use them.
 
 ### Styling rules rules
-Styling rules will need to adhere to a certain syntax in our CSS so that the browser knows how to read them properly. Within the braces, we will then have the name of the rule, a colon(":") and the value of the rule, this will be followed by a semicolon(";")
+Styling rules will need to adhere to a certain syntax in our CSS so that the browser knows how to read them properly. Within the braces, we will then have the name of the property, a colon(":") and the value of the rule, this will be followed by a semicolon(";")
 
 ```css
   div {
-    styling_rule_name: value of rule;
+    styling_property: value of rule;
   }
 ```
 
 ### height and width
 
-We can tell the browser exactly how wide and how tall we want our elemnt to be, this is used in divs, imgs, and other height based elements( in order to determin the size of text, we will need to use a different styling rule ). Size values can be in lots of different measures, but the most common is the pixel "px".
+We can tell the browser exactly how wide and how tall we want our elemnt to be, this is used in divs, imgs, and other height based elements( in order to determin the size of text, we will need to use a different styling property ). Size values can be in lots of different measures, but the most common is the pixel "px".
 
 ```css
   div {
