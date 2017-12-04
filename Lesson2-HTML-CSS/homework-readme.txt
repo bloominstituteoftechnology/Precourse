@@ -14,9 +14,10 @@ I. Create a basic HTML page.
       * an h6 element containing "HTML/CSS homework".
     2. In the second div create:.
       * a span element containing text describing your favorite food.
-      * an a element linking to your favorite restaurant.
+      * an 'a' element linking to your favorite restaurant.
     3. In the third div create:
-      * an img tag linking to your favorite food. (Use google image search to find a photo, if you can't 
+      * an an unordered list with two list items
+      * an img tag in each list item linking to your favorite food. (Use google image search to find a photo, if you can't 
         use this address: "http://http://lorempixel.com/400/200/food/").
 
 II. Add some style
@@ -28,7 +29,7 @@ II. Add some style
      here: https://www.crockford.com/wrrrld/color.html).
   F. Add a style rule to divId changing the height to 300px and the width to 400px.
   G. Add a style rule to divId changing the background color.
-  H. Change the size of "spanId" to 18px.
+  H. Change the size of the font "spanId" to 18px.
   I. Give the class spanClass a margin of 50px.
   J. Give the id divID a padding of 50px.
   K. Give the id divId a border, any width color and style you choose.
