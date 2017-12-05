@@ -251,6 +251,7 @@ When we set the height and width of an element, we are only setting the content.
 Eg. If we set the height of the content to 20px and the width to 20px, the padding to 5px, border to 1px, and the margin to 10 px. 
 
 Actual height = 25px(content) + 2*5px(padding, each side) + 2 * 1(border each side) + 2 * 10(margin, each side) = 57px
+
 Actual width = 25px(content) + 2*5px(padding, each side) + 2 * 1(border each side) + 2 * 10(margin, each side) = 57px
 
 Knowing this will help us size and position our elements correctly.
