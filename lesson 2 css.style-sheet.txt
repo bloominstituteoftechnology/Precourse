@@ -1,0 +1,21 @@
+<!--  <style>
+        div {
+            text-allign: center;
+        }
+        h1 {
+            color: red;
+        }
+        #divId {
+            height: 300px;
+            width: 400px;
+            background: yellow;
+            padding: 50px;
+            border: 10px green;
+        }
+        #spanId {
+            font-size: 18px;
+        }
+        .spanClass {
+            margin: 50px;
+        }
+    </style>-->
