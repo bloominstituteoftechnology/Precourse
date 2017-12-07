@@ -13,11 +13,11 @@ In this lesson we will cover:
 
 ## Introduction to Javascript
 
-Javascript is a loosely typed programming language. Javascript != Java. If we imagine a web page as a house, the HTML makes up the wood, brick, and concrete, CSS is how we put all of those materials together, Javascript is the electricity, plumbing and gas. In it's early days Javascript was used purely on the front end as a way for web developers to add functionality to their web pages. In recent years, the introduction of the "V8 engine" by Google has improved the speed and functionality of JS. That, coupled with the release of Node.js, has led to a resurgence of JS. We now find JS used on front-end, back-end, mobile development, IoT, and really anywhere a traditional programming language would be used. Most recently the newest version of the Javascript language was released (ES6), we will be focusing on and using ES6 in this course, and in the Lambda School full CS course. 
+ If we imagine a web page as a house, the HTML makes up the materials (wood, brick, and concrete), CSS is how we put all of those materials together, and Javascript is the electricity, plumbing and gas. It's what makes the web page "run". Javascript was originally designed to be used purely on the front end as a way for web developers to add functionality to their web pages, and in it's early days it did just that. Recently, the introduction of the "V8 engine" by Google has improved the speed and functionality of JS. That led to the developemnent and release of exciting new front-end Javascript frameworks and eventually Node.js, a way to run Javascript on a server (back-end). This new development has led to a resurgence of Javascript. Javascript is one of the world's most widely used programming languages. We now find Javascript used on front-end, back-end, mobile development, IoT, and really anywhere a traditional programming language would be used. Recently, the newest version of the Javascript language was released (ES6), we will be focusing on and using ES6 in this course, and in the Lambda School full CS course. Keep in mind, Javascript != Java. Although they share similar names (this was, unfortunately, considered a feature by Javascripts early pioneeers) that is where the similarities end.
 
 ## Variables
 
-At the heart of Javascript are variables. A variable is a way to store the value of something to use later. 
+At the heart of Javascript are variables. A variable is a way to store the value of something to use later. (A note for those with previous programming knowledge: Javascript is a loosely typed language, a variable can be set (and re-set) to any type, we do not need to declare its type when initiating the variable.)
 
 The anatomy of a variable is first the keyword, a space, the name we are giving the variable, an equal sign, the value we are assigning the variable and then the semi-colon.
 
@@ -30,15 +30,15 @@ There are three ways to declare a variable.
 
 ### var
 
-var is the ES5 and under way of declaring a variable, this is a generic variable.
+var is the ES5  way of declaring a variable, this is a generic variable.
 
 ### let
 
-let is an ES6 variable keyword, this will assign a variable much like var, but with a little bit different behavior.
+let is a new ES6 variable keyword, this will assign a variable much like var, but with a little bit different behavior. Most notably, it differs by creating "block level scope".
 
 ### const
 
-const is also new in ES6. A const is a variable that will not be able to be changed. This is short for "constant"
+const is also new in ES6. A const is a variable that will not be able to be changed. This is short for "constant".
 
 Another concept we will talk about right away is 
 
@@ -61,7 +61,7 @@ Strings are blocks of text, they will always be defined with quotation marks aro
 ```
 ### Numbers
 
-Numbers are just that, numbers. Numbers do NOT have quotes around them. They can be negative as well
+Numbers are just that, numbers. Numbers do NOT have quotes around them. They can be negative as well. Javascript does have a limitation on the size of a number (+/- 9007199254740991), but only very rarely will that limitation come up. 
 
 ```javascript
     let answer = 42;
@@ -70,7 +70,7 @@ Numbers are just that, numbers. Numbers do NOT have quotes around them. They can
 
 ### Boolean
 
-Booleans come from low level computer science. It is a concept that powers binary code and the very core of computers... two choices, on or off, 0 or 1, true of false. In javascript we use Booleans to mean true or false. This seems simple at first but can get complicated later on.
+Booleans come from low level computer science. It is a concept that powers binary code and the very core of computers. You may have seen binary code in the past (0001 0110...), this is boolean logic. It essentially means you have two choices, on or off, 0 or 1, true of false. In Javascript we use Booleans to mean true or false. This may seem simple at first but can get complicated later on.
 
 ```javascript
     const iLoveJavascript = true;
@@ -91,7 +91,7 @@ Math operators work in javascript just as they would on your calculator.
 
 ### %
 
-Something you may not have seen before is the Modulo (%) this math operator will divide the two numbers and return the remainder.
+Something you may not have seen before is the Modulo (%), this math operator will divide the two numbers and return the remainder.
 
 ```javascript
     21 % 5 = 1;
@@ -251,7 +251,7 @@ Comparison operators are that > you see in the last example. It will compare two
 
 ## Introduction to Node and NPM
 
-Node.js is a runtime environment developed originally for use on backend servers. We will need to install it on our machines in order to complete the exercises over the next four days. To install Node please click here: [Download and install Node.js](https://nodejs.org/en/download/). Node comes shipped with "NPM". NPM is a package manager for javascript packages and we will be using it throughout our time at Lambda School. nYou do not need to do anything else to install NPM. 
+Node.js is a runtime environment developed originally for use on backend servers. We will need to install it on our machines in order to complete the exercises over the next four days. To install Node please click here: [Download and install Node.js](https://nodejs.org/en/download/). Node comes shipped with "NPM". NPM is a package manager for javascript packages and we will be using it throughout our time at Lambda School. Once you have installed Node.js, you do not need to do anything else to install NPM. 
 
 ## Please open the homework folder and complete the assignment described in the README file
 
