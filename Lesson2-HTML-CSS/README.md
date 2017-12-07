@@ -8,6 +8,7 @@ In this lesson we will cover:
 * Introduction to CSS.
 * CSS selectors and the \<style> element.
 * Basic CSS styling.
+* Introduction to the Box Model.
 * External Stylesheets and the \<link> element.
 
 ## Introduction to HTML
@@ -235,6 +236,26 @@ Color is used for TEXT ONLY. It will set the color of your text
 
 We cant use width or height for text, but we can determine the size of the font used. You can use any size unit here that you would use with a font in a word processor (px, em, in, etc) most popular is px
 
+## Introduction to the Box Model
+
+We can consider all html elements to be boxes, the make up of each box is the content, padding, border and margin. This is known as the Box Model.
+
+![Image](./boxModel.gif)
+
+When we set the height and width of an element, we are only setting the content. In order to calculate the true height and width we have to factor in the padding, border and margin.
+
+* Padding is a transparent area around the content.
+* Border will wrap around the padding
+* Margin is the outermost transparent area wrapping around the entire box.
+
+Eg. If we set the height of the content to 20px and the width to 20px, the padding to 5px, border to 1px, and the margin to 10 px. 
+
+Actual height = 25px(content) + 2*5px(padding, each side) + 2 * 1(border each side) + 2 * 10(margin, each side) = 57px
+
+Actual width = 25px(content) + 2*5px(padding, each side) + 2 * 1(border each side) + 2 * 10(margin, each side) = 57px
+
+Knowing this will help us size and position our elements correctly.
+
 
 ## External Stylesheets and the \<link> element
 
@@ -262,3 +283,4 @@ Now that we have our external stylesheet linked up to our HTML file, we should s
 * [MDN official HTML documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [Codecademy: Learn HTML](https://www.codecademy.com/learn/learn-html)
 * [Codecademy: Learn CSS](https://www.codecademy.com/learn/learn-css)
+* [w3schools: The Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
