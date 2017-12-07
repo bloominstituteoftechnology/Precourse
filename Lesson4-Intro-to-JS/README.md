@@ -30,7 +30,7 @@ There are three ways to declare a variable.
 
 ### var
 
-var is the ES5  way of declaring a variable, this is a generic variable.
+var is the ES5 way of declaring a variable. This is a generic variable keyword.
 
 ### let
 
@@ -39,6 +39,8 @@ let is a new ES6 variable keyword, this will assign a variable much like var, bu
 ### const
 
 const is also new in ES6. A const is a variable that will not be able to be changed. This is short for "constant".
+
+### console.log
 
 Another concept we will talk about right away is 
 
@@ -231,7 +233,7 @@ We can see that difference is set inside of the function. The variable inside th
 
 ## Control Flow and Comparison Operators
 
-In this example we are going to use control flow and comaprison operators. Control flow is a way for our function tp check to see if something is true, and either continuing if it is, or moving on if it is not. For this we will use the "if" keyword:
+In this example we are going to use control flow and comaprison operators. Control flow is a way for our function tp check to see if something is true, and either running the code supplied if it is, or moving on if it is not. For this we will use the "if" keyword:
 
 ```javascript
     function canDrive(age){
@@ -245,7 +247,7 @@ In this example we are going to use control flow and comaprison operators. Contr
     canDrive(16) //true
 ```
 
-Here we are taking a number (age) and checking to see if the statement is true (16 > 15), it is, so we will =return ture, and the function will stop. If it is not, it will skip that code and the function will return false. 
+Here we are taking a number (age) and checking to see if the statement is true (16 > 15), it is, so we will return true, and the function will stop. If it is not, it will skip that code and the function will return false. 
 
 Comparison operators are that > you see in the last example. It will compare two items and return either true or false. These operators are: < , <=, >, >=, ==, ===, !=
 
