@@ -1,4 +1,4 @@
-var exercises = require('../exercises');
+var exercises = require('../homework');
 
 describe('multiplyByTen(num)', function() {
   it('should return the argument after multiplying by ten', function() {
