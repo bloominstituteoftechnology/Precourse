@@ -44,21 +44,37 @@ Within our terminal we can: traverse our file structure, add files, remove files
   $ cd [folder]
 ```
 
-"Make Directory": Makes a new file in the directory you are currently in.
+"Make Directory": Makes a new folder in the directory you are currently in.
 ```bash
-  $ mkdir
+  $ mkdir [folder name]
 ```
 "Touch" will create a new file.
 ```bash
   $ touch [file]
 ```
 
-"Remove": permanently deletes a file. (WARNING! This bypasses any "trashcan" you may have and PERMANENTLY deletes the file) (also of note: This will not remove folders, we need a special command for that, that we will learn later.)
+"Remove": permanently deletes a file. (WARNING! This bypasses any "trashcan" or recycling can you may have and PERMANENTLY deletes the file) (also of note: This will not remove folders, we need a special command for that, that we will learn later.)
 ```bash
   $ rm [file]
 ```
 
+## Exercise
+
 In this exercise we will create a new folder titled: "LambdaSchool"
+
+To get to your top level folder type:
+
+```bash
+  cd ~
+```
+
+and press enter. Once in your top level type:
+
+```bash
+  mkdir LambdaSchool
+```
+
+and press enter. Congratulations you have created a directory!
 
 ## Github
 
@@ -66,13 +82,13 @@ As mentioned before, github is a central place to store, view, and download repo
 
 ### Forking
 
-Github.com allows users to create their own copy of an repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo and at a future time you may be able to reincorporate("pull") the changes you have made to this branch with the master branch you forked from.
+Github.com allows users to create their own copy of an repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo, and at a future time you may be able to reincorporate("pull") the changes you have made to this branch with the master branch you forked from.
 
 In order to fork a repo, you will visit the github repo of your choosing (for this exercize we will be using [this](http://github.com/lambdaschool/precourse) repo). Anywhere within the repo you will see a "Fork" button in the upper right hand corner, click this. Github will take a moment and copy all of the data to your account and it is now available to you to work on. 
 
 ### Cloning
 
-In order to work on a project you must clone(download) it to your local machine. To do this, visit the top level of the forked repo on your own account, and click on the green button in the upper right hand side of the page that says: "Clone or Download" a dropdown should appear and will can click on the clipboard icon to copy the address. (Note: you can download the entire repo, but this is not advised as cloning will do quite a few steps for you behind the scenes that will make your life much easier.)  
+In order to work on a project you must clone (download) it to your local machine. To do this, visit the top level of the forked repo on your own account, and click on the green button in the upper right hand side of the page that says: "Clone or Download" a dropdown should appear and will can click on the clipboard icon to copy the address. (Note: you can download the entire repo, but this is not advised as cloning will do quite a few steps for you behind the scenes that will make your life much easier.)  
 
 Once you have the address copied, return to your terminal window and enter the following:
 
@@ -82,11 +98,11 @@ Once you have the address copied, return to your terminal window and enter the f
   $ git clone [copied address]
 ```
 
-You now have a local copy of the repo saved to your machine!
+This will download the repo and you now have a local copy of the repo saved to your machine!
 
 ## Git commands:
 
-We will interact with git through our terminal, although in the future you may wish to use a Git GUI interface. 
+Throughout these lessons, we will interact with git through our terminal. In the future you may wish to use a Git GUI interface, but during these lessons we will need to use the terminal for all git functions. 
 
 In this exercise, we will add a file to our project and then commit this change to memory in git. 
 
@@ -99,7 +115,7 @@ Then enter the following in your terminal:
 
 This will add a new file your your project titled "newFile.js"
 
-at this time we can use the git command "status"
+at this time we can use the git command "status". Stutus will read back the status of all changes made to your repo. Use status often, if youa re not sure if something worked, using status will tell you. 
 
 ```bash
   $ git status
