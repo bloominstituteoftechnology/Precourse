@@ -9,13 +9,13 @@ In this lesson we will cover:
 * Using the position property to position elements.
 * Introduction to Flexbox.
 
-## Introduciton to positioning
+## Introduction to positioning
 
-Building a layout and making everything look clean ais what most people are looking to do when they start learning CSS. Positioning HTML elements on the page with CSS is possibly the most powerful ability CSS has, it can also be the most frustrating. In this lesson we will learn a few different ways to position items on the page.
+Building a layout and making everything look clean is what most people are looking to do when they start learning CSS. Positioning HTML elements on the page with CSS is possibly the most powerful ability CSS has, it can also be the most frustrating. In this lesson we will learn a few different ways to position items on the page.
 
 ## The Display property
 
-THe display property is the most important CSS property for positioning. We can use the display property to control how the elemets are displayed in relation to ther elements around them and also the elements inside of them. 
+The display property is the one of the most important CSS properties for positioning. We can use the display property to control how the elements are displayed in relation to the elements around them, and how they behave on the screen. 
 ```css
   div {
     display: <display rule>;
@@ -49,11 +49,11 @@ Setting the display to "none" will make an element disapear completely. This is 
 
 ### flex
 
-Flex is a new(CSS3) powerful tool that gives us the ability to control where on the page we want our items to be. We will talk about it latter this lesson
+Flex is a new(CSS3) powerful tool that gives us the ability to control where on the page we want our items to be. We will talk about this later in this lesson
 
 ### grid
 
-This is a new feature in CSS3 that will allow you to create a grid system inside of your element. We will be covering this later. 
+This is a new feature in CSS3 that will allow you to create a grid system inside of your element.
 
 ## The Position property
 
@@ -66,11 +66,11 @@ The posistion property will specify the type of positioning method used for an H
 
 ### static
 
-This is the default positioning of an element, setting an item to staic will not affect the element's behavior in any way.
+This is the default positioning of an element, setting an item to static will not affect the element's behavior in any way.
 
 ### relative
 
-Setting a position to relative will keep the element positioned as if it were staic, but this positioning method will allow us to set other methods on the element that we will describe later.
+Setting a position to relative will keep the element positioned as if it were staic, but this method will allow us the ability to set other positioning methods on the element that we will describe very soon.
 
 ### fixed
 
@@ -108,15 +108,15 @@ If we wanted it to be 10px below the top and 10px off the right edge:
 
 ## Introduction to Flexbox
 
-Introduced in CSS3, Flexbox is an exciting new feature. It allows us to position our elements in relation to its parent and each other. No longer do we have to apply CSS "hacks" for things like centering.  This allows mobile friendly design to really shine; and allows us to spend less time trying to get our positioning just right. Flexbox can be pretty complicated, but we will cover the basics of flexbox positioning here.
+Introduced in CSS3, Flexbox is an exciting new feature. It allows us to position our elements in relation to it's parent and each other. No longer do we have to apply CSS "hacks" for things like centering. This allows mobile friendly design to really shine; and allows us to spend less time trying to get our positioning just right. Flexbox can quickly get complicated, but we will cover the basics of flexbox positioning here.
 
 ### display: flex and inline-flex
 
-As we mentioned in the display property section, one of our disp[lay types can be "flex" this makes any container a flex block, we can also use "inline-flex" to make it a flex inline element. For the most part, we will just be using "flex".
+As we mentioned in the display property section, one of our display types can be "flex" this makes any container a flex block, we can also use "inline-flex" to make it a flex inline element. For the most part, we will just be using "flex".
 
 ### justify-content and align-items
 
-Now that our container(element) is a flex box. We can imagine it as a grid, columns going from left to right and rows going from top to bottom. We can use the justify-contetn and align-items properties to tell the flex box where we want our items to be on the grid. Initially "justify-content" will apply to the movement from left to right(columns), and "align-items" will apply to the movement from top to bottom (rows). We have a number of rules we can place on each of these properties:
+Now that our container(element) is a flex box. We can imagine it as a grid, columns going from left to right and rows going from top to bottom. We can use the justify-contet and align-items properties to tell the flex box where we want our items to be on the grid. Initially "justify-content" will apply to the movement from left to right(row), and "align-items" will apply to the movement from top to bottom (column). We have a number of rules we can place on each of these properties:
 
 * center: will center an item (or group of items) along the axis in which you apply this rule.
 * flex-start: This is what each flex box is set to initially, it will display all of the items in a group at the very begining of the row or column.
@@ -153,8 +153,8 @@ One last, more advanced, property we will cover is called "align-self". This wil
 * [Flexbox Froggy (a great flexbox tutorial)](http://flexboxfroggy.com/)
 * [CSS tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [MDN: Using CSS Flexible Boxes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
-* [MDN: CSS position propery](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
-* [MDN: CSS display property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+* [MDN: CSS display propery](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+* [MDN: CSS position property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 
 
 
