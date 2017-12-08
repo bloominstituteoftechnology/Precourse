@@ -1,0 +1,13 @@
+#divId{
+    	    height:300px;
+	        width:400px;
+    	    background:blue;
+        	padding:50px;
+        	border:2px white;
+}
+#spanId{
+        	font-size:18px;
+}
+.spanClass{
+        	margin:50px;
+        }
