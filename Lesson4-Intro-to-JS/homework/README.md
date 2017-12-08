@@ -2,7 +2,7 @@
 
 ## Instructions
 ---
-1. Feynman Writing Prompts - In a seprate text file tha tyou create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+1. Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* Variables
 	* Strings
@@ -15,7 +15,7 @@
 
 5. Navigate into the homework folder using your terminal.
 
-6. Once you are in the folder type the command `npm install`.  This will fetch all of the needed requirements for the project.
+6. Once you are in the homework folder type the command `npm install`.  This will fetch all of the needed requirements for the project.
 
 7. Run `npm test` to run the automated tests.  At first all of the tests will be broken.  You will fill out the functions in `exercises.js` to make the tests pass.
 
