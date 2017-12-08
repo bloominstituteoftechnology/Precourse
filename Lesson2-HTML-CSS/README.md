@@ -34,11 +34,11 @@ Data or elements within these tags will not render to the page but tells the bro
 
 ### \<title>
 
-This is the title of the website, it will be displayed at the top of the browser screen or in the tab (NOT on the actual page itself).
+This is the title of the website, it will be displayed at the top of the browser screen or in the tab (not on the actual page itself).
 
 ### \<body>
 
-This is where everything we want displayed to the screen will go, in between the body tags. Consider anything you see on the page the body.
+This is where everything we want displayed to the screen will go, in between the body tags. Anything you see on the page will be in the body.
 
 So far our page looks like this: 
 
@@ -76,7 +76,7 @@ The div element is a generic container. It is used primarily for styling, imagin
 The a ("anchor") element, allows us to create links to other webpages (or even to other areas within our own webpage). You will always see the a element used with the href flag to tell the browser what address you want the link to point to.
 
 ```html
-  <a href="http://www.lambdaschool.com">Here is a link!</p>
+  <a href="http://www.lambdaschool.com">Here is a link!</a>
 ```
 
 ### \<h1> ... \<h6>
@@ -91,7 +91,7 @@ These are header tags, there are intended to be used as a way to present the sub
 
 ### \<img>
 
-This element will display an image on the screen. It will always have a 'src' flag which points to the address of the image (kind of like the "href" flag in the "a" element). NOTE: img tags can be self closing, as in they do NOT need two tags simply put the / before the closing bracket in the first tag:
+This element will display an image on the screen. It will always have an 'src' flag which points to the address of the image (kind of like the "href" flag in the "a" element). NOTE: img tags can be self closing, as in they do not need two tags. Simply put the / before the closing bracket in the first tag:
 
 ```html
   <img src="http://www.lambdaschool.com/imageurl.jpg" />
@@ -158,25 +158,25 @@ Ids: are titles that can only appear on a single element, think of it as you wou
 
 Classes: on the other hand can apply to multiple elements. Think of it like a class room, usually you aren't the only person in a class, although you might be, the class is big enough for lots of people.
 
-We do NOT need to add anything to use every element of a certain type as a selector, CSS does that for us already. 
+We do not need to add anything to use every element of a certain type as a selector, CSS does that for us already. 
 
 ### Anatomy of styling rules
 
 Now that we have our selectors in place we need to tell the browser what to do with those selectors. Inside of our style tags, we will insert the rules. Classes will always begin with ".", and Ids will always begin with "#", elements will begin with neither and just have the element name. After the name of the selector we will use braces ("{}") to hold our rules to that one selector.
 
 ```html
-  <script>
+  <style>
     body {}
 
     .divClass {}
 
     #divId {}
-  </script>
+  </style>
 ```
 
 ## Basic CSS styling
 
-Now that we have some HTML elements selected we can begin to add styling. There are a LOT of different ways you can style an object, you can control how big or small it is, what color it is, where it is placed on the screen, or even if it invisible or not. We will go over some of the most common styling properties and how to use them.
+Now that we have some HTML elements selected we can begin to add styling. There are a LOT of different ways you can style an object, you can control how big or small it is, what color it is, where it is placed on the screen, or even if it is visible or not. We will go over some of the most common styling properties and how to use them.
 
 ### Styling rules rules
 Styling rules will need to adhere to a certain syntax in our CSS so that the browser knows how to read them properly. Within the braces, we will then have the name of the property, a colon(":") and the value of the rule, this will be followed by a semicolon(";")
@@ -187,9 +187,16 @@ Styling rules will need to adhere to a certain syntax in our CSS so that the bro
   }
 ```
 
+
+## Introduction to the Box Model
+
+We can consider all html elements to be boxes, the make up of each box is the content, padding, border and margin. This is known as the Box Model.
+
+![Image](./boxModel.gif)
+
 ### height and width
 
-We can tell the browser exactly how wide and how tall we want our elemnt to be, this is used in divs, imgs, and other height based elements( in order to determin the size of text, we will need to use a different styling property ). Size values can be in lots of different measures, but the most common is the pixel "px".
+We can tell the browser exactly how wide and how tall we want our element(content) to be, this is used in divs, imgs, and other height based elements( in order to determine the size of text, we will need to use a different styling property ). Size values can be in lots of different measures, but the most common is the pixel "px".
 
 ```css
   div {
@@ -199,48 +206,23 @@ We can tell the browser exactly how wide and how tall we want our elemnt to be, 
 ```
 ### margin 
 
-The margin is the area AROUND the element that you want to leave open. The size of the margin will NOT affect the height and width of the element.
+The margin is the transparent area around the element that you want to leave open. It is the outermost layer in the Box Model.
 
-### padding
-
-The padding is space INSIDE of the element you want to leave open. The size of the padding WILL affect the height and width of the element.
-
-### background
-
-Background can be set to a variety of rules, most common would be setting the background to a color or an image. both are displayed below.
-
-```css
-  .divClass {
-    background: red;
-  }
-  #divId {
-    background: url('http://imageurl.com/image.jpg');
-  }
-```
 
 ### border
 
-Border will set a border around your element, you can determine the size color and style of the border. It will be set up in this order: width style color (a list of border styles can be found here: https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+Border will set a border around your element, you can determine the size color and style of the border. It will be set up in this order: width style color (a list of border styles can be found here: https://developer.mozilla.org/en-US/docs/Web/CSS/border). The border is outside th apdding, but inside th margin.
 
 ```css
   div {
     border: 1px solid black;
   }
 ```
+### padding
 
-### color
+The padding is the transparent area between the border and the content. It is very similar to the margin.
 
-Color is used for TEXT ONLY. It will set the color of your text
-
-### font-size
-
-We cant use width or height for text, but we can determine the size of the font used. You can use any size unit here that you would use with a font in a word processor (px, em, in, etc) most popular is px
-
-## Introduction to the Box Model
-
-We can consider all html elements to be boxes, the make up of each box is the content, padding, border and margin. This is known as the Box Model.
-
-![Image](./boxModel.gif)
+### Box Model Calculation
 
 When we set the height and width of an element, we are only setting the content. In order to calculate the true height and width we have to factor in the padding, border and margin.
 
@@ -256,14 +238,38 @@ Actual width = 25px(content) + 2*5px(padding, each side) + 2 * 1(border each sid
 
 Knowing this will help us size and position our elements correctly.
 
+## A Couple of Other CSS Properties
+
+### background
+
+Background can be set to a variety of rules, most common would be setting the background to a color or an image. Both are displayed below.
+
+```css
+  .divClass {
+    background: red;
+  }
+  #divId {
+    background: url('http://imageurl.com/image.jpg');
+  }
+```
+
+### color
+
+Color is used for text only. It will set the color of your text
+
+### font-size
+
+We cant use width or height for text, but we can determine the size of the font used. You can use any size unit here that you would use with a font in a word processor (px, em, in, etc) most popular is px
+
+
 
 ## External Stylesheets and the \<link> element
 
 We have gone over how to use the \<style> html element. This is fine if you have a very small webpage and minimal styling, but most pages would start to feel cluttered very quickly if we included all of our CSS in the HTML. Thankfully we have a solution for that, external stylesheets and the \<link> element.
 
-An External style sheet is simply another file with the .css filetype on it. Conventionally this file is named something along the lines of "style.css". We can take all of the styling rules we wrote between the \<script> tags and transfer them directly to the css file. We do not need to include anything else, just the styling rules. 
+An External style sheet is simply another file with the .css filetype on it. Conventionally this file is named something along the lines of "style.css". We can take all of the styling rules we wrote between the \<style> tags and transfer them directly to the css file. We do not need to include anything else, just the styling rules. 
 
-Once we have an external style sheet created we will need to make sure the browser reads that file and applies the rules to our page. We tell the browser to look for that file by using the \<link> element. We can remove the \<script> tags and in their place add the \<link> element. Within the link element, we will need to supply the location and type of file we are linking. We will use two flags, the "rel" flag and the "href" flag. 
+Once we have an external stylesheet created we will need to make sure the browser reads that file and applies the rules to our page. We tell the browser to look for that file by using the \<link> element. We can remove the \<style> tags and in their place add the \<link> element. Within the link element, we will need to supply the location and type of file we are linking. We will use two flags, the "rel" flag and the "href" flag. 
 
 The rel flag will just tell the browser what type of file it is and how to process it. In our case we will set that to "stylesheet"
 
