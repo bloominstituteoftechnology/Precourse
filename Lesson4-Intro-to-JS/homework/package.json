@@ -1,0 +1,25 @@
+{
+  "name": "js-homework-1",
+  "version": "1.0.0",
+  "description": "LambdaSchool's Pre-course Workshop, Lesson 4 homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint homework.js && jest",
+    "lint": "eslint",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunJieMing/js-minicamp-homework-1.git"
+  },
+  "author": "Ben Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunJieMing/js-minicamp-homework-1/issues"
+  },
+  "homepage": "https://github.com/SunJieMing/js-minicamp-homework-1#readme",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "jest": "^19.0.2"
+  }
+}
