@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  font-family: Helvetica;
+  color: white;
+  background-image: url(https://synapticism.com/x/taiwan-keelung-miaokou-night-market-5.jpg);
+}
+h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: red;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+ul {
+  font-size: 18px;
+  list-style-type: none;
+}
+
+li {
+  margin:0 0 10px 0;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover{
+  color: hotpink;
+}
+img {
+  width: 300px;
+}
+
+.divClass {
+  padding: 20px;
+}
+
+.listItem {
+  width: 300px;
+  color: white;
+}
+
+#divId {
+  height: 700px;
+  width: 100%;
+  background-color: black;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#spanId {
+  font-size: 18px;
+}
+
+#restaurantText {
+  background-color: black;
+}
