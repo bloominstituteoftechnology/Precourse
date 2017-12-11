@@ -1,4 +1,4 @@
-# Lesson 5: Javascript cont. (Control Flow, Comparison Operators, 'for' Loops, and Arrays)
+# Lesson 5: Javascript II (Control Flow, Comparison Operators, 'for' Loops, and Arrays)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
@@ -11,9 +11,9 @@ In this lesson we will cover:
 
 ## Comparison Operators (continued)
 
-In the last lesson we touched on Comparison Operators, we will go a little emore in depth as to how they work and then introduce a close relative of Comparison Operators, Logical Operators.
+In the last lesson we touched on Comparison Operators, we will go a little more in depth as to how they work and then introduce a close relative of Comparison Operators, Logical Operators.
 
-In the last lesson we introduced our comparison operators, ( > >= < <= === !==). These operators work just as they would in a math class, greater than, less than, etc. We use these operators to evaluate two items, as the computer runs the code the operator will return either a true (if the statement is true) or a false. 
+In the last lesson we introduced our comparison operators, ( > >= < <= === !==). These operators work just as they would in a math class, greater than, less than, etc. We use these operators to evaluate two expressions. As the computer runs the code the operator will return either a true (if the statement is true) or a false. 
 
 ```javascript
     1 > 2;     //false
@@ -22,7 +22,7 @@ In the last lesson we introduced our comparison operators, ( > >= < <= === !==).
     100 <= 1;  //false
 ```
 
-The "triple equals" ( === ) must not be confused with a single equal sign (which indicates assigning a vaslue to a variable). The triple equal will conpare everything about the two items, including type, and return if they are exactly equal or not:
+The "triple equals" ( === ) must not be confused with a single equal sign (which indicates assigning a value to a variable). The triple equal will compare everything about the two items, including type, and return if they are exactly equal or not:
 (Something to note: there is a "double equals" ( == ) which will compare two items, but it will NOT take into account their types (1 == "1" //true). Due to this, it is considered bad practice to use the double equal. We would like to see you always using the triple, and you will always see us using it.)
 
 ```javascript
@@ -47,7 +47,7 @@ With that in mind, we can introduce the "not equals" ( !== ). This will return t
 
 ## Control Flow (continued)
 
-In the last lesson we learned about the "if" operator. We can use "if" to check and see if an expression is true, if it is, run some code. If it is not skip the code and keep running the program. 
+In the last lesson we learned about the "if" operator. We can use "if" to check and see if an expression is true, if it is, run some code. If it is not, skip the code and keep running the program. 
 
 ```javascript
     if (1 + 1 === 2){
@@ -55,7 +55,7 @@ In the last lesson we learned about the "if" operator. We can use "if" to check 
     }
 ```
 
-To add on to if, we can also use the "else if" and "else" statements. These staments must be used with "if" and must come after it. These statements will be evaluated if the initial "if" returns false. We can think of the "else if" as another "if" statement that has been chained (we can have as many else if statemnts we want). Only one "if" or "else if" statement code block will be run. If at any time a statement returns true, that code will be run and the rest will be skipped:
+To add on to if, we can also use the "else if" and "else" statements. These staments must be used with "if" and must come after it. These statements will be evaluated if the initial "if" returns false. We can think of the "else if" as another "if" statement that has been chained (we can have as many else if statements we want). Only one "if" or "else if" statement code block will be run. If at any time a statement returns true, that code will be run and the rest will be skipped:
 
 ```javascript
     if (false){
@@ -121,7 +121,7 @@ The last logical operator is the "NOT" operator. It is written as a single excla
 
 ```javascript
     if(!false){
-        console.log("The ! will return true, becaus eit is the opposite of false. This code will be run");
+        console.log("The ! will return true, because it is the opposite of false. This code will be run");
     }
 
     if(!(1 === 1)){
@@ -158,7 +158,7 @@ Just like the String data type has a built in .length method, so does the array.
 
 ### Accessing Items in an Array
 
-We can access an item at anytime in an array, we just need to call the item by its position in the array. Items are given a numerical position (index) according to where it is in the array, in order. An array's numerical order ALWAYS starts at 0, so the first item is in the 0 index, the second, in the 1 index, the third in the 2, and so on (this can be tricky at first, but jsut remember arrays always start at 0). 
+We can access an item at anytime in an array, we just need to call the item by its position in the array. Items are given a numerical position (index) according to where it is in the array, in order. An array's numerical order ALWAYS starts at 0, so the first item is in the 0 index, the second in the 1 index, the third in the 2, and so on (this can be tricky at first, but juslet ar rt remember arrays always start at 0). 
 
 ```javascript
     let studentsNames = ["Dan", "Maria", "Sara", "Raj"];
@@ -173,7 +173,7 @@ In order to access the item, we will type the name or the array variable, follow
     console.log(studentNames[1]);  //"Maria"
 ```
 
-To access the last item in the array, we will use the .length method. In our studentsNames array, the length is 4. We know the first item is always going to be 0, and every item after is shifted over one number. So in our example the last item has an index of 3. Using our length method we will show how it is done, when we don't know the number of items in an array:
+To access the last item in the array, we will use the .length method. In our studentsNames array, the length is 4. We know the first item is always going to be 0, and every item after is shifted over one number. So in our example the last item has an index of 3. Using our length method we will show how it is done when we don't know the number of items in an array:
 
 ```javascript
     let studentsNames = ["Dan", "Maria", "Sara", ... ,"Raj"];
@@ -241,7 +241,7 @@ Because Javascript is not a strongly typed language, arrays do not need to be ty
 
 Most software runs on loops, evaluating expressions over and over again until it either returns what we are looking for, or stops after a certain time. Javascript has two looping expressions built in to it and today we will look at the first one, the "for" loop. 
 
-"for" loops have a unique syntax, similar to the "if" statement, but slightly more complex. First we have the "for" keywaord, followed by parentheses and then open and close braces. Within the parentheses we will need three things. First, we must declare a variable, this is what the loop will be looping over. Then we will have a conditional expression, the loop will continue happening until this statement is false. Third, we will increment our variable. All three of these statments are separated by a semi-colon.
+"for" loops have a unique syntax, similar to the "if" statement, but slightly more complex. First we have the "for" keyword, followed by parentheses and then open and close braces. Within the parentheses we will need three things. First, we must declare a variable, this is what the loop will be looping over. Then we will have a conditional expression, the loop will continue happening until this statement is false. Third, we will increment our variable. All three of these statements are separated by a semi-colon.
 
 ```javascript
     for( let i = 0     ; i < 10                 ; i++          ){
@@ -250,7 +250,7 @@ Most software runs on loops, evaluating expressions over and over again until it
     }
 ```
 
-In this example we see that we initially set our "counter" variable to 0, the loop will run and each time it gets to the end, it will increase the counter by one. The for loop will then evaluate the conditional expression. If it is ture, it will run again, if it is false it will stop running.
+In this example we see that we initially set our "counter" variable to 0, the loop will run and each time it gets to the end, it will increase the counter by one. The for loop will then evaluate the conditional expression. If it is true, it will run again, if it is false it will stop running.
 
 Most of the time, for loops are used to iterate over all of the items in an array. Using the index access technique we can access each item in the array. To do this, we use the .length method as the stopping point for the loop.
 
@@ -280,7 +280,7 @@ It is possible to get your loop stuck in what we call an "Infinite Loop". You mu
         console.log(i)
     }
 ```
-Because our conditional expression will ALWASY be met (i will never be less than 0) this loop will essentially run forever. This will break your program, and may crash your web broswer, or computer.  
+Because our conditional expression will ALWAS be true (i will never be less than 0) this loop will essentially run forever. This will break your program, and may crash your web broswer, or computer.  
 
 ## Please open the homework folder and complete the assignment described in the README file
 
