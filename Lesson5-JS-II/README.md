@@ -41,7 +41,7 @@ With that in mind, we can introduce the "not equals" ( !== ). This will return t
 ```javascript
     1 !== 1;          //false
     1 !== '1';        //true
-    'cat' !== 'cat';  //flase
+    'cat' !== 'cat';  //false
     'cat' !== 'Cat';  //true
 ```
 
