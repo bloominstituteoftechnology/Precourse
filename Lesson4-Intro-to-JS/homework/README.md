@@ -17,7 +17,7 @@
 
 6. Once you are in the homework folder type the command `npm install`.  This will fetch all of the needed requirements for the project.
 
-7. Run `npm test` to run the automated tests.  At first all of the tests will be broken.  You will fill out the functions in `exercises.js` to make the tests pass.
+7. Run `npm test` to run the automated tests.  At first all of the tests will be broken.  You will fill out the functions in `homework.js` to make the tests pass.
 
 
 #### Congratulations on finishing Homework #1!
