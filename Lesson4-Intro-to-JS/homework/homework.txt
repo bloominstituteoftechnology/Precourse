@@ -1,0 +1,26 @@
+Feynman Writing Prompts
+
+Variables:
+Variables are like containers where you can store information that you can use later.
+
+Strings:
+Strings are blocks of text that have either singe or double quotation marks around them.
+Strings can be used as a type of variable.
+
+Functions:
+Function take variables and do compute, change, or do something to the variables.
+variables that are passed into the function are called "arguments". arguments usually
+go into the parenthesis right after the function name after the function statement.
+To process the computation or changes made by the function you would create a "return"
+statement. Return statements stop the function to compute what is written in the function
+and allows you to access something inside the function.
+
+if Statements:
+if Statements are functions that allow you to access different return values depending
+on if certain conditions are met within the if Statement.  For example, you could
+have the function return different things depending on whether one variable is greater
+than another depending on the arguments passed to those variables.
+
+Boolean values:
+Boolean values are true or false, on or off, 1 or 0.  Boolean values are often used
+like a switch or toggle.
