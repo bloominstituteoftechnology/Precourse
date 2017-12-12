@@ -1,5 +1,5 @@
-# Lesson 3: Introduction to Javascript
-(Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction. This is meant to serve as an accompaniment to the class)
+# Lesson 4: Introduction to Javascript
+(Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
 
@@ -249,7 +249,7 @@ In this example we are going to use control flow and comaprison operators. Contr
 
 Here we are taking a number (age) and checking to see if the statement is true (16 > 15), it is, so we will return true, and the function will stop. If it is not, it will skip that code and the function will return false. 
 
-Comparison operators are that > you see in the last example. It will compare two items and return either true or false. These operators are: < , <=, >, >=, ==, ===, !=
+The "Greater Than" symbol ( > ) you see in the last example is called a Comparison Operator. Comparison Operators evaluate two items and return either true or false. These operators are: < , <=, >, >=, ===, !== . We will learn more about these operators in the next lesson.
 
 ## Introduction to Node and NPM
 
