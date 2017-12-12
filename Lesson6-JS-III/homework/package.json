@@ -1,7 +1,7 @@
 {
-  "name": "js-homework-2",
+  "name": "js-homework-3",
   "version": "1.0.0",
-  "description": "LambdaSchool's Pre-course Workshop, Javascript II homework",
+  "description": "LambdaSchool's Pre-course Workshop, Javascript III homework",
   "main": "homework.js",
   "scripts": {
     "test": "eslint homework.js && jest",
