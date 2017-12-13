@@ -3,6 +3,7 @@
 
 In this lesson we will cover: 
 
+* Undefined and Null
 * Truthiness
 * Arguments object
 * Callbacks
@@ -13,6 +14,34 @@ In this lesson we will cover:
 ## Advanced Javascript
 
 We have come a long way since our humble beginings learning how to create variables just 3 lessons ago. In this lesson we will go over some advanced Javascript concepts. This lesson is meant to act as an introduction to these concepts, a starting point. We do not expect you to have these concepts fully memorized and ready to execute. We want to plant a seed and the more you work with Javascript the more that seed will grow and these concepts will make sense. Do not stress if these concepts feel very foreign and tough to grasp, they are that way for everyone. Have fun, and enjoy your Javascript journey. 
+
+## Undefined and Null
+
+There are a couple of Javascript objects that don't really fit into any type. Those are the values `undefined` and `null`. You will get `undefined` when you are looking for something that does not exist, a key on an object, an index in an array, a variable that does not exist. `undefined` simply means what you are asking for does not exist. 
+
+```javascript
+    let arr = [1, 2];
+    let obj = {
+        name: "Dan"
+    }
+
+    arr[3] //undefined
+    obj.email //undefined
+    console.log(unkownVar) //undefined
+```
+
+`null` is an object that we, the developers, set when we want to tell other developers that the item they are looking for exists, but there is no value associated with it. While `undefined` is set by the Javascript language, `null` is set by a developer. If you ever receive `null`, know that another developer set that value to `null`
+
+```javascript
+    let obj = {
+        name: "Dan",
+        phoneNumber: null
+    }
+
+    obj.phoneNumer //null
+```
+
+One last thing to note, neither `undefined` nor `null` are strings, they are written just as they are with no quotes around them, like a boolean.
 
 ## Truthiness
 
