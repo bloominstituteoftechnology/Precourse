@@ -9,7 +9,6 @@ In this lesson we will cover:
 * `document` Selectors
 * Element Methods
 * Event Handlers
-* Deployment to Github Pages
 
 ## Introduction to the `DOM`
 
@@ -32,12 +31,12 @@ First is to insert opening and closing script tags in the `head` element, the sa
     </html>
 ```
 
-The second way is to use the script tag to retreive our external Javascript file and inject that into our HTML page. Note, the attributes (flags) we use in script are `type` which should be set to "text/javascript" and `src` which will be set to the location of your file:
+The second way is to use the script tag to retreive our external Javascript file and inject that into our HTML page. Note, the attributes (flags) we use in script are `type` which should be set to "text/javascript" and `src` which will be set to the location of your file. We also want to include the keyword `async` and the end of our script tag to tell the browser to load the script asyncronously from the HTML. NOTE: script is not a self closing tag, you must include a closing tag.
 
 ```html
     <html>
         <head>
-            <script type="text/javascript" src="./index.js">
+            <script type="text/javascript" src="./index.js" async></script>
         </head>
     </html>
 ```
@@ -48,7 +47,7 @@ The first thing to note about Javascript running on a webpage is it's access to 
 
 ## `document` Selectors
 
-`document` contains dozens of methods on it's prototype. But most useful are it's selectors.  We will take a look at the four most common.
+`document` contains dozens of methods on it's prototype. But most useful are it's selectors.  We will take a look at the five most common.
 
 ### `document.getElementsByClassName`
 
@@ -60,18 +59,18 @@ The first thing to note about Javascript running on a webpage is it's access to 
 
 ### `document.getElementById`
 
-`getElementById` will find a single element based on it's id. It will return the element itself. The id suppllied must be a string of the id name.
+`getElementById` will find a single element based on it's id. It will return the element itself. The id supplied must be a string of the id name.
 
 ```javascript
-    let divs = document.getElementById('divId');
+    let div = document.getElementById('divId');
 ```
 
 ### `document.querySelector`
 
-`querySelector` (and `querySelectorAll`) is a new method that takes a CSS style selector. Rememebr that we can ask for classes in CSS using the `#` and ids using the `.`. These selectors will use the same format. It is best to only use ids with `querySelector` because it will only return the first item matching that slector. 
+`querySelector` (and `querySelectorAll`) is a new method that takes a CSS style selector as it's argument. Remember that we can ask for classes in CSS using the `#`, ids using the `.`, and elements by using the element name (eg: `'body'`). These selectors will use the same format. It is best to only use ids with `querySelector` because it will only return the first item matching that slector. 
 
 ```javascript
-    let divs = document.querySelector('.divId');
+    let div = document.querySelector('#divId');
 ```
 
 ### `document.querySelectorAll`
@@ -96,7 +95,7 @@ Once we have our elements selected we can use a wide range of methods and proper
 
 ### .innerHTML
 
-When we have an element, we can set it's `innerHTML`. This is essentially setting the data that is stored between the openeing and closing tags of the element.
+When we have an element, we can set it's `innerHTML`. This is essentially setting the data that is stored between the opening and closing tags of the element.
 
 ```javascript
     let p = document.querySelector('#pId');
@@ -121,7 +120,7 @@ We can call `.setAttribute` on an element to either add an attribute to the elem
 
 ### .style
 
-Calling the `.style` property on an element gives us access to the styles associated with the element. Note, this does not give us access to the CSS styles, only the inlien styles written in HTML. We cahin the style we want to read, or affect, on to the end of the `.style` .We can use this to set certain styles on the element. 
+Calling the `.style` property on an element gives us access to the styles associated with the element. Note, this does not give us access to the CSS styles, only the inline styles written in HTML. We chain the style we want to read, or affect, on to the end of the `.style` .We can use this to set certain styles on the element. 
 
 ```javascript
     let div = document.querySelector('#divId');
@@ -141,10 +140,20 @@ Using the `.className` and `.id` properties we can read and reassign class names
     div.className = "newClassName";
     div.id = "newId"
 ```
+### .appendChild
 
+We have the ability to create a new element set its style, class, id, attributes, and innerHTML, and add it to the `DOM` directly. To do this we use `.appendChild` on a parent node:
+
+```javascript
+    let body = document.querySelector('body');
+    let newDiv = document.createElement('div');
+
+    body.appendChild(newDiv);
+
+```
 ## Event Listeners
 
-An event lsitener is a function that fires when an event occurs. Events can be anything from a click, to a mouse entering the content area, to an image downlaod finishing. We will explore a few different events, but there are dozens we can choose from.
+An event lsitener is a function that fires when an event occurs. Events can be anything from a click, to a mouse entering the content area, to an image download finishing. We will explore a few different events, but there are dozens we can choose from.
 
 ### Click
 
@@ -170,14 +179,13 @@ The most common event listener to assign to an element is the 'click handler' in
 
 You can find a list of all events here: [MDN: Events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
-Using these document methods coupled with the knowledge we have of Javasc ript we can build a fully function front end web application. To start, open up the `homework` folder and read the README. 
-
-## Deployment to Github Pages
-
-Once we have an HTML, CSS, and JS file that all work in harmony together, we have a working web application. The final step is deployment. We are going to use a free service provided by Github called, [Github Pages](https://pages.github.com/). Github pages is simple to use, because you just specify in your github repository setting that you would like the repo published. You select 
+Using these document methods coupled with the knowledge we have of Javascript, HTML, and CSS, we now how the tools to build a fully functional front end web application. 
 
 ## Additional Resources
 
+* [MDN: DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+* [MDN: script Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+* [MDN: Document](https://developer.mozilla.org/en-US/docs/Web/API/Document)
 * [MDN: Events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 
