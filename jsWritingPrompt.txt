@@ -1,0 +1,9 @@
+Variable - Something that we can use to give value to something. Whether it be numbers or words, variables can be given any sort of value to be used whenever we need them. Just like in Algebra, when you have problems that go something like x = 1, X + 2 =? We know that the answer is 3 because we assigned "1" as "x"'s value.
+
+String - Just a line of words, or near words. Almost like a quote, except you don't have to use actualy words.
+
+Functions - Functions seem to work very similarily to basic mathematics tables in Algebra. You have an input(argument), a rule(function), and an output(return). Your argument is whatever you put into it. The function is whatever was told to do with the arguments that are put in. The returns are whatever you get out of it after the argument is put through the function.
+
+If statements - These will check and compare between things based on what you program it to check for. Will return a true or false statement.
+
+Boolean values - These are basically a yes or no answers. True or false. One or the other.
