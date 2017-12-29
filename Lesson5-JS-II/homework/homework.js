@@ -16,7 +16,7 @@ function greeting(language) {
   // language: 'English' -> 'Hello!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
-  if (language === 'German') {
+    if (language === 'German') {
     return 'Guten Tag!';
   }
   else if (language === 'English') {
@@ -65,13 +65,13 @@ function fizzBuzz(num) {
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
   if (num % 3 === 0 && num % 5 !== 0){
-    return "fizz";
+    return 'fizz';
   }
   else if (num % 5 === 0 && num % 3 !== 0){
-    return "buzz";
+    return 'buzz';
   }
   else if (num % 3 === 0 && num % 5 === 0){
-    return "fizzbuzz";
+    return 'fizzbuzz';
   }
   else if (num % 3 !== 0 && num % 5 !== 0){
     return num;
@@ -85,7 +85,9 @@ function isPrime(num) {
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
   if (num === 0 || num === 1) {
-
+    return false;
+  }
+  else {
     for (var i = 2; i < num; i++) {
     if(num % i === 0) {
     
@@ -141,7 +143,7 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  return words.join(" ");
+  return words.join(' ');
 }
 
 function contains(arr, item) {
