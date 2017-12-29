@@ -1,0 +1,12 @@
+Variables: There are different ways to declare variables: var, let, and const.
+var is a generic keyword you can create (ex. var favoriteSeason = "Winter";).
+let works the same as var but with slight difference by creating "block level scope".
+const is short for "constant" and is a variable that will not be changed.
+
+Strings: Strings are texts with quotation marks around them (ex. let cat = "pepper";)
+
+Functions: Functions help compute the variables. We could use functions to create arguments like calculations, true/false comparisons, and we would use a return statement to test out these arguments to make sure they are working correctly.
+
+`if` statements: if statements are mostly used with comparison operators. For example, you can create a if statement for figuring out the legal driving age. IF the input age is less than 16, it would return false as a result.
+
+Boolean values: We use boolean values to define true or false in JS.
