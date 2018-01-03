@@ -54,7 +54,7 @@ In the wild you will see brackets almost always being used with variables.
 
 ### Assigning Values
 
-Assigning values works just like accessing them. We can assign them, when we craete the object, with dot notation, or with bracket notation:
+Assigning values works just like accessing them. We can assign them, when we create the object, with dot notation, or with bracket notation:
 
 ```javascript
     let newUser = {
