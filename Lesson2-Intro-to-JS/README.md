@@ -13,11 +13,11 @@ In this lesson we will cover:
 
 ## Introduction to Javascript
 
- If we imagine a web page as a house, the HTML makes up the materials (wood, brick, and concrete), CSS is how we put all of those materials together, and Javascript is the electricity, plumbing and gas. It's what makes the web page "run". Javascript was originally designed to be used purely on the front end as a way for web developers to add functionality to their web pages, and in it's early days it did just that. Recently, the introduction of the "V8 engine" by Google has improved the speed and functionality of JS. That led to the developemnent and release of exciting new front-end Javascript frameworks and eventually Node.js, a way to run Javascript on a server (back-end). This new development has led to a resurgence of Javascript. Javascript is one of the world's most widely used programming languages. We now find Javascript used on front-end, back-end, mobile development, IoT, and really anywhere a traditional programming language would be used. Recently, the newest version of the Javascript language was released (ES6), we will be focusing on and using ES6 in this course, and in the Lambda School full CS course. Keep in mind, Javascript != Java. Although they share similar names (this was, unfortunately, considered a feature by Javascripts early pioneeers) that is where the similarities end.
+ If we imagine a web page as a house, the HTML makes up the materials (wood, brick, and concrete), CSS is how we put all of those materials together, and Javascript is the electricity, plumbing and gas. It's what makes the web page "run". Javascript was originally designed to be used purely on the front end as a way for web developers to add functionality to their web pages, and in its early days it did just that. Recently, the introduction of the "V8 engine" by Google has improved the speed and functionality of JS. That led to the development and release of exciting new front-end Javascript frameworks and eventually Node.js, a way to run Javascript on a server (back-end). This new development has led to a resurgence of Javascript. Javascript is one of the world's most widely used programming languages. We now find Javascript used on front-end, back-end, mobile development, IoT, and really anywhere a traditional programming language would be used. Recently, the newest version of the Javascript language was released (ES6), we will be focusing on and using ES6 in this course, and in the Lambda School full CS course. Keep in mind, Javascript != Java. Although they share similar names (this was, unfortunately, considered a feature by Javascripts early pioneers) that is where the similarities end.
 
 ## Variables
 
-At the heart of Javascript are variables. A variable is a way to store the value of something to use later. (A note for those with previous programming knowledge: Javascript is a loosely typed language, a variable can be set (and re-set) to any type, we do not need to declare its type when initiating the variable.)
+At the heart of Javascript are variables. A variable is a way to store the value of something to use later. (A note for those with previous programming knowledge: Javascript is a loosely typed language, a variable can be set (and reset) to any type, we do not need to declare its type when initiating the variable.)
 
 The anatomy of a variable is first the keyword, a space, the name we are giving the variable, an equal sign, the value we are assigning the variable and then the semi-colon.
 
@@ -139,7 +139,7 @@ We will see many other built it in methods on other data types throughout this c
 
 ## Introduction to Functions
 
-Now that we have variables set we need functions to compute them, change them, do somethign with them. There are three ways we can build a function.
+Now that we have variables set we need functions to compute them, change them, do something with them. There are three ways we can build a function.
 
 ```javascript
     function myFunc() {}
@@ -155,7 +155,7 @@ We will be using the first way in this lesson, and talk about the other ways in 
     function myFunc() {}
 ```
 
-A function will start with the function keyword, this tell whatever is running your program that what follows is a function and to treat it as such. After that comes the name of the function, we like to give functions names that describe what they do. Then comes an open and a close parentheses. And finally, open and close brackets. In between these brackets is where all of our function code will go.
+A function will start with the 'function' keyword, this tells whatever is running your program that what follows is a function and to treat it as such. After that comes the name of the function, we like to give functions names that describe what they do. Then comes an open and a close parentheses. And finally, open and close brackets. In between these brackets is where all of our function code will go.
 
 ```javascript
     function logsHello() {
@@ -165,7 +165,7 @@ A function will start with the function keyword, this tell whatever is running y
     logsHello();
 ```
 
-In this example we declare a function "logsHello" and we set it up to console.log "hello". We can then see in order to run this function, we need to write the name and parentheses. This is the syntax to run a fucntion. A function always needs parentheses to run.
+In this example we declare a function "logsHello" and we set it up to console.log "hello". We can then see in order to run this function, we need to write the name and parentheses. This is the syntax to run a function. A function always needs parentheses to run.
 
 ### Arguments
 
@@ -179,7 +179,7 @@ Now that we can run a basic function, we are going to start passing it arguments
     logsHello("Dan");
 ```
 
-If we add a variable to the parentheses when we declare the function we can use this variable within our function. We initaite the value of this variable by passing it in to the function when we call it. So in this case name = "Dan". We can pass other variables into this as well:
+If we add a variable to the parentheses when we declare the function we can use this variable within our function. We initiate the value of this variable by passing it into the function when we call it. So in this case name = "Dan". We can pass other variables into this as well:
 
 ```javascript
     function logsHello(name) {
@@ -214,7 +214,7 @@ In the last example we introduced the "return" statement. We will not console.lo
     console.log(product) //undefined
 ```
 
-If we tried to console.log something that we declared inside of the function it would return undefined because we do not have access to it outside of the function. This is called scope. The only way to access somehting inside of the function is to return it. 
+If we tried to console.log something that we declared inside of the function it would return undefined because we do not have access to it outside of the function. This is called scope. The only way to access something inside of the function is to return it. 
 
 We can also set variables to equal what a function returns.
 
@@ -233,7 +233,7 @@ We can see that difference is set inside of the function. The variable inside th
 
 ## Control Flow and Comparison Operators
 
-In this example we are going to use control flow and comaprison operators. Control flow is a way for our function tp check to see if something is true, and either running the code supplied if it is, or moving on if it is not. For this we will use the "if" keyword:
+In this example we are going to use control flow and comparison operators. Control flow is a way for our function to check to see if something is true, and either running the code supplied if it is, or moving on if it is not. For this we will use the "if" keyword:
 
 ```javascript
     function canDrive(age){
