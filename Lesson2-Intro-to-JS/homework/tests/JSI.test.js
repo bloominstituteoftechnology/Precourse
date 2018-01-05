@@ -1,47 +1,45 @@
 var exercises = require('../homework');
 
-describe('multiplyByTen(num)', function() {
-  it('should return the argument after multiplying by ten', function() {
-    expect(exercises.multiplyByTen(10)).toBe(100);
-    expect(exercises.multiplyByTen(0)).toBe(0);
+describe('newString', function() {
+  it('should be a string', function() {
+    expect(typeof exercises.newString).toBe('string');
   });
 });
 
-describe('subtractFive(num)', function() {
-  it('should return the argument after subtracting five', function() {
-    expect(exercises.subtractFive(10)).toBe(5);
-    expect(exercises.subtractFive(0)).toBe(-5);
+describe('newNum', function() {
+  it('should be a number', function() {
+    expect(typeof exercises.newNum).toBe('number');
   });
 });
 
-describe('areSameLength(str1, str2)', function() {
-  it('should return true if the arguments have the same length', function() {
-    expect(exercises.areSameLength('hi', 'there')).toBe(false);
-    expect(exercises.areSameLength('javascript', 'bumfuzzled')).toBe(true);
+describe('newBool', function() {
+  it('should be a boolean', function() {
+    expect(typeof exercises.newBool).toBe('boolean');
   });
 });
 
-describe('areEqual(x, y)', function() {
-  it('should return true if the arguments are equal', function() {
-    expect(exercises.areEqual(15, 15)).toBe(true);
-    expect(exercises.areEqual(90, 50)).toBe(false);
-    expect(exercises.areEqual('test', 'test')).toBe(true);
+describe('newSubtract', function() {
+  it('should be a boolean', function() {
+    expect(exercises.newSubtract).toBe(true);
   });
 });
 
-describe('lessThanNinety(num)', function() {
-  it('should return true if the argument is less than ninety', function() {
-    expect(exercises.lessThanNinety(15)).toBe(true);
-    expect(exercises.lessThanNinety(90)).toBe(false);
-    expect(exercises.lessThanNinety(100)).toBe(false);
+describe('newMultiply', function() {
+  it('should be a boolean', function() {
+    expect(exercises.newMultiply).toBe(true);
   });
 });
 
-describe('greaterThanFifty(num)', function() {
-  it('should return true if the argument is greater than fifty', function() {
-    expect(exercises.greaterThanFifty(15)).toBe(false);
-    expect(exercises.greaterThanFifty(50)).toBe(false);
-    expect(exercises.greaterThanFifty(60)).toBe(true);
+describe('newModulo', function() {
+  it('should be a boolean', function() {
+    expect(exercises.newModulo).toBe(true);
+  });
+});
+
+describe('returnString(str)', function() {
+  it('should return the string provided', function() {
+    let string = 'lambdaSchool';
+    expect(exercises.returnString(string)).toBe(string);
   });
 });
 
@@ -74,6 +72,38 @@ describe('multiply(x, y)', function() {
     expect(exercises.multiply(5, 5)).toBe(25);
     expect(exercises.multiply(10, -5)).toBe(-50);
     expect(exercises.multiply(11, 0)).toBe(0);
+  });
+});
+
+
+describe('areEqual(x, y)', function() {
+  it('should return true if the arguments are equal', function() {
+    expect(exercises.areEqual(15, 15)).toBe(true);
+    expect(exercises.areEqual(90, 50)).toBe(false);
+    expect(exercises.areEqual('test', 'test')).toBe(true);
+  });
+});
+
+describe('areSameLength(str1, str2)', function() {
+  it('should return true if the arguments have the same length', function() {
+    expect(exercises.areSameLength('hi', 'there')).toBe(false);
+    expect(exercises.areSameLength('javascript', 'bumfuzzled')).toBe(true);
+  });
+});
+
+describe('lessThanNinety(num)', function() {
+  it('should return true if the argument is less than ninety', function() {
+    expect(exercises.lessThanNinety(15)).toBe(true);
+    expect(exercises.lessThanNinety(90)).toBe(false);
+    expect(exercises.lessThanNinety(100)).toBe(false);
+  });
+});
+
+describe('greaterThanFifty(num)', function() {
+  it('should return true if the argument is greater than fifty', function() {
+    expect(exercises.greaterThanFifty(15)).toBe(false);
+    expect(exercises.greaterThanFifty(50)).toBe(false);
+    expect(exercises.greaterThanFifty(60)).toBe(true);
   });
 });
 
@@ -176,19 +206,5 @@ describe('getTriangleArea(base, height)', function() {
   it('should return the correct area', function() {
     expect(exercises.getTriangleArea(2, 2)).toBe(2);
     expect(exercises.getTriangleArea(0, 2)).toBe(0);
-  });
-});
-
-describe('getCircleArea(radius)', function() {
-  it('should return the correct area', function() {
-    expect(exercises.getCircleArea(4)).toBe(50);
-    expect(exercises.getCircleArea(0)).toBe(0);
-  });
-});
-
-describe('getRectangularPrismVolume(length, width, height)', function() {
-  it('should return the correct volume', function() {
-    expect(exercises.getRectangularPrismVolume(2, 2, 2)).toBe(8);
-    expect(exercises.getRectangularPrismVolume(0, 5, 10)).toBe(0);
   });
 });
