@@ -1,40 +1,37 @@
+
+//In these first 6 questions, replace `null` with the answer
+
+//create a string variable, it can contain anything
+let newString = null ;
+
+//create a number variable, it an be any number
+let newNum = null ;
+
+//create a boolean variable
+let newBool = null ;
+
+//solve the following math problem
+let newSubtract = 10 - null === 5;
+
+//Solve the following math problem
+let newMultiply = 10 * null === 40 ;
+
+//Solve the following math problem:
+let newModulo = 21 % 5 === null ;
+
+
+
+//In the next 22 problems you will compete the function. All of your code will go inside of the function braces. 
+//Make sure you use return when the prompt asks you to.
+//hint: console.log() will NOT work. 
 //Do not change any of the function names
 
-function multiplyByTen(num) {
-  // return num after multiplying it by ten
-  // code here
-}
-
-function subtractFive(num) {
-  // return num after subtracting five
-  // code here
-}
-
-function areSameLength(str1, str2) {
-  // return true if the two strings have the same length
-  // otherwise return false
-  // code here
-}
-
-function areEqual(x, y) {
-  // return true if x and y are the same
-  // otherwise return false
-  // code here
-}
-
-function lessThanNinety(num) {
-  // return true if num is less than ninety
-  // otherwise return false
-  // code here
-}
-
-function greaterThanFifty(num) {
-  // return true if num is greater than fifty
-  // otherwise return false
-  // code here
+function returnString(str) {
+  //simply return the string provided: str
 }
 
 function add(x, y) {
+  // x and y are numbers
   // add x and y together and return the value
   // code here
 }
@@ -44,13 +41,37 @@ function subtract(x, y) {
   // code here
 }
 
+function multiply(x, y) {
+  // multiply x by y and return the value
+  // code here
+}
+
 function divide(x, y) {
   // divide x by y and return the value
   // code here
 }
 
-function multiply(x, y) {
-  // multiply x by y and return the value
+function areEqual(x, y) {
+  // return true if x and y are the same
+  // otherwise return false
+  // code here
+}
+
+function areSameLength(str1, str2) {
+  // return true if the two strings have the same length
+  // otherwise return false
+  // code here
+}
+
+function lessThanNinety(num) {
+  // return true if the function argument: num , is less than ninety
+  // otherwise return false
+  // code here
+}
+
+function greaterThanFifty(num) {
+  // return true if num is greater than fifty
+  // otherwise return false
   // code here
 }
 
@@ -73,6 +94,7 @@ function isOdd(num) {
 
 function square(num) {
   // square num and return the new value
+  // hint: NOT square root!
   // code here
 }
 
@@ -114,7 +136,8 @@ function getGreeting(name) {
   // code here
 }
 
-// If you can't remember these area formulas then head over to Google or look at the test code.
+// The next three questions will have you implement math area formulas. 
+// If you can't remember these area formulas then head over to Google.
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
@@ -126,22 +149,17 @@ function getTriangleArea(base, height) {
   // code here
 }
 
-function getCircleArea(radius) {
-  // return the rounded area of the circle given the radius
-  // code here
-}
-
-function getRectangularPrismVolume(length, width, height) {
-  // return the volume of the 3D rectangular prism given the length, width, and height
-  // code here
-}
-
 // Do not modify code below this line.
 // --------------------------------
 
 module.exports = {
-  multiplyByTen: multiplyByTen,
-  subtractFive: subtractFive,
+  newString: newString,
+  newNum: newNum,
+  newBool: newBool,
+  newSubtract: newSubtract,
+  newMultiply: newMultiply,
+  newModulo: newModulo,
+  returnString: returnString,
   areSameLength: areSameLength,
   areEqual: areEqual,
   lessThanNinety: lessThanNinety,
@@ -162,7 +180,5 @@ module.exports = {
   combineNames: combineNames,
   getGreeting: getGreeting,
   getRectangleArea: getRectangleArea,
-  getTriangleArea: getTriangleArea,
-  getCircleArea: getCircleArea,
-  getRectangularPrismVolume: getRectangularPrismVolume
+  getTriangleArea: getTriangleArea
 };
