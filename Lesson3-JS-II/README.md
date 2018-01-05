@@ -201,9 +201,9 @@ Two more very useful built in array methods are .push and .pop. These methods re
 ```javascript
     let studentsNames = ["Dan", "Maria", "Sara", "Raj"];
 
-    studentNames.push("Ryan");
+    studentsNames.push("Ryan");
 
-    console.log(studentNames);  //["Dan", "Maria", "Sara", "Raj", "Ryan"]
+    console.log(studentsNames);  //["Dan", "Maria", "Sara", "Raj", "Ryan"]
 ```
 
 .pop removes the last item in the array, decrementing the length by 1. (.pop returns the "popped" item)
