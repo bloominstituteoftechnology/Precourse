@@ -4,6 +4,7 @@ notifications:
   email: 
     recipients: 
       - dan@mountainhub.com
+      - dan@lambdaschool.com
       - dfrehner1@gmail.com
     on_success: always
     on_failure: always
