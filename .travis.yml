@@ -2,7 +2,7 @@ language: node_js
 node_js: 
   - "node"
 notifications:
-  email: 
+  recipients: 
     - dan@lambdaschool.com
     - dfrehner1@gmail.com
   on_success: always
