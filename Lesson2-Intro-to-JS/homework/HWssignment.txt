@@ -1,0 +1,19 @@
+
+    Variables: Variables are like a named box that you store a value in
+	
+    Strings: Strings are a string of letters that usually mean something surrounded by "" or ''.
+	
+    Functions (arguments, return):Functions are like a variable except they can take arguments as values or strings and they return something.
+	
+    if statements:"if statements" are used to test if a boolean is true or not and run code if true otherwise they do something else.
+	
+    Boolean values (true, false):Boolean Values are either a yes"true" or no "false". basically they can be used as an off or on switch, true being on false being off.
+
+
+
+
+
+
+
+
+
