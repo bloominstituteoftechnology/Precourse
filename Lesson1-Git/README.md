@@ -12,13 +12,13 @@ In this lesson we will cover:
 ### Prerequisites:
 * [Github.com](https://www.github.com/) account.
 * If you are on a Windows computer you can install the [git-bash command terminal here](https://git-for-windows.github.io/)
-* If you are on a Mac, git is preinstalled and you can access it from your terminal. By pessing ⌘+space and entering "terminal". (You can make sure you have git installed by typing "which git" and pressing enter, if a file path appears on your screen you are go to go.)
+* If you are on a Mac, git is preinstalled and you can access it from your terminal. By pressing ⌘+space and entering "terminal". (You can make sure you have git installed by typing "which git" and pressing enter, if a file path appears on your screen you are go to go.)
 * If you are on a Linux machine, you may need to install git by accessing your terminal and entering "apt-get install git"
 * If you are having trouble installing Git, this resource will help: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ## Description of version control and Git
 
-Version control is a concept in software engineering which applies to the management of source code. There are many systems for applying version control pratices to source code. We will be focusing on one of the most popular, "Git". 
+Version control is a concept in software engineering which applies to the management of source code. There are many systems for applying version control practices to source code. We will be focusing on one of the most popular, "Git". 
 
 ### Git
 
@@ -26,13 +26,13 @@ Git was created in 2005 by Linus Torvalds. Git allows a team to work concurrentl
 
 ### Github.com
 
-[Github.com](https://github.com) is a network to store your repositories, essentially it is a repository of repositories. It is one of many available on the internet, and the most popular. Git != Github, although they work very well together. Github is a place for you to store your code or find other projects. It also acts as a portfolio for any code you've worked on. If you plan on being a developer you should have a Github account. We will be using Github extensivley throughout your time at Lambda School. 
+[Github.com](https://github.com) is a network to store your repositories, essentially it is a repository of repositories. It is one of many available on the internet, and the most popular. Git != Github, although they work very well together. Github is a place for you to store your code or find other projects. It also acts as a portfolio for any code you've worked on. If you plan on being a developer you should have a Github account. We will be using Github extensively throughout your time at Lambda School. 
 
 ## Basic terminal commands:
 
 > We will be using the "terminal" or "command line" throughout your time at Lambda school. If you are on a Mac or Linux machine, you should have the terminal and git installed already, if you are on a Windows machine I recommend installing ["git-bash"](https://git-for-windows.github.io/).
 
-Within our terminal we can: traverse our file structure, add files, remove files, update files, and tons more! The terminal is a very powerful tool for developers and you will be using it a lot in your proffesional development career. It might look scary at first, but in time you will enjoy using it. It is best to get accustomed to it now. To begin we will learn the 'basic' commands:
+Within our terminal we can: traverse our file structure, add files, remove files, update files, and tons more! The terminal is a very powerful tool for developers and you will be using it a lot in your professional development career. It might look scary at first, but in time you will enjoy using it. It is best to get accustomed to it now. To begin we will learn the 'basic' commands:
 
 "List": Allows us to view the contents of the current folder we are in.
 ```bash
@@ -82,9 +82,9 @@ As mentioned before, github is a central place to store, view, and download repo
 
 ### Forking
 
-Github.com allows users to create their own copy of an repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo, and at a future time you may be able to reincorporate("pull") the changes you have made to this branch with the master branch you forked from.
+Github.com allows users to create their own copy of an repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo, and at a future time you may be able to reincorporate ("pull") the changes you have made to this branch with the master branch you forked from.
 
-In order to fork a repo, you will visit the github repo of your choosing (for this exercize we will be using [this](http://github.com/lambdaschool/precourse) repo). Anywhere within the repo you will see a "Fork" button in the upper right hand corner, click this. Github will take a moment and copy all of the data to your account and it is now available to you to work on. 
+In order to fork a repo, you will visit the github repo of your choosing (for this exercise we will be using [this](http://github.com/lambdaschool/precourse) repo). Anywhere within the repo you will see a "Fork" button in the upper right hand corner, click this. Github will take a moment and copy all of the data to your account and it is now available to you to work on. 
 
 ### Cloning
 
@@ -115,13 +115,13 @@ Then enter the following in your terminal:
 
 This will add a new file your your project titled "newFile.js"
 
-at this time we can use the git command "status". Stutus will read back the status of all changes made to your repo. Use status often, if youa re not sure if something worked, using status will tell you. 
+at this time we can use the git command "status". Status will read back the status of all changes made to your repo. Use status often, if you are not sure if something worked, using status will tell you. 
 
 ```bash
   $ git status
 ``` 
 
-You should see somehting along these lines:
+You should see something along these lines:
 
 ```bash
   Changes not staged for commit:
@@ -146,7 +146,7 @@ To do this we will use the 'add' command:
   git add Lesson1-Git/newFile.js
 ```
 
-This has added our changes to the history, now to save that history, we will use "commit". Commit will take all of our added changes and save it to git history. For future reference you will be able to leave a message about the changes, this will make it easier to go back and find the changes you(or anyone) are looking for in the future ,if you should need to. It is always a good idea to leave a consise description of the changes in your commit. A shorthand way of leaving an inline messge is using the '-m' flag and writing your message directly after, in quotes.
+This has added our changes to the history, now to save that history, we will use "commit". Commit will take all of our added changes and save it to git history. For future reference you will be able to leave a message about the changes, this will make it easier to go back and find the changes you(or anyone) are looking for in the future ,if you should need to. It is always a good idea to leave a concise description of the changes in your commit. A shorthand way of leaving an inline message is using the '-m' flag and writing your message directly after, in quotes.
 
 ```bash
   git commit -m 'added new file, newFile.js'
@@ -158,7 +158,7 @@ Now that we have our changes saved locally, we want to share those changes in ou
   git push
 ```
 
-You will be promped for your username and password. Enter these and then you will receive a message if your changes were pushed successfully:
+You will be prompted for your username and password. Enter these and then you will receive a message if your changes were pushed successfully:
 
 ```bash
   Counting objects: 5, done.
