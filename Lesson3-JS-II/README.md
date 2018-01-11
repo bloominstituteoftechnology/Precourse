@@ -1,4 +1,4 @@
-# Lesson 5: Javascript II (Control Flow, Comparison Operators, 'for' Loops, and Arrays)
+# Lesson 3: Javascript II (Control Flow, Comparison Operators, 'for' Loops, and Arrays)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
@@ -55,7 +55,7 @@ In the last lesson we learned about the "if" operator. We can use "if" to check 
     }
 ```
 
-To add on to if, we can also use the "else if" and "else" statements. These staments must be used with "if" and must come after it. These statements will be evaluated if the initial "if" returns false. We can think of the "else if" as another "if" statement that has been chained (we can have as many else if statements we want). Only one "if" or "else if" statement code block will be run. If at any time a statement returns true, that code will be run and the rest will be skipped:
+To add on to if, we can also use the "else if" and "else" statements. These statements must be used with "if" and must come after it. These statements will be evaluated if the initial "if" returns false. We can think of the "else if" as another "if" statement that has been chained (we can have as many else if statements we want). Only one "if" or "else if" statement code block will be run. If at any time a statement returns true, that code will be run and the rest will be skipped:
 
 ```javascript
     if (false){
@@ -85,7 +85,7 @@ We can also combine two equality expressions and ask if either of the are true, 
 
 ### &&
 
-The first logical operator we will look at is the "AND" operator. It is written with two ampersands (&&). This will evaluate both epxressions and will return true if BOTH expressions are true. If one (or both) of them is false this operator will return false:
+The first logical operator we will look at is the "AND" operator. It is written with two ampersands (&&). This will evaluate both expressions and will return true if BOTH expressions are true. If one (or both) of them is false this operator will return false:
 
 ```javascript
     if (100 > 10 && 10 === 10){
@@ -133,7 +133,7 @@ The last logical operator is the "NOT" operator. It is written as a single excla
 
 A couple things to note about logical operators.
 
-* The expressions are evaluated in order, and the computer will skip any redundant expressions. In an && statement, if the first expression if false, the second expression will not be evaluated because BOTH expressions need to be true. Same for the || statement. If the first expression is true, the second will not be evaluated becuase there only needs to be one true statement to fulfill the requirements of the operator.
+* The expressions are evaluated in order, and the computer will skip any redundant expressions. In an && statement, if the first expression if false, the second expression will not be evaluated because BOTH expressions need to be true. Same for the || statement. If the first expression is true, the second will not be evaluated because there only needs to be one true statement to fulfill the requirements of the operator.
 
 * Use parentheses. As we saw in the second ! operator example, we used parentheses to evaluate what was inside of the parentheses FIRST, then applied the ! operator. We can wrap ANY expression in parentheses and it will be evaluated before evaluating the expression as a whole. 
 
@@ -158,7 +158,7 @@ Just like the String data type has a built in .length method, so does the array.
 
 ### Accessing Items in an Array
 
-We can access an item at anytime in an array, we just need to call the item by its position in the array. Items are given a numerical position (index) according to where it is in the array, in order. An array's numerical order ALWAYS starts at 0, so the first item is in the 0 index, the second in the 1 index, the third in the 2, and so on (this can be tricky at first, but juslet ar rt remember arrays always start at 0). 
+We can access an item at anytime in an array, we just need to call the item by its position in the array. Items are given a numerical position (index) according to where it is in the array, in order. An array's numerical order ALWAYS starts at 0, so the first item is in the 0 index, the second in the 1 index, the third in the 2, and so on (this can be tricky at first, but just remember arrays always start at 0). 
 
 ```javascript
     let studentsNames = ["Dan", "Maria", "Sara", "Raj"];
@@ -280,7 +280,7 @@ It is possible to get your loop stuck in what we call an "Infinite Loop". You mu
         console.log(i)
     }
 ```
-Because our conditional expression will ALWAS be true (i will never be less than 0) this loop will essentially run forever. This will break your program, and may crash your web broswer, or computer.  
+Because our conditional expression will ALWAS be true (i will never be less than 0) this loop will essentially run forever. This will break your program, and may crash your web browser, or computer.  
 
 ## Please open the homework folder and complete the assignment described in the README file
 
@@ -291,10 +291,3 @@ Because our conditional expression will ALWAS be true (i will never be less than
 * [MDN: Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
 * [MDN: Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [MDN: for Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-
-
-
-
-
-
-

@@ -1,4 +1,4 @@
-# Lesson 7: Javascript IV (Advanced Javascript)
+# Lesson 5: Javascript IV (Advanced Javascript)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
@@ -13,7 +13,7 @@ In this lesson we will cover:
 
 ## Advanced Javascript
 
-We have come a long way since our humble beginings learning how to create variables just 3 lessons ago. In this lesson we will go over some advanced Javascript concepts. This lesson is meant to act as an introduction to these concepts, a starting point. We do not expect you to have these concepts fully memorized and ready to execute. We want to plant a seed and the more you work with Javascript the more that seed will grow and these concepts will make sense. Do not stress if these concepts feel very foreign and tough to grasp, they are that way for everyone. Have fun, and enjoy your Javascript journey. 
+We have come a long way since our humble beginnings learning how to create variables just 3 lessons ago. In this lesson we will go over some advanced Javascript concepts. This lesson is meant to act as an introduction to these concepts, a starting point. We do not expect you to have these concepts fully memorized and ready to execute. We want to plant a seed and the more you work with Javascript the more that seed will grow and these concepts will make sense. Do not stress if these concepts feel very foreign and tough to grasp, they are that way for everyone. Have fun, and enjoy your Javascript journey. 
 
 ## Undefined and Null
 
@@ -45,7 +45,7 @@ One last thing to note, neither `undefined` nor `null` are strings, they are wri
 
 ## Truthiness
 
-In these lessons we have talked a lot about the boolean values, true and false. When using an if statement or another statement that expects a boolean value (such as the !, NOT), and the expression given is not a boolean value, Javascript will do something called type coercion and transform whatever it is given to a boolean value. This is known as truthy and falsy. Every data type has a truthiness to it. Here are some examples:
+In these lessons we have talked a lot about the boolean values, true and false. When using an if statement or another statement that expects a boolean value (such as the !, NOT), and the expression given is not a boolean value, Javascript will do something called type coercion and transform whatever it is given to a boolean value. This is known as truthy and falsey. Every data type has a truthiness to it. Here are some examples:
 
 ```javascript
     //items that are coerced to true
@@ -66,7 +66,7 @@ In these lessons we have talked a lot about the boolean values, true and false. 
 
 ## Arguments object
 
-When we pass arguments to a function they are contained in an array-like data structure called `arguments`. `arguments` is available to us anywhere within the function and contains all of the arguments passed to it. While it is array like, it does not have all of the properties of an array. One property it does have is the method `.length`. When we are given a function with an unkown number of arguments, we can use .length and a for loop to iterate over all of the arguments:
+When we pass arguments to a function they are contained in an array-like data structure called `arguments`. `arguments` is available to us anywhere within the function and contains all of the arguments passed to it. While it is array like, it does not have all of the properties of an array. One property it does have is the method `.length`. When we are given a function with an unknown number of arguments, we can use .length and a for loop to iterate over all of the arguments:
 
 ```javascript
     function sumAllTheNumbers(){
@@ -105,7 +105,7 @@ A very important concept in Javascript is the ability to pass a function as an a
 
 ## More Array Methods
 
-We already know about and use array methods, .push, .pop, .shift, .unshift, and .length. But there are a lot more methods avaialble to us natively on an array. The methods we are going to talk about here are called higher order methods, because they take callbacks as arguments. 
+We already know about and use array methods, .push, .pop, .shift, .unshift, and .length. But there are a lot more methods available to us natively on an array. The methods we are going to talk about here are called higher order methods, because they take callbacks as arguments. 
 
 ### .forEach
 
@@ -120,7 +120,7 @@ We already know about and use array methods, .push, .pop, .shift, .unshift, and 
     })
 
     //Or we can instantiate a function to be used as a callback.
-    //Also, we do not need to use the index argument, if you dont need it, feel free to leave it out.
+    //Also, we do not need to use the index argument, if you don’t need it, feel free to leave it out.
     function printNames(item){
         console.log(item);
     }
@@ -137,7 +137,7 @@ We already know about and use array methods, .push, .pop, .shift, .unshift, and 
     let nums = [ 1, 2, 3, 4, 5, 6, 7, 8, 9]
     let words = [ 'Hi,', 'my', 'name', 'is', 'Dan']
 
-    //We can write the anonymous function directly into the .reduce parenthese
+    //We can write the anonymous function directly into the .reduce parentheses
     //If we leave out the starting item, it will always start at the first item.
     let sums = nums.reduce( function(acc, item){
         return acc + item;
@@ -151,13 +151,13 @@ We already know about and use array methods, .push, .pop, .shift, .unshift, and 
 
     //.reduce works on any data types. 
     //In this example we set a starting accumulator
-    let sentance = words.reduce(function(acc, item){
+    let sentence = words.reduce(function(acc, item){
         return acc + ' ' + item;
     }, 'Sentence:')
 
     console.log(sums) //45
     console.log(products) //362880
-    console.log(sentance) //'Sentence: Hi, my name is Dan'
+    console.log(sentence) //'Sentence: Hi, my name is Dan'
 ```
 ### .map
 
@@ -239,7 +239,7 @@ Protoype methods DO have access to the `this` keyword, and just as before, it wi
 
 ## Extra credit. 
 
-* Read this article to get aquiatined with a high level concept called "Closures": [Understand Closures with Ease](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
+* Read this article to get aquainted with a high level concept called "Closures": [Understand Closures with Ease](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 * Read and familiarize yourself with the computer science concept of 'Recursion'.
 
 ## Additional Resources:

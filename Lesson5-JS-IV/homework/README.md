@@ -1,4 +1,4 @@
-# Homework #4
+# Homework #JSIV
 
 ## Instructions
 ---
@@ -9,9 +9,7 @@
 	* `prototype`
 	* Constructors
 
-2. From within this 'homework" folder, install dependencies using `npm install`.  Run tests using `npm test`.
-
-3. Make the tests pass!
+2. From the top level of your `Precourse` folder, run `npm run test:JSIV` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
 
 #### Congratulations on finishing Homework #4!
 
