@@ -1,4 +1,4 @@
-# Homework #3
+# Homework #JSIII
 
 ## Instructions
 ---
@@ -10,9 +10,7 @@
 	* for in loop
 	* Dot notation vs bracket notation
 
-2. Install dependencies using `npm install`.  Run tests using `npm test`.
-
-3. Make the tests pass!
+2. From the top level of your `Precourse` folder, run `npm run test:JSIII` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
 
 
 #### Congratulations on finishing Homework #3!

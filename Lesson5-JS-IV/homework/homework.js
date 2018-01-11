@@ -27,8 +27,8 @@ function map(arr, cb) {
   // the new array should be the same length as the array argument
 }
 
-function getUserConstructor() {
-  // create a constructor called User
+function createUserClass() {
+  // create a class constructor called User
   // it should accept an options object with username, name, email, and password properties
   // in the constructor set the username, name, email, and password properties
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
@@ -91,7 +91,7 @@ module.exports = {
   sumArray: sumArray,
   forEach: forEach,
   map: map,
-  getUserConstructor: getUserConstructor,
+  createUserClass: createUserClass,
   addPrototypeMethod: addPrototypeMethod,
   addReverseString: addReverseString,
   nFactorial: nFactorial,

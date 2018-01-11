@@ -1,4 +1,4 @@
-# Lesson 2: HTML/CSS fundamentals
+# Lesson 6: HTML/CSS fundamentals
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
@@ -17,7 +17,7 @@ HTML is a core building block of the internet. Every single webpage on the inter
 
 ## Basic HTML elements
 
-HTML is a series of "elements" with information in between them. Each element is contained in <> brackets (we will refer to these as "tags") with information either presented inside of them or in between two bookend brackets. HTML tags MUST close by including a "/" at the begining of the closing element (\</elementName>),  or before the close of the first element (\<elementName />):
+HTML is a series of "elements" with information in between them. Each element is contained in <> brackets (we will refer to these as "tags") with information either presented inside of them or in between two bookend brackets. HTML tags MUST close by including a "/" at the beginning of the closing element (\</elementName>),  or before the close of the first element (\<elementName />):
 
 ```html
   <span>Information to be displayed</span>
@@ -30,7 +30,7 @@ The building block of the entire page, all of the other elements will be contain
 
 ### \<head>
 
-Data or elements within these tags will not render to the page but tells the browser what data it should load before rendering items to the page. Most notibly it will contain the title of the page and any external javascript or CSS dependencies.
+Data or elements within these tags will not render to the page but tells the browser what data it should load before rendering items to the page. Most notably it will contain the title of the page and any external javascript or CSS dependencies.
 
 ### \<title>
 
@@ -121,7 +121,7 @@ These are our list items. Within these tags we can place any other element, thes
 
 ## Introduction to CSS
 
-HTML is great, but HTML alone is plain and boring. This was the early days of the internet, very basic text only webpages. Then came along CSS (Cascading Style Sheets); a way to put some color and style into our webpages! It's like the diffference between black & white, and color TV. 
+HTML is great, but HTML alone is plain and boring. This was the early days of the internet, very basic text only webpages. Then came along CSS (Cascading Style Sheets); a way to put some color and style into our webpages! It's like the difference between black & white, and color TV. 
 
 ## CSS selectors and the \<style> element
 
@@ -130,7 +130,7 @@ We can do this a few different ways. The two most popular are using the HTML \<s
 
 ### \<style>
 
-Remember when we said that data we wanted the broswer to consume before the page loaded should go between the head tags? That is where the \<style> tags will go. In between these tags, we will give the browser a set of style rules to abide by. 
+Remember when we said that data we wanted the browser to consume before the page loaded should go between the head tags? That is where the \<style> tags will go. In between these tags, we will give the browser a set of style rules to abide by. 
 
 ```html
   <html>
@@ -211,7 +211,7 @@ The margin is the transparent area around the element that you want to leave ope
 
 ### border
 
-Border will set a border around your element, you can determine the size color and style of the border. It will be set up in this order: width style color (a list of border styles can be found here: https://developer.mozilla.org/en-US/docs/Web/CSS/border). The border is outside th apdding, but inside th margin.
+Border will set a border around your element, you can determine the size color and style of the border. It will be set up in this order: width style color (a list of border styles can be found here: https://developer.mozilla.org/en-US/docs/Web/CSS/border). The border is outside the padding, but inside the margin.
 
 ```css
   div {

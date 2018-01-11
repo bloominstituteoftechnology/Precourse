@@ -31,7 +31,7 @@ First is to insert opening and closing script tags in the `head` element, the sa
     </html>
 ```
 
-The second way is to use the script tag to retreive our external Javascript file and inject that into our HTML page. Note, the attributes (flags) we use in script are `type` which should be set to "text/javascript" and `src` which will be set to the location of your file. We also want to include the keyword `async` and the end of our script tag to tell the browser to load the script asyncronously from the HTML. NOTE: script is not a self closing tag, you must include a closing tag.
+The second way is to use the script tag to retrieve our external Javascript file and inject that into our HTML page. Note, the attributes (flags) we use in script are `type` which should be set to "text/javascript" and `src` which will be set to the location of your file. We also want to include the keyword `async` and the end of our script tag to tell the browser to load the script asynchronously from the HTML. NOTE: script is not a self closing tag, you must include a closing tag.
 
 ```html
     <html>
@@ -67,7 +67,7 @@ The first thing to note about Javascript running on a webpage is it's access to 
 
 ### `document.querySelector`
 
-`querySelector` (and `querySelectorAll`) is a new method that takes a CSS style selector as it's argument. Remember that we can ask for classes in CSS using the `#`, ids using the `.`, and elements by using the element name (eg: `'body'`). These selectors will use the same format. It is best to only use ids with `querySelector` because it will only return the first item matching that slector. 
+`querySelector` (and `querySelectorAll`) is a new method that takes a CSS style selector as it's argument. Remember that we can ask for classes in CSS using the `#`, ids using the `.`, and elements by using the element name (eg: `'body'`). These selectors will use the same format. It is best to only use ids with `querySelector` because it will only return the first item matching that selector. 
 
 ```javascript
     let div = document.querySelector('#divId');
@@ -153,7 +153,7 @@ We have the ability to create a new element set its style, class, id, attributes
 ```
 ## Event Listeners
 
-An event lsitener is a function that fires when an event occurs. Events can be anything from a click, to a mouse entering the content area, to an image download finishing. We will explore a few different events, but there are dozens we can choose from.
+An event listener is a function that fires when an event occurs. Events can be anything from a click, to a mouse entering the content area, to an image download finishing. We will explore a few different events, but there are dozens we can choose from.
 
 ### Click
 
@@ -173,7 +173,7 @@ The most common event listener to assign to an element is the 'click handler' in
 ```javascript
     let div = document.querySelector('#divId');
     div.addEventListener("mouseenter" function(){
-        console.log("mouse has enetered!");
+        console.log("mouse has entered!");
     }
 ```
 

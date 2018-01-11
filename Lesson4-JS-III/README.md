@@ -1,4 +1,4 @@
-# Lesson 6: Javascript III (Objects)
+# Lesson 4: Javascript III (Objects)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
@@ -11,7 +11,7 @@ In this lesson we will cover:
 
 ## Introduction to Objects
 
-In the last lesson we introduced Arrays. Arrays are containers that hold collections of data. In this lesson we will introduce another data conatiner, the Object. Objects and arrays are similar in some ways and very different in others. Where arrays hold multiple items related to each other, Objects will hold a lot of information about one thing. Objects are instantiated by using braces ({}). 
+In the last lesson we introduced Arrays. Arrays are containers that hold collections of data. In this lesson we will introduce another data container, the Object. Objects and arrays are similar in some ways and very different in others. Where arrays hold multiple items related to each other, Objects will hold a lot of information about one thing. Objects are instantiated by using braces ({}). 
 
 ```javascript
     let newObj = {};
@@ -19,7 +19,7 @@ In the last lesson we introduced Arrays. Arrays are containers that hold collect
 
 ### Key:Value pairs
 
-Unlike arrays that have index valued items, objects use a concept called key:value pairs. The key is the identifier and the value is the value we want to save to that key. The syntax is "key: value". Objects can hold many key:value pairs, they must be seperated by a comma (no semi-colons inside of an object!). Keys are unique in an object, there can be only one key of that name. Although, multiple keys can have the same value. Values can be any Javascript type, string, number, boolean, array, function or even another object. In this demo we will create a user object.
+Unlike arrays that have index valued items, objects use a concept called key:value pairs. The key is the identifier and the value is the value we want to save to that key. The syntax is "key: value". Objects can hold many key:value pairs, they must be separated by a comma (no semi-colons inside of an object!). Keys are unique in an object, there can be only one key of that name. Although, multiple keys can have the same value. Values can be any Javascript type, string, number, boolean, array, function or even another object. In this demo we will create a user object.
 
 ```javascript
     let user = {
@@ -80,7 +80,7 @@ If we want to remove a property we can do it using the delete keyword:
     delete newObject.removeThisProperty;
 ```
 
-It is rare we will see the use of the delete keyword, many find best practice to be setting the vlaue of a keyword to "undefined". It will be up to you when the time comes.
+It is rare we will see the use of the delete keyword, many find best practice to be setting the value of a keyword to "undefined". It will be up to you when the time comes.
 
 ## Methods
 
@@ -98,7 +98,7 @@ In objects, values can be set to functions. Functions saved on an object are cal
 
 ## for...in Loops
 
-Often times we want to iterate over each key:value pair in our object. With arrays we used a standard for loop and an index number variable. Objects do not contain numerical indexes so the standard loop will not work for objects. Javascript has a second type of for loop built in called the "for...in" loop. It is slightly different syntax, it starts the same but in the parentheses we will declare a varaible, the keyword 'in', and the name of the object. This will loop over each key in the object and finish when all of the keys have been iterated over. We can use this key, and bracket notation, in our for loop to access the value associated with that key.
+Often times we want to iterate over each key:value pair in our object. With arrays we used a standard for loop and an index number variable. Objects do not contain numerical indexes so the standard loop will not work for objects. Javascript has a second type of for loop built in called the "for...in" loop. It is slightly different syntax, it starts the same but in the parentheses we will declare a variable, the keyword 'in', and the name of the object. This will loop over each key in the object and finish when all of the keys have been iterated over. We can use this key, and bracket notation, in our for loop to access the value associated with that key.
 
 ```javascript
     let user = {
@@ -154,7 +154,3 @@ In this lesson we learned what Objects are and the many ways to access values, c
 * [MDN: Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 * [MDN: this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 * [MDN: for...in Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
-
-
-
-

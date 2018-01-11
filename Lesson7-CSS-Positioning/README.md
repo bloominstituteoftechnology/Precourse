@@ -1,4 +1,4 @@
-# Lesson 3: Intermediate CSS
+# Lesson 7: Intermediate CSS
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
@@ -26,7 +26,7 @@ There are two types of display elements already built into HTML. Block and Inlin
 
 ### Block Elements
 
-As a rule of thumb, a block elelemnt will always start on a new line, and will always take up the maximum width of the container it is in. Remember how in the last lesson we learned that the \<p> element will always start on a new line? It is a block element, as is div and \<h1-6>
+As a rule of thumb, a block element will always start on a new line, and will always take up the maximum width of the container it is in. Remember how in the last lesson we learned that the \<p> element will always start on a new line? It is a block element, as is div and \<h1-6>
 
 ### Inline elements
 
@@ -45,7 +45,7 @@ And vise-versa.
 
 ### none 
 
-Setting the display to "none" will make an element disapear completely. This is not to be confused with the "visibility: hidden;" rule which only renders the element invisible, but does not remove it from the page (the space will still look occupied by something). If an item is set to display: none there will be no sign of it on the page.
+Setting the display to "none" will make an element disappear completely. This is not to be confused with the "visibility: hidden;" rule which only renders the element invisible, but does not remove it from the page (the space will still look occupied by something). If an item is set to display: none there will be no sign of it on the page.
 
 ### flex
 
@@ -57,7 +57,7 @@ This is a new feature in CSS3 that will allow you to create a grid system inside
 
 ## The Position property
 
-The posistion property will specify the type of positioning method used for an HTML element. There are 5 different methods available (we will go over 4 of them).
+The position property will specify the type of positioning method used for an HTML element. There are 5 different methods available (we will go over 4 of them).
 ```css
   div {
     position: <positioning method>;
@@ -70,7 +70,7 @@ This is the default positioning of an element, setting an item to static will no
 
 ### relative
 
-Setting a position to relative will keep the element positioned as if it were staic, but this method will allow us the ability to set other positioning methods on the element that we will describe very soon.
+Setting a position to relative will keep the element positioned as if it were static, but this method will allow us the ability to set other positioning methods on the element that we will describe very soon.
 
 ### fixed
 
@@ -86,7 +86,7 @@ Now that we have set our position method to the style we want to use, we can the
 
 ### top, left, right, and bottom
 
-After we set a positioning method we can the use top, bottom, left, and right properties to position our element. The value you give to each of these will detwermine how far away from the edge we want our element to be. For example, if we want our element to be in the extreme upper left corner (with a fixed position) we would use the following:
+After we set a positioning method we can the use top, bottom, left, and right properties to position our element. The value you give to each of these will determine how far away from the edge we want our element to be. For example, if we want our element to be in the extreme upper left corner (with a fixed position) we would use the following:
 
 ```css
   div {
@@ -119,7 +119,7 @@ As we mentioned in the display property section, one of our display types can be
 Now that our container(element) is a flex box. We can imagine it as a grid, columns going from left to right and rows going from top to bottom. We can use the justify-contet and align-items properties to tell the flex box where we want our items to be on the grid. Initially "justify-content" will apply to the movement from left to right(row), and "align-items" will apply to the movement from top to bottom (column). We have a number of rules we can place on each of these properties:
 
 * center: will center an item (or group of items) along the axis in which you apply this rule.
-* flex-start: This is what each flex box is set to initially, it will display all of the items in a group at the very begining of the row or column.
+* flex-start: This is what each flex box is set to initially, it will display all of the items in a group at the very beginning of the row or column.
 * flex-end: the opposite of flex-start, will display the item(s) at the end of the row/column
 * space-between: This rule will evenly space your item(s) along the row/column. The first item will be at the flex-start, and the last will be at the flex-end
 * space-around: Like space-between, but will put an equal margin between each item, so no item will be directly touching the edge.
