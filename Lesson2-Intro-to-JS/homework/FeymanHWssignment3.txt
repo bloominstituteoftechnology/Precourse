@@ -1,0 +1,14 @@
+
+   for : for is a type of loop that itterates over something for a set amount of times when the amount has been met it stops the loop.
+   
+   &&, ||, ! these are and, or , not operators.
+   
+   Arrays: arrays are a way to list items values or booleans. 
+   
+   
+
+
+
+
+
+
