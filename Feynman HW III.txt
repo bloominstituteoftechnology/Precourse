@@ -1,0 +1,6 @@
+
+    Objects: Objects are a way to add attributes to something that can be used over and over.
+    Properties: Properties are the attributes of an object 
+    Methods: methods are functions inside an object
+    for in loop: A For in Loop allows you to loop through properties of an object
+    Dot notation vs bracket notation: Dot notation is used to call just the object and the key name and bracket notation is for calling the string , value or Variable that points to a string or value, or you can call the key by wrapping it in quotes.
