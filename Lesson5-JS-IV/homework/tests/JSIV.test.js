@@ -51,9 +51,9 @@ describe('map(arr, cb)', function() {
 	});
 });
 
-describe('getUserConstructor()', function() {
+describe('createUserClass()', function() {
 	it('should return a user constructor that correctly builds user objects', function() {
-		var User = exercises.getUserConstructor();
+		var User = exercises.createUserClass();
 		var user = new User({username: 'SunJieMing', name: 'Ben', email: 'ben@lambdaschool.com', password: 'LS Rocks!' });
 		expect(user.username).toBe('SunJieMing');
 		expect(user.name).toBe('Ben');
