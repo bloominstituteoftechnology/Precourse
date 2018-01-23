@@ -171,6 +171,8 @@ You will be prompted for your username and password. Enter these and then you wi
     cccc682..283b9dd  master -> master
 ```
 
+NOTE: If you have Two-Factor Authentication enabled, please follow this guide and create an Personal Access Token, which you will use instead of a password when doing a "push": [Two-Factor Authentication Guide](https://github.com/blog/1614-two-factor-authentication).
+
 Congratulations! You just pushed your first git commit!
 
 ## Pull Requests
