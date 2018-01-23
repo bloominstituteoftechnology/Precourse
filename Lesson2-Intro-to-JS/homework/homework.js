@@ -17,7 +17,7 @@ let newSubtract = 10 - 5 === 5;
 let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === 4.2 ;
+let newModulo = 21 % 5 == true;
 
 
 
@@ -83,7 +83,7 @@ function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
-  return num < 50 ? true : false;
+  return num > 50 ? true : false;
 }
 
 function getRemainder(x, y) {
