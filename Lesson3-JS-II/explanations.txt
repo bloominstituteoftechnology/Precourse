@@ -1,0 +1,14 @@
+1. The for keyword is used to start a loop (something you do over and over). After that you declare a counter variable.
+    The loop will use the counter to start the loop and then use a condition based on that counter to know when to stop the loop.
+    The last part of the for statement is when you change the counter so it eventually reaches the stop condition.
+    
+2. && is the logical and. Both sides must be true or the whole thing is false. E.g. The sky is blue && The sun rotates around
+    the Earth. Only one of those things is true so the whole thing is false. With || (a.k.a. the logical or), only one of those
+    things has to be true for the whole thing to be true, which means the previous statement would be true. ! (a.k.a. logical not)
+    takes what is false and makes it true and vice versa. So if I say !(1 > 2) then I would get true since 1 > 2 is false but when
+    you apply the ! operator, it becomes true.
+    
+3. Arrays are a collection of values stored next to each other in memory. Let's say you wanted to store your friends for use in
+    a program. You could write let friend1 = "Max", friend2 = "Sue", friend3 = "Sam" etc. but this would get tedious and clutter
+    up your code. A much easier way is to have one variable store all your friends in an array like this:
+    let friends = ["Max", "Sue", "Sam"]
