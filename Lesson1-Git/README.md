@@ -113,7 +113,7 @@ Then enter the following in your terminal:
   $ touch Lesson1-Git/newFile.js
 ```
 
-This will add a new file your your project titled "newFile.js"
+This will add a new file to your project titled "newFile.js"
 
 at this time we can use the git command "status". Status will read back the status of all changes made to your repo. Use status often, if you’re not sure if something worked, using status will tell you. 
 
