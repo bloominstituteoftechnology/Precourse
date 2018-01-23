@@ -4,27 +4,39 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  return !arguments.length ? 0 : arguments.length === 1 ? arguments[0] 
+  : Array.from(arguments).reduce((next, current) => current * next);
 }
 
 function invokeCallback(cb) {
   // invoke cb
+  cb();
 }
 
 function sumArray(numbers, cb) {
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
+  return cb(numbers.reduce((next, current) => next + current));
 }
 
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
+  for(let element of arr) {
+    cb(element);
+  }
 }
 
 function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
+  let newArr = [];
+  for(let element of arr) {
+    newArr.push(cb(element));
+  }
+  return newArr;
 }
 
 function createUserClass() {
@@ -34,11 +46,18 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the constructor
+  return function User({username, name, email, password}) {
+    this.username = username;
+    this.email = email;
+    this.name = name;
+    this.password = password;
+  };
 }
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
+  Constructor.prototype.sayHi = () => 'Hello World!';
 }
 
 // !! This is the end of the homework exercises !!
@@ -59,6 +78,7 @@ function addReverseString() {
   // name this method reverse
   // hint:
   // you will need to use 'this' inside of reverse
+  String.prototype.reverse = () => this.reverse();
 }
 
 function nFactorial(n) {
@@ -66,6 +86,9 @@ function nFactorial(n) {
   // solve this recursively
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
+  if(n == 1) return n;
+  
+  return n + nFactorial(n - 1);
 }
 
 function cacheFunction(cb) {

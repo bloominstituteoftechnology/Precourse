@@ -1,0 +1,20 @@
+1. A callback is a function that's passed to a function. For example, if you call the addEventListener function
+    for a button click, you have to pass in a callback function that says what'll happen when the button's clicked. 
+
+2. The arguments keyword is an array-like object of all the arguments passed to a function.
+
+3. Calling the prototype of a class-based function lets you add a method or property to that function. For example, 
+    if I have 
+    function VideoGame(title, console) {
+        this.title = title;
+        this.console = console;
+    }
+    
+    then I can add a method to it like this:
+    VideoGame.prototype.getInfo = function() {
+        return `${this.title} is available on ${this.console}.`;
+    }
+    
+4. A constructor is the setup code for making an object. It lets you pass in whatever properties you want and set them as
+    internal properties, as well as run whatever initialization you choose.
+    
