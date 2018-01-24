@@ -1,0 +1,5 @@
+1. Variables - containers that can hold any data type (example: integers, characters, boolean, etc). They can be used to make calculations or display data.
+2. Strings - variable that holds a list of characters
+3. Functions - a list of code encased in brackets that runs when called. It can receive arguments (variables) and return data.
+4. if Statements - a block of code that will only run when certain conditions are met. Can do if alone or if/else
+5. Boolean - a variable that can hold either TRUE or FALSE.
