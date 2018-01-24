@@ -4,7 +4,7 @@
 //create a string variable, it can contain anything
 let newString = 'Hello nurse!' ;
 
-//create a number variable, it an be any number
+//create a number variable, it an be any numbe
 let newNum = 9 ;
 
 //create a boolean variable
