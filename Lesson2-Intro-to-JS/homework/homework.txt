@@ -1,0 +1,5 @@
+Variables - an object that can be assigned to anything (i.e. a string, number, boolean).
+String - a set of text, must be surrounded by single or double quoatation marks.
+Functions (arguments, return) - a block of code compute, change, or do something with the argument(s) that is passed and return it.
+if statements - this is a conditional statement that will perform a certain action if the condition is met, otherwise it will perform a different action.
+Boolean values (true, false) - Boolean values are variables that are assigned ture or false.
