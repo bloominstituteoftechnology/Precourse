@@ -1,0 +1,12 @@
+FEYNMAN ANSWERS
+
+
+Variables: A variable is a nickname we can give to our computers to remember a piece of information and use it later.
+
+Strings: A string is a set of characters. These characters can be letters and words, numbers, or even special characters like exclamation points and dollar signs.
+
+Functions: A function is what we use to give our computers a job to do. This job can be anything we want it to be and we can have our computers do this job as many times as we want them to. 'Arguments' are where we give the information to the computer, and 'return' is where we tell our computer what we want it to give back to us.
+
+'if' statements: An 'if' statement is how we tell our computer to make a choice. We can say "if this is true: then do this, and if it's not true: then do this instead."
+
+Boolean values: A boolean value can only be 'true' or 'false'. It's our way of asking a computer a 'yes' or 'no' question.
