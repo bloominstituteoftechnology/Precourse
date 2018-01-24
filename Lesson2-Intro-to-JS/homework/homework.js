@@ -172,8 +172,7 @@ function roundUp(num) {
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  strNew = str + '!';
-  return strNew;
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
