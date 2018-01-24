@@ -1,0 +1,19 @@
+Variables:
+
+	A name that refers to a value.
+
+Strings:
+
+	A text value.
+
+Functions:
+
+	A named, reuseable block of code that takes input values, executes code, and returns a value.
+
+`if` statements:
+
+	A mechanism for selecting between code paths based on the boolean result of a logical operation.
+
+Boolean values: 
+
+	true/false, the type of result value returned from a logical or comparison operation.
