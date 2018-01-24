@@ -1,0 +1,13 @@
+Variables are data set to strings. I.E. a = "cat" the string would be Cat and the variable would be a which in use would give you cat.
+let is used for variables that can potentially be changed.
+const is used for variables which remain constant.
+
+Strings are the blocks of text.
+
+Function is a formula intended for use later.
+
+if statements are used to perform an action IF it meets the requirements.
+
+boolean values are just true or false. You can have things equal to something which would be either true or false.
+
+

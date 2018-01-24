@@ -2,22 +2,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = null ;
+let newString = 'Hello' ;
 
 //create a number variable, it an be any number
-let newNum = null ;
+let newNum = 5 ;
 
 //create a boolean variable
-let newBool = null ;
+let newBool = true ;
 
 //solve the following math problem
-let newSubtract = 10 - null === 5;
+let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * null === 40 ;
+let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === null ;
+let newModulo = 21 % 5 === 1 ;
 
 
 
@@ -28,27 +28,36 @@ let newModulo = 21 % 5 === null ;
 
 function returnString(str) {
   //simply return the string provided: str
+return str;
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
+  let sum = x + y;
+  return sum;
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
+  let subtract = x - y;
+  return subtract;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
+  let multiply = x * y;
+  return multiply;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
+  let divide = x / y;
+  return divide;
 }
 
 function areEqual(x, y) {
@@ -67,6 +76,10 @@ function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
+  if (num < 90){
+    return true;
+  }
+  return false;
 }
 
 function greaterThanFifty(num) {
@@ -78,6 +91,8 @@ function greaterThanFifty(num) {
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
+  let remainder = x % y;
+  return remainder;
 }
 
 function isEven(num) {
@@ -122,12 +137,15 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
+  str = str + '!';
+  return str;
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
+  
 }
 
 function getGreeting(name) {
