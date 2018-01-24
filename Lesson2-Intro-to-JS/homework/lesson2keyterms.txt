@@ -1,0 +1,32 @@
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables
+
+Can be understood as a bucket that holds information. This information can be accessed by recalling the bucket. 
+for example: Bucketa has several candybars in it. You can recall the candybars by asking for bucket a.
+
+Strings
+Strings can be thought of as text within a container that can be recalled by naming the string. 
+For example, when asking for a book you ask for it by naming the title not the contents. The letters within the string have no impact on proccess of program.
+
+
+Functions (arguments, return)
+A function is a specific action within a process that can be used many times. For example steering a car accesses a function. 
+Turning right is a reusable function with the same return each time the car goes right. 
+
+The argument in our example is turning the steering wheel right.
+The return in our example is the car in responce turns right.
+
+
+if statements
+
+If statements present a series of choices that lead to different consequences. 
+If the steering wheel is turned right then the car goes right. But if the steering wheel turns left the car goes left. 
+If the gas pedal is pressed the car moves faster but if the brake edal is pressed the car moves slower.
+
+
+Boolean values (true, false)
+Boolean values present  if a state is true or false.
+
+If the child is greater than the age of 15 then it is true she may drive. 
+if the child is less then the age 15 then it is false she may not drive. 
