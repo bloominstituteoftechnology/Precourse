@@ -1,0 +1,19 @@
+1. What is a variable?
+
+A variable is like a shortcut to a value. They can be thought of as tentacles because multiple variables can attach to the same value.
+
+2. What is a string?
+
+A string is a collection of characters surround by quotes. Wrapping the text in quotes ensures that it's just text, and not a command for the programming language.
+
+3. What is a function, arguments, and return?
+
+A function is just a set of instructions that are grouped together. Arguments of a function are pieces that are supplied from outside of it. For example, adding is a function call, and the numbers you're adding together can be thought of as arguments. The return statement is what the function gives back to you after it's completed.
+
+4. What is an if statement? 
+
+If statements are like questions. For example, when you get dressed in the morning, you make a lot of decisions in the morning. When it's cold outside, you put a jacket on. When it's hot, you leave the jacket and put on shorts. This is an example of if statements at a basic level. If it's cold outside, put on a jacket. If it's hot outside, put on some shorts and leave the jacket.
+
+5. Explain boolean values.
+
+Boolean values amount to yes or no. Is three less than one? No, so it's false. Is my name Andrew? Yes, so it's true.
