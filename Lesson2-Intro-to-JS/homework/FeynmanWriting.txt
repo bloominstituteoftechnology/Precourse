@@ -1,0 +1,23 @@
+Feyman Writing Prompts
+
+Variables
+    Variables are any a way for me to store a value of anything I want to use later. 
+    I can store numbers or text in a variable and use that data to recall later in a function 
+    or whatever else I am trying to do with my code.
+
+Strings
+    Strings are always going to be used to store text, whether it's one word or many.
+
+Functions
+    Functions tell the computer to perform a certain task using a combination of strings and variables.
+    Once the function is built, it can be recalled many times within the same program.
+    It is essentially a shortcut to a more complicated task that, once built, makes it easier to recall.
+
+if statements
+    If statements are contained within functions. They tell the computer to perform a certain task 
+    if a condition is met.
+    If the condition is not met, then a separate task is completed.
+
+Boolean Values
+    Can either be true or false. They tell the computer to compare two or more things and return 
+    whether the value is true or not.
