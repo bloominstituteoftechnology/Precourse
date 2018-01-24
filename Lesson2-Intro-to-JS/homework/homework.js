@@ -11,7 +11,7 @@ let newNum = 1 ;
 let newBool = true ;
 
 //solve the following math problem
-let newSubtract = 10 - 5 === 5;
+let newSubtract = 10 - 5 === 5 ;
 
 //Solve the following math problem
 let newMultiply = 10 * 4 === 40 ;
@@ -28,51 +28,76 @@ let newModulo = 21 % 5 === 1 ;
 
 function returnString(str) {
   //simply return the string provided: str
+  return str;
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
+  return x + y;
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
+  return x - y;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
+  return x * y;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
+  return x / y;
 }
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
+  if (x === y) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
+  if (str1.length === str2.length) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
+   if (num < 90) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
+  if (num > 50) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function getRemainder(x, y) {
