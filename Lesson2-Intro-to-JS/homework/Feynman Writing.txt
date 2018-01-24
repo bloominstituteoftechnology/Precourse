@@ -1,0 +1,23 @@
+variables
+variables are containers like in real life food containers store food 
+ and you can open them any time eat some of them or mix them in computer world 
+ the food is the value you put in variables ;
+
+
+strings :
+
+strings are a type of data that we store in variables to let the computer know that you 
+store string in variable you need put them betwen single or double quotation.
+
+Functions:
+
+functions are a small computer program thats make programing easy 
+you split tasks and the most repeated one in function , to write a correct function you need 
+keyword function and the name of function then (arguments) and return the result  like calculator to do the addition 
+we need atleast two numbers thats thats the arguments the function name is addition and we return the result .
+
+if statements:
+
+if statement is logic test we do eveyday in real life ,
+exemple we say if the weather is sunny i will run in the park else i will go to gym
+if the weather is sunny thats mean is true , if the weather is rainny thats mean is false. 
