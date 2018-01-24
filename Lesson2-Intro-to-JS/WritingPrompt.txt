@@ -1,0 +1,5 @@
+Variables - A place where you can store data for later use.
+Strings - A block of letters surrounded by quotes.
+Functions (arguments, return) - Functions are processes that compute something or change something. Arguments are values we pass into the function and use it. Return is the only way for data to escape a function and can be accessed outside of the function.
+if statements - If the value is correct, you use one of the option and if the value is incorrect, you use the "else" code.
+Boolean values (true, false) - Two choices, on or off.
