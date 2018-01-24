@@ -79,11 +79,11 @@ function raiseToPower(num, exponent) {
 }
 
 function roundNumber(num) {
-  Math.round(num);
+  return Math.round(num);
 }
 
 function roundUp(num) {
-  Math.ceil(num);
+  return Math.ceil(num);
 }
 
 // Utility fundtion: adds an exclamation point to the end of str then returns it
