@@ -1,0 +1,39 @@
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+----
+1. Variables - a variable is a way to store the value to use later on. Can be set and reset later on. 
+There are 3 ways to declare a variable: 
+- var: ES5 way (old)
+	var firstName = "Angela";
+- let: ES6 way; similar to var
+	let favColor = "Blue";
+- const: ES6 way ; short for constant and does not change
+	const favMovieGenre = "Action"
+
+2. Strings - is a basic data type used in Javascript and other programming languages. It is a block of text that is defined by single or double quotations. 
+let dog = "Rover";
+let cat = 'Fluffy';
+
+3. Functions (arguments, return) - a function starts with the word function and basically tells the program that it is a function and has a set of arguments/instructions on what to do. 
+
+function greeting (name) {
+	console.log ("Hello " + name);
+}
+greeting("Angela");
+This will output: "Hello Angela"
+
+Return statement is a way for data to "escape" the function, the function will have to return the statement.
+
+function sum(x,y) {
+	const addNum = x + y;
+    return addNum;
+}
+sum(8,9);
+This will output: 17
+
+4. if statements - if statements are a way to go through the flow, if it is true do this, if not, move to the next statement to see if it's true. 
+Types of if statements:
+- if, else
+- if, elseif, else
+
+
+5. Boolean values (true, false) - boolean is essentially two choices, true or false. 
