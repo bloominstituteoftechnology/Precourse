@@ -1,0 +1,46 @@
+Feynman Writing Prompts
+
+In a seprate text file that you create, write out explanations of the following
+concepts like you are explaining it to a 12 year old. Doing this will help you
+quickly discover any holes in your understanding. Ask your questions on Slack.
+
+	* Variables
+	* Strings
+	* Functions (arguments, `return`)
+	* `if` statements
+	* Boolean values (`true`, `false`)
+
+Variables:
+
+Sometimes you want to keep track of some information, maybe something that will
+change. For example, you could use a variable called 'bank_balance' to keep
+track of how much money you have in your bank as the amount goes up and down.
+
+Strings:
+
+A string is a sequence of letters. Any block of text is a string, basically.
+
+Functions:
+
+Sometimes you want to be able to use a bunch of instructions over and over.
+Instead of writing those instructions over and over, you can abbreviate them.
+You do this by making a function, which is like a name for a whole series of
+instructions.
+
+'if' statements:
+
+Sometimes you want the program to do something if some condition is met. For
+example, maybe you want the program to buy something from Amazon, *if* you have
+enough money in 'bank_balance'. So you can use an if statement to check if you
+have enough money, and then buy the thing if you do, and do nothing (or
+something else, like send you a warning) if you don't.
+
+Boolean values:
+
+Boolean variables are a type of variable. Use these if you want to store some
+information that can only be one of two things, true or false. Maybe I don't
+want to store the amount of money I have, for example, but only if it is enough
+for some task. You could store that information in a boolean variable: it would
+be true if you have enough, false otherwise. The 'true' and 'false' are the
+actual Boolean values---the kind of thing you'd store in those kinds of
+variables.
