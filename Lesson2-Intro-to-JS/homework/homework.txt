@@ -1,0 +1,18 @@
+
+Variables in programming are ways that a computer knows where to store information.  One simple way to think of a variable is to think of a variable like a 
+dresser in your bedroom.  The dresser has different drawers that hold different objects (socks, shirts, pants, ect.).  A variable is similar to one of the 
+drawers.  If you have many different drawers you might label them based off what is inside.  The variable name (or label on the drawer) isn't what is in the 
+drawer it just simply labels it to easily locate what you are looking for.  The variable itself is what holds the information (like the drawers holds your clothes), 
+and these variables come in different types.
+
+One type of variable is called a string.  A string is a closed set of text enclosed by quotation marks such as a name (i.e. "Justin", "Car", "Happy Birthday!").
+
+Functions are ways for programmers to run "mini" programs inside of a program.  These functions can be simply thought of as an equation in math.  If you are given the 
+numbers 2 and 8 and want to know what they add up to, you simply add and get the answer of 10.  A function acts the same way, give the function an input variable(s) 
+(such as a number(s), 2 and 8) and based on what the function is intended to do (addition), will give you some kind of answer (in this case 10).  
+
+A common question somebody asks themselves often begins with "If I ________ , than _________" (i.e. "If I throw my pencil at my teacher, than I'll get in trouble").
+Well in programming, if is a very important idea.  Using an if statement allows programmers to tell the computer if a certain condition is met, then I want this to happen.
+
+Thinking back about variables and their different types, we know numbers and strings (blocks of text).  But another type of variable is known as "boolean".
+Boolean is neither a number (5, 1000, ect.) or a string ("Hello World!"), but is instead only equal to one of two values: True or False.
