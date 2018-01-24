@@ -1,0 +1,9 @@
+Variable: A variable is like a box, that will hold whatever you put in it.
+
+Strings: A String is anything we put in quote marks. We use Strings to contain data.
+
+Functions: A Function is a block of code, that we can easliy reuse, so that we don't have to write the same thing over and over. We can also pass Functions some data, and the Function will return us some other data.
+
+if statements: if statements allow us to ask questions about data. We can say if "this" is true, then do something. If "this" is false, then we say do something else.
+
+Boolean values: Boolean is a fancy word for two choices, True or False. We use these values a lot in programming, such as in if statements we went over above.
