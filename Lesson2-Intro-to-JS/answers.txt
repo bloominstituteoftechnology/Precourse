@@ -1,0 +1,9 @@
+Variable: user defined value
+
+String: variable consisting of text
+
+function: a function is a pre-packaged mini program that can be reused to help elliminate
+duplicate code
+
+boolean: there are 10 types of people in the world, those how understand binary and those who do not ;)
+
