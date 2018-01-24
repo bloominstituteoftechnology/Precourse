@@ -2,22 +2,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = 'these are words' ;
+let newString = 'these are words';
 
 //create a number variable, it an be any number
-let newNum = 16 ;
+let newNum = 16;
 
 //create a boolean variable
-let newBool = true ;
+let newBool = true;
 
 //solve the following math problem
 let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * 4 === 40 ;
+let newMultiply = 10 * 4 === 40;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === 1 ;
+let newModulo = 21 % 5 === 1;
 
 
 
