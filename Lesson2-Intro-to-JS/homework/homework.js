@@ -2,7 +2,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = "hello world" ;
+let newString = 'hello world' ;
 
 //create a number variable, it an be any number
 let newNum = 15 ;
@@ -60,7 +60,7 @@ function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
-  x == y ? return true : return false;
+  return x == y ? true : false;
 }
 
 function areSameLength(str1, str2) {
@@ -68,21 +68,21 @@ function areSameLength(str1, str2) {
   // otherwise return false
   // code here
 
-  x.length == y.length ? return true : return false;
+  return str1.length == str2.length ?  true :  false;
 }
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
-  num < 90 ? return true : return false;
+  return num < 90 ?  true : false;
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
-  num > 50 ? return true : return false;
+  return num > 50 ?  true :  false;
 }
 
 function getRemainder(x, y) {
@@ -95,14 +95,14 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  num % 2 == 0 ? return true : return false;
+  return num % 2 == 0 ?  true :  false;
 }
 
 function isOdd(num) {
   // return true if num is false
   // otherwise return false
   // code here
-  num % 2 != 0 ? return true : return false;
+  return num % 2 != 0 ?  true :  false;
 
 }
 
@@ -110,13 +110,13 @@ function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-  return sum * sum;
+  return num * num;
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
-  return sum * sum * sum;
+  return num * num * num;
 }
 
 function raiseToPower(num, exponent) {
@@ -128,7 +128,7 @@ function raiseToPower(num, exponent) {
 function roundNumber(num) {
   // round num and return it
   // code here
-  return Math.floor(num);
+  return Math.round(num);
 }
 
 function roundUp(num) {
@@ -141,21 +141,21 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  return str + "!";
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  return firstname + " " + lastName;
+  return firstName + ' ' + lastName;
  }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return "Hello " + name + "!";
+  return 'Hello ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas.
@@ -170,7 +170,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  return 0.5 * base * heigth;
+  return 0.5 * base * height;
 }
 
 // Do not modify code below this line.
