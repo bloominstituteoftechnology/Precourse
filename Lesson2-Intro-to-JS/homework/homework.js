@@ -83,19 +83,19 @@ function getRemainder(x, y) {
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-  return num % 2;
+  return !(num%2);
 }
 
 function isOdd(num) {
-  // return true if num is false
+  // return true if num is odd
   // otherwise return false
-  return !num;
+  return !!(num%2);
 }
 
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
-  // return Math.pow(num,2);
+  return Math.pow(num,2);
 }
 
 function cube(num) {
@@ -121,19 +121,19 @@ function roundUp(num) {
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  retrun str + '!';
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  return firstName + lastName;
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  return 'Hello' + name;
+  return 'Hello ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas. 
