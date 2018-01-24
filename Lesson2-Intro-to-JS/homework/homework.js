@@ -150,6 +150,7 @@ function roundNumber(num) {
   // round num and return it
   let newrn = Math.floor(num);
   return newrn;
+}
 
 function roundUp(num) {
   // round num up and return it
