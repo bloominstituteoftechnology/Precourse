@@ -113,7 +113,7 @@ Then enter the following in your terminal:
   $ touch Lesson1-Git/newFile.js
 ```
 
-This will add a new file your your project titled "newFile.js"
+This will add a new file to your project titled "newFile.js"
 
 at this time we can use the git command "status". Status will read back the status of all changes made to your repo. Use status often, if you’re not sure if something worked, using status will tell you. 
 
@@ -186,5 +186,5 @@ Congratulations! You just pushed your first git commit!
   * [Github: official tutorial](https://try.github.io/levels/1/challenges/1)
   * [Codecademy: Learn Git](https://www.codecademy.com/learn/learn-git)
   * [Git: official tutorial](https://git-scm.com/docs/gittutorial)
-  * [Termianl turorial](https://www.davidbaumgold.com/tutorials/command-line/)
+  * [Terminal tutorial](https://www.davidbaumgold.com/tutorials/command-line/)
  
