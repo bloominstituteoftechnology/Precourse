@@ -1,0 +1,47 @@
+1. Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Explain Variables
+    /*  
+        A variable is a way to store a value that you can use later.
+        Different ways to declare a variable.
+
+        var age = "30";
+        let gender = "Male";
+        const Country = "Sweden";
+    */
+
+
+	* Strings
+    /*
+        All text with quotation marks around them are Strings.
+        And contain blocks of text. 
+    */
+
+
+	* Functions (arguments, `return`)
+    /*
+        Functions compute variables and change them.
+        You give functions names depending on what they do.
+        Different ways to declare a function
+
+        function getFistName() {}
+        let getLastName = function () {}
+        let getAge = () => {}
+
+    */
+
+	* `if` statements
+    /*
+        if statements is a way for functions to check if something is true or false
+        and continue to run the code if it's true or skipping if it's not.
+    
+    */
+
+
+	* Boolean values (`true`, `false`)
+
+    /*
+        Boolean comes from low level computer sience and is a way 
+        for the code to mean if something is true or false.
+
+    */
