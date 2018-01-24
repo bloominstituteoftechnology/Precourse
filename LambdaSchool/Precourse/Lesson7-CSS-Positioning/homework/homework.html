@@ -1,0 +1,122 @@
+<!-- You will not need to change anything in this file make sure all of your work is in homework.css -->
+<html>
+  <head>
+    <title>CSS Postioning Homework.</title>
+    <link rel="stylesheet" href="./assets/dontTouch.css" >
+    <link rel="stylesheet" href="./homework.css" />
+  </head>
+  <body>
+    <h1 id="exerciseTwo">This is where the title of the lesson will go. Remove This.</h1>
+    <h1 id="header">CSS Postioning Homework</h1>
+    <div class="exerciseContainer">
+      <h3>Instructions:</h3>
+      <span id="instructions">
+        In this assignment we are going to use the display, position, and flex box properties 
+        to position our elements correctly on the page. Please put all of your CSS in the CSS 
+        file "homework.css". "homework.css" should be the only file you touch, if you find 
+        yourself altering the homework.html or dontTouch.css files, you are in the wrong area. 
+        You will need to use the class, id, and element selectors from lesson 2.
+      </span>
+    </div>
+    <div class="exerciseContainer">
+      <h3>Exercise One:</h3>
+      <span id="exerciseOne">
+        Your first exercise will be to make sure the text within this &lt;span&gt; is centered 
+        on the page. The id of this span is "exerciseOne". Text has a unique positioning system 
+        known as "text-align" we can set this to 'left', 'right', 'center', or 'justify'(stretches each 
+        line to fit the width of the container), but this only works for a block elements  
+        and &lt;span&gt; is initially an inline element. Set this span's display property to be 
+        a block element and center the text using text-align.
+      </span>
+    </div>
+    <div class="exerciseContainer">
+      <h3>Exercise Two:</h3>
+      <span>
+        There is a box at the top of the screen. That was just supposed to be a placeholder until 
+        we got the title of this lesson locked down. Unfortunately we do not have access to the HTML, 
+        so we can not manually remove it. Using CSS only, make sure the box is not displayed. 
+        The id is "exerciseTwo".
+      </span>
+    </div>
+    <div class="exerciseContainer">
+      <h3>Exercise Three:</h3>
+      <span>
+        Below you will see a box, inside of it is an image, we want to make the image appear in the red box.
+        You will need to change the position attribute, and then adjust the image accordingly. The red box is 
+        100px from the top and 200px from the left. The id of the image is "exerciseThree".
+      </span>
+      <div id="moveBoxContainer">
+        <div id="targetContainer"></div>
+        <img id="exerciseThree" src="./assets/tiger.jpeg" />
+        <div id="descSpan">
+          <span>This is an image of an animal, you can see the animal here. There are lot of animals in the world, and this is one of them. I hope you enjoy this image of an animal!</span>
+        </div>
+      </div>
+    </div>
+    <div class="exerciseContainer">
+      <h3>Exercise Four:</h3>
+      <span>
+        The blue rectangular box below is supposed to be our header bar, it should be anchored to 
+        the upper left corner of the page, and should not move when the page is scrolled. The id for 
+        the box is "exerciseFour". Change the position, so that the box is in the upper left hand corner. 
+      </span>
+    </div>
+    <div id="exerciseFour">
+      <div id="exerciseFive">
+        <span>Pre-Course Lessons</span>
+        <img src="./assets/lambdawhite.png" />
+        <span>Lambda School</span>
+      </div>
+    </div>
+    <div class="exerciseContainer">
+      <h3>Exercise Five:</h3>
+      <span>
+        There are three items in the header bar, "Lambda School", the Lambda School logo, and 
+        "Pre-Course Lessons". Using the id of "exerciseFive", we will make the container they are in 
+        a flex box, we want to make sure that the space between each item is exactly the same, and we want 
+        each of the items to appear centered vertically on the line.
+      </span>
+    </div>
+    <div class="exerciseContainer">
+      <h3>Exercise Six:</h3>
+      <span>
+        Now that the items in the header bar are spaced properly, they are out of order. "Lambda School" 
+        should be on the left, and "Pre-Course Lessons" should be on the right. Using the same id from the last exercise, 
+        change the direction in which the items appear.
+      </span>
+    </div>
+    <div class="exerciseContainer">
+      <h3>Exercise Seven:</h3>
+      <span>
+        This is a flexbox playground, the id of it is "exerciseSeven". There is no final objective here, your 
+        objective is to play around with the different flex box options. The id's of the child elements are in them.
+        Try using all of the flexbox ideas we have learned so far, including: justify-content, align-items, align-self,
+        and flex-direction. Have fun!
+      </span>
+    </div>
+    <div id="exerciseSeven">
+      <div id="itemOne" class="items"><span class="itemSpan">This element's id is "itemOne"</span></div>
+      <div id="itemTwo" class="items"><span class="itemSpan">This element's id is "itemTwo"</span></div>
+      <div id="itemThree" class="items"><span class="itemSpan">This element's id is "itemThree"</span></div>
+      <div id="itemFour" class="items"><span class="itemSpan">This element's id is "itemFour"</span></div>      
+    </div>
+    <div class="exerciseContainer">
+      <h3>Extra Credit 1:</h3>
+      <span>
+        There is a lot to flex box and it can become complicated, but through practice you can learn to quickly 
+        adjust the positioning of your elements with ease. I recommend completing the "Flexbox Froggy" tutorial, 
+        it will show you in depth how the flex box positioning system works: <a href="http://www.flexboxfroggy.com" target="_blank_">Flexbox Froggy</a>
+      </span>
+    </div>
+    <div class="exerciseContainer">
+      <h3>Extra Credit 2:</h3>
+      <span>
+        A new, native, CSS grid system has been introduced. It is called css-grid and can be used to make 
+        positioning even faster and more precise. We will use css-grid in the full course, so it might be 
+        nice to familiarize yourself with it now: <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank_">A Complete Guide to CSS Grid</a>
+
+        Also, from the makers of "Flexbox Froggy" comes <a href="http://cssgridgarden.com/">CSS GridGarden!</a>
+      </span>
+    </div>
+  </body>
+</html>
