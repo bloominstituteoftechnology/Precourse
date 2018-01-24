@@ -1,0 +1,20 @@
+Variables:
+Variables are names in the program code that correspond with values that are stored on the computer. This way we can work with values or data using names. 
+In Javascript you can declare variables by typing
+var the_name_of_the_variable = the_value_of_the_variable
+(You can also put let in the place of var and this makes a variable only for the block that it is in {}, or you can use const in place of var for a variable that doesn't change value throughout the program.)
+
+Strings:
+Strings are characters that are connected in a "string"; that is, they are ordered. You make a string in javascript by giving a variable a value in quotation marks (single or double).
+
+Functions:
+A function is a name that is sometimes accompanied by arguments that will manipulate these arguments and do other things when the name of the function is read by the program. 
+Arguments are variables that you give the function to do stuff with. 
+Functions will often have return statements. When the function is run it will stop when it gets to the return statement and it will give the value in the return statement.
+
+if Statements:
+if statements so that you can run blocks of code *if* certain conditions are met. If the conditions are not met then the blocks following the if statement are skipped by the program.
+
+Boolean values:
+Boolean values are either 1 (true) or 0 (false). Variables can have these values and you can use them for Boolean logic.
+
