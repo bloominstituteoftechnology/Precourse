@@ -1,0 +1,5 @@
+// A variable is a box where you can store different values
+// A string is a data type that is text like your name 'ToAnh'
+//Functions are steps that can be reused. You can pass arguments
+// Arguments are variable that you pass in your function to make it run.
+// Booleans values are either true or false. 

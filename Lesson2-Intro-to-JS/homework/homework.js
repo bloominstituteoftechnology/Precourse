@@ -2,7 +2,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = "Hello" ;
+let newString = 'Hello' ;
 
 //create a number variable, it an be any number
 let newNum = 26 ;
@@ -17,7 +17,7 @@ let newSubtract = 10 - 5 === 5;
 let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === 4.2 ;
+let newModulo = 21 % 5 === 1;
 
 
 
@@ -28,7 +28,7 @@ let newModulo = 21 % 5 === 4.2 ;
 
 function returnString(str) {
   //simply return the string provided: str
-  return str
+  return str;
 }
 
 function add(x, y) {
@@ -107,6 +107,8 @@ function greaterThanFifty(num) {
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
+  let remainder = x % y;
+  return remainder;
 
 }
 
@@ -114,7 +116,7 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  if num % 2 == 1 {
+  if (num % 2 === 0) {
     return true;
   } else {
     return false;
@@ -125,7 +127,7 @@ function isOdd(num) {
   // return true if num is false
   // otherwise return false
   // code here
-  if num % 3 == 1 {
+  if (num % 3 === 1) {
     return true;
   } else {
     return false;
@@ -162,28 +164,28 @@ function roundNumber(num) {
 function roundUp(num) {
   // round num up and return it
   // code here
-  return Math.round(num);
+  return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  return str + "!";
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  return firstName + " " + lastName;
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return "Hello " + name;
+  return 'Hello ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas.
