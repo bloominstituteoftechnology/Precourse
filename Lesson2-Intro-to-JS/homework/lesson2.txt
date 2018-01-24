@@ -1,0 +1,67 @@
+
+Lambda School mini-bootcamp Lesson 2
+
+
+Variables
+
+A variable is a name which refers to some object in a program -- a number,
+a boolean value, a string, a function, etc.  Variables can either be
+constant (unable to change their value), created with the const keyword as such:
+
+    const myName = 'Joe';
+
+or can be literally variable if they are created with the let keyword:
+
+    let x = 5;
+    x = x + 1;
+
+
+Strings
+
+A string is a sequence of characters.  A string literal value is written
+in a program by enclosing it in single or double quotes like so: 'abc12de'
+
+
+Functions (arguments, return)
+
+A function is a named block of code which can be reused by calling it from
+elsewhere in a program.  A function can receive arguments - values passed
+to it when it is called, and can return a value back, like so:
+
+    function max(a, b) {
+        if (a >= b) {
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    let maxVal = max(5, -10);
+
+
+if statements
+
+An if statement is program construct which allows the program flow
+to conditionally execute a block of code, as follows:
+
+    if (value < 0) {
+        // only done if value is negative
+        doSomeStuff();
+    }
+
+    // continue with program flow
+    alwaysDoThisStuff();
+
+
+Boolean values (true, false)
+
+A boolean value is a logical value of either true or false.  Boolean
+variables can be useful when used in conjunction with if statements
+or other conditional statements:
+
+    let isNegative = (x < 0);
+
+    if (isNegative) {
+        doStuff();
+    }
+
