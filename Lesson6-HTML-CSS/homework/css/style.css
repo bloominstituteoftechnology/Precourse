@@ -1,0 +1,20 @@
+h1 {
+  color: royalblue;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 700px;
+  width: 500px;
+  background-color: deepSkyBlue;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
