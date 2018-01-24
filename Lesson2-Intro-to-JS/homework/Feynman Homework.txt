@@ -1,0 +1,28 @@
+Variables
+A variable is a way of giving another name to an object and storing it. If you have a bunch of data, but
+don't want to type that data out every time you need to refer to it you can just assign it to a variable instead. 
+
+
+Strings
+
+A string is just text with quotations around it. It can contain letters, numbers, and special
+characters, but it is only a string if it has quotations around it.
+
+
+Functions(arguments, return)
+
+A function is a set of instuctions that produces a result. An argument is data you put inside of the function
+for it to change or add to. Return stops the functions and sends out the result, it is the only way for data to
+escape the function. Functions can access data outside of them, but the data is inaccessable outside the funcition
+unless it is returned.
+
+
+If statements
+
+If statements check if something is true and return a value if it is, if it isnt true then it will continue down
+the function until it is and return something else.
+
+
+Boolean Values(true, false)
+
+Boolean values(bools) can only be either true or false. They are commonly used in if statements.
