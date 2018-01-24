@@ -1,0 +1,34 @@
+Variable: a way to store data for later use. Think of it like a little box you can put stuff into, like numbers and words.
+let num = 3;
+let word = "hello";
+
+String: data surrounded by quotation marks, usually comprised of alphanumeric characters. 
+let word = "hello";
+
+Functions: instructions for the program to do something
+function doSomething() {
+	// do some stuff in here
+}
+	Arguments: data that is passed (given) to the function to have stuff done to it.
+	Arguments go into the () after 'function.'
+	function doSomething (rate, time) {
+		// do something with rate and time
+	}
+	return is data that a function might spit out when it's finished with the instructions
+	function doSomething (rate, time) {
+		// get a value back from some math
+		return rate * time;
+	}
+
+if-statement: one type of conditional that helps control data flow. Think of it like a fork in the road. If <something>, then <something else>. If your room is clean, then you can go outside.
+if (roomIsClean) {
+	goOutside();
+}
+
+Boolean values (true, false): boolean values can be one of two states - true or false. They are often used with if-statements. They are used for a number of operations, including:
+	On or off
+	Yes or no
+	1 or 0
+if (roomIsClean === true) {
+	goOutside();
+}
