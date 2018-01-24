@@ -1,0 +1,17 @@
+Variable - A variable can be literally anything in the world.  In this instance, it will be something you wish a computer to remember or manipulate, so for instance,
+	we could tell it to make a 'constant' (never changing) variable, such as areMilkShakesGood = 'yesss!!!!!'.  This tells the computer that, whenever the 
+	variable areMilkShakesGood comes up, to say/remember/print yesss!!!!!.  You could also make a variable which changes with its environment, and these kind of
+	context-sensitive variables are called 'let' variables (as in, 'lets assume').  You could do something like let x (our variable) =5 (our meaning for the 
+	variable, which will possibly change as we do things).
+Strings - A string is just any kind of writing you would do that you want going into the code.  For instance, a computer wouldn't know what to do with Happy Birthday!
+	as computers are cold unfeeling machines with no mother or grasp of human ritual, but it does understand that 'Happy Birthday!' (in quote marks) means
+	you wish this to be considered one block thing, and it can do that (although it wont bring you balloons).
+Function - A function is essentially an equation, or formula.  Put some stuff in, the function changes it, get stuff out.  You can make an equation do whatever you want 
+	as long as you have some goal in mind.
+*If* Statements - If statements allow you to split your code down two different paths.  It could be as simple as 'if its this way, do this one thing, otherwise do nothing', 
+	or as complex as changing every line of code for the rest of the program!!  If statements allow a program to be more reactive and to allow you more freedom
+	in your coding.
+Boolean Values - Hardest one, for sure.  Boolean values mean...(!!!!!) true or false.  Thats it.  If something is a boolean value, its a true or a false.  This binary 
+	way of putting something in your program allows for checks and many other useful things.  As well, since computers themselves 'talk' in binary, boolean values
+	can be considered akin to the basics of computering (a.k.a. true is 1, false is 0)
+ 
