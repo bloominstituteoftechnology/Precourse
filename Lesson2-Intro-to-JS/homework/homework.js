@@ -2,22 +2,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = null ;
+let newString = 'null' ;
 
 //create a number variable, it an be any number
-let newNum = null ;
+let newNum = 0 ;
 
 //create a boolean variable
-let newBool = null ;
+let newBool = true ;
 
 //solve the following math problem
-let newSubtract = 10 - null === 5;
+let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * null === 40 ;
+let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === null ;
+let newModulo = 20 % 5 === null ;
 
 
 
@@ -28,40 +28,53 @@ let newModulo = 21 % 5 === null ;
 
 function returnString(str) {
   //simply return the string provided: str
+  return str;
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
+  return x + y;
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
+  return x - y;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
+  return x * y;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
+  return x / y;
 }
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
+  return x = y;
 }
 
+
+//Ended Here!!!!!!!!!!!!!!!!!!!!!
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
+  if(str1 = str2){
+    return true;
+  } 
+    return false;  
 }
+areSameLength(1, 1);
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
