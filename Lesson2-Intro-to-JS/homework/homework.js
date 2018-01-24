@@ -180,7 +180,8 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-
+  name = 'Hello '+name+'!';
+  return name;
 }
 
 
