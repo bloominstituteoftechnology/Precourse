@@ -1,0 +1,14 @@
+Variables
+Variables are placeholders or like storages for numbers and words.
+
+Strings
+A specific variable that holds words
+
+Booleans
+A specific variable that holds a true or false value
+
+Functions
+A block of code that can be used repeatedly to do the same or similar thing
+
+if statements
+Statements used to branch off paths in coding
