@@ -1,0 +1,22 @@
+Write out explanations of the following concepts like you are
+explaining them to a 12 year old.
+
+	-Variables
+	-Strings
+	-Functions(arguments, return)
+	-if statements
+	-Boolean values(true, false)
+
+A variable is a unit that stores data in a keyword.
+
+A string is an series of characters stored as one piece of data.
+
+A function is a block of code that can take arguments and return a value
+ and can be used many times in a given program.
+
+if statements are a decision making structure that allows you to branch
+into different sections of code depending on a certain condition.
+
+Boolean values are data types that can only store two values: true and
+false. They are used to determine if something is true or false and
+to branch into different parts of the program in either case.
