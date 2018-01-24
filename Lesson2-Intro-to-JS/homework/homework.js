@@ -112,7 +112,7 @@ function isEven(num) {
 }
 
 function isOdd(num) {
-  // return true if num is even
+  // return true if num is odd
   // otherwise return false
   if (num % 2 !== 0) {
     return true ;
@@ -163,7 +163,7 @@ function addExclamationPoint(str) {
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  let combo = firstName + lastName ;
+  let combo = firstName + ' ' + lastName ;
   return combo ;
 }
 
