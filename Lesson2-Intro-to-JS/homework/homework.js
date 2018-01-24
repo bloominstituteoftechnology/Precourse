@@ -225,4 +225,4 @@ module.exports = {
   getGreeting: getGreeting,
   getRectangleArea: getRectangleArea,
   getTriangleArea: getTriangleArea
-};
+}
