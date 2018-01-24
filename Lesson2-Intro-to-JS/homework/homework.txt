@@ -1,0 +1,34 @@
+	* Variables
+    Variables are a way to store the value of 
+    something to reference later. You create
+    a variable by first using a keyword and 
+    then defining what value you want it to
+    reference. There are three ways to begin
+    a variable. One is var, which is an older
+    way of doing it. Then there is let, which
+    defines it for a smaller amount of code.
+    Then there is const, short for constant,
+    if you want to continue to use the variable
+    throughout your entire code.
+	* Strings
+    Strings are letters and words. If there are
+    letters or words with quotes around them, 
+    that is a string.
+	* Functions (arguments, `return`)
+    Functions take the stored values/variables
+    and do something with them. It could be 
+    computing a math problem, or change a word,
+    or combine two words. There are three ways 
+    to create a function.
+	* `if` statements
+    If statements allow you to cause a scenario
+    to occur if another scenario occurs. It's 
+    like if you tell someone "If you give me
+    twenty dollars, I'll give you twenty bananas".
+    Except in this case, it's data from the code.
+	* Boolean values (`true`, `false`)
+    Boolean values give you only two choices,
+    true or false. It is black and white, all
+    or nothing, yes or no. This is also a great
+    use case for an if statement. If something is
+    true, this will happen. If not, it won't.
