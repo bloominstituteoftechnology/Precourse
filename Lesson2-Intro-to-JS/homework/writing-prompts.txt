@@ -1,0 +1,21 @@
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables
+Strings
+Functions (arguments, return)
+if statements
+Boolean values (true, false)
+
+Variables -Variables are like nicknames, nicknames are usually a short and easy way to refer to someone or something that others understand
+
+Functions - Functions take an input (argument) and output something. Imagine a gumball machine,
+you input a quarter and then it randomly releases a gumball from the machine
+
+if statements - when something is the case you are told to do something else
+most of your day you are running an bodily if statement. if you need to use the bathroom, you go to the bathroom,
+otherwise continue doing what you are doing
+
+Strings - strings are a single or set of characters like letters or numbers strung together in a line, your name is a string of letters
+
+Boolean values - nodding your head is usually a way we signal that we agree that something is true
+shaking your head is usually a way that we signal that we disagree or that something is false
