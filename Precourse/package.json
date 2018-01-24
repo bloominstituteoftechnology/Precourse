@@ -1,0 +1,28 @@
+{
+  "name": "lambdaschoolprecourse",
+  "version": "1.0.0",
+  "description": "This repo contains the instruction material and assignments for Lambda School's pre-course workshop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint Lesson8-DOM/homework/homework.js Lesson7-JS-IV/homework/homework.js Lesson6-JS-III/homework/homework.js  Lesson5-JS-II/homework/homework.js Lesson4-Intro-to-JS/homework/homework.js && jest",
+    "test:JSI": "eslint Lesson2-Intro-to-JS/homework/homework.js && jest JSI.test.js",
+    "test:JSII": "eslint Lesson3-JS-II/homework/homework.js && jest JSII.test.js",
+    "test:JSIII": "eslint Lesson4-JS-III/homework/homework.js && jest JSIII.test.js",
+    "test:JSIV": "eslint Lesson5-JS-IV/homework/homework.js && jest JSIV.test.js",
+    "test:DOM": "eslint Lesson8-DOM/homework/homework.js && jest DOM.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambdaschool/precourse.git"
+  },
+  "author": "Daniel Frehner, Lambda School",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lambdaschool/precourse/issues"
+  },
+  "homepage": "https://github.com/lambdaschool/precourse#readme",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "jest": "^22.0.3"
+  }
+}
