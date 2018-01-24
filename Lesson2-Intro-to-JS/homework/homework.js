@@ -2,22 +2,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = null ;
+let newString = 'test string' ;
 
 //create a number variable, it an be any number
-let newNum = null ;
+let newNum = 42 ;
 
 //create a boolean variable
-let newBool = null ;
+let newBool = true ;
 
 //solve the following math problem
-let newSubtract = 10 - null === 5;
+let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * null === 40 ;
+let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === null ;
+let newModulo = 21 % 5 === 1 ;
 
 
 
@@ -28,112 +28,159 @@ let newModulo = 21 % 5 === null ;
 
 function returnString(str) {
   //simply return the string provided: str
+  return str;
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
-  // code here
+  let result = x + y;
+  return result;
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
-  // code here
+  let result = x - y;
+  return result;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
-  // code here
+  let result = x * y;
+  return result;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
-  // code here
+  let result = x / y;
+  return result;
 }
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  // code here
+  if (x == y) {
+    return true;
+  }
+  else{
+    return false;
+  }
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  // code here
+  if (str1.length == str2.length) {
+    return true;
+  }
+  else{
+    return false;
+  }
 }
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
-  // code here
+  if (num < 90) {
+    return true;
+  }
+  else{
+    return false;
+  }
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
-  // code here
+  if (num > 50) {
+    return true;
+  }
+  else{
+    return false;
+  }
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
-  // code here
+  let result = x % y;
+  return result;
 }
 
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-  // code here
+  let result = num % 2;
+  if (result) {
+    return false;
+  }
+  else {
+    return true;
+  }
 }
 
 function isOdd(num) {
   // return true if num is false
   // otherwise return false
-  // code here
+  let result = num % 2;
+  if (result) {
+    return true;
+  }
+  else {
+    return false;
+  }
 }
 
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
-  // code here
+  //let result = num * num;
+  let result = Math.pow (num, 2);
+  return result;
 }
 
 function cube(num) {
   // cube num and return the new value
-  // code here
+  let result = Math.pow (num, 3);
+  return result;
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
-  // code here
+  let result = Math.pow (num, exponent);
+  return result;
 }
 
 function roundNumber(num) {
   // round num and return it
-  // code here
+  let result = Math.round (num);
+  return result;
 }
 
 function roundUp(num) {
   // round num up and return it
-  // code here
+  let result = Math.ceil (num);
+  return result;
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  // code here
+  let result = str + '!';
+  return result;
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  // code here
+  let result = firstName + ' ' + lastName;
+  return result;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  // code here
+  let result = 'Hello ' + name + '!';
+  return result;
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -141,12 +188,14 @@ function getGreeting(name) {
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
-  // code here
+  let result = length * width;
+  return result;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  // code here
+  let result = (base * height) / 2;
+  return result;
 }
 
 // Do not modify code below this line.
