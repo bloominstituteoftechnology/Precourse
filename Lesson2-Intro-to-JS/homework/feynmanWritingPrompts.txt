@@ -1,0 +1,10 @@
+Variables
+    an object that holds a type, you can assign a value
+Strings
+    straigt up just text
+Functions (arguments, return)
+    put in variables, do some coding magic, return what you want
+if statements
+    if true do this, else it's false so do that, think decision trees
+Boolean values (true, false)
+    true, false...
