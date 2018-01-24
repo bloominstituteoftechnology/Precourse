@@ -35,7 +35,7 @@ Here's an example of some of the parts you could include in the "AddAllApples" f
 
 4. `if` statements
 
-Let's say you want to make sure everyone gets the same number of apples. And you want your Apple-Picking Robot, "iApple", to share out the apples in your orchard to you and your friends. You would need to consider a few things to get this to work automatically. You need to know how many apples each person has, and you need to compare these numbers with each other. And then you have some conditions to fulfill. For example, iApple is only 'happy' when he's made sure everyone has an equal number of apples. So he needs to run through some checks, and if he finds one person has 15 and everyone else has 12 apples, then he'll go pick and distribute more. You can define this in a program with `if` and `then` statements.
+Let's say you want to make sure everyone gets the same number of apples. And you want your Apple-Picking Robot, "iApple", to share out the apples in your orchard to you and your friends. You would need to consider a few things to get this to work automatically. You need to know how many apples each person has, and you need to compare these numbers with each other. And then you have some conditions to fulfill. For example, iApple is only 'happy' when he's made sure everyone has an equal number of apples. So he needs to run through some checks, and if he finds one person has 15 and everyone else has 12 apples, then he'll go pick and distribute more. You can define this in a program with `if` and `else` statements.
 
 Some of the `if` statements that you could have iApple evaluate include:
 
