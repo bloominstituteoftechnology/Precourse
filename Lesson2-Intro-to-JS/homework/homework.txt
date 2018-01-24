@@ -1,1 +1,3 @@
 Feynman Writing Prompts
+
+Variables: a variable is a container. Each variable has a name, and it could also have a value assigned to it. Before it can be use to store a value, first a variable needs to be declared by its name. Some variables have fixed values that cannot be changed, and we call those variables constants, and we use const [variable_name] to declare it. Other variables have values that can be changed or updated, not only to the same type of values but also to different ones. We use let [variable_name] to declare this type of variables. However, it is not a best practice to update the value of a variable with a value of different type.
