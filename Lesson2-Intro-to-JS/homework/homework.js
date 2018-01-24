@@ -2,7 +2,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = "My String";
+let newString = 'My String';
 
 //create a number variable, it an be any number
 let newNum = 4747;
@@ -11,13 +11,13 @@ let newNum = 4747;
 let newBool = true;
 
 //solve the following math problem
-let newSubtract = 10 - null === 5;
+let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * null === 40;
+let newMultiply = 10 * 4 === 40;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === null;
+let newModulo = 21 % 5 === 1;
 
 
 
@@ -63,12 +63,9 @@ function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
-
+  let z = false;
   if (x == y) {
-    let z = true;
-  }
-  else {
-    let z = false;
+     z = true;
   }
   return z;
 }
@@ -77,13 +74,13 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
+  let check = false;
   if (str1.length == str2.length) {
-    let z = true;
+     check = true;
   }
-  else {
-    let z = false;
-  }
+  return check;
 }
+
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
@@ -120,7 +117,7 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  let z = num % 2
+  let z = num % 2;
   if (z == 0) { return true; }
   return false;
 }
@@ -129,7 +126,7 @@ function isOdd(num) {
   // return true if num is false
   // otherwise return false
   // code here
-  let z = num % 2
+  let z = num % 2;
   if (z == 1) { return true; }
   return false;
 }
@@ -138,31 +135,21 @@ function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-  let squared = num * num
+  let squared = num * num;
   return squared;
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
-  let cube = num * num * num
+  let cube = num * num * num;
+  return cube;
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
   return Math.pow(num, exponent);
-  // let temp = num;
-  // let i = 0;
-  // if (exponent == 0) {
-  //   return 1;
-  // }
-  // while (i < exponent) {
-  //   i++;
-  //   num = num * temp;
-  // }
-  // return num;
-
 }
 
 function roundNumber(num) {
@@ -176,13 +163,14 @@ function roundUp(num) {
   // round num up and return it
   // code here
   let result = Math.ceil(num);
+  return result;
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  let newstr = String.prototype.concat(str, "!");
+  let newStr = String.prototype.concat(str, '!');
   return newStr;
 }
 
@@ -190,7 +178,7 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  let fullName = firstName + " " + lastName;
+  let fullName = firstName + ' ' + lastName;
   return fullName;
 }
 
@@ -198,9 +186,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  let greetingStart = "Hello ";
-  let greetingEnd = String.prototype.concat(sam, greetingEnd);
-  let greeting = String.prototype.concat(greetingStart, greetingEnd);
+  let greeting = 'Hello ' + name + '!';
   return greeting;
 }
 
