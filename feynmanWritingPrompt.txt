@@ -1,0 +1,5 @@
+ Variables are used by programmers to identify values in a code.
+ Strings are characters that the programmer wants the variable to display when code is ran. They must have single or double quotes around them. 
+ Functions are commands that are created by the programmer to compute or change the variable. Arguments within the function are like values and return is used to execute the argument.
+ If statements execute certain functions if the argument is true.
+ Boolean values are the core of the computer language and stand for true or false when used in Javascript.
