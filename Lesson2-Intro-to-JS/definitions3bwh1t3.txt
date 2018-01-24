@@ -1,0 +1,29 @@
+variables - a named item that can be given a value, or defined, in a program. 
+They can be coded by the programmer or input by the user and can remain constant or change. 
+For example, you may want to write a program that asks each user for their favorite
+sports team. You could assign the variable name in this case to something like 
+favorite_team. If your user answered "Washington Redskins" the variable definition could
+look like favorite_team = Washington Redskins. Variables can be constant or can change.
+There are several classes of variables such as integers, strings, and boolean.
+
+strings - a type of variable that has semantic meaning or value as understood
+through natural languages. Commonly this would be a series of characters, such as 
+"Washington Redskins" or "Hello World!" which represents the thing that you interpret
+from reading it. Think of it as an exact snapshot of characters
+that have no meaning other than interpreting at face value. For example, 'woiefoijser'
+is a string of characters, but ones which one would likely be interpreted as gibberish.
+
+Functions (arguments, 'return') - A section of computer code, that 
+performs a specific task as defined by the programmer. It can often be used to consolidate code or stored for the 
+purposes of calling up again later in the same program. 
+
+'if' statements - A section of code that allows the programmer or executor to evaluate whether
+an argument or statement is true. For example if your betime is 10 p.m. and it is 
+only 9 p.m. the argument of whether it is your bedtime or not would be false.
+The code includes two sets of different instruction where one set is executed
+if the argument is true and the other set if it is false.  
+
+Boolean values - a type of variable where there are two possible answers. For example
+true or false. Also, yes or no; On or off.
+
+
