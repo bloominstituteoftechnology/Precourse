@@ -1,0 +1,9 @@
+Variables are like boxes that you can store things into.
+
+Strings are lines of text that can also be stored into variables.
+
+Functions contain instructions used to create output from its input.
+
+If statements are statements telling the computer to do one thing if a condition is true, and to do something else if it's false.
+
+Boolean values are values that can only ever be one of two things, true or false. 
