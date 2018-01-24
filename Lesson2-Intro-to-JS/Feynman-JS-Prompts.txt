@@ -1,0 +1,13 @@
+
+Feynman Writing Prompts:
+
+- Variables: Variables are nicknames for code. We can call or use a nickname and the computer will know who (or what) we are talking about. That way even if our friend changes their name, their nickname will still apply.
+
+- Strings: A string is like a post card written in pencil - it can have zero to main characters on it and we can refer to it and send it elsewhere. We can also add to it and rewrite it.
+
+- Functions: Functions are like recipes for cooking. These tell the computer exactly what to do if we want to have an expected result (if you want cookies, use the cookie recipe). Arguments are like the amounts(values) of ingredients needed. Return marks of the end of the recipe - it’s when you see the result of your work.
+
+
+- If Statements: These are used to give you options on a plan, so no matter what happens you know what to do. For example: if you’re out of chocolate chips, get chocolate chips first before baking. If you do have chocolate chips, start baking!
+
+- Boolean Values: These are like yes/no questions. You have to be one or the other, you can’t be both. These are useful for some questions (do you want cookies?) but not others (what’s your favourite type of cookie?), the trick is to know when to use them.
