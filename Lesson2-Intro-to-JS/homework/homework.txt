@@ -1,0 +1,5 @@
+* Variables - Variables are the identifiers or names of certain things in our code. We can assign any value a name and that name is the variable.
+* Strings - Strings are basically just the way that we can tell the computer to say something. If we put something into a string it is telling the computer that we want it to say that phrase or sentence or name or anything.
+* Functions (arguments, `return`) - Functions are the way that we can store variables and strings all together and then name it. Like if you are going to the bathroom you just say that you are going to the bathroom, instead of detailing everything that entails with going to the bathroom i.e. #2, wipe, flush, wash hands.
+* `if` statements - If statements are a way to see if something is true or not. If you say if 1+1=2 that would be true, and you can tell the computer to run a function if it is true, and if that isn't true you can have it do something else.
+* Boolean values (`true`, `false`) - Boolean values are almost like if statements but they can only return 2 different values, either true or false. 
