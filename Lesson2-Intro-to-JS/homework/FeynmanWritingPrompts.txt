@@ -1,0 +1,16 @@
+Variables
+Variables are placeholders of information. They hold values that you or a program tell it to.
+
+Strings
+Strings are text. They are the words and letters you read and type on your screen.
+
+Functions (arguments, return)
+A function is a set of instructions that are executed using the arguments passed to them. 
+The function can also return the value produced by the instructions, back to who called the function.
+
+if statements
+An if statement compares two or more conditions and executes a set of instructions based on those conditions.
+
+Boolean values (true, false)
+A boolean value is what is determined after a condition is analyzed. For example, if I'm comparing 1 to 2,
+and want to know if 2 is greater than 1, the boolean value for this condition is defined as true.
