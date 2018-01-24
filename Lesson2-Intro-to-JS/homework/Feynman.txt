@@ -1,0 +1,10 @@
+1. Variable - They are the container that your data values in programs are stored. Your data values would be 
+              considered your toys, and the variables would be the toy chest you store them in when done.
+2. Strings - Strings are used to store sentences or words. Example "Your Name Here."
+3. Functions (arguments, return) - Functions are used to complete a certain task assigned. Arguments are the values
+                                   the function receives when it's being used. Return will give the results of the 
+                                   function when it has completed.
+4. If statement - You use an if statement if you want a condition to be executed when true. So if I said if it's 
+                  raining, return true, if it's not raining, return false.
+5. Boolean values - These values are only true or false, it'd be like if I asked you a yes or no question. One value
+                    would be true, and the other false.
