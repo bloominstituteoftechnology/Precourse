@@ -1,0 +1,13 @@
+1: Variables: A variable is similar to a cup. A cup holds liquid that you use for a single purpose, such as drinking, or mix in with other stuff to make something new. A variable holds information, such as words, or numbers. You can use a variable to simply hold the result of a math equation, or it can be part of a math equation creating a different number after the equation finishes. 
+
+
+2: Strings: A string can only be made up of words. It is like a code word that you setup with a meaning. Whenever you see the code word, you realize that it really means you are using the words in its place. 
+
+
+3: Functions (arguments, `return`): A function is a set of commands for your program to follow. You can do math, create or update strings or other variables. Functions are helpful because once you create the set of instructions, you can use them anytime you want without having to re-create them. They are like a recipe, similar to creating a cake. 
+
+
+4: If statements: An if statement is the programs way of making a decision. You make if statements everyday, for instance, when you go to a store and look for drinks to purchase. You may walk down the aisle, pick out two, and depending on the cost you go with one or the other. For example, if drink A is cheaper than drink b, you then purchase drink a. That is what an if statement is.
+
+
+5: Boolean values: Boolean values are used in games such as twenty questions, where you ask yes or no questions to determine what something is. Boolean values can only be true, or false. To use an example, if your age is over 21, the boolean value that determines if you can legally drink would be true, If you are under 21, it would then be false. 
