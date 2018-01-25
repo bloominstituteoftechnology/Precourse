@@ -1,0 +1,16 @@
+Homework #JSII
+
+Feynman Writing Prompts
+
+For
+A for loop will run the same code multiple times each time with a different value, until a condition for that value
+is met.
+
+&&, ||, !
+These are called logical operators. && means "and", it will evaluate two expressions and run true only if both of
+the expressions are true. || means "or", it will evauluate two expressions and run true if either of the expressions
+are true. ! means "not", it will evaluate an expression and return the opposite. So if an expression is false and
+you put ! in front of it, it will run true. If an expression is true and you put ! in front of it, it will run false.
+
+Arrays
+An array is a variable with multiple value. It is essentially a storage container for data.
