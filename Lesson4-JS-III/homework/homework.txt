@@ -1,0 +1,11 @@
+Feynman Writing Prompts
+
+for: is an iterative statement to loop through a block of code for a specific number of time. 
+
+&&: is a logical and operator. It only returns true when both arguments are true and returns false in any other cases.
+
+||: is a logical or operator. It only returns false when both arguments are false and returns true in any other cases.
+
+!: is a negation operator. It negate the boolean value that follows it.
+
+Arrays: are an object that stores values or other objects. Array has index to refer to the place of its values.
