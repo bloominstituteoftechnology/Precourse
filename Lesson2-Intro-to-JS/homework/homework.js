@@ -2,9 +2,9 @@
 //Variables-A variable is a value that acts as a container for a
 //value that you assign to it, or more accurately the location in
 //memory of that value.
-
+//
 //Strings-A string is a sequence of characters contained in quotes.
-
+//
 //Functions-A function is code that performs a task contained within
 //a variable so that it can be reused as many times as is necessary.
 //A function takes in data called arguments represented by 
