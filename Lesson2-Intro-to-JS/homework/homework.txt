@@ -1,0 +1,6 @@
+
+    Variables: Information storage
+    Strings: Storing text
+    Functions (arguments, return): Block of code that performs a task
+    if statements: Conditional statement
+    Boolean values (true, false): Yes/No, ON/OFF, TRUE/FALSE
