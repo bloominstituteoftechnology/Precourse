@@ -1,0 +1,12 @@
+For: used in loops to repeat instructions over and over until a certain condition is met.
+
+&&: logic operator AND for two or more expressions. All expressions must be true in order for the 
+condition to be met. If the first is false, those proceeding won't be evaluated.
+
+||: logic operator OR for two or more expressions. Only one expression needs to be true in 
+order for the condition to be met. If the first is true, those proceeding won't be evaluated
+
+!: logical operator NOT for an expression; !true is false.
+
+Array: An object used to hold values, ordered by an index, stored in brackets []
+zero-indexed
