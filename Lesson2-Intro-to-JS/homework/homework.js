@@ -17,7 +17,7 @@ let newSubtract = 10 - 5 === 5;
 let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 20 % 4 === 0 ;
+let newModulo = 21 % 5 === 1 ;
 
 
 
