@@ -1,0 +1,21 @@
+# Homework #JSII
+
+## Instructions
+---
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `for`
+	for loops are way to run a list over and over so long as a given condition is true. You can tell it to start counting from 1 to 10, and stop after a variable is not less than or equal to 10. If the current number is 8, then the conditions is true because 8 is less than 10. Next the loop will add one to the 8, making it 9. Nine is still less than 10, so one is added to 9 making it 10. ten is less than or equal to ten, so the condition will spit out 10, then it adds one. 11 is not less than or equal to 10. So 11 will not be spit out. The loop ends at 10.
+
+	* `&&`, `||`, `!`
+	This are called logical operators. They are used to make conditions more flexible "||" specific.
+
+	* Arrays
+	Arrays are a type of data. They are containers to to store more data. Any kind of data, even more arrays. They are unique in that they have their own useful functions. They call them array methods.
+
+
+2. 3. From the top level of your `Precourse` folder, run `npm run test:JSII` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
+
+#### Congratulations on finishing Homework #2!
+
+For more information about Lambda School's six month CS program visit: https://lambdaschool.com
