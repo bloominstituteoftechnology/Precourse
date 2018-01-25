@@ -1,0 +1,8 @@
+Justin Meredith
+Feynman Writing
+
+* 'for' - A 'for' loop tells your code to repeat a set of actions *for* a certain number of times. It is similar to a coach telling a player to run around the track four times. 
+
+* '&&', '||', '!' - The '&&' (and) comparison requires that two things be true in order for the entire statement to be true. For example, " 3 > 2 && 2 < 5 " would be true, but " 3 > 2 && 2 < 0 " would be false. The '||' (or) comparison only requires one side of the statement to be true, and is only false when both sides are false. The '!' (not) comparison reverses the boolean value of whatever it is attached to. The most common use is '!=', which means not equal. '!true' would evaluate to false.
+
+* Arrays - Arrays are a way to group data together. For example, if you wanted to keep track of the names of a class of students, you could create an array containing all of their names. Arrays can also contain different types of data within the same array.
