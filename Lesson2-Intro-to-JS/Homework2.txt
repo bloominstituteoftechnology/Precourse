@@ -8,17 +8,18 @@ The anatomy of a variable is first the keyword, a space, the name we are giving 
 
 Strings:
 
-Strings are blocks of text, they will always be defined with quotation marks around them, either single or double. Any text with quotes around it is a string.
+A string is a block of text, with quotes around it. 
 
 Functions (arguments, return):
 
-
+A way of using the same code, over and over, with different arguments. 
 
 if statements:
 
+a way to branch off results of a function. If its this result, return this. However, if its this other result, return this. So on and so forth. 
 
 Boolean values (true, false):
 
-Booleans come from low level computer science. It is a concept that powers binary code and the very core of computers. You may have seen binary code in the past (0001 0110...), this is boolean logic. It essentially means you have two choices, on or off, 0 or 1, true of false. In Javascript we use Booleans to mean true or false. This may seem simple at first but can get complicated later. 
+A yes or no, true or false, on or off value. In JS this is true or false. 
 
 
