@@ -51,7 +51,7 @@ function divide(x, y) {
 }
 
 function areEqual(x, y) {
-  if (x == y) {
+  if (x ===y ) {
     return true;
   } else {
     return false;
@@ -59,7 +59,7 @@ function areEqual(x, y) {
 }
 
 function areSameLength(str1, str2) {
-  if (str1.length == str2.length) {
+  if (str1.length === str2.length) {
     return true;
   } else {
     return false;
@@ -88,7 +88,7 @@ function getRemainder(x, y) {
 }
 
 function isEven(num) {
-  if (num % 2 == 0) {
+  if (num % 2 === 0) {
     return true;
   } else {
     return false;
@@ -96,7 +96,7 @@ function isEven(num) {
 }
 
 function isOdd(num) {
-  if (num % 2 == 1) {
+  if (num % 2 ===1 ) {
     return true;
   } else {
     return false;
