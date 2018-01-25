@@ -1,0 +1,15 @@
+## Feynman Writing Prompts ##
+
+-Variables:  Variables are ways to store values and information so we can look them up, or remember them, later. Variables are similar to the names we give to things, people, and places. In JavaScript, we can set a variable by saying var yourName = "Josh" ; we can also use const lastName = "Goode"; and let myAge = 26;
+Previously, var was the way to define variables, such as my name; however, now we can use const and let. Const is different as, unlike var and let, it can never be changed and it remains constant. Now, let is very
+similar to var but it has its own protections as it is block-scope;d it only exists within the current block.
+
+-Strings: Strings are words, names, sentences, or gibberish that is comprised of text. In the variable const lastName = 'Goode'; Here, 'Goode' is the string. Strings always have quotes around them, either " or .'
+
+-Functions (arguments, return):  Functions take variables and strings and put them to work. They are essentially instructions for the items you have named, defined, numbered..etc. that can be used, and reused. They too have names that typically describe what they are doing. Functions contain code that runs whenever they are called and We can pass along specific variables and values that can be used in the function -- they are known are arguments.  Once the function has ran, the information can be passed back to the rest of your code via a return statement.
+
+-if statements: Included in control flow and comparison operators are if statements. Specifically, if statements let your functions see if something true which would then run whatever code you supply. Otherwise, if it is false, it will move on.
+
+
+-Boolean values (true, false): Boolean values or either true or false. In general, Boolean is a is a very low level 
+and primitive datatype. It is very useful in controlling program flow when using conditional statements.
