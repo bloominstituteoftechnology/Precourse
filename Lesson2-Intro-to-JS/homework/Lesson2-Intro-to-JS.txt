@@ -1,0 +1,19 @@
+Variables:
+
+A variable is information required for your program to run. It can be a constant value that never changes, can be changed as the program runs, or can be given by user input.
+
+Strings:
+
+A string is a sequence of characters. This can include letters, numbers, spaces, or symbols.
+
+Function:
+
+A function is a set of commands that a computer program executes as it runs. Arguments are data input into the function that it works with. A return is the data the function provides after it runs. All funtions return something, even if thast something is 'nothing'.
+
+If stateement:
+
+An if statement is a statement that will run only under certain conditions that are defined within the staement itself.
+
+Boolen values:
+
+A boolean value is either true of false, and will only execute if the program matches what the value is looking for.
