@@ -1,0 +1,13 @@
+variable: A holder that can be used to store values for later use. 
+
+Strings: a character, single word, sentence, or number enclosed in single or double quotes.
+
+Functions: a block of code that can be reused at a later time.
+
+Arguments: value(s) that are actually passed into the function’s parameter ex (x,y) once the function is called. X and y being the parameter, 5 and 3 could potentially be arguments. It is the value that is run through the block of code contained within the function. 
+
+Return: keyword used to value of a function and to stop it from running. 
+
+If Statements: Allow the creation of forks/control flow in programming (i.e. conditional programming).
+
+Boolean values: true/false; useful in conditional programming.
