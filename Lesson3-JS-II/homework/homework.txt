@@ -1,0 +1,17 @@
+
+A for loop in programming refers to a closed loop inside of a program.  Looping can be especially important when going through ("looping") through data
+and making changes to that data.  As an example, if I have a list of all the students test scores and want to add 5 points to everybody, one way to do that
+would be to manually add those points one at a time.  Instead lets use a loop to start at the first student, add 5 points then continue to add points for
+each student after that.  Using a loop in this case is much more efficient.
+
+What if I wanted to change some data (lets say add 5 to a number) based off two seperate conditions (whether the number is positive and is even).  As
+previously discussed, using an "if" statement is one of the foundations to programming but until now we only were able to use one condition (as an example,
+if a number is even, I want to add 5 to that number).  Now if I want to add 5 to a number that is even AND positive, I can do that using "&&".  Similar to
+and, there is also OR "||" and NOT "!".  Or is fairly straight forward (if a number is even OR positive, not both, then add 5).  And using NOT isn't
+too difficult either (I want to add 5, if the number does NOT equal 10 (number != 10)).
+
+An array is similar to a variable.  Think back to the way variables were explained (a bedroom dresser that had labelled the drawers, where the label is the
+name of the variable and whats inside the drawer is the variable itself like a number or word).  What may not have been clear before is that a variable
+can only hold a single value, such as a single number or a single string of characters ('Hello World!' might be two words but the computer just sees that
+as a single block of characters).  However an array is able to hold many different values.  As an example rather than store all of the student names
+as individual strings, a smart programmer would instead have a single array containing all the names.
