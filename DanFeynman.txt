@@ -1,0 +1,9 @@
+Variables  are defined values that a program can use. These can be any value such as a noun/phrase (aka string), single character (letters &/or number), boolean, or
+
+Strings  are values such as a single word, or combination of words to form a phrase. They are typically assigned as the body of a Variable (where we define a keyword to represent)
+
+Functions (arguments, return) are the processes we want to execute with the code. Arguments are what's entered into the function, typically used in the form of a variable that must be defined; returns are the output of a function when the function calculates or concludes based on the functions logic.
+
+if statements are gatekeepers of the function's process(es). If the argument entered meets the conditions of the if statement, the function executes (repeats as applicable). Once the argument exceeds the condition, the function performs a different process, or exits, depending on the function's logic.
+
+Boolean values (true, false) are the absolute state of the given variable, function, if statement, etc. True means yes, False means no, for the given condition.
