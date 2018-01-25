@@ -1,0 +1,36 @@
+
+Lambda School mini-bootcamp Lesson 3
+
+
+for
+
+The for statement is used to create a looping construct.  It allows you
+to succinctly specify an initial value, a test for loop termination, and
+an increment.  As an example:
+
+    for (let i = 0; i < myArray.length; i++) {
+        myArray[i] = i;
+    }
+
+
+&&, ||, !
+
+These are logical operators.  && and || are binary operators (they act on 
+two values) and ! is a unary operator (it acts on a single value).  && is
+the logical AND operator, || is the OR operator, and ! is the NOT operator.
+For example:
+
+    true && false === false;
+    true || false === true;
+    !true === false;
+
+
+Arrays
+
+    An array is an object which contains an indexed list of items.  You can 
+    access items in the array by using the square brackets with an index value,
+    as follows:
+
+    let ordinals = ['first', 'second', 'third', 'fourth', 'fifth'];
+    ordinals[0] === 'first';
+
