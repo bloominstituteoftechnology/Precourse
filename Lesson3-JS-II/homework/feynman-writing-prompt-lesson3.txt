@@ -1,0 +1,9 @@
+for loops run a block of code over and over again, and are able to change values each time.
+
+&& is the logical 'and' operator in Javascript. For example, true && true would evaluate to true.
+
+|| is the logical 'or' operator in Javascript. For example, true || false would evalute to true.
+
+! is used to invert a logical statement in Javascript, similar to 'not'. For example, !true would evaluate to false.
+
+Arrays are a data structure used to store multiple values, each with a particular index number. For example, if you had a grocery list you could place them in an array in the form: groceries = ["item1", "item2", item3"] where groceries[0] = item1.
