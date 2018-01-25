@@ -1,0 +1,16 @@
+Variables - A variable is a name used to store information to be used again whenever it is needed. The information can be
+calculations, numbers, or strings.
+
+Strings - Strings are blocks of text, or sentences, that are enclosed in single or double quotation marks.
+
+Functions (arguments, return) - A function is a piece of code that takes in an argument, 
+and performs a calculation and returns the value. Like when you put in a number into a calculator, 
+add it to another number and return the answer.
+
+if statements - If statements are used to make decisions in your code. If some condition is true, 
+the program does one thing. If it is false the peogram does something else.
+
+
+Boolean values (true, false) - A boolean value is either true or false. Booleans can be used with
+if / if else statements to help make a decision in the program.
+
