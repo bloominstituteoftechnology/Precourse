@@ -1,0 +1,12 @@
+A for statement is a looping statement that first initializes a value,
+then checks a condition, and if true, then executes the body of theloop.
+It then increments a value in the last statement, and then checks the 
+loop condition again and loops until the condition is false.
+
+&& - returns true when both comparisons are true, otherwise returns false.
+
+|| - returns true when either of the comparisons and true, otherwise returns false.
+
+!  - flips true to false and false to true based on the value of the operand
+
+An array is a sequence of different data indexed and grouped together.
