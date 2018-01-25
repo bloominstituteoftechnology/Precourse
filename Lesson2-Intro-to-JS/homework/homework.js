@@ -2,22 +2,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = null ;
+let newString = 'string' ;
 
 //create a number variable, it an be any number
-let newNum = null ;
+let newNum = 9 ;
 
 //create a boolean variable
-let newBool = null ;
+let newBool = true ;
 
 //solve the following math problem
-let newSubtract = 10 - null === 5;
+let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * null === 40 ;
+let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === null ;
+let newModulo = 21 % 5 === 1 ;
 
 
 
@@ -28,8 +28,7 @@ let newModulo = 21 % 5 === null ;
 
 function returnString(str) {
   //simply return the string provided: str
-  let newString = str;
-  return newString;
+  return str;
 }
 
 function add(x, y) {
@@ -50,7 +49,7 @@ function subtract(x, y) {
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-  let multiplicationAnswer = x - y;
+  let multiplicationAnswer = x * y;
   return multiplicationAnswer;
 }
 
@@ -65,7 +64,7 @@ function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
-  if (x==y){
+  if (x===y){
     return true;
    }else{
     return false;
@@ -76,9 +75,9 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  let string1 = str1.length();
-  let string2 = str2.lenght();
-  if(string1 == string2) {
+  let string1 = str1.length;
+  let string2 = str2.length;
+  if(string1 === string2 ) { 
     return true;
   } else {
     return false;
@@ -101,8 +100,7 @@ function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
-  let numCheck = num;
-  if (numcheck > 50) {
+  if (num > 50) {
     return true;
   } else {
     return false;
@@ -121,7 +119,7 @@ function isEven(num) {
   // otherwise return false
   // code here
   let evenNumCheck = num%2;
-  if (evenNumCheck == 0){
+  if (evenNumCheck === 0){
     return true;
   } else {
     return false;
@@ -133,7 +131,7 @@ function isOdd(num) {
   // otherwise return false
   // code here
   let oddNumCheck = num%2;
-  if (oddNumCheck == 1){
+  if (oddNumCheck === 1){
     return true;
   } else {
     return false;
@@ -184,8 +182,8 @@ function addExclamationPoint(str) {
   // 'hello world' -> 'hello world!'
   // code here
   let baseStr = str;
-  let appendSymbol = "!";
-  let newStr = baseStr + " " + appendSymbol;
+  let appendSymbol = '!';
+  let newStr = baseStr + appendSymbol;
 
   return newStr;
 }
@@ -194,10 +192,10 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  let firstName = firstName;
-  let lastName = lastName;
+  let fName = firstName;
+  let lName = lastName;
 
-  let fullName = firstName + " " + lastName;
+  let fullName = fName + ' ' + lName;
 
   return fullName;
 }
@@ -207,10 +205,10 @@ function getGreeting(name) {
   // 'Sam' -> 'Hello Sam!'
   // code here
 
-  let name = name;
-  let message = "Hello ";
+  let hName = name;
+  let message = 'Hello ';
 
-  return message + name + "!";
+  return message + hName + '!';
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -219,11 +217,15 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
+  let rectangleArea = length * width;
+  return rectangleArea;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
+  let triangleArea = (base * height) / 2;
+  return triangleArea;
 }
 
 // Do not modify code below this line.
