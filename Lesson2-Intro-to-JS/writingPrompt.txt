@@ -1,0 +1,11 @@
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.  
+
+Variables - Boxes that can hold anything. Books, toys, clothes. Except instead of those things you're holding numbers, letters, bunches of letters, etc. Some boxes are closed once you put something in them. Other boxes you can replace what's in them with new things.
+
+Strings - A specific type of thing that can be stored in your variables. Letters, bunches of letters, 
+
+Functions (arguments, return) - Like a little factory that makes things. You put some "raw materials" in and something else made from those materials comes out. The arguments are the raw materials, the return is what comes out.
+
+if statements - Like a fork in a road. "If" something is true, we take the left fork. If not, we take the right fork.
+
+Boolean values (true, false) - A type of thing you can put in your "variables" boxes. This only only comes in two colors, one for things that are true, one for things that are false.
