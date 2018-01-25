@@ -1,0 +1,5 @@
+Variable- a value you can set under a name that you can refernce later
+Strings- Text with quotes around it
+Functions- contained group of code that has a specific purpose and can be referenced later
+if statements- "fork in the road" returns a true or false
+Boolean Values- True or false return on a variable
