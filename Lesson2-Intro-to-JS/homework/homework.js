@@ -1,4 +1,24 @@
 
+//Variables-A variable is a value that acts as a container for a
+//value that you assign to it, or more accurately the location in
+//memory of that value.
+
+//Strings-A string is a sequence of characters contained in quotes.
+
+//Functions-A function is code that performs a task contained within
+//a variable so that it can be reused as many times as is necessary.
+//A function takes in data called arguments represented by 
+//
+//'If' statements-If statements are used as a conditional branch
+//when coding. If the given data meets a given condition, one block of
+//code is executed. Otherwise that block is skipped and another is 
+//evaluated until either the end of the statement is reached or
+//criteria for one of the blocks of code are met.
+
+Boolean Values-Boolean values are either true or false based on
+one data set being compared to another.
+
+
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
