@@ -1,0 +1,12 @@
+Justin Meredith
+Homework #1
+
+* Variables - Variables are similar to names in real life. Your name is not who you are, but a title that refers to you. This makes it easier for people to specify when they are talking to or about you. In programming, a variable is when you take a piece of data, like a number or word, and give it a title so that you can reference it in other places throughout your code.
+
+* Strings - Strings are any characters contained between two quotes (""). It is the equivalent of words in real life. Strings are just text like in a book or a newspaper.
+
+* Functions - A function is a set of instructions within a program that are grouped together. For example, if you write a program that needs to multiply a number by two, you can create a function that will do this. By containing these intructions within a function as opposed to just writing them, you allow yourself the ability to reuse that code anywhere else in your code. Function arguments are information that the function takes in. If you had a function that multiply a number (x) by two, 'x' would be your argument. If you wanted to save the result of this multiplication, you would 'return' this information, which allows you to store the result in a variable.
+
+* 'if' Statements - 'if' statements work as a way to send a user down a certain path, like a fork in a road. It checks 'if' something is true, and if it is, it sends a user down one path of the code, and if it's false, it sends them down another path of the code.
+
+* Boolean values - Boolean values are just 'true' and 'false'. They are distinct from strings and numbers. When you compare one thing to another (is 3 greater than 5?) you will get 'true' if the statement is true, or 'false' if the statement is false (3 is not greater than 5, so the code would return 'false'). They are most often used in the context of 'if' statements. 
