@@ -1,0 +1,55 @@
+* Variables
+
+    Variables hold information we want to use at a later time. They can hold
+    strings (discussed below), numbers, etc. Using variables makes it 
+    a lot easier to reuse data in a program since we can give the data a 
+    meaningful label and also because the data a variable contains may change
+    throughout a program's execution. For instance, a dog's age is 2, it has 4 
+    legs, and its color is black. We can use the variables age, legs, and color
+    to describe our dog or any other dog. While our dog will always be black
+    and hopefully always has 4 legs, it will not always be 2 years old.
+
+* Strings
+
+    Strings are a sequence of characters. They can be thought of as similar to 
+    sentences; they can have letters, numbers, and special characters just like
+    sentences. They're wrapped in quotation marks like how we would format a 
+    quote, "I'm a string!" 'I'm a str1ng too~!' For example, when you type your 
+    username and password to log into your email, your are 'giving' the 
+    application strings. Gmail or whatever application you use can then check 
+    your strings to see if they match your previously defined username and 
+    password. 
+
+* Functions (arguments, `return`)
+
+    Functions in programming are similar to functions in math class.
+    f(x) = x + 1 is a simple math function. The function allows us to reuse an
+    equation over and over without having to rewrite it every time. In the f(x)
+    example above, we can pass an argument, a number in this case, to the
+    function's parameter, x. Then every instance of x in the equation is
+    replaced by the argument and the equation can be solved. If we pass 4 to
+    the above function, we get f(4) = 4 + 1 = 5. In programming, the (4) is the
+    argument, and the 5 is the return or result. Also, in programming, there
+    must be a return to use the function's result outside of the function (e.g.
+    in another function or elsewhere in the program.)
+
+* `if` statements
+
+    If statements are decision statements. First, there's a question to answer 
+    or decision to be made. For example, your parent asking if you cleaned your
+    room. You will answer yes (true) or no (false). If you answer, "Yes, I
+    cleaned my room," then your parent is happy. If you answer, "No, I couldn't
+    be bothered," then your parent is unhappy. Therefore, the answer to the
+    question results in a unique response tailored to the decision made.
+
+* Boolean values (`true`, `false`)
+
+    Boolean values are only true or false. Using them is like answering a yes 
+    or no question. They may seem too simple and weak, but they can be very
+    useful and powerful. We've already seen boolean logic in action in the 'if'
+    statements paragraph. They can also be helpful in loops. For example, 
+    "While your room is not clean, I'm taking away your phone charger." Your
+    parent then continues to ask if your room is clean until you answer yes 
+    (true). When it is true that your room is clean, you get your charger back.
+    While it is false that your room is clean, your phone remains dead like
+    your social life. These are the ways in which boolean logic are useful.
