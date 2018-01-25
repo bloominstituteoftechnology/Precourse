@@ -1,0 +1,14 @@
+Variables
+Variables are like containers. They hold certain types of data, and can change what types of data they hold. You name a variable to be able to use the data it holds later on. 
+
+Strings
+Strings are a type of data that can be represented by text, like a word or a sentence. They must be surrounded by single or double quotes.  
+
+Functions (arguments, return)
+A function is like math. It packages up code into a block that can be used over and over. We use arguments in functions to tell the code how to act. We can return the results to show it on screen. 
+
+if statements
+If statements tell a function how to act when they see a certain argument. If the function doesn't see that argument, it doesn't act or does something else. 
+
+Boolean values (true, false)
+Booleans are data types that can only be one of two values, such as true/false, yes/no, on/off. 
