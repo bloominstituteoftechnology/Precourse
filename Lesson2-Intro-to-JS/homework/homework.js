@@ -28,12 +28,15 @@ let newModulo = 21 % 5 === 1 ;
 
 function returnString(str) {
   //simply return the string provided: str
+  return str;
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
+  sum = x + y;
+  return sum;
 }
 
 function subtract(x, y) {
