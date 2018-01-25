@@ -1,0 +1,15 @@
+. FEYNMANS QUESTIONS
+
+	* `for`
+	* `&&`, `||`, `!`
+	* Arrays
+
+  FOR LOOP: A for loop is a way for us to have our computers run through our code multiple times and do whatever we tell it to do every time it runs through until we tell it to stop.
+
+  AND OPERATOR: The 'and operator' is a way to tell our computers to only run the following bit of code if all of the conditions are true.
+
+  OR OPERATOR: The 'or operator' is a way to tell our computers to only run the following bit of code if any of the conditions are true.
+
+  NOT OPERATOR: The 'not operator' inverts whatever expression follows it. It basically takes the expression and turns it into the opposite of what it was.
+
+  ARRAYS: Arrays are basically variables that hold multiple things instead of just one thing.
