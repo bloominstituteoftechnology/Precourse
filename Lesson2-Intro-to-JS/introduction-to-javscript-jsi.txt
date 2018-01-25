@@ -1,0 +1,53 @@
+# Homework: Introduction to Javascript, JSI
+ref: [https://github.com/LambdaSchool/Precourse/blob/master/Lesson2-Intro-to-JS/homework/README.md]
+
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables
+Strings
+Functions (arguments, return)
+if statements
+Boolean values (true, false)
+
+-----------------------------
+## Variables
+
+You are moving house. You are given 10 boxes to pack up all your stuff. You are smart. You think you should put all the things for the kitchen in one box and follow a similar pattern for the other rooms in the house. When the boxes arrive at your new house you don't want to waste time opening up each box to find out what is inside. You decide to label up the boxes. The box with the "kitchen" label is where you will go to find the kettle so you can make some tea.
+Similrly, a variable is the name we use to point to the contents of a space in the computers memory. This space will usually contain information or data rather than kitchen utensils! Variables allow us to quickly find or refer to this data in a similar way to the label on the box.
+
+## Strings
+
+A string is any group of characters including letters, numbers and punctuation marks which make up text so long as they are contained between quotation marks, either two '' or "". Without the containing quotation marks the computer will not understand this text is a string.
+
+## Functions (arguments, return)
+
+Every morning you brush your teeth. This is a familiar routine you carry out daily probably without thinking too much about it. If you needed to explain this to someone else you could write out each step you follow to brush your teeth. You could give this set of instructions a name like 'How to brush teeth'. It might include things like 'add toothpaste to brush' and 'brush each quadrant for 30 secs'. You will select your toothbrush and your favorite toothpaste but for the process to work it could really be any toothbrush and any toothpaste, plus you wouldn't want them to use your toothbrush by blindly following your instructions! Maybe you should simplify the instructions so anyone could follow along in order to brush their teeth. You now know that in order to follow your list of instructions 'How to brush teeth' this person will need access to a toothbrush and toothpaste. You can think of these items as inputs needed to perform your instructions. By stating this you can also now refer to these items within your list of tasks with the names toothbrush and toothpaste and the person following will know this means their actual toothbrush and thier preffered toothpaste. To make this clear you write Brush Teeth (with toothbrush and toothpaste). If the person follows your instructions they will replace toothbrush with perhaps 'my green toothbrush' and 'my minty fresh breath toothpaste' and they should still end up with clean teeth. A function is similar to this set of instructions. A list of instructions, collectively known as a method, to perform a task which can be repeated over and over to give a prectictable result. Functions can also have expected inputs like toothpaste and toothbrush from the example which in a function are called parameters. When we instruct the computer to perform the function these parameters are replaced in the function with the actual values we want it to use. These values are called arguments. So the name 'toothbrush' is an expected parameter and 'my green toothbrush' is the value which we refer to as an argument when used when performing the function.
+
+As well as inputs, functions can also have outputs. As an example, we want to create a function that will add two numbers together and give us the result. In the JavaScript programming language we use the keyword 'function' to let the computer know what to expect. We also give the function a name which will allow us to re-use this piece of code again by referring to this name.
+
+function addTwoNumbers(x,y) {
+return x + y;
+}
+
+x and y are the paramaters expected by the function. To get the program to make the calculation or run the code we would write:
+
+addTwoNumbers(2,2);
+
+Here we have run or called the function with the arguments 2 and 2 which will replace the parameters x and y within the function. 
+
+>>expected output would be the value 4 returned
+
+## if statements
+
+If you go to a theme park some of the rides have a minimum height restriction. There is usually a sign alongside a character saying 'you must be taller than me to ride' at the front of the queue. If you are tall enough, you can go on the ride, if not, you can't. An if statement in programming works on the same basis. If the answer to the question (are you tall enough) is yes then it is said to have met the condition. In that case the program will go on to carry out a certain list of instructions. In the example this would be go on the ride. However, if the condition isn't met, the answer to the question (are you tall enough) is no then the program will skip these instructions and move on to the next part of the program.
+
+if(condition is met) 
+     {
+     do the instructions within the curly braces 
+     }
+
+otherwise continue with the other instructions
+
+## Boolean values (true, false)
+
+Using the ride example above the answer to the question can be either yes or no. There are only two choices. We can easily replace yes and no with true or false. A Boolean in programing can be either true or false. So, is tall enough can only be equal to true or false.
