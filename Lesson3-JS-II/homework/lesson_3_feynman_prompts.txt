@@ -1,0 +1,7 @@
+### Lesson 3 Feynman Writing Prompts ###
+
+- for: Software runs on loops and looping means repeating a block of code when a condition is true. You can use this to execute the code you need, multiple times, without writing it more than once or if you want it to repeat when a certain condition is true. In JavaScript, for is a statement that is used to achieve this. Like "if" statements, for is constructed with logic inside parentheses; however, it is split into three parts. Respectively, they are the intialize loop variable, loop test condition, and increment loop variable.
+
+- &&, ||, ! : Using Logcal Operators, we can compare to expressions and ask if one of them is true, both of them are true, or none of them are true. Respectively, ||, which means OR, will tell you if at least one of the expressions are true. || will return false if both expressions are false.  Meanwhile, &&, which means AND, will only return true if both expressions are true.  Finally, ! means NO Tand will return the opposite boolean valaue of what is passed to it.
+
+-Arrays: Arrays allow you to store your data and can contain strings, numbers, booleans, and other arrays. They are practically containers that store collections of data and each entry has a position within the array that can be called and/or modified.
