@@ -56,22 +56,15 @@ function divide(x, y) {
 }
 
 function areEqual(x, y) {
-  if(x === y){
-    return true;
-  } else{
-    return false;
-  }
+  return x === y;
   // return true if x and y are the same
   // otherwise return false
   // code here
 }
 
 function areSameLength(str1, str2) {
-  if(str1.length === str2.length){
-    return true;
-  } else{
-    return false;
-  }
+  return str1.length === str2.length;
+  
   // return true if the two strings have the same length
   // otherwise return false
   // code here
