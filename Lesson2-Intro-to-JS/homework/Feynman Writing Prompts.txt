@@ -1,0 +1,9 @@
+Variables are keywords used to store values such as numbers, strings, booleans, or arrays.
+
+Strings are blocks of text
+
+Functions are lines of code that change or manipulate variables
+
+If statements are a way to control the flow of a function or program
+
+Boolean values are true or false
