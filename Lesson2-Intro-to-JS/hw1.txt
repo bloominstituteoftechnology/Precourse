@@ -1,0 +1,9 @@
+Variables - It is like a box that you put your content into, and when you want to use it again, you go back to the box to get that content (aka values).
+
+Strings - This is known as a data type, it is basically a speech bubble containing words or numbers, this is a content that would go in a box(variable).
+
+Functions(argument, return) - This is referring to the ability to write instructions that needs to be reused, like instructions in a cook book. The instructions for a specific recipe will be read and used to make a dish, and each time it is used it should make the same dish (depending on the ingredients aka the arguments). The return ‘key word’ is basically the presentation of the dish, or the end result.
+
+if statements - When Google Maps gives directions to a desired location, you will want to head, for example, either left or right and continue on. Therefore, if statements checks to see which direction is correct and goes that way, and from there the directions continue. This is to say that once a direction is selected, the other direction is ignored because it would not be the chosen path.
+
+Boolean values(true, false) - These values are a simple way to state that something is ‘true’ or ‘false’. If true, the computer reads this as the correct value, whereas false would tell the computer to look for the ‘true’ value. 
