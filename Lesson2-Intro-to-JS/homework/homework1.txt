@@ -1,0 +1,12 @@
+Feynman Writing Prompts - 1/24/18
+
+Variables: A variable is something we use to store values that can be used later. In a real life scenario, our variable would be named John. John can store his value, a toolbox, for later use.
+
+Strings: Strings are the individual words that you write down on your paper. Pony is a string. All of the words that written are strings, block of texts.
+
+Functions: Functions are the actions that you take to do anything. So when you're kicking a ball, your leg is assigned all sorts of functions to complete it's task, which is to kick that ball!
+
+if statements: An if statement is exactly what it sounds like, it's an if statement. If you are old enough to drive, you can. If you aren't old enough to drive, you can't.
+
+Boolean values (true, false): Boolean values are similar to a lightswitch, they are either on or off. We write true or false instead of on or off.
+ 
