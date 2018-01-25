@@ -101,7 +101,7 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  return num%2!==0;
+  return num%2===1;
 }
 
 function square(num) {
