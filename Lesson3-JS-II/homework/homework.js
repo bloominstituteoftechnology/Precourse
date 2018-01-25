@@ -1,41 +1,64 @@
-// Do not change any of the function names
-
+// Returns the larger integer
 function getBiggest(x, y) {
-  // x and y are integers.  Return the larger integer
-  // if they are the same return either one
+  if (x > y) {
+    return x;
+  } else {
+    return y;
+  }
 }
 
+/* Returns a greeting for three different languages:
+ * language: 'German' -> 'Guten Tag!'
+ * language: 'English' -> 'Hello!'
+ * language: 'Spanish' -> 'Hola!'
+ * if language is undefined it returns 'Hello!'
+ */
 function greeting(language) {
-  // return a greeting for three different languages:
-  // language: 'German' -> 'Guten Tag!'
-  // language: 'English' -> 'Hello!'
-  // language: 'Spanish' -> 'Hola!'
-  // if language is undefined return 'Hello!'
+  if (language === 'German') {
+    return 'Guten Tag!';
+  } else if (language === 'Spanish') {
+    return 'Hola!';
+  } else {
+    return 'Hello!';
+  }
 }
 
+/* Returns true if num is 10 or 5
+ * otherwise returns false
+ */
 function isTenOrFive(num) {
-  // return true if num is 10 or 5
-  // otherwise return false
+  return (num === 5 || num === 10);
 }
 
+// Returns true if num is less than 50 and greater than 20
 function isInRange(num) {
-  // return true if num is less than 50 and greater than 20
+  return (num > 20 && num < 50);
 }
 
 function isInteger(num) {
-  // return true if num is an integer
-  // 0.8 -> false
-  // 1 -> true
-  // -10 -> true
-  // otherwise return false
-  // hint: you can solve this using Math.floor
+  return Math.floor(num) === num;
 }
 
+// If num is divisible by 3 return 'fizz'
+// if num is divisible by 5 return 'buzz'
+// if num is divisible by 3 & 5 return 'fizzbuzz'
+// otherwise return num
 function fizzBuzz(num) {
-  // if num is divisible by 3 return 'fizz'
-  // if num is divisible by 5 return 'buzz'
-  // if num is divisible by 3 & 5 return 'fizzbuzz'
-  // otherwise return num
+  let str = '';
+  
+  if (num % 3 === 0) {
+    str += 'fizz';
+  }
+
+  if (num % 5 === 0) {
+    str += 'buzz';
+  }
+
+  if (str) {
+    return str;
+  } else {
+    return num;
+  }
 }
 
 function isPrime(num) {
@@ -44,62 +67,106 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+
+  if (num === 0 || num === 1) {
+    return false;
+  }
+
+  return true;
 }
 
 function returnFirst(arr) {
-  // return the first item from the array
+  return arr.shift();
 }
 
 function returnLast(arr) {
-  // return the last item of the array
+  return arr.pop();
 }
 
 function getArrayLength(arr) {
-  // return the length of the array
+  return arr.length;
 }
 
+// Increase each integer in arr by one
+// return arr
 function incrementByOne(arr) {
-  // arr is an array of integers  
-  // increase each integer by one
-  // return the array
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] += 1;
+  }
+
+  return arr;
 }
 
+// Add item to the end of arr; return arr
 function addItemToArray(arr, item) {
-  // add the item to the end of the array
-  // return the array
+  arr.push(item);
+  return arr;
 }
 
+// Add item to the front of arr; return arr
 function addItemToFront(arr, item) {
-  // add the item to the front of the array
-  // return the array
-  // hint: use the array method .unshift
+  arr.unshift(item);
+  return arr;
 }
 
+// Given an array of strings
+// return a string that is all of the words concatenated together
+// wth spaces between each word
 function wordsToSentence(words) {
-  // words is an array of strings
-  // return a string that is all of the words concatenated together
-  // spaces need to be between each word
-  // example: ['Hello', 'world!'] -> 'Hello world!'
+  let str = '';
+
+  for (let i = 0; i < words.length; i++) {
+    str += words[i];
+    if (i < words.length - 1) {
+      str += ' ';
+    }
+  }
+
+  return str;
 }
 
 function contains(arr, item) {
-  // check to see if item is inside of arr
-  // return true if it is, otherwise return false
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === item){
+      return true;
+    }
+  }
+
+  return false;
 }
 
+// Adds all of the integers and returns the value
 function addNumbers(numbers) {
-  // numbers is an array of integers.
-  // add all of the integers and return the value
+  let num = 0;
+  
+  for (let i = 0; i < numbers.length; i++) {
+    num += numbers[i];
+  }
+
+  return num;
 }
 
 function averageTestScore(testScores) {
-  // testScores is an array.  Iterate over testScores and compute the average.
-  // return the average
+  return addNumbers(testScores) / testScores.length;
 }
 
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
+  let largestNum = numbers[0];
+
+  for (let i = 1; i < numbers.length; i++) {
+    if (largestNum < numbers[i]) {
+      largestNum = numbers[i];
+    }
+  }
+
+  return largestNum;
 }
 
 // Do not modify code below this line.

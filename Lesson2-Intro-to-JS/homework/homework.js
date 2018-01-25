@@ -86,12 +86,12 @@ function roundUp(num) {
   return Math.ceil(num);
 }
 
-// Utility fundtion: adds an exclamation point to the end of str then returns it
+// Utility function: adds an exclamation point to the end of str then returns it
 function addExclamationPoint(str) {
-  return str += '!';
+  return str + '!';
 }
 
-// Utility fundtion: returns concatonated the string 'firstName lastName'
+// Utility function: returns concatenated the string 'firstName lastName'
 function combineNames(firstName, lastName) {
   return firstName + ' ' + lastName;
 }
