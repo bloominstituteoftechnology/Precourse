@@ -31,16 +31,16 @@ describe('Todo Class', () => {
   });
   
   it('creates a Todo', () => {
-    expect(newTodo.desc).toEqual(desc);
+    expect(newTodo.description).toEqual(desc);
     expect(newTodo.complete).toEqual(false);
   });
 
   it('adds completeTodo to the prototype of Todo', () => {
-     expect(typeof Todo.prototype.completeToDo).toBe('function');
+     expect(typeof Todo.prototype.completeTodo).toBe('function');
   });
 
-  it('completeToDo method changes complete to true', () => {
-    newTodo.completeToDo();
+  it('completeTodo method changes complete to true', () => {
+    newTodo.completeTodo();
     expect(newTodo.complete).toBe(true);
   });
 
