@@ -195,6 +195,8 @@ function getTriangleArea(base, height) {
   return (base * height)/2;
 }
 
+//small comment for no reason
+
 // Do not modify code below this line.
 // --------------------------------
 
