@@ -55,13 +55,13 @@ function divide(x, y) {
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-    return(x == y);
+    return(x === y);
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-    return(str1.length == str2.length);
+    return(str1.length === str2.length);
 }
 
 function lessThanNinety(num) {
@@ -84,7 +84,7 @@ function getRemainder(x, y) {
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-    if(num % 2 == 0) {
+    if(num % 2 === 0) {
         return(true);
     }
     else {
@@ -95,7 +95,7 @@ function isEven(num) {
 function isOdd(num) {
     // return true if num is false
   // otherwise return false
-    if(num % 2 == 0) {
+    if(num % 2 === 0) {
         return(false);
     }
     else {
