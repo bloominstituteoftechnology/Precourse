@@ -1,0 +1,17 @@
+    Variables:
+
+	In my opinion, Variables are names reprenting something. It's a symbol standing for all kinds of data. It may reprent a number, letters, or boolean. Just like person's name, before you call it,  someone should have been named it first. 
+
+
+	Functions (arguments, `return`):
+
+	Functions coutain a block of codes, which can be called repeatedly and countain arguments as values passed on to the statements. 
+
+	`if` statements:
+
+	If statements are used when there are many conditions. Different conditions means different actions resulting in different decisions. 
+
+
+	Boolean values (`true`, `false`):
+
+    Boolean vlues contain tow different value, one is true, the other one is false. 
