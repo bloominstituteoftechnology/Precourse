@@ -1,0 +1,19 @@
+for
+
+    For loop allows you to execute a block of code for each element in an array.
+
+&&
+
+    Returns true if the left side of the && and the right side both evaluate to true, otherwise returns false.
+
+||
+
+    Returns true if eight side of the || evaluates to true, otherwise returns false.
+
+!
+    Returns of the right operand evaluates to true, otherwise false. Unary op.
+
+
+Arrays
+
+    A collection of items accessible by index, type is not enforced.
