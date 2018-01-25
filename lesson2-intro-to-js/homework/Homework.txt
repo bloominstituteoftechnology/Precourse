@@ -1,4 +1,6 @@
-Variable - A variable is a word, letter, or letter number combination that we use as a placeholder for some other information. 
+Variable
+A variable is a word, letter, numbers, underscores, dollar signs or some combination of these items
+that we use as a placeholder for some other information. 
 Defining a variable requires the following elements (make sure to include spaces between each element):
 1. A Keyword (var, let, or const)
 2. The name you give to the variable
@@ -8,13 +10,31 @@ Defining a variable requires the following elements (make sure to include spaces
 
 EXAMPLE: let carName = "Hyundai";
 
-Strings - A string stores information in the form of text using quotation marks on either side of the text. 
+
+Strings
+A string stores information in the form of text using quotation marks on either side of the text. 
 You can use single quotes ('Hello') or double quotes ("Hello").
 A string can be one word or multiple words. 
 
 EXAMPLE: var carName = "Hyundai Tucson";
 
-Just can't get to the last few.
+
+Function
+Functions perform tasks. These tasks are determined by the coder inside of curly braces as can be seen below. 
+Before getting to those curly braces and determining what this function will do, you need to give the function a name. Let's 
+say "giveNumber" like this:
+
+function giveNumber
+
+Then you need parantheses to follow without a space after the function like this:
+
+function giveNumber()
+
+Function parameters go inside of those parentheses like this: 
+
+function giveNumber(paramater1, parameter2, ...)
+
+
 
 
 
