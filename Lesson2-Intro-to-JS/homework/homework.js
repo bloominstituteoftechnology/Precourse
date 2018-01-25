@@ -34,144 +34,107 @@ function returnString(str) {
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
-  const sum = x + y;
-  return sum;
+  return x + y;
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
-  const difference = x - y;
-  return difference;
+  return x - y;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
-  const product = x * y;
-  return product;
+  return x * y;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
-   const div = x / y;
-  return div;
+   return x / y;
 }
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  if (x == y) {
-    return true;
-  } else {
-    return false;
-  }
+  return x === y;
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  if (str1.length == str2.length) {
-    return true;
-  } else {
-    return false;
-  }
+  return str1.length === str2.length;
 }
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
-  if (num < 90) {
-    return true;
-  } else {
-    return false;
-  }
+  return num < 90;
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
-  if (num > 50) {
-    return true;
-  } else {
-    return false;
-  }
+  return num > 50;
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
-  const modulo = x % y;
-  return modulo;
+  return x % y;
 }
 
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-  if (num % 2 === 0) {
-    return true;
-  } else {
-    return false;
-  }
+  return num % 2 === 0;
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
-  if (num % 2 !== 0) {
-    return true;
-  } else {
-    return false;
-  }
+  return num % 2 === 1;
 }
 
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
-  const squareNum = Math.pow(num, 2);
-  return squareNum;
+  return num * num;
 }
 
 function cube(num) {
   // cube num and return the new value
-  const cubeNum = Math.pow(num, 3);
-  return cubeNum;
+  return num * num * num;
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
-  const raisedNum = Math.pow(num, exponent);
-  return raisedNum;
+  return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
   // round num and return it
-  const roundedNum = Math.round(num);
-  return roundedNum;
+  return Math.round(num);
 }
 
 function roundUp(num) {
   // round num up and return it
-  const roundedUpNum = Math.ceil(num);
-  return roundedUpNum;
+  return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  const excitedString = str + '!';
-  return excitedString;
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  const fullName = firstName + ' ' + lastName;
-  return fullName;
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  const greeting = 'Hello ' + name + '!';
-  return greeting;
+  return 'Hello ' + name + '!';
 }
 
 // The next two questions will have you implement math area formulas. 
@@ -179,14 +142,12 @@ function getGreeting(name) {
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
-  const rectArea = length * width;
-  return rectArea;
+  return length * width;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  const triArea = (0.5 * base) * height;
-  return triArea;
+  return (0.5 * base) * height;
 }
 
 // Do not modify code below this line.
