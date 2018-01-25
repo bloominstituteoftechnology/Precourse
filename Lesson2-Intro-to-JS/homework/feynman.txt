@@ -1,0 +1,32 @@
+Variables: 
+	Any program that is useful at all is going to make use of data, 
+be it strings, numbers, or whatever. Most of the time, having data means 
+that you need the ability to store that data and pass it around. One way 
+to do that would be to know the location in memory where data is stored, 
+but that seems very cumbersome and difficult. An easier way would be to 
+have a container for data that you could reference quickly and easily. 
+This is what variables are. Variables are containers for data to which 
+you can assign a name. When one wants to make use of the data stored in 
+the variable, it can then be referenced by invoking the name of the 
+variable. 
+
+	Variables have some important properties that one needs to be 
+aware of when making use of them. The first is the concept of scope. 
+Scope, to put it simply, refers to the idea that your variables are not 
+accessible, available, or visible to every part of your program. 
+Variables that are declared or created inside of a function are only 
+accessible or visible from within that function (i.e. their scope is the 
+inside of the function in which they are declared). 
+	
+	Similar to scope  is the idea of lifetime, or how long the 
+variable exists within the program. In most languages, the lifetime of a 
+variable begins when the function begins executing and ends when the 
+function terminates. 
+
+Strings:
+
+	Strings are literals or variables that contain text data. 
+Although text data often includes numbers, it's important to note that a 
+string numeral is not the same as a numerical literal or variable such 
+as an int. Mathematical operations are not defined between strings and 
+numbers, so '25' - 13 is not a valid operation. 
