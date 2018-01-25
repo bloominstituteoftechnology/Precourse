@@ -1,0 +1,12 @@
+1. Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Variables: Variables are placeholders where values are kept. In Javascript, variables can be defined by using keyword "let" in es6. Constants can be defined with "const".
+
+	* Strings: Strings are text values. There are different types of variables. Integer, String, Boolean are some of them. String is a sequence of characters which are bound by inverted comma single or double.
+
+	* Functions (arguments, `return`): Functions are block of codes which can be reused and accomplish some certain functions on arguments assigned and return some value as its output. Functions are defined with keyword "function function_name(arguments)"
+
+	* `if` statements: if statement is a testing statement which tests for some certain conditions to be true and if true runs a block of code. This statement helps in articulating logic in a program. If condition is true run the block of code else it doesnot run.
+
+	* Boolean values (`true`, `false`): Boolean values consists of only two values, either true or false. Such values are similar to a switch which has only two states. It can be on or off.
+    

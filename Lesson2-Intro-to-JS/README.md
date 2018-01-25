@@ -72,7 +72,7 @@ Numbers are just that, numbers. Numbers do NOT have quotes around them. They can
 
 ### Boolean
 
-Booleans come from low level computer science. It is a concept that powers binary code and the very core of computers. You may have seen binary code in the past (0001 0110...), this is boolean logic. It essentially means you have two choices, on or off, 0 or 1, true of false. In Javascript we use Booleans to mean true or false. This may seem simple at first but can get complicated later on.
+Booleans come from low level computer science. It is a concept that powers binary code and the very core of computers. You may have seen binary code in the past (0001 0110...), this is boolean logic. It essentially means you have two choices, on or off, 0 or 1, true or false. In Javascript we use Booleans to mean true or false. This may seem simple at first but can get complicated later on.
 
 ```javascript
     const iLoveJavascript = true;
