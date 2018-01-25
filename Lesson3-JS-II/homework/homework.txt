@@ -1,0 +1,5 @@
+for - allows you to iterate a set amout of times. Allows you to evaluate expressions again and agin until it returns what you are looking for or stops after the set amount you tell it to iterate.
+&& - logical operator, evaluates 2 expressions and will return true if both expressions are true and false if either or both expressions are false.
+|| - logical operator, evaluates 2 expressions and will return true if either expression is true and false if both expressions are false.
+! - logical operator, it will return the opposite boolean value of an expression
+Arrays - allows you to keep a collection of data types (i.e a set of number, strings, and/or booleans)
