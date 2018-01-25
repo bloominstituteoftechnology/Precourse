@@ -6,4 +6,4 @@ Functions (arguments, `return`): a function is like a production line in a sense
 
 if statement: if statement is a control flow that has a conditional statement to test and a set of code blocks to run when the test result is true. The code blocks inside an if statement will not be executed when the test result is false.
 
- 
+Boolean values ('true', 'false'): Boolean is a data type that holds either true or false. 
