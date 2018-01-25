@@ -28,112 +28,189 @@ let newModulo = 21 % 5 === null ;
 
 function returnString(str) {
   //simply return the string provided: str
+  let newString = str;
+  return newString;
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
+  let product = x + y;
+  return product;
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
+  let subtractionAnswer = x - y;
+  return subtractionAnswer;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
+  let multiplicationAnswer = x - y;
+  return multiplicationAnswer;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
+  let division = x/y;
+  return division;
 }
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
+  if (x==y){
+    return true;
+   }else{
+    return false;
+   }
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
+  let string1 = str1.length();
+  let string2 = str2.lenght();
+  if(string1 == string2) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
+  let numCheck = num;
+  if (numCheck < 90) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
+  let numCheck = num;
+  if (numcheck > 50) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
+  let remainder = x % y;
+  return remainder;
 }
 
 function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
+  let evenNumCheck = num%2;
+  if (evenNumCheck == 0){
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function isOdd(num) {
   // return true if num is false
   // otherwise return false
   // code here
+  let oddNumCheck = num%2;
+  if (oddNumCheck == 1){
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
+  let sqrAnswer = Math.pow(num,2);
+  return sqrAnswer;
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
+  let cubeAnswer = Math.pow(num,3);
+  return cubeAnswer;
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
+  let baseNum = num;
+  let expNum = exponent;
+  let answer = Math.pow(baseNum,expNum);
+  
+  return answer;
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
+  let roundNum = Math.round(num);
+  return roundNum;
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
+  let roundUpNum = Math.ceil(num);
+  return roundUpNum;
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
+  let baseStr = str;
+  let appendSymbol = "!";
+  let newStr = baseStr + " " + appendSymbol;
+
+  return newStr;
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
+  let firstName = firstName;
+  let lastName = lastName;
+
+  let fullName = firstName + " " + lastName;
+
+  return fullName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
+
+  let name = name;
+  let message = "Hello ";
+
+  return message + name + "!";
 }
 
 // The next three questions will have you implement math area formulas. 
