@@ -2,6 +2,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
+<<<<<<< HEAD
 let newString = 'Hello there!';
 
 //create a number variable, it an be any number
@@ -9,15 +10,31 @@ let newNum = 7 ;
 
 //create a boolean variable
 let newBool = true ;
+=======
+let newString = 'Hey There!';
+
+//create a number variable, it an be any number
+let newNum = 14;
+
+//create a boolean variable
+let newBool = true;
+>>>>>>> 42c39b923e7153f312027f89c1217cec041ac35a
 
 //solve the following math problem
 let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
+<<<<<<< HEAD
 let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
 let newModulo = 21 % 5 === 1 ;
+=======
+let newMultiply = 10 * 4 === 40;
+
+//Solve the following math problem:
+let newModulo = 21 % 5 === 1;
+>>>>>>> 42c39b923e7153f312027f89c1217cec041ac35a
 
 
 
