@@ -3,3 +3,7 @@ Feynman Writing Prompts
 Variables: a variable is a container. Each variable has a name, and it could also have a value assigned to it. Before it can be use to store a value, first a variable needs to be declared by its name. Some variables have fixed values that cannot be changed, and we call those variables constants, and we use const [variable_name] to declare it. Other variables have values that can be changed or updated, not only to the same type of values but also to different ones. We use let [variable_name] to declare this type of variables. However, it is not a best practice to update the value of a variable with a value of different type.
 
 Functions (arguments, `return`): a function is like a production line in a sense that it has all these certain directives on how it runs and produces things. Some functions need a certain arguments or inputs in order to run, otherwise it will break. Other functions do not need any arguments to run, and that's perfectly fine. Some functions return a value, or an output just like a production line would, while others have no return value but there, for example, to display a message to the console.
+
+if statement: if statement is a control flow that has a conditional statement to test and a set of code blocks to run when the test result is true. The code blocks inside an if statement will not be executed when the test result is false.
+
+ 
