@@ -1,0 +1,26 @@
+1. for
+A for loop is used to execute a block of statements a set amount of times. It
+has an integer value as counter, a limit on the counter for when the loop stops 
+executing and a statement that manipulates the counter after every execution of
+the loop. It may occur that the limit is never reached through manipulation of
+the counter which results in an endless loop.
+
+
+2. &&, ||, !
+- && is a logical 'and'; if two values or statements are compared and both
+evaluate to 'true', then the whole 'and' statement evaluates to true.
+- || is a logical 'or'; if two values or statements are compared and one
+of them evaluates to 'true', the the whole 'or' statement evaluates to true. In
+order for an 'or' statement to be false, both compared values/statements have
+to be false.
+- ! is a logical 'not'; it's similar to a multiplication with -1; '!true' becomes
+'false' and '!false' becomes 'true'
+
+
+3. Arrays
+Arrays are containers that can store more than one value (compared to variables).
+They can store values of different types, so one array can hold integers and 
+strings at the same time, for example. A specific value of an array can be
+accessed by its value. If one wants to access the first element of an array, the
+[0] index should be used. Arrays have specific functions to add or remove values
+to them at different indices.
