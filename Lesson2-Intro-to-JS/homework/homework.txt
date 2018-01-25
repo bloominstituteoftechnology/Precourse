@@ -1,0 +1,11 @@
+Feynman Writing Prompts
+
+Variables: A way to store value for something to use later
+
+Strings: Strings are words, sentences or anything like that. Block of text. In double quotes or single quotes
+
+Functions: A function is a custom script which takes an argument and then performs some function (example: compute something) and then returns something.
+
+if statements: if statements are used to control something. If something is true do this, if not do something else.
+
+Boolean values (true, false): TRUE or FALSE. Two choices 0 or 1/ ON or OFF/
