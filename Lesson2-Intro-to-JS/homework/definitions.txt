@@ -1,0 +1,6 @@
+
+    Variables: these are elements that will vary  values as the function or program is executed
+    Strings: a String is a collection of characters with one ore more characters
+    Functions (arguments, return): A function declares functionality that based on some arguments it will operate on them and return a value or a decision.
+    if statements: an IF Statement only checks optional validity of a particular statement. we can have multiple IFs nested inside an IF to confirm data or segment data. IF Statements give options to more checks.
+    Boolean values (true, false): boolean values validate one specific condition of a particular statement. It is basically a YE/No Question
