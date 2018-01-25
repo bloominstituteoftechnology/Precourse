@@ -2,7 +2,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = "Finally Worked" ;
+let newString = 'Finally Worked' ;
 
 //create a number variable, it an be any number
 let newNum = 17 ;
@@ -30,6 +30,7 @@ function returnString(str) {
   //simply return the string provided: str
   return str;
 }
+
 
 function add(x, y) {
   // x and y are numbers
