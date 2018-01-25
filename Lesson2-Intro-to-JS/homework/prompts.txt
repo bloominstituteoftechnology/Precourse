@@ -1,0 +1,21 @@
+Feynman Writing Prompts
+
+----- Variables -----
+
+Variables are like envelopes that can hold a piece of information in order to use it later. The envelope can only hold one item at a time, but can hold many types of items.
+
+----- Strings -----
+
+Strings are a block (string) of text. Strings are always surrounded by quotation marks, either single or double.
+
+----- Functions (arguments, return) -----
+
+Functions are groups of tasks or actions organized together and identified by a name. Calling that name will start the group of tasks.
+
+----- if Statements -----
+
+if Statements allow you to do one thing or another based on the result of a comparison.
+
+----- Boolean Statements -----
+
+Boolean statements are either on or off. On equals true while off equals false.
