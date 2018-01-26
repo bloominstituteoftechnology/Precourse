@@ -12,14 +12,14 @@ function greeting(language) {
   // language: 'English' -> 'Hello!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
-  /*let greeting = 'Hello!';
+  let greeting = 'Hello!';
   const message = [['German','Guten Tag!'],['English', 'Hello!'],['Spanish', 'Hola!']];
-  for (let i = message.length - 1; i >= 0; i--) {
-    if(message[i] === language) {
+  for (let i = 0; i < message.length; i++) {
+    if(message[i][0] === language) {
       greeting = message[i][1];
     }
-  }*/
-  if (language === 'German') {
+  }
+  /*if (language === 'German') {
     return 'Guten Tag!';
   } else if (language === 'English') {
     return 'Hello!';
@@ -27,7 +27,8 @@ function greeting(language) {
     return 'Hola!';
   } else {
     return 'Hello!';
-  }
+  }*/
+  return greeting;
 }
 
 function isTenOrFive(num) {
@@ -73,7 +74,7 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  let result = true;
+  /*let result = true;
   if (num > 1) {
     for (let i = 2; i < num - 1; i++) {
       if(num % i === 0) {
@@ -83,7 +84,16 @@ function isPrime(num) {
   } else {
     result = false;
   }
-  return result;
+  return result;*/
+  if(num < 2) {
+    return false;
+  }
+  for (let i = 2; i < num; i++) {
+    if(num % i === 0) {
+      return false;
+    } 
+  }
+  return true;
 }
 
 function returnFirst(arr) {
@@ -131,7 +141,7 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  let sentence = '';
+  /*let sentence = '';
   for (var i = 0; i < words.length; i++) {
     if(i === 0) {
       sentence += words[i];
@@ -139,34 +149,44 @@ function wordsToSentence(words) {
       sentence += ' ' + words[i];
     }
   }
-  return sentence;
+  return sentence;*/
+  return words.join(' ');
 }
 
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-  return (arr.indexOf(item) !== -1);
+  /*return (arr.indexOf(item) !== -1);*/
+  return arr.includes(item);
 }
 
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
-  let result = null;
+  /*let result = null;
   for (var i = numbers.length - 1; i >= 0; i--) {
     result += numbers[i];
   }
-  return result;
+  return result;*/
+  // .reduce()
+  let sum = null;
+  for (var i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  return sum;
 }
 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
-  let average = 0;
+  /*let average = 0;
   for (var i = testScores.length - 1; i >= 0; i--) {
     average += testScores[i];
   }
   average /= testScores.length;
-  return average;
+  return average;*/
+  // .reduce()
+  return addNumbers(testScores)/testScores.length;
 }
 
 function largestNumber(numbers) {
