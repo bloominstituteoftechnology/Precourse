@@ -1,0 +1,5 @@
+for - to go through a determined cycle, to process a chain based on certain criteria
+&& - AND it combines two criteria that needs to be met
+|| - OR it chooses either of two choises
+ ! - it creates a negative or anti something.. != would be un equal, or different than
+ Arrays - Arrays are a set of data contained in one single object.
