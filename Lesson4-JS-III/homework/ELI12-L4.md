@@ -102,8 +102,8 @@ const animal = {
 
 if you want to get rid of a property such as 'howOld', you can use the delete keyword.
 
-delete animal.howOld();
-console.log(animal); will then print the object without the 'howOld' property
+`delete animal.howOld();`
+`console.log(animal);` will then print the object without the 'howOld' property
 
 ---
 
