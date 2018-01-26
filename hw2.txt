@@ -1,0 +1,29 @@
+*Variables
+
+Variables store values which we assign, and they can be modified or 
+static, depending on our intentions. We assign a variable in order for
+it to be called upon to be used later.
+
+
+*Strings
+
+Strings are sections of text. We need to confine them within ''
+
+
+*Functions
+
+Functions store chunks of code, which are directions for how to handle
+the variables that we will feed them later. They can be called upon by 
+name in order to work those directions over assigned variables for that instance.
+
+
+*If statements
+
+"If" statements allow for logic branches in your code. This means that
+you can assign one set of directions if a certain condition is met, 
+otherwise another set of directions is followed.
+
+
+*Boolean values
+
+This assigns a variable to be either true or false (gives a binary assignment)
