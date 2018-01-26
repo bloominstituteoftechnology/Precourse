@@ -1,0 +1,9 @@
+Objects are a box to store lots of things in about one main thing. For instance, you are an object and everything about you (height, age, etc..) are smaller things that all can be put into the box that is you.
+
+Properties are smaller things about or related to a bigger thing. Using our definition of Objects, your age is a property of the Object that is you.
+
+Methods are functions that can be used on Objects.
+
+For in loops are a way to loop through the property names and their corresponding values of an Object.
+
+The difference in Dot notation vs bracket notation? I dunno kid, I'll let you know when I figure that out myself.
