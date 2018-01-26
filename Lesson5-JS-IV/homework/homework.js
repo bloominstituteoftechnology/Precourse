@@ -4,6 +4,17 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  let sum = 0;
+  if (arguments.length ==0) {
+    return 0;
+  } else if (arguments.length ==1) {
+    return arguments;
+  } else{
+    for (let i = 0; i < arguments.length; i++) {
+      sum += arguments[i];
+    }
+    return sum;
+  }
 }
 
 function invokeCallback(cb) {
