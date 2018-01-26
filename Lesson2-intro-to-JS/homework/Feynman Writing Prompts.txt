@@ -1,0 +1,9 @@
+Variables: Variables are basically labels for something else. You're giving something, anything, a name that you can then use to refer to it by.
+
+Strings: Strings are characters or numbers with quotation marks around them, which your computer thinks is the kind of text that a human would write.
+
+Functions: Functions are like machines, or factories. They take something in, do something to them, and give out a new object.
+
+If statements: If statements decide whether or not something is "true", or fits a requirement you set.
+
+Boolean values: Things that have one of two options. Things like "on" or "off."
