@@ -1,0 +1,13 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like 
+you are explaining it to a 12 year old. 
+Doing this will help you quickly discover any holes in your understanding. 
+Ask your questions on Slack.
+
+for - is a loop that evaluates expression over and over again until it either returns what
+	we're looking for or stops.
+	(ex. for (let i =0; i< 10; i++) | for (*declare variable*; *conditional expression*; *increment var*))
+
+&&, ||, ! - (&& is AND), (|| is OR), (! is NOT)
+
+Arrays - Arrays are like storage containers for collections of data. In order to build an array just set a variable to [],
+	then add the data types you want to the array to then be accessed whenever you'd like.
