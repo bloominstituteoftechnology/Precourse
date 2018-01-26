@@ -1,0 +1,9 @@
+1. A variable is way to store a specific type of information that can be used for later in a program. You declare a variable by using the keyword var, name of the variable that typically explains what type of information is going to be used( var firstName, age, etc.) and set it to the value you want using an equal sign. Ex: var age = 31;
+
+2. Strings are a collection of characters such as words or sentences that can be stored within a variable using quotes. Ex: var string = 'Hello World';
+
+3. Functions are what we use to do something with out variables, such as display there value, compute numbers using math or even change them if needed. Functions can be simple or complexed depending on what purpose you want them to serve.
+
+4. If/Else statements help us determine what thing or things we want our functions to perform depending on what choices we give them. They can make something be true or false, greater or less than and overall give us different results depending on different inputs we give them.
+
+5. Boolean values deal with a input being true or false. If you create a variable that has a condition that can either be true or false depending on a certain condition, you can use a boolean value. Ex: you can use to booleans to tell if the weather is hot or cold, if its day or night, or even if your favorite cartoon is on or off depending on the date or time of day.
