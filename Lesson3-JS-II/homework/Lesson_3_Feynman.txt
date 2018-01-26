@@ -1,0 +1,25 @@
+Feynmam prompts - Lesson 3
+
+for 
+
+The for statement, or for-loop, allows you run a single piece of code multiple times.  You use a counter to keep track of the number of times that you want to run your block of code. This counter gets bumped up one step, or iterated, each time the code runs. The counter also needs an end point - otherwise your code will run over and over forever - so, you define the counter's upper limit when you define your for statement.  
+
+For loops are useful when you want to do the same thing to each item in a list.  Say I wanted to write the first ten letters in the alphabet, a for loop could help with this.  The alphabet would be the list of letters.  The numbers one to ten would be my counter. The number ten would be my end point. The act of writing a single letter would be the block of code that this for statement runs.  The for statement would start with 1, and print the 1st letter in the alphabet, A.  Then it would increase that number to 2, and print the 2nd letter in the list, B. This would happen all the way up to 10, where it would print J. 10 is the upper limit defined for this for statement, so here the loop ends and your program proceded to it's next block of code.
+
+
+&&, ||, !
+
+Often in programming we need to check the condition of something - "is this thing blue," "is this number smaller than 10," "is this person a boy" - before going on with our code.  Sometimes we need to check on multiple conditions before proceding - we use the && operator to combine these checks.  && can be thought of just like the word "and." say we wanted to put the blue lego pieces from our pile of toys in a box.  We'd pick up each of our toys and check if it was a lego peice AND then we'd check if it was blue. Using the && terminology, we'd write the check like this:  "is this toy a lego" && "is this toy blue."  If the toy isn't a lego, it doesn't go in the box...even if it's a blue toy.  If the toy is a red lego, it doesn't go in the box - becuase it's red.  The toy only goes in the box if it is both blue AND a lego.
+
+Similarly, || can be thought of as the english word "or."  In this case, we still have two checks, but the program moves forward if either check passes.  Back to our toy example, say we had a pile of different color legos, and we want to put the red and blue legos in a box.  For each lego we picked up from the pile, we'd check "is this blue" OR "is this red."  If either answer is yes, the lego would go in the box.  If you pick up a yellow lego, both answers would be no, so that yellow lego would not go in the box.
+
+The ! operator is like the word "not."  It makes whatever question we are asking, an opposite question.  So instead of asking "is this thing blue" we'd be asking "is this thing NOT blue," or in other words, "is this thing any color but blue."
+
+
+Arrays
+
+An array is a group of things. Those things can be words, or numbers, or whatever we want.  The alphabet is a great example of an array of letters.  Arrays have names, and we can work with a huge list of things just by referring to it's name. Just like, when I say the work alphabet, you know exactly what I mean... I don't have to say all 26 letters, to tell you what I'm talking about.  Another example would be the word "family." I have a mother, a father, two brothers, two sister-in-laws, and one nephew.  Each person would be an element of the array "family."    We can do useful things in arrays, like ask them how long they are or add items to their lists.  If I asked the alphabet array for it's length, it'd answer 26.  If my brother and sister-in-law had a baby, i could add my new neice easily to the end of my "family" array.  
+
+
+
+

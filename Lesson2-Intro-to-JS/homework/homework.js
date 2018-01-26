@@ -116,6 +116,8 @@ function isEven(num) {
   else {
     return true;
   }
+  // this would work too
+  //  return num % 2 === 0;
 }
 
 function isOdd(num) {
@@ -128,6 +130,8 @@ function isOdd(num) {
   else {
     return false;
   }
+  // this would work too
+  //  return num % 2 === 1;
 }
 
 function square(num) {
@@ -136,6 +140,9 @@ function square(num) {
   //let result = num * num;
   let result = Math.pow (num, 2);
   return result;
+  // this would work too
+  //  return Math.pow (num, 2);
+
 }
 
 function cube(num) {
@@ -174,6 +181,8 @@ function combineNames(firstName, lastName) {
   // 'Lambda', 'School' -> 'Lambda School'
   let result = firstName + ' ' + lastName;
   return result;
+  // this works too
+  // return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
@@ -196,6 +205,8 @@ function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   let result = (base * height) / 2;
   return result;
+  // this works too:
+  // return base + height / 2;
 }
 //test
 
