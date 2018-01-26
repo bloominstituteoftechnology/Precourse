@@ -1,0 +1,5 @@
+1. Variables - a name assigned to a container or a box with "items" stored inside.
+2. String - a collection of letter/s, number/s, or other values treated as a single unit.
+3. Functions (arguments, return) - a set of procedures or method for a specific job. Argument is the data that will be used in the procedure while return is the value that the function will push out.
+4. If statements - it checks whether an event or condition is true or false
+5. Boolean values (true,false) - refers to the status of the statement or variable using the values 1 for TRUE or ON and 0 for FALSE or OFF
