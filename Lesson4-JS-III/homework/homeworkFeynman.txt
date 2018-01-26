@@ -1,0 +1,7 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Objects - An object is a data type that holds pairs of data in key/pairs, so they group two things together, in types.  It's organized by curly braces, and there's a colon that separates the topic (key) from the item (value), then commas in between each key/value pair. The key has to be unique. 
+	* Properties - An object's properties are things that can reference the values in an object. 
+	* Methods - Any time you put a function inside an object (in Javascript).
+	* for in loop - A loop that's specific for objects, looping over the key/value pairs, that adds a new variable, and the word "in" in the for parentheses statement. 
+	* Dot notation vs bracket notation -- Dot notation is used to access the properties of objects, using the actual key name, while bracket notation can also be used to access the properties of objects when a variable is used -- it is necessary when you're looping over variables, such as in the case of 'for in' loops. 
