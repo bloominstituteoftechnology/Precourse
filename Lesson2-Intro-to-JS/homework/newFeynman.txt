@@ -1,0 +1,16 @@
+
+
+Variables - like a box, variables are used to store something. You place value in the variable, 
+lable it, and use it anytime later 
+
+Strings - a group of words or a phrase, just like we use names to identify people, strings are used to 
+identify variables 
+
+Functions (arguments, return) - groups of commands that create change onto the variables, and can be reused 
+Passing an argument will cause the variable to change, and returning it will show the product 
+
+if statements - these are used to show if something is true or false, as well as variations of greater than,
+less than, equal to, and not equal to
+
+Boolean values (true, false) - a very basic computer science concept represented by a 0 or a 1 
+in JS it represents true or false 
