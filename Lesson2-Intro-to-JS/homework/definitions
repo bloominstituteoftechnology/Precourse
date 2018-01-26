@@ -1,0 +1,9 @@
+Variables - Variables are containers where data is stored for a computer program. Variables can be constant and not changed (const) or flexible to be changed as needed (let).
+
+Strings = Are representations of characters that are interpreted as text. They are surrounded by quotes. 'abc' is a string and '123' is a string but 123 is not a string, it is a number.
+
+Functions =  Functions are reusable blocks of code. They start with the keyword of function and then followed by () which will contain the item to be called or the argument for the function. These are followed by curly brackets {} where the lines of code that drive the function are written. Return statements allow the function to retun the result of the actions taken within the function.
+
+if statement = An if statement is a statement that tries to match a condition within the function. "If this is true then do this"
+
+Boolean values = Boolean is true/false. Things are or are not. 5/2 = 2 is False. 4/2= 2 is True.
