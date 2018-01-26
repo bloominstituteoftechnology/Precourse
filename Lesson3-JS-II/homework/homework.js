@@ -78,6 +78,12 @@ function fizzBuzz(num) {
 
 function isPrime(num) {
   let numIsPrime = true;
+  if (num === 0 || num === 1) {
+    return false;
+  } 
+  if (num === 2) {
+    return true;
+  }
   for (let i = 2; i <= num; i++) {
     if (num % i === 0 && i != num) {
       return numIsPrime === false;
@@ -151,15 +157,14 @@ function wordsToSentence(words) {
 }
 
 function contains(arr, item) {
-  for (let i = 0; i < arr.length; i++) {
-    let itemIsContained = false;
+  /* for (let i = 0; i < arr.length; i++) {
     if (arr[i] === item) {
       return true;
-    } else { 
-      itemIsContained = false;
-    }
-    return itemIsContained;
+    } 
   }
+    return false;
+  } */
+  return arr.includes(item);
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
 }
@@ -186,9 +191,9 @@ function averageTestScore(testScores) {
   // return the average
 
 function largestNumber(numbers) {
-  let largest;
+  let largest = numbers[0];
   for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] > numbers[i-1]) {
+    if (numbers[i] > largest) {
       largest = numbers[i];
     } 
   }
