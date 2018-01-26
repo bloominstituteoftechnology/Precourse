@@ -1,0 +1,5 @@
+Objects:  Another kind of object container that has custom properties.  These custom properties are "key:value" pairs, meaning you set the key word of the property, then assign a value to it.
+Properties:  These are your object's data attributes.  You determine what these are, and set their values.
+Methods:  Functions within an object.
+for in loop:  Allows you to loop through each of your object's properties.
+Dot notation vs. bracket notation:  dot notation is used to get or set an object's property if it is already known.  bracket notation is used to get or set an object's property by use of a string or integer variable.
