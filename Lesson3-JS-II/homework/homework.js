@@ -70,7 +70,7 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  if (num === 0 || num === 1 || num === 2) {
+  if (num === 0 || num === 1) {
     return false;
   }
   for (let i = 2; i < num; i++) {
@@ -134,6 +134,7 @@ function wordsToSentence(words) {
     }
   }
   return str;
+  // could use: return words.join(' ');
 }
 
 function contains(arr, item) {
@@ -146,6 +147,7 @@ function contains(arr, item) {
     }
   }
   return isInside;
+  // could use: return arr.includes(item);
 }
 
 function addNumbers(numbers) {
@@ -167,6 +169,8 @@ function averageTestScore(testScores) {
     sum += testScores[i];
   }
   return sum / totalScores;
+  // could use the previous function:
+  // return addNumbers(testScores) / testScores.length;
 }
 
 function largestNumber(numbers) {
