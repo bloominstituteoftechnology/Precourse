@@ -35,6 +35,7 @@ function isTenOrFive(num) {
   } else {
     return false;
   }
+  // return num === 10 || num === 5;
 }
 
 function isInRange(num) {
@@ -42,6 +43,7 @@ function isInRange(num) {
   if (num < 50 && num > 20) {
     return true;
   } return false;
+  // return num < 50 && num > 20;
 }
 
 function isInteger(num) {
@@ -75,23 +77,21 @@ function fizzBuzz(num) {
 }
 
 function isPrime(num) {
-  function isPrime(num) {
-    let numIsPrime = true;
-    for (let i = 2; i <= num; i++) {
-      if (num % i === 0 && i != num) {
-        return numIsPrime === false;
-      } else { 
-        numIsPrime = true;
-      } 
-      return numIsPrime; 
-    }
+  let numIsPrime = true;
+  for (let i = 2; i <= num; i++) {
+    if (num % i === 0 && i != num) {
+      return numIsPrime === false;
+    } else { 
+      numIsPrime = true;
+    } 
+    return numIsPrime; 
   }
+}
   // return true if num is prime.
   // otherwise return false
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-}
 
 function returnFirst(arr) {
   return arr[0];
@@ -99,12 +99,13 @@ function returnFirst(arr) {
 }
 
 function returnLast(arr) {
-  return arr.pop();
+  // return arr.pop();
+  return arr[arr.length - 1];
   // return the last item of the array
 }
 
 function getArrayLength(arr) {
-  return arr.length()  // return the length of the array
+  return arr.length;  // return the length of the array
 }
 
 function incrementByOne(arr) {
@@ -133,21 +134,26 @@ function addItemToFront(arr, item) {
 }
 
 function wordsToSentence(words) {
-  let sentence = '';
+  /* let sentence = '';
   for (let i = 0; i < words.length; i++) {
-    sentence += (' ' + words[i]);
+    sentence += words[i];
+    if (i + 1 !== words.length) {
+      sentence += ' ';
+    }
   }
   return sentence;
+  */
   // words is an array of strings
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
+  return words.join(' ');
 }
 
 function contains(arr, item) {
   for (let i = 0; i < arr.length; i++) {
     let itemIsContained = false;
-    if (arr[0] === item) {
+    if (arr[i] === item) {
       return true;
     } else { 
       itemIsContained = false;
@@ -169,11 +175,12 @@ function addNumbers(numbers) {
 }
 
 function averageTestScore(testScores) {
-  let sumOfScores= 0;
+/*   let sumOfScores= 0;
   for (let i = 0; i < testScores.length; i++) {
     sumOfScores += testScores[i];
   }
-  return (sumOfScores / testScores.length);
+  return (sumOfScores / testScores.length); */
+  return (addNumbers(testScores) / testScores.length);
 }
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
