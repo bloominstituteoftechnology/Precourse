@@ -5,10 +5,8 @@ function getBiggest(x, y) {
   // if they are the same return either one
     if (x > y) {
         return x;
-    } else if (y > x) {
-        return y;
     } else {
-        return x;
+        return y;
     }
 }
 
@@ -72,7 +70,7 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-    for (var i = 2; i < num; i++) {
+    for (let i = 2; i < num; i++) {
         if (num % i === 0) {
             return false;
         }
@@ -87,8 +85,7 @@ function returnFirst(arr) {
 
 function returnLast(arr) {
   // return the last item of the array
-    const i = arr.length - 1;
-    return arr[i];
+    return arr[arr.length - 1];
 }
 
 function getArrayLength(arr) {
@@ -146,10 +143,7 @@ function addNumbers(numbers) {
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
-    let count = 0;
-    for (let i = 0; i < testScores.length; i++) {
-        count += testScores[i];
-    } return count / testScores.length;
+    return addNumbers(testScores) / testScores.length;
 }
 
 function largestNumber(numbers) {
