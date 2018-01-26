@@ -52,9 +52,12 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  if (num < 2) return false;
-  if (num === 2) return true;
+  if (num < 2) return false; // have assumed non-negative input
+  if (num === 2) return true; // two is the only even prime number
   for (let i = 2, limit = num / 2; i < limit; ++i) {
+    // no need to test cases past limit = square root of num
+    // and future optimisations would avoid checking multiples of earlier numbers
+    // see sieve of Erasthenes ...
     if (num % i === 0) return false;
   } 
   return true;
@@ -112,6 +115,7 @@ function contains(arr, item) {
   // return true if it is, otherwise return false
   return arr.some(function(value) {
     return value === item;
+  // return arr.includes(item) gives the answer more simply
   });
 }
 
