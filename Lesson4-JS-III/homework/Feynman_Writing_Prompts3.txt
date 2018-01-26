@@ -1,0 +1,5 @@
+1. Objects - Objects are like a container that store a variety of items, each with a 'key' or name for each item. Integers, Strings, Booleans, and even Methods can be part of an Object
+2. Properties - the individual items in an Object. Even other Objects can be a property of an Object, and that Object can have it's own properties.
+3. Methods - Methods are functions, but are part of an object. They contain a block of code that will run when the method property is called by it's name (or key).
+4. For in loop - Just like a normal for loop, but this one will run through all the properties of the object that you set it to.
+5. Dot notation vs bracket notation - both notations are used to either call or set a property in an object. One difference, however, is that the Bracket notation can use variables as keys to reference a property within an object, in case you have a way to change what that key could be mid program.
