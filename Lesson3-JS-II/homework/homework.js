@@ -3,6 +3,8 @@
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
+if (x>y), return x;
+  return y;
 }
 
 function greeting(language) {
@@ -11,6 +13,8 @@ function greeting(language) {
   // language: 'English' -> 'Hello!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
+  
+  
 }
 
 function isTenOrFive(num) {
@@ -20,7 +24,10 @@ function isTenOrFive(num) {
 
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
+  return num < 50 && num > 20;  
 }
+||
+
 
 function isInteger(num) {
   // return true if num is an integer
@@ -36,6 +43,16 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
+  if (num % 3 === 0 && num % 5 === 0){
+  return 'fizzbuzz';
+  } else if (num % 3 === 0){
+    return 'fizz';
+  } else if (num % 5 === 0){
+    return 'buzz'
+  }
+  else {
+    return num;
+   
 }
 
 function isPrime(num) {
@@ -44,14 +61,28 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
+  // common interview question
+  if (num === 2 |num === 1 || num === 0){
+  return false;      
+      }
+  if (num === 2) return true;
+    for (let i = 2; i < num; i++){
+  //letting i start at 2 since we addressed 0 and 1
+  if (num % 1 === 0);
+      return false
+    }
+  
 }
 
 function returnFirst(arr) {
   // return the first item from the array
+  return arr[0];
+  
 }
 
 function returnLast(arr) {
   // return the last item of the array
+  return arr[arr.length - 1]
 }
 
 function getArrayLength(arr) {
