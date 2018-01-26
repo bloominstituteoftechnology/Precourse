@@ -1,4 +1,4 @@
-// Do not change any of the function names
+  // Do not change any of the function names
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
@@ -35,6 +35,8 @@ function isTenOrFive(num) {
   } else {
     return false;
   }
+  // also works
+  // return num === 10 || num === 5;
 }
 
 function isInRange(num) {
@@ -44,6 +46,8 @@ function isInRange(num) {
   } else {
     return false;
   }
+  // also works
+  // return num < 50 && num > 20;
 }
 
 function isInteger(num) {
@@ -58,6 +62,8 @@ function isInteger(num) {
   } else {
     return false;
   }
+  // also works
+  // return num === Math.floor(num);
 }
 
 function fizzBuzz(num) {
@@ -85,7 +91,10 @@ function isPrime(num) {
   if (num === 0 || num === 1) {
     return false;
   }
-  for (let i = 2; i <num; i++) {
+  if (num === 2) {
+    return true;
+  }
+  for (let i = 2; i < num; i++) {
     if (num % i === 0){
       return false;
     }
@@ -143,6 +152,8 @@ function wordsToSentence(words) {
     sentence += ' ' + words[i];
   }
   return sentence;
+  // this also works
+  // return words.join(' ');
 }
 
 function contains(arr, item) {
@@ -164,6 +175,8 @@ function addNumbers(numbers) {
     sum += numbers[i];
   }
   return sum;
+  // also works
+  // return numbers.reduce((total, num) => total + num);
 }
 
 function averageTestScore(testScores) {
