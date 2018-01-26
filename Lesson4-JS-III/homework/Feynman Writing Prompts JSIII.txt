@@ -1,0 +1,17 @@
+Feynman Writing Prompts # JSIII
+
+Objects
+An object is a variable that holds a lot of information about one thing. For example an object for a person could hold the information>name:Jennifer, height:4'10', age:22. These are all properties and values for that one person, or object.
+
+Properties
+Properties are the different pieces of information inside of an object. A property is made up of two pieces of information, the key and the value. The key is what the value will describe. So if the key is Age, then the value will be the number describing the age. If the key is hasAccess, then the value will be true or false depending on if that person has access or not. Keys are usually strings and they have to be unique, one object can't have two keys of the exact same name, but, multiple keys can have the same value. Values can be anything, a string, number, boolean, array, or even a function(also called a method.)
+
+Methods
+If the value is a function, then it is called a method. So if properties are giving information about an objects properties, then methods are the things that object can do. For example, if a person was an object they would have properties for their age, gender, weight, etc. They would also have methods for the actions they can perform such as walk, talk, eat, etc.
+
+For in loops
+for in loops are loops that go over each key in an object until all keys have been iterated over. If you use the key with bracket notation then the for in loop can also access all the values of those keys. 
+
+Dot notation vs Bracket Notation
+Dot notation and bracket notation are different ways to access the properties of an object. Dot notation - user.username;  	Bracket notation - user['username'];
+Dot notation will always read whats left of the dot as the string of a key. Bracket notation will allow you to use variables instead.
