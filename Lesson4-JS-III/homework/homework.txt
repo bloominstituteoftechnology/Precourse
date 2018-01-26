@@ -1,0 +1,39 @@
+Feynman Writing Prompts
+
+	* Objects
+	* Properties
+	* Methods
+	* for in loop
+	* Dot notation vs bracket notation
+
+Objects:
+
+Objects are like kind of like arrays, but instead of being a list of values,
+they are a collection of pairs of values. The first value has to be a string
+(and can only appear once in the object) but the second value has a lot of
+freedom for what it can be. (Can it be anything? I don't know.)
+
+(Or, you could think of an array as an object where each key is the number of
+the value in that spot of the array.)
+
+Properties:
+
+I'm not 100% on this, but I think this is just the value that corresponds to
+keys in an object when the value is not a function.
+
+Methods:
+
+...whereas this is the value that corresponds to keys in an object when the
+value is a function.
+
+for in loop:
+
+A for loop (see previous Feynman promps) that loops over the keys or indices in
+whatever is named after 'in.'
+
+Dot notation vs bracket notation:
+
+A value in an object has the name object.key or object[keyvar], where keyvar is
+a variable holding the string that is the key. (That includes methods, but if
+you want to actually call the method, add () after, so you can use object.key()
+or object[keyvar]().)
