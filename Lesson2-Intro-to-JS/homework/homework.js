@@ -63,7 +63,10 @@ function areEqual(x, y) {
   if (x == y) {
     return true;
 
-  } else { return false; }
+  }
+   else {
+      return false;
+     }
 }
 
 function areSameLength(str1, str2) {
@@ -146,8 +149,8 @@ function roundNumber(num) {
 function roundUp(num) {
   // round num up and return it
   // code here
-  num = Math.ceil(num);
-  return num;
+  
+  return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
