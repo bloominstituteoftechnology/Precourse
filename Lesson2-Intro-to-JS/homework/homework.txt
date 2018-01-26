@@ -1,0 +1,16 @@
+Variables
+Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.
+
+
+Strings
+A string is a data type represented by a set of characters. Strings in programming can basically be said to equal text in plain English.
+
+Functions (arguments, return)
+A function is like a routine or set of instructions. Functions tell a computer how to do a task and what to use to accomplish it. They are very much like recipes, which tell a cook how to make a dish. So, when you make a batch of chocolate chip cookies, you are really using a function! 
+In computer science, the ingredients are the input (called arguments) and the cookies are the final output returned to the user. 
+
+if statements
+A conditional statement tells a program to execute different actions depending on whether a condition is true or false.
+
+Boolean values (true, false)
+A boolean is a data type that can only have two possible values: true or false.

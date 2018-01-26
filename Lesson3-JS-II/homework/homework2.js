@@ -17,14 +17,14 @@ function greeting(language) {
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
   var message;
-  switch(language) {
-      case 'German':
+  switch(language.toLowerCase()) {
+      case ('German').toLowerCase():
           message = 'Guten Tag!';
           break;
-      case 'English':
-          message = 'Hello!';
+      case ('Mandarin Chinese').toLowerCase():
+          message = 'Ni Hao!';
           break;
-      case 'Spanish':
+      case ('Spanish').toLowerCase():
           message = 'Hola!';
           break;
       default:
@@ -138,7 +138,7 @@ function wordsToSentence(words) {
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
   var strg = words[0];
-  for (var i = 1; i < words.length; i++) {
+  for (let i = 1; i < words.length; i++) {
       strg += ' ' + words[i] ;
   }
   return strg;
@@ -155,7 +155,7 @@ function addNumbers(numbers) {
   // add all of the integers and return the value
   var sum = 0;
   var l = numbers.length;
-  for (var i = 0; i < l; i++) { 
+  for (let i = 0; i < l; i++) { 
       sum += numbers[i];
   }
   return (sum);
@@ -166,7 +166,7 @@ function averageTestScore(testScores) {
   // return the average
   var sum = 0;
   var l = testScores.length;
-  for (var i = 0; i < l; i++) { 
+  for (let i = 0; i < l; i++) { 
       sum += testScores[i];
   }
   return (sum/l);
@@ -175,10 +175,9 @@ function averageTestScore(testScores) {
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
-  numbers.sort(function (a, b) {  return a - b;  });
-  var l = numbers.length - 1;
-  var num = numbers[l];
-  return (num);
+  numbers.sort();
+  var l = -1 + numbers.length;
+  return (numbers[l]);
 }
 
 // Do not modify code below this line.
