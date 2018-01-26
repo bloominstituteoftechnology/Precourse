@@ -1,0 +1,18 @@
+Feynman Writing Prompts - Write out explanations of the following concepts 
+like you are explaining it to a 12 year old. Doing this will help you quickly 
+discover any holes in your understanding. Ask your questions on Slack.
+
+Objects - objects hold a lot of information about one thing; 
+	objects are initilized by using curly braces
+Properties - Properties are keys that hold values within the Object. 
+	often called key:value pairs. They must be seperated by a comma.
+Methods - Are functions saved on an object. Keys can have a value set to a function
+	and this would be called a method.
+for in loop - We use for...in to iterate over an object like we use "for" to iterate 
+	over an array.
+Dot notation vs bracket notation - We use dot and bracket notation to access
+	properties in an object.
+	DOT NOTATION: To use dot notation just call the object name, a dot, 
+		and the key name (ex. user.username;)
+	BRACKET NOTATION: Each key can be called by wrapping it with quotes
+		(ex. user["username'])
