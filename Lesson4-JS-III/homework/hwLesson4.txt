@@ -1,0 +1,11 @@
+Feynman Writing Prompts: 
+
+Objects: An object holds a lot of information about something. In our previous examples, we said a variable was like a box that holds what we put in it, and that an array was like a shipping container that holds lots of variables. Well an Object, is like a ship that can hold a lot more detailed information about data.
+
+Properties: A property is like a variable within an Object, it is a descriptive title and description of something.
+
+Method: A method is a function within an Object.
+
+for in loop: A 'for...in loop', is an efficient way that we can call upon all the properties within an Object.
+
+Dot notation vs bracket notation: Dot notation allows us to access information in an easier way, by writing something like: 'house.catName' to tell us the name of our house cat. Bracket notation is similar to dot notation in that we get the same information in a different way. For bracket notation we write like this: house['catName'] to tell us the name of our house cat.
