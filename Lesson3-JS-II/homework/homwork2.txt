@@ -1,0 +1,5 @@
+for - A loop to iterate through each element till a certain limit
+&& - Logical AND where both elements have to be true to yield the result to be true
+|| - Logical OR where any one element has to be true to yield the result to be true
+! - NOT operator yielding in the false if element is true and vice versa
+Arrays - A collection of similar elements, usually runs with a for loop

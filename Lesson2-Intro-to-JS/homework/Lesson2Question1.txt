@@ -1,0 +1,9 @@
+1. A Variable is a memory segment to hold a value. It hasits type and based on that, it holds certain type of values, and the main purpose of storing a value in a variable is basically that you can change it later and reuse the variable.
+
+2. String is a sequence of characters. It can be a word, sentence or even a paragraph, however you need to know that string is immutable, which means it cannot be altered.
+
+3. The main purpose of a function is to perform some task. So, when you want some operation to be performed on a set of values, you pass those values as arguments, however once the task is performed it needs to report that the task is performed, right? That's what a return does, it returns the appropriate data to the requestor/main function.
+
+4. if statements are used to evealuate a condition. There are two segments, true and false. If it is true, it performes the task embedded in the true block, else the else block. It can also contain additional else if conditions in between if there more than two conditions, also can be nested.
+
+5. Boolean values are used to determine/evaulate the outcome of a certain condition to be either true or false.
