@@ -175,14 +175,15 @@ function contains(arr, item) {
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
-  for(let i =0; i<numbers.length; i++){
-      return numbers.reduce(i);
-  }
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
+  return(numbers.reduce(reducer));
 }
 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
+  return(testScores.reduce(reducer)/testScores.length);
 }
 
 function largestNumber(numbers) {
