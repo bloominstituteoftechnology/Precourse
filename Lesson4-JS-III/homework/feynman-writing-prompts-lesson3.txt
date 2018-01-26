@@ -1,0 +1,11 @@
+Objects are a type of Javascript data container, similar to arrays (or dictionaries in other programming languages). The data they contain are called the object's properties.
+
+Properties are key/value pairs and can contain functions as values. They can be accessed using dot notation (myObj.key) and bracket notation (myObj["key"]).
+
+When an object contains a function, that function is referred to as a method. Methods can be accessed using dot notation (myObj.foo()) and can include arguments, just like normal functions.
+
+For in loops are a way to iterate over the key/value pairs in an object. Since objects do not contained numerical indexes, we use a variable, followed by "in", and then the object name to access the data inside.
+
+With dot notation, you call the object name, followed by a dot, and then the key name of the property you wish to access.
+
+With bracket notation, you call the object name, followed by brackets containing either a string, a number or a variable. Most often, bracket notation is used with variables.
