@@ -1,60 +1,60 @@
 
 //In these first 6 questions, replace `null` with the answer
 
-//create a string variable, it can contain anything
-let newString = null ;
+//create a string variable, it can contain anything 1
+let newString = 'Hello there!';
 
-//create a number variable, it an be any number
-let newNum = null ;
+//create a number variable, it an be any number 2
+let newNum = 7 ;
 
-//create a boolean variable
-let newBool = null ;
+//create a boolean variable 3
+let newBool = true ;
 
-//solve the following math problem
-let newSubtract = 10 - null === 5;
+//solve the following math problem 4
+let newSubtract = 10 - 5 === 5;
 
-//Solve the following math problem
-let newMultiply = 10 * null === 40 ;
+//Solve the following math problem 5
+let newMultiply = 10 * 4 === 40 ;
 
-//Solve the following math problem:
-let newModulo = 21 % 5 === null ;
-
+//Solve the following math problem: 6
+let newModulo = 21 % 5 === 1 ;
 
 
 //In the next 22 problems you will compete the function. All of your code will go inside of the function braces. 
 //Make sure you use return when the prompt asks you to.
 //hint: console.log() will NOT work. 
-//Do not change any of the function names
+//Do not change any of the function names 7
 
 function returnString(str) {
-  //simply return the string provided: str
+  return str; 
 }
 
 function add(x, y) {
-  // x and y are numbers
-  // add x and y together and return the value
-  // code here
+ return x + y;
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
+  return x - y;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
+  return x * y;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
+  return x / y;
 }
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  // code here
+  return x === y;
 }
 
 function areSameLength(str1, str2) {
@@ -66,18 +66,18 @@ function areSameLength(str1, str2) {
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
-  // code here
+  return num < 90;
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
-  // code here
+  return num > 50;
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
-  // code here
+  return x % y;
 }
 
 function isEven(num) {
