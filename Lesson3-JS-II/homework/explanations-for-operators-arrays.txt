@@ -1,0 +1,19 @@
+1) 'for' loop:
+
+A 'for' loop is used when you want to run some code multiple times, then continue on. Will execute code based on initial condition, terminating condition, and an incremental increase from the initial condition towards the terminating condition. Imagine that you're on a road and arrive at a ferris wheel. You get on that ferris wheel and are required to stay on until you satisfy some condition that allows you to exit the ferris wheel and continue on the road. 
+
+2) Logical operators: &&, ||, ! 
+
+A logical operator connects multiple statements in the control flow, and evaluates code based on whether or not the statements are true. Logical operators are like different types of requirements in order to continue down a road.
+
+&& - 'and'; both statements must be true. Imagine that you run a restaurant, and a customer orders a dish where two ingredients are required. Your dish must have both ingredients, or else the customer will not be satisfied. 
+
+|| - 'or'; either statement must be true. In your restaurant, a customer orders a dish where either one of two ingredients is required. Your dish must have at least one of the ingredients, or else the customer will not be satisfied.
+
+! - 'not'; the opposite of the statement. In your restauarnt, a customer orders a dish where an ingredient should not be in the dish. 
+
+3) Arrays: 
+
+An array is a variable that stores a lot of stuff, ordered by index and usually of the same type. An array is like a file cabinet that not only stores a whole bunch of stuff for later use, but also keeps the stuff ordered. 
+
+Each element of stuff has an index that indicates the position of the element in the file cabinet; indecies start at position 0. Arrays can be: pushed, which adds an element to the end of the array; popped, which removes the last element of the array, can be shifted or unshifted, which adds or removes element at position 0. Each element can be selected by array[index number] and also re-defined. 
