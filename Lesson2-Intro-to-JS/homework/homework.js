@@ -60,28 +60,32 @@ function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
-  return (x === y) ? true : false;
+  ///return (x === y) ? true : false;
+  return x === y;
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  return (str1.length == str2.length) ? true : false;
+  //return (str1.length == str2.length) ? true : false;
+  return str1.length === str2.length;
 }
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
-  return (num < 90) ? true : false;
+  //return (num < 90) ? true : false;
+  return num < 90;
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
-  return (num > 50) ? true : false;
+  //return (num > 50) ? true : false;
+  return num > 50;
 }
 
 function getRemainder(x, y) {
@@ -94,14 +98,16 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  return (num % 2 === 0) ? true : false;
+  //return (num % 2 === 0) ? true : false;
+  return num % 2 === 0;
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  return (num % 2 !== 0) ? true : false;
+  //return (num % 2 !== 0) ? true : false;
+  return num % 2 !== 0;
 }
 
 function square(num) {
