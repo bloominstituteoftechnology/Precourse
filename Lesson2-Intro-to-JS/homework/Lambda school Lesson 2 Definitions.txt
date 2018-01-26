@@ -1,0 +1,15 @@
+
+1-Variables- A variable is a Java Script statement. It is used to store the value of something that will be used repeatedly. Java script provide three types of variables being "var", "let" and "const". Variables are the terms set that is to be used by a function at later use. "let" allows the variable to be changed and "const" is unchangeable.
+
+
+2-Strings- Strings are blocks of text. To easily identify a string is to look for text in quotations.
+
+
+3-Functions (arguments, return)- Functions uses the variables to perform a given operation
+. As the word "function" implies it tells the computer to execute particular instructions. The return" function instruct console.log to return or stop after outputting the result. it is a way for the code to repeat a function multiple times.
+
+
+4-if statements- "if" statements are used in a function to compare two variables and render a result based on the function.Typically a "if' statement is identified by the > and < symbols.
+
+
+5-Boolean values (true, false)- Boolean is basically binary code. The Boolean has two states either on or off. In Java Script it is easily recognized by "True" and "False"  text. 
