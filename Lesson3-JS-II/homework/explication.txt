@@ -1,0 +1,14 @@
+for: It serves to iterate over numbers or elements of an array. This is constituted by three parts separated by 
+semicolons. In the first the beginning of the iteration is fixed. In the second, the limit or the maximum amount
+of the iteration is set. In the third part we say if the variable is added or subtracted.
+
+&&: It´s the logical value and. Returns true if both expressions are true. If one or both expressions are false, 
+it returns false.
+
+||: It is the logical value or. Returns true if one or both expressions are true. If one or both expressions are 
+false, it returns false. If the first expression is true, it will not evaluate the second expression.
+
+!: It is the logical operator not. Deny the expression that continues. For example (!==) means it is not the same.
+
+Arrays: An array is a set of data that are located consecutively. You can manipulate its elements, either by 
+adding or removing data at the beginning or end, traversing them with a for cycle, etc.
