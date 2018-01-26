@@ -1,0 +1,10 @@
+Objects are data containers that hold information about one thing.
+
+A property is a key:value pair that can be added or removed from an object.
+
+Methods are essentially functions (blocks of code) that are specific to an object.
+
+A for in loop is a loop that iterates over each key:value pair in an object.
+
+Dot notation is used to execute a method in an object.
+Bracket notation is used to pass a value to a method.
