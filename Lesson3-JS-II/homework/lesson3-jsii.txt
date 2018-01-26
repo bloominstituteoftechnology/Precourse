@@ -1,0 +1,65 @@
+# Homework #JSII
+
+## Instructions
+---
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `for`
+	* `&&`, `||`, `!`
+	* Arrays
+
+## 'for'
+
+One way to get the computer to perform a task multiple times is to use a 'for' loop.
+
+A for loop has three parts which control the flow through the loop.
+
+A counter; a condition which must be true for the loop to continue; and a way to increase or decrease the value of the counter. These are included between parenthesis, seperated by semi-colons eg:
+
+for(let i = 1; i <= 10; i++) {
+	console.log(i);
+}
+
+In this example we have set and saved the counter in the variable i to the value 1.
+For the loop to continue to run i must be less than or equal to ten.
+Each time this condition is true i is incremented by 1 and the code within the curly braces is run.
+Eventually i will be incremented to 11, which makes the condition false, and the loop stops running.
+
+## `&&`, `||`, `!`
+
+'&&' is the AND logical operator.
+When testing against a condition we use two ampersands '&&' to chain or add another logical test.
+
+For example:
+
+const number = 10;
+
+number > 0 && number < 100 // true
+
+Both statements need to be true or the result returned will be false
+
+'||' is the OR logical operator.
+With the '||' double pipe logical operator, if either condition evaluates to true the test will return true.
+
+number < 10 || number > 0 // true
+
+! the negation operator flips the value.
+
+!(number === 5)
+
+The expression inside the parenthesis is evaluated first. In this case number === 5 is false, !(false), !false, not false is true.
+
+## Arrays
+
+An array is a variable we can use to store an ordered list of values.
+The index of the ordered list starts at zero rather than 1 and goes from left to right.
+const colours = ['red', 'yellow', 'pink', 'green', 'orange'];
+Each value in an array is seperated by a comma.
+In the array colours 'red' is at position 0.
+To access or refer to the value stored at position 0 we would use bracket notation.
+Bracket notation means we would start with the name of the array followed by the index in square brackets, for example:
+colours[0] which would point to the value 'red'.
+We can also change the value at an index positon in an array.
+colours[0] = 'blue';
+This would change the colours array to ['blue', 'yellow', 'pink', 'green', 'orange'].
+We can get the number of items in an array which we call the length by using colours.length which in this case would equal 5.
