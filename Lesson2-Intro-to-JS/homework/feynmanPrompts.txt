@@ -1,0 +1,7 @@
+1. Feynman Writing Prompts - In a separate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.
+
+Variables - A variable is a container that holds data so the computer won't forget it.
+Strings - A string is text, a collection of characters. You can't perform math computations on strings.
+Functions (arguments, `return`) - A function is a recipe or set of instructions in code. A function takes one or more ingredients, does something to them, and spits out an finished product. The ingredients are called arguments. The finished product is called the "return value" of the function. We say that the function "returns" the finished product.
+`if` statements - If statements allow your code to make decisions. If a statement is true, the code executes the instructions directly following the statement. If it's false, it skips those instructions and goes on to the next part of the code.
+Boolean values (`true`, `false`) - Boolean values describe two choices: yes or no, true or false, on or off.

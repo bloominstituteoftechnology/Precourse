@@ -1,0 +1,7 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+
+	for - Allows you to examine each item in a list that meets certain conditions, then move onto the next item that meets those conditions. In programming, for loops usually have three parts: when to start the loop, when to stop it, and how to move from one item to the next.
+	&& - If both items are true, the computer outputs true.
+  || - If either of two items is true, the computer outputs true. The second one doesn't have to be.
+  ! - Means "not." Outputs the opposite of whatever comes after the !.
+	Arrays - An array is a list of items. They can be of different types—numbers, strings, Booleans, etc.
