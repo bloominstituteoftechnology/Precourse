@@ -35,7 +35,8 @@ function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
-  return x + y;
+  const sum = x + y;
+  return sum;
 }
 
 function subtract(x, y) {
@@ -72,14 +73,17 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  if (str1 > str2) {
+  /*if (str1 > str2) {
     return true;
   }
     return false;
 }
 let lOne = 1;
 let lTwo = 1;
-areSameLength(lOne, lTwo);
+areSameLength(lOne, lTwo);*/
+
+  return str1.length === str2.length;
+}
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety

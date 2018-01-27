@@ -23,3 +23,5 @@ Boolean values (true, false):
 A yes or no, true or false, on or off value. In JS this is true or false. 
 
 
+
+Stopped for the night with 117:36 left in the vid
