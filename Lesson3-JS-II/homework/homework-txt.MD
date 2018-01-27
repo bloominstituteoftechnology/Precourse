@@ -1,0 +1,5 @@
+1) For loops are used to repeat certain conditions until they return what we're looking for or they will just stop running after a certain time if a condition that we want to return is not met.
+
+2) && is the and operator. It's used to evaluate two expressions and will only return true if both expressions are evaluated to be true. If one expression is false and the other expression is true it will still return false to us. || is the or operator. It's used to evaluate two expressions and will return true to us even if one expression is false. It will only return false if both expressions on both sides of the || operator are false. ! is the not operator. It will return the opposite of what we append to it.
+
+3) Arrays are lists that can store multiple values to one variable instead of assigning a single string or number or any other data type to a variable. We can think of them like storage containers.
