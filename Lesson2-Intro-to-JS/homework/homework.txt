@@ -1,0 +1,13 @@
+	Feynmann Writing Prompts:
+    * Variables
+	* Strings
+	* Functions (arguments, `return`)
+	* `if` statements
+	* Boolean values (`true`, `false`)
+
+    *Variables* are how programming languages store values (strings, numbers, boolean) for later use.
+    *Strings* are blocks of texts designated by single or double quotations.
+    *Functions* are how programing languages manipulate input variables and output return variables.
+    *IF statements* compare two variables using comparison operators. If the comparison is true one set of code is run, otherwise another set of code is run. Paths are mutially exclusive.
+    *Boolean values* are variables with only two possible values, true or false.
+    
