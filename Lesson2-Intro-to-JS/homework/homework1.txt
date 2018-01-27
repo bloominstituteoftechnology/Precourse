@@ -1,6 +1,6 @@
 Feynman Writing Prompts - 1/24/18
 
-Variables: A variable is something we use to store values that can be used later. In a real life scenario, our variable would be named John. John can store his value, a toolbox, for later use.
+Variables: A variable is something we use to store values that can be used later. In a real life scenario, our variable can be named John. John can store his value, a toolbox, for later use.
 
 Strings: Strings are the individual words that you write down on your paper. Pony is a string. All of the words that written are strings, block of texts.
 

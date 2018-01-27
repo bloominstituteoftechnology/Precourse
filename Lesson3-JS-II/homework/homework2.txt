@@ -1,0 +1,11 @@
+Feynman writing prompts:
+
+for: For is a sort of code word (syntax) for a set of instructions we set to repeat over and over again until we instruct it not to.
+
+&&: In place of writing out the word 'and' in code, we write &&.
+
+||: In place of writing out the word 'or' in code, we write ||.
+
+!: To make something the opposite of what it is in code, we use an exclamation mark. So if something is true, and we put an exclamation mark before it, it's false.
+
+Arrays: An array is somewhat like a shelf of items at a grocery store. On the shelf there's a pear, orange, and banana. That's what an array is; a collection of items.
