@@ -1,0 +1,26 @@
+// File to explain some key terms
+
+Variables: They are containers used to store some data like numbers, letters, sentences etc. so that the computer can remember them and provide them when they are used later. For ex. let pi = 3.14;
+
+Strings: They are a data type used by the computer to denote characters, sentences, words etc. For Example: let myName = 'Swati';
+		 let myGoal = 'To become a successful web developer';
+
+Functions: They are a name given to a set of instructions and data that we can use to invoke the set of instructions that they denote any time we want to execute them, so that we don't have to write them again and again. The data inside a function remains locked inside it until it returns some data back to us.
+
+Example: function areaOfCircle (radius) {
+	return radius * 3.14 * radius;
+}
+
+
+if statement: It is used when we want to execute a set of instructions based of a condition. We can execute a different set of instructions if the condition is true and a different set when the condition is false.
+
+boolean values: It is just a name used for the data type which denotes values true and false so that the computer can understand what we mean when want to use them. For e.g.
+
+let universalTruth = "Earth is round";
+
+if (universalTruth = "Earth is round") {
+	return true;
+}
+else {
+	return false;
+}
