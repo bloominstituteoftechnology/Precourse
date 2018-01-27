@@ -27,6 +27,9 @@ function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
+  object[method]();
+
+
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
@@ -133,7 +136,14 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
+  storeItem.calculateDiscountPrice = function() {
+    let discountPrice = storeItem.price - (storeItem.price * storeItem.discountPercentage);
+    return discountPrice;
+  };
+  return storeItem;
 }
+
+
 
 // Do not modify code below this line.
 // --------------------------------
