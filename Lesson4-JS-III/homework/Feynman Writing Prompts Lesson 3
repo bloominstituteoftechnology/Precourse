@@ -1,0 +1,19 @@
+Objects
+
+	An object is a collection of keys-and-values. The value can also be an array, object, or function.
+
+Properties
+
+	The items in the Object are called properties.
+
+Methods
+
+	If a value in the object is a function, it is called a method.
+
+for in loop
+
+	Loops through each item in a collection without using indexing.
+
+Dot notation vs bracket notation
+
+	2 syntaxes for accessing an object's properties or methods.
