@@ -1,0 +1,16 @@
+Feynman Writing Prompts
+
+Variables
+- variables can be a string of characters, a number, or a boolean. Variables can be changed and assigned diferent values throughout the code depending on the instructions passed in the code
+
+Strings
+- strings are taken by the computer as a string of characters irrespective of if they consist of intergers. Operations can be done on strings, but in order to complete typical mathematical operations they need to be converted back to an integer
+
+Function (arguments, return)
+- similar to a math function a takes in arguments and runs those arguments through a given set of instructions to return a value 
+
+if statements
+- allow for optionality in a function or string of instructions. Allow for 'fork' whereby the operation performed by the program depends on the state of the information provided 
+
+Boolean values
+- boolean values are values that allow for binary outcome (ie. true vs. false)
