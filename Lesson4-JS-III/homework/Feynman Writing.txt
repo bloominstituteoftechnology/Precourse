@@ -1,0 +1,12 @@
+Justin Meredith
+Feynman Writing Prompts
+
+* Objects - Objects are a way to group information using keys and values. A key is a name for a type of value, like "email", and a value is what you set a key equal to, like "user@email.com". You can also give keys a function as a value, allowing you to use that function on that object whenever you want. These data structures are used to better model real life.
+
+* Properties - Properties are the key-value pairs in an object. "email: user@email.com" is a property.
+
+* Methods - A method is a function that is used on an object.
+
+* for in loop - This type of loop works very similar to the standard for loop, but is used specifically for object. This is because object properties do not have numerical values, so you cannot iterate over them in the traditional way. This new type of loop iterates over each key in an object.
+
+* Dot notation vs Bracket notation - These are used to reference properties of objects. With dot notation, you reference the property by naming the object, placing a '.' at the end of it, and then typing the key you want to access. This will return the value at the named key. For example, "user.email" would return the user's email. With bracket notation, referencing properties is similar to how you reference elements in an array. You name the object, then type the key name inside two brackets. The difference is that you have to clarify the type of the key you are passing in. For example, if you want to access a user's email, you would do it like so "user['email']". This would return the user's email.
