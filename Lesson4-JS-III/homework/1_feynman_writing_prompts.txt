@@ -1,0 +1,26 @@
+1. Objects
+Objects are containers that can hold various properties and methods. While arrays can hold
+information about many different things, objects hold similar data regarding one thing. In
+many cases, an object is a representation of a real life object, like a car or a book. 
+
+2. Properties
+Objects have properties; properties are key:value pairs, where a value is assigned to a key.
+The key of a property can be accessed either through dot notation ("objectName.key") or 
+bracket notation ("objectName[key]"). For the last option, variables containing numbers or 
+strings (or variables containing those) can be used. Properties can also be changed and 
+removed by using the notation options mentioned above.
+
+3. Methods
+Methods are functions within objects. They can be set by assigning a function to a key 
+in an object.
+
+4. for in loop
+As objects do not have any indices as arrays have, to access each value in an object for in 
+loops are used. A for in loop finishes after looping over each key in the object.
+
+
+5. Dot notation vs bracket notation 
+Both dot notation and bracket notation are used on objects to access their properties and
+methods. The difference is that bracket notation works with strings and numbers contained 
+in variables, while dot notation directly tries to access a key, whether it's already 
+present in the object or not. If it's not there, it will be created.
