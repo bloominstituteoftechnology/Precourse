@@ -1,0 +1,9 @@
+Variables - values that are set using names that allow for easier calling, returning, etc of values during the code being run
+
+Strings - strings are groups of characters, such as 'hello' or 'goodbye' or 'I will be there at 5pm' which can include letters, numbers, special characters, etc. 
+
+Functions (arguments, return) - blocks of code that can be called inside of a program that will complete a task/function
+
+If statements - the fork in the road of the code. If true, do this. Otherwise, do that. 
+
+Boolean values (true, false) - As opposed to strings or integers, boolean values are either true or false, i.e if 5 < 10, return true. 
