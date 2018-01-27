@@ -1,0 +1,13 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+for
+
+this is a way of running some code as many times as you want before moving on. this code will continue to run as long as it returns true, and stop as soon as it returns false. 
+
+&&, ||, !
+
+These are logical operators. Double ampersands means both values must return as true for the operator to return as true. Double vertical pipes means one of the two has to return as true for the operator to return as true. the exclamation point returns the opposite of the operator value. 
+
+Arrays
+
+Arrays are a way to set numerous values to a variable. These are the storage containers for collections of data. 
