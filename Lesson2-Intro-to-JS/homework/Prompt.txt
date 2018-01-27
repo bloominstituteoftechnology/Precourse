@@ -1,0 +1,5 @@
+Variables are containers that contain data.
+Strings are words.
+Functions are routines that have inputs, and return outputs.
+If statements are just like using if in a sentence.
+Boolean values can be only two different things; true or false.
