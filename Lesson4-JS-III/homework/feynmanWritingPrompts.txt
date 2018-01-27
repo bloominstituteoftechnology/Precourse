@@ -1,0 +1,14 @@
+Objects
+    a container where you can access items by name
+    group a bunch of different values under the same entity
+    key value pair === properties
+Properties
+    key value pairs in an object
+Methods
+    like a function
+for in loop
+    loops through all of the keys in an object
+Dot notation vs bracket notation
+    dot: accesses a property in an object i.e. obj.property
+    bracket: accesses a property in an object, but like an array i.e. obj[property]
+    we prefer dot notation

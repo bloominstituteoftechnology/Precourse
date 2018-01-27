@@ -77,6 +77,10 @@ function isPrime(num) {
     return false;
   }
 
+  if (num === 2) {
+    return true;
+  }
+
   return true;
 }
 
@@ -118,37 +122,22 @@ function addItemToFront(arr, item) {
 // return a string that is all of the words concatenated together
 // wth spaces between each word
 function wordsToSentence(words) {
-  let str = '';
-
-  for (let i = 0; i < words.length; i++) {
-    str += words[i];
-    if (i < words.length - 1) {
-      str += ' ';
-    }
-  }
-
-  return str;
+  words.join(' ');
 }
 
 function contains(arr, item) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === item){
-      return true;
-    }
-  }
-
-  return false;
+  arr.includes(item);
 }
 
 // Adds all of the integers and returns the value
 function addNumbers(numbers) {
-  let num = 0;
+  let sum = 0;
   
   for (let i = 0; i < numbers.length; i++) {
-    num += numbers[i];
+    sum += numbers[i];
   }
 
-  return num;
+  return sum;
 }
 
 function averageTestScore(testScores) {

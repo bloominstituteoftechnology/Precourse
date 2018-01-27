@@ -1,0 +1,23 @@
+for
+    loop where you iterate through it until the criteria is no longer met
+&&
+    logical and is only true when all variables are true
+    x y = z
+    0 0   0
+    0 1   0
+    1 0   0
+    1 1   1
+
+||
+    logical or is true when at least one variable is true
+    x y = z
+    0 0   0
+    0 1   1
+    1 0   1
+    1 1   1
+!
+    logical inverter
+    true = !false
+    false = !true
+Arrays
+    like a list (container) where entries of data, usually the same type, can be accessed by position
