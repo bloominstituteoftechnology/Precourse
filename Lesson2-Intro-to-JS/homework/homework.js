@@ -2,13 +2,13 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = 'This is a string.' ;
+let newString = "This is a string";
 
 //create a number variable, it an be any number
-let newNum = 42 ; // The answer to the question.
+let newNum = 42; // The answer to the question.
 
 //create a boolean variable
-let newBool = false ;
+let newBool = false;
 
 //solve the following math problem
 let newSubtract = 10 - 5 === 5;
