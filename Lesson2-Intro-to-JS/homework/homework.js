@@ -2,22 +2,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = 'Hello Bobbert' ;
+let newString = 'Hello Bobbert';
 
 //create a number variable, it an be any number
-let newNum = 29 ;
+let newNum = 29;
 
 //create a boolean variable
-let newBool = true ;
+let newBool = true;
 
 //solve the following math problem
 let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * 4 === 40 ;
+let newMultiply = 10 * 4 === 40;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === 1 ;
+let newModulo = 21 % 5 === 1;
 
 
 
@@ -51,7 +51,7 @@ function divide(x, y) {
 }
 
 function areEqual(x, y) {
-  if (x ===y ) {
+  if (x === y ) {
     return true;
   } else {
     return false;
