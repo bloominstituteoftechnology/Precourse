@@ -135,8 +135,8 @@ function cube(num) {
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-	num = Math.pow(num,exponet);
-	return num
+	num = Math.pow(num,exponent);
+	return num;
 }
 
 function roundNumber(num) {
@@ -157,7 +157,7 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-	str = str + "!";
+	str = str + '!';
 	return str;
 }
 
@@ -173,7 +173,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-	const t = "Hello " + name;
+	const t = 'Hello ' + name + '!';
 	return t;
 }
 
@@ -190,7 +190,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-	const area = (b/2 * (height));
+	const area = (base/2 * (height));
 	return area;
 }
 
