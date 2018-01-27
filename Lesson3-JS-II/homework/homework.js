@@ -35,6 +35,8 @@ function isTenOrFive(num) {
     }
 }
 
+//better way: return num === 10 || num === 5;
+
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
     if (num < 50 && num > 20) {
@@ -43,6 +45,7 @@ function isInRange(num) {
       return false;
     }
 }
+//better: return num < 50 && num > 20;
 
 function isInteger(num) {
   // return true if num is an integer
@@ -57,6 +60,7 @@ function isInteger(num) {
       return false;
     }
 }
+//better: return num === Math.floor(num);
 
 function fizzBuzz(num) {
   // if num is divisible by 3 return 'fizz'
@@ -76,32 +80,68 @@ function fizzBuzz(num) {
     }
 }
 
+//another way: if (num % 3 === 0 && num % 5 === 0) {
+//return 'fizzbuzz';
+//} else if (num % 3 === 0) {
+//    return 'fizz';
+//} else if (num % 5 === 0) {
+//    return 'buzz';
+//} else {
+//    return num;
+//}
+//}
+
 function isPrime(num) {
   // return true if num is prime.
   // otherwise return false
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-    for (let i = 2; i <= 9; i++) {
-      if (num === 0 || num === 1) {
-        return false;
-      } else if (num % i !== 0) {
-        return true;
-      } else {
-        return false;
-      }
-    }
+
+    //my answer below is incorrect; it returns true for non-prime numbers with prime number divisors. such as 121 and 529
+//    for (let i = 2; i <= 9; i++) {
+//      if (num === 0 || num === 1) {
+//        return false;
+//      } else if (num % i !== 0) {
+//        return true;
+//      } else {
+//        return false;
+//      }
+//    }
+//}
+
+//correct answer:
+        if (num === 0 || num === 1) {
+            return false;
+        }
+        if (num === 2) {
+            return true;
+        }
+        for (let i = 2; i < num; i++) {
+            if (num % i === 0) {
+                return false;
+            }
+        }
+    return true;
 }
 
 function returnFirst(arr) {
-  // return the first item from the array
-    return arr.shift();
+    // return the first item from the array
+//incorrect:    return arr.shift();
+//}
+
+//correct:
+    return arr[0];
 }
+
 
 function returnLast(arr) {
   // return the last item of the array
-    return arr.pop();
-}
+//incorrect:    return arr.pop();
+//}
+
+    //correct:
+    return arr[array.length - 1];
 
 function getArrayLength(arr) {
   // return the length of the array
@@ -141,21 +181,34 @@ function wordsToSentence(words) {
    return words.join(' ');
 }
 
+//manual method:
+    //let sentence = '';
+    //for (let i = 0; i < words.length; i++) {
+    //sentence += words[i];
+    //if (i + 1 !== words.length) {
+    //sentence += words[i];
+    //}
+    //}
+    //return sentence;
+    //}
+
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-    let check = 0;
+//delete:    let check = 0;
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === item) {
-            check += 1;
-        }
-    }
-    if (check > 0) {
+//delete            check += 1;
+//delete        }
+//delete    }
+//delete    if (check > 0) {
         return true;
-    } else {
-        return false;
+//delete "else {"    } else {
+//swap this line and next        return false;
     }
 }
+
+//return arr.includes(item);
 
 function addNumbers(numbers) {
   // numbers is an array of integers.
@@ -167,6 +220,8 @@ function addNumbers(numbers) {
     return value;
 }
 
+
+//use the function above to solve this one: return addNumbers(testScroes) / testScrores.length;
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
@@ -187,6 +242,8 @@ function largestNumber(numbers) {
         }
     } return big;
 }
+
+//instead of "let big = 0" teacher used "let big = numbers[0]" rest is the same
 
 // Do not modify code below this line.
 // --------------------------------
