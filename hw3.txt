@@ -1,0 +1,25 @@
+**for
+
+A for loop is a structure that lets you work the same block of code
+over a set number of times. This may often be used to perform a certain function
+on each item in an array.
+
+** &&
+
+This is a logic operator "and"; both items on either side must be true for the value
+to return true
+
+** ||
+
+This is another logic operator "or"; this will return true if either one of 
+the values on either side return true.
+
+** !
+
+This reverses the true/false value of a statement. ex. !true evaluates as false
+
+**Arrays
+
+Arrays are lists of some kind of data all assigned into a single variable.
+Each item corresponds to an index, so the data are searchable by location and
+can be acted upon accordingly.

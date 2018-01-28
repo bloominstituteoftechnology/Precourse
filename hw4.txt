@@ -1,0 +1,30 @@
+**Objects
+objects are variables, contained within curly braces, that contain data in the form
+of key and value pairs. Keys must be unique, and values can be strings, arrays,
+other objects, functions, etc. The value can be called upon by dot notation using
+objectname.key
+You can call on it using objectname[key] but the info contained within [] *must*
+be a string or a number, or a variable pointing to a string or a number
+
+**Properties
+The property is the key:value pair. If you delete object.key the entire entry
+is removed from the object.
+
+**Methods
+A method is a function on an object. The function is stored as the value on a key, 
+and this is called with object.key or object.key(variable) Using array.length
+is an example of a method that we didn't have to define ourselves.
+
+**for in loop
+This is how we iterate over each key:value pair in an object.
+for (let variable in objectname){}
+
+
+**dot notation vs bracket notation
+objectname.key => dot notation
+objectname[key] => bracket notation
+Both of these should access the same information (value associated w/key),
+but the info in [] *must* be a string or number, or a var referring to objectname
+in a for loop on an object, you must use bracket notation b/c using .key would 
+literally look for the word "key" in the object, instead of whatever key is
+currently holding in its variable.
