@@ -1,0 +1,20 @@
+WHAT IS....
+
+1. Variables
+    A variable is a like an empty box. You can put whatever you want in it. You have to name it when you put something in it.
+
+2. Strings
+    A string is the letters, words, or text you want other people to see or read.
+
+3. Functions (arguments, return)
+    A function is like a remote control. It does the magic.
+    The function will do whatever you press on the remote.
+   
+    Arguments are what you press/ the keys on the remote. 
+    A return is what you see on TV once you press a remote key.
+
+4. if statements
+    An if statement is like choosing which fruit to eat. Choosing one would give you a specific taste of the fruit you chose. If you choose an apple, it would taste like an apple.
+
+5. Boolean values (true, false)
+    Boolean values are similar to yes or no and correct or incorrect. You are only given two choices when answering. Like a closed-ended question.
