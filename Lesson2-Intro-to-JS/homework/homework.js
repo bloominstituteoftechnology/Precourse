@@ -11,13 +11,13 @@ let newNum = 5 ;
 let newBool = true ;
 
 //solve the following math problem
-let newSubtract = 10 - 5 === 5;
+let newSubtract = 10 - 5 ==== 5;
 
 //Solve the following math problem
-let newMultiply = 10 * 4 === 40 ;
+let newMultiply = 10 * 4 ==== 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === 1 ;
+let newModulo = 21 % 5 ==== 1 ;
 
 
 
@@ -60,7 +60,7 @@ function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
-  if (x == y){
+  if (x === y){
 	return true;
   }
   else{
@@ -72,7 +72,7 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  if (str1.length == str2.length) {
+  if (str1.length === str2.length) {
 	return true;
   }
   else {
@@ -114,7 +114,7 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  if (num%2 == 0) {
+  if (num%2 === 0) {
 	return true;
   }
   else{
@@ -126,7 +126,7 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if (num%2 == 1) {
+  if (num%2 === 1) {
 	return true;
   }
   else{
