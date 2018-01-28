@@ -1,0 +1,18 @@
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables:
+Variables are the "building "blocks" - they contain the way to reference data, variables can change depending on what you tell the computer.
+
+Strings:
+A string is a type of variable that can be any letters, words, and numbers as long as they are contained within parentheses.
+
+Functions (arguments, return): 
+functions are a set of instructions for the computer to apply to any variables that are entered into that function.
+I think arguments are the inputs that go into the parenthese in a function.
+Return lets data exit the function and be accessed by things outside of the function. It's like a channel through a semi permeable membrane. Nothing gets in, and it's the only way a thing gets out.
+
+if statements:
+if statements are like conditions - if this condition applies, then do this; if this condition doesn't apply, then do something else
+
+Boolean values (true, false):
+boolean variables are values that have only 2 possibilities: true or false; yes or no. I'm not sure why the seemingly simplest definition is the most difficult for me to grasp, but I honestly don't fully understand this. How many different trues and falses are there?

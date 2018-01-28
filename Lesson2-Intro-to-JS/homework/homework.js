@@ -2,7 +2,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = null ;
+let newString = "hello world!";
 
 //create a number variable, it an be any number
 let newNum = null ;
