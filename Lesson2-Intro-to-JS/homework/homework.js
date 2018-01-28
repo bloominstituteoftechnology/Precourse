@@ -205,4 +205,3 @@ module.exports = {
   getRectangleArea: getRectangleArea,
   getTriangleArea: getTriangleArea
 };
-``
