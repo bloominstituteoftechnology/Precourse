@@ -1,0 +1,5 @@
+Variables- Like in math, where x equals a number and x is the variable, we can set a word or a number equal to something.
+Strings- These are like sentences. Anything typed in quotes would be considered a string. Think like a sentence in a book that is in quotes.
+Functions- Also like in math, they serve to do an operation of sorts. 
+if statements- This tells the computer to do something when a specific condition is met. And to do something else otherwise.
+Booleans- This means that you only have two choices, only two options. True or False, Yes or No etc.
