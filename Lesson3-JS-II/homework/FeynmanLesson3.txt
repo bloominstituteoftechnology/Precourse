@@ -1,0 +1,19 @@
+
+for
+for-loops in javascript can be useful because instructions can be continuously performed while a certain condition remains true.
+Dependent values can be changed by iterating an instruction so that the condition keeping the for-loop's boolean value, changes.
+============================
+&&, ||, !
+&& will compare two conditions: one on the left and one on the right. The boolean value of the && expression is true if and only
+if both conditions to each side are true. If either the expressions are false, the entire boolean value of the && expression
+is false.
+
+|| will compare two conditions: one on the left and one on the right. The boolean value of the || expression is true if either
+of the conditions to each side are true. If none of the conditions to each side of the || expression is true, then the boolean
+value of the expression is false.
+
+! will take the boolean value of an expression and return the opposite. false becomes true, true becomes false.
+============================
+Arrays
+An array is a set of elements assigned to a variable. The elements can contain mixed data types. The order of the elements
+within an array begins at 0.

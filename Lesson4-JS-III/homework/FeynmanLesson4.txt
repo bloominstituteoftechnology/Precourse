@@ -1,0 +1,43 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts 
+like you are explaining it to a 12 year old.  Doing this will help you quickly
+ discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Objects
+	* Properties
+	* Methods
+	* for in loop
+	* Dot notation vs bracket notation
+
+Objects
+Objects contain keys, also termed properties. Objects can be called within JavaScript.
+
+Properties
+Properties, also called keys, can store information as well as perform functions.
+
+Methods
+A method is a key defined as a function on an object.
+
+For in loop
+This kind of loop acts as a function that looks for a key in an object, and performs
+instructions with the information defined in those keys and objects.
+
+Dot notation vs bracket notation
+Dot notation is the term used when referencing a key on an object. However, in the
+case of referencing a key of a key of an object, you must use brackets
+around the parameter being referenced as the key of the key of the object.
+For example say I wanted to go into my fridge, look on the shelf, and take out the
+leftovers inside the tupperware.
+In javascript, this action would be:
+
+let fridge = {
+    shelf: {
+        tupperware: leftovers,
+        soda: Pepsi,
+        eggs: Large,
+        carton: milk,
+    };
+};
+
+return fridge.shelf(tupperware[leftovers]);
+or
+return fridge.shelf(tupperware[0]);
