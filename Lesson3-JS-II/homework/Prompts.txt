@@ -1,1 +1,16 @@
+for
+***
+for loop is used to execute statements repeatedly. 
+It intializes a variable and follows the flow of statements inside the loop 
+as long as the condition provided evaluates to true.
+
+&&, ||, !
+*********
+Logical operators are used to determine the logic between variables or values.
+
+
+Arrays
+******
+An array is a grouping of objects that can be accessed through subscripts.
+In JavaScript, the first element of an array is considered to be at position zero or index 0.
 
