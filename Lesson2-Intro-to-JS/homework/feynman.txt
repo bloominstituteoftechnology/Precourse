@@ -30,3 +30,56 @@ Although text data often includes numbers, it's important to note that a
 string numeral is not the same as a numerical literal or variable such 
 as an int. Mathematical operations are not defined between strings and 
 numbers, so '25' - 13 is not a valid operation. 
+
+Functions:
+	Imagine that you are writing a program and that in that program 
+there is an operation that you need to perform many, many times over 
+(say taking the factorial of a number) in many different places. Now, 
+you could, each time you needed to perform that operation, simply rewrite the 
+code required. For a very simple operation this wouldn't be too tedious, but 
+suppose the operation you want to perform requires dozens of lines of code to 
+accomplish. Suddenly this becomes an insurmountable challenge. It would 
+be so much easier if you could simply package up that operation that 
+takes dozens of lines of code into a container and simply reference the 
+container each time you wanted its code to run. 
+
+	This is the beauty of a function. A function is a named 
+reference to a block of code that you can execute at any time simply by 
+invoking the name of the function. This makes programs smaller because 
+large blocks of code need to be written only once. Once you define a 
+function, you may 'call' or 'invoke' it at any time. Calling or invoking a 
+function causes the code it contains to be executed almost as if those lines 
+of code were typed inline at the place of the function call.  
+
+Another way to think of a function is a 'black box' or a 'formula' that will accept the input 
+you provide it and give back some output. We give input to a function by 
+way of arguments, which is simply values that you pass into a function. 
+As we talked about earlier, programs need a way to store and transport 
+data and functions are no exception. Functions use variables to store 
+the arguments passed to them and we call these 'parameter variables' or 
+'parameters'. Functions accept data into their parameter variables, 
+perform operations on that data, and retun the result back to the place 
+in the program that called it. 
+
+if statements:
+	Suppose for a moment that you are working at the school bookstore. 
+Imagine further that your job requires that you only sell books to students. 
+Now imagine even further that your job requires that you only sell books to 
+students who are enrolled in classes that require those books. You wouldn't 
+be very good at your job if you couldn't make decisions about who was a 
+student and if they were enrolled in the right classes to purchase the books 
+they want, would you?
+
+	It's no different for programs. Programs that can't make decisions 
+based on available data aren't particularly useful and this is where the if 
+statement comes into play. if statements allow a program to execute certain 
+statements only if a specific condition is met.
+
+boolean values:
+	Boolean values represent the truth of a proposition, expression, or 
+a comparison. Most, if not all expressions have some sort of truth value 
+associated with them. For example the statement, if we understand the rules 
+of addition, we can determine if the statement '3 = 2 + 1' is true or false. 
+Because we know how to add, we know that 3 is in fact 2 + 1 and that the 
+statement is true. Boolean values are the computer's representation of what 
+is true or untrue about data. 

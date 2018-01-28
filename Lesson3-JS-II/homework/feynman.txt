@@ -1,0 +1,116 @@
+for:
+	One of the problems we run into in programming is how to perform 
+a series of steps repetitively - that is, over and over. Think about it. 
+If your program has a list of students that you need to add to a course. 
+For a trivial operation (say printing a line of output) and a very 
+small, known number of repetitions, it's not a big deal to just type out 
+the lines of code and handle the repetition yourself. But what about a 
+non-trivial operation? Many thousands of repetitions? or what if you 
+can't even know in advance how many times you need to repeat the same 
+block of code? Obviously you can't type the same block of code over and 
+over again in these situations and even encapsulating them into a 
+function and calling the function over and over again is impractical. 
+
+	This is where the idea of looping becomes invaluable. Loops are 
+constructs that allow us to repeatedly execute a group of statements in 
+our program. One such looping construct is called the foor loop, which 
+allows you to loop over, or execute the same statements a specified 
+number of times. Sometimes you can specify the number in advance, or you 
+can program the loop to run a specific number of times as required by 
+the state of your program. 
+
+(&& || !):
+	
+	If you remember from an earlier lesson that programs have to be 
+able to make decisions regarding how to behave based on the state of the 
+data available. Often times, the decision to be made has to be based on 
+more complex evaluations of data. When this is the case, we can make use 
+of constructs called 'logical operators', which help us to form more 
+complex expressions of boolean logic (remember that a boolean expression 
+evaluates to true or false)
+
+	The '&&' operator is called a logical AND operator. AND accepts 
+2 operands (one on the left, one on the right) to form an expression 
+that evaluates to true if and only if both the operand on the left and 
+the operand on the right are true. The best way to understand this is 
+through the use of a table
+
+
++-------+------+-------+
+|       | True | False |
++-------+------+-------+
+| True  | True | False |
++-------+------+-------+
+| False | False| False |
++-------+------+-------+
+
+As you can see, when both halves of the expression are true, the whole 
+expression is true. Any other time, the whole expression is false
+
+the || operator is called a logical OR operator. Just like the AND 
+operator, the OR operator is binary, meaning it takes two operands (one 
+on each side) and forms a compound logical expression. Unlike AND, the 
+expression formed by joining two other expressions with an OR operator 
+evaluates to true if at least one of the operands is true. Again, we can 
+see this easily with a table. 
+
++-------+------+-------+
+|       | True | False |
++-------+------+-------+
+| True  | True | True  |
++-------+------+-------+
+| False | True | False |
++-------+------+-------+
+
+As you can see, Whenever at least one of the two expressions is true, 
+the whole expression is true. 
+
+	The ! is called a logical not operator. Unlike the AND or the OR 
+operators, logical NOT only accepts one operand (on the right) and is 
+called a unary operator. Logical not simply 'flips' the truth of an 
+expression from true to false or from false to true. 
+
+Arrays:
+	At some point, when writing a program, you are going to have to 
+work with a large group of values (such as a list of names). One problem 
+you might face is trying to decide how to store collections of data in 
+memory so that your program can process it easily. You might be tempted 
+to store it all in one variable, but that presents challenges. First 
+of all, how can you guarantee that your program will parse the data into 
+its individual units correctly each and every time? Second, there might 
+be significant performance penalties when trying to read from the middle 
+of your large variable. 
+
+	Fortunately, there is a better way to store collections of data 
+in memory for your programs and they are called arrays. An Array is a 
+variable that you can access by name, but they store collections of 
+values in cells that you can access individually. You can think of an 
+Array as a group of boxes into which you can store 1 item from a 
+collection. Below, let's look at an example of an array of integers
+
++------+------+------+
+|  35  |  56  |   2  |
++------+------+------+
+
+You can see that each integer in the array is stored in it's own 
+element or cell within the array. If you want to access an element in the array, 
+you do so via that element's index. An index is simply the element's 
+position within the array. Important to note that an array's indexing 
+begins at zero, not one. Thus, the first element in the array is at 
+index zero and the 10th element is at index 9. 
+
+In most programming languages, you access the elements of the array by 
+referencing the name of the array variable and specifying the index 
+number immediately afterwards, either in parentheses or square braces. 
+In C like languages, such as Java and JS, you use:
+
+arrayName[index]
+
+where arrayName is the name of the array variable and index is an 
+integer value specifying the position of the element you wish to access. 
+It's important to note that if you specify an index that doesen't 
+actually exist in the array, it will cause an error within your program. 
+
+
+
+
