@@ -1,0 +1,60 @@
+
+h1 {
+	color: darkorange;		
+}
+
+img {
+	width: 400px;
+
+}
+
+#thirdDiv {
+	background-color: antiquewhite;
+	height: 600px;
+	width: 500px;	
+	padding: 50px;
+	border: 3px solid beige;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+
+body {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Chianan.jpg/1200px-Chianan.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+div {
+	text-align: center !important;
+	margin: auto ! important;
+}
+
+
+ * {
+	text-align: center !important;
+	margin: auto ! important;
+}
+
+
+h3 {
+    position: relative;
+    left: -90px;
+}
+
+h4 {
+	position: absolute;
+	left: 650px;
+	top: 40px;
+}
+
+
+div {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
