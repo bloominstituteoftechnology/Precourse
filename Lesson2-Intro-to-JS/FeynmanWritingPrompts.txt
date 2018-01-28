@@ -1,0 +1,24 @@
+- Variables - 
+	Variables are containers that hold data.  Variables can hold values such as text, numbers, and booleans. 
+	There are three types of variables used in JavaScript.  These are var, let, and const.  var is the generic
+	variable type.  let variables can be changed although they have block level scope.   const variables cannot
+	be changed once they are created.
+
+
+- Strings - 
+	Strings are groups of text that must begin and end with either a single or double quotation.
+
+
+- Functions (arguments, return) - 
+	Functions are a small group of code that performs a task.  The function begins by passing an argument. Once
+	an argument is passed, it is time to return something back.  Only things returned from the funcion can be 
+	used outside of the function and the function stops running after the first return.
+
+
+- if statements - 
+	if statements are blocks of code that only activate if the result is true.  else or else if statements can be
+	used along with if statements to control the situation and results better.
+
+
+- Boolean values (true, false) - 
+	 Boolean values are simple logic decisions where the only two choices are true or false.
