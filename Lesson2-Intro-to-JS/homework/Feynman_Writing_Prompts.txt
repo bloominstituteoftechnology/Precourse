@@ -1,0 +1,9 @@
+Variable: A variable is a thing that can be assigned all types of different values including, numbers, words, and true or false statements. A variable can also have its value assigned and then reassigned at anytime (unless it is a certain type of variable called a constant).
+
+String: A string is composed of letters or numbers contained within quotations. Each piece of text in the sting occupies a position. These positions and the string as a whole can be manipulated, however they are limited to written language.
+
+functions: A function is used to preform an action in javascript. One important use involves it's ability to be created once and used multiple times in a program by simply stating the functions name. Functions simplify your code this way because you only have to write the function once but can pass it different arguments or information. Once a function is run the only thing it gives you is a return value, everything else, including variables stay inside the function.
+
+If statements: If statements only run IF the argument you pass them is true. In this way they wait for a specific moment to execute themselves.
+
+Boolean Values: Simple true, false statements. Black and white, there is no in-between.
