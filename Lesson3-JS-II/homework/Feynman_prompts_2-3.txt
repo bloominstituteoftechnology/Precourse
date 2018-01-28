@@ -1,0 +1,20 @@
+Lesson 2 Homework
+1. Variables: Variables are terms used to define a value that will be used in a program. Variables can use one of three keywords. Const means that the variable cannot be modified. Var and let variables can be modified.
+
+Strings: Strings are collections of letters/numbers surrounded by quotes. Words must always be strings. Numbers may not.
+
+Functions (arguments, return): A function tells a program what to do. Arguments are used within the function and are interchangeable, such as numbers used to compute an equation. A return is the output of the function and ends the function. 
+
+if statements: An if statement tells the function what to do when certain conditions exist.
+
+Boolean values: a Boolean is a binary value that can only be one of two choices (True or False).
+
+Lesson 3 homework
+
+1. for: function that begins a loop
+
+&&: (and) both values must be correct to return true; otherwise false
+||: (or) one value must be correct to return true; otherwise false
+!: (not) declares the opposite of what follows
+
+Arrays: a list of items/values
