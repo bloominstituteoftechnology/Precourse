@@ -2,19 +2,19 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = null ;
+let newString = 'BLAAH' ;
 
 //create a number variable, it an be any number
-let newNum = null ;
+let newNum = 6 ;
 
 //create a boolean variable
-let newBool = null ;
+let newBool = false ;
 
 //solve the following math problem
-let newSubtract = 10 - null === 5;
+let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * null === 40 ;
+let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
 let newModulo = 21 % 5 === null ;
@@ -27,31 +27,35 @@ let newModulo = 21 % 5 === null ;
 //Do not change any of the function names
 
 function returnString(str) {
-  //simply return the string provided: str
+ return str;
 }
 
 function add(x, y) {
+  return x + y;
   // x and y are numbers
   // add x and y together and return the value
   // code here
 }
 
-function subtract(x, y) {
+function subtract(x, y) {return 
+  x - y;
   // subtract y from x and return the value
   // code here
 }
 
-function multiply(x, y) {
+function multiply(x, y) {return x * y;
   // multiply x by y and return the value
   // code here
 }
 
-function divide(x, y) {
+function divide(x, y) {return x / y;
   // divide x by y and return the value
   // code here
 }
 
-function areEqual(x, y) {
+function areEqual(x, y) {if (x = y){
+  return (true)}
+  else {return (false)}
   // return true if x and y are the same
   // otherwise return false
   // code here
