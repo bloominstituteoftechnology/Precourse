@@ -1,0 +1,14 @@
+1.Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables: A variable is a named object that's generally created for use in the future. It's mostly created to hold a value, other than some edge cases where you want that value to be nothing. A variable can be a multitude of things: it can be letters, characters, numbers, a list of the above things, even other variables. The fact that it can store a value allows us to easily call it by its name to read, modify, or write on to it.
+
+
+Strings: A string is a type of a variable. A string consists of one or more letters and/or characters. Think of a pearl necklace to remind yourself of a "string" of letters. Coincidently, strings are usually represented by quotation marks (either single or double)
+
+
+Functions (arguments, return): If variables are pronouns, functions are verbs. They're used to do something with the data we have. Arguments to a function lets it know what variables the function is going to take in and use. Once all the action is done, the end result can be presented with a "return".
+
+
+if statements: if statements are a type of function that check a binary condition. While the condition can be as complicated as you want, in the end it'll check if the condition is met or not(true or false). Once the condition is checked, the function can branch out and take further action depending on if the condition is true or false, even another if statement.
+
+Boolean values (true, false): A boolean value is a data type that holds a true or false value. It's used to describe a binary condition where something can only be one thing or another.
