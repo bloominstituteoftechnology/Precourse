@@ -67,12 +67,12 @@ function isPrime(num) {
 
 function returnFirst(arr) {
   // return the first item from the array
-  return arr.shift();
+  return arr[0];
 }
 
 function returnLast(arr) {
   // return the last item of the array
-  return arr.pop();
+  return arr[arr.length-1];
 }
 
 function getArrayLength(arr) {
