@@ -1,0 +1,9 @@
+---
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Objects - Objects in Javascript are very similar to dictionaries in Python, or hashmaps. They're kind of like associative arrays, in the sense that they are key-value pairings. The keys can be strings or numbers, or variables that contain a string or a number. The values can be any data type or object, or even function - called methods in Javascript. 
+	* Properties - Properties are the keys of an object. They are strings or numbers and they must be unique. Properties are mapped to values.
+	* Methods - Methods are functions that are contained within an object. 
+	* for in loop - For in Loops are a way to iterate over all of the keys within an object.
+	* Dot notation vs bracket notation - In dot notation the text after the dot is not a string object. In Bracket notation the text within the brackets must be a string, number, or variable pointing to either of the prior two data types. Finally, bracket notation accepts variables to access properties, while dot notation does not; therefore, bracket notation is more flexible, in general.
+
