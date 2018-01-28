@@ -1,0 +1,7 @@
+Variables are like names in order to use the name you choose for a newborn you need to register first,
+ same thing goes for variables you have to declare them before you use them.
+Strings are text that we want to appear in the screen and they will always be defined with quotation marks.
+Arguments are part of functions which they are used for a purose when they are colled inside th efunction,
+Return is a statment and is used at the end ao the functon to return any value thet we want from the function and also prevent the function from running after the return statement.
+If help you to compare in the function if the argument is true or false.
+Boolean values can only give you to choices either is true or false.
