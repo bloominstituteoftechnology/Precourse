@@ -4,6 +4,11 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  let total = 1;
+  for(let i = 0; i < arguments.length; i++){
+    total*= arguments[i];
+  }
+  return (arguments.length > 0 ? total : 0) ;
 }
 
 function invokeCallback(cb) {
