@@ -27,7 +27,7 @@ function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-object[method];
+object[method]();
 
 }
 
@@ -57,14 +57,15 @@ name:name,email:email,password:password,
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
-  return !user.email===null;
+  return !user['email']=='';
 }
 
 function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
-  return object[property]===property;
+  return property in object; 
+  //object[property]===property;
 }
 
 function verifyPassword(user, password) {
@@ -95,11 +96,11 @@ function setUsersToPremium(users) {
   // set each user's isPremium property to true
   // return the users array
     //return users.filter(user => user.isPrime===true);
-    for (let i=0;i<users.length-1;i++){
-       users[i].user.isPremium=true;
+    for (let key of users){
+       key.isPremium =true;
      
     }
-    return users.filter(user => user.isPrime===true);
+    return users;
 }
 
 function sumUserPostLikes(user) {
@@ -108,6 +109,12 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
+  let sum=0;
+  
+  for (let i in user.posts){
+    sum+=user.posts[i].likes;
+  }
+  return sum;
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
@@ -118,8 +125,20 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
-}
+  
+  //addCalculateDiscountPriceMethod(storeItem);
+  
+  
+ storeItem.calculateDiscountPrice = function () {
+  
+ storeItem.discountPrice =(storeItem.price) * (storeItem.discountPercentage);
+ storeItem.discountPrice =(storeItem.price) - (storeItem.discountPrice);
+ return storeItem.discountPrice;
+ 
+};
 
+return storeItem;
+} 
 // Do not modify code below this line.
 // --------------------------------
 
