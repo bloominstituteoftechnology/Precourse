@@ -1,0 +1,15 @@
+	What are objects?
+    Objects hold many information about one topic. This is expressed by using curly braces {} which holds values.
+  
+  What are properties?
+    Properties is the values stated within the curly braces used to describe the information.
+  
+	What are methods?
+    Functions saved on an object.
+
+  What are for in loop?
+    Declaration of variables within the braces in a loop.
+
+	
+	Dot notation vs bracket notation:
+    Dot notation describes the method or value in an object and bracket notations acesses the loop to keep going until it is complete or it breaks.
