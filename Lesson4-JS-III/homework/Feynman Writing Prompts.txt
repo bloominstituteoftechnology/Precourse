@@ -1,0 +1,9 @@
+Objects in javascript are ways to store information in key value pairs, such as Hair: Brown. This allows more complex data manipulation.
+
+Properties of objects are like "Hair". The object Jacob would have the property of Hair and then the value Brown.
+
+Methods are functions inside objects. 
+
+For in loops allow iterations over an object. A regular for loop would not be possible
+
+Dot and Brackey notations are two ways to access values in an object. Jacob.Hair or Jacob[Hair]
