@@ -11,13 +11,13 @@ let newNum = 5 ;
 let newBool = true ;
 
 //solve the following math problem
-let newSubtract = 10 - 5 ==== 5;
+let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * 4 ==== 40 ;
+let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 ==== 1 ;
+let newModulo = 21 % 5 === 1 ;
 
 
 
