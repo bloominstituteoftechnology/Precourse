@@ -1,0 +1,40 @@
+1. Objects
+
+Objects are another type of container that stores a lot of data, similar to arrays. Unlike arrays, which order data values by their index, objects identify their values based on keys, with each key:value pair being called a "property". Key:value pairs are unique (i.e. one value per key), and values can include strings, integers, variables, booleans, other objects, and functions, which are called methods if defined under an object. Objects are essentially storage containers that are big and versatile enough to even house other storage containers, and has properties and methods to define their shape, size, and functionality.  
+
+Hence, everything in Javascript is an object; in other languages, an object is called a "list" or "hash." Arrays are objects with numerical keys, strings are objects with built in methods, functions are objects with their own special properties, and even the entire Javascript runtime is an object ("window" in a browser, or "global" in Node.js).
+
+newObj = {
+  username: 'ben',
+  password: '12345',
+  isNew: true,
+  age: 45,
+  location: { 
+    street: '48329 st.',
+    city: 'san francisco',
+    state: 'ca'
+    }
+  method: function() {
+    code
+  }
+}
+
+2. Properties
+
+A property of an object is a key:value pair of an object. Each property has an associated property value, and if you call a property on an object, it will return you its property's value. You can add, remove, access, and designate properties. This is similar to defining a storage container's shape, size, color, weight, other contained storage containers, etc. 
+
+In order to call a property with a variable key, use bracket notation. Use dot notation for other instances. 
+
+3. Methods
+
+A method is a function that is contained in an object, or an action that is defined by the object and invoked onto itself. Methods are the actions that can be done on a storage container, with the instructions written inside the storage container itself. 
+
+If you invoke a method without a trailing (), it will return the method's definition as an object, as in the code that defines the method. If you invoke a method with a trailing (), it will return the results of the method, as in the execution of the method.  
+
+4. for in loop
+
+A for in loop is a way to cycle through all the key:value pairs of an object and execute code iteratively. This is similar to a for loop for arrays, but instead of defining the initial, terminating, and incremental conditions by index, we use the key variable instead. This is like a constantly cycling piece of code based that has to go through all keys before it stops.  
+
+5. Dot notation vs bracket notation
+
+You can call a property (access a value from a key) by using either dot or bracket notation. You call a property on an object by doing object.key or object["key"]. With brackets, you can call a property on an object using a variable. Otherwise, just use dot notation when available. 
