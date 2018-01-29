@@ -1,0 +1,16 @@
+# Homework #JSIV
+
+## Instructions
+---
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Callback Functions - Callback functions are functions which are provided as arguments to another function. They can be asynchronous, and therefore, can be called at a later time than when the outer function is called.
+	* `arguments` - Arguments are what are provided to function calls which have parameters. It's possible for a function to have parameters that are optional. This can be thought of as the input to the mathematical concept of a function.
+	* `prototype` - Prototype is a property that all classes have. The prototype property can be given methods which allow said methods to be created only once, for the entire class, making the class more efficient.
+	* Constructors - Constructors are functions that return an object. Constructors are called by using the 'new' keyword.
+
+2. From the top level of your `Precourse` folder, run `npm run test:JSIV` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
+
+#### Congratulations on finishing Homework #4!
+
+For more information about Lambda School's six month CS program visit: https://lambdaschool.com
