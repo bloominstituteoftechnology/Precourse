@@ -1,0 +1,6 @@
+for
+ - a way to evaluate something over and over again until a certain condition is met
+&&, ||, !
+- && means 'and', || means 'or', and ! means 'not'
+Arrays
+- a collection of items that are linked to one variable. It's a good idea if they're all the same type of thing (i.e. test scores)

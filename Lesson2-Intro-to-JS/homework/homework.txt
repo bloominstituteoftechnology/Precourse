@@ -1,0 +1,16 @@
+Variables
+ - A container that can keep something for later
+ 
+Strings
+- A string is a bunch of text
+
+Functions (arguments, return)
+- A function is a group of code that can work with variables
+- Arguments are the things that are passed through the function
+- Return lets you get things that would usually be trapped inside a function to move outside the function. It also tells the function to stop
+
+if statements
+- If statements evaluate what should happen if certain criteria are met
+
+Boolean values (true, false)
+- Boolean values offer two choices, kind of like a light switch - on or off
