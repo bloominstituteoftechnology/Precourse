@@ -1,0 +1,5 @@
+for : We use this to create a loop with certain conditions. This will keep on running until the conditions are met. If you don't set up an end condition, this will keep on running and crash your computer.
+&& : This is what you use if 2 conditions need to be true before you want something to go through
+||: This is what you use if only 1 out of 2 condidions should be true when running it.
+ !:This 'not' should be placed at the front to turn it into the opposite.
+Arrays:This is a box where your can store multiple strings, numbers and booleans.You can refer to each item within using a number, starting from 0.
