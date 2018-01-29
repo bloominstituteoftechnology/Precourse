@@ -95,23 +95,17 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  let count = 0;
-  for(let x = 2; x <= num; x++){
+  if (num === 0 || num ===1){
+    return false;
+  }
 
-    let primeCheck = num%x;
-
-    if(primeCheck === 0){
-      count++;
-      if(x === num){
-        if(count > 1){
-          return false;
-        } else {
-          return true;
-        }
-      }
+  for(let x = 3; x < num; x++){
+    if (num % x === 0){
+      return false;
     }
   }
-  return false;
+  
+  return true;  
 }
 
 function returnFirst(arr) {
