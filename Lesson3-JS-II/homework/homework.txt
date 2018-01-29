@@ -1,0 +1,19 @@
+'for' - 'for' is used to begin a loop in code. This loop is usually used to iterate over a set of values
+starting when certain conditions are met. Normally a block of code is executed for each value until
+the given conditions are no longer met.
+
+'&&' - The && (and) operator is what is called a logical operator. Logical operators are used to see if a 
+value meets certain conditions. The && operator specifically, is used to compare a value against 
+multiple conditions and all of the conditions must be met (evaluate to 'true') in order for the
+proceeding code to be executed. Otherwise it evaluates to 'false'.
+
+'||' - The || (or) operator is another logical operator. Like the && operator it is used to see if a given
+value meets multiple conditions. Unlike the && operator if only one of the conditions is met the expression
+evaluates to 'true' and the following block of code is executed. If none of the conditions are met the expression
+evaluates to 'false'.
+
+'!' - The '!' (not) operator reverses the value returned from evaluating an expression.
+
+Arrays - An array is another data type like strings, numbers, and booleans. Arrays are sort of like
+a container that holds a collection of data. Normally it is considered good practice to store the
+same data types in an array but they can consist of multiple data types.
