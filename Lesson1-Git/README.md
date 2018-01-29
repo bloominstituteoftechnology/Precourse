@@ -183,8 +183,8 @@ Congratulations! You just pushed your first git commit!
   ## Further reading and tutorials:
 
   * [Git: official site](https://git-scm.com/)
-  * [Github: official tutorial](https://try.github.io/levels/1/challenges/1)
   * [Codecademy: Learn Git](https://www.codecademy.com/learn/learn-git)
   * [Git: official tutorial](https://git-scm.com/docs/gittutorial)
+  * [GitHub: official tutorial](https://try.github.io/levels/1/challenges/1)
   * [Termianl turorial](https://www.davidbaumgold.com/tutorials/command-line/)
  
