@@ -1,0 +1,12 @@
+Variables are labels for data to be used by computer programs. They are used to store information needed later.
+
+Strings are a set of text characters held within quotation marks. They can be numbers, letters, or special characters.
+
+Functions (arguments, return) are sets of code that take in data, processes it for a specific purpose, and returns a 
+result. They can be used over and over again.
+
+If statements are used to test for specific conditions.  They return a different result based on the testing of
+each condition. 
+
+Boolean values (true, false) are like an on/off switch.  They are the result after testing for something specific 
+in your code such as: x === y (Does x equal y?). If it does, the result will be true. If not, it will return false. 
