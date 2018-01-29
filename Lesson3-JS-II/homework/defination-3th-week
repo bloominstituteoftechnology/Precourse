@@ -1,0 +1,11 @@
+ `for`
+	repeatedly run a block of code , until a certain condition is met or not met. 
+
+
+	* `&&`, and check firt one if true, check the second one , even more. if false, no more check.
+
+	`||`, or , if first true, then no more check. if false, check next one. until find a true or end with the last one.
+
+
+	`!` not. 
+	* Arrays one kind of objects. used to store values. maybe numbers,  string or multiple types value mixed together. Can be edited. rmove, add, slice or other operation. 

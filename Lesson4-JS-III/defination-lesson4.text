@@ -1,0 +1,21 @@
+* Objects
+	containing many properties. like a man that has many characteristics, height, weight, hair color...
+
+	It can be compared with an item in the real life. 
+
+
+	* Properties
+	 object is a block of properties, which contains a pari of values, one called key, and the others one called value. value can be string, number function and so on. 
+	* Methods
+		function in object, set a key as its name, and function as value. called by objectName.keyName
+	* for in loop
+	 count each key in the object, then find the paired value, more simple and effcient than counting the index 'for loop', in my opinion. 
+
+
+	* Dot notation vs bracket notation
+
+	two ways to access object properties. 
+
+	when using dot notation, the properties can't start with numbers, no spaces. 
+
+	when using bracket notation, the property identifiers should be a string, can start with number and contains space.
