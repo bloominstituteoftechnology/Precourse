@@ -1,0 +1,11 @@
+#### Lesson 4 Feynman Writing Prompts ####
+
+Objects - 
+
+Properties - 
+
+Methods - 
+
+for in loop - 
+
+Dot notation - 
