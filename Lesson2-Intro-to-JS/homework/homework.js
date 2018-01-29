@@ -137,7 +137,7 @@ function getGreeting(name) {
   return `Hello ${name}!`;
 }
 
-// The next three questions will have you implement math area formulas.
+// The next two questions will have you implement math area formulas.
 // If you can't remember these area formulas then head over to Google.
 
 function getRectangleArea(length, width) {
