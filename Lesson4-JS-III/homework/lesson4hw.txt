@@ -1,0 +1,14 @@
+
+
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+    Objects - Objects are a series of pairs of data. The pairs consist of a key and a value separated by a colon. Think of an English dictionary. A key is the word you're looking up, and the value is the definition of the key. 
+	
+    Properties - The key:value pair is also called a property.
+	
+    Methods - If the value of a certain property is a function, it's called a method.
+	
+    for in loop - for ... in loops allows you to iterate through a data type that is a series of values, such as a string, an array, or an object.
+	
+    Dot notation vs bracket notation: There are two ways to access a value of a property in an object. Object.Key and Object[Key]. While both work, Object[Key] provides the possibility of passing a variable that is converted to a string. This is useful when the Key variable can be dynamically assigned a value to your needs, such as during an iteration.
+
