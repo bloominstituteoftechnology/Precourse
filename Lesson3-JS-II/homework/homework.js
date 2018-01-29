@@ -3,10 +3,10 @@
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
-  if (x !== y) {
-    return Math.max(x,y); 
+  if (x > y) {
+    return x; 
     } else {
-    return (x || y);
+    return y;
   }
 }
 
@@ -26,6 +26,7 @@ return('Hola!');
 return('Hello!');
 }
 }
+// look into switch statements for long else if
 
 function isTenOrFive(num) {
   // return true if num is 10 or 5
@@ -82,14 +83,18 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-for(let i = 2; i <num; i++) {
-  if(num % i === 0 ) {
-    return false;
+  if (num === 1 || num === 0) {
+  return false;
   }
+  if (num === 2) return true;
+  for (let i = 2; i <num; i++) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true; 
 }
-    return num > 1;
-}
-// function above needs more work *****
+// 
 
 function returnFirst(arr) {
   // return the first item from the array
@@ -99,8 +104,7 @@ function returnFirst(arr) {
 
 function returnLast(arr) {
   // return the last item of the array
-  var last = (arr.length - 1);
-  return(arr[last]);
+  return arr[arr.length - 1];
 }
 
 function getArrayLength(arr) {
@@ -138,7 +142,8 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-return words.join(' ');
+  // return words.join(' ');
+  return words.join(' ');
 }
 
 function contains(arr, item) {
@@ -154,23 +159,33 @@ function contains(arr, item) {
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
-const reducer = (accumulator, currentValue) => accumulator + currentValue;
-return(numbers.reduce(reducer));
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  return sum; 
 }
+// for the more advanced student
+// const reducer = (accumulator, currentValue) => accumulator + currentValue;
+// return(numbers.reduce(reducer));
 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
-let count = testScores.length; 
-testScores = testScores.reduce((previous, current) => current += previous);
-testScores /= count; 
-return(testScores);
+  return addNumbers(testScores) / testScores.length;
 }
 
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
-return(Math.max(...numbers));
+//return(Math.max(...numbers));
+  let largest = numbers[0];
+  for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] > largest) {
+      largest = numbers[i];
+    }
+  }
+  return largest; 
 }
 
 // Do not modify code below this line.
