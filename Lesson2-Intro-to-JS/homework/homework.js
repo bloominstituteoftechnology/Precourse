@@ -60,40 +60,28 @@ function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
-  if (x==y){
-    return true;
-  }
-  return false;
+ return x === y;
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  if (str1.length == str2.length){
-    return true;
-  }
-  return false;
+return str1.length === str2.length;
 }
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
-  if (num < 90){
-    return true;
-  }
-  return false;
+return num < 90;
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
-  if (num > 50){
-    return true;
-  }
-  return false;
+return num > 50;
 }
 
 function getRemainder(x, y) {
@@ -106,22 +94,14 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  var z = num%2;
-  if (z==0){
-    return true;
-  }
-  return false;
+return num % 2 === 0;
 }
 
 function isOdd(num) {
   // return true if num is false
   // otherwise return false
   // code here
-  var x = num%2;
-  if (x==0){
-    return false;
-  }
-  return true;
+return num % 2 === 1;
 }
 
 function square(num) {
@@ -173,7 +153,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return 'Hello ' + name + '!';
+  return 'Hello' + ' ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -182,15 +162,13 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
-  let RectangleArea = length * width;
-  return RectangleArea;
+return length * width;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  let triangleArea = 0.5 * base * height;
-  return triangleArea; 
+return 0.5 * base * height;
 }
 
 // Do not modify code below this line.
