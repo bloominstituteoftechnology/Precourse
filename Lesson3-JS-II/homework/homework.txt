@@ -1,0 +1,5 @@
+	* `for` - A loop statement that will run as long as the condition is met.  Normally used to run through lists or arrays.
+	* `&&` - AND operator.  Both conditions must be true.
+	* `||` - OR operator.  Either condition can be true.
+	* `!` - NOT operator.  
+	* Arrays - A variable type that contains a list.  Access starts at arr[0].
