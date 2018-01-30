@@ -19,7 +19,7 @@ function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
-  object[property]= null;
+  object[property] = null;
   return object;
 }
 
@@ -116,10 +116,17 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // add a method to the storeItem object called 'calculateDiscountPrice'
   // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
   // the method then subtracts the discount from the price and returns the discounted price
+  // return store object
   // example: 
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
+
+  storeItem.calculateDiscountPrice = function(){
+    let discount = storeItem.price - (storeItem.price * storeItem.discountPercentage);
+    return discount;
+  };
+  return storeItem;
 }
 
 // Do not modify code below this line.
