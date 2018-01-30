@@ -1,0 +1,35 @@
+/*body, html {
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsTpOyKXiUCYXt4khCHkDWrVslPkxtO4i7Qtw3qf5S-6yfWxqs'), no-repeat;
+	display: flex;
+	margin: 0;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vw;
+}
+
+div {
+	margin: auto;
+	position: relative;
+	text-align: center;
+}
+
+h1 {
+	color: palevioletred;
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: royalblue;
+	padding: 50px;
+	border: 1px limegreen dotted;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}*/
