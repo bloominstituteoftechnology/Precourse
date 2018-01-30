@@ -8,7 +8,7 @@ function makeCat(name, age) {
   let cat = {
     name: name,
     age: age,
-    method: function(){
+    meow: function(){
       return ('Meow!');
     }
   };
@@ -74,7 +74,7 @@ function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
-  if ((object[property]) == 'undefined'){
+  if ((object[property]) === undefined){
     return false;
   }
   else{
@@ -86,7 +86,7 @@ function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
-  if (user.password == password){
+  if (user.password === password){
     return true;
   }
   else{
@@ -146,8 +146,9 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
-  storeItem.caculateDiscoutPrice = function(){
-    return( this.price -(this.price * this.discountPercentage));
+  storeItem.calculateDiscountPrice = function(){
+    const discount = this.price * this.discountPercentage;
+    return( this.price - discount);
   };
 }
 
