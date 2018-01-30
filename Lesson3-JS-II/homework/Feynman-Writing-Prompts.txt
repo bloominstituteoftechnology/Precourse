@@ -1,0 +1,13 @@
+	What is `for` mean in JavaScript?
+    This means that this a loop that must satisfy three parameters before passing or it will not work.
+  
+  What are `&&`, `||`, `!` ?
+    `&&` means 'and'
+    `||` means 'or'
+    `!` means not
+
+  What are arrays?
+    These are a cluster of assigned data types.
+
+  
+  

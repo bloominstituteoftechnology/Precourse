@@ -1,0 +1,20 @@
+	* Variables
+	* Strings
+	* Functions (arguments, `return`)
+	* `if` statements
+	* Boolean values (`true`, `false`)
+
+  What are variables in JavaScript?
+    variables in JavaScript are commands that tells the browser what type of action they want displayed in the browser. There are three different types of commands used: var, let, and const. The commands var and let are similar because they both express changes. What this mean that there is a constant change or movement in these commands. However, it is best practice to use let instead of var. Const is constant and stays the same. These cannot be easily changed.
+
+  What are strings?
+    strings are words that are surrounded by quotation marks.
+
+  What are functions?
+    Functions tells or explains to the browser what JavaScript want to output or display.
+
+  What are 'if' statements? 
+    These are staments that are giving options to the browser to display that action like this or that.
+
+  What are boolean values?
+    These are values that will either be true or false.

@@ -1,0 +1,11 @@
+ What are Callback Functions?
+  An important concept that passes an argument into another function. It uses the cb argument variable as a callback.
+
+ What are `arguments`?
+  An array like functions that use the property of .length but not all of the functionality of an array. It is also followed by a for loop used to pass the argument.
+
+ What is a `prototype`? 
+  Are methods giving an object access to the method of every class. Basically copying the concept or method over again which uses the this keyword to refer to this type of class.
+ 
+ What are Constructors?
+  Special method used to create a class in an object. There can only be one and has not value.
