@@ -1,0 +1,123 @@
+Feynman Writing Prompts
+
+
+Coding is a lot like high school math, but since you are just 12 years old, I am here to explain this so you can understand :D
+
+Variables
+- Variables are very important in coding, to quickly understand variables, think of them as a secret hidden vault, that you can only see when you enter the password, each language has certain ways of creating these vaults. I will show you how to create them in the JavaScript language
+
+- The way you create this vault in JavaScript language is by telling the computer, ' I want to create a vault', if you don't, the computer will not understand what you are doing
+
+- You tell the computer that you are going to create a vault with special words, one of them is 'var'
+
+- once you do that, you give your vault a password, it can be any words, and then you write whatever you want to save in the vault.
+
+- for example, var newPassword = "I want to save this new text in the vault"
+
+- What I did there is first created the special word 'var' then I created the password 'newPassword' then I added a equal sign '=' to tell the computer that I am going to add some stuff into the vault, then I added the stuff, you can add anything you want into the vault, it can be any text like you name, address, any number, anything you can type into a computer.
+
+- I will explain why I put quotes on the text I saved into the vault later
+
+- The language you are using(JavaScript) is always learning and updating, so 'var' is a old way of telling the computer that you are about to create a vault, some newer ways are by using special words 'const' and 'let', these special words are better to use since they have more rules to them, so you will make less mistakes!
+
+
+
+
+
+
+
+Strings
+- Previously I added quotes to the stuff I added to the vault('I want to save this new text in the vault')
+
+- If you noticed, I did not add quotes to the password(newPassword)
+
+- The reason we do this is so the computer knows what you are writing. Unlike humans, the computer can't tell what is what, so we have to tell it what we are writing exactly, this way it knows whether you are writing texts, numbers, passwords, ect 
+
+- The way you write texts/sentances is by using quotes, the way we write passwords, is by not adding quotes, and writing the password exactly as it is, even capital letters
+
+- if you try to access your vault and you write your password in quotes, the computer is will think that you are just writing a sentance, not your password.
+
+
+
+
+
+
+Functions(arguments, return)
+
+- computers can not only save special things in vaults, they can also do things
+
+- the way you make them do things is by using functions, and you tell them what to do inside a function
+
+- using the word function is the same thing as the special var or let or const
+
+- when you type the word function, the computer is going to know right away that you are about to tell it to do something 
+
+- once you write the word function, you are going to tell it what to do inside the function, like math, there is a special formula that you write to be able to put stuff inside the function:
+
+function name (input) {
+  this is the inside of a function
+  this is where to tell it to do stuff
+}
+
+- functions are cool, because you can not only tell it what to do inside the function, but you can also tell it what to do outside of the function
+
+- the way you do that is by adding a special word inside the parenthesis, in this case I used the word input. 
+
+- when you do that, the function will let you replace it outside of the function, you can replace it with a number, or a 'string', or an equation! 
+
+- just like a vault, you need to give functions a name, so it knows which function you are reffering to
+
+- another way you can tell it to do stuff outside of the function, is by using a special word called, return
+
+- the special word return will allow you to many things outside of a function:
+
+funtion name (input1, input2) {
+  return input1 + input2;
+}
+
+- this is a simple example, not mentioned before, you can add more than one special word to replace in the parenthesis
+
+- what you can do with this is replace input1 and input2 with 2 numbers outside of the function, when you do that, the function will add them, just like you told it to do inside the function!
+
+
+
+
+
+
+Boolean Values
+
+- is 5 equal to 5? true or false?
+
+- is 3 less than 4? true or false?
+
+- this is what a boolean is
+
+- it is a way to tell if something is true, or false
+
+- just like everything else there are special words, or in this case characters you write to ask the computer if something is true of false:
+
+=== means equal
+
+< means less than
+
+> means greater than
+
+<= means less than or equal to
+
+>= means greater than or equal to
+
+- the computer knows every answer to all math problems! you can ask it anything and it will give you an answer, in this case you can ask if if certain numbers are equal to, less than, greater than, exactly
+
+- for example, if you want to know whether 5 is less than 10, you simply ask the computer like this
+5 < 10;
+
+- the computer will know right away since you asked it with the special character <, it will then tell you where that is true or false. 5 IS less than 10, so the computer will give you true!
+
+
+
+if statements
+
+- if statements are another way you can ask the computer whether something is true or false
+
+- if statements allow you to ask it more complicated questions
+
