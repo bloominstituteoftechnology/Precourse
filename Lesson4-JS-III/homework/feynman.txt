@@ -1,0 +1,28 @@
+Objects:
+    Like arrays, lists are a way to store collections of data. The primary difference between arrays is that instead of being a collection of individual elements, objects are collections of key-value pairs, which we call properties. The keys and values of a property are separated by a colon The keys should be meaningful names for a property or method, as they evaluate to strings. The values can be any valid data in JavaScript, including other ojbects and even functions. Objects are extremely useful for modeling real world phenomena and objects
+    
+Properties: 
+    Properties are the attributes of an object, or the data and method that are contained within an object. Properties are comprised of key-value pairs within an object and can be accessed via dot notation (object.property) or via bracket notation (object['property']). Accessing the properties in these ways will allow you to retrieve, set, or alter the values corresponding to each property
+    
+Methods:
+    Methods are simply functions that are owned by or contained within an object. A method's primary purpose is to manipulate the data that an object contains in response to some input. 
+    
+for-in loop
+    Some data in java, including objects are iterable, meaning that you can iterate or loop over the individual members of the object. An easy way to iterate over the properties or members of an object is with a special kind of for loop called a for-in loop. 
+    
+    for (let key in object)
+    {
+        Execute some stuff
+    }
+    
+        - key is called the indexing variable and takes on the name (evaluated as a string) of one property of the object per iteration of the loop. Key evaluates to a string, meaning that when you use a for-in loop, you must access an object's members with bracket notation and NOT dot notation
+    
+        - Remember that variables must be declared before you can make use of them and the indexing variable is no different (note the let declarator in the parens)
+        
+        - Each time this loop iterates, key will allow you to access the corresponding property
+        
+Dot vs Bracket notation:
+    There are 2 ways to access the properties of an object, dot notation and bracket notation
+        - Dot notation is as follows --> objectName.propertyName, where objectName is the name of the object variable and propertyName is the name of the property, not enclosed in quotes. This is the preferred way to access properties and should be used unless doing so is not possible. 
+        - Bracket notation is as follows --> objectName['propertyName'], where objectName is the name of the object variable and propertyName is the name of the property. Please note that when using this notation, propertyName must be enclosed in quotes. This notation is ideal for use in a for-in loop. 
+    
