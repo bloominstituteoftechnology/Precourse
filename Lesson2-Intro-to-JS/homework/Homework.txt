@@ -1,0 +1,5 @@
+Variables -JavaScript's way of storing data that will be used later in the code. Defined as two different types: const or let depending on if it will change or not.
+Strings - Data type in JS that is stored as a set of characters inside "" marks. Basically text.
+Functions - Way of "doing something"  with variables, be it change them, return several variables, math results etc. 
+IF statements - A way to program different paths the code can take. An IF statement will do something if your argument is true, and something else if it is untrue.
+Boolean Values - A Variable/Data type that can either be true or false. F.ex a coin toss can either be heads or tails and nothing else. Can be used with IF statements to for example say "if the light is on (true), walk into the room", but "if the light is off (false), walk away" 
