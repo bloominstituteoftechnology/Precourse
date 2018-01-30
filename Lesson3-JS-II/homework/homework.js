@@ -46,7 +46,7 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  return num - Math.floor(num) === 0;
+  return num === Math.floor(num);
 }
 
 function fizzBuzz(num) {
@@ -69,20 +69,19 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
+  
   if (num === 0 || num === 1) {
     return false;
-  } else if (num === 2) {
-    return true;
-  } else {
-    for (let i = 2; i < num; i++) {
-      if (num % i === 0) {
-        return false;
-      } else {
-        return true;
-      }
+  } 
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      return false;
     }
   }
+  return true;
 }
+  
+
 
 function returnFirst(arr) {
   // return the first item from the array
@@ -141,6 +140,7 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
+  // or just use arr.includes(item);
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === item) {
       return true;
@@ -152,6 +152,7 @@ function contains(arr, item) {
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
+  // can also use some method called "reduce"
   let sum = 0;
   for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
@@ -164,6 +165,7 @@ function averageTestScore(testScores) {
   // return the average
   let sum = addNumbers(testScores);
   return sum / testScores.length;
+  // can call addNumbers() on the return line. don't need 2 lines.
 }
 
 function largestNumber(numbers) {
