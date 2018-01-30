@@ -116,7 +116,6 @@ function sumUserPostLikes(user) {
   // return the sum
   let amt = 0;
 	for(let obj in user.posts){
-		
 		amt += user.posts[obj]['likes'];
 	}
 	return amt;
@@ -130,6 +129,10 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
+	storeItem.calculateDiscountPrice = function() {
+		const discount = this.price * this.discountPercentage;
+		return this.price - discount;
+	};
 }
 
 // Do not modify code below this line.
