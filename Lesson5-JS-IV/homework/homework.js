@@ -97,6 +97,13 @@ function addReverseString() {
   // name this method reverse
   // hint:
   // you will need to use 'this' inside of reverse
+  String.prototype.reverse = function() {
+    let reversedString ='';
+    for (let i = (this.length-1); i >= 0; i--) {
+      reversedString = reversedString + this[i]; 
+    }
+    return reversedString;
+  };
 }
 
 function nFactorial(n) {
@@ -104,6 +111,16 @@ function nFactorial(n) {
   // solve this recursively
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
+  let result = n;
+  let findFactorial = function (n) {
+    if (n<=1) {
+      return;
+      }
+    result = (result * (n-1));
+    findFactorial(n-1);
+  };
+  findFactorial(n);
+  return result;
 }
 
 function cacheFunction(cb) {
@@ -118,6 +135,21 @@ function cacheFunction(cb) {
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
+  let resultsObj = {};
+  
+  let insideFunction = function(arg) {
+    let argString = arg.toString();
+    if (argString in resultsObj) {
+      return resultsObj[argString];
+    }
+    else {
+      let newResult = (cb(arg));
+      resultsObj[argString] = newResult;
+      return newResult;
+    }
+  };
+
+  return insideFunction;
 }
 
 // Do not modify code below this line.
