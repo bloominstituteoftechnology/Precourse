@@ -28,16 +28,17 @@ let newModulo = 21 % 5 === 1 ;
 
 function returnString(str) {
   //simply return the string provided: str
-  const returnString = 'lambdaSchool';
-  return returnString;
+  return str;
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
-  let add = (x + y);
+  let add = x + y;
   return add;
+  // const sum = x + y;
+  // return sum;
 }
 
 function subtract(x, y) {
@@ -45,6 +46,7 @@ function subtract(x, y) {
   // code here
   let subtract = (x - y);
   return subtract;
+  // retuen x - y;
 }
 
 function multiply(x, y) {
@@ -52,6 +54,7 @@ function multiply(x, y) {
   // code here
   let multiply = (x * y);
   return multiply;
+  // return x * y;
 }
 
 function divide(x, y) {
@@ -59,6 +62,7 @@ function divide(x, y) {
   // code here
   let divide = (x / y);
   return divide;
+  // return x / y;
 }
 
 function areEqual(x, y) {
@@ -70,6 +74,7 @@ function areEqual(x, y) {
   } else {
     return false;
   }
+  // return x === y;
 }
 
 function areSameLength(str1, str2) {
@@ -80,6 +85,7 @@ function areSameLength(str1, str2) {
     return true;
   } else { return false;
   }
+  // return str1.length === str2.length
 }
 
 function lessThanNinety(num) {
@@ -92,6 +98,7 @@ function lessThanNinety(num) {
   } else {
     return false;
   }
+  // return num < 90;
 }
 
 function greaterThanFifty(num) {
@@ -102,6 +109,7 @@ function greaterThanFifty(num) {
   if (num > 50) {
     return true
 ;  } else{ return false;}
+  // return num > 50;
 }
 
 function getRemainder(x, y) {
@@ -109,6 +117,7 @@ function getRemainder(x, y) {
   // code here
   let getRemainder = x % y;
   return getRemainder;
+  // return x % y;
 }
 
 function isEven(num) {
@@ -120,6 +129,7 @@ function isEven(num) {
   } else {
     return false;
   }
+  // return num % 2 ===0;
 }
 
 function isOdd(num) {
@@ -131,6 +141,7 @@ function isOdd(num) {
   } else {
     return false;
   }
+  // return num % 2 ===1;
 }
 
 function square(num) {
@@ -139,6 +150,7 @@ function square(num) {
   // code here
   let square = Math.pow(num, 2);
   return square;
+  // return num * num;
 }
 
 function cube(num) {
@@ -146,6 +158,7 @@ function cube(num) {
   // code here
   let cube = Math.pow(num, 3);
   return cube;
+  // return num * num * num;
 }
 
 function raiseToPower(num, exponent) {
@@ -153,6 +166,7 @@ function raiseToPower(num, exponent) {
   // code here
   let raiseToPower = Math.pow(num, exponent);
   return raiseToPower;
+  // return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
@@ -160,6 +174,7 @@ function roundNumber(num) {
   // code here
   let roundNumber = Math.round(num);
   return roundNumber;
+  // return Math.round(num);
 }
 
 function roundUp(num) {
@@ -167,6 +182,7 @@ function roundUp(num) {
   // code here
   let roundUp = Math.ceil(num);
   return roundUp;
+  // return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
@@ -175,6 +191,7 @@ function addExclamationPoint(str) {
   // code here
  let addExclamationPoint = (str + '!');
  return addExclamationPoint;
+ // return str + '!';
 }
 
 function combineNames(firstName, lastName) {
@@ -183,6 +200,7 @@ function combineNames(firstName, lastName) {
   // code here
   let combineNames = (firstName + ' ' + lastName);
   return combineNames;
+  // return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
@@ -191,6 +209,7 @@ function getGreeting(name) {
   // code here
   const getGreeting = ('Hello ' + name + '!');
   return getGreeting;
+  // return 'Hello ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -201,6 +220,7 @@ function getRectangleArea(length, width) {
   // code here
   let getRectangleArea = (length * width);
   return getRectangleArea;
+  // return length * width;
 }
 
 function getTriangleArea(base, height) {
@@ -208,6 +228,7 @@ function getTriangleArea(base, height) {
   // code here
   let getTriangleArea = 0.5 * (base * height);
   return getTriangleArea;
+  // return base * height / 2;
 }
 
 // Do not modify code below this line.
