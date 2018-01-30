@@ -1,0 +1,4 @@
+Callback functions are functions nested within other functions.
+Arguments is built into any function and allows us to correctly retrieve all data even when the amount of input data is unknown.
+Prototype is a way of giving every object of a class a way to access the same method.
+Constructor is another name for class, as in, class of an object, i.e., users of an app.
