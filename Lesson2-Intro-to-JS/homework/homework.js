@@ -40,7 +40,7 @@ function add(x, y) {
 
 function subtract(x, y) {
   // subtract y from x and return the value
-  return y - x;
+  return x - y;
 }
 
 function multiply(x, y) {
@@ -121,7 +121,7 @@ function roundNumber(num) {
 
 function roundUp(num) {
   // round num up and return it
-  return Math.round (num, 1);
+  return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
