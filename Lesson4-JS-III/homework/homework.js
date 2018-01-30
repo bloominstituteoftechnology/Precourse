@@ -13,6 +13,17 @@ function makeCat(name, age) {
     },
   };
   return cat;
+
+  // Alternate method
+  // =====================
+  // return {
+  //   name: name,
+  //   age: age,
+  //   meow: function() {
+  //     return 'Meow!';
+  //   },
+  // };
+  // =====================
 }
 
 function addProperty(object, property) {
