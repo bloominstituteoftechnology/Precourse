@@ -1,0 +1,16 @@
+Objects:
+Objects are collections of key/value pairs. A key/value pair is a unique key (a name of sorts) that has a specific value, be it a number or string or whatever you want. The object can have as many key/value pairs as you want (I hope...). They could be useful for dictionaries, metadata, counting things, and a lot more.
+
+Properties:
+Properties are the key/value pairs that an object has. So, an array has a length property that has the key length and a value corresponding to however long the array is.
+
+Methods:
+When a function is the value in a key/value pair, we call it a method. It really is that simple.
+
+for in loop:
+for in loops are just a syntax for a for loop where you say for(let some_variable_name in object_or_array_but_arrays_are_really_just_objects_so_whatever){} and the loop iterate over the object's keys.
+
+Dot notation vs Bracket notation:
+When you want the value of a key, be it a method or whatever, you can use dot notation or bracket notation. Dot notation is where you type the objects name, a dot, and then the key's name to access the value. For bracket notation you write the objects name followed by the key's name in a string or as a number in a pair of square brackets.
+
+
