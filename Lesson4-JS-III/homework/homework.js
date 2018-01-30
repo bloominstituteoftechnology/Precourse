@@ -76,6 +76,7 @@ function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
+  // return user.password === password;
   if (password === user.password) {
     return true; 
   } 
@@ -129,6 +130,11 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
+  /* store.Item.calculateDiscountPrice = function () {
+     const discount = this.price * this.discountPercentage;
+     return this.price - discount;
+     }
+  */
   storeItem.calculateDiscountPrice = function() {
   let discountPrice = this.price - (this.price * this.discountPercentage);
   return discountPrice;
