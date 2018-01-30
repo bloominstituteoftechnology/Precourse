@@ -1,13 +1,15 @@
+
+
 function makeCat(name, age) {
   // create a new object with a name property with the value set to the name argument
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
   let catObj = {
-    name:name;
-    age:age;
-    meow: function(){return 'Meow!';
-  }
+    name:name,
+    age:age,
+    meow: function(){return 'Meow!';}
+  };
   return catObj;
 }
 
@@ -23,13 +25,13 @@ function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-  object.method();
+  object[method]();
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
-  return 5*mysterNumberObject.mysteryNumberObject;
+  return 5*mysteryNumberObject.mysteryNumber;
 }
 
 function deleteProperty(object, property) {
@@ -43,31 +45,31 @@ function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
   let newObj = {
-    name:name;
-    email:email;
-    password:password;
-  }
+    name:name,
+    email:email,
+    password:password
+  };
   return newObj;
 }
 
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
-  return user.email != null;
+  return user.email !== undefined && user.email.length > 0;
 }
 
 function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
-  return object[property] != null;
+  return object[property] !== undefined;
 }
 
 function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
-  return user.password = password;
+  return user.password === password;
 }
 
 function updatePassword(user, newPassword) {
@@ -90,8 +92,8 @@ function setUsersToPremium(users) {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
-  for (let user in users) {
-    user.isPremioum = true;
+  for (let i=0; i<users.length; i++) {
+    users[i].isPremium = true;
   }
   return users;
 }
@@ -103,8 +105,8 @@ function sumUserPostLikes(user) {
   // sum together the likes from all the post objects
   // return the sum
   let sum = 0;
-  for (let post in user.posts) {
-    sum += post.likes;
+  for (let i=0; i<user.posts.length; i++) {
+    sum += user.posts[i].likes;
   }
   return sum;
 }
@@ -119,7 +121,7 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // discountPrice = 20 - (20 * .2)
   storeItem.calculateDiscountPrice = function() {
     return this.price - this.price*this.discountPercentage;
-  }
+  };
   return storeItem;
 }
 
