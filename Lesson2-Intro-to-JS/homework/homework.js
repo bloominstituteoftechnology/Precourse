@@ -149,6 +149,7 @@ function combineNames(firstName, lastName) {
   return firstName + ' ' + lastName;
 }
 
+/*
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
@@ -156,6 +157,21 @@ function getGreeting(name) {
   let str1 = 'Hello ';
   const str2 = '!';
   return str1.concat(name, str2);
+}
+
+function getGreeting(name) {
+  // Take the name string and concatenate other strings onto it so it takes the following form:
+  // 'Sam' -> 'Hello Sam!'
+  // code here
+  return 'Hello '.concat(name, '!');
+}
+*/
+
+function getGreeting(name) {
+  // Take the name string and concatenate other strings onto it so it takes the following form:
+  // 'Sam' -> 'Hello Sam!'
+  // code here
+  return 'Hello '+ name +'!';
 }
 
 // The next three questions will have you implement math area formulas. 
