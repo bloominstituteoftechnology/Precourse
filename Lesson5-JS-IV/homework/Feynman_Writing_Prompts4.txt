@@ -1,0 +1,4 @@
+1. Callback Functions: callback functions are functions that have been passed into another function and can be used within.
+2. arguments: they are the data types that are passed into a function. They can be accessed without needing to be set to a variable
+3. prototype: setting a parameter or function as a prototype will make one copy of it, allowing all objects made to use that copy, instead of having a copy made for all objects created.
+4. Constructors: a function that is called when an object is created using information that is passed into it. This will be the information that is set to it's parameters on creation.
