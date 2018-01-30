@@ -83,10 +83,10 @@ function areSameLength(str1, str2) {
   str2.length;
   
  if (str1.length == str2.length) {
-   return true
+   return true;
  }
   
-  return false
+  return false;
 }
 
 function lessThanNinety(num) {
@@ -94,9 +94,9 @@ function lessThanNinety(num) {
   // otherwise return false
   // code here
   if (num < 90) {
-    return true
+    return true;
   }
-    return false
+    return false;
 }
 
 
@@ -106,9 +106,9 @@ function greaterThanFifty(num) {
   // otherwise return false
   // code here
   if (num > 50){
-    return true
+    return true;
   }
-    return false
+    return false;
 }
 
 function getRemainder(x, y) {
@@ -123,9 +123,9 @@ function isEven(num) {
   // otherwise return false
   // code here
   if (num % 2 === 0){
-    return true
+    return true;
   }
-    return false
+    return false;
 }
 
 function isOdd(num) {
@@ -133,11 +133,11 @@ function isOdd(num) {
   // otherwise return false
   // code here
   if (num % 2 !== 0){
-    return true
+    return true;
   }
-    return false
+    return false;
 }
-}
+
 
 function square(num) {
   // square num and return the new value
@@ -175,22 +175,24 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  return str + "!";
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  return firstName + " " + lastName;
+  return firstName + ' ' + lastName;
 }
+
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return "Hello" + " " + name + " " + "!"
+  return 'Hello' + ' ' + name + '' + '!';
 }
+
 
 // The next three questions will have you implement math area formulas. 
 // If you can't remember these area formulas then head over to Google.
@@ -198,14 +200,14 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
-  area = length * width;
+  let area = length * width;
   return area;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  area = (base * height) / 2;
+  let area = (base * height) / 2;
   return area;
 }
 
