@@ -208,7 +208,7 @@ In this example we will be creating a `Cat` class. Convention for classes is to 
 
 ``` 
 
-### `class` & `construct` keywords
+#### `class` & `construct` keywords
 
 ```javascript
     class User {
