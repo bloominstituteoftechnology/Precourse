@@ -80,8 +80,8 @@ function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
   
-  //user.password = newPassword; ---> can be this way OR way below. 
-  user['password'] = newPassword;
+  user.password = newPassword;
+  // OR user['password'] = newPassword;
   return user;
 }
 
@@ -89,8 +89,8 @@ function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
   // return the user object
-  user.friends[user['friends'].length] = newFriend;
-  // OR user.friends.push(newFriend);
+  user.friends.push(newFriend);
+  // OR user.friends[user['friends'].length] = newFriend;
   return user;
 }
 
@@ -113,7 +113,8 @@ function sumUserPostLikes(user) {
   // return the sum
   let sum = 0;
   user.posts.forEach(function(el) {
-    sum += el['likes'];
+    sum += el.likes;
+    // OR sum += el['likes'];
   });
   return sum;  
 }
@@ -127,8 +128,8 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
   storeItem.calculateDiscountPrice = function () {
-    return this['price'] - (this['price'] * this['discountPercentage']);
-    // OR return this.price - (this.price * this.discountPercentage);
+    return this.price - (this.price * this.discountPercentage);
+    // OR return this['price'] - (this['price'] * this['discountPercentage']);
   };
 
   return storeItem;
