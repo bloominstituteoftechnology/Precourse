@@ -1,0 +1,9 @@
+For loop is a common function that is used to evaluate expressions over and over again. It will continue to run until the declared variable is returned. 
+
+&& is a logical operator means 'and.' It is used to evaluate two separate expressions together. If both variables are true then the code will run correctly. If one or both are not true, the code will not run.
+
+|| is a logical operator and means 'or.' Determines if either expression is true. If one or both are true, the code will run correctly. If neither are true, the code will not run.
+
+! is a logical operator that means 'not.' It reverses the boolean value of the evaluated expression.
+
+Arrays allows for programmers to evaluate a collection of data rather than a single string. Must be contained within brackets. 
