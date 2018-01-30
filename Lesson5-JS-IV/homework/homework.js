@@ -19,13 +19,20 @@ function multiplyArguments() {
 
 function invokeCallback(cb) {
   // invoke cb
+  cb();
 }
 
 function sumArray(numbers, cb) {
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
+  let sum = 0;
+  for (let i=0; i < numbers.length; i++)
+  sum += numbers[i];
+  cb(sum);
 }
+
+
 
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
