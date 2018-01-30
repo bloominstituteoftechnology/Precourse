@@ -2,34 +2,74 @@
 <html>
     <head>
         <!--<style>
+            /*Center all elements. Commented out and added some additional
+            styling in the tag because the asymmetry was hurting my eyeballs*/
             body.center {
-                margin: auto;
+                /*Center all elements, no positioning, no flexbox*/
+                /*margin-top: 20px;
+                margin-left: 20%;
+                margin-right: 20%;
+                margin-bottom: 20px;*/
+
+                /*Static position*/
+                /*position: static;
                 margin-top: 20px;
-                width: 50%;
+                margin-left: 20%;
+                margin-right: 20%;
+                margin-bottom: 20px;*/
+
+                /*Relative position*/
+                /*position: relative;
+                top: 20px;
+                left: 0;
+                right: 0;*/
+
                 border: 3px solid green;
                 padding: 10px;
+                text-align: center;
             }
-            div {
-                margin: auto;
-            }
+
             body {
+                /*Set background of page*/
                 background-image: url("https://hdwallsource.com/img/2014/4/light-background-wallpaper-22923-23559-hd-wallpapers.jpg");
             }
+
+            /*Centering elements with Flexbox*/
+            body {
+                display: flex;
+                flex-direction: column;    
+            }
+
+            /*Center the divs*/
+            /*div {
+                margin: auto;
+            }*/
+
             div.firstDiv h1 {
                 color: orangered;
             }
-            img {
-                width: 400px;
-            }
+
             div#thirdDiv {
+                margin: auto;
                 padding: 50px;
                 border: 2px solid darkgoldenrod;
                 height: 600px;
                 width: 500px;
-                background-color: darkolivegreen;   
+                background-color: darkolivegreen;      
             }
+
+            /*Added to remove bullets*/
+            div#thirdDiv li {
+                list-style-type: none;
+            }
+
+
+            img {
+                width: 400px;
+            }
+
             #spanId {
-                margin: 50px;
+                /*margin: 50px;*/ /*Commented out for symmetry*/
                 font-size: 18px;
             }
         </style>-->
