@@ -1,0 +1,14 @@
+For
+-For loops are a way to iterate until conditions are met. Often used to go trough arrays. They are used to search through a series of something.
+
+&&
+- the '&&' represents and. A && B equates to A and B. 
+
+||
+-the '||' represent or. A || B equates to A or B.
+
+!
+- the '!' represents the opposite. != means not equal to.
+
+Arrays
+- Arrays contain sets of data. I believe the data are all the same type (numbers, strings, boolean, etc.)
