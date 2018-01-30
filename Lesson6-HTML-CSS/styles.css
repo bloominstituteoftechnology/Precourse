@@ -1,0 +1,17 @@
+div.firstDiv h1 {
+    color: orangered;
+}
+img {
+    width: 400px;
+}
+div#thirdDiv {
+    padding: 50px;
+    border: 2px solid darkgoldenrod;
+    height: 600px;
+    width: 500px;
+    background-color: darkolivegreen;   
+}
+#spanId {
+    margin: 50px;
+    font-size: 18px;
+}
