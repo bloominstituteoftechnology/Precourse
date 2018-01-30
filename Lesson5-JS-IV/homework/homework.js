@@ -4,27 +4,52 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  let product = 1;
+  if (arguments.length === 0) {
+    return 0;
+  } 
+  if (arguments.length === 1) {
+    return arguments[0];
+  }
+  for (let i = 0; i < arguments.length; i++) {
+    product *= arguments[i];
+  }
+return product;
 }
 
 function invokeCallback(cb) {
   // invoke cb
+  cb();
 }
 
 function sumArray(numbers, cb) {
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  cb(sum);
 }
 
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
+  for (let i = 0; i < arr.length; i++) {
+    cb(arr[i]);
+  }
 }
 
 function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
+  var newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    newArr[i] = cb(arr[i]);
+  }
+  return newArr;
 }
 
 function createUserClass() {
@@ -34,24 +59,40 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the constructor
+  // ----- my notes below -----
+  // this is a new thing with ES6. "syntactic sugar"?
+  // to use the class: const user1 = new User('LovesCats27', 'Jen', jen@email.com', 'bestpassword!')
+  // to use the method: user1.sayHi();
+
+  class User {
+    constructor(options) {
+      this.username = options.username;
+      this.name = options.name;
+      this.email = options.email;
+      this.password = options.password;   
+    }
+    sayHi() {
+      return 'Hello, my name is {{name}}';
+    }
+  }
+  return User;
 }
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
+  Constructor.prototype.sayHi = function() {
+    return 'Hello World!';
+  };
 }
 
 // !! This is the end of the homework exercises !!
 
 
-
-
-
 // !! ------------------ !! 
-/* The following exercises are extra credit, they are not required as part of the homework. In order to solve these problems you will need
-   to independantly study the concepts of Closure, and Recursion. There are links in the main README file to strt you on your journey. 
-   If you want to attempt these exercises, you will need to access the test.js file in the tests folder, and uncomment the tests pertaining 
-   to the exercise you are attempting. Good luck! */
+/* The following exercises are extra credit, they are not required as part of the homework. In order to solve these problems you will need to independantly study the concepts of Closure, and Recursion. There are links in the main README file to strt you on your journey.
+
+If you want to attempt these exercises, you will need to access the test.js file in the tests folder, and uncomment the tests pertaining to the exercise you are attempting. Good luck! */
 
 
 function addReverseString() {
@@ -81,6 +122,41 @@ function cacheFunction(cb) {
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
 }
+
+/*
+Reference: Ways to use functions.
+
+// function delcared by itself
+// this is a named function
+function bar() {
+  console.log('hi');
+};
+
+// function assigned to variable
+// this is an anonymous function
+const foo = function() {
+  console.log('hi');
+};
+
+// function in an object (called a method in this case)
+const obj = {
+  foo: function() {
+    console.log('hi');
+  },
+};
+
+// function declared in an element of an array
+const functions = [
+  function() {
+    console.log('hi');
+  },
+];
+
+bar();
+foo();
+obj.foo();
+functions[0]();
+*/
 
 // Do not modify code below this line.
 // --------------------------------
