@@ -1,0 +1,16 @@
+Feynman Writing Prompts - write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables
+	The values a program stores in computer memory are commonly called variables. It's like a storage locker. You place something in the locker and can then retrieve it later on. To create a variable you have to write a statement that names it and gives it a value. This is assigning a value to the variable. The name you assign to a variable is called an identifier. Variables make programs easier to understand. Variables can change (think vary). They store values in an organized manner. Each variable has a unique name. We can use the same variable more than once to accomplish many things. Variables make it easy for programmers to store, find and change information in their program. 
+
+Strings
+	Strings are a type of variable. These strings are used to represent text. When playing a game, a character's name, eye color and hair color are all stored as strings. A string can be written with single or double quotes around it. 
+
+Functions(arguments, return)
+	A function makes something happen in the computer. It takes the variables and does something with them. Inside of a function will be definitions of variables and statements that use those variables to do something. A function encloses a set of statements. Functions are the fundamental element of Javascript. Functions are groups of statements that you can execute as a single unit. They are the pattern you use when making clothes. They tell objects how to behave. Even when the data inside the function isn't known, the function can analyze them. This is called an argument. Return tells the statement to stop doing what he's doing. A function always returns a value. If the return value is not specified, it will say undefined. 
+
+if statements
+	if statements are like a fork in the road. If something is happening, then something else will happen. If something is not happening, then something else will not happen. The if statementis one of the more common ways to control program flow. 
+
+Boolean values (true, false)
+	Boolean is like go fish. You'll ask someone if they have a certain card. If they don't, they tell you go fish. In coding, they would say false. If they did have the card you were asking for, they give it to you. In coding, they would say true. A boolean equation will return  value of true or false depending on the statement being evaluated. You can also think of it as being yes or no, or on or off. It's often used to decide which parts of a program should execute. It is also used to compare data. 
