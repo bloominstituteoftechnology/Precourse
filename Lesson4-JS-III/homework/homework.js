@@ -82,17 +82,13 @@ function verifyPassword(user, password) {
   // return true if they match
   // otherwise return false
   // JKED notes - true statement still not constructed correctly
-  if ((user['password']) === (password)) {
-    return true;
-  } else {
-    return false;
-  }
+  return user.password === password; 
 }
 
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
-  user['password'] = newPassword;
+  user.password = newPassword;
   return user;
 }
 
@@ -128,7 +124,7 @@ function sumUserPostLikes(user) {
   return sum;
 }
 
-function addCalculateDiscountPriceMethod(storeItem) {
+
   // add a method to the storeItem object called 'calculateDiscountPrice'
   // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
   // the method then subtracts the discount from the price and returns the discounted price
@@ -136,11 +132,16 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
-  storeItem['calculateDiscountPrice'] = function() {
-    return storeItem.price - (storeItem.price * storeItem.discountPercentage);
+
+  function addCalculateDiscountPriceMethod(storeItem) {
+  storeItem.calculateDiscountPrice = function() {
+    const discount = this.price * this.discountPercentage;
+    return this.price - discount; 
   };
   return storeItem;
 }
+
+
 
 // Do not modify code below this line.
 // --------------------------------
