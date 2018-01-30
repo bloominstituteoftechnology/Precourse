@@ -1,3 +1,16 @@
+body.center {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+div {
+    margin: auto;
+}
+body {
+    background-image: url("https://hdwallsource.com/img/2014/4/light-background-wallpaper-22923-23559-hd-wallpapers.jpg");
+}
 div.firstDiv h1 {
     color: orangered;
 }
