@@ -212,7 +212,7 @@ In this example we will be creating a `Cat` class. Convention for classes is to 
 
 ```javascript
     class User {
-        construct(email, password) {
+        constructor(email, password) {
             this.email = email;
             this.password = password;
         }
