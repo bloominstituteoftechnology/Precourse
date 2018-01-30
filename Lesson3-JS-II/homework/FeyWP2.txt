@@ -1,0 +1,19 @@
+//Feynman WP 2
+by Smile Jessie Rodnez
+
+for - Means that we are going to make a code repeat an action over and over again. 
+        The variables will be changed each time the loop runs. And the loop will continue
+        to run until we get the result we are seeking, or after a certain amount of times
+
+&& || ! - These 3 symbols are logic operators. They allow us to evaluate 2 or more expressions
+          at the same time, and tell us if they are true or not.
+&& - This symbol will return TRUE if BOTH of the expressions are true. If only one of the expressions
+      is true, then it will return false.
+||  - this symbol means "or". It will return true even if only one of the expresions is true. But if 
+      expressions are false, it will return false accordingly.
+! - this symbol is called the NOT operator. It will produce the opposite of the boolean value it is called 
+    upon.
+
+Arrays - an array is like a jar full of data.We can fill this "jar" up with a limitless amount of strings
+         booleans, or numbers. But each value must be seperated by a comma.
+
