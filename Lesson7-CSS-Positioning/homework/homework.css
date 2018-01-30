@@ -1,5 +1,5 @@
 /* 
-Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files 
+Lesson 3: CSS positioning homework. All of your work should be done in this file. If you find yourself altering any of the other files 
 in this folder, you are in the wrong place. 
 */
 
@@ -7,10 +7,59 @@ in this folder, you are in the wrong place.
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
-#exerciseOne {
 
+#exerciseOne {
+display: block;
+text-align: center;
 }
 
+#exerciseTwo{
+  display: none;
+}
+
+#exerciseThree {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+#exerciseFour{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#exerciseFive{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+#exerciseSeven div:nth-child(1) {
+  margin-top: 100px;
+  background-color: red;
+  
+}
+
+#exerciseSeven div:nth-child(2) {
+  border: 3px solid white;
+  background-color: purple;
+}
+
+#exerciseSeven div:nth-child(3) {
+  margin-top: 20px;
+  background-color: rgb(0, 204, 255);
+  border: 6px dotted pink;
+}
+
+#exerciseSeven div:nth-child(4) {
+  margin-top: 150px;  
+  background-color: green;
+  
+
+  
+}
 
 /* Exercise Two: Positioning a Header Bar*/
 
