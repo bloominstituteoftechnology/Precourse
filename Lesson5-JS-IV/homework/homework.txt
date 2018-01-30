@@ -1,0 +1,12 @@
+Callback Functions - A callback function is a function that is called as an
+argument to another function.
+
+'arguments' - 'arguments' is similar to an array that stores the data that we pass into
+a function. It can be accessed from anywhere within the function. Although'arguments' is
+similar to an array it does not contain all of the properties that an actual array has.
+
+'prototype' - 'prototype' is a way of setting a method one time that every object in the 
+class can access. This saves memory because the method doesn't have to be reproduced every
+time that it is needed.
+
+Constructors - A constructor is a method used for creating and initializing an object in a class.
