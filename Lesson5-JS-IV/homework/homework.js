@@ -4,30 +4,63 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+	if (arguments.length === 0){
+		return 0;
+	}
+	else{
+		let result = 1;
+		for(let i =0; i<arguments.length;i++){
+		result = result * arguments[i];
+		}
+		return result;
+	}
 }
 
 function invokeCallback(cb) {
   // invoke cb
+	cb();
 }
 
 function sumArray(numbers, cb) {
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
+	let payload = numbers.reduce(function(acc,item){
+		return acc+item;
+	});
+	cb(payload);
 }
 
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
+	for (let i =0; i<arr.length;i++){
+		cb(arr[i]);
+	}
 }
 
 function map(arr, cb) {
+	let newarr = [];
+	for (let i =0; i<arr.length;i++){
+		newarr.push(cb(arr[i]));
+	}
+	return newarr;
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
 }
 
 function createUserClass() {
+	let user = function User(options){
+		this.username = options.username;
+		this.name = options.name;
+		this.email = options.email;
+		this.password = options.password;
+		this.sayHi = function(){
+			return 'Hello, my name is ' + this.name;
+		};
+	};
+	return user;
   // create a class constructor called User
   // it should accept an options object with username, name, email, and password properties
   // in the constructor set the username, name, email, and password properties
@@ -37,6 +70,9 @@ function createUserClass() {
 }
 
 function addPrototypeMethod(Constructor) {
+	Constructor.prototype.sayHi = function(){
+		return 'Hello World!';
+	};
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
 }
