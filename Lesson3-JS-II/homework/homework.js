@@ -9,12 +9,18 @@ function getBiggest(x, y) {
   else
     return y;
 }
-*/
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
   return Math.max(x, y);
+}
+*/
+
+function getBiggest(x, y) {
+  // x and y are integers.  Return the larger integer
+  // if they are the same return either one
+  return (x > y ? x : y);
 }
 
 /*
@@ -117,14 +123,11 @@ function fizzBuzz(num) {
   // otherwise return num
   if (num % 5 === 0 && num % 3 === 0) {
     return 'fizzbuzz';
-  }
-  else if (num % 3 === 0) {
+  } else if (num % 3 === 0) {
     return 'fizz';
-  }
-  else if (num % 5 === 0) {
+  } else if (num % 5 === 0) {
     return 'buzz';
-  }
-  else {
+  } else {
     return num;
   }
 }
@@ -152,6 +155,7 @@ function isPrime(num) {
 }
 */
 
+/*
 function isPrime(num) {
   // return true if num is prime.
   // otherwise return false
@@ -164,7 +168,25 @@ function isPrime(num) {
     for(var i = 2; i < num; i++)
       if(num % i === 0) return false;
   }
-  return num !== 1;
+  return true;
+}
+*/
+
+function isPrime(num) {
+  // return true if num is prime.
+  // otherwise return false
+  // hint: a prime number is only evenly divisible by itself and 1
+  // hint2: you can solve this using a for loop
+  // note: 0 and 1 are NOT considered prime numbers
+  if(num < 2) 
+    return false;
+  else if (num !== 2 && num % 2 === 0)
+    return false;
+  else {
+    for(var i = 3; i < num; i+=2)
+      if(num % i === 0) return false;
+  }
+  return true;
 }
 
 /*
@@ -222,6 +244,46 @@ function addItemToFront(arr, item) {
   return arr;
 }
 
+/*
+function wordsToSentence(words) {
+  // words is an array of strings
+  // return a string that is all of the words concatenated together
+  // spaces need to be between each word
+  // example: ['Hello', 'world!'] -> 'Hello world!'
+  let s = '';
+  for (let i = 0; i < words.length; i++) {
+    s += words[i] + ' ';
+  }
+  return s.slice(0, -1);
+}
+
+function wordsToSentence(words) {
+  // words is an array of strings
+  // return a string that is all of the words concatenated together
+  // spaces need to be between each word
+  // example: ['Hello', 'world!'] -> 'Hello world!'
+  let s = '';
+  for (let i = 0; i < words.length; i++) {
+    s += words[i] + ' ';
+  }
+  return s.trim();
+}
+
+function wordsToSentence(words) {
+  // words is an array of strings
+  // return a string that is all of the words concatenated together
+  // spaces need to be between each word
+  // example: ['Hello', 'world!'] -> 'Hello world!'
+  let s = '';
+  for (let i = 0; i < words.length; i++) {
+    s += words[i];
+    if (i + 1 < words.length)
+      s += ' ';
+  }
+  return s;
+}
+*/
+
 function wordsToSentence(words) {
   // words is an array of strings
   // return a string that is all of the words concatenated together
@@ -250,7 +312,6 @@ function contains(arr, item) {
 
   return false;
 }
-
 */
 
 function contains(arr, item) {
@@ -321,11 +382,29 @@ function averageTestScore(testScores) {
   return addNumbers(testScores) / testScores.length;
 }
 
+/*
+function largestNumber(numbers) {
+  // numbers is an array of integers
+  // return the largest integer
+  let largest = numbers[0];
+  for (let i = 1; i < numbers.length; i++)
+     if (numbers[i] > largest) largest = numbers[i];
+  return largest;
+}
+
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
   return Math.max(...numbers);
 }
+*/
+
+function largestNumber(numbers) {
+  // numbers is an array of integers
+  // return the largest integer
+  return numbers.reduce((a,b) => a >= b ? a : b);
+}
+
 
 // Do not modify code below this line.
 // --------------------------------
