@@ -1,0 +1,7 @@
+Callback Functions: A callback function is how you run a function inside of another function.
+
+arguments: Arguments is whatever we decide to pass through our function. So if we plug in a whole bunch of numbers into a function, the 'arguments' data structure would allow us to access those numbers before we know what they are for sure.
+
+prototype: Creating a prototype allows us to set a method that every object can inherit once instead of having to create a unique method on every single object.
+
+Constructors: Constructors are functions that allow us to setup the object we are creating. Kind of like a blueprint or standard for each object e.g. Each car has 4 windows, 4 tires, 1 steering wheel.
