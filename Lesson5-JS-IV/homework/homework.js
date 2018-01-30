@@ -5,15 +5,7 @@ function multiplyArguments() {
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
   let product = 1;
-  // if (arguments.length > 1) {
-  //   for ( let i=0 ; i < arguments.length; i++){
-  //     product = product * arguments[i];
-  //     }
-  // return product;
-  //   } else if (!arguments) {
-  //     return 0;
-  //   } else 
-  //   return arguments[0];
+  
   
 if (!arguments.length){
     return 0;
@@ -69,6 +61,14 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the constructor
+  class User {
+    constructor () {
+      let username = username;
+      let name = name;
+      let email = email;
+      let password = password;
+    }
+  }
 }
 
 function addPrototypeMethod(Constructor) {
