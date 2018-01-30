@@ -1,0 +1,27 @@
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables:
+
+At the heart of Javascript are variables. A variable is a way to store the value of something to use later. (A note for those with previous programming knowledge: Javascript is a loosely typed language, a variable can be set (and reset) to any type, we do not need to declare its type when initiating the variable.)
+
+The anatomy of a variable is first the keyword, a space, the name we are giving the variable, an equal sign, the value we are assigning the variable and then the semi-colon.
+
+Strings:
+
+A string is a block of text, with quotes around it. 
+
+Functions (arguments, return):
+
+A way of using the same code, over and over, with different arguments. 
+
+if statements:
+
+a way to branch off results of a function. If its this result, return this. However, if its this other result, return this. So on and so forth. 
+
+Boolean values (true, false):
+
+A yes or no, true or false, on or off value. In JS this is true or false. 
+
+
+
+Stopped for the night with 117:36 left in the vid
