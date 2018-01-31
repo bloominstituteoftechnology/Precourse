@@ -1,0 +1,18 @@
+.saddleBrownText {
+    color: saddleBrown;
+}
+img {
+    width: 400px;
+    height: 250px; <!-- I added this scale - lower graphic source was too tall -->
+}
+#thirdDiv {
+   height: 600px;
+   width: 500px;
+   background-color:darkgreen;
+   padding: 50px blue;
+   border: 50px solid black;
+}
+#spanId {
+   font-size: 18px;
+   margin: 50px 50px;
+}
