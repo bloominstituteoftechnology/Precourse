@@ -1,0 +1,10 @@
+Objects - logical representation of physical items, concepts and constructions. It is a way of representing anything and everything in code.
+
+Properties - these are the various attributes / description which an object displays.
+
+Methods - this dictates the behaviour of the object, they are the means with which the object can be interacted with.
+
+for in loop - prescribed method of iterating through an object's properties which can be counted over and is visible by default
+
+Dot notation vs bracket notation - these are 2 means of accessing an object's properties, the dot notation is typically preferrred, as since it does not
+accept both variable and variable searching, it is less ambiguous and a lot more readable and maintainable.
