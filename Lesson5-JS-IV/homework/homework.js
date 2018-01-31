@@ -52,11 +52,7 @@ function map(arr, cb) {
   // the new array should be the same length as the array argument
 
 
-	let newArr = [];
-
-	arr.forEach(function(item,index){
-		newArr.push(cb(item));
-		});
+	let newArr = arr.map(cb);
 	return newArr;
 }
 
