@@ -62,19 +62,25 @@ function createUserClass() {
   // {{name}} should be the name set on each instance
   // return the constructor
   class User {
-    constructor () {
-      let username = username;
-      let name = name;
-      let email = email;
-      let password = password;
+    constructor (options) {
+      this.username = options.username;
+      this.name = options.name;
+      this.email = options.email;
+      this.password = options.password;
+      this.sayHi = function() {
+        return 'Hello, my name is ' + this.name;
+      }
     }
   }
+  return User;
 }
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
  
+  Constructor.prototype.sayHi = function() { return 'Hello World!'};
+
 }
 
 // !! This is the end of the homework exercises !!
