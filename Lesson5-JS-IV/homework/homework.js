@@ -1,9 +1,18 @@
 // Do not change any of the function names
 
-function multiplyArguments() {
+function multiplyArguments([arg]) {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  let sum = 1;
+
+  if (arg.length === 0) {
+    return 0;
+  } else {
+    for (let i=0; i<arg.length; i++) {
+      sum *= arg[i];
+    }
+  }
 }
 
 function invokeCallback(cb) {
@@ -47,10 +56,10 @@ function addPrototypeMethod(Constructor) {
 
 
 
-// !! ------------------ !! 
+// !! ------------------ !!
 /* The following exercises are extra credit, they are not required as part of the homework. In order to solve these problems you will need
-   to independantly study the concepts of Closure, and Recursion. There are links in the main README file to strt you on your journey. 
-   If you want to attempt these exercises, you will need to access the test.js file in the tests folder, and uncomment the tests pertaining 
+   to independantly study the concepts of Closure, and Recursion. There are links in the main README file to strt you on your journey.
+   If you want to attempt these exercises, you will need to access the test.js file in the tests folder, and uncomment the tests pertaining
    to the exercise you are attempting. Good luck! */
 
 
