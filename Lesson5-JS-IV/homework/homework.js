@@ -41,14 +41,14 @@ function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
-	let num = [];
-	for(let i=0;i < arr.length;i++)
-	{
-		num = arr.map(cb(arr[i]));
-	}
-	
 
-  
+	let n = [];	
+	for(let i = 0;i <arr.length;i++)
+	{
+		n.push(cb(arr[i]));
+	}
+	return n;
+
 }
 
 function createUserClass() {
@@ -58,18 +58,32 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the constructor
+  class User{
+	constructor(options)
+	{
+		this.username= options.username;
+		this.name= options.name;
+		this.email= options.email;
+		this.password= options.password;
+	}
+	
+	sayHi(){return `Hello, my name is ${this.name}`;}
+	
+	
+	}
+	return User; 
 }
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
+	Constructor.prototype.sayHi = () => 'Hello World!';
+	return Constructor;
+
+
 }
 
 // !! This is the end of the homework exercises !!
-
-
-
-
 
 // !! ------------------ !! 
 /* The following exercises are extra credit, they are not required as part of the homework. In order to solve these problems you will need
