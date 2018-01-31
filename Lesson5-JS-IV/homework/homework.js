@@ -1,4 +1,5 @@
 // Do not change any of the function names
+// I need to take a closer look at this one and spend more time with it.
 
 function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
