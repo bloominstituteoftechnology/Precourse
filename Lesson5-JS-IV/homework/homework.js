@@ -67,10 +67,10 @@ function createUserClass() {
       this.name = options.name;
       this.email = options.email;
       this.password = options.password;
-      //let sayHi() {
-      //  return 'Hello, my name is ' + this.name;
-      //  }
       }
+      sayHi() {
+        return 'Hello, my name is ' + this.name;
+        }
   }
   return User;
 }
@@ -101,6 +101,13 @@ function addReverseString() {
   // name this method reverse
   // hint:
   // you will need to use 'this' inside of reverse
+  String.prototype.reverse = function() {
+    let output = '';
+    for (let i = this.length-1; i >=0 ;i--){
+      output += this[i];
+    }
+    return output;
+  };
 }
 
 function nFactorial(n) {
