@@ -1,0 +1,41 @@
+h1 {
+    color: lightyellow;
+}
+
+img {
+    width: 400px;
+}
+
+.divClass{
+
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: dodgerblue;
+    padding: 50px;
+    border: solid;
+    border-style: dashed;
+    border-color: red;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+body{
+    background: url("https://www.centercutcook.com/wp-content/uploads/2016/11/baked-sweet-potato-fries-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.flex-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
