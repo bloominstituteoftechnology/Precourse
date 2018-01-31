@@ -1,0 +1,41 @@
+body {
+  background-image:url(http://i.imgur.com/lvjHBND.jpg);
+  color:white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color:plum;
+}
+h1 {
+  color: teal;
+}
+.divClass {
+}
+
+#thirdDiv {
+   background-color: grey;
+   color:black;
+   width:500px;
+   height:600px;
+   padding:50px;
+   border-style:solid;
+   border-width:5px;
+   border-color:black;
+
+}
+
+#spanID {
+ text-size:18px;
+ margin:50px;
+}
+
+img {
+  width:400px;
+  position: relative;
+  left: 20px;
+}
+
