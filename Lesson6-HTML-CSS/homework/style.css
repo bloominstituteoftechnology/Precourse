@@ -1,0 +1,16 @@
+h1 {
+    color: magenta;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: yellow;
+    padding: 50px;
+    border: 15px solid black;
+}
+#spanID {
+    font-size: 18px;
+}
