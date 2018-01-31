@@ -1,0 +1,12 @@
+for = For is a way to go over and over an object until a specific condition is met. For the dirt in the bathtub, continue using magic erasers until no more dirt exists.
+for (let i = 10; i > 0; i--){
+  console.log('dirt');
+}
+
+&& = two ampersands means that the statement to the left and the right of the && are true. If one of the statements is not true, it will return false.
+
+|| = two pipes means OR. If the statement to the left of the || is true, the argument will return true, regardless of the value of the left because only one ("or") needs to be true. If the statement to the left is false but the right is true, it will return true.
+
+! = means not. It flips the value of true or false. 5 !== 5 is false because 5 does equal 5. 5 !== 7 is true, because 5 does not equal true.
+
+arrays = arrays are variables that have containers that you can put many values in. They use square brackets for the container []. Best practice is to keep all the values in the array to be the same type (strings, numbers, etc). All values within the array are separated by a comma. const dogs = ['Fido', 'Spot', 'Scooby']
