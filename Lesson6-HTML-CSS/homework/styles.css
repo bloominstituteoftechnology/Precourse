@@ -1,0 +1,24 @@
+h1 {
+    color: #f09cde;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: yellow;
+    padding: 50px;
+    border: 5px solid black;
+}
+
+#spanID {
+    font: 18px;
+    margin: 50px;
+}
+
+body {
+    background-image: url("https://media2.giphy.com/media/bSxpz0PzvC6nS/200w.webp#48-grid1");
+}
