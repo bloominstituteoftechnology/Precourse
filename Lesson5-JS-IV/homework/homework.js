@@ -35,7 +35,7 @@ function sumArray(numbers, cb) {
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
-	arr.forEach(function(item, index) {
+	arr.forEach(function(item) {
 		cb(item);
 	});
 }
