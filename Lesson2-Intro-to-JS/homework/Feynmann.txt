@@ -1,0 +1,11 @@
+Variables - Aliases for storage locations on computer memory. Used as a way to contain and reference data.
+
+Strings - Data type which contains a sequence of characters.
+
+Functions (arguments, return) - Language constructs used to categorize specific groups of instructions which 
+produce specific results depending on the input. Arguments are inputs, typically of specified data types,
+whose value affect the result. The return value is the result of the function operating.
+
+if statements - Conditional constructs, they are a programming language's basic means of making a decision.
+
+Boolean values (true, false) - Important values which are used to denote the result of a conditional statement.

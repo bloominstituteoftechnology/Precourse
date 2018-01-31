@@ -1,0 +1,14 @@
+for - language loop construct which allows a a set of instructions to be repeated
+
+&&, ||, ! - logic constructs  (&&)AND - binary construct (meaning it needs 2 operands) 
+				only allows the final result to be True if both results are True
+
+				(||)OR - binary construct (2 operands)
+				final result is True is any of the 2 individual conditions are True
+
+				(!)NOT - unary construct (only 1 operand)
+				reverses the result of the condition into the opposite state
+
+Arrays - memory construct / data structure used to contain sequences of data which are related and
+	typically of the same data type (though not always, although advisable). Depending on its
+	implementation it can also be used as a logical reference to a sequential block of physical memory
