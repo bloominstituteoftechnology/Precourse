@@ -66,10 +66,7 @@ function createUserClass() {
 		this.email= options.email;
 		this.password= options.password;
 	}
-	
-	sayHi(){return `Hello, my name is ${this.name}`;}
-	
-	
+		sayHi(){return `Hello, my name is ${this.name}`;}
 	}
 	return User; 
 }
@@ -79,8 +76,6 @@ function addPrototypeMethod(Constructor) {
   // the method should be called 'sayHi' and should return the string 'Hello World!'
 	Constructor.prototype.sayHi = () => 'Hello World!';
 	return Constructor;
-
-
 }
 
 // !! This is the end of the homework exercises !!
