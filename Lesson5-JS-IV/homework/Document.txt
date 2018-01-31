@@ -1,0 +1,11 @@
+Callback Functions
+A callback function is a function passed to another function as it's parameter, and the callback function is called inside that other function.
+
+Arguments
+The arguments object is an array thats already inside every function. The array contains all the arguments that will be passed to the function.
+
+Prototype
+Every class has a prototype property, and you can use that property to give methods to all objects in that class.
+
+Constructors
+Constructors are used to make classes, which are templates for making objects that share the same properties and methods.(example- users on a website)

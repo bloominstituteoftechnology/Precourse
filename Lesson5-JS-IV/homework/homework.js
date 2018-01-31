@@ -1,33 +1,65 @@
 // Do not change any of the function names
 
 function multiplyArguments() {
+  let product = 1;
+    if (arguments.length === 0) {
+    return 0;
+  } else if (arguments.length === 1) {
+    return arguments[0];
+  } for (let i = 0; i < arguments.length; i++) {
+    product = product * arguments[i];
+  } return product;
+
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
 }
 
 function invokeCallback(cb) {
-  // invoke cb
+  return cb();
 }
 
 function sumArray(numbers, cb) {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  } cb(sum);
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
 }
 
 function forEach(arr, cb) {
+  for (let i = 0; i < arr.length; i++) {
+    cb(arr[i]);
+  }
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
 }
 
 function map(arr, cb) {
+    const newArr = arr.map(function(arrs){
+      return cb(arrs);
+    }) ;
+    return newArr;
+
+
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
 }
 
 function createUserClass() {
+    function User(options) {
+      this.username = options.username;
+      this.password = options.password;
+      this.email = options.email;
+      this.name = options.name;
+    }
+    User.prototype.sayHi = function() {
+      return 'Hello, my name is ' + this.name;
+    };
+    return User;
   // create a class constructor called User
   // it should accept an options object with username, name, email, and password properties
   // in the constructor set the username, name, email, and password properties
@@ -37,6 +69,9 @@ function createUserClass() {
 }
 
 function addPrototypeMethod(Constructor) {
+  Constructor.prototype.sayHi = function() {
+    return 'Hello World!';
+  } ;
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
 }
@@ -47,10 +82,10 @@ function addPrototypeMethod(Constructor) {
 
 
 
-// !! ------------------ !! 
+// !! ------------------ !!
 /* The following exercises are extra credit, they are not required as part of the homework. In order to solve these problems you will need
-   to independantly study the concepts of Closure, and Recursion. There are links in the main README file to strt you on your journey. 
-   If you want to attempt these exercises, you will need to access the test.js file in the tests folder, and uncomment the tests pertaining 
+   to independantly study the concepts of Closure, and Recursion. There are links in the main README file to strt you on your journey.
+   If you want to attempt these exercises, you will need to access the test.js file in the tests folder, and uncomment the tests pertaining
    to the exercise you are attempting. Good luck! */
 
 
