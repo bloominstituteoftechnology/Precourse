@@ -4,27 +4,34 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+    return arguments.length === 0 ? 0 : Array.prototype.slice.call(arguments).reduce((acc, itm) => acc * itm);
 }
 
 function invokeCallback(cb) {
   // invoke cb
+    cb();
 }
 
 function sumArray(numbers, cb) {
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
+    cb(numbers.reduce((a, b) => a + b));
 }
 
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
+    arr.forEach((itm) => cb(itm));
+    
 }
 
 function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
+    let newArray = arr.map((itm) => cb(itm));
+    return newArray;
 }
 
 function createUserClass() {
@@ -34,11 +41,22 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the constructor
+    function User(options)
+    {
+        this.username = options.username;
+        this.name = options.name;
+        this.email = options.email;
+        this.password = options.password;
+        this.sayHi = () => `Hello, my name is ${this.name}`;
+    }
+    
+    return User;
 }
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
+    Constructor.prototype.sayHi = () => 'Hello World!';
 }
 
 // !! This is the end of the homework exercises !!
@@ -59,6 +77,28 @@ function addReverseString() {
   // name this method reverse
   // hint:
   // you will need to use 'this' inside of reverse
+    var r = function()
+    {
+        var arry = this.split('');
+        var stIndex = 0;
+        var swIndex = this.length - 1;
+  
+        while (stIndex < swIndex)
+        {
+            var swap = arry[stIndex];
+            arry[stIndex] = arry[swIndex];
+            arry[swIndex] = swap;
+            
+            stIndex++;
+            swIndex--;
+      
+        }
+  
+        return arry.join('');
+
+    };
+    
+    String.prototype.reverse = r;
 }
 
 function nFactorial(n) {

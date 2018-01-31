@@ -1,0 +1,65 @@
+Callback functions:
+    Earlier we learned that everything in JS is an object and functions are no exception. This means that we can pass functions around similar to the way we do with other objects. We can even pass in functions as arguments to other functions and this is what is known as a callback function. A callback function is a function that is passed as an argument to another function and executed from within. Callbacks are very useful for making your functions abstract and versatile. Instead of having to code in every possible computational scenario for the arguments to a function X, you can simply pass in your arguments along with a function argument and allow the function argument to do much of the heavy lifting. 
+    
+    arguments:
+        Remember that arguments to a function are a comma separated list of values that you pass into a function as data for its operation. Typically, we reference the arguments passed in by invoking the name of the parameter variables that hold the appropriate values. But it turns out that there is another way to access the arguments pased into a function - by using the arguments keyword. The arguments keyword references an array-like object containing all of the arguments passed into a function. You can access these values by index, just as you would with any other array, but be aware that arguments is not a true array in that it doesn't have all of the functionality built into a traditional JS array. One of the most powerful and potentially useful capabilities the argument function provides is that it allows you to pass in and make use of an arbitrary number of arguments to a function
+    prototype:
+        In addition to creating objects inline with declaration statements, we can also create objects using object constructors, or more recently, with the use of classes. The problem with object constructors is that you cannot add a new property to an object constructor after it has been written:
+        
+            class person
+            {
+                constructor(name, age)
+                {
+                    this.name = name;
+                    this.age = age;
+                }
+            }
+
+            person.height = 63; <---does not actually add the height property to the person constructor
+            
+            In order to get around this limitation and add new properties to object constructors on the fly, we can make use of the prototype construct. 
+            
+            What's a prototype? Well, it's 2 things really. First, it's the base from which an object inherits all of its properties. It's also a property of every object that references and provides access to that base object. Using the prototype property, we can add a property or a method to the prototype and therefore to all objects that inherit its properties
+            
+            class person
+            {
+                constructor(name, age)
+                {
+                    this.name = name;
+                    this.age = age;
+                }
+            }
+            
+            person.prototype.greet = function() {return `Hi, I'm ${this.name} and I'm ${this.age} years old`} <---adds the greet() function to all person objects via the prototype
+            
+            Constructors:
+                Up to this point, we've been creating objects in-line via a declaration, like below:
+                
+                let person = 
+                {
+                    name: 'Jay',
+                    age: 37,
+                    height: 63
+                }
+                
+                This is probably OK for small programs, but imagine you are working on a huge contract job for a company doing business on the web. Imagine what a nightmare it would be to write a program in which you had to create all your objects in this manner. It would be so much easier if we simply had a function that could construct instances of a type of object on the fly. And it turns out that we do have precisely this type of function and we call them constructors. 
+                
+                Constructors are exactly what you'd think they are from the name. Constructors are special functions who build objects when they are invoked. Via constructors, we need only write the code for a type of object once and then invoke the function any time we need to create a new object of that type:
+                
+                class person
+                {
+                    constructor(name, age, height)
+                    {
+                        this.name = name;
+                        this.age = age;
+                        this.height = height
+                    }
+                }
+                
+                Notice the use of the 'this' keyword within the constructor function. the this keyword tells the constructor to attach the property to the object and assign it the appropriate value. Failure to use the this keyword will cause a property to not attach to instances of the object type. 
+                
+                Constructors are invoked via the new keyword, as below:
+                
+                let jay = new person('Jay', 37, 63);
+                
+                The 'new' keyword instructs the compiler to construct a new instance of the person class defined above and returns a reference to that object, which is then stored in the variable jay. 
