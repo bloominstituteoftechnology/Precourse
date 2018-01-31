@@ -27,6 +27,7 @@ function sumArray(numbers, cb) {
   // pass the result to cb
   // no return is necessary
   cb(numbers.reduce(function(acc, item) { return acc + item; }));
+  //cb(numbers.reduce(a, b) => a + b);
 }
 
 function forEach(arr, cb) {
@@ -41,7 +42,7 @@ function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
-  let newArr = [];
+  const newArr = [];
   arr.forEach(function(item, i) {
     newArr[i] = cb(item);
   });
@@ -56,12 +57,14 @@ function createUserClass() {
   // {{name}} should be the name set on each instance
   // return the constructor
   function User(options) {
+  //return class User(options) {
     this.username = options.username,
     this.name = options.name,
     this.email = options.email,
     this.password = options.password,
     this.sayHi = function() {
-      return 'Hello, my name is ' + this.name;
+      //return 'Hello, my name is ' + this.name;
+      return `Hello, my name is ${this.name}`; // string template
     };
   }
   return User;
