@@ -1,19 +1,51 @@
-<!--    #thridDiv{
-    padding: 50px;
+<!--        #thridDiv{
+        
+    padding: 20px;
     border-width: 5px;
     border-color: black;
     border-style: solid;
     background-color: rgb(253, 175, 5);
     height: 600px;
     width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+}
+
+body {
+    background-image: url("https://assets.epicurious.com/photos/57714624e43289453ac28e41/master/pass/diner-bacon-hero-22062016.jpg");
 }
 
 #spanId {
-    margin: 50px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 6px;
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    text-align: center;
+    padding: 20px;
     font-size: 18px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+   
+    background-color:rgb(253, 175, 5);
 }
 .divClass {
-
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    background-color:rgb(253, 175, 5);
+    border-width: 6px;
+    border-color: black;
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-top-width: 6px;
 }
 .header1 {
     color: rgb(91, 91, 233);
