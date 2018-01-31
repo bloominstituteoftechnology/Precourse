@@ -1,5 +1,12 @@
+* {
+              vertical-align: center;
+              /* text-align: center; */
+}
 h1 {
 	color: green
+}
+div { 
+  text-align: center;
 }
 #thirdDiv {
 	height: 600px;
@@ -13,5 +20,6 @@ h1 {
 	margin: 50px;
 }
 img{
-	width: 400px
+    position: absolute;
+	width: 400px;
 }
