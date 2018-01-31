@@ -1,0 +1,28 @@
+body {
+    width: 75%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(dennys.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1 {color: dimgray;}
+img {width: 400px;
+    margin-bottom: 25px;
+}
+ul {list-style-type: none;}
+#thirdDiv {
+    overflow: auto;
+    width: 500px;
+    background-color: #e3eff8;
+    border: 5px dimgray solid;
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+

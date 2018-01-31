@@ -24,6 +24,7 @@ function sumArray(numbers, cb) {
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
+  // cb(numbers.reduce((memo, num) => memo + num));
   var sum = 0;
   for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
@@ -34,6 +35,10 @@ function sumArray(numbers, cb) {
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
+  /* for (let i = 0; i < arr.length; i++) {
+     cb(arr[i]);
+     }
+  */
   arr.forEach(function(value) {
     cb(value);
   });
@@ -43,6 +48,13 @@ function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
+  /* const mappedArray = [];
+     for (let i = 0; i < arr.length; i++) {
+      const transformedValue = cb(arr[i]);
+      mappedArray.push(transformedValue);
+     }
+     return mappedArray;
+  */
   let newArray = [];
   newArray = arr.map(function(value) {
     return cb(value);
@@ -57,21 +69,25 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the constructor
-  function User(options) {
-    this.username = options.username;
-    this.name = options.name;
-    this.email = options.email;
-    this.password = options.password;
+  return class User {
+    constructor(options) {
+      this.username = options.username;
+      this.name = options.name;
+      this.email = options.email;
+      this.password = options.password;
   }
-  User.prototype.sayHi = function() {
+  sayHi() {
     return `Hello, my name is ${this.name}.`;
+    }
   };
-  return User;
 }
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
+  /* Constructor.prototype.sayHi = () => 'Hello World!';
+     return Constructor;
+  */
   Constructor.prototype.sayHi = function() {
     return 'Hello World!';
   };
