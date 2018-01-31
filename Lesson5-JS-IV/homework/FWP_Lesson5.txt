@@ -1,0 +1,4 @@
+Callback Functions:  Functions that are passed as an argument.
+arguments:  variable data passed to a function.
+prototype:  Functions on a constructor that classes can refer to when called on.
+Constructors:  Template for building a class.
