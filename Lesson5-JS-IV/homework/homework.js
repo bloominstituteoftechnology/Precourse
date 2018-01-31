@@ -41,12 +41,23 @@ function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
+<<<<<<< HEAD
 	let n = [];	
 	for(let i = 0;i <arr.length;i++)
 	{
 		n.push(cb(arr[i]));
 	}
 	return n;
+=======
+	let num = [];
+	for(let i=0;i < arr.length;i++)
+	{
+		num = arr.map(cb(arr[i]));
+	}
+	
+
+  
+>>>>>>> 03b4951c4d3437fb7ae08c42b06e20516ea706bf
 }
 
 function createUserClass() {
