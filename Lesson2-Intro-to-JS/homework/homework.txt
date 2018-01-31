@@ -1,0 +1,5 @@
+variable - A variable is a name that stores any object. The object can be a number, a string, a boolean value, or even an array of other objects. Using the name invokes the object that it refers to.
+string - A string is a set of characters
+functions - Functions are a series of instructions, often given a name for repeated reference. Functions take arguments, or undeclared placeholder variables, to express what should happen to those variables when they are declared and the function is invoked. Values can be returned from the function using the built-in function "return"
+if statements - conditional statements that carry out blocks of code when the declared condition is met
+Boolean values - true/false binary values that are the building blocks of computational logic. Anything that can be expressed as
