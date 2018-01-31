@@ -1,0 +1,16 @@
+h1 {
+  color:indigo;
+}
+img {
+  width:400px;
+}
+#thirdDiv {
+  height:600px;
+  width:500px;
+  background-color:darkblue;
+  padding:50px;
+  border: 1px solid black;
+}
+#spanId {
+  margin:50px;
+}
