@@ -1,0 +1,16 @@
+	* Variables
+  variables are like those in those in algebra.
+  "const" is used to store something that is not meant to be changed
+  "let" is used to store something that is meant to be changed
+
+	* Strings
+  "string" is a list of characters inside quotations
+
+	* Functions (arguments, `return`)
+  functions are used to do something again and again. It just needs to be called by it's name. There are some that don't have a name, but they can still be called in other ways. Like if I look at you and tell you I am hungry without saying you're name, you still know I'm talking to you because I am looking at you. 
+
+	* `if` statements
+  if statements are used to control the flow of a program. For example, "If" you're thirsty, drink water. If you're hungry, eat food. If you're not hungry or thirsty, keep doing whatever you're doing.
+
+	* Boolean values (`true`, `false`)
+  Boolean values are used to to help with the flow of a program. If it's "true" that your're thirstry, drink water. If it's "true" that your're hungry, eat food. If it's false that you're hungry or thirsty, keep doing whatever you're doing.

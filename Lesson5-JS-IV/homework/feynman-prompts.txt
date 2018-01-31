@@ -1,0 +1,19 @@
+# Homework #JSIV
+
+## Instructions
+---
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Callback Functions - These are functions that are passed as arguments to other functions.
+
+	* `arguments`- they are used to give functions information about what they should do or return. Furthermore, the arguments object is an array like object. Since They are not really an array, they only have the length method going for them.
+
+	* `prototype` - Every function has a copy of itself, called a prototype. However, prototypes are really only used when other objects want to inherit methods. I will have one prototype that is like a machine, that makes a bunch of business cards. All business cards will use this machine instead of having their own machine that makes them.
+
+	* Constructors - The constructor is the original business card. The one all others copy from. To save money, We don't actually want to use this one for the methods, only the properties. We use the methods of the prototype of the constructor for all other business cards(instances) to use. By doing this, we save a lot resources.
+
+2. From the top level of your `Precourse` folder, run `npm run test:JSIV` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
+
+#### Congratulations on finishing Homework #4!
+
+For more information about Lambda School's six month CS program visit: https://lambdaschool.com

@@ -1,0 +1,27 @@
+# Homework #JSIII
+
+## Instructions
+---
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Objects
+  Objects are usefull to hold information about something. Like a car can be an object. It can be described as wheels: 4, steering wheel: 1, turbos: 8. The car can have functions, called methods, to make the car more interesting. If ifhas a method to set off turbos, I can call the object by its name, then fire the turbos by calling its turbo method like car.fireTurboes().
+
+	* Properties
+  Properties are name to describe the key-value pairs. wheels: 4, steering wheel: 1, turbos: 8.
+
+	* Methods
+  Methods are the functions of the object. car.fireTurboes(). An easy way to tell it is a method is by looking at the "." before its name and a () at the end of its name. 
+
+	* for in loop
+  just like a for loop or a map array method will go through an array. It is also very useful to go through an objects properties and methods, its key-value pairs if you won't. 'for in loop' does that.
+
+	* Dot notation vs bracket notation
+  These notations do pretty much the same thing. They are used to refer a key-value pairs. They have some differences. dot notations is more common and they're easier to code with. Bracket notation can be used with strings and numbers or variable names that refer to a string or number.
+
+2. From the top level of your `Precourse` folder, run `npm run test:JSIII` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
+
+
+#### Congratulations on finishing Homework #3!
+
+For more information about Lambda School's six month CS program visit: https://lambdaschool.com
