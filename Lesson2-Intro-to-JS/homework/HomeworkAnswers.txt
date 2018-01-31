@@ -1,0 +1,7 @@
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables - A value to be stored and used later. SOmthing ot build off of.
+Strings - Just lines of text
+Functions (arguments, return) - The thing that takes you variables and does stuff with them
+if statements - A fork in the road
+Boolean values (true, false) - Kind of like a test, the answer can only be true or false.
