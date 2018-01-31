@@ -61,3 +61,10 @@ typings/
 
 package-lock.json
 
+# Vim files
+*.un~
+*.txt~
+*.js~
+*.css~
+*.html~
+*.gitignore~
