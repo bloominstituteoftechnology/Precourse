@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://static.pexels.com/photos/355805/pexels-photo-355805.jpeg");
+}
+
+h1 {
+    color: lawngreen;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: dodgerblue;
+    padding: 10px 20px 400px 20px;
+    border-color: darkred;
+    border-width: 5px;
+    border-style: solid;
+}
+
+
+#spandId {
+    margin: 50px;
+    font-size: 18px;
+}
