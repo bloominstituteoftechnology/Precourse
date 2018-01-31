@@ -4,9 +4,22 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  let prod = 1;
+  let i=0;
+   if (arguments.length === 0){
+  return 0;
+} else if (arguments.length === 1) {
+  return arguments[i];
+} else { 
+  for (let i=0; i < arguments.length; i++){
+    prod = prod * arguments[i];
+}
+return prod;
+}
 }
 
 function invokeCallback(cb) {
+  cb();
   // invoke cb
 }
 
@@ -14,17 +27,31 @@ function sumArray(numbers, cb) {
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
+let sum = 0;
+for (let i = 0; i < numbers.length; i++) {
+  sum = sum + numbers[i];
+}
+return cb(sum);
 }
 
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
+  for (let i = 0; i < arr.length; i++){
+    cb(arr[i]);
+  }
 }
 
 function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
+  const coolArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    const newcoolArraystuff = cb(arr[i]);
+    coolArray[i] = newcoolArraystuff;
+  }
+return coolArray;
 }
 
 function createUserClass() {
@@ -34,11 +61,26 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the constructor
+  return class User {
+    constructor (options){
+      this.username = options.username;
+      this.name = options.name;
+      this.email = options.email;
+      this.password = options.password;
+    }
+    sayHi(){
+      return 'Hello, my name is' + ' ' + name;
+    }
+  };
 }
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
+  Constructor.prototype.sayHi = function() {
+    return 'Hello World!';
+  };
+  return Constructor;
 }
 
 // !! This is the end of the homework exercises !!
