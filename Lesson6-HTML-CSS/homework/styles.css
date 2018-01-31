@@ -1,0 +1,38 @@
+html {
+    background-image: url('th.jpg');
+    }
+
+
+
+body {
+    max-width: 600px;
+    margin: auto;
+    }
+
+h1 { color: rgba(15, 15, 15, 0.336);}
+
+img {
+     width:400px;
+    }
+
+#thirdDiv {
+    background-color: rgb(2, 16, 27);
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    border: 10px black dashed;
+    }
+
+#spanId { 
+    font: 18px;
+    margin: 50px;
+    }
+
+    
+.divClass {
+    max-width: 500px;
+    margin: : auto;
+    }    
+
+
+
