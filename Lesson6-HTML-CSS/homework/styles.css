@@ -1,0 +1,37 @@
+body {
+    background: url('https://www.w3schools.com/css/paper.gif');
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+div{
+    width: 80%;
+}
+
+.divClass {      
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color:gray; 
+    padding: 50px;
+    border: 5px solid darkred;
+}
+
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+}
+
+h1 {
+    color: darkred;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+}

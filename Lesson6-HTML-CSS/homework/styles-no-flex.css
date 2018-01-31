@@ -1,0 +1,50 @@
+body {
+    background: url('https://www.w3schools.com/css/paper.gif');
+    text-align: center;
+    height: 1400px;
+    margin: 0 auto;
+}
+
+div{
+    margin: auto;
+    width: 80%
+}
+
+.divClass {
+        
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color:gray; 
+    padding: 50px;
+    border: 5px solid darkred;
+
+}
+
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+}
+
+h1 {
+    color: darkred;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 10px;
+
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+
+h3:nth-of-type(1) {
+    margin-top: 100px;
+  }
