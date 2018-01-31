@@ -69,7 +69,7 @@ function createUserClass() {
       this.password = options.password;
       this.sayHi = function() {
         return 'Hello, my name is ' + this.name;
-      }
+      };
     }
   }
   return User;
@@ -79,7 +79,7 @@ function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
  
-  Constructor.prototype.sayHi = function() { return 'Hello World!'};
+  Constructor.prototype.sayHi = function() { return 'Hello World!';};
 
 }
 
