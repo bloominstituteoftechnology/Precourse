@@ -1,0 +1,14 @@
+.green-text {
+	color: green;
+}
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: black;
+	padding: 50px;
+	border: 5px dashed rgb(100, 140, 200); 
+}
+#spanId {
+	font-size: 18px;
+	margin:50px;
+}
