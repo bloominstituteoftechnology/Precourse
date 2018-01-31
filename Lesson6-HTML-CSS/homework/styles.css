@@ -1,9 +1,50 @@
+body {
+  text-align: center;
+  background-image: url("https://wallup.net/wp-content/uploads/2017/03/29/482640-abstract-triangle-gradient-texture-digital_art.jpg");
+}
+
 h1 {
-  color: maroon;
+  color: lightskyblue;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .50s ease-in-out;
+  -moz-transition: all .50s ease-in-out;
+  -webkit-transition: all .50s ease-in-out;
+  color: black;
+}
+a:hover {
+  color: white;
+  text-transform: uppercase;
 }
 
 img {
   width: 400px;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+}
+
+#thirdDiv, .divClass {
+  margin: auto;
+  position: relative;
 }
 
 #thirdDiv {
