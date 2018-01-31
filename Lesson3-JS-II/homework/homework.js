@@ -5,10 +5,8 @@ function getBiggest(x, y) {
   // if they are the same return either one
   if (x > y) {
     return x;
-  } else if (y > x) {
-    return y;
   } else {
-    return x || y;
+    return y; 
   }
 }
 
@@ -32,11 +30,7 @@ function greeting(language) {
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
-  if (num === 10 || num === 5) {
-    return true;
-  } else {
-    return false;
-  }
+  return num === 10 || num === 5;
 }
 
 function isInRange(num) {
@@ -76,19 +70,15 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  let countPrime = null;
   if (num === 0 || num === 1) {
     return false;
-  } else {
+  } 
   for (let i = num - 1; i > 1; i--) {
     if (num % i === 0) {
-      countPrime = false;
-    } else {
-      countPrime = true;
-      }
-    }
+      return false;
+    } 
   }
-  return countPrime;
+  return true;
 }
 
 function returnFirst(arr) {
@@ -148,6 +138,8 @@ function contains(arr, item) {
     }
   }
   return false;
+
+  // return arr.includes(item); --> better solution
 }
 
 function addNumbers(numbers) {
@@ -158,6 +150,8 @@ function addNumbers(numbers) {
     count += numbers[i];
   }
   return count;
+
+  // could use array.reduce here instead
 }
 
 function averageTestScore(testScores) {
@@ -169,18 +163,22 @@ function averageTestScore(testScores) {
     count += testScores[i];
   }
   return count / testScoresLength;
+
+  // return addNumbers(testScores) / testScores.length; --> using function above
 }
 
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
-  let largest = 0;
-  for (let i = 0; i < numbers.length; i++) {
+  let largest = numbers[0];
+  for (let i = 1; i < numbers.length; i++) {
     if (numbers[i] > largest) {
       largest = numbers[i];
     }
   }
   return largest;
+
+  // could use array.reduce here
 }
 
 // Do not modify code below this line.
