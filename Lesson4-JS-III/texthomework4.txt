@@ -1,0 +1,5 @@
+Objects : containers for information of 1 thing
+Properties : relates to an object, you can add several different properties to an object and assign them values. 
+Methods : actions performed on objects
+for in loop : for loop for objects, since they do not have a numbered index.
+Dot notation vs bracket notation: if using a string or number, or variable that is a string or number we can use brackets

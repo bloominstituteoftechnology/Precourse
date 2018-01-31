@@ -1,0 +1,7 @@
+Variables : defined values that can change
+Strings : text with quotation marks
+FeyxtFunctions (arguments, return): action, everything you can do with for example variables
+arguments : declared variable used within the function
+return : stops the action and gives a value
+if statements: a 2way road, you can either go 1 way or the other, not both at the same time
+Boolean values (true, false): based on binary, this can only be on or off, in this case true or false
