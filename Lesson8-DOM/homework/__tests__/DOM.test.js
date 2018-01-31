@@ -39,7 +39,7 @@ describe('Todo Class', () => {
      expect(typeof Todo.prototype.completeTodo).toBe('function');
   });
 
-  it('completeToDo method changes complete to true', () => {
+  it('completeTodo method changes complete to true', () => {
     newTodo.completeTodo();
     expect(newTodo.complete).toBe(true);
   });

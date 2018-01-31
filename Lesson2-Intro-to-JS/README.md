@@ -210,8 +210,8 @@ In the last example we introduced the "return" statement. We will not console.lo
       return product;
     }
 
-    addsTwoNumbers(6, 3); //2
-    console.log(product) //undefined
+    dividesTwoNumbers(6, 3); //2
+    console.log(product); //undefined
 ```
 
 If we tried to console.log something that we declared inside of the function it would return undefined because we do not have access to it outside of the function. This is called scope. The only way to access something inside of the function is to return it. 
@@ -237,7 +237,7 @@ In this example we are going to use control flow and comparison operators. Contr
 
 ```javascript
     function canDrive(age){
-        if(age > 15){
+        if (age > 15){
             return true;
         }
 

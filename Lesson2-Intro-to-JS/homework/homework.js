@@ -99,7 +99,7 @@ function isEven(num) {
 
 function isOdd(num) {
   return !!(num % 2);
-  // return true if num is false
+  // return true if num is odd
   // otherwise return false
   // code here
 }
