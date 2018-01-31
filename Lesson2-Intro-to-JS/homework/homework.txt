@@ -1,0 +1,5 @@
+Variables are words or phrases used to describe something we don't know, or as a shortcut to something we do
+A string is a word or phrase
+A function is something that takes something from the user (input) and returns something else (output). In programming, inputs are also called arguments.
+An "if" statement tells the computer how to make a decision. Normally takes the form: if something happens, do something, or else, do something different.
+A Boolean value is one that is either true or false
