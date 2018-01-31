@@ -1,42 +1,84 @@
 // Do not change any of the function names
 
 function multiplyArguments() {
+  let product = 1;
+  if (arguments.length === 0) {
+    return 0; //code
+  }
+  else if (arguments.length === 1) {
+    return 1;//code
+  }
+  else {
+    for (let i = 0 ; i < arguments.length ; i++) {
+        product = product * arguments[i];//code
+    }
+    
+    return product;
+  }
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
 }
 
 function invokeCallback(cb) {
+    cb(name);//code
   // invoke cb
 }
 
 function sumArray(numbers, cb) {
+  let sum = 0;
+  for (let i = 0 ; i < numbers.length ; i++) {
+    sum = sum += numbers[i];
+  }
+    cb(sum);//code
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
 }
 
 function forEach(arr, cb) {
+      arr.forEach(cb); 
+
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
 }
 
 function map(arr, cb) {
+  arr.map(cb);
+  let new_arr = arr.map(cb);
+  return new_arr;
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
 }
 
 function createUserClass() {
+  class User {
+    constructor(options) {
+      this.username = options.username;
+      this.name = options.name;
+      this.email = options.email; 
+      this.password = options.password;
+    }
+      function(sayHiMethod) {
+        return 'Hello, my name is ' + this.username;
+    }
+  }
+    return User;
+}
+  
   // create a class constructor called User
   // it should accept an options object with username, name, email, and password properties
   // in the constructor set the username, name, email, and password properties
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the constructor
-}
+
 
 function addPrototypeMethod(Constructor) {
+  Constructor.prototype.sayHi = function() {
+    return 'Hello World!';
+  };
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
 }
