@@ -1,0 +1,9 @@
+Object - anything in javascript from functions to arrays to variables.
+
+Properties - also called 'keys', these are the 'things' an object has in your code, whether its the objects name, or its color, or its favorite desert (the Sahara) or its favorite dessert ( Cheesecake)
+
+Methods - a function inside of an object.  lets say you have an object dog, who eats once every 3 hours.  The eat function is a method attached to the doggo.
+
+for in loop - a way to iterate over keys/properties within an object, as opposed to looping over objects in an array.
+
+dot notation vs braket notation - dot notation references a real key (user.name, where name is a key attached to the user object), whereas bracket notation can be used to reference strings or variables (dog[key] might be a substitute for dog[noise], if noise = boof and key = noise)
