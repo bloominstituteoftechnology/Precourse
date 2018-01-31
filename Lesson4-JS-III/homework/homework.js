@@ -17,6 +17,14 @@ function makeCat(name, age) {
     return 'Meow!';
    };
    return cat;
+   // Also works
+  //  return {
+  //    name: name,
+  //    age: age,
+  //    meow: function () {
+  //      return 'Meow!';
+  //    },
+  //  };
 }
 
 function addProperty(object, property) {
@@ -103,7 +111,8 @@ function verifyPassword(user, password) {
   } else {
     return false;
   }
-
+  // also works
+  // return user.password === password;
 }
 
 function updatePassword(user, newPassword) {
