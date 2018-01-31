@@ -1,0 +1,18 @@
+* Callback Functions
+callback functions are a functions passed as arguments to others functions
+
+	* arguments
+arguments are the data we pass to function like the calculator to do addition
+ we need two value thats the arguments is like an array with only .length method to see 
+ how many arguments we pass to the function.
+	* prototype
+    prototype is like ben said in real life like mecanique shop we dont ship all 
+    the materiel to the client, he come to the garage , cars are object and prototype is 
+    the garage and the equipements, Each class has a prototype property.
+    
+	* Constructors
+    object is too limiting in many situations. We need a way to create an object "type" 
+    that can be used multiple times without having to redefine the object every time 
+    to meet each particular instance's needs the standard way to achieve this
+     is to use the Object Constructor function.
+     an object Constructor is a javascript function.
