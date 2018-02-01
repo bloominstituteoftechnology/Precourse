@@ -3,7 +3,8 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
+let created = document.querySelector('#createdBy');
+created.innerHTML = 'This app was created by: Jeremy Kepf';
 
 function Todo(){
 
@@ -12,6 +13,10 @@ function Todo(){
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
     this.complete which should be set to false. 
 */
+function Todo(description){
+  this.desc = description;
+  this.complete = false;
+ }
 
 }
 
@@ -19,7 +24,9 @@ function Todo(){
            Todo's complete to true*/
 
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems;
+let toDoItems = {
+  todo: Todo
+};
 
 
 function buildTodo() {
