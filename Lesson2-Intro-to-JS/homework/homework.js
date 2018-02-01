@@ -126,7 +126,7 @@ function isEven(num) {
 }
 
 function isOdd(num) {
-  // return true if num is false
+  // return true if num is odd
   // otherwise return false
   // code here
   if(num % 2 === 1) {
