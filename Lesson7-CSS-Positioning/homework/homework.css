@@ -8,36 +8,101 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+  display: block;
+  text-align: center;
 }
 
-
 /* Exercise Two: Positioning a Header Bar*/
-
-/* Place code here */
-
-
+#exerciseTwo {
+  display: none;
+}
 
 /* Exercise Three: */
-
-/* Place code here */
-
-
+#exerciseThree {
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
 
 /* Exercise Four: */
-
-/* Place code here */
-
-
+#exerciseFour {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
 
 /* Exercise Five */
-
-/* Place code here */
-
-
+#exerciseFive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* Exercise Six */
+#exerciseFive {
+  flex-flow: row-reverse;
+}
+
 
 #exerciseSeven {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
+
+#itemOne {
+  align-self: flex-start;
+}
+
+#itemTwo {
+  position: relative;
+  top: 100px;
+
+}
+
+#itemThree {
+  position: relative;
+  top: 200px;
+}
+
+#itemFour {
+  align-self: flex-end;
+}
+
+
+/*
+direction: row creates diag top left to lower right, 1234.
+direction: row-rev diag lower left to top right, 4321.
+*/
+
+
+/*
+#exerciseSeven {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+#itemOne {
+  align-self: flex-start;
+}
+
+#itemTwo {
+  position: relative;
+  left: 133px;
+}
+
+#itemThree {
+  position: relative;
+  left: 265px;
+}
+
+#itemFour {
+  align-self: flex-end;
+}
+*/
+
+/* 
+direction: col creates diag top left to lower right, 1234.
+direction: col-reverse creates lower left to top right, 1234.
+*/
