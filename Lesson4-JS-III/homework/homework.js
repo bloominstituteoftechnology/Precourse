@@ -5,12 +5,11 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
-  const cat = {
+  return {
     name,
     age,
     meow: () => 'Meow!',
   };
-  return cat;
 }
 
 function addProperty(object, property) {
@@ -68,7 +67,7 @@ function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
-  return (user.password === password ? true : false);
+  return user.password === password;
 }
 
 function updatePassword(user, newPassword) {
@@ -119,7 +118,7 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
   storeItem.calculateDiscountPrice = function() {
-    return this.price - (this.price * this.discountPercentage);
+    return this.price * (1 - this.discountPercentage);
   };
   return storeItem;
 }
