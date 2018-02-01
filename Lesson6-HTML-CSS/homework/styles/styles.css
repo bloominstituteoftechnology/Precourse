@@ -1,0 +1,28 @@
+h1
+{
+    color: cadetblue
+}
+
+id
+{
+    color: dodgerblue;
+}
+
+img
+{
+    width: 400px;
+}
+
+#thirdDiv
+{
+    height: 600px;
+    width: 600px;
+    background-color: azure;
+    padding: 50px;
+    border: 10px beige;
+}
+
+#spanID
+{
+    font-size: 18px;
+}
