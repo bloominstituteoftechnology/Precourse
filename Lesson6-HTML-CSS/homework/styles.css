@@ -1,0 +1,36 @@
+#thirdDiv{
+    width: 500px; 
+    margin-left:auto;
+    margin-right:auto;
+    height: 600px;
+    background: brown;
+    padding: 50px;
+    border: 5px solid olive;
+    /* centered content */
+    /* position: absolute;
+    top: 25%;
+    left: 25%; */
+}
+.divClass{
+    width:500px; 
+    background: white;
+    margin:0 auto;
+    text-align: center;
+
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+
+}
+h1{
+    color: seagreen;
+}
+img{
+    width: 400px;
+    margin:0 auto;
+}
+body{
+    background-image: url("https://madecasse.com/wp-content/uploads/2016/10/chocolate-detail-2.jpg");
+    background-repeat: repeat;
+}

@@ -19,6 +19,8 @@ function multiplyArguments() {
 function invokeCallback(cb) {
   // invoke cb
   return cb();
+  // also works:
+  // cb();
 }
 
 function sumArray(numbers, cb) {
@@ -39,6 +41,10 @@ function forEach(arr, cb) {
   arr.forEach (function (item) {
     cb (item);
   });
+  // also works:
+  // for (let i =0; i < arr.length; i++) {
+  //   cd(arr[i]);
+  // }
 }
 
 function map(arr, cb) {
@@ -47,6 +53,15 @@ function map(arr, cb) {
   // the new array should be the same length as the array argument
   let newArray = arr.map (cb);
   return newArray;
+  // also works
+  // return arr.map (cb);
+  // also works
+  // const mappedArray = [];
+  // for (let i =0; i < arr.lenght; i++) {
+  //   const transformedValue = cd(arr[i]);
+  //   mappedArray.push(transformedValue);
+  // }
+  // return mappedArray;
 }
 
 function createUserClass() {
@@ -77,6 +92,8 @@ function createUserClass() {
   }
   User.prototype.sayHi = function(){
       return 'Hello, my name is ' + this.options.name;
+      // also works
+      //return `Hello, my name is ${this.name}`;
   };
   return User;
 
@@ -115,6 +132,9 @@ function addPrototypeMethod(Constructor) {
   Constructor.prototype.sayHi = function () {
     return 'Hello World!';
   };
+  // also works
+  //Constructor.prototype.sayHi = => 'Hello World!'
+  
 }
 
 // !! This is the end of the homework exercises !!
