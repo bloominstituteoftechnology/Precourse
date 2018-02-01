@@ -1,0 +1,30 @@
+h1 {
+    color: darkolivegreen;
+}
+img {
+    width: 400px;
+ }
+#thirdDiv {
+    height: 700px;
+    width: 500px;
+    background-color: #fff;
+    padding: 50px;
+    border: 10px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+.divClass {
+    align-content: center;
+}
+body {
+    text-align: center;
+    position: static;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHQbIlCe9nKK11UFNeyMJyQwhkllVAJrU8MBch3mF3NmPijNlf");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(245, 243, 229, 0.77);
+}
