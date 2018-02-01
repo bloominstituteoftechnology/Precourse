@@ -1,0 +1,51 @@
+
+/* add background image to the body */
+body {
+  background-image: url("https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* container to allow flex */
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+/* Centre all the text */
+h1, h3, h6, span, a {
+  text-align: center;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  background-color:  rgba(0, 0, 0, 0.1);
+  border: 2px dashed white;
+  height: 500px;
+  padding: 50px;
+  width: 600px;
+}
+
+#spanId {
+  display: inline-flex;
+  font-size: 18px;
+  margin: 50px;
+}
+
+ul {
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type:none;
+  padding: 0;
+}
