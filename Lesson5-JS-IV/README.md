@@ -227,7 +227,7 @@ Creating functions are expensive (in a computer memory way) and each time we cre
     }
 
     let dan = new User('Dan', 'tetondan');
-    let riley = new Cat('Riley', 'rileyriley');
+    let riley = new User('Riley', 'rileyriley');
     
     console.log(dan.introduction()); //My name is Dan, my github handle is tetondan.
     console.log(riley.introduction()); //My name is Riley, my github handle is rileyriley.

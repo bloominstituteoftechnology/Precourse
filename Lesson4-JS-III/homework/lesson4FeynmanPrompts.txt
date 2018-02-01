@@ -1,0 +1,21 @@
+
+Objects
+	Are like boxes that hold groups of different things.  We talked about arrays and used the alphabet as an example of an array.  Objects are like arrays, except instead of holding a bunch of one type of thing, like the alphabet holds a bunch of letters, objects can hold a bunch of different things at the same time. Objects can hold functions - meaning our box can contain stuff, but also instructions on what to do with that stuff.  Objects can hold other objects - so like a box within a box.  Each thing in an object is held in what's called a key:value pair. Basically the key is like the thing's name, and the value is the thing itself.  We use these key:value pairs to retrieve the things from our boxes, and to then work with them.
+
+Properties
+	Properties are the key:value pairs that are in objects - the thing and it's name.  We can do special things to these properties, like removing them from the object, or add new ones to the object.
+
+
+
+Methods
+	Methods are functions that an object holds.  So that container can hold a list of names, but also a set of instructions on what to do with those names, or even a set of instructions for what to do with something else entirely - that set of instructions that is held in an object is called a method.
+
+
+for in loop
+	a for...in loop is a way to cycle through each of the properties within in an object.  So say we wanted to write the name of every thing we have in a box, we would use the for...in loop to do this - "Write the name FOR each item IN the box."
+	
+
+
+Dot notation vs bracket notation
+	Dot and bracket notation are ways to refer to the things in our object.  We start with the name of the object, put a dot, then put the name of the thing, aka the key, in our box.  This enables us to access the value that is attached to that key. Bracket notation is very similar, but instead of the exact name of the key, we can put a variable in the bracket - a value that can change depending on what we exactly need to do. This gives flexibility in how we can access the properties inside of objects. It also allows us to access things from multiple objects using the same piece of code.  
+	For example say each student in a class had a box of supplies - containing pens, pencils, rulers, erasers, paper, and glue.  If we wanted to count the number of pens in each of the boxes, we could write a piece of code that counts the pens. Then if we wanted to count the pencils, we could write a piece of code that counts the pencils. Alternatively, using bracket notation we could write one piece of code that just counts, and then by changing the variable that's in the bracket, we could change what it is that we are counting. This shortens the amount of code that we have to write, and makes what we write useful in more than one way.

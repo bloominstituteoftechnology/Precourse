@@ -1,0 +1,26 @@
+Variables
+
+Variables are like a box. We can put different things in the box like words or numbers. We name the box and then use the name whenever we want to get at what's inside the box. Variables are useful because in the program, we can change whats in the box but the name of the box stays the same. This way we only have to remember the name of the box, not what's actually inside of it at any given moment.  For example, say I'm working with cats and have a box named 'cat.'  I start with a red cat in the box. I can get the red cat by just grabbing the cat box.  Next maybe we replace the red cat with a blue one.  I can still grab the cat box, but now I'll get a blue cat. I don't have to ask for "blue cat" or "red cat" specifically, I can just ask for "cat" and I'll get which ever cat is in the box at that moment.
+
+
+Strings
+
+Strings are a group of characters. A character can be a letter, but it could also be a space or comma - basically anything you can type on a keyboard can be a character. So a basic string can be thought of just like a word - a series of letters in a row. However, since a string can have things like spaces or commas, they could even be whole sentences with words and spaces and punctuation. Strings are used so that we can separate the words or phrases that we want to print to a screen from the words and phrases that the program itself uses to perform it's job.
+
+Functions, arguments, returns
+
+Functions are lists of actions that can be done over and over again in our code.  They're like a little machine that can do one job that's sitting off to the side.  When we want that job done, we call on that little machine and it does it's thing.  Sometimes we need to tell the function some information so that it can do it's job. That information is called an "argument."  Sometimes when the job is done, the function needs to tell us something. This response is call the "return."  Using the little machine example, say we have a machine that writes out birthday cards.  It has paper and writes a message and puts a nice little picture on the card.  This machine needs to know what name to write on the birthday card, so we'd have to tell it a name first before it could do it's job.  The name in this case would be like the argument that we pass to our function. When the little machine has a name, it creates a card written out to that particular name and then gives it to you.  The card that you get from the machine would be like the return received from the function.  We could use this same little machine to write cards to a bunch of different people, just like we can use the same function a bunch of different times in a bunch of different places in our code.  
+
+If statements
+
+If statements are ways of asking a question about something (often a variable).  Depending on the answer we do different things. If we think of our code as a road, an if statement is like a fork in the road.  Say we're out driving to the beach and get to a fork in the road. This fork has a sign that says "left to the beach" and "right to the city." Since we want to get to the beach, we'd turn left. In computer speak we'd write an if statement at this fork like this "if you want to go to the beach, then turn left."  We can put other options into our if statements by using the "else" term.  In our current example, "if we want to go to the beach, turn left, else if we want to go to the city, turn right." If statements are a useful way to choose which set of actions we want our code to perform, based on the answer to the question that the if statement asks.
+
+
+Boolean values
+
+Boolean values are variables - like the boxes we talked about before - except these boxes can only hold two things True or False. We use boolean values to keep track of simple yes or no questions.  Using the cat box example, if we had a boolean cat box, we couldn't tell the difference between a red cat, blue cat, or green cat in the box. We'd only be able to keep track of whether we had a cat (any cat) in the box or didn't have a cat at all.  Booleans are useful in programming because they are smaller and easier to deal with than a variable that holds more information, and sometimes all we really need to know about a particular thing is answered by a true or false question.
+
+
+ 
+
+

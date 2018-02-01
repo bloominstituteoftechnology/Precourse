@@ -1,0 +1,14 @@
+Callback functions
+	A callback function is a function that is sent to another function. 
+ 
+
+arguments
+	The arguments object gets created every time a function is called. It's an array, or a list, of all the arguments that have been sent to that function.  It allows the function to do actions to the list of arguments. 
+
+
+prototype
+	A prototype is a method (a function) that is available for every object in a class to use.  So a Class is a template for making objects. Instead of putting methods in every one of the objects that the class makes, the class holds a prototype method that every object can have access to, this way we don't have a hundred copies of the same method in our code - we can have just one.
+
+
+Constructors
+	A constructor is the template for objects that a class creates.  It is a function. It dictates what key:value pairs that each object created by that class will have.
