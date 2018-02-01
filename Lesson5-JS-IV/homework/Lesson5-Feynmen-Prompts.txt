@@ -1,0 +1,15 @@
+* Callback Functions
+
+Callback functions are when we use 'cb' to pass arguments into other functions (or into another function).
+
+* `arguments`
+
+Arguments are contained mostly like arrays, meaning you can use .length to iterate, inside of a function.
+
+* `prototype`
+
+A propotype is a way to set a method once and then to give every object in the class a value.
+
+* Constructors
+
+Also known as a class and is a template for making objects, which can them be used multiple times without recreating each one. 
