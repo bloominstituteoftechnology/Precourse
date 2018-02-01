@@ -1,0 +1,10 @@
+Variable - Think of it like jars that you can put anything into, but you can put a label on the jar so you will always know what is inside without
+having to look in it.
+
+String - text that you can print out on the screen.
+
+Functions - is like a magic spell, once you make it you can call on it at any time to do many different things.
+
+if Statements - is when you give your computer a scenario and if it is true then it will do something, if it is false then it will do nothing.
+
+boolean - is a simple true or false question.
