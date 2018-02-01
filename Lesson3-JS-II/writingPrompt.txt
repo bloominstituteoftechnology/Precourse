@@ -1,0 +1,11 @@
+Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+for
+&&, ||, !
+Arrays
+
+for - A "for loop" is a way to get the computer to repeat something over and over again ("looping") a certain number of times.
+
+&&, ||, ! - These are called "logical operators." They're a way of stringing together logic statements. Easiest to see by example: if the light is green and I've checked that no cars are coming, I can cross the street: (Light Green) && (Road Clear). If one of those ISN'T true (the light is red or I haven't checked to see that the road is clear) then I can't cross the road. Another example: you have to eat breakfast before you go to school each morning. You can eat bacon and eggs or oatmeal; after eating EITHER, you can head off to school. (Bacon & Eggs) || (Oatmeal). The bang or "exclamation point" (!) just reverses the "truth" of any logic statement. !(Light Green) means (Light Red) or (Light Yellow).
+
+Arrays - sort of like a cabinet/chest-of-drawers. You can put anything you like in each of the drawers, but they all stay in the same cabinet. The drawers are numbered so you can identify each one easiliy.

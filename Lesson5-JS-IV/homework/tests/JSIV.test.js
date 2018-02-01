@@ -73,13 +73,13 @@ describe('addPrototypeMethod(Constructor)', function() {
 	});
 });
 
-// describe('addReverseString(StringPrototype)', function(){
-// 	it('should add a reverse string method to the String prototype that returns a reversed version of the string', function() {
-// 		exercises.addReverseString();
-// 		var str = 'Hello';
-// 		expect(str.reverse()).toBe('olleH');
-// 	});
-// });
+describe('addReverseString(StringPrototype)', function(){
+	it('should add a reverse string method to the String prototype that returns a reversed version of the string', function() {
+		exercises.addReverseString();
+		var str = 'Hello';
+		expect(str.reverse()).toBe('olleH');
+	});
+});
 
 // describe('nFactorial(n)', function() {
 // 	it('should return the factorial of n', function() {
