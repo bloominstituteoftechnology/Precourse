@@ -6,8 +6,8 @@ function makeCat(name, age) {
   // add a method called meow that returns the string 'Meow!'
   // return the object
   const cat = {
-    name: name,
-    age: age,
+    name,
+    age,
     meow: function() {return 'Meow!';},
   };
   return cat;
@@ -45,9 +45,9 @@ function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
   return {
-    name: name,
-    email: email,
-    password: password,
+    name,
+    email,
+    password,
   };
 }
 
