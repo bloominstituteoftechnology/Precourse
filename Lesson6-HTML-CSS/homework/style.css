@@ -1,0 +1,21 @@
+h1 {
+  color: blue;
+}
+img {
+  width: 400px;
+}
+.divClass {
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: pink;
+  border-style: solid;
+  padding: 50px;
+  border-width: 5px;
+  border-color: black;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
