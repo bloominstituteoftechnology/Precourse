@@ -32,5 +32,5 @@ img{
 }
 body{
     background-image: url("https://madecasse.com/wp-content/uploads/2016/10/chocolate-detail-2.jpg");
-    background-repeat: repeat;
+    background-size: cover;
 }
