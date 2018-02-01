@@ -1,0 +1,19 @@
+Lesson1 Homework
+
+Variables:
+  A variable is a way to store a value to use later.
+    let name = "Barry";
+    const number = 1;
+  Use one of the keywords (let, var or const),a space,  then a name for the variable, an equal sign and a value for the variable.
+
+Strings:
+  String are defined with single or double quotes. Any text with quotes around it is a string.
+
+Functions:
+  A function is a block of code that can be called. Arguments can be passed to the function and the function can return a value.
+
+if statement:
+  The if statement is a way for the program to fork depending on whether the statement is true or false.
+
+Boolean values:
+  Boolean values are either on or off, true or false, 0 or 1.

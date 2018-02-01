@@ -208,6 +208,30 @@ In this example we will be creating a `Cat` class. Convention for classes is to 
 
 ``` 
 
+#### `class` & `construct` keywords
+
+```javascript
+    class User {
+        constructor(email, password) {
+            this.email = email;
+            this.password = password;
+        }
+        printEmail() {
+            console.log(this.email);
+        }
+    }
+
+    const user = new User('asdf@asdf.com', 'password');
+    const user2 = new User('fdsa@fdsa.com', '123go');
+
+    console.log(user);
+    console.log(user2);
+
+    user.printEmail();
+    user2.printEmail();
+
+```
+
 ### `this` in Classes
 
 The `this` keyword can start to become very confusing when we start using it in classes. In the last example we use it in the meows method. A good rule of thumb if you are not certain what `this` is referring to, is to look at where the method is called, and the object to the left of the 'dot'. That is the object `this` refers to. 
