@@ -1,0 +1,14 @@
+Callback Functions:
+A function used as an argument in another function. It really is as simple as that!
+
+arguments:
+a data structure that holds the arguments passed into a function.
+It's kind of like an array, more like a superclass of an array, or something like that.
+
+prototype:
+making a prototype method makes a method for all objects of a certain class.
+Thus we don't have to make a whole bunch of methods for each different class but can make one prototype method and use it on many different classes.
+
+Constructors:
+Are classes. You can use them to creat many similar objects that are initialized with the same keys.
+

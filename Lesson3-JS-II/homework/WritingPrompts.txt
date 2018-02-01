@@ -1,0 +1,9 @@
+for:
+  A for loop defines a variable and then does work in a loop incrementing that variable until some condition is met.
+
+&&, ||, and !:
+  These are respectively the Boolean and, or, and not operators. They do just what you would expect them to do knowing English. Just be careful to note that or is not and either or sort of or.
+
+Arrays:
+  Arrays are one-dimensional ordered collections of objects. So they are lists of things.
+
