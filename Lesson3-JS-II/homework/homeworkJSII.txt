@@ -1,0 +1,16 @@
+    Feynman prompts: 
+
+	for -- 'For' is a way to set the parameters for a loop that follows, i.e., how many times a loop runs.  It sets the boundaries for what you which
+	variables, items, etc. you want the inside of the for loop code to run on. In a typical javascript format, it has three sections, separated by semi-colons ';'. The first section sets a variable to start. The second part marks the part at which the for loop is still true, and the loop should continue running, and the last section either increases or decreases the original variable by a certain amount (it doesn't have to be one).
+	
+	&& -- In a statement, it forces both sides of a statement to be true for the statement to evaluate to true, and is interpreted as an "AND".  For
+	example, x.length > 2 && y === 1, means that the length of x must be greater than 2 AND y must equal one for the
+	statement to be true. 
+	
+	|| -- In a statement, either sides can be true to evaluate the statement to true, it's like using the word "OR". 
+
+	! -- In a statement, this operator, also called a 'bang', switches the opposite boolean to the following item, so !true evaluates to false, and !(2===3) evaluates to true.
+	
+	Arrays -- An object that is a collection of stored variables. Separated by commas, they don't have to be the same, and are counted in an order started at 0 (indexing). 
+	
+

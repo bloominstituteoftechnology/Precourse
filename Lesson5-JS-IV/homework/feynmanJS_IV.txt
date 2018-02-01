@@ -1,0 +1,6 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Callback Functions -- A callback function is a function that is passed into another function, and is called inside of the other function.
+	* `arguments` - Arguments are the individual argument that goes into a parameter of a function, and goes at the top, in the parentheses.  A good analogy to differentiate the two that I found on Stack Overflow is that the parameter is the (p)arking space, while the argument is the (a)utomobile. 
+	* `prototype` - It's a way to hold constructor functions that can be referenced by all the individual objects created by the constructor without having to recreate the function for every single instance.  It's a good memory saver. 
+	* Constructors - Creating a class-like function template for all of the objects we want to create, saving time in having to duplicate it when you want to create a bunch of objects with the same basic keys. It's named with a capital letter.  
