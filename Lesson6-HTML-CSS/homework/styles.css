@@ -4,20 +4,23 @@ h1{
 title{
     align-content: center;
 }
-#divClass{
+.divTop{
     position: absolute;
-    z-index: 150;
-    top: 55%;
+    top: 10%;
     left: 45%;
-    background: beige;
-    border-color: bisque;
-    border-style: solid;
-    border-width: 5px;
-   
+    margin-top: 0;
+    background-color: beige;
+}
+.divClass{
+    position: absolute;
+    top:35%;
+    background-color:beige;
+    display:block;
+    
 
 }
 #thirdDiv{
-             height: 700px;
+             height: 600px;
              width: 500px;
              background:mintcream;
              padding: 50px;
@@ -29,7 +32,7 @@ title{
 
             position: absolute;
             z-index: 15;
-            top: 50%;
+            top: 55%;
             left:30%;
             
    }   
@@ -40,8 +43,10 @@ img{
 #spanId{
     font-size:18px; 
     margin:50px;
-    color: azure;
+    color:black;
 }
 html { 
     background-image: url("Background_img.jpg"); 
+    background-image: url("Background_img.jpg") no-repeat center center fixed; 
+    background-size: cover;
     }
