@@ -128,7 +128,7 @@ example: if we wanted our items to be center in the exact middle of a flex box w
 ```css
   div {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
 ```
