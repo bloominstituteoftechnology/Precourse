@@ -1,0 +1,21 @@
+h1 {
+    color: deepskyblue
+}
+img {
+    width: 400px;
+    height: 300px;
+}
+ul {
+    list-style-type: none;
+}
+#thirdDiv {
+   height: 600px;
+   width: 500px;
+   padding: 50px;
+   background-color: bisque;
+   border: 1px solid darkorange;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
