@@ -13,7 +13,7 @@ function Todo(description){
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
     this.complete which should be set to false. 
 */
-	this.desc = description;
+	this.description = description;
 	this.complete = false;
 
 }
@@ -21,7 +21,7 @@ function Todo(description){
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
            Todo's complete to true*/
 
-Todo.prototype.completeToDo = function(){
+Todo.prototype.completeTodo = function(){
 	this.complete = true;
 }
 
@@ -148,7 +148,7 @@ function completeTodo(event) {
   */
   //UNCOMMENT THE NEXT LINE
    let index = event.target.id;
-   toDoItems[index].completeToDo();
+   toDoItems[index].completeTodo();
    displayTodos();
 
 }

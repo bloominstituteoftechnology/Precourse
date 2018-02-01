@@ -145,7 +145,6 @@ function cube(num) {
   // code here
 	return square(num) * num;
 }
-
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
