@@ -16,6 +16,10 @@ function multiplyArguments() {
 	}
 }
 
+// return args.reduce((memo,num) => memo  & num);
+
+
+
 function invokeCallback(cb) {
   // invoke cb
 	cb();
