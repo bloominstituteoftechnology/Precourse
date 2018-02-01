@@ -72,7 +72,8 @@ function createUserClass() {
       this.email = object.email;
       this.password = object.password;
       this.sayHi = function() {
-        return ('Hello, my name is ' + this.name);
+        //return ('Hello, my name is ' + this.name);
+        return `Hello, my name is ${this.name}`; // Using ` instead of '!
       };
     }
   }  
