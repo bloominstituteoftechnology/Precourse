@@ -1,0 +1,15 @@
+
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. 
+Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+for: The for is used to evaluate a conditional expression. If a condition is true, it will run again, if it is false it 
+     will stop running the code. For loops are mostly used to iterate over all of the items in a list or (array).
+
+&&, ||, ! : These symbols are called logical operators. 
+            && means AND. This operator will evaluate both expressions and will ONLY return true (boolean) if BOTH expressions are true.
+            || means OR. This operator will determine if one of the expressions is true. It will return true if one (or both) of 
+            the expressions is true. It will return false if BOTH expressions are false
+            ! means NOT. This operator will return the opposite boolean value of what is passed to it.
+
+Arrays: An array is a data contained in a group. It can be looked at like a list, collection, or inventory of items. Arrays can be accessed
+        based on their position to the group or collection.

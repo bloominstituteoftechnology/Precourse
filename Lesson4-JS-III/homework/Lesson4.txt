@@ -1,0 +1,16 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. 
+Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Objects: An object is a collection of properties. Objects hold information in one thing.
+
+Properties: A property is an association between a name or value.
+
+Methods: Methods are the actions that can be performed on objects. It is a property that contains a function definition.
+
+for in loop: A for in loop iterates over the properties of an object. For each property, code can be executed.
+
+Dot notation vs bracket notation: By using dot notation you can access properties of an object by specifying the name 
+                                  of the object, followed by a dot and the property name. (object.property)
+                                  By using bracket notation you can access properties of an object by specifying the name
+                                  of the object, followed by the property name in brackets. (object[property])
+                                  Dot notation is much easier to read than bracket notation.

@@ -1,0 +1,22 @@
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining
+it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables: These store values such as numbers, phrases, individual letters, equations and other types of data that can be accessed later. 
+            It is like a dictionary definition that you can create and access whenever you'd like. Look at it like this, the keyword (var) is 
+            the dictionary and the name and value provide the definitions. It will look like the following: var word = 'definition';
+            
+Strings:    Strings are text that are surrounded by single or double quotation marks. Anything you surround in these quotation marks will be looked
+            at as a string. It will look like the following: var phrase = 'Work hard, Play hard!';
+
+Functions (arguments, return):  Functions are somewhat like variables. Only, a function runs whatever code you put inside its brackets.
+                                It will look like the following: function myFunction() {} 
+
+if statements: if statements control the flow of a function. It checks to see whether or not the result of the code is true or not.
+                It will look like the following: if (10 > 9) { return true; }
+
+Boolean values (true, false): Boolean values are either true or false. There is no in between. If the result or value of something does not
+                              have the same meaning, value or sometimes data type, it will equal False. Vice versa. It will look like the following:
+                              10 > 9 = true
+                              9 > 10 = false
+
+
