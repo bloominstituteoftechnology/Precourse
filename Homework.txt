@@ -1,0 +1,25 @@
+Variables:
+A Variable is a way to represent values in a programming language so that they can be used by the computer 
+to represent real world data and objects be them physical or virtual. Examples include the name "John" the object cat, the number 7 or 
+any other value you would like to represent. 
+
+Strings
+Strings are simply characters such as A-Z or any special characters such a !@#$%^(*&^% including space that when put together
+are representative of a word, words, setenses or any other number of said characters include a blank space. 
+The characters are stringed together hence the name string
+
+Functions (arguments, return)
+
+A function is like a block that can be used over and over in different parts of code. Write it once and use it over and over. 
+The arguments are the values that a function can take. return is what will be given back to the same spot in code that the function was run from at the end of the function. 
+
+if statements
+A if statement is a condtional statement such as if dog = bulldog price = 300 else if dog does not equal bulldog dog is not for sale.
+It is simply a statment of if this then that or else that. 
+
+Boolean values (true, false)
+Boolean values are the computers way of representing a on or off state. 
+They are a way to check to see if something only has two possible answers such as yes or no or white or black. 
+True usually means 1 and false usually means 0 you can think of these like switches.
+is light on yes so switch is up. Is light off no so switch is down. 
+another way is to think of them as energized/de-energized. 
