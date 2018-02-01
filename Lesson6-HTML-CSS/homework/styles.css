@@ -1,0 +1,17 @@
+h1 {
+    color: crimson;
+}
+img {
+    width: 400px;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid aqua;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background: khaki;
+}
