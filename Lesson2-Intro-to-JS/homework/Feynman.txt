@@ -1,0 +1,16 @@
+Variables 
+- Values that can be stored for later use and are changeable. Const variables cannot change.
+
+Strings 
+- A series of characters (letters, numbers, etc.) always surronded by quotation marks.
+
+Functions (arguments, return) 
+- Functions are series of code that can be executed when called upon. Keeps written code orderly.
+- Arguments seem to be the information needed to run a function and go in the () after the function name.
+- Return is the sum purpose of a function. It's the information that comes out of the function
+
+if statements 
+- Statements that branch. For instance, "if" ABC occurs, then do XYZ. "if" ABC does not occur, then do something else.
+
+Boolean values (true, false) 
+- These are statements that return either true or false when certain specified conditions are met or fail to be met. Stem from 0s and 1s. Old binary system.

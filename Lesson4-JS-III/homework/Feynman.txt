@@ -1,0 +1,14 @@
+Objects
+- These are similar to arrays, but larger. They contain data like arrays, but can contain different types of data. They contain booleans, numbers, strigs, arrays, and other objects.
+
+Properties
+- These are also known as keys and have an associated value. Within an object are key:values. Properties can have any designation.
+
+Methods
+- Another word for function, but refer to functions withing objects.
+
+For in loop
+-A special type of for loop that works in objects to iterate over ket:value pairs.
+
+Dot vs Bracket notation
+-Dot is preferred, but on some occasions bracket notation is necessary. I haven't really grasped the need for bracket notation.

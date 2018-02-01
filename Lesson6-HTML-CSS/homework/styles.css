@@ -1,0 +1,20 @@
+
+#header {
+    color:red;
+}
+.divClass {
+
+}
+#thridDiv {
+    height:600px;
+    width:500px;
+    background-color:blue;
+    padding:50px;
+    border:10px dashed rgb(200, 400, 100);
+}
+#spanId {
+    font-size: 18px;
+}
+#myImage {
+    width: 400px;
+}
