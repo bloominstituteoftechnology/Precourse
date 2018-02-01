@@ -8,7 +8,7 @@ function makeCat(name, age) {
   const cat = {
     name,
     age,
-    meow: function() {return 'Meow!';},
+    meow: () => 'Meow!',
   };
   return cat;
 }
