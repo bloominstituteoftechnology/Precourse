@@ -1,0 +1,10 @@
+Justin Meredith
+Feynman Prompts
+
+* Callback Functions - a callback function is when you use a previously created function in the context of a new function. 
+
+* arguments - 'arguments' is an array like object consisting of the objects/variables that you pass into a function. For example, if you had a function "foo(a, b, c)" that took in three arguments (a, b and c), then "arguments.length" would return "3". 
+
+* prototype - A 'prototype' is a function made available to all objects of a certain type, like ".length" for example. When you create a new class you can give it functions like this using prototypes.
+
+* Constructors - a constructor, or class, is a way to create a template for an object. If you are going to create many objects with similar properties and methods (like users on a website), rather than create a new object every time, you can create an instance of a user class, saving memory space.
