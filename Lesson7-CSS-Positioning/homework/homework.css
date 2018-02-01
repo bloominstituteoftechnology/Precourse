@@ -8,30 +8,47 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+  text-align: center;
+  display: block;
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
-
+#exerciseTwo {
+  visibility: hidden;
+}
 /* Place code here */
 
 
 
 /* Exercise Three: */
-
+#exerciseThree{
+  padding-left: 200px;
+  padding-top: 100px;
+}
 /* Place code here */
 
 
 
 /* Exercise Four: */
-
+#exerciseFour {
+  position: fixed;
+}
 /* Place code here */
 
 
 
 /* Exercise Five */
-
+#exerciseFive {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  
+}
+.e5child {
+  margin-right: 10px;
+}
 /* Place code here */
 
 
