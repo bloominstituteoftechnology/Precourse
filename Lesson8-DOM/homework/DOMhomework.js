@@ -33,6 +33,9 @@ function Todo(description){
 
     let todoText = document.createElement('SPAN');
     todoText.innerHTML = object.description + '';
+    todoText.onclick = function (){
+      completeTodo();
+    }
     if(!object){todoText.innerHTML = 'No To-Do Items!';};
     todoText.id = index;
     if (!index){todoText.id = 0;};
