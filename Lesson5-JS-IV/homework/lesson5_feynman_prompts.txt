@@ -1,0 +1,9 @@
+#### Lesson 5 Feynman Prompts ####
+
+Callback Functions - Callbacks, also known as higher order functions, are functions that are passed to other functions as a parameter.
+
+arguments - The arguments object is a local variable within functions. When we pass an argument to a function, they are then contained in arguments which is a array-like structure. Each argument is indexed, like an array, and the method .length can be used to create for loops.
+
+prototype - Within classes, one can create a method that every object of a certain class can use. This is called the prototype.
+
+Constructors - The constructor is a special method for creating, and initializing, an object created within a class.
