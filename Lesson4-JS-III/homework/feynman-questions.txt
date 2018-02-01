@@ -1,0 +1,18 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+
+	* Objects
+	* Properties
+	* Methods
+	* for in loop
+	* Dot notation vs bracket notation
+
+
+OBJECTS: Objects are everywhere in JavaScript. An object is a way for us to store a bunch of information on a single item. Objects can store a key also known as a property with a value. An object property can be anything from a variable, an array, a function, or even another object.
+
+PROPERTIES: A property belongs to an object and it is used as a key to call on a specific value of the object.
+
+METHODS: A method is just a fancy term for a function located inside of an object.
+
+FOR IN LOOP: Is a specific loop used to loop through an objects properties.
+
+DOT NOTATION VS. BRACKET NOTATION: Dot notation and bracket notation are both ways of accessing a properties value inside of an object. Dot notation is usually used as the default way to access the value, however when dot notation isn't possible (ie. accessing values using a variable or inside of a for in loop) we can use bracket notation. Bracket notation
