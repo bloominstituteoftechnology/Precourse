@@ -1,0 +1,34 @@
+Objects
+*******
+Objects are variables that can contain many values.
+The values are written as key value pairs, key and value separated by a colon.
+
+Properties
+**********
+The name value pairs in objects are called properties.
+Objects will have property name and property value pairs.
+
+Methods
+*******
+Methods are actions that can be performed on objects.
+Methods are stored in properties as function definitions.
+
+for in loop
+***********
+for/in loops through the properties of an object. Syntax is
+for (prop in object) {
+    code block
+}
+
+Dot notation vs bracket notation
+********************************
+Dot notation and bracket notation are property accessors.
+They provide access to an object's properties.
+In a JS object, all property keys are strings.
+
+Square bracket notation allows the use of characters that can't be used with dot notation.
+Square bracket notation allows access to properties containing special characters and 
+selection of properties using variables.
+
+Dot notation only lets you access the explicit key name of a property.
+Dot notation cannot be used with variables or numbers either.
