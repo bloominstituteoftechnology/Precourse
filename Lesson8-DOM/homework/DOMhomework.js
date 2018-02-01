@@ -13,12 +13,6 @@ function Todo(){
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
     this.complete which should be set to false. 
 */
-class Todo {
-  constructor(task){
-    this.description: task;
-    this.complete: false;
-  }
-}
 }
 
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
