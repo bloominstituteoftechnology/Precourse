@@ -73,45 +73,45 @@ describe('addPrototypeMethod(Constructor)', function() {
 	});
 });
 
-// describe('addReverseString(StringPrototype)', function(){
-// 	it('should add a reverse string method to the String prototype that returns a reversed version of the string', function() {
-// 		exercises.addReverseString();
-// 		var str = 'Hello';
-// 		expect(str.reverse()).toBe('olleH');
-// 	});
-// });
+describe('addReverseString(StringPrototype)', function(){
+	it('should add a reverse string method to the String prototype that returns a reversed version of the string', function() {
+		exercises.addReverseString();
+		var str = 'Hello';
+		expect(str.reverse()).toBe('olleH');
+	});
+});
 
-// describe('nFactorial(n)', function() {
-// 	it('should return the factorial of n', function() {
-// 		expect(exercises.nFactorial(5)).toBe(120);
-// 		expect(exercises.nFactorial(15)).toBe(1307674368000);
-// 	});
-// });
+describe('nFactorial(n)', function() {
+ 	it('should return the factorial of n', function() {
+ 		expect(exercises.nFactorial(5)).toBe(120);
+ 		expect(exercises.nFactorial(15)).toBe(1307674368000);
+ 	});
+});
 
-// describe('cacheFunction(cb)', function() {
-// 	it('should return the callback function', function() {
-// 		var cb = function() {};
-// 		expect(typeof exercises.cacheFunction(cb)).toEqual('function');
-// 	});
-// 	it('should return the callback functions result when the cached function is invoked', function() {
-// 		var cb = function(x) {
-// 			return x * 2;
-// 		};
-// 		var cachedFunction = exercises.cacheFunction(cb);
-// 		expect(cachedFunction(5)).toBe(10);
-// 	});
-// 	it('should cache function results', function() {
-// 		var cb = jest.fn();
-// 		var cachedFunction = exercises.cacheFunction(cb);
-// 		cachedFunction(true);
-// 		cachedFunction(true);
-// 		cachedFunction(true);
-// 		cachedFunction(true);
-// 		cachedFunction(true);
-// 		cachedFunction(10);
-// 		cachedFunction(10);
-// 		cachedFunction(10);
-// 		cachedFunction(10);
-// 		expect(cb).toHaveBeenCalledTimes(2);
-// 	});
-// });
+describe('cacheFunction(cb)', function() {
+	it('should return the callback function', function() {
+		var cb = function() {};
+		expect(typeof exercises.cacheFunction(cb)).toEqual('function');
+	});
+	it('should return the callback functions result when the cached function is invoked', function() {
+		var cb = function(x) {
+			return x * 2;
+		};
+		var cachedFunction = exercises.cacheFunction(cb);
+		expect(cachedFunction(5)).toBe(10);
+	});
+	it('should cache function results', function() {
+		var cb = jest.fn();
+		var cachedFunction = exercises.cacheFunction(cb);
+		cachedFunction(true);
+		cachedFunction(true);
+		cachedFunction(true);
+		cachedFunction(true);
+		cachedFunction(true);
+		cachedFunction(10);
+		cachedFunction(10);
+		cachedFunction(10);
+		cachedFunction(10);
+		expect(cb).toHaveBeenCalledTimes(2);
+	});
+});
