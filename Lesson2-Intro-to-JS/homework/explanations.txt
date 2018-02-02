@@ -1,0 +1,16 @@
+Variables - Containers that hold values that you can use later
+            Variables must have unique names
+            Some variables can be changed throughout the scope
+            Some (constants) stay the same throughout the scope
+
+Strings -   a block of text
+            definded by single or double quotes
+            anything text with around it is a string
+
+Functions - used to compute variables
+            often given names that describe what they do
+
+'if' Statements - conditional statements that trigger code once the
+                  condition has been met
+
+Boolean values -  a condition of either true or false
