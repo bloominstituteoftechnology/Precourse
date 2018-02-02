@@ -1,0 +1,27 @@
+
+h1 {
+    color: #87cefa;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: #20b0a0;
+    padding: 50px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+  
+
+ 
