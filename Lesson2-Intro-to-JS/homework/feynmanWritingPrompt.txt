@@ -1,0 +1,20 @@
+1. Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Variables
+	* Strings
+	* Functions (arguments, `return`)
+	* `if` statements
+	* Boolean values (`true`, `false`)
+
+Answer:
+
+Variables are symbols humans recognizes that stores a value. Variable can be altered if it is defined with 'let' or it can be read-only if it is defined with 'const'.
+
+Strings are a text/number/symbol written inside quotation marks that can be stored in a variable, or passed on to console.log() to be printed on the console window.
+
+Functions are block of instructions that can take variables as its input. Functions are usually used to simplify code that needs to be ran multiple times. Function can return a value.
+
+'if' statement is used to check logical expressions and decide which block of code to run depending on the result.
+
+Boolean values are basically used to represent given logical expression is true or false. true is equal to 1 or on, false is equal to 0 or off.
+
