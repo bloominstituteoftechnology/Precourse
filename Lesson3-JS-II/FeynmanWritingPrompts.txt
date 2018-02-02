@@ -1,0 +1,14 @@
+Feynman Writing Prompts
+for: if you want something to happen to only 
+a segment of something, for loops can be 
+useful 
+
+
+&&, ||, !: && is if you want two things to happen before doing something.
+|| is if you only need one of two things to happen before doing something.
+! is if you dont want something to happen or if something hasnt happened 
+before doing something
+
+Arrays: an array is basically a group of things that are in one cluster. 
+They can be multiple types of things, and can be of any size.
+
