@@ -1,0 +1,7 @@
+Callback Functions - Allows functions to be used as an argument within another function.
+
+Arguments - arguments are values that can be passed off as a function. 
+
+Prototype - Allows for new properties and methods to be added to existing objects.
+
+Constructors - A keyword function that gives the programmer the ability to create many objects using the same template. Only useful if the objects have the same properties.
