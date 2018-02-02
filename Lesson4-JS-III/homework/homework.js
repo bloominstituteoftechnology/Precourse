@@ -5,28 +5,59 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
-}
+  let newCat = {
+    'name': name,
+    'age': age};
+    newCat.meow = function(){
+      return 'Meow!';
+    };
+    return newCat;
+  }
+    
+
+  
+
 
 function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
-}
+  object[property] = null;
+  return object;
+  
+  
+} 
 
 function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
+  object[method]();
+  
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
+  
+  const mysteryNumber = {
+    multiplyMysteryNumberByFive: multiplyMysteryNumberByFive * 5,
+  };
+ 
+
+  return mysteryNumber;
+  
+
 }
 
 function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
+  object = {
+    property: property,
+  };
+  delete object[property];
+  return object;
 }
 
 function newUser(name, email, password) {
@@ -49,6 +80,7 @@ function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
+  return user.password === password;
 }
 
 function updatePassword(user, newPassword) {
@@ -85,6 +117,10 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
+  storeItem.addCalculateDiscountPrice = function (){
+    const discount = this.price * this.discountPercentage;
+    return this.price - discount;
+  };
 }
 
 // Do not modify code below this line.
