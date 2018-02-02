@@ -1,0 +1,27 @@
+Variables: When we use the term "variables" we are talking about a name 
+for a value.  Sort of like here is a name like "x" or "name" or 
+"squigglePus" and I will give or ASSIGN that name a value.  We use the 
+equals sign to do the assigning.  So we assing x the vaule of 6...x=6.  
+So the left side represents the right side.  
+
+Strings: A string is something on the right side of the assigning 
+function.  It is encased in parentheses so we know it is a string.  It 
+can be any combination of characters...it can be a word, a sentence, a 
+paragraph, or just one character.  Being a string, there are certain 
+ways we can work with the vaule, it has special properties that other 
+types do not have.
+
+Functions: functions are mini-programs that do some little thing over 
+and over at will.  Functions take arguments. Arguments are the starting 
+values or substrate that we are going to run the process on.  Return is 
+what the function generates when we run the mini-program on the 
+arguments we started with.
+
+if statements:  if statements let us run a little function over and over 
+but also allows us to set the beginning and end point of it running, 
+usually by specifying what the range of arguments we will use.  We can 
+have it run only IF some condition is met.
+
+Boolean values(true, false): Bools are a way of saying yes/no, on/off, 
+zero/one.  so if something can be explained with two states, either/or 
+we can use a bool to set or check which one that is.  

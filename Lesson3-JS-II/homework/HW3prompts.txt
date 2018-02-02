@@ -1,0 +1,35 @@
+Copy from README:
+
+# Homework #JSII
+
+## Instructions
+---
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `for`
+	* `&&`, `||`, `!`
+	* Arrays
+
+2. 3. From the top level of your `Precourse` folder, run `npm run test:JSII` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
+
+#### Congratulations on finishing Homework #2!
+
+For more information about Lambda School's six month CS program visit: https://lambdaschool.com
+##########
+Okay, do the writing:
+
+1. for:  okay, in this lesson we are using the keyword "for" to identify when we are starting a loop activity.  "for loop" have a specific 
+structure so that you can add the right inputs and get the right output.  In general, following the word "for" we set the condition for the 
+loop to run inside parenthesis.  Eg, for (this many) (as long as something is true), etc.  Then the {} curly braces indicate some function 
+activity.  When the () condition is no longer true, the function/loop breaks out.
+
+2. &&  this the symbol we use for the logic concept "and".  This means the things on either side of the && evalaute to true.
+
+3. || this is the symbol for the logic concept "or".  This means one of the things on either side of the || is true.
+
+4. ! this is the symbol for "not" and basically flips the logic on things...it's sort of the "opposite" symbol.
+
+5.  Arrays:  I like the concept of arrays as bins to put things in.  The things can be numbers, strings, booleans - anything.  We put them 
+in the array AND depending on the type of array we can use different methods on them.  
+
+Off to do the example problems now...
