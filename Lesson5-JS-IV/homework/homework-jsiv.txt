@@ -1,0 +1,40 @@
+# Homework #JSIV
+
+## Instructions
+---
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Callback Functions
+	* `arguments`
+	* `prototype`
+	* Constructors
+
+## Callback Functions
+
+A callback function is a function passed to another function as an argument.
+the function will be called back from the function at some later time.
+
+## 'arguments`
+
+When we define or declare a function we include any expected values to be passed to the function. 
+These are called parameters and act as placeholder names for the actual values passed to the function.
+Arguments are the actual values passed to the function when it is called or invoked.
+These arguments are contained in an array like data structure and are available throughout the function.
+They share some characteristics of arrays, but the aguments object is not an array.
+It is possible to convert the arguments object to an array with the Array.from() method eg.
+var args = Array.from(arguments);
+Or by using spread operator
+var args = [...arguments];
+ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
+
+## `prototype`
+
+'prototype' refers to all the properties and methods available to an object
+for example 'length' is a property of the arguments object
+pop, push, shift and unshift are methods available to the array object
+
+## Constructors
+
+Constructors are functions used when we need to create many objects of the same type. It creates a blueprint
+which we can use to create objects with the same properties. It also allows each object to have access to
+any methods within the constuctor.

@@ -1,0 +1,98 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Objects
+Properties
+Methods
+for in loop
+Dot notation vs bracket notation
+
+
+##Objects
+
+Model real world things
+let obj = {};
+Objects a collection of properties and methods written as key:value pairs.
+let obj = {
+	name: 'Pedro',
+	age: 99,
+	greeting: function(){
+	console.log(`My name is ${this.name}!`);
+	};
+}
+
+obj.name();
+Each key must be unique.
+
+
+
+##Properties
+
+An object contains a list of properties. Each Property consists of a key and value pair. 
+
+Keys are seperated from values with a colon.
+
+Each key is a string and must be unique. 
+
+Values can be any value including other objects, arrays, numbers or strings.
+
+Properties within an object are seperated with a comma.
+
+##Methods
+
+Methods are the names given to the functions of an object.
+To invoke an object's method you would use:
+
+myObject = {
+	prop1: 12,
+	prop2: 'Some text',
+	prop3: function() {
+	return this.prop1;
+	}
+};
+
+myObject.prop3();
+
+##for in loop
+
+for(let key in obj) {
+  
+console.log(`${key}: ${obj[key]}`);
+
+}
+
+A for in loop iterates over the properties of an object. We use a placeholder variable (key in the example) which is asigned a different property name on each iteration. On the first iteration key will be prop1.
+
+
+##Dot notation vs bracket notation
+
+To refer to an object property we can use either bracket or dot notation.
+
+objectVariable.properyName
+objectVariable['propertyName']
+
+Where possible use dot notation.
+Bracket notation expects a string between the brackets or an expression which will convert to a string.
+A known property name will be enclosed in quotation marks.
+If using a variable name no quotation marks are necessary.
+
+To access nested objects, it is possible to chain eg:
+myObject = {
+	
+	prop1: 12,
+	
+	prop2: 'Some text',
+
+	prop3:  {
+	  
+		prop5: 'I am a nested object property',
+	  
+		prop6: [{
+			prop7: 'I am a deeply nested object property'}]
+
+	  }
+};
+
+
+
+console.log(myObject.prop3.prop5; // 'I am a nested object property'
+console.log(myObject.prop3.prop6[0].prop7); // 'I am a deeply nested object property'
