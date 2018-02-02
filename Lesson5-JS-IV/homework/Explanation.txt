@@ -1,0 +1,8 @@
+1- Callback Functions: when we want to use a fucntion as an argument of another function, the function used an argument is called a callback fucntion.
+
+2- `arguments`: arguments are passed to a function in order to do run a code on it.
+
+3- `prototype`: it is nested inside a class. it contain some elements of the class that can be called it that element is not in the surface of a class.
+
+4- Constructors: these are used to make an istant of a class later. we call the constructor of a class to make an object of that class.
+

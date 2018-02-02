@@ -1,0 +1,9 @@
+1- Objects: These are a collection of properties and functions. an object is like a thing. A car is on object; it has properties like color and model, and has functions like spead, move forward and backword. objects in javascript are the same things like car in the real world.
+
+2- Properties: properties in an object are like color and lenght in real world objects.
+
+3- Methods: methods in an object are like the move, spead, and stop functions in the real world objects.
+
+4- for in loop: for in is used to loop through properties and functions of an object.
+
+5-Dot notations vs bracket notation: when we want to access directly a properties of an object we use the dot notataion. When we want to refer to a property of an object using a variable name or a string we use the bracket notation.

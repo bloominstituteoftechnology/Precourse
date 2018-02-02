@@ -1,0 +1,9 @@
+1- Variables: These are containers that contains data. We can then do alot of things on this data using the names of the containers(variables).
+ 
+2-Strings: These are a collection charectors/letters. for example 'word' is a string because it is a collection of separate letters.
+
+3- Functions (arguments, `retrun`): fuctions do things. it can calculate 2 numbers or can multiply them. arguments are the things that function is running on them. for example 3 and 4 can be arguments and then the function will multiply them.
+
+4- `if` statements: if statments sets conditions. It tells the computer that if this condition is met then do the folowing thing. for example it might tell the computer that if a given number is less than 10 than multiply that number by 2.
+
+5- Boolean values (`true1, `false`): Boolean is only true of false values.

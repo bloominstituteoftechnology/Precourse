@@ -1,0 +1,17 @@
+            h1{
+               color:crimson; 
+            }
+            img{
+                width: 400px;
+            }
+            #thirdDiv{
+                height: 700px;
+                width: 500px;
+                background-color: burlywood;
+                border: 1px solid red;
+                padding: 50px;
+            }
+            #spanId{
+                font-size: 18px;
+                margin: 50px;
+            }
