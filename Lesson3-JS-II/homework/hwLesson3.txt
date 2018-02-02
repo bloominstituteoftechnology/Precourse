@@ -1,0 +1,7 @@
+Feynman Writing Prompts:
+
+for: A for loop allows us to go through a lot of information and do something with that information. If we wanted to give a bunch of people at a fair a high five, we could go to the ferris wheel, and each time a new gondola passes by, we give them one more high five than the last gondola.
+
+Logical operators ( &&, ||, ! ): With these symbols, we can check if two statements are true or false. 
+
+Arrays: Last exercise we used the analogy that a variable is like a box that can hold any information we put in it. An array then, is a shipping container, that we put boxes into. 

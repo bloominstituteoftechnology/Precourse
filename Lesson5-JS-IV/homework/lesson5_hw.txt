@@ -1,0 +1,9 @@
+Lesson 5 Feynman Writing Prompts:
+
+Callback functions: A callback is a function that is an argument of another function. Say for example, you're playing catch with a friend, and you want them to throw you the ball. But first, you want the ball to change color from white to red. Your friend would throw the ball toward you, but it first goes into a midair 'ball color changing factory', and when you catch the ball it is now red. 
+
+arguments: Arguments are any data that is passed to a function. In out example above, the ball would be an argument. 
+
+Prototype: A prototype is a type of method that allows every object of a class use it, instead of recreating the same method on each object. For example, say you're studying for a math test. It might be hard for you to remember Pythagorean theorem, so you program it once into your calculator and all you have to do is enter numbers, and it will return the result.
+
+Constructors: A constructor is basically a function with an uppercase letter to start the function name. This allows us to create many objects from one constructor. 

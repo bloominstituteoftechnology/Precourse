@@ -1,0 +1,19 @@
+body {
+    background-image: url(http://www.bypeople.com/wp-content/uploads/2014/05/light-live-background-css.jpg)
+}
+h1 {
+    color: orangered;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background: snow;
+    padding: 50px;
+    border: 2px black solid;
+}
+#spanId {
+    margin: 50px;
+}
