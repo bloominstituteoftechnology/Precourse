@@ -1,0 +1,27 @@
+	h1{
+	color: darkseagreen;
+	}
+	img{
+	  width: 400px;
+	}
+	#thirdDiv{
+	  height: 600px;
+	  width: 500px;
+	  background-color: lightsalmon;
+	  padding: 50px;
+	  border: 2px solid navy;
+	}
+	#spanId{
+	  font-size: 18px;
+	  margin: 50px;
+	}
+	body{
+	  background-image: url("https://mdn.mozillademos.org/files/11991/startransparent.gif");
+	  }
+
+	div{
+	 display: table;
+ 	 margin-right: auto;
+ 	 margin-left: auto;
+ 	 text-align:  center;
+	}
