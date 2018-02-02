@@ -1,0 +1,17 @@
+Variables - JavaScript variables are containers for storing data values.
+            JavaScript variables must be identified with unique names.
+            JavaScript can handle many types of data, but for now, just think of numbers and strings.
+            Strings are written inside double or single quotes. Numbers are written without quotes.
+
+Strings - JavaScript strings are used for storing and manipulating text.
+          A JavaScript string is zero or more characters written inside quotes.
+
+Functions - A JavaScript function is a block of code designed to perform a particular task.
+            A JavaScript function is executed when "something" invokes it (calls it).
+
+Conditional Statements - Conditional statements are used to perform different actions based on different conditions.
+                         Use if to specify a block of code to be executed, if a specified condition is true
+                         Use else to specify a block of code to be executed, if the same condition is false
+                         Use else if to specify a new condition to test, if the first condition is false
+
+Boolean Values - A Boolean represents one of two values: true or false.
