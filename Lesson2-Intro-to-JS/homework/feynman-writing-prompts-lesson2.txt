@@ -1,0 +1,9 @@
+Variables are very common in math and programming languages. They are simply a name that you give to something to make it easier to reference later without having to redefine the same thing over and over again.
+
+Strings are a basic data type that contain a series of characters or symbols wrapped in either single or double quotation marks.
+
+Functions are operations that can be repeated over and over. Similar to variables, you give functions a name to make it easier to 'call' it later. Functions can accept arguments, or 'parameters', that feed some input into the function. Once called, functions can 'return' an output, such as the sum of two arguments or a string.
+
+if statements are a means of controlling the flow of a program. They are a basic form of logic that follows the pattern: if (statement is true) then {do a thing} else {do a different thing}.
+
+Boolean values are a type of binary variable that can either be true or false. These can be thought of as a type of switch; they are either on or off.

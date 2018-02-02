@@ -1,0 +1,7 @@
+A callback function is a function that is called and executed within another function.
+
+Arguments are the real values passed to a function, as opposed to parameters which are the names listed in the function definition. In Javascript these values are available within the function in an array-like data structure called arguments.
+
+Prototypes contain the properties, including methods, that are inherited by objects. For example, array objects inherit from Array.prototype.
+
+Constructors are class methods that create a blueprint or template for an "object type" .
