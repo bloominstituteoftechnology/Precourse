@@ -1,0 +1,10 @@
+Feynman Writing Prompts
+Variables:is anything that might mean something now and another thing later on. So it can vary depending on the situation you're in.
+
+Strings: Anything that is in quotes "like this" or "even this: 123" because the numbers are within the quotes.
+
+Functions (arguments, return): A simple program that takes something and gives something back. Kind of like a coin exchanger that takes in dollar bills and gives you quarters.
+
+if statements: A way to say you want something to happen, if and only if, something else has already happened.
+
+Boolean values (true, false): Boolean is a fancy way of saying its either going to be true or false.
