@@ -1,0 +1,8 @@
+const user {
+        name : 'Dennis'
+        age : 35
+        occupation : 'Programmer'
+        isSmart: True
+
+}
+console.log(user.name)
