@@ -1,0 +1,9 @@
+1- for: for is used to loop on a collection of data, and if required do certain thing to that data or use it inside another fucntion.
+
+2- `&&`: this pair of symbols is used to tell the word 'and' to the computer in a condition statement. it tells the computer to check for the first and the second conditions at the sametime and do certian things if both of them are true.
+
+3- `||`: this pair of symbols is used to tell the word 'or' to the computer in a condition statement. it tells the computer to check both first and the section conditions and do certain things if only one of them is true.
+
+4- `!`: this tells the computer to check if something is not equal or true.
+
+5- Arrays: It is a collection of items. like a collection of names, or products or prices. 
