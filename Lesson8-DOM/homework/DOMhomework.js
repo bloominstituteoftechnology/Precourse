@@ -3,22 +3,30 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
+let created = document.querySelector('#createdBy');
+created.innerHTML = "This app was created by: Adam Austin";
 
-function Todo(){
-
+class User {
 /* 
   STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
     this.complete which should be set to false. 
 */
 
-}
+  constructor(description){
+    this.description = description;
+    this.complete = false;
+  }
 
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
            Todo's complete to true*/
 
+  completedTodo(){
+    this.complete = true;
+  }
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
+}
+
 let toDoItems;
 
 
