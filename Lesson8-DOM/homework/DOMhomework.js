@@ -14,6 +14,7 @@ function Todo(description) {
   this.description = description;
   this.complete = false;
 }
+return Todo;
 
 
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
@@ -26,8 +27,7 @@ Todo.prototype.completeTodo = function () {
 
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
 let toDoItems = [Todo];
-// !! left out new array object because test would not run
-// !! instantiate with array object
+
 
 
 /*
@@ -88,14 +88,11 @@ function displayTodos() {
 
             You can now load your html file in your broswer and see your work so far.
   */
-  let container = document.getElementById('#todoContainer'); //.innerHTML = '';
-  
+  let listContainer = document.getElementById('todoContainer').innerHTML = '';
 
-
-  
   let todoList = buildTodos(toDoItems);
   for (let item in toDoList) {
-    container.appendChild(todoList[item]);
+    listContainer.appendChild(todoList[item]);
   };
     
   }
