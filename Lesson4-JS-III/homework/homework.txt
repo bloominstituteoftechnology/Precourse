@@ -1,0 +1,19 @@
+Objects - Objects are similar to arrays in that they hold a collection of data.
+The key difference in the two data types is that an object holds key-value pairs
+that normally all relate to the same thing.
+
+Properties - Properties are the values associated with an object.
+
+Methods - A method is a function set on an object as a value.
+
+for in loop - A for in loop is used to iterate over object values like a for
+loop is used to iterate over arrays of data. Data in an object can't be accessed
+by a number index like an array so the for in loop must be used.
+
+Dot Notation Vs. Bracket Notation - Both bracket and dot notation are ways of accessing 
+values of an object. Dot notation is the most commonly used, however it has a number of
+limitations. The property identifiers have to be alphanumeric but can
+include both the '_' and '$' characters. They cannot contain numbers of
+variables. In bracket notation property identifiers have to be a string
+or a variable that references a string. It is considered best practice to use
+dot notation unless you can't then you use bracket notation.
