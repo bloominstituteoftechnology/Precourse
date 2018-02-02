@@ -3,10 +3,11 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
-
-function Todo(){
-
+let created = document.querySelector('#createdBy');
+created.innerHTML = created.innerHTML + 'Dan Frehner';
+function Todo(description){
+  this.description = description;
+  this.complete = false;
 /* 
   STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
@@ -15,18 +16,31 @@ function Todo(){
 
 }
 
+Todo.prototype.completeTodo = function(){
+  this.complete = true;
+};
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
            Todo's complete to true*/
 
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems;
+let toDoItems = [new Todo('Create Todo')];
 
 
-function buildTodo() {
+function buildTodo(todo, index) {
+  let todoShell = document.createElement('div');
+  todoShell.className = 'todoShell';
+
+  let todoText = document.createElement('span');
+  todoText.innerHTML = todo.description;
+  todoText.id = index;
+  if(todo.complete === true) {
+    todoText.className = 'compelteText';
+  }
+  todoShell.appendChild(todoText);
+  return todoShell;
 /*
   STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and 
           a numerical index as it's second.
-           
           Inside this function should:
             1.) Create a new 'div' element. Set this to a variable 'todoShell'
             2.) Give todoShell a class of 'todoShell'.
@@ -41,15 +55,25 @@ function buildTodo() {
 */
 }
 
-function buildTodos() {
+function buildTodos(arr) {
   /* 
   STEP 6: This function will build and return an array of todo elements. It will take an array of objects of the Todo class as it's only argument.
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
+  return arr.map((todo, index) => {
+    return buildTodo(todo, index);
+  });
+
 }
 
 function displayTodos() {
+  let container = document.querySelector('#todoContainer');
+  container.innerHTML = '';
+  let todos = buildTodos(toDoItems);
+  for(let i = 0; i < todos.length; i++) {
+    container.appendChild(todos[i]);
+  }
   /* 
     STEP 7: Now that we can build an array of todo elements, we want to make these elements appear on the screen, 
             to do this we will create a 'displayTodos' function.
@@ -82,7 +106,11 @@ function addTodo() {
   */
 
   //UNCOMMENT THE NEXT LINE
-  // let newTodo = document.querySelector('#todoInput');
+  let newTodo = document.querySelector('#todoInput');
+  let newT = new Todo(newTodo.value);
+  toDoItems.push(newT);
+  newTodo.value = '';
+  displayTodos();
 }
 
 /* 
@@ -93,7 +121,8 @@ function addTodo() {
 */
 
 //UNCOMMENT THE NEXT LINE
-// let button;
+let button = document.querySelector('#addButton');
+button.addEventListener('click', addTodo);
 
 
 
@@ -130,7 +159,7 @@ function completeTodo(event) {
 // ********************************************** ----------- ********************************************** //
 
 
-
+displayTodos();
 // Call displayTodos here <-----
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
