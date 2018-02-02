@@ -1,0 +1,10 @@
+
+-Variables: Items you set that can be called upon later to represent something. Basically a place holder for something like a string or value. Variables used to be set with var but now people more commonly use const and let. Const refers to something static, that doesn’t change while let refers to something dynamic that can change.
+
+-Strings: A string is, most simply, text. Usernames, Passwords, Facebook Posts, Tweets, etc. are stored as strings.
+
+-Functions (arguments, return): A function is a series of operations performed, like math functions for instance, that stores steps to return a value based on input. A function can be called which will always run the same operation, even if the variables are different.
+
+-If statements: If statements will check for a specified criteria, and then return true or false based on whether or not something meets said condition. It’s basically  condition. A function or operation may be stored in the true or false boolean values which causes a fork in the programming.
+
+-Boolean values (true, false): A boolean value is either true or false and is returned after an if statement.

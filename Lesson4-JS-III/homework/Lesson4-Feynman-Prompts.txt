@@ -1,0 +1,9 @@
+-Objects: Objects are signified by {} and hold a lot of data about one thing, such as a user.
+
+-Properties: Properties are stored within objects and is an association between a name and value (or key and value).
+
+-Methods: A method is a function within an object.
+
+-for in loop: A for in loop allows you to iterate over each of the names (or keys) in an object.
+
+-Dot notation vs bracket notation: You can use either to call properties in an object. Bracket notation is also used while calling an array and must be in double quotes.

@@ -1,0 +1,9 @@
+-for: for loops is something that happens over and over again, for as long as you set and under the conditions you set. It’s a block of code that happens for as long as you set before moving on.
+
+- &&: AND Operator. This tests two criterion and returns true if both are true and false if both are not true, even when one is.
+
+- ||: OR Operator. This tests two expressions and returns true if one is true but false if both are false.
+
+- !: NOT Operator. This tests that something is not and returns true if it is not and false if it is. You can use it with null, undefined, false, 0.
+
+-Arrays: And array is basically a collection of items a variable can refer to, it’s almost like a database. After defining a variable, you can enter a list separated by commas and inside [].

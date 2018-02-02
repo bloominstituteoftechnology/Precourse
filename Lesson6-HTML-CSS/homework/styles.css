@@ -1,0 +1,40 @@
+
+       h1 {
+            color: brown;
+       }
+       img {
+           width: 400px;
+       }
+       #spanID {
+           font-size: 18px;
+           margin: 50px;
+       }
+       #thirdDiv {
+            height: 600px;
+            width: 500px;
+            background-color: brown;
+            padding: 50px;
+            border: 5px double khaki;
+            margin: auto;
+        }
+
+        body, html {
+            height: 100%;
+        }
+ 
+        .bg {
+            background-image: url("http://2.bp.blogspot.com/-Xmo26BMqg5Q/UihlqVwTwgI/AAAAAAAAAv0/V-Rrgm0V6oo/s640/Top+10+best+Simple+Awesome+Background+Images+for+Your+Website+or+Blog3.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-bottom: 330px;
+         }
+
+         .center {
+             margin: auto;
+             width: 100%;
+             padding: 5px;
+             text-align: center;
+         }
+
