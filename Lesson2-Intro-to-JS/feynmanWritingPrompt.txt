@@ -1,0 +1,9 @@
+Variables are identifiers for different values in a code.
+
+Strings are characters within in variable. Characters must be between single or double quotes.
+
+Functions are commands to compute or change a variable. Arguments within the function are like values. Return is used to execute the argument.
+
+If statements help return values depending on whether its true or false.
+
+Boolean values are the core of computer language. Boolean values are true or false in the Javascript language. 
