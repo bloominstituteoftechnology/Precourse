@@ -1,0 +1,11 @@
+1. Objects are containers like arrays that can hold things of different values,
+but can only hold things when they are in pairs.
+
+2. Properties are like variables that are attached to an object
+
+3. Methods are like functions that are attached to an object
+
+4. for in loop is a special type of loop for objects. It only keeps occuring as 
+long as there are keys within that object for the loop to keep going.
+
+5. Bracket notation lets us use variables within objects while dot notation cannot
