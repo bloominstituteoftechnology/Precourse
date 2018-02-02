@@ -1,0 +1,33 @@
+<!--
+h1 {
+    color: firebrick
+}
+img {
+    width: 400px;
+    margin: auto;
+}
+#thirdDiv {
+    height: 625px; 
+    width: 500px;
+    background-color: linen;
+    padding: 50px;
+    border: 2px solid black;
+    margin: auto;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    margin: auto;
+}
+div:nth-child(2) {
+    text-align: left;
+    margin-left: -50;
+    margin: auto;
+}
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/e1/12/08/e1120877fd308910d69fe368e4ca0eae.jpg");
+}
+ul {
+    list-style-type: none;
+}  
+-->
