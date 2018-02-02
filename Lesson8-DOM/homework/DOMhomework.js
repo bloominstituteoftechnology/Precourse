@@ -3,26 +3,34 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
+ let created = document.querySelector('#createdBy');
+ created.innerHTML += " Darryl Most";
 
-function Todo(){
+function Todo(description){
 
 /* 
   STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
     this.complete which should be set to false. 
 */
+	this.description = description;
+	this.complete = false;
 
 }
 
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
            Todo's complete to true*/
 
+Todo.prototype.completeTodo = function(){
+	this.complete = true;
+}
+
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems;
+let toDoItems = [];
+toDoItems.push(new Todo());
 
 
-function buildTodo() {
+function buildTodo(curOb, index) {
 /*
   STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and 
           a numerical index as it's second.
@@ -39,14 +47,29 @@ function buildTodo() {
             7.) Append child todoText to todoShell
             8.) return todoShell
 */
+	let todoShell = document.createElement('div');
+	todoShell.className = "todoShell";
+
+	let todoText = document.createElement('span');
+	todoText.innerHTML = curOb.desc;
+	todoText.id = index;
+	if(curOb.complete === true){
+		todoText.class = "completeText";
+	}
+	todoShell.appendChild(todoText);
+	todoText.addEventListener('click',completeTodo);
+	return todoShell;
 }
 
-function buildTodos() {
+function buildTodos(curArr) {
   /* 
   STEP 6: This function will build and return an array of todo elements. It will take an array of objects of the Todo class as it's only argument.
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
+	return curArr.map(buildTodo);
+	
+
 }
 
 function displayTodos() {
@@ -62,6 +85,14 @@ function displayTodos() {
 
             You can now load your html file in your broswer and see your work so far.
   */
+	let container = document.querySelector('#todoContainer');
+	container.innerHTML = "";
+	let curArr = buildTodos(toDoItems);
+	for(let i = 0; i < curArr.length; i++){
+		container.appendChild(curArr[i]);
+	}
+
+
 }
 
 
@@ -80,20 +111,25 @@ function addTodo() {
             3.) Set the value of newTodo to an empty string (this will clear the text in the box allowing the user to enter another item).
             4.) Call displayTodos to refresh the todos displayed
   */
+	let newTodo = document.querySelector('#todoInput');
+	let curTodo = new Todo(newTodo.value);
+	toDoItems.push(curTodo);
+	newTodo.value = "";
+	displayTodos();
 
-  //UNCOMMENT THE NEXT LINE
-  // let newTodo = document.querySelector('#todoInput');
-}
+   }
 
 /* 
   STEP 9: In this step we will fire addTodo everytime the 'ADD' button is clicked.
           1.) Select the element with the id 'addButton'
           2.) Add a 'click' event listener to this element, passing it the addTodo function as a callback
 
+
 */
 
 //UNCOMMENT THE NEXT LINE
-// let button;
+let button = document.querySelector('#addButton');
+button.addEventListener('click',addTodo);
 
 
 
@@ -111,7 +147,10 @@ function completeTodo(event) {
             3.) In the buildTodo function add a 'click' event listener to the 'todoText' element, and pass this function as the callback.
   */
   //UNCOMMENT THE NEXT LINE
-  // let index = event.target.id;
+   let index = event.target.id;
+   toDoItems[index].completeTodo();
+   displayTodos();
+
 }
 
 /* STEP 11: Make sure ALL tests pass */
@@ -132,6 +171,7 @@ function completeTodo(event) {
 
 
 // Call displayTodos here <-----
+displayTodos();
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
   module.exports = {
