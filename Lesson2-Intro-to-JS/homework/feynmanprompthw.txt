@@ -1,0 +1,32 @@
+Variables: Variables are used to assign a value to a letter or word. The value can be a string, a number,
+a boolean, etc. We assign variables by using the equal sign. var stephsAge = 23; In JavaScript ES6, there 
+are two other ways to declare variables. One is const, which is a variable that is not able to be changed 
+for the remainder of the code. The other is let, which in simple terms can be changed. So const
+stephsAge = 23; would not be able to be changed, while let stephsAge = 23; could be.
+
+Strings: In JavaScript, strings are blocks of text which are always defined with quotations around them.
+So if we were to set a variable for a string, it would look like let mydogsname = 'Winry";
+
+Functions: Functions are how we compute variables in code. Essentially this means a function states what we
+are doing to that variable. Functions always start with function so the computer knows to run it as such.
+Then we write the name of our function, and set our variables in parentheses. So, if I wanted a function
+to add for me, I would simply write function addForMe(a, b). How do we get the function to return an answer for us?
+This is where returns come in. If I wanted the function addForMe to return the sum of two numbers,
+I would write {let sum = a + b;
+ return sum;}, and then my function would know what I want it to return is the sum of a and b, or the two 
+ numbers. After we define our function, which put together would look like this:
+ function addForMe(a, b){
+     let sum = a + b;
+     return sum;
+ }
+
+ everytime I write addForMe and then two numbers, addForMe(5, 6), the computer then knows to return to me the
+ sum of those numbers. We can also give functions arguments after we define them. This would be like asking it to add
+ strings together for us without doing the work ourselves.
+
+ If statements: We can also use functions to return if something is true or false. A lot of times this is used
+ by comparison operators, such as greater than and less than. When we input a value, it will tell us if it fits into the 
+ function as true, or false.
+
+ Boolean: In JavaScript we use true and false for booleans. It is used when something is either one or the other, like in 
+ if statements.
