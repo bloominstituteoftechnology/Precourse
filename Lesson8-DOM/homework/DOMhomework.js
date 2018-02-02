@@ -3,9 +3,11 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
+let created = document.querySelector('#createdBy');
+created.innerHTML += ' AJ Genung';
 
-function Todo(){
+
+function Todo(description){
 
 /* 
   STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.
@@ -13,16 +15,24 @@ function Todo(){
     this.complete which should be set to false. 
 */
 
+  this.description = description;
+  this.complete = false;
+
+  
 }
 
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
            Todo's complete to true*/
 
+Todo.prototype.completeTodo = function() {
+  this.complete = true;
+};
+
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems;
+let toDoItems = [Todo];
 
 
-function buildTodo() {
+function buildTodo(todoItem, index) {
 /*
   STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and 
           a numerical index as it's second.
@@ -39,14 +49,32 @@ function buildTodo() {
             7.) Append child todoText to todoShell
             8.) return todoShell
 */
+
+let todoShell = document.createElement('div');
+todoShell.className = 'todoShell';
+
+let todoText = document.createElement('span');
+todoText.innerHTML = todoItem.description;
+todoText.id = 'index';
+
+if (todoItem.complete === true) {
+  todoText.className = 'completeText';
 }
 
-function buildTodos() {
+todoShell.appendChild(todoText);
+
+return todoShell;
+}
+
+function buildTodos(todoArr) {
   /* 
   STEP 6: This function will build and return an array of todo element. It will take an array of objects of the Todo class as it's only argument.
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
+
+  let newArr = todoArr.map(buildTodo);
+  return newArr;
 }
 
 function displayTodos() {
