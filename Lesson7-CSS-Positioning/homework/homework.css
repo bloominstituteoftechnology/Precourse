@@ -36,7 +36,7 @@ in this folder, you are in the wrong place.
 #exerciseFive{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row-reverse;
 }
 
