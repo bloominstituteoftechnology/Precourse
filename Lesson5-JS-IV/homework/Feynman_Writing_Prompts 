@@ -1,0 +1,15 @@
+callback functions:
+
+	a block of code to be called from another object, whenever the other obect wants to call it.
+
+arguments:
+
+	the values passed in to the function parameters.
+
+prototype:
+
+	a list of functions that an object owns.
+
+constructor:
+
+	a function that allocates space for an object and initializes it.
