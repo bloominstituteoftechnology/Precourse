@@ -1,0 +1,29 @@
+* `for`
+
+In programming, `for` is understood as and read like `for... something`. A for 
+next to an expression like `for (1 === 1)` reads like `for IF 1 equals 1 is 
+true, then...
+With a loop, a `for` reads like `for each item in this group of things, do...
+
+* `&&`, `||`, `!`
+
+The && simply takes two expressions/values and is true if they are BOTH true. 
+If one of them is not true, then the entire statement is false. An example: If 
+you love ice cream is true AND if you love puppies is true, then this entire 
+statement is true because you love both ice cream and puppies.
+
+The || is similar to && except it means OR. || only requires ONE of the 
+expressions to be true. The other expression can be true or false. It's like
+saying, "I'll take either one or both as long as I get at least one."
+
+The `!` means NOT. It can go in front of true, making !true, and it evaluates 
+to `NOT true` which is false.
+
+* Arrays
+
+Arrays are basically a group of things. They can be random things. They can be 
+a specific grouping of similar-type things. For example, in preschool you 
+had crayons. In your box of crayons you had 12 crayons. Each crayon may have 
+its own unique color, but each crayon was the same size, shape, had the same 
+paper wrapper on it, they colored the same, and they all belonged to your 
+crayon box. Your crayons were an array. 

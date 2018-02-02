@@ -1,0 +1,37 @@
+* Objects
+
+Objects in programming are similar to objects in reality. A cat is an object. I
+What traits does a cat have? Fur color, eye color, demeanor, legs, meowing, 
+etc. We can make a cat object in programming by declaring an ojbect: cat, then 
+we fill our cat object with attributes like fur color: black. Then we have a 
+cat that we can make do stuff, like meow when it's hungry. 
+
+* Methods
+
+A method is a defined function for an object. It can help us make the
+object do stuff. For instance, a cat's method might be meowing. Meowing is 
+something cats DO. Objects can have many methods.
+
+* Properties
+
+Properties make up an object. Like before, a cat is described by its fur color,
+ eye color, demeanor, number of legs, etc. These are its properties or traits.
+ In objects, properties are stored as key:value pairs. The key is the property 
+ name, like fur color. The value is the description of the key. So the value to
+ fur color is black, written furColor:black. This is a way of storing 
+ information about on object that can easily be searched and referenced. 
+
+* for in loop
+
+A for in loop is simply a way to interate through an object's properties.
+Properties don't have indices, so the for in loop is needed. It reads like `for
+each property in the object (this is the loop), do...
+
+* Dot notation vs bracket notation
+
+Dot notation and bracket notation are used for accessing values. In objects, 
+using dot notation is like knowing exactly where something in your room is. It
+is like calling an address. Cat.color will give me black. Bracket notation 
+works more like accessing a value in an array. Cat['color'] will also give me 
+black. Instead of accessing it by name, I'm accessing it by LOOKING for a 
+property named 'color' which stores the color of my cat.
