@@ -1,0 +1,39 @@
+Variables:
+A way that store information. This allows you to use and move that information
+freely and efficiently throughout your code. 
+
+Strings:
+A datatype that is a line of text, defined by quotation marks on either end.
+
+Functions: (arguments, return)
+Groups (or blocks) of lines of code, made to be used repeatedly throughout
+your program.
+-arguments: Values passed through a function.
+-return: A statement (or keyword) that immediately stops and gathers the 
+data inside a function and allows access to the data outside of the given
+function. 
+
+
+if Statements:
+Creates a fork in the road for your code to go in one of two direcions, decided
+by boolean logic; "else".
+
+Boolean Vaules: (true, false)
+A datatype that is uses binary logic to create true or false statements.
+True meaning "on" or 1, false meaning "off" or 0.
+
+For: for(;;){}
+A keyword that creates a loop withing your code. There are three parts to a
+for loop: An initialized variable, a condition, and an increase or decrease
+of your variable.
+
+&&:
+Evaluates two expressions against each other and returns true if both are equal.
+
+|| (or):
+Evaluates multiple expressions against each other and returns true if one or more
+of the expressions are true. Returns false if all are false. 
+
+Arrays: 
+A variable that holds multiple values, separated by commas. Read like a list
+from left to right, starting at 0.
