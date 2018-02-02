@@ -1,0 +1,3 @@
+1. 'for' statement - used to iterate a certain amount of times, depended on the variables that are set when created.
+2. '&&', '||', '!' - AND, OR, and NOT. These are used when making comparisons when multiple criteria need to be checked. For example, statement 1 AND statement 2. The '!' will flip a boolean to it's counterpart.
+3. Arrays - a container that holds multiples of the same variable. For example, a list of numbers.
