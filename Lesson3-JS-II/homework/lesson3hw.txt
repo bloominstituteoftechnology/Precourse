@@ -1,0 +1,12 @@
+1 Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+    for: For loops are used when you need to do something repeatly. We need to tell the function when to stop, so for loops are accompanied by a statement that defines the iteration. Otherwise, the program will keep looping over and over and never proceed to the next part.
+	
+	
+    &&, ||, !: These are operators to use to set the conditions for a boolean check. Both conditions on either side of a && need to be true for the result to be true. || operator allows at least one condition to be true for the result to be true. ! can be thought of as "NOT". It allows you to reverse your boolean condition or your boolean result.
+	
+	
+    Arrays: Arrys is a sequential list of data types separated by a comma. It allows you to group data types as needed and lets you access the inner data by an index.
+	
+	
+
