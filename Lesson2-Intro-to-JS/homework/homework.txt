@@ -1,0 +1,20 @@
+Variables:
+    Variables in the computer programming are similar to buskets. The buskets represent a container where you can store values
+    or replace them with new values.
+
+Strings: 
+    Strings are sequence of characters. For instance 'Hello World' is a string with 11 characters. 
+    You can join two strings and produce new string. You remove some part of string. 
+
+Functions:
+    Functions are programming tools that you can use to simplify your repeated tasks. For instance, 
+    you can create a function that computes a value given inputs. Then, you can use same function repeadetly to
+    compute output for different values of inputs.
+
+If:
+    If statements are logic controls in programming. 
+
+Boolen values:
+    Boolen values can simply take true or false. You can use boolen values as an input for if staements.  
+ 
+
