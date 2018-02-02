@@ -1,0 +1,49 @@
+body {
+    background-image:
+}
+
+.divClass h1 {
+    color:dimgrey;
+    margin: 0 auto;
+}
+
+.divClass{
+    margin: 0 auto;
+    width:600px;
+}
+
+
+
+#thirdDiv {
+    height: auto;
+    width: 600px;
+    background-color: lemonchiffon;
+    padding: 50px;
+    border: 2px solid darkgrey;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#spanId {
+    margin: 50px;
+}
+
+img.resize {
+    max-width: 50%;
+    max-height: 50%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+
+img {
+    width: 400px;
+ }
+
+ul {
+    list-style-type: none;
+}
+
+

@@ -1,0 +1,12 @@
+#### Lesson 4 Feynman Writing Prompts ####
+
+Objects - Objects are another type of data container. While similar to arrays, they can be very different and focus on holding a lot of info about a specific thing. They are comprised of keys and values which work together in key:value pairs which can hold other objects, functions, arrays and more. For example yourname: 'Joshua'  -- yourname is the key and 'Joshua' is the value. These pairs are known as properties and methods. Objects, properties, and methods may seem familair as everything in Javascript is a an object.
+
+
+Properties - Properties are the building blocks of Objects. They are they key:value pairs that hold any Javascript data type including other Objects. 
+
+Methods - We give properties that hold functions a special name, Methods. Examples of methods are .log, .length, .pop. push.
+
+for in loop - For in loops allow you to iterate over each key:value pair. Unlike arrays, objects do not have numerical indexes so a regular for loop will not work.  Instead, we delcare a variable followed by 'in' and then the object name.  This will loop through each key:value pair and finish autoamtically. 
+
+Dot notation - Dot noation is used to access the key:value pair of an Object.  For example objectName.testValue.  objectName is the object followed by the testValue which is they key. 
