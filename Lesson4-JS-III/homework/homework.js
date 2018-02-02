@@ -12,9 +12,7 @@ function makeCat(name, age) {
       return 'Meow!';
     }
   };
-  // cat.meow = function(){
-  //   return 'Meow!';
-  // };
+  
   return cat;
 }
 
