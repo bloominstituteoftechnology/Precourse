@@ -3,26 +3,39 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
+const created = document.querySelector('#createdBy');
+created.innerHTML+='A Faris';
 
-function Todo(){
+function Todo(description){
 
 /* 
   STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
     this.complete which should be set to false. 
 */
+    this.description = description;
+    this.complete = false;
+ }
 
-}
+
 
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
            Todo's complete to true*/
+           Todo.prototype.completeTodo = function(){
+            this.complete = true;
+          };
+        
+
 
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems;
+const toDoItems= [Todo.description];
+//toDoItems = new Todo({
+//  description = 'check the mailbox',
+//  complete = true,
+//});
 
 
-function buildTodo() {
+function buildTodo(object,index) {
 /*
   STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and 
           a numerical index as it's second.
@@ -30,7 +43,6 @@ function buildTodo() {
           Inside this function should:
             1.) Create a new 'div' element. Set this to a variable 'todoShell'
             2.) Give todoShell a class of 'todoShell'.
-              
             3.) Create a new 'span' element. Set this to a variable 'todoText'
             4.) Using the item passed in, set the todoText innerHTML to the value of 'description'.
             5.) Set the id of todoText to the value passed by the index argument.
@@ -39,14 +51,29 @@ function buildTodo() {
             7.) Append child todoText to todoShell
             8.) return todoShell
 */
+  let todoShell = document.createElement('div');
+  todoShell.className = 'todoShell';
+  let todoText = document.createElement('span');
+  todoText.innerHTML = Todo.description;
+  for(let i =0; i< todoText.length;i++){
+    todoText.setAttribute(index[i]);
+  }
+  
+  if (object.complete===true){
+    return todoText.className='completeText';
+  }
+  todoShell.appendChild(todoText);
+  return todoShell;
 }
 
-function buildTodos() {
+function buildTodos(object) {
   /* 
   STEP 6: This function will build and return an array of todo elements. It will take an array of objects of the Todo class as it's only argument.
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
+ let arr = object.map(buildTodo);
+  return arr;
 }
 
 function displayTodos() {
@@ -62,6 +89,12 @@ function displayTodos() {
 
             You can now load your html file in your broswer and see your work so far.
   */
+  let idtodoContainer = document.querySelector('#todoContainer');
+  idtodoContainer.innerHTML= '';
+  let result = buildTodos(toDoItems);
+  for(let i =0 ; i< result.length; i++){
+    idtodoContainer.appendChild(result[i]);
+  }
 }
 
 
@@ -82,7 +115,11 @@ function addTodo() {
   */
 
   //UNCOMMENT THE NEXT LINE
-  // let newTodo = document.querySelector('#todoInput');
+   let newTodo = document.querySelector('#todoInput');
+   let newTodoObject = newTodo.value;
+   toDoItems.push(newTodoObject);
+   newTodo.value = '';
+   displayTodos();
 }
 
 /* 
@@ -93,8 +130,15 @@ function addTodo() {
 */
 
 //UNCOMMENT THE NEXT LINE
-// let button;
+ //let button = document.querySelector('#addButton');
+ //button.onClick = function(addTodo){
+ //};
 
+ //let button = document.getElementById('addButton').addEventListener('click',function () {
+  //addTodo(todoInput);
+ //console.log('affirmative');
+ //});
+ 
 
 
 function completeTodo(event) {
@@ -130,7 +174,7 @@ function completeTodo(event) {
 // ********************************************** ----------- ********************************************** //
 
 
-
+displayTodos();
 // Call displayTodos here <-----
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {

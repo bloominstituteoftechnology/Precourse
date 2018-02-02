@@ -1,0 +1,52 @@
+h1{
+    color:slategray;
+}
+title{
+    align-content: center;
+}
+.divTop{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    margin-top: 0;
+    background-color: beige;
+}
+.divClass{
+    position: absolute;
+    top:35%;
+    background-color:beige;
+    display:block;
+    
+
+}
+#thirdDiv{
+             height: 600px;
+             width: 500px;
+             background:mintcream;
+             padding: 50px;
+             border:thick;
+             border-color: gray;
+             border-width: 5px;
+             border-style: solid;
+             align-self:center;
+
+            position: absolute;
+            z-index: 15;
+            top: 55%;
+            left:30%;
+            
+   }   
+img{
+    width: 400px;
+    height: 300px;
+}
+#spanId{
+    font-size:18px; 
+    margin:50px;
+    color:black;
+}
+html { 
+    background-image: url("Background_img.jpg"); 
+    background-image: url("Background_img.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    }
