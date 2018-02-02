@@ -64,7 +64,7 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
-  if (num % 3 === 0 && num & 5 === 0) {
+  if (num % 3 === 0 && num % 5 === 0) {
     return 'fizzbuzz';
   }
   else if (num % 3 === 0) {
@@ -119,6 +119,7 @@ function incrementByOne(arr) {
   for (let i = 0; i < arr.length; i++){
     arr[i] = arr[i] + 1;
   }
+  return arr;
 }
 
 function addItemToArray(arr, item) {
@@ -182,7 +183,7 @@ function largestNumber(numbers) {
   // return the largest integer
   let Largest = 0;
   for (let i = 0; i < numbers.length; i++) {
-    if (Largest < numbers.length[i]) {
+    if (Largest < numbers[i]) {
       Largest = numbers[i];
     }
   }
