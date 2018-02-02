@@ -1,0 +1,9 @@
+Objects: Objects are a collection of key/value pairs (properties).
+
+Properties: A property is a key and value pair inside an object.
+
+Methods: Methods are the same thing as functions, but they only exist within an object. 
+
+for in loop: A for in loop is a loop you can use to loop an object's properties.
+
+Dot notation vs bracket notation: Dot notation and bracket notation are two different ways of writing code to access object properties.
