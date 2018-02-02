@@ -1,0 +1,47 @@
+.header {
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	top:0;
+	height: 90px;
+	z-index: 2;
+}
+h1 {
+	color:red;
+
+}
+img {
+	width: 400px;
+}
+#thirdDiv {
+	width: 100%;
+	height: 600px;
+	background-color: blue;
+	padding: 50px;
+	border: 5px dotted blue;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+#spanId {
+	font-size: 18px;
+}
+
+.centerDiv {
+	width:500px ;
+	margin: 0 auto;
+
+	position: relative;
+	top:100px;
+
+}
+
+body {
+	text-align: center;
+}
+
+.taco {
+	margin: 10px;
+}
