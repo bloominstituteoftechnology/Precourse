@@ -1,0 +1,7 @@
+Feynman Writing Prompt
+
+What is a variable? A variable is a named container that holds a value, it can be names or numbers.
+What are Strings? Strings are a series of charactacters, they can also be letters or numbers.
+What are Functions? A function is basically putting the variables in action. 
+What are If statements? If statements are a type of function that gives you one of two possible answers.
+What are Boolean values? In Javascript Boolean values are either true or false.
