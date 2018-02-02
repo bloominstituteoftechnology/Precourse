@@ -1,42 +1,108 @@
 // Do not change any of the function names
 
 function multiplyArguments() {
+let product = 1;
+  if (arguments.length === 0){
+    return 0;
+  }
+
+for (var i = 0; i < arguments.length; i++) {
+  product = product * arguments[i];
+}
+  return product;
+}
+
+
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
-}
 
 function invokeCallback(cb) {
+return cb();
+  }
   // invoke cb
-}
 
-function sumArray(numbers, cb) {
+
+
+  function sumUp(nums){
+    var total = 0;
+    for (var i=0; i<nums.length;i++){
+      total = total + nums[i];
+    }
+    return total;
+  }
+
+  function sumArray(numbers, cb) {
+  cb(sumUp(numbers));
+    // return total;
+  }
+
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
-}
 
-function forEach(arr, cb) {
+
+  const forEach = (arr,cb)=>{
+    arr.forEach(cb);
+  };
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
+
+// _______________
+  // numbers=[1,2,3,4,5]
+
+   // const add2 = (nums) => {
+   //   return nums +2;
+   // }
+//
+// works:
+  // const map = (arr,cb) => {
+  //   const newarr = [];
+  //   for (var i = 0; i < arr.length; i++) {
+  //     newarr[i] = cb(arr[i]);
+  //   } return newarr;
+  // };
+
+// WORKS BETTER
+function map (arr,cb) {
+ return arr.map(cb);
 }
 
-function map(arr, cb) {
+  // console.log(map(numbers,add2))
+
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
-}
 
-function createUserClass() {
-  // create a class constructor called User
-  // it should accept an options object with username, name, email, and password properties
-  // in the constructor set the username, name, email, and password properties
-  // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
-  // {{name}} should be the name set on each instance
-  // return the constructor
-}
+
+
+
+
+  function createUserClass(){
+     return class User {
+      constructor(options) {
+      this.username = options.username;
+      this.name = options.name;
+      this.email = options.email;
+      this.password = options.password;
+      }
+      sayHi(){
+            return `Hello, my name is ${this.name}!`;
+        }
+       };
+     }
+
+
+
+// create a class constructor called User
+// it should accept an options object with username, name, email, and password properties
+// in the constructor set the username, name, email, and password properties
+// the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
+// {{name}} should be the name set on each instance
+// return the constructor
 
 function addPrototypeMethod(Constructor) {
+  Constructor.prototype.sayHi = () => 'Hello World!';
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
 }
@@ -47,10 +113,10 @@ function addPrototypeMethod(Constructor) {
 
 
 
-// !! ------------------ !! 
+// !! ------------------ !!
 /* The following exercises are extra credit, they are not required as part of the homework. In order to solve these problems you will need
-   to independantly study the concepts of Closure, and Recursion. There are links in the main README file to strt you on your journey. 
-   If you want to attempt these exercises, you will need to access the test.js file in the tests folder, and uncomment the tests pertaining 
+   to independantly study the concepts of Closure, and Recursion. There are links in the main README file to strt you on your journey.
+   If you want to attempt these exercises, you will need to access the test.js file in the tests folder, and uncomment the tests pertaining
    to the exercise you are attempting. Good luck! */
 
 

@@ -1,0 +1,17 @@
+body {}
+
+h1{ color: coral;}
+img{width: 400px;}
+
+.divClass {}
+
+#thirdDiv {height:600px;
+          weight : 500px;
+          background-color: khaki;
+        padding: 50px;
+        border: 5px;
+      border-style: dotted;
+    border-color: grey;}
+
+#spanID { font-size: 18px;
+          margin: 50px;}
