@@ -1,0 +1,37 @@
+* Callback Functions
+
+A callback function is a function called as an argument to another function. It
+is especially useful when some information is needed to complete a function.
+The information needed can be invoked by calling a function when this info
+may need to be gathered repeatedly, and then the value of that information can
+be passed to the other function that needs it. That way, they are both
+connected so that multiple function calls do not need to be made for every
+instance. The function calls are already defined. Only one needs to be called
+to start the process. 
+
+* `arguments`
+
+The arguments object is used to refer to a function's arguments within the 
+function. It is easier on the programmer when writing a function because they
+don't need to remember the parameter names, they only need to know the position
+of the parameter. It can also be used to create an array from the arguments
+passed to the function, and using arguments[i] = newVar; syntax can update an
+argument passed to the function. There is a difference in use between arguments
+passed to a function and the arguments object. They are similar but have do
+different things.
+
+* `prototype`
+
+Some objects need to be used repeatedly, and sometimes changes need to be made
+to those objects. The prototype property makes this happen painlessly. The 
+prototype property allows adding a new property to an object by calling 
+objectName.prototype.newPropertyName = value; Adding a method is done similarly
+with objectName.prototype.newMethodName = function() { block statements};.
+Basically, `prototype` allows changes to be made to existing classes without
+burning memory up.
+
+* Constructors
+
+Constructors are used to allow the creating of an object repeatedly. They aid
+in 'constructing' new objects by providing a template that only needs to be
+copied and filled in with its unique information. 

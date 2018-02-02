@@ -3,41 +3,62 @@ Lesson 3: CSS positioning homwork. All of your work should be done in this file.
 in this folder, you are in the wrong place. 
 */
 
+/* Exercise One: Center the text in a span */
 
-/* Exercise One: Centering the text in a span */
-
-/* We will start this one off for you: */
 #exerciseOne {
-
+  display: block;
+  text-align: center;
 }
 
+/* Exercise Two: Dissapear element */
+#exerciseTwo {
+  display: none;
+}
 
-/* Exercise Two: Positioning a Header Bar*/
+/* Exercise Three: Move element using position property */
+#exerciseThree {
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
 
-/* Place code here */
+/* Exercise Four: Anchor the LS header */
+#exerciseFour {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
 
+/* Exercise Five: Align header items */
+#exerciseFive {
+  display: flex;
+  flex-direction: row-reverse; /* <-- Exercise Six: Reverse item's order */
+  justify-content: space-evenly;
+  align-items: center;
+}
 
-
-/* Exercise Three: */
-
-/* Place code here */
-
-
-
-/* Exercise Four: */
-
-/* Place code here */
-
-
-
-/* Exercise Five */
-
-/* Place code here */
-
-
-
-/* Exercise Six */
-
+/* Exercise Seven: Go nuts */
 #exerciseSeven {
   display: flex;
+  flex-direction: column;
+  
+}
+#itemOne {
+  align-items: flex-end;
+  order: 2;
+}
+
+#itemTwo {
+  display: inline;
+  justify-content: flex-end;
+  order: 3;
+}
+
+#itemThree {
+  align-self: flex-end;
+  order: 4;
+}
+
+#itemFour {
+  align-self: flex-start;
 }
