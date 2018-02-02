@@ -1,0 +1,9 @@
+Objects are very similar to arrays. Objects are a list of information regarding one item, while arrays are different items that relate to each other, typically under the same category.
+
+A property is another word for key. They are identifiers of the information stored for a object.
+
+Methods are like functions for arrays, except they are assigned to objects.
+
+For in loops are similar to the for loop function for arrays. The only difference is they are assigned to objects.
+
+Dot notation vs bracket notation - dot notations are used to access key:value pairs (which are assigned to an object) and do not require a string. Bracket notation have the same function but require a string to be entered between the brackets. Bracket notation is used to assign a value while dot notation is used when a object has already been assigned a value. 
