@@ -24,7 +24,7 @@ II. Add some style
   A. Add style tags to you HTML document.
   B. Give your third div the id "thirdDiv".
   C. Give your other divs the class "divClass".
-  D. Give the span in your seond div the id "spanId".
+  D. Give the span in your second div the id "spanId".
   E. Add a style rule to your h1 element changing the color of the text (pick from 
      here: https://www.crockford.com/wrrrld/color.html).
   F. Add a style rule to the img element giving it a width of 400px;
