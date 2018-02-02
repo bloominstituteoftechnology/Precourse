@@ -37,6 +37,19 @@ function buildTodo(object,index) {
           object of class Todo as it's first argument and 
           a numerical index as it's second.
           Inside this function should:
+<<<<<<< HEAD
+=======
+            1.) Create a new 'div' element. Set this to a variable 'todoShell'
+            2.) Give todoShell a class of 'todoShell'.
+              
+            3.) Create a new 'span' element. Set this to a variable 'todoText'
+            4.) Using the item passed in, set the todoText innerHTML to the value of 'description'.
+            5.) Set the id of todoText to the value passed by the index argument.
+            6.) Using an if statement, check to see if the 'complete' value on the object passed as the first argument 
+                  is true. If it is, give todoText a class of 'completeText'. If it is not, do not give it a class.
+            7.) Append child todoText to todoShell
+            8.) return todoShell
+>>>>>>> upstream/master
 */
 /*1.)Create a new 'div' element. Set this to a variable 'todoShell' */ 
   let todoShell = document.createElement('div');
@@ -68,7 +81,7 @@ If it is, give todoText a class of 'completeText'. If it is not, do not giveit a
 
 function buildTodos(array) {
   /* 
-  STEP 6: This function will build and return an array of todo element. It will take an array of objects of the Todo class as it's only argument.
+  STEP 6: This function will build and return an array of todo elements. It will take an array of objects of the Todo class as it's only argument.
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
