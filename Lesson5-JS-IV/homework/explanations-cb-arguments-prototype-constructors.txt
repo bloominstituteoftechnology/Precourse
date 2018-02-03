@@ -1,0 +1,15 @@
+1. Callback Functions
+
+A callback function is a function that allows another function be passed through as an argument of the original function. A callback function is able to be called within the original function.
+
+2. `arguments`
+
+The arguments object of a function store the arguments of a function into an array-like structure, which has a minimal number of properties. The arguments object and its properties can be called anytime within a function.
+
+3. `prototype`
+
+Prototype is a special property of a class that allows a method to be written once per class, and every object created from that class has access to a prototype's methods.
+
+4. Constructors
+
+Constructors are used to create classes, which are templates to create objects. This is similar to a blueprint of an object, that is able to create multiple copies of itself.

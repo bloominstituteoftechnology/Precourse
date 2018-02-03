@@ -1,0 +1,19 @@
+1. Variables: 
+
+Variables are like Tupperware containers, which you can use to store stuff to put in the refridgerator. There are a few different types of containers, which determines whether or not the stuff you put in the containers can change. You can also give your container a name, and either have it be empty or immediately put stuff into it. 
+
+Also, once the Tupperware container is put into a refridgerator, it's generally unavailable to be used outside the refridgerator unless labeled otherwise. 
+
+2. Strings: Strings are a basic data type that consists of blocks of characters or text. A string must be labeled with '' or "" surrounding them to be considered a string, e.g. 'Hi, I am a string!'.
+
+3. Functions: 
+
+If variables are the Tupperware containers with which you use to store stuff, functions are the actions we can take with the stuff inside the containers: cooking, baking, fermenting, etc. When making your own function, you first declare that it is indeed a function, give it a name, what additional parts are needed to have the function run, and the description of your function. Generally, when using a function to do stuff in the Tupperware containers, the stuff is not available outside the function, unless the stuff is "returned."
+
+4. 'if' statements: 
+
+An 'if' statement is like a fork in the road, or the branching of a tree, for functions. If one road leads to home and you want to go home, then you will follow that road; otherwise, if you don't want to go home, then you will follow the other road.  
+
+Boolean values ('true', 'false'): 
+
+Boolean values are two opposing choices: on or off, 1 or 0, true or false. 
