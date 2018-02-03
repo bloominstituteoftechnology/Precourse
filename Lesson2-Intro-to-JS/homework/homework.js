@@ -42,14 +42,14 @@ function add(x, y) {
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-  let z = x - y:
+  let z = x - y;
   return z;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-  let z = x * y:
+  let z = x * y;
   return z;
 }
 
