@@ -22,7 +22,7 @@ class Todo {
            Todo's complete to true*/
 }
 
- Todo.prototype.completedTodo = function(){
+Todo.prototype.completeTodo = function(){
     this.complete = true;
   };
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
@@ -158,12 +158,11 @@ function completeTodo(event) {
   */
   //UNCOMMENT THE NEXT LINE
    let index = event.target.id;
-  toDoItems[index].completedTodo();
+  toDoItems[index].completeTodo();
   displayTodos();
 }
 
 /* STEP 11: Make sure ALL tests pass */
-Todo.prototype.completeTodo = function(){};
 // **********************************************EXTRA CREDIT:********************************************** //
 
 /*    1.) Research 'checkbox' input types. And apply that research to the buildTodo function:
