@@ -1,0 +1,18 @@
+* Objects
+	* Properties
+	* Methods
+    objects are a data container , everything in javascript is an object , every object has properties and methodes
+    exemple of object in real life like humain being body the parts are properties and the the functions like
+    hearing , walking , jumping are the methodes.
+
+    * for in loop
+    for in loop iterates over the enumerable properties of an object , its loop only an object 
+
+    * Dot notation vs bracket notation
+
+You can access properties on an object by specifying the name of the object, followed by a dot  
+followed by the property name. or
+You can access properties on an object by specifying the name 
+of the object followed by the property name in brackets. 
+with brackets need to be a string 
+but most used and easy to use dot notation.

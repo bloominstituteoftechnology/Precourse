@@ -1,0 +1,11 @@
+for 
+its loop from the begining to the end real life exemple 
+when you put tag price for section in store you loop arout the section until the end
+
+ `&&`, `||`, `!`
+ and in cndition need atleast two condition to be true to passe the test 
+ or one condition enough to be true 
+ the not is reverse true to flase and false to true
+
+ array 
+ is an object a collection of data 
