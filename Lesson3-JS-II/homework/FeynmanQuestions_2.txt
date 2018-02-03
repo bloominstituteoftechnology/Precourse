@@ -1,0 +1,5 @@
+For loop is a way of repeatedly checking if a certain condition is true until it reaches a stopping point we give it.
+&& means two things both have to be true in order for the code to run.
+|| means out of two things, only one of them has to be true in order for the code to run.
+! tells the computer to calculate the opposite of the result so if a code block returns true then ! would tell the computer to return false instead.
+Arrays are an index of items stored in a special box for later viewing, manipulation, etc..
