@@ -1,0 +1,15 @@
+1. Callback Functions
+A callback function is a function that is passed into another function as an argument. Conventionally 'cb' is used to refer to a callback
+function.
+
+2. Arguments
+Arguments that are passed to a function are saved in an array called 'arguments'. It's values can be accessed by indices (same as arrays)
+in the same order they were passed into the function. It has a length-property.
+
+3. Prototype
+The prototype contains the functions every object of a class has access to. As a result, not every object has its own function, but uses
+the one from its parent class. This saves performance.
+
+4. Constructor
+The constructor sets up an object of a class. It can be considered as a blueprint function that is able to take arguments and evaluate
+them on class creation.

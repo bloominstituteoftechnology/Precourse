@@ -1,0 +1,33 @@
+1. Variables:
+Variables are containers for specific data. They can hold letters,
+words, numbers and other values. The specific value determines the
+variable's type. A variable can be a constant, which means its value
+can not be changed later on. Each variable has a scope, so it's
+possible that you can not access it everywhere in the program.
+
+
+2. Strings:
+A string can be a character/word or a combination of characters/words. 
+It can also contain numbers, but those are not considered as numbers 
+in a mathematical sense.
+
+
+3. Functions (arguments, return):
+Functions are blocks of code which can be repeated when the respective
+function is called. It receives arguments which can be processed by
+the function to return a value as a result.
+
+
+4. if statements:
+If statements are used to distinguish between different cases in a 
+program. If an if statement's condition is true, the commands
+assigned to this particular statement are executed. If the condition
+is false, either an else statement's commands are executed or - if
+there is no else statement connected to the initial if statement - 
+nothing happens.
+
+
+5: Boolean values (true, false):
+Boolean values can be either true or false. They can be used in if 
+statements to evaluate whether commands assigned to an if statement
+should be executed or not.
