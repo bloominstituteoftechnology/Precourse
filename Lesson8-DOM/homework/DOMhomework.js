@@ -3,9 +3,15 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
+let created = document.querySelector('#createdBy');
+created.innerHTML += ' Jacob Hughes';
 
-function Todo(){
+function Todo(description){
+    this.description = description;
+    this.compelete = false;
+    this.completeTodo = function(){
+        return this.complete = true;
+    };
 
 /* 
   STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.
@@ -19,10 +25,11 @@ function Todo(){
            Todo's complete to true*/
 
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems;
+let newObject = new Todo();
+let toDoItems = [newObject];
 
 
-function buildTodo() {
+function buildTodo(object, index) {
 /*
   STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and 
           a numerical index as it's second.
@@ -39,14 +46,31 @@ function buildTodo() {
             7.) Append child todoText to todoShell
             8.) return todoShell
 */
+    let todoShell = document.createElement('div');
+    todoShell.className = 'todoShell';
+    
+    let todoText = document.createElement('span');
+    todoText.innerHTML = object.description;
+    todoText.id = index;
+    
+    if(object.complete === true){
+        todoText.className = 'completeText';
+    }
+    todoShell.appendChild(todoText);
+    return todoShell;
+    
+    
 }
 
-function buildTodos() {
+function buildTodos(object) {
   /* 
   STEP 6: This function will build and return an array of todo elements. It will take an array of objects of the Todo class as it's only argument.
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
+    
+    let newArray = object.map(buildTodo);
+    return newArray;
 }
 
 function displayTodos() {
@@ -62,6 +86,18 @@ function displayTodos() {
 
             You can now load your html file in your broswer and see your work so far.
   */
+    
+     let containerToDo = document.querySelector('#todoContainer');
+
+ containerToDo.innerHTML = '';
+
+ let toDoItemsArray = buildTodos(toDoItems);
+
+ for(let i = 0; i < toDoItemsArray.length; i++){
+
+   containerToDo.appendChild(toDoItemsArray[i]);
+
+ }
 }
 
 
@@ -83,6 +119,15 @@ function addTodo() {
 
   //UNCOMMENT THE NEXT LINE
   // let newTodo = document.querySelector('#todoInput');
+     let newTodo = document.querySelector('#todoInput');
+
+ let newTodoObj = new Todo(newTodo.value);
+
+ toDoItems.push(newTodoObj);
+
+ newTodo.value = '';
+
+ displayTodos();
 }
 
 /* 
@@ -95,7 +140,9 @@ function addTodo() {
 //UNCOMMENT THE NEXT LINE
 // let button;
 
+let button = document.querySelector('#addButton');
 
+button.addEventListener('click', addTodo);
 
 function completeTodo(event) {
   /* 
@@ -112,7 +159,10 @@ function completeTodo(event) {
   */
   //UNCOMMENT THE NEXT LINE
   // let index = event.target.id;
+     let index = event.target.id;
 }
+
+displayTodos();
 
 /* STEP 11: Make sure ALL tests pass */
 

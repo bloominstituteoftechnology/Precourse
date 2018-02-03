@@ -5,19 +5,19 @@ You will be writing all of your code in homework.html found in this folder.
 To view your HTML file, in your web browser select File-Open File- then select the homework.html file in this folder. 
 
 I. Create a basic HTML page.
-  A. Create the basic layout for an HTML page using html, head, and body.
-  B. Add a title element and give your page the title of "[Your name]'s HTML homework".
-  C. In the body, create three divs.
-    1. In the first div create:
-      * an h1 element containing [Your name].
-      * an h3 element containing "Lambda School".
-      * an h4 element containing "HTML/CSS homework".
-    2. In the second div create:.
-      * a span element containing text describing your favorite food.
-      * an 'a' element linking to your favorite restaurant.
-    3. In the third div create:
-      * an an unordered list with two list items
-      * an img tag in each list item linking to your favorite food. (Use google image search to find a photo, if you can't 
+  Create the basic layout for an HTML page using html, head, and body.
+  Add a title element and give your page the title of "[Your name]'s HTML homework".
+   In the body, create three divs.
+     In the first div create:
+       an h1 element containing [Your name].
+       an h3 element containing "Lambda School".
+       an h4 element containing "HTML/CSS homework".
+     In the second div create:.
+       a span element containing text describing your favorite food.
+       an 'a' element linking to your favorite restaurant.
+     In the third div create:
+       an an unordered list with two list items
+       an img tag in each list item linking to your favorite food. (Use google image search to find a photo, if you can't 
         use this address: "http://http://lorempixel.com/400/200/food/").
 
 II. Add some style
