@@ -28,112 +28,162 @@ let newModulo = 21 % 5 === null ;
 
 function returnString(str) {
   //simply return the string provided: str
+  return str;
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
+  let z = x + y;
+  return z; 
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
+  let z = x - y:
+  return z;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
+  let z = x * y:
+  return z;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
+  let z = x / y;
+  return z;
 }
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
+  return x == y;
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
+  let x = str1.length;
+  let y = str2.length;
+  return x == y;
 }
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
+  let answer = false;
+  if (num < 90) {
+    answer = true;
+  }
+  return answer;
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
+  let answer = false;
+  if (num > 50) {
+    answer = true;
+  }
+  return answer;
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
+  return x % y;
 }
 
 function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
+  answer = false;
+  if (num % 2 == 0) {
+    answer = true;
+  }
+  return answer;
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
+  answer = false;
+  if (num % 2 != 0) {
+    answer = true;
+  }
+  return answer;
 }
 
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
+  let x = Math.pow(num, 2);
+  return x;
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
+  let x = Math.pow(num, 3);
+  return x;
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
+  let x = Math.pow(num, exponent);
+  return x;
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
+  let x = Math.round(num);
+  return x;
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
+  let x = Math.ceil(num);
+  return x;
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
+  let str2 = '!';
+  let answer = str + str2;
+  return answer;
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
+  let hello = 'Hello ';
+  return hello = name;
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -142,11 +192,15 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
+  let x = length * width;
+  return x;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
+  let x = (base*height)/2;
+  return;
 }
 
 // Do not modify code below this line.
