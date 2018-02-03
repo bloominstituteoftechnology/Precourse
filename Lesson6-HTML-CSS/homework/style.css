@@ -1,0 +1,71 @@
+.header-bar {
+    width: 90%;
+    height: 140px;
+    border: 5px solid rgba(255, 49, 46, 0.5);
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/xUhe9g9yPLfwh-VIIy2-1Pn7a6U=/330x0:5684x4016/1200x800/filters:focal(330x0:5684x4016)/cdn.vox-cdn.com/uploads/chorus_image/image/47473896/shutterstock_231345451.0.0.jpg");
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-shadow: 0 0 10px rgb(255, 49,46);
+
+}
+
+.header-title {
+    color: white;
+    font-family: "Rammetto One";
+    font-size: 50px;
+}
+
+.go-right {
+    float: right;
+    margin-right: 4%;
+    font-family: "Rammetto One";
+    color: rgba(100,100,100,0.7);
+}
+
+h2 {
+    font-family: "Rammetto One";
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+#about {
+    display: inline-block;
+    width: 100%;
+}
+
+.article-body {
+    float: left;
+    font-family: Verdana;
+    margin-left: 15px;
+    line-height: 25px;
+    width: 650px;
+}
+
+.article-image {
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgba(255, 49, 46, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 49,46);
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
