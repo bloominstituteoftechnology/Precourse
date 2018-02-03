@@ -1,0 +1,5 @@
+1. A substitution for an assigned value. If I say that x = 458, any time that you see "x" in a function, it means "458." Therefore, x+1 = 459.
+2. Non-numerical characters. Encased in '' or "". 
+3. A function is a mathematical machine that modifies numbers and/or characters. F(x) = mx + b is a function. 
+4. A conditional statement. If the "if" section of the statement is true, the computer will execute an action. The computer will execute a different action if the "if" section is false. It's like a fork in the road. 
+5. A binary value, on or off, true or false. An "either/or" value. True or false is most common boolean value in programming. 
