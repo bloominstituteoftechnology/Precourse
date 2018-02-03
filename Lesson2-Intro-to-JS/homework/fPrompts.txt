@@ -1,0 +1,16 @@
+# Homework: Introduction to Javascript, JSI
+
+## Variables
+  A variable is like a box you can put information in. The box has a name and you can use that name to refer to what is in the box. If the information in the box changes, the box's name now refers to the new information in the box.
+
+## Strings
+  A string is a way to store letters (and words and sentences and so on) in a way that computers can interact with.
+
+## Functions
+  A function is like a variable, but with instructions instead of information. You put the instructions in the box and you can make the computer follow those instructions using the name of the box.
+
+## If/Else
+  An If statement makes the computer check something. If the thing the computer checks is true, it does one thing; if it isn't true, the computer does something else.
+
+## Booleans
+  A Boolean value is always either true or false.
