@@ -1,3 +1,13 @@
+/* Feynman HW:
+Callback Functions: Functions that are passed into other functions as an argument. i.e., 
+function(callback) {
+  callback();
+}
+arguments: Arguments are specific data passed into a function (in contrast, parameters are the general data you use to define a function).
+prototype: These can be used to make a method [a function of an object] which will be applicable to all objects in a(n) [class] object.
+Constructors: These are typically used for creating and initializing data members of a(n) [class] object; in other words, creating x and y, and setting them to 1 and 2.
+*/
+
 // Do not change any of the function names
 
 function multiplyArguments() {
@@ -46,7 +56,7 @@ function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
-  let arrNew = [];
+  const arrNew = []; // using const for arrays is better to avoid bugs, although let (or var) can be used
 
   for (let i = 0; i < arr.length; i++) {
     arrNew[i] = cb(arr[i]);
@@ -61,7 +71,17 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the constructor
-  
+  return class User {
+    constructor(options) {
+      this.username = options.username;
+      this.name = options.name;
+      this.email = options.email;
+      this.password = options.password;
+    }
+    sayHi() {
+      return 'Hello, my name is ' + this.name;
+    }
+  };
 }
 
 function addPrototypeMethod(Constructor) {
