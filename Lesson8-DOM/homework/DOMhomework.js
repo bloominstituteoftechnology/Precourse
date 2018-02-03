@@ -3,7 +3,8 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
+let created = document.querySelector('#createdBy');
+created.innerHTML += " Drew Moody";
 
 function Todo(){
 
@@ -12,17 +13,25 @@ function Todo(){
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
     this.complete which should be set to false. 
 */
-
+class Todo {
+  constructor(todo) {
+    this.description = description;
+    this.complete = false;
+  }
+}
 }
 
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
-           Todo's complete to true*/
+           Todo's complete to true*/ 
+          Todo.prototype.completeTodo = function() {
+            this.complete = true;
+          }
 
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems;
+let toDoItems = [new Todo()];
 
 
-function buildTodo() {
+function buildTodo(object, index) {
 /*
   STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and 
           a numerical index as it's second.
@@ -39,6 +48,15 @@ function buildTodo() {
             7.) Append child todoText to todoShell
             8.) return todoShell
 */
+let todoShell = document.createElement('div');
+todoShell.className =  'todoShell';
+let todoText = document.createElement('span');
+todoText.innerHTML = 'object.description';
+todoText.id = index;
+if (object.complete === true) {
+  todoText.className = 'completeText';
+} todoShell.appendChild(todoText);
+return todoShell;
 }
 
 function buildTodos() {
@@ -47,6 +65,8 @@ function buildTodos() {
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
+  let mappedArr = object.map(buildToDo);
+  return mappedArr;
 }
 
 function displayTodos() {
@@ -62,11 +82,13 @@ function displayTodos() {
 
             You can now load your html file in your broswer and see your work so far.
   */
+  let elementsAppear = document.querySelector('#todoContainer');
+  elementsAppear.innerHTML = ' ';
+  let elAppArr = buildTodos(toDoItems);
+  for (let i = 0; i < elAppArr.length; i++) {
+    elementsAppear.appendChild(elAppArr[i]);
+  }
 }
-
-
-
-
 
 function addTodo() {
                      /* 
@@ -82,7 +104,10 @@ function addTodo() {
   */
 
   //UNCOMMENT THE NEXT LINE
-  // let newTodo = document.querySelector('#todoInput');
+  let newTodo = document.querySelector('#todoInput');
+  let toDoItems = buildTodos(toDoItems);
+  newTodo = '';
+  displayTodos();
 }
 
 /* 
@@ -91,11 +116,10 @@ function addTodo() {
           2.) Add a 'click' event listener to this element, passing it the addTodo function as a callback
 
 */
-
 //UNCOMMENT THE NEXT LINE
-// let button;
 
-
+let button = document.querySelector('#addButton');
+button.addEventListener('click',addTodo);
 
 function completeTodo(event) {
   /* 
@@ -111,7 +135,9 @@ function completeTodo(event) {
             3.) In the buildTodo function add a 'click' event listener to the 'todoText' element, and pass this function as the callback.
   */
   //UNCOMMENT THE NEXT LINE
-  // let index = event.target.id;
+  let index = event.target.id;
+  displayTodos();
+  todoText.addEventListener('click',completeTodo(event));
 }
 
 /* STEP 11: Make sure ALL tests pass */
@@ -130,7 +156,7 @@ function completeTodo(event) {
 // ********************************************** ----------- ********************************************** //
 
 
-
+displayTodos();
 // Call displayTodos here <-----
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
