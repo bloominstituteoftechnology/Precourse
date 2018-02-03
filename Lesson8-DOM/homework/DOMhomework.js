@@ -7,18 +7,18 @@ let created = document.querySelector('#createdBy');
 created.innerHTML = 'This app was created by: Daniel Plott';
 
 function Todo(description){
-  let NewDesc = description + '';
-  this.description = NewDesc;
+  this.description = description;
   this.complete = false;
+  Todo.prototype.completeTodo = function () {
+    this.complete = true;
+  };
  /* 
     STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.
       add two values to the class: this.description which should be set equal to the description passed to the class, and 
       this.complete which should be set to false. 
   */
 }
-  Todo.prototype.completeTodo = function () {
-    this.complete = true;
-  };
+  
 
   /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
              Todo's complete to true*/
@@ -142,7 +142,7 @@ function Todo(description){
 
   
   
-  function completeTodo(event) {}
+  function completeTodo(event) {
     /* 
       STEP 10: Finally in this step we will define the function to run when we want to compelte a todo, and add that function to the click event
                listener on the todo element
@@ -156,8 +156,8 @@ function Todo(description){
               3.) In the buildTodo function add a 'click' event listener to the 'todoText' element, and pass this function as the callback.
     */
     //UNCOMMENT THE NEXT LINE
-    /* let index = event.target.id;
-    completeTodo(index);
+    let index = event.target.id;
+    toDoItems[index].completeTodo(index);
     displayTodos();
 
   }
