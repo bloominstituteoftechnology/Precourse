@@ -28,7 +28,8 @@ class Todo {
 }
 
 let todo = new Todo('finish this thing');
-const toDoItems = [todo];
+let todo2 = new Todo('this is the second todo');
+const toDoItems = [todo, todo2];
 
 function buildTodo(todoObj, index) {
 /*
@@ -57,6 +58,12 @@ function buildTodo(todoObj, index) {
     todoText.className = 'completeText';
   }
   todoShell.append(todoText);
+
+  todoText.addEventListener('click', function(){
+    completeTodo(event);
+  });
+
+  return todoShell;
 }
 
 function buildTodos(arr) {
@@ -65,6 +72,8 @@ function buildTodos(arr) {
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
+  
+
   let newArr = arr.map(buildTodo);
   return newArr;
 }
@@ -86,7 +95,9 @@ function displayTodos() {
   container.innerHTML = '';
 
   let todoArr = buildTodos(toDoItems);
-  console.log(todoArr) 
+  todoArr.forEach(function(i){
+    container.appendChild(i);
+  })
 }
 
 
@@ -107,7 +118,13 @@ function addTodo() {
   */
 
   //UNCOMMENT THE NEXT LINE
-  // let newTodo = document.querySelector('#todoInput');
+   let newTodo = document.querySelector('#todoInput');
+  if(newTodo.value){
+    toDoItems.push(new Todo(newTodo.value));
+    newTodo.value = '';
+    displayTodos();
+
+  }
 }
 
 /* 
@@ -118,7 +135,11 @@ function addTodo() {
 */
 
 //UNCOMMENT THE NEXT LINE
-// let button;
+ let button = document.getElementById('addButton');
+button.addEventListener('click', function(){
+  addTodo();
+});
+  
 
 
 
@@ -136,7 +157,9 @@ function completeTodo(event) {
             3.) In the buildTodo function add a 'click' event listener to the 'todoText' element, and pass this function as the callback.
   */
   //UNCOMMENT THE NEXT LINE
-  // let index = event.target.id;
+   let index = event.target.id;
+  toDoItems[index].completedTodo();
+  displayTodos();
 }
 
 /* STEP 11: Make sure ALL tests pass */
