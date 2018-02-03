@@ -3,10 +3,13 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
+let created = document.querySelector('#createdBy');
+created.innerHTML+=' seddikouaaz';
+created.appendChild(created);
 
-function Todo(){
-
+function Todo(description){
+this.description=description;
+this.complete=false;
 /* 
   STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
@@ -17,13 +20,25 @@ function Todo(){
 
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
            Todo's complete to true*/
-
+todo.prototype.completeTodo=function(){
+  complete=true;
+}
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems;
+let toDoItems=[new todo()];
 
 
-function buildTodo() {
-/*
+function buildTodo(todo,index) {
+let todoShell=document.createElement('div');
+todoShell.className='todoShell';
+let todoText=document.createElement('span');
+todoText.innerHTML=todo.description;
+todoText.id=index;
+if (todo.complete===true){
+  todoText.className='completeText';
+  }
+  todoShell.appendChild(todoText);
+  return todoShell;
+  /*
   STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and 
           a numerical index as it's second.
            
@@ -47,6 +62,8 @@ function buildTodos() {
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
+let mapArray=todo.map(buildTodo);
+return mapArray;
 }
 
 function displayTodos() {
@@ -62,6 +79,13 @@ function displayTodos() {
 
             You can now load your html file in your broswer and see your work so far.
   */
+  let containertoDo=document.querySelector('#todoContainer');
+  containertoDo.innerHTML='';
+  let ItemsArray=buildTodos(toDoItems);
+  ItemsArray.forEach (function(){
+    containertoDo.appendChild(ItemsArray);
+  });
+  
 }
 
 
@@ -130,7 +154,7 @@ function completeTodo(event) {
 // ********************************************** ----------- ********************************************** //
 
 
-
+displayTodos();
 // Call displayTodos here <-----
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
