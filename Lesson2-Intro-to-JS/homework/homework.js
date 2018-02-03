@@ -108,7 +108,7 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  answer = false;
+  let answer = false;
   if (num % 2 == 0) {
     answer = true;
   }
@@ -119,7 +119,7 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  answer = false;
+  let answer = false;
   if (num % 2 != 0) {
     answer = true;
   }
@@ -183,7 +183,7 @@ function getGreeting(name) {
   // 'Sam' -> 'Hello Sam!'
   // code here
   let hello = 'Hello ';
-  return hello = name;
+  return hello + name;
 }
 
 // The next three questions will have you implement math area formulas. 
