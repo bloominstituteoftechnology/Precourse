@@ -183,7 +183,7 @@ function getGreeting(name) {
   // 'Sam' -> 'Hello Sam!'
   // code here
   let hello = 'Hello ';
-  return hello + name;
+  return hello + name + '!';
 }
 
 // The next three questions will have you implement math area formulas. 
