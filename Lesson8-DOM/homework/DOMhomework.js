@@ -12,14 +12,14 @@ function Todo(description){
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
     this.complete which should be set to false. 
 */
-  this.desc = description;
+  this.description = description;
   this.complete = false;
   
 
 
 }
 
-Todo.prototype.completeToDo = function() {
+Todo.prototype.completeTodo = function() {
   this.complete = true;
 };
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
@@ -38,7 +38,7 @@ function buildTodo(object,index) {
   todoShell.className = 'todoShell';
 
   let todoText = document.createElement('span');
-  todoText.innerHTML = object.desc;
+  todoText.innerHTML = object.description;
   todoText.id = index;
   if(object.complete) todoText.className = 'completeText';
 
@@ -118,12 +118,13 @@ function addTodo() {
   //UNCOMMENT THE NEXT LINE
   let newTodo = document.querySelector('#todoInput');
   let newObj = new Todo;
-  newObj.desc = newTodo.value;
-  toDoItems.push(newObj);
+  newObj.description = newTodo.value;
   //toDoItems = toDoItems.concat([obj])
   //toDoItems[toDoItems.length] = obj;
-  newTodo = "";
+  toDoItems.push(newObj);
+  newTodo.value = "";
   displayTodos();
+  return newTodo;
 }
 
 /* 
@@ -136,7 +137,7 @@ function addTodo() {
 //UNCOMMENT THE NEXT LINE
 let button;
 let add = document.querySelector('#addButton');
-add.addEventListener('click',addTodo);
+add.addEventListener('submit',addTodo);
 
 
 function completeTodo(event) {
