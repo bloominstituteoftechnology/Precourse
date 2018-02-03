@@ -1,0 +1,16 @@
+Feynman Writing Prompts - write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Objects
+	Objects are like matter. In real life, everything is made of matter. In coding, everything is made out of objects. A object is a container of properties. Objects are useful for collecting and organizing data. Objects can contain other objects inside them. Like a bird nest with birds in it. An object is programming code and data that can be treated as an individual unit or component. Objects allow you to reuse code without having to copy or recreate it. Objects are also called components. It's like your computer. It's made of different components from different manufacturers. 
+
+Properties
+	Properties are characteristics of objects. A property is a piece of data, such as a color or a name, that is associated with an object. Properties don't do anything, they are just used to store data. These live inside of objects and help define it. If you think about your cat, you're thinkiing about its name, its size and how lazy it is. You can categorize all of these details in a property within an object. Each property has a name and a value. Your cat has a name and it has features you can describe. These features would go inside the object. 
+
+Methods
+	Methods are functions inside of objects. Procedures associated with an object are methods.  
+
+for in loop
+	The for in statement loops through the names of all the properties of an object. It's like an inventory keeper who is trying to take stock of his wares. It is used to excecute the same statement or command block for all the proeprties within a custom object. It is similar to the for statement. Unlike other loop statements, the for in loop does not require a counter. It must end automatically once it reaches the last property in an object. It is typically used to retrieve the names of properties within an object. One of the benefits of this loop is that it assigns an index (or position) to each property in the object. 
+
+Dot notation vs bracket notation
+	Both of these notations are ways to access properties on an object. Dot notation is used most frequently (ex: objectName.propertyName;). It is much easier to read than bracket notation. Bracket notation looks like (objectName["propertyName"]). You commonly see bracket notation when working with arrays. Bracket notation allows you to use variables, whereas dot notation does not.  

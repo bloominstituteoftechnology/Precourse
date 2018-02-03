@@ -1,0 +1,16 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Callback Functions
+	callbacks significantly reduce your code so you don't have to write as much code. It allows you to reuse information from previous functions into a new function. It is also known as a higher order function. It is a function that is passed to antoher function. 
+
+
+arguments
+	argument is an object which contains an array of the arguments used when the function is called. 
+
+
+prototype
+	The prototype property allows you to add new properties and methods to existing object types. You can set all arrays that you create to have certain properties or methods already attached to them. This can be useful as a time saver. 
+
+
+Constructors
+	constructor is only called when you create an object. It sets the initial values that will pass into the arguments. It is a method that is called and it activates the things that are in an object. 

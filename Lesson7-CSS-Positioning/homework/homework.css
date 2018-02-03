@@ -1,6 +1,6 @@
-/* 
-Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files 
-in this folder, you are in the wrong place. 
+/*
+Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files
+in this folder, you are in the wrong place.
 */
 
 
@@ -8,36 +8,61 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+      display: block;
+      text-align: center;
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
-
+#exerciseTwo {
+    display: none;
+}
 /* Place code here */
 
 
 
 /* Exercise Three: */
-
+#exerciseThree {
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    left: 200px;
+    right: 200px;
+}
 /* Place code here */
 
 
 
 /* Exercise Four: */
-
+#exerciseFour {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
 /* Place code here */
-
-
-
+/* justify-content: flex-start, flex-end, center, space-between, space-around, */
+/*align-items: flex-start, flex-end, center, baseline, stretch, */
+/* flex-direction: row, row-reverse, column, column-reverse, */
+/* order: default is 0, can set a positive or negative integer value. example: order: 1; or order: -4;
+/* align-self overrides the align items. align-self: flex-start, flex-end, center, baseline, stretch,
+flex-wrap: nowrap (every item fits to a single line, wrap: items wrap around to additional lines, wrap-reverse: items wrap around to additional lines in reverse)
+flex-flow: short hand for flex-direction and flex-wrap
 /* Exercise Five */
-
+#exerciseFive {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: nowrap;
+      align-items: center;
+}
 /* Place code here */
 
 
 
 /* Exercise Six */
-
+#exerciseFive {
+      display: flex;
+      flex-direction: row-reverse;
+}
 #exerciseSeven {
   display: flex;
 }

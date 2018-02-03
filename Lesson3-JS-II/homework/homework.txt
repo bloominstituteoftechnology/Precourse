@@ -1,0 +1,11 @@
+Feynman Writing Prompts - write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+
+for
+	Repeats a action a certain number of times. When it's done repeating, it stops doing something. It's like when you decide you're going to do a certain habit for so many times before you feel accomplished and stop the habit. Such as using a nicotine pack until you get over your smoking issue. 	As long as something is true, the for loop will keep going. It increases it's value after each loop through the code. It will keep going until a certain situation is no longer true, then it will stop. 
+
+&&, ||, !
+	Instead of normal math symbols, coding uses different systems. && compares two statements and if both are true, then it comes back as true. When using || it compares two statements and if either one is true, then it comes back as true. ! is used to say the opposite thing. !== means that something is not something. These symbols are used for performing boolean operations. && is the same as 'and' and it returns true if both the left and right values return a value of true; otherwise, it returns a value of false. || stands for 'or' and it returns true if either values on the left and right return a value of true; if neither values return a value of true, then it will return the whole thing as a value of false. ! means 'not' in coding. It returns true if an expression is false and returns false if an expression is true. These symbols are commonly called logical operators. 
+
+Arrays
+	Arrays are a group of items.  Its like when you think about types of fruits and name them. The name of the array is fruits. The items inside the array are the different types of fruits you can name. An array contains a set of data represented by a single variable name. It is like a collection of variables contained within a single variable. You use arrays when you want to store groups or lists of related information in a single, easily managed location. Examples of things to store in arrays, include names, courses, test scores and prices. 
