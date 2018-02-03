@@ -200,7 +200,7 @@ function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
   let x = (base*height)/2;
-  return;
+  return x;
 }
 
 // Do not modify code below this line.
