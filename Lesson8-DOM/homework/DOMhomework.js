@@ -30,8 +30,8 @@ Todo.prototype.completeTodo = function() {
 };
 
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let firstTodo = new Todo('get milk');
-let toDoItems = [firstTodo];
+
+let toDoItems = [new Todo('get milk')];
 
 
 function buildTodo(todoItem, index) {
