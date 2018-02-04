@@ -32,7 +32,7 @@ function sumArray(numbers, cb) {
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     cb(arr[i]);
   }
 }
@@ -42,7 +42,7 @@ function map(arr, cb) {
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
   const newArr = [];
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     newArr.push(cb(arr[i]));
   }
   return newArr;
@@ -94,6 +94,13 @@ function addReverseString() {
   // name this method reverse
   // hint:
   // you will need to use 'this' inside of reverse
+  String.prototype.reverse = function() {
+    let revString = '';
+    for (let i = this.length - 1; i >= 0; i--) {
+      revString += this[i];
+    }
+    return revString;
+  }
 }
 
 function nFactorial(n) {
