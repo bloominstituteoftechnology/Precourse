@@ -60,12 +60,21 @@ function buildTodo(Todo, index) {
     todoShell.className = 'todoShell';
     let todoText = document.createElement('span');
     todoText.innerHTML = Todo.description;
-    todoText.id = index;
+    let checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.id = index;
+    checkbox.className = 'completeCheckbox';
     if (Todo.complete) {
+        checkbox.checked = true;
         todoText.className = 'completeText';
     }
+    checkbox.onclick = toggleCheckbox;
     todoShell.appendChild(todoText);
-    todoText.onclick = completeTodo;
+    // I don't like drawing the checkbox on the first empty entry
+    if (Todo.description === '') {
+        return todoShell;
+    }
+    todoShell.appendChild(checkbox);
     return todoShell;
 }
 
@@ -182,8 +191,18 @@ let button;
 */
 //UNCOMMENT THE NEXT LINE
 
-function completeTodo(event) {
+function toggleCheckbox(event) {
     let index = event.target.id;
+    if (toDoItems[index].complete) {
+        toDoItems[index].complete = false;
+        event.target.checked = false;
+        displayTodos();
+    } else {
+        completeTodo(index);
+    }
+}
+
+function completeTodo(index) {
     toDoItems[index].completeTodo();
     displayTodos();
 }
@@ -194,11 +213,20 @@ function completeTodo(event) {
 // **********************************************EXTRA CREDIT:********************************************** //
 
 /*    1.) Research 'checkbox' input types. And apply that research to the buildTodo function:
+
       a.) Create a checkbox in the buildTodo function. A
-      b.) Give the checkbox the id of the index, and remove the id of the index from todoText
-      c.) Give the checkbox the 'click' event listener of completeTodo, and remove the event listener from todoText
+
+      b.) Give the checkbox the id of the index, and remove the id of the index
+      from todoText
+
+      c.) Give the checkbox the 'click' event listener of completeTodo, and
+      remove the event listener from todoText
+
       d.) Give the checkbox the class of 'completeCheckbox'
-      e.) Inside of the current 'if' statement in the buildTodo function, if true, set the attribute, 'checked' to true on the checkbox.
+
+      e.) Inside of the current 'if' statement in the buildTodo function, if
+      true, set the attribute, 'checked' to true on the checkbox.
+
       f.) Append this checkbox on the todoShell element.
 */
 // ********************************************** ----------- ********************************************** //
