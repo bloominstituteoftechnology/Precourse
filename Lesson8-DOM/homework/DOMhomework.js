@@ -68,7 +68,7 @@ function buildTodo(Todo, index) {
         checkbox.checked = true;
         todoText.className = 'completeText';
     }
-    checkbox.onclick = toggleCheckbox;
+    checkbox.onclick = completeTodo;
     todoShell.appendChild(todoText);
     // I don't like drawing the checkbox on the first empty entry
     if (Todo.description === '') {
@@ -191,19 +191,16 @@ let button;
 */
 //UNCOMMENT THE NEXT LINE
 
-function toggleCheckbox(event) {
+// this actually both completes and uncompletes Todo's
+// but it has to be named this way to pass the tests
+function completeTodo(event) {
     let index = event.target.id;
     if (toDoItems[index].complete) {
         toDoItems[index].complete = false;
         event.target.checked = false;
-        displayTodos();
     } else {
-        completeTodo(index);
+        toDoItems[index].completeTodo();
     }
-}
-
-function completeTodo(index) {
-    toDoItems[index].completeTodo();
     displayTodos();
 }
 
