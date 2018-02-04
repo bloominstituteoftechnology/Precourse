@@ -31,7 +31,7 @@ Todo.prototype.completeTodo = function() {
 
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
 
-let toDoItems = [new Todo('get milk')];
+let toDoItems = [];
 
 
 function buildTodo(todoItem, index) {
@@ -128,11 +128,12 @@ function addTodo() {
   */
 
   //UNCOMMENT THE NEXT LINE
+
   let newTodo = document.querySelector('#todoInput');
-
-  toDoItems.push(new Todo(newTodo.value));
-  newTodo.value = '';
-
+  if (newTodo.value !== '') {
+    toDoItems.push(new Todo(newTodo.value));
+    newTodo.value = '';
+  }
   displayTodos();
 }
 
