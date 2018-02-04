@@ -93,7 +93,11 @@ function isEven(num) {
 }
 
 function isOdd(num) {
+<<<<<<< HEAD
     // return true if num is false
+=======
+  // return true if num is odd
+>>>>>>> 2919a8436c09fd5a0806f5bb4ef6d1dc6e0d52f9
   // otherwise return false
     if(num % 2 === 0) {
         return(false);
