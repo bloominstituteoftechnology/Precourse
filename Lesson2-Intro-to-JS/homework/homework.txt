@@ -1,0 +1,13 @@
+Variables: Something that is assigned to anything you want.
+
+Strings: An arrangement of letters or numbers inside a pair of quotes. A string can also contain spaces.
+
+Functions (arguments, return): A set of directions to specifically follow. Certain things (arguments) can be told to follow the directions.
+Once the set of directions is completed, the end result can be shown if desired (return).
+
+if statements: A way to check if the answer to a question is right or wrong and then carry out a certain set of directions after we know
+if the answer is right or wrong. If the answer is right ,a certain set of directions will be done. If the answer
+is wrong, a different set of directions will be done.
+
+Boolean values (true, false): These can be thought of as an "off/on" switch to check if the answer to a question is right. If the answer is right,
+then the switch will be turned on (true), if not, the switch will be turned off (false).
