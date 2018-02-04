@@ -136,7 +136,13 @@ function addTodo() {
         return;
     }
     TodoToBeAdded = new Todo(newTodo.value);
+    // if the initial empty todo item is still on the list, replace it before
+    // appending to the list's bottom
+    if(toDoItems[0].description === '') {
+        toDoItems[0] = TodoToBeAdded;
+    } else {
     toDoItems.push(TodoToBeAdded);
+    }
     newTodo.value = '';
     displayTodos();
 }
