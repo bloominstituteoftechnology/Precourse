@@ -10,6 +10,9 @@
 	* for in loop
 	* Dot notation vs bracket notation
 
+	Object.property === Object['property']
+	Object[stringVariable]  If stringVariable === 'property', then all 3 statements are the same.
+
 2. From the top level of your `Precourse` folder, run `npm run test:JSIII` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
 
 

@@ -1,0 +1,5 @@
+	* Objects - Contains Key: Value pairs.
+	* Properties - Variables of objects
+	* Methods - Functions that exist in an object.
+	* for in loop - A loop statement that will run as long as the condition is met.  Normally used to run through lists or arrays.
+	* Dot notation vs bracket notation - When accessing propertys and methods of an object, use dot notation when you know and are using the name of the property/object.  If the name of the property/object is saved as a string variable then use bracket notation.
