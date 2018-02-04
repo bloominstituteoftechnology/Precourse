@@ -29,7 +29,7 @@ describe('Todo Class', () => {
     desc = 'Create Todo';
     newTodo = new Todo(desc);
   });
-  
+
   it('creates a Todo', () => {
     expect(newTodo.description).toEqual(desc);
     expect(newTodo.complete).toEqual(false);
@@ -82,20 +82,20 @@ describe('buildTodos function', () => {
 });
 
 describe('addTodo function', () => {
-  
+
   it('is a function', () => {
     expect(typeof addTodo).toBe('function');
   });
 
   it('adds a Todo to the toDoItems array', () => {
-    document.querySelector('#newTodoToAdd').value = 'Create new Todo';
+    document.querySelector('#todoInput').value = 'Create new Todo';
     addTodo();
     expect(toDoItems.length).toBeGreaterThan(0);
   });
 });
 
 describe('completeTodo function', () => {
-  
+
   it('is a function', () => {
     expect(typeof completeTodo).toBe('function');
   });
