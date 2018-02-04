@@ -1,0 +1,28 @@
+
+Variables
+Variables are containers for storing data values.
+
+
+Strings
+Strings are used for storing and manipulating text
+
+
+Functions (arguments, return)
+A function is a block of code designed to perform a particular task.
+It is executed when "something" invokes it (calls it).
+
+Function parameters are listed inside the parentheses () in the function
+definition.
+
+Function arguments are the values received by the function when it is invoked.
+
+Inside the function, the arguments (the parameters) behave as local variables.
+
+
+if statements
+The if statement is used to specify a block of JavaScript code to be executed
+if a condition is true.
+
+
+Boolean values (true, false)
+Booleans represents one of two values: true or false
