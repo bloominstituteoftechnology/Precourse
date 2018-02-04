@@ -1,0 +1,10 @@
+* `for`
+To loop through a block of code a number of times
+
+* `&&`, `||`, `!`
+&& = 'And' Logical operator
+|| = 'OR' Logical operator
+! = 'NOT' Logical operator
+
+* Arrays
+Arrays are a special variable, which can hold more than one value at a time.
