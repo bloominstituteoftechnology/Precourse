@@ -1,0 +1,61 @@
+Feynman Writing Prompts
+
+
+	* Callback Functions
+	* `arguments`
+	* `prototype`
+	* Constructors
+
+Callback Functions:
+
+when you define a function, it takes a bunch of arguments. It can take numbers
+and strings and so on, but it can also take functions as arguments. That is a
+"callback function." In the body of the function you're defining, you might
+apply the callback function, or do something else with it.
+
+`arguments`:
+
+arguments is the pseudo-array that holds the arguments passed to a function. Its
+scope is that function. I say 'pseudo' because it doesn't have all of the
+methods a normal array has. You can use this to access the arguments passed to
+the function: that might be nice if you want the function to take a variable
+number of arguments, for example, so it's hard to name them all as explicit
+parameters.
+
+`prototype`:
+
+When you have an object and you request a property or a method, the computer
+checks to see if the object has the property or method. If it does, of course
+that's what is accessed. If not, the computer then checks the object prototype
+---and if it still doesn't find anything, it keeps going up the 'chain' of
+prototypes, eventually getting to the Object prototype, which is at the top of
+every object's chain.
+
+So in effect, putting a property or method on the prototype for a class of
+Object is like making a 'default' property that will hold even if you don't
+define the properties for the instances individually. Such a property or method
+can be expensive in memory---particularly methods are expensive. So prototypes
+provide a way to have a method for all objects of that class without having to
+have many expensive copies, one for each instance, in memory.
+
+Constructors:
+
+In order to create a class of objects, you make a function that returns an
+object. That's the constructor. So like
+
+function Person(name) {
+    this.name = name;
+}
+
+this could be the constructor for person objects. If I want to use the
+constructor to make an actual instance of a person:
+
+var jill = new Person('Jill');
+
+In the 'new' style, the constructor is created with the class keyword combined
+with the constructor keyword:
+
+class Person {
+    constructor(name) {
+        this.name = name;
+    }

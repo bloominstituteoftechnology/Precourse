@@ -1,0 +1,28 @@
+Feynman Writing Prompts
+
+	* `for`
+	* `&&`, `||`, `!`
+	* Arrays
+
+For:
+
+You may want to have a sequence of instructions executed multiple times; you can
+use a for loop for that. In the simplest form, the for construction gives you a
+counter to keep track of how many times you've executed the sequence, and stops
+when the counter reaches some predetermined number.
+
+You could also do more tricky things like start with the counter at some
+positive number and count down each time you go through the sequence, and stop
+when you reach some lower bound.
+
+&& || !
+
+These perform logical operations on what is input. && takes two truth values and
+returns true if both inputs are true, false otherwise; || takes two values and
+returns false if both values are false, and true otherwise; ! returns true if it
+gets false and returns false if it gets true.
+
+Arrays
+
+Arrays in this language are lists of values. The values don't have to be of the
+same type.
