@@ -23,29 +23,29 @@ The anatomy of a variable is first the keyword, a space, the name we are giving 
 
 There are three ways to declare a variable.
 ```javascript
-    var firstName = "John";
-    let lastName = "Smith";
-    const favoriteFood = "Taco";
+    var firstName = 'John';
+    let lastName = 'Smith';
+    const favoriteFood = 'Taco';
 ```
 
 ### var
 
-var is the ES5 way of declaring a variable. This is a generic variable keyword.
+`var` is the ES5 way of declaring a variable. This is a generic variable keyword.
 
 ### let
 
-let is a new ES6 variable keyword, this will assign a variable much like var, but with a little bit different behavior. Most notably, it differs by creating "block level scope".
+`let` is a new ES6 variable keyword, this will assign a variable much like `var`, but with a little bit different behavior. Most notably, it differs by creating "block level scope".
 
 ### const
 
-const is also new in ES6. A const is a variable that will not be able to be changed. This is short for "constant".
+`const` is also new in ES6. A `const` is a variable that will not be able to be changed. This is short for "constant".
 
 ### console.log
 
 Another concept we will talk about right away is 
 
 ```javascript
-    console.log()
+    console.log();
 ```
 
 This very simple method will allow us to print to the console anything we put between the parentheses.
@@ -59,15 +59,15 @@ These are the most basic data types in Javascript.
 Strings are blocks of text, they will always be defined with quotation marks around them, either single or double. Any text with quotes around it is a string. 
 
 ```javascript
-    let dog = "fido";
+    const dog = 'fido';
 ```
 ### Numbers
 
 Numbers are just that, numbers. Numbers do NOT have quotes around them. They can be negative as well. Javascript does have a limitation on the size of a number (+/- 9007199254740991), but only very rarely will that limitation come up. 
 
 ```javascript
-    let answer = 42;
-    let negative = -13;
+    const answer = 42;
+    const negative = -13;
 ```
 
 ### Boolean
@@ -93,7 +93,7 @@ Math operators work in javascript just as they would on your calculator.
 
 ### %
 
-Something you may not have seen before is the Modulo (%), this math operator will divide the two numbers and return the remainder.
+Something you may not have seen before is the Modulo (`%`), this math operator will divide the two numbers and return the remainder.
 
 ```javascript
     21 % 5 = 1;
@@ -103,11 +103,11 @@ Something you may not have seen before is the Modulo (%), this math operator wil
 
 ## Global objects and methods
 
-Javascript has a number of built in objects for us to use. We have already seen, and have been using, the console object and it's method "log". Another of these objects is "Math". Math has a number of methods on it just like console has log. To add to this, some of our data types also have built in methods.
+Javascript has a number of built in objects for us to use. We have already seen, and have been using, the console object and it's method `log`. Another one of these objects is `Math`. `Math` has a number of methods on it just like `console` has `log`. To add to this, some of our data types also have built in methods.
 
 ### Math.pow
 
-We can use the pow method on Math to return a number risen to an exponent. It will take two numbers.
+We can use the `pow` method on `Math` to return a number risen to an exponent. It will take two numbers.
 
 ```javascript
     Math.pow(2,2) = 4;
@@ -117,7 +117,7 @@ We can use the pow method on Math to return a number risen to an exponent. It wi
 
 ### Math.round , Math.floor, Math.ceil
 
-Math also has methods that will round numbers for us. .round will round a number to the nearest whole number. .floor will always round a number down to the nearest whole number. .ceil will always round up to the nearest whole number. 
+`Math` also has methods that will round numbers for us. `.round` will round a number to the nearest whole number. `.floor` will always round a number down to the nearest whole number. `.ceil` will always round up to the nearest whole number. 
 
 ```javascript
     Math.round(6.5) = 7;
@@ -128,11 +128,11 @@ Math also has methods that will round numbers for us. .round will round a number
 
 ### .length
 
-The string data type has a built in method called .length . Any string we call this on will return the amount of characters in that string.
+The string data type has a built in method called `.length` . Any string we call this on will return the amount of characters in that string.
 
 ```javascript
-    let cat = "kitty";
-    console.log(cat.length); //5
+    const cat = 'kitty';
+    console.log(cat.length); // 5
 ```
 
 We will see many other built it in methods on other data types throughout this course. 
@@ -143,8 +143,8 @@ Now that we have variables set we need functions to compute them, change them, d
 
 ```javascript
     function myFunc() {}
-    let anotherFunc = function () {}
-    let yetAnother = () => {}
+    const anotherFunc = function () {};
+    const yetAnother = () => {};
 ```
 
 We will be using the first way in this lesson, and talk about the other ways in future lessons. 
@@ -155,17 +155,17 @@ We will be using the first way in this lesson, and talk about the other ways in 
     function myFunc() {}
 ```
 
-A function will start with the 'function' keyword, this tells whatever is running your program that what follows is a function and to treat it as such. After that comes the name of the function, we like to give functions names that describe what they do. Then comes an open and a close parentheses. And finally, open and close brackets. In between these brackets is where all of our function code will go.
+A function will start with the `function` keyword, this tells whatever is running your program that what follows is a function and to treat it as such. After that comes the name of the function, we like to give functions names that describe what they do. Then comes an open and a close parentheses. And finally, open and close brackets. In between these brackets is where all of our function code will go.
 
 ```javascript
     function logsHello() {
-        console.log("hello");
+        console.log('hello');
     }
 
     logsHello();
 ```
 
-In this example we declare a function "logsHello" and we set it up to console.log "hello". We can then see in order to run this function, we need to write the name and parentheses. This is the syntax to run a function. A function always needs parentheses to run.
+In this example we declare a function `logsHello` and we set it up to `console.log` `'hello'`. We can then see in order to run this function, we need to write the name and parentheses. This is the syntax to run a function. A function always needs parentheses to run.
 
 ### Arguments
 
@@ -173,20 +173,20 @@ Now that we can run a basic function, we are going to start passing it arguments
 
 ```javascript
     function logsHello(name) {
-        console.log( "Hello, " + name);
+        console.log('Hello, ' + name);
     }
 
-    logsHello("Dan");
+    logsHello('Dan');
 ```
 
-If we add a variable to the parentheses when we declare the function we can use this variable within our function. We initiate the value of this variable by passing it into the function when we call it. So in this case name = "Dan". We can pass other variables into this as well:
+If we add a variable to the parentheses when we declare the function we can use this variable within our function. We initiate the value of this variable by passing it into the function when we call it. So in this case `name = 'Dan'`. We can pass other variables into this as well:
 
 ```javascript
     function logsHello(name) {
         console.log( `Hello, ${name}`);
     }
 
-    const myName = "Dan"
+    const myName = 'Dan';
     logsHello(myName);
 ```
 
@@ -194,62 +194,62 @@ We can add multiple arguments by placing a comma in between them:
 
 ```javascript
     function addsTwoNumbers(a, b) {
-      let sum = a + b;
+      const sum = a + b;
       return sum;
     }
 
-    addsTwoNumbers(1, 5); //6
+    addsTwoNumbers(1, 5); // 6
 ```
 ### Return statement and Scope
 
-In the last example we introduced the "return" statement. We will not console.log everything that comes out of a function. Most likely we will want to return something. In this case it is the sum of the two numbers. Think of the return statement as the only way for data to escape a function. Nothing other than what is returned can be accessed outside of the function. Also note, that when a function hits a return statement, the function immediately stops what it is doing and returns.
+In the last example we introduced the `return` statement. We will not `console.log` everything that comes out of a function. Most likely we will want to return something. In this case it is the sum of the two numbers. Think of the return statement as the only way for data to escape a function. Nothing other than what is returned can be accessed outside of the function. Also note, that when a function hits a return statement, the function immediately stops what it is doing and returns.
 
 ```javascript
     function dividesTwoNumbers(a, b) {
-      let product = a / b;
+      const product = a / b;
       return product;
     }
 
-    dividesTwoNumbers(6, 3); //2
-    console.log(product); //undefined
+    dividesTwoNumbers(6, 3); // 2
+    console.log(product); // undefined
 ```
 
-If we tried to console.log something that we declared inside of the function it would return undefined because we do not have access to it outside of the function. This is called scope. The only way to access something inside of the function is to return it. 
+If we tried to `console.log` something that we declared inside of the function it would return `undefined` because we do not have access to it outside of the function. This is called scope. The only way to access something inside of the function is to return it. 
 
 We can also set variables to equal what a function returns.
 
 ```javascript
     function subtractsTwoNumbers(a, b) {
-      let difference = a - b;
+      const difference = a - b;
       return difference;
     }
 
-    let differenceValue = subtractsTwoNumbers(10, 9); 
-    console.log(differenceValue); //1
-    console.log(difference); //undefined
+    const differenceValue = subtractsTwoNumbers(10, 9); 
+    console.log(differenceValue); // 1
+    console.log(difference); // undefined
 ```
 
 We can see that difference is set inside of the function. The variable inside the function only belongs inside the function. 
 
 ## Control Flow and Comparison Operators
 
-In this example we are going to use control flow and comparison operators. Control flow is a way for our function to check to see if something is true, and either running the code supplied if it is, or moving on if it is not. For this we will use the "if" keyword:
+In this example we are going to use control flow and comparison operators. Control flow is a way for our function to check to see if something is `true`, and either running the code supplied if it is, or moving on if it is not. For this we will use the `if` keyword:
 
 ```javascript
-    function canDrive(age){
-        if (age > 15){
+    function canDrive(age) {
+        if (age > 15) {
             return true;
         }
 
         return false;
     }
 
-    canDrive(16) //true
+    canDrive(16); // true
 ```
 
-Here we are taking a number (age) and checking to see if the statement is true (16 > 15), it is, so we will return true, and the function will stop. If it is not, it will skip that code and the function will return false. 
+Here we are taking a number (`age`) and checking to see if the statement is `true` (`16 > 15`), it is, so we will return `true`, and the function will stop. If it is not, it will skip that code and the function will return `false`.
 
-The "Greater Than" symbol ( > ) you see in the last example is called a Comparison Operator. Comparison Operators evaluate two items and return either true or false. These operators are: < , <=, >, >=, ===, !== . We will learn more about these operators in the next lesson.
+The "Greater Than" symbol ( `>` ) you see in the last example is called a Comparison Operator. Comparison Operators evaluate two items and return either `true` or `false`. These operators are: `<` , `<=`, `>`, `>=`, `===`, `!==` . We will learn more about these operators in the next lesson.
 
 ## Introduction to Node and NPM
 
