@@ -3,26 +3,52 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
+let created = document.querySelector('#createdBy');
+created.innerHTML += ' Ferdinand Fuentes';
 
-function Todo(){
-
+function Todo(argument){
+  this.description = argument;
+  this.complete = false;
 /* 
   STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
     this.complete which should be set to false. 
 */
-
 }
 
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
            Todo's complete to true*/
+Todo.prototype.completeTodo = function() {
+  this.complete = true;
+};
+
 
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems;
+let toDoItems = new Array();
+//toDoItems.push(new Todo());
 
 
-function buildTodo() {
+function buildTodo(todoIT, number) {
+
+  //console.log(todoIT);
+  //console.log('desciption: ' + todoIT.description);
+  let todoShell = document.createElement('div');
+  todoShell.className = 'todoShell';
+  
+  let todoText = document.createElement('span');
+  todoText.textContent = todoIT.description;
+  
+  
+  todoText.id = number;
+
+  if (todoIT.complete === true){
+    todoText.className = 'completeText';
+  }
+  
+  todoShell.appendChild(todoText);
+  todoText.addEventListener('click', completeTodo);
+  
+  return todoShell;
 /*
   STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and 
           a numerical index as it's second.
@@ -41,7 +67,11 @@ function buildTodo() {
 */
 }
 
-function buildTodos() {
+function buildTodos(todoArray) {
+  let newTodoArray = todoArray.map(buildTodo);
+  //console.log(newTodoArray);
+  return newTodoArray;
+  
   /* 
   STEP 6: This function will build and return an array of todo elements. It will take an array of objects of the Todo class as it's only argument.
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
@@ -50,6 +80,13 @@ function buildTodos() {
 }
 
 function displayTodos() {
+  const todoconId = document.querySelector('#todoContainer');
+  todoconId.innerHTML = '';
+  let buildtodoitems = buildTodos(toDoItems);
+  buildtodoitems.forEach(function(item){
+    todoconId.appendChild(item);
+  });
+  }
   /* 
     STEP 7: Now that we can build an array of todo elements, we want to make these elements appear on the screen, 
             to do this we will create a 'displayTodos' function.
@@ -62,7 +99,6 @@ function displayTodos() {
 
             You can now load your html file in your broswer and see your work so far.
   */
-}
 
 
 
@@ -82,8 +118,15 @@ function addTodo() {
   */
 
   //UNCOMMENT THE NEXT LINE
-  // let newTodo = document.querySelector('#todoInput');
+  let newTodo = document.querySelector('#todoInput');
+  let newItem = new Todo(newTodo.value);
+  //console.log(newItem);
+  toDoItems.push(newItem);
+  //console.log(toDoItems);
+  newTodo.value = '';
+  displayTodos();
 }
+
 
 /* 
   STEP 9: In this step we will fire addTodo everytime the 'ADD' button is clicked.
@@ -93,7 +136,8 @@ function addTodo() {
 */
 
 //UNCOMMENT THE NEXT LINE
-// let button;
+ let button = document.querySelector('#addButton');
+ button.addEventListener('click',addTodo);
 
 
 
@@ -111,7 +155,10 @@ function completeTodo(event) {
             3.) In the buildTodo function add a 'click' event listener to the 'todoText' element, and pass this function as the callback.
   */
   //UNCOMMENT THE NEXT LINE
-  // let index = event.target.id;
+  let index = event.target.id;
+  toDoItems[index].completeTodo();
+  console.log(toDoItems[index].complete);
+  displayTodos();
 }
 
 /* STEP 11: Make sure ALL tests pass */
@@ -132,6 +179,7 @@ function completeTodo(event) {
 
 
 // Call displayTodos here <-----
+displayTodos();
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
   module.exports = {

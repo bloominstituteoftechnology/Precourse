@@ -1,0 +1,16 @@
+h1 {
+  color: blue;
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: red;
+  padding: 50px;
+  border-style: dashed;
+}
+#spanId {
+  margin: 50px;
+}
