@@ -13,23 +13,22 @@
 // code here
 
 /* 
-  STEP 2: Create a class called 'ToDo'.  The constructor should take one string argument, the description of the toDo.
+  STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
           Add two properties to the class: 'description' which should be set equal to the description passed to the constructor, and 
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-class ToDo {
-  // code here for step 2
+function ToDo () {
+  // code here
 }
 
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
           It will not take any arguemnts. 
           Inside the function set the ToDo's 'complete' property to true.
-          You can either add a method to the ToDo class or add the method directly to the ToDo prototype.
 */
 
-// code here or inside the ToDo class
+// code here
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
