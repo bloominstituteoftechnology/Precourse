@@ -3,13 +3,13 @@
 
 In this lesson we will cover: 
 
-* Undefined and Null
+* `undefined` and `null`
 * Truthiness
-* Arguments object
+* The `arguments` object
 * Callbacks
 * More Array Methods
 * Classes
-* Prototype
+* `prototype`
 
 ## Advanced Javascript
 
@@ -20,43 +20,44 @@ We have come a long way since our humble beginnings learning how to create varia
 There are a couple of Javascript objects that don't really fit into any type. Those are the values `undefined` and `null`. You will get `undefined` when you are looking for something that does not exist, a key on an object, an index in an array, a variable that does not exist. `undefined` simply means what you are asking for does not exist. 
 
 ```javascript
-    let arr = [1, 2];
-    let obj = {
-        name: "Dan"
-    }
+    const arr = [1, 2];
+    const obj = {
+        name: 'Dan',
+    };
+    let unknownVar;
 
-    arr[3] //undefined
-    obj.email //undefined
-    console.log(unkownVar) //undefined
+    arr[3]; // undefined
+    obj.email; // undefined
+    console.log(unkownVar); // undefined
 ```
 
 `null` is an object that we, the developers, set when we want to tell other developers that the item they are looking for exists, but there is no value associated with it. While `undefined` is set by the Javascript language, `null` is set by a developer. If you ever receive `null`, know that another developer set that value to `null`
 
 ```javascript
-    let obj = {
-        name: "Dan",
-        phoneNumber: null
+    const obj = {
+        name: 'Dan',
+        phoneNumber: null,
     }
 
-    obj.phoneNumer //null
+    obj.phoneNumer; // null
 ```
 
 One last thing to note, neither `undefined` nor `null` are strings, they are written just as they are with no quotes around them, like a boolean.
 
 ## Truthiness
 
-In these lessons we have talked a lot about the boolean values, true and false. When using an if statement or another statement that expects a boolean value (such as the !, NOT), and the expression given is not a boolean value, Javascript will do something called type coercion and transform whatever it is given to a boolean value. This is known as truthy and falsey. Every data type has a truthiness to it. Here are some examples:
+In these lessons we have talked a lot about the boolean values, `true` and `false`. When using an `if` statement or another statement that expects a boolean value (such as the `!`, NOT), and the expression given is not a boolean value, Javascript will do something called type coercion and transform whatever it is given to a boolean value. This is known as truthy and falsey. Every data type has a truthiness to it. Here are some examples:
 
 ```javascript
-    //items that are coerced to true
+    // items that are coerced to true
     true 
     1
     ' '
     []
     {}
-    function(){}
+    function() {}
 
-    //items that are coerced to false
+    // items that are coerced to false
     false
     0
     undefined
@@ -66,20 +67,20 @@ In these lessons we have talked a lot about the boolean values, true and false. 
 
 ## Arguments object
 
-When we pass arguments to a function they are contained in an array-like data structure called `arguments`. `arguments` is available to us anywhere within the function and contains all of the arguments passed to it. While it is array like, it does not have all of the properties of an array. One property it does have is the method `.length`. When we are given a function with an unknown number of arguments, we can use .length and a for loop to iterate over all of the arguments:
+When we pass arguments to a function they are contained in an array-like data structure called `arguments`. `arguments` is available to us anywhere within the function and contains all of the arguments passed to it. While it is array like, it does not have all of the properties of an array. One property it does have is the method `.length`. When we are given a function with an unknown number of arguments, we can use `.length` and a `for` loop to iterate over all of the arguments:
 
 ```javascript
-    function sumAllTheNumbers(){
+    function sumAllTheNumbers() {
         let sum = 0;
 
-        for(let i = 0; i < arguments.length; i++){
+        for (let i = 0; i < arguments.length; i++) {
             sum = sum + arguments[i];
         }
 
         return sum;
     }
 
-    sumAllTheNumbers(2,5,3,4,7,9,1,0,7,7,7)  //52
+    sumAllTheNumbers(2, 5, 3, 4, 7, 9, 1, 0, 7, 7, 7);  // 52
 ```
 
 ## Callbacks
@@ -87,45 +88,45 @@ When we pass arguments to a function they are contained in an array-like data st
 A very important concept in Javascript is the ability to pass a function as an arguments to another function. These functions are called `callbacks`. These functions can be called anytime and passed arguments within the function. We will soon discover why callbacks are so important to Javascript. Convention is to use the `cb` argument variable as your callback.
 
 ```javascript
-    function saysHelloToUser(user){
+    function saysHelloToUser(user) {
         return 'Hello ' + user + '!';
     }
 
-    function saysGoodbyeToUser(user){
+    function saysGoodbyeToUser(user) {
         return 'Goodbye ' + user + '!';
     }
 
-    function createGreeting(user, cb){
-        return cb(user)
+    function createGreeting(user, cb) {
+        return cb(user);
     }
 
-    createGreeting("Dan", saysHelloToUser) //'Hello Dan!'
-    createGreeting("Dan", saysGoodbyeToUser) //'Goodbye Dan!'
+    createGreeting('Dan', saysHelloToUser); // 'Hello Dan!'
+    createGreeting('Dan', saysGoodbyeToUser); // 'Goodbye Dan!'
 ```
 
 ## More Array Methods
 
-We already know about and use array methods, .push, .pop, .shift, .unshift, and .length. But there are a lot more methods available to us natively on an array. The methods we are going to talk about here are called higher order methods, because they take callbacks as arguments. 
+We already know about and use array methods, `.push`, `.pop`, `.shift`, `.unshift`, and `.length`. But there are a lot more methods available to us natively on an array. The methods we are going to talk about here are called higher order methods, because they take callbacks as arguments. 
 
 ### .forEach
 
 `.forEach` is a built in for loop on every array. `.forEach` takes a callback as its only argument, and iterates over every item in the array and calls the callback on it. The callback can take two arguments, the first is the item itself, the second is the index of the item, this argument is optional. 
 
 ```javascript
-    let cars = ['Ford', 'Chevrolet', 'Toyota', 'Tesla'];
+    const cars = ['Ford', 'Chevrolet', 'Toyota', 'Tesla'];
 
-    //We can write the callback function itself in the parentheses as an anonymous function
-    cars.forEach(function(item, index){
+    // We can write the callback function itself in the parentheses as an anonymous function
+    cars.forEach(function(item, index) {
         console.log(item);
-    })
+    });
 
-    //Or we can instantiate a function to be used as a callback.
-    //Also, we do not need to use the index argument, if you don’t need it, feel free to leave it out.
-    function printNames(item){
+    // Or we can instantiate a function to be used as a callback.
+    // Also, we do not need to use the index argument, if you don’t need it, feel free to leave it out.
+    function printNames(item) {
         console.log(item);
     }
 
-    //And call that function in the forEach parentheses
+    // And call that function in the forEach parentheses
     cars.forEach(printNames);
 ```
 
@@ -134,51 +135,51 @@ We already know about and use array methods, .push, .pop, .shift, .unshift, and 
 `.reduce` will run a loop on our array with the intention of reducing each item into one item that is returned. As it's first argument it takes a callback that takes two arguments, first an 'accumulator' (the result of the reduce method until now), and the second is the item it is currently on. The callback must ALWAYS contain a return statement. Reduce also takes an optional second argument, which would be the starting accumulator. If the starting accumulator is not supplied reduce will start at the first item of the array. `.reduce` will always return the accumulator when it is done iterating through the items.
 
 ```javascript
-    let nums = [ 1, 2, 3, 4, 5, 6, 7, 8, 9]
-    let words = [ 'Hi,', 'my', 'name', 'is', 'Dan']
+    const nums = [ 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    const words = [ 'Hi,', 'my', 'name', 'is', 'Dan'];
 
-    //We can write the anonymous function directly into the .reduce parentheses
-    //If we leave out the starting item, it will always start at the first item.
-    let sums = nums.reduce( function(acc, item){
+    // We can write the anonymous function directly into the .reduce parentheses
+    // If we leave out the starting item, it will always start at the first item.
+    const sums = nums.reduce(function(acc, item){
         return acc + item;
-    })
+    });
 
-    //We can write a function outside of the .reduce parens (to be used multiple times later)
-    function multiplyTwoNumbers(a, b){
-        return a * b
+    // We can write a function outside of the .reduce parens (to be used multiple times later)
+    function multiplyTwoNumbers(a, b) {
+        return a * b;
     }
-    let products = nums.reduce(multiplyTwoNumbers)
+    const products = nums.reduce(multiplyTwoNumbers);
 
-    //.reduce works on any data types. 
-    //In this example we set a starting accumulator
-    let sentence = words.reduce(function(acc, item){
+    // .reduce works on any data types. 
+    // In this example we set a starting accumulator
+    const sentence = words.reduce(function(acc, item) {
         return acc + ' ' + item;
-    }, 'Sentence:')
+    }, 'Sentence:');
 
-    console.log(sums) //45
-    console.log(products) //362880
-    console.log(sentence) //'Sentence: Hi, my name is Dan'
+    console.log(sums); // 45
+    console.log(products); // 362880
+    console.log(sentence); // 'Sentence: Hi, my name is Dan'
 ```
 ### .map
 
 `.map` is used when we want to change every item in an array in the same way. `.map` takes a callback as its only argument. Like the `.forEach` method, the callback has the optional arguments item and index. Unlike `.reduce`, `.map` will return the entire array.
 
 ```javascript
-    let nums = [2, 3, 4, 5]
+    const nums = [2, 3, 4, 5];
 
-    function multiplyByThree(item){
-        return item * 3
+    function multiplyByThree(item) {
+        return item * 3;
     }
 
 
-    let double = nums.map(function(item){
-        return item * 2
-    })
+    const double = nums.map(function(item) {
+        return item * 2;
+    });
 
-    let triple = nums.map(multiplyByThree)
+    const triple = nums.map(multiplyByThree)
 
-    console.log(double) //[ 4, 6, 8, 10 ]
-    console.log(triple) //[ 6, 9, 12, 15 ]
+    console.log(double); // [ 4, 6, 8, 10 ]
+    console.log(triple); // [ 6, 9, 12, 15 ]
 ```
 
 ## Classes
@@ -192,19 +193,19 @@ If you have experience in an Object Oriented language (such as Java or C#) you a
 In this example we will be creating a `Cat` class. Convention for classes is to give the name of anything that can be instantiated with the `new` keyword an uppercase name. When we use the `new` keyword, Javascript does some great behind the scenes work for us and creates and returns an object automatically.
 
 ```javascript
-    function Cat(name){
-        //the new operator creates an object, 'this'
-        this.name = name
-        this.meows = function(){
-            return 'My name is ' + this.name + " ...Meow!";
+    function Cat(name) {
+        // the new operator creates an object, 'this'
+        this.name = name;
+        this.meows = function() {
+            return 'My name is ' + this.name + ' ...Meow!';
         }
-        //return the object 'this'
+        // return the object 'this'
     }
 
-    let sam = new Cat('Sam')
-    let kitty = new Cat('Kitty')
-    console.log(sam.meows()) //My name is Sam ...Meow!
-    console.log(kitty.meows()) //My name is Kitty ...Meow!
+    const sam = new Cat('Sam');
+    const kitty = new Cat('Kitty');
+    console.log(sam.meows()); // 'My name is Sam ...Meow!'
+    console.log(kitty.meows()); // 'My name is Kitty ...Meow!'
 
 ``` 
 
@@ -217,7 +218,7 @@ The `this` keyword can start to become very confusing when we start using it in 
 Creating functions are expensive (in a computer memory way) and each time we create a new class object with methods we are recreating those methods in memory. You can imagine if you are creating thousands of class objects from a class with dozens of methods on it, the memory will add up quickly (20,000-40,000 methods). Classes have a unique way of setting a method once and giving every object of that class access to those methods. This is called the `prototype`. Each class has a prototype property, which we can then set methods on:
 
 ```javascript
-    function User(name, github){
+    function User(name, github) {
         this.name = name;
         this.github = github;
     }
@@ -229,8 +230,8 @@ Creating functions are expensive (in a computer memory way) and each time we cre
     let dan = new User('Dan', 'tetondan');
     let riley = new Cat('Riley', 'rileyriley');
     
-    console.log(dan.introduction()); //My name is Dan, my github handle is tetondan.
-    console.log(riley.introduction()); //My name is Riley, my github handle is rileyriley.
+    console.log(dan.introduction()); // My name is Dan, my github handle is tetondan.
+    console.log(riley.introduction()); // My name is Riley, my github handle is rileyriley.
 
 ``` 
 Protoype methods DO have access to the `this` keyword, and just as before, it will always point to the object (left of the dot) that is calling it. 
