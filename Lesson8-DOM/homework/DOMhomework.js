@@ -1,28 +1,39 @@
+/* eslint-disable no-console */
+
 /* STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
            Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML method,
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
+ document.querySelector('#createdBy').innerHTML += ' Anderstm01'; // Select the element ID createdBy and append my username
 
-function Todo(){
 
 /* 
   STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
     this.complete which should be set to false. 
 */
-
+class Todo{ //Create Todo class
+  constructor(description){ // create constructor and pass it description
+    this.description = description; // init description to passed var
+    this.complete = false; // init complete to false
+  }
+  completeTodo(){ // Todo class method
+    this.complete = true; // change complete to true
+  }
 }
 
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
            Todo's complete to true*/
 
+          
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems;
+//const todo = new Todo('');
+const toDoItems = []; // init empthy array for todo list items
+//toDoItems.push(todo);
 
 
-function buildTodo() {
+function buildTodo(toDoObject,index) { 
 /*
   STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and 
           a numerical index as it's second.
@@ -39,14 +50,36 @@ function buildTodo() {
             7.) Append child todoText to todoShell
             8.) return todoShell
 */
-}
+  const todoShell = document.createElement('div'); // create new div
+  todoShell.className = 'todoShell'; // set new todoShell div class="todoShell"
 
-function buildTodos() {
+  const todoText = document.createElement('span'); // create new span
+  todoText.innerHTML = toDoObject.description;
+  todoText.id = index; 
+  
+  
+ 
+  todoText.onclick =  function(event){
+    completeTodo(event);
+  };
+  if (toDoItems[index].complete === true){
+    todoText.className = 'completeText';
+  }
+
+  todoShell.appendChild(todoText); 
+
+  return todoShell;
+}
+  
+
+function buildTodos(toDoItems) {
   /* 
   STEP 6: This function will build and return an array of todo elements. It will take an array of objects of the Todo class as it's only argument.
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
+   return toDoItems.map(buildTodo);
+
 }
 
 function displayTodos() {
@@ -62,10 +95,15 @@ function displayTodos() {
 
             You can now load your html file in your broswer and see your work so far.
   */
+
+  const container = document.querySelector('#todoContainer');
+  container.innerHTML = '';
+  buildTodos(toDoItems).forEach(element => {
+    container.appendChild(element);
+  });
+ 
+
 }
-
-
-
 
 
 function addTodo() {
@@ -80,9 +118,16 @@ function addTodo() {
             3.) Set the value of newTodo to an empty string (this will clear the text in the box allowing the user to enter another item).
             4.) Call displayTodos to refresh the todos displayed
   */
-
+ 
   //UNCOMMENT THE NEXT LINE
-  // let newTodo = document.querySelector('#todoInput');
+  let newTodo = document.querySelector('#todoInput');
+  if(newTodo.value !== ''){
+    const newTodoObj = new Todo(newTodo.value); 
+    toDoItems.push(newTodoObj);
+    newTodo.value = '';
+    displayTodos();
+  }    
+
 }
 
 /* 
@@ -93,9 +138,14 @@ function addTodo() {
 */
 
 //UNCOMMENT THE NEXT LINE
-// let button;
-
-
+ let button = document.querySelector('#addButton');
+ let inputContainer = document.querySelector('#inputContainer');
+ button.onclick = addTodo;
+ inputContainer.addEventListener('keyup',function(event){
+  if(event.key === 'Enter'){
+    addTodo();
+   }
+ });
 
 function completeTodo(event) {
   /* 
@@ -111,7 +161,9 @@ function completeTodo(event) {
             3.) In the buildTodo function add a 'click' event listener to the 'todoText' element, and pass this function as the callback.
   */
   //UNCOMMENT THE NEXT LINE
-  // let index = event.target.id;
+   let index = event.target.id;
+   toDoItems[index].completeTodo();
+   displayTodos();
 }
 
 /* STEP 11: Make sure ALL tests pass */
@@ -127,10 +179,10 @@ function completeTodo(event) {
         e.) Inside of the current 'if' statement in the buildTodo function, if true, set the attribute, 'checked' to true on the checkbox.
         f.) Append this checkbox on the todoShell element.
 */
-// ********************************************** ----------- ********************************************** //
+// *buildTodos(toDoItems)buildTodos(toDoItems)********************************************* ----------- ********************************************** //
 
 
-
+displayTodos();
 // Call displayTodos here <-----
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {

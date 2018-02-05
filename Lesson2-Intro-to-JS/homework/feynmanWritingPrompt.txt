@@ -1,0 +1,10 @@
+Variables
+    Variables are something that you can store things like numbers, letters and other data
+Strings
+    A String is a type of variable that is treated like words. Meaning you can't perform math on them
+Functions (arguments, return)
+    Functions are segments of code that you are going to need to reference and execute in many locations within your code
+if statements
+    A if statement is a question whether a statement is a true or not
+Boolean values (true, false)
+    A Bool is a variable that is either yes or no
