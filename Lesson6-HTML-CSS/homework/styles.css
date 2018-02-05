@@ -1,0 +1,23 @@
+h1 {
+  color: dodgerblue;
+}
+
+img {
+  width: 310px;
+}
+
+#thirdDiv {
+  background-color: orange;
+  border: 2px solid blue;
+  height: 600px;
+  padding: 50px;
+  width: 500px;;
+}
+
+#spanId {
+  margin: 50px;
+}
+
+li {
+  list-style-type: none;
+}
