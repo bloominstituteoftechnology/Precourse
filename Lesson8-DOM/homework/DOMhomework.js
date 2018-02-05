@@ -54,21 +54,21 @@ function buildTodo(toDoObject,index) {
   todoShell.className = 'todoShell'; // set new todoShell div class="todoShell"
 
   const todoText = document.createElement('span'); // create new span
-  todoText.innerHTML = toDoObject.description;
-  todoText.id = index; 
+  todoText.innerHTML = toDoObject.description; //pass description from the Todo class object to the HTML tag
+  todoText.id = index; //pass the index from the map function to the span ID
   
   
  
-  todoText.onclick =  function(event){
-    completeTodo(event);
+  todoText.onclick =  function(event){ //when click on todo item 
+    completeTodo(event); //mark complete
   };
-  if (toDoItems[index].complete === true){
-    todoText.className = 'completeText';
+  if (toDoItems[index].complete === true){ // if complete
+    todoText.className = 'completeText'; //set class name to complete crossing out the item
   }
 
-  todoShell.appendChild(todoText); 
+  todoShell.appendChild(todoText); // add item to list on HTML page
 
-  return todoShell;
+  return todoShell; // retrun the HTML of the item
 }
   
 
@@ -78,11 +78,11 @@ function buildTodos(toDoItems) {
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
-   return toDoItems.map(buildTodo);
+   return toDoItems.map(buildTodo); // loop buildTodo passing description and index
 
 }
 
-function displayTodos() {
+function displayTodos() { // print out todo list on page
   /* 
     STEP 7: Now that we can build an array of todo elements, we want to make these elements appear on the screen, 
             to do this we will create a 'displayTodos' function.
@@ -96,17 +96,17 @@ function displayTodos() {
             You can now load your html file in your broswer and see your work so far.
   */
 
-  const container = document.querySelector('#todoContainer');
-  container.innerHTML = '';
-  buildTodos(toDoItems).forEach(element => {
-    container.appendChild(element);
+  const container = document.querySelector('#todoContainer'); // set container to ID tag todoContainer
+  container.innerHTML = ''; // init HTML tag
+  buildTodos(toDoItems).forEach(element => { //for every item append to page
+    container.appendChild(element); //append to page
   });
  
 
 }
 
 
-function addTodo() {
+function addTodo() {// add item to Todo class
                      /* 
     STEP 8: This function, 'addTodo' will add a new Todo to the array of todos.
             NOTE: We have not learned about input HTML elements yet, so we will give you a little more code to go on here.
@@ -120,12 +120,12 @@ function addTodo() {
   */
  
   //UNCOMMENT THE NEXT LINE
-  let newTodo = document.querySelector('#todoInput');
-  if(newTodo.value !== ''){
-    const newTodoObj = new Todo(newTodo.value); 
-    toDoItems.push(newTodoObj);
-    newTodo.value = '';
-    displayTodos();
+  let newTodo = document.querySelector('#todoInput'); // set newTodo to Id tag todoInput
+  if(newTodo.value !== ''){ // if not blank
+    const newTodoObj = new Todo(newTodo.value); // add item to object
+    toDoItems.push(newTodoObj); //push object to array
+    newTodo.value = ''; // reset value
+    displayTodos(); // display list 
   }    
 
 }
@@ -138,16 +138,16 @@ function addTodo() {
 */
 
 //UNCOMMENT THE NEXT LINE
- let button = document.querySelector('#addButton');
- let inputContainer = document.querySelector('#inputContainer');
- button.onclick = addTodo;
- inputContainer.addEventListener('keyup',function(event){
-  if(event.key === 'Enter'){
-    addTodo();
+ let button = document.querySelector('#addButton'); // set button to Id tag of button
+ let inputContainer = document.querySelector('#inputContainer'); // set Id tag of input contaioner 
+ button.onclick = addTodo; // on button click add item
+ inputContainer.addEventListener('keyup',function(event){ // check event keyup on inputcontainer
+  if(event.key === 'Enter'){ // if enter
+    addTodo(); // add item
    }
  });
 
-function completeTodo(event) {
+function completeTodo(event) { // if item clicked make complete
   /* 
     STEP 10: Finally in this step we will define the function to run when we want to compelte a todo, and add that function to the click event
              listener on the todo element
@@ -161,9 +161,9 @@ function completeTodo(event) {
             3.) In the buildTodo function add a 'click' event listener to the 'todoText' element, and pass this function as the callback.
   */
   //UNCOMMENT THE NEXT LINE
-   let index = event.target.id;
-   toDoItems[index].completeTodo();
-   displayTodos();
+   let index = event.target.id; // get target id of event passed
+   toDoItems[index].completeTodo(); // run method to mark item complete
+   displayTodos(); // display new list
 }
 
 /* STEP 11: Make sure ALL tests pass */
@@ -182,7 +182,7 @@ function completeTodo(event) {
 // *buildTodos(toDoItems)buildTodos(toDoItems)********************************************* ----------- ********************************************** //
 
 
-displayTodos();
+displayTodos(); // Display new list
 // Call displayTodos here <-----
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
