@@ -1,0 +1,20 @@
+1. An object is used to hold related data about one thing using key-value pairs. For example, let's say you want to store details about the latest Star Wars film. 
+    You could use an object to do that:
+        let lastjedi = {
+            name: "The Last Jedi",
+            year: () => 2017,
+            actors: ["Daisy Ridley", "John Boyega"],
+            
+        }
+    As you can see, objects are a very descriptive way of storing information and are extremely flexible. You can store
+    any data type in an object, even other objects!
+    
+2. An object property is a key.
+
+3. An object method is a key whose value is a function.
+
+4. An object doesn't have indices like an array, but with a for-in loop, we can treat it as if it were an array and 
+    loop through each key-value pair.
+    
+5. Both dot and bracket notation are used to access values in an object. The difference is that the dot uses
+    the plain name of the property/method whereas the brackets must have a string, number or variable to reference the key name.

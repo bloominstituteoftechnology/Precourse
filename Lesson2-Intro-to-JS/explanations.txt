@@ -1,0 +1,19 @@
+1. A variable is like a storage bin. You can store things inside it and put a dscriptive label on it to help you remember
+    what's inside it. JavaScript doesn't really care what kinds of things you put inside the bin. You can declare a variable
+    using var, let or const.
+
+2. A string is just some text that's wrapped in quotes i.e. "Hello World" or "JS is cool!." You can also treat a string as
+    an array of characters using bracket notation. JavaScript provides helpful built-in string properties such as length, as
+    well as methods such as replace, trim and substring.
+    
+3. You can think of a function like a person you hire to do a task for you. For example, you could tell the person to clean
+    a room in your house (in JS, you would write a cleanRoom function) and you'd wait on the person to do that before resuming your task.
+    You can also pass arguments to a function. This would be like specifying what time you'd like the room cleaned or which room
+    should be cleaned. Finally, functions can return a value to their caller. This would be like telling the person you hire to
+    go out and get your car washed and then drive it back to you. So the carWash function would take a dirty car as input and return
+    a clean car as output.
+    
+4. If statements simply check whether the program should do one thing or the other based on some condition. For example, if it
+    is sunny and warm outside, I'll take a run. Otherwise, I'll exercise indoors.
+    
+5. Boolean values are only true and false (or something that evaluates to one of those two). 
