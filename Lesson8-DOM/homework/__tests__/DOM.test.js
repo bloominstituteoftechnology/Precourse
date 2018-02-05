@@ -1,29 +1,27 @@
-var html = require('fs')
-.readFileSync('./Lesson8-DOM/homework/index.html')
-.toString();;
+const html = require('fs')
+  .readFileSync('./Lesson8-DOM/homework/index.html')
+  .toString();
 
 document.documentElement.innerHTML = html;
 
-let {
+const {
   ToDo,
   buildToDo,
   buildToDos,
   addToDo,
   completeToDo,
-  toDoItems
+  toDoItems,
 } = require('../DOMhomework.js');
 let desc, newToDo;
 
 describe('Put your name on it.', () => {
-
   it('Put your name on it!', () => {
-    let nameLength = document.querySelector('#createdBy').innerHTML.length;
+    const nameLength = document.querySelector('#createdBy').innerHTML.length;
     expect(nameLength).toBeGreaterThan(24);
   });
 });
 
 describe('ToDo Class', () => {
-
   beforeEach(() => {
     document.documentElement.innerHTML = html;
     desc = 'Create ToDo';
@@ -43,7 +41,6 @@ describe('ToDo Class', () => {
     newToDo.completeToDo();
     expect(newToDo.complete).toBe(true);
   });
-
 });
 
 describe('toDoItems array', () => {
@@ -51,38 +48,35 @@ describe('toDoItems array', () => {
     expect(Array.isArray(toDoItems)).toBe(true);
   });
 });
-describe('buildToDo function', () => {
 
+describe('buildToDo function', () => {
   beforeEach(() => {
     document.documentElement.innerHTML = html;
     desc = 'Create ToDo';
   });
 
   it('creates an HTML toDo from a ToDo Object', () => {
-    let newToDo = new ToDo(desc);
-    let toDoHTML = buildToDo(newToDo);
+    const newToDo = new ToDo(desc);
+    const toDoHTML = buildToDo(newToDo);
     expect(toDoHTML).not.toBeUndefined();
     expect(toDoHTML.className).toEqual('toDoShell');
   });
 });
 
-
 describe('buildToDos function', () => {
-
   it('exists, and is a function', () => {
     expect(typeof buildToDos).toBe('function');
   });
 
   it('returns an array of ToDos', () => {
-    let newToDo = new ToDo('Create New ToDo');
-    let builtToDo = buildToDo(newToDo, 0);
+    const newToDo = new ToDo('Create New ToDo');
+    const builtToDo = buildToDo(newToDo, 0);
     expect(buildToDos([])).toEqual([]);
     expect(buildToDos([newToDo])).toEqual([builtToDo]);
   });
 });
 
 describe('addToDo function', () => {
-  
   it('is a function', () => {
     expect(typeof addToDo).toBe('function');
   });
@@ -95,13 +89,12 @@ describe('addToDo function', () => {
 });
 
 describe('completeToDo function', () => {
-  
   it('is a function', () => {
     expect(typeof completeToDo).toBe('function');
   });
 
   it('marks an item in the toDoItems array as complete', () => {
-    let e = { target: { id: 1 } };
+    const e = { target: { id: 1 } };
     toDoItems.push(new ToDo('Create new toDo'));
     completeToDo(e);
     expect(toDoItems[1].complete).toBeTrue;
