@@ -143,7 +143,7 @@ function addTodo() {
  button.onclick = addTodo;
  inputContainer.addEventListener('keyup',function(event){
   if(event.key === 'Enter'){
-     button.click();
+    addTodo();
    }
  });
 
