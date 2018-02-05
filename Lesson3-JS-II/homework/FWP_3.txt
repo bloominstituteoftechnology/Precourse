@@ -1,0 +1,5 @@
+for:  A for loop runs again and again until your initialized integer meets its evaluation argument.  You must iterate the integer you are evaluating.
+&&:  arguments on both sides of && must be true in order for the evaluation to return true.
+||:  one of the arguments on either side of || must be true in order for the evaluation to return true.
+!:  Flips the value of the evaluation.  "true" becomes "false".  "equals" becomes "does not equal".
+Arrays:  Think of it as a spreadsheet that starts at 0.

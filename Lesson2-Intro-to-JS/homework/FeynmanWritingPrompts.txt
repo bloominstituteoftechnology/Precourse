@@ -1,0 +1,5 @@
+Variables:  Named containers for values of data.
+Strings:  A variable type for a "string" of characters.  Characters can be letters, numbers, spaces, special characters, etc...
+Functions:  Call functions to manipulate data according to the function parameters.  A function can take in arguments, and return a value.
+if statements:  If statements give multiple paths that a code can take depending on the input data.  If statements take the input data, evaluate it based on comparators, and send the data down the path that evaluates as true.
+Boolean values:  a variable type with a yes/no, true/false, 1/0, on/off value.  It's like a checkbox.  It's either checked, or it's not checked.
