@@ -196,7 +196,7 @@ We can assign and reassign any index in the array using the bracket/index and an
 
 Two more very useful built in array methods are .push and .pop. These methods refer to the adding and removing of items from the array after it's initial declaration.
 
-.push adds an item to the end of the array, incrementing it's length by 1. (.push returns the entire array)
+.push adds an item to the end of the array, incrementing it's length by 1. (.push also returns the length of the array.)
 
 ```javascript
     let studentsNames = ["Dan", "Maria", "Sara", "Raj"];
