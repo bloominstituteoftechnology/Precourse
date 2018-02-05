@@ -5,14 +5,14 @@ var html = require('fs')
 document.documentElement.innerHTML = html;
 
 let {
-  Todo,
-  buildTodo,
-  buildTodos,
-  addTodo,
-  completeTodo,
+  ToDo,
+  buildToDo,
+  buildToDos,
+  addToDo,
+  completeToDo,
   toDoItems
 } = require('../DOMhomework.js');
-let desc, newTodo;
+let desc, newToDo;
 
 describe('Put your name on it.', () => {
 
@@ -22,88 +22,88 @@ describe('Put your name on it.', () => {
   });
 });
 
-describe('Todo Class', () => {
+describe('ToDo Class', () => {
 
   beforeEach(() => {
     document.documentElement.innerHTML = html;
-    desc = 'Create Todo';
-    newTodo = new Todo(desc);
+    desc = 'Create ToDo';
+    newToDo = new ToDo(desc);
   });
   
-  it('creates a Todo', () => {
-    expect(newTodo.description).toEqual(desc);
-    expect(newTodo.complete).toEqual(false);
+  it('creates a ToDo', () => {
+    expect(newToDo.description).toEqual(desc);
+    expect(newToDo.complete).toEqual(false);
   });
 
-  it('adds completeTodo to the prototype of Todo', () => {
-     expect(typeof Todo.prototype.completeTodo).toBe('function');
+  it('adds completeToDo to the prototype of ToDo', () => {
+     expect(typeof ToDo.prototype.completeToDo).toBe('function');
   });
 
-  it('completeTodo method changes complete to true', () => {
-    newTodo.completeTodo();
-    expect(newTodo.complete).toBe(true);
+  it('completeToDo method changes complete to true', () => {
+    newToDo.completeToDo();
+    expect(newToDo.complete).toBe(true);
   });
 
 });
 
 describe('toDoItems array', () => {
-  it('should contain at least one item of the ToDo class', () => {
-    expect(toDoItems.length).toBeGreaterThan(0);
+  it('should have an array called \'toDoItems\'', () => {
+    expect(Array.isArray(toDoItems)).toBe(true);
   });
 });
-describe('buildTodo function', () => {
+describe('buildToDo function', () => {
 
   beforeEach(() => {
     document.documentElement.innerHTML = html;
-    desc = 'Create Todo';
+    desc = 'Create ToDo';
   });
 
-  it('creates an HTML todo from a Todo Object', () => {
-    let newTodo = new Todo(desc);
-    let todoHTML = buildTodo(newTodo);
-    expect(todoHTML).not.toBeUndefined();
-    expect(todoHTML.className).toEqual('todoShell');
+  it('creates an HTML toDo from a ToDo Object', () => {
+    let newToDo = new ToDo(desc);
+    let toDoHTML = buildToDo(newToDo);
+    expect(toDoHTML).not.toBeUndefined();
+    expect(toDoHTML.className).toEqual('toDoShell');
   });
 });
 
 
-describe('buildTodos function', () => {
+describe('buildToDos function', () => {
 
   it('exists, and is a function', () => {
-    expect(typeof buildTodos).toBe('function');
+    expect(typeof buildToDos).toBe('function');
   });
 
-  it('returns an array of Todos', () => {
-    let newTodo = new Todo('Create New Todo');
-    let builtTodo = buildTodo(newTodo, 0);
-    expect(buildTodos([])).toEqual([]);
-    expect(buildTodos([newTodo])).toEqual([builtTodo]);
+  it('returns an array of ToDos', () => {
+    let newToDo = new ToDo('Create New ToDo');
+    let builtToDo = buildToDo(newToDo, 0);
+    expect(buildToDos([])).toEqual([]);
+    expect(buildToDos([newToDo])).toEqual([builtToDo]);
   });
 });
 
-describe('addTodo function', () => {
+describe('addToDo function', () => {
   
   it('is a function', () => {
-    expect(typeof addTodo).toBe('function');
+    expect(typeof addToDo).toBe('function');
   });
 
-  it('adds a Todo to the toDoItems array', () => {
-    document.querySelector('#todoInput').value = 'Create new Todo';
-    addTodo();
+  it('adds a ToDo to the toDoItems array', () => {
+    document.querySelector('#toDoInput').value = 'Create new ToDo';
+    addToDo();
     expect(toDoItems.length).toBeGreaterThan(0);
   });
 });
 
-describe('completeTodo function', () => {
+describe('completeToDo function', () => {
   
   it('is a function', () => {
-    expect(typeof completeTodo).toBe('function');
+    expect(typeof completeToDo).toBe('function');
   });
 
   it('marks an item in the toDoItems array as complete', () => {
     let e = { target: { id: 1 } };
-    toDoItems.push(new Todo('Create new todo'));
-    completeTodo(e);
+    toDoItems.push(new ToDo('Create new toDo'));
+    completeToDo(e);
     expect(toDoItems[1].complete).toBeTrue;
   });
 });
