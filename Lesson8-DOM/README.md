@@ -24,7 +24,7 @@ First is to insert opening and closing script tags in the `head` element, the sa
     <html>
         <head>
             <script>
-                //Here is our javascript code.
+                // Here is our javascript code.
                 alert('In our Javascript code');
             </script>
         </head>
@@ -99,11 +99,11 @@ When we have an element, we can set it's `innerHTML`. This is essentially settin
 
 ```javascript
     const p = document.querySelector('#pId');
-    console.log(p.innerHtml) //This is the text between the <p></p> tags
+    console.log(p.innerHtml) // This is the text between the <p></p> tags
 
-    p.innerHTML = "This is new text to display between the tags"
+    p.innerHTML = 'This is new text to display between the tags';
 
-    console.log(p.innerHTML) //This is new text to display between the tags
+    console.log(p.innerHTML); // This is new text to display between the tags
 ```
 
 ### .[attribute] and .setAttribute
@@ -113,9 +113,9 @@ We can call `.setAttribute` on an element to either add an attribute to the elem
 ```javascript
     const img = document.querySelector('#imgId');
 
-    img.setAttribute('src', 'http://www.lambdaschool.com/lambdalogo.png')
+    img.setAttribute('src', 'http://www.lambdaschool.com/lambdalogo.png');
 
-    img.src = 'http://www.lambdaschool.com/lambdalogo.png'
+    img.src = 'http://www.lambdaschool.com/lambdalogo.png';
 ```
 
 ### .style
@@ -161,8 +161,8 @@ The most common event listener to assign to an element is the 'click handler' in
 
 ```javascript
     const div = document.querySelector('#divId');
-    div.onclick = function(){
-        console.log("clicked!");
+    div.onclick = function() {
+        console.log('clicked!');
     };
 ```
 
@@ -172,7 +172,7 @@ The most common event listener to assign to an element is the 'click handler' in
 
 ```javascript
     const div = document.querySelector('#divId');
-    div.addEventListener('mouseenter', function(){
+    div.addEventListener('mouseenter', function() {
         console.log('mouse has entered!');
     });
 ```
