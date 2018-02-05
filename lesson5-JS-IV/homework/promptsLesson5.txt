@@ -1,0 +1,7 @@
+1. Callback functions are functions that can be referenced and used when dealing with other functions. To further simplify: they can be used as the value/argument for another function.
+
+2. Arguments are the values that are acted upon when using a function. They can be found within the parenthesis of any written function.
+
+3. Prototypes are properties added to a class that every object in the class can use
+
+4. Constructors are like functions, except they exist within a class to be used forto initialize objects within that class.

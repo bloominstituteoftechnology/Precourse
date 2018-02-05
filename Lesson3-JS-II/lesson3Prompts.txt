@@ -1,0 +1,7 @@
+1. for creates a function loop that runs that function until specified.
+
+2. && (and) is a comparison that returns true if the inputs to the left and right of 
+the ampersands have the value of true. || (or) returns true if either of the inputs 
+have the value of true. ! (not) returns the value opposite of the value of the input 
+
+3. Arrays are like containers that can hold an infinite amount of values of all types
