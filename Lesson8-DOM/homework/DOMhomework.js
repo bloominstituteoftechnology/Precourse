@@ -139,7 +139,13 @@ function addTodo() {
 
 //UNCOMMENT THE NEXT LINE
  let button = document.querySelector('#addButton');
+ let inputContainer = document.querySelector('#inputContainer');
  button.onclick = addTodo;
+ inputContainer.addEventListener('keyup',function(event){
+  if(event.key === 'Enter'){
+     button.click();
+   }
+ });
 
 function completeTodo(event) {
   /* 
