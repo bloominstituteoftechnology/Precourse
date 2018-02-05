@@ -178,7 +178,7 @@ function largestNumber(numbers) {
   // return the largest integer
   let largest = 0;
   for (let i = 0; i < numbers.length; i++) {
-    if(numbers[i] > numbers[i + 1] && numbers[i] > largest) {
+    if(numbers[i] > largest) {
       largest = numbers[i];
     }
   } return largest;
