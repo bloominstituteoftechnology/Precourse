@@ -1,4 +1,4 @@
-# Lesson 2: Introduction to Javascript
+# Lesson 4: Introduction to Javascript
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
