@@ -114,6 +114,13 @@ function addReverseString() {
   // name this method reverse
   // hint:
   // you will need to use 'this' inside of reverse
+  String.prototype.reverse=function(rString){
+let reverseString='';
+for (let i=this.rString.length-1;i>=0;i--){
+reverseString+=this.rString[i];
+}
+return reverseString;
+  };
 }
 
 function nFactorial(n) {
@@ -121,6 +128,12 @@ function nFactorial(n) {
   // solve this recursively
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
+  let fac=0;
+  while (n>1){
+fac=(n*n-1);
+n=n-1;
+  }
+  return fac;
 }
 
 function cacheFunction(cb) {
