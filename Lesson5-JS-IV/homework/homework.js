@@ -32,21 +32,27 @@ function sumArray(numbers, cb) {
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
+  arr.forEach(cb);
+/*
   for (let i = 0; i < arr.length; i++) {
     cb(arr[i]);
   }
+  */
 }
 
 function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
+  return arr.map(cb);
+  /*
   const newArr = [];
   for (let i = 0; i < arr.length; i++) {
     newArr.push(cb(arr[i]));
   }
   return newArr;
-}
+  */
+}  
 
 function createUserClass() {
   // create a class constructor called User
@@ -100,14 +106,31 @@ function addReverseString() {
       revString += this[i];
     }
     return revString;
-  }
+  };
 }
+
+/*
+function nFactorial(n) {
+  let p = 1;
+  if (n < 0)
+    p = null;
+  for (let i = 1; i <= n; i++)
+    p *= i;
+  return p;
+}
+*/
 
 function nFactorial(n) {
   // return the factorial for n
   // solve this recursively
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
+  if (n < 0)
+    return null;
+  else if (n === 0)
+    return 1;
+  else
+    return n * nFactorial(n-1);
 }
 
 function cacheFunction(cb) {
@@ -122,6 +145,7 @@ function cacheFunction(cb) {
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
+
 }
 
 // Do not modify code below this line.
