@@ -1,0 +1,21 @@
+1. Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+
+	* Variables -
+				They hold values that can be set and reset.  When writing a variable, these are the parts that is needed: Key, name of variable, equal sign, value assigned to the variable, end with a semi-colon.
+	      Ways to declare a variable:  Var (ES5 version) / let (ES6) / const (ES6 - means "constant" and it cannot not be changed.)
+	      Use Console.log () -  To see if the variable can be printed.  Anything between the paratheses, will print out in the console.
+	* Strings -
+				Block of text including numbers that is between quotes ""
+	* Functions (arguments, `return`)
+				Resuable code that can be called anywhere in your program.  Functions have a the following components: Use Function keyword, Name of function, list of parameters or passing in arguments, statement between curly brackets
+				To call a function to be used, simply write the name of the function followed by ().
+				return ""
+
+
+	* `if` statements
+			It is a control flow.  This will tell the computer to check for true and move on to the next or if not true, then stop and follow the next set of parameters (arguments)
+
+
+
+	* Boolean values (`true`, `false`)
+			In Javascript, Booleans mean True or False.  These basically mean you have 2 choices.
