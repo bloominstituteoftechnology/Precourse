@@ -1,0 +1,24 @@
+ p   { 
+      color: coral;
+	   }
+  h1 {
+      color: mediumorchid;
+      }
+  img {
+      width :400px;
+      }
+
+  #thirdDiv {
+        	    height: 600px;
+        	    width: 500px;
+        	    background-color: greenyellow; 
+        	    padding: 50px;
+        	    border-right: 3px;
+        	    border-style: dashed;
+        	    border-color: indianred; 
+            }
+  #spanId   {
+       	      font-size: 18px;
+       	      margin: 50px;
+               padding: 50px;
+            }
