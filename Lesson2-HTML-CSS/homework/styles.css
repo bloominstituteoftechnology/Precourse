@@ -1,0 +1,35 @@
+body {
+  background-image: url("https://previews.123rf.com/images/chatcameraman/chatcameraman1310/chatcameraman131000051/23115033-beautiful-gray-thai-pattern-seem-floral-fern-leave-lotus-and-fire-pattern-on-white-background-for-pa.jpg");
+  text-align: center;
+}
+h1 {
+  color: firebrick;
+}
+img {
+  width: 400px
+}
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+}
+.divClass {
+  position: static;
+  width: auto;
+  margin: auto;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: lightgrey;
+  padding: 50px;
+  border: 5px groove crimson;
+  position: static;
+  margin: auto;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+#maiThai {
+  display: block;
+}
