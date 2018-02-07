@@ -16,6 +16,7 @@ I. Create a basic HTML page.
       * a span element containing text describing your favorite food.
       * an 'a' element linking to your favorite restaurant.
     3. In the third div create:
+    3. In the third div create:
       * an an unordered list with two list items
       * an img tag in each list item linking to your favorite food. (Use google image search to find a photo, if you can't 
         use this address: "http://http://lorempixel.com/400/200/food/").
@@ -38,7 +39,7 @@ II. Add some style
 III. Create an external style sheet and import all of our previous style rules into the new stylesheet.
   A. Find styles.css file in this folder.
   B. COPY all of your style rules to this new file. (Do not include the style tags!)
-  C. Place: <!-- in front of your first style tag.
+  C. Place: <!-- in front of your first sty COPY all of your style rules to this new filele tag.
   D. Place: --> after your closing style tag.
 
 IV. Add, Commit and push your work to your github account.
