@@ -1,0 +1,19 @@
+h1 {
+    color: mediumaquamarine;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 800px;
+    width: 500px;
+    background-color: plum;
+    padding: 50px;
+    border-style: solid;
+    border-color: coral;
+    border-width: 100px;
+}
+#spanId {
+    font: 18px;
+    margin: 50px;
+}

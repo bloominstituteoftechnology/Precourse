@@ -1,8 +1,8 @@
 This is the instructions for the homework for Lambda School's Pre-course Workshop, Lesson 2 - HTML/CSS Fundamentals.
 
-Now that you have watched us create an HTML file and external style sheet you will do one of your own. 
+Now that you have watched us create an HTML file and external style sheet you will do one of your own.
 You will be writing all of your code in homework.html found in this folder.
-To view your HTML file, in your web browser select File-Open File- then select the homework.html file in this folder. 
+To view your HTML file, in your web browser select File-Open File- then select the homework.html file in this folder.
 
 I. Create a basic HTML page.
   A. Create the basic layout for an HTML page using html, head, and body.
@@ -17,7 +17,7 @@ I. Create a basic HTML page.
       * an 'a' element linking to your favorite restaurant.
     3. In the third div create:
       * an an unordered list with two list items
-      * an img tag in each list item linking to your favorite food. (Use google image search to find a photo, if you can't 
+      * an img tag in each list item linking to your favorite food. (Use google image search to find a photo, if you can't
         use this address: "http://http://lorempixel.com/400/200/food/").
 
 II. Add some style
@@ -25,7 +25,7 @@ II. Add some style
   B. Give your third div the id "thirdDiv".
   C. Give your other divs the class "divClass".
   D. Give the span in your seond div the id "spanId".
-  E. Add a style rule to your h1 element changing the color of the text (pick from 
+  E. Add a style rule to your h1 element changing the color of the text (pick from
      here: https://www.crockford.com/wrrrld/color.html).
   F. Add a style rule to the img element giving it a width of 400px;
   G. Add a style rule to 'thirdDiv' changing the height to 600px and the width to 500px.
@@ -43,14 +43,12 @@ III. Create an external style sheet and import all of our previous style rules i
 
 IV. Add, Commit and push your work to your github account.
 
-Extra credit:   
-  In order to do some of this you will either need to have an understanding of CSS currently, or will need to 
+Extra credit:
+  In order to do some of this you will either need to have an understanding of CSS currently, or will need to
   do some further homework, I recoomend the additional resources in the README or https://www.w3schools.com/css/default.asp)
-  
+
   * Set the background of the entire page to an image
   * Center the div's on the page
   * Center all of the elements on the page
   * Read about positioning and use the position rule in your styles
   * Read about flexbox and use flexbox to center all of the items on the page
-
-
