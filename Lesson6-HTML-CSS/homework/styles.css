@@ -1,0 +1,16 @@
+#spanID {
+            margin: 50px;
+            font-size: 18px;
+}
+#thirdDiv
+{
+    padding: 50px;
+    width: 600px;
+    height: 500px;
+    background-color: slategray;
+    border-style: solid;
+    border-color: Red;
+    border-width: 20px,
+    
+ 
+    }
