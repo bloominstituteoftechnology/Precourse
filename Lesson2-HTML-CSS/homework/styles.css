@@ -5,10 +5,20 @@ body {
 }
 
 .flex-container {
+  list-style: none;
+  text-align: center
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+      text-align: center
+}
 h1 {
   color: firebrick;
 }
