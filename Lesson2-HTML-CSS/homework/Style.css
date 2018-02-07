@@ -1,24 +1,80 @@
- p   { 
+* {
+   padding: 0;
+   margin: 0;
+
+}
+
+
+  p  { 
       color: coral;
+      : none;
 	   }
+
+  body {
+    background-image: url(homework.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
   h1 {
       color: mediumorchid;
+      margin-left: 205px;
       }
+
+  h3 {
+      margin-left: 230px;
+  }
+  h4 {
+     margin-left: 215px;
+ }
+
   img {
       width :400px;
+      padding-left: 50px;
+      padding-top: 15px
+
       }
 
   #thirdDiv {
         	    height: 600px;
         	    width: 500px;
-        	    background-color: greenyellow; 
+        	    background-color: cornflowerblue; 
         	    padding: 50px;
-        	    border-right: 3px;
+        	    border: 5px;
         	    border-style: dashed;
-        	    border-color: indianred; 
-            }
+        	    border-color: indianred;
+              margin-left: 420px;
+              margin-right:435px;
+              }
   #spanId   {
        	      font-size: 18px;
-       	      margin: 50px;
-               padding: 50px;
+       	      margin-left: 20px;
+               padding-top: 10px;
+
             }
+  .divClass {  
+ 
+        margin-left: 435px;
+
+  }
+
+ 
+ a {
+         margin-left: 180px;
+         font-size: 25px;
+ }
+
+ h5 {
+        margin-left: 140px;
+        font-size: 18px;
+ }
+
+ul {
+  list-style-type: none;
+}
+
+
+
+
+
+
