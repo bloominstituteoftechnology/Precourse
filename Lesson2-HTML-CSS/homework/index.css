@@ -1,0 +1,23 @@
+#center {
+    text-align: center;
+}
+ #thirdDiv {
+     height: 600px;
+     width: 500px;
+     background-color: cyan;
+     padding: 50px;
+     border-width: 5px;
+     border-color: blue;
+     border-style: dashed;
+ }
+
+ #spanId {
+     font-size: 18px;
+     margin: 50px;
+ }
+
+ body {
+     background-image: url(http://freedesignfile.com/upload/2017/01/Light-blue-tech-background-vector-05.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%, 100%;
+ }
