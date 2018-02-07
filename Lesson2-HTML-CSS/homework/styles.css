@@ -1,0 +1,15 @@
+h1{
+    color:hotpink;
+}
+img{
+    width:400px;
+}
+#thirdDiv{
+    height:600px;
+    width:500px;
+    padding:50px;
+    border:2px dotted hotpink;
+}
+#spanId{
+    margin:5px;
+}
