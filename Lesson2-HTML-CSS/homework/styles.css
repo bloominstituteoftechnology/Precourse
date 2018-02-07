@@ -1,0 +1,29 @@
+
+h1 {color: blue;}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: rgb(246, 250, 0);
+    padding: 50px;
+    width: 5px;
+    color:rgb(35, 104, 3);
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-image: url("http://sciencerocks.info/wp-content/uploads/2016/09/unique-white-marble-background-5.jpg");
+    text-align: center;
+}
+.divclass{
+    text-align: center;
+}
