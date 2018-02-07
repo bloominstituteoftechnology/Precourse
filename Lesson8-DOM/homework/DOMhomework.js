@@ -12,7 +12,7 @@ const toDoItems = [];
 */
 
 // code here
-const nn = documentElement.querySelector('#createdBy');
+const nn = document.querySelector('#createdBy');
 nn.innerHTML = 'This app was created by: Eian Landis';
 
 /* 
@@ -59,9 +59,9 @@ ToDo.prototype.completeToDo function () {
 
 function buildToDo(todo, index) {
   // code here
-  const toDoShell = documentElement.createElement('div');
+  const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
-  const toDoText = documentElement.createElement('span');
+  const toDoText = document.createElement('span');
   toDo.innerHTML = toDo.description;
   toDoText.id = index;
   if (todo.complete === true) {toDoText.className = 'completeText';}
@@ -97,7 +97,7 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
-	const toDoContainer = documentElement.getElementById('toDoContainer');
+	const toDoContainer = document.querySelector('toDoContainer');
 	toDoContainer.innerHTML = '';
 	buildToDos(toDoItems);
 	for(const i=0; i < toDoItems.length; i++)
