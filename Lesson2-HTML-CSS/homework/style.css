@@ -1,12 +1,13 @@
 h1 {color: magenta}
 img {width: 400px}
-#thirdDiv {
-    
-    height: 600px;
-    width: 500;
-    background-color: green;
-    padding: 50px;
-    border: 2px black dashed;
+html {background-color: yellow}
+body {
+    width: 99%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #spanId {
@@ -14,13 +15,11 @@ img {width: 400px}
     margin: 50px;
 }
 
-body {
-    width: 99%;
-    height: 99%;
-    background-color: yellow;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
+#thirdDiv {
+    
+    height: 600px;
+    width: 500;
+    background-color: green;
+    padding: 50px;
+    border: 2px black dashed;
 }
