@@ -1,0 +1,53 @@
+<!-- The contents of this file contains the external style sheet for the homework.html file in this folder. -->
+
+<!--
+h1 { color:crimson;
+    }
+-->
+
+body    {   background-image:url('https://atlanta-mp7static.mlsdigital.net/elfinderimages/ATL%20UTD/Wallpaper%20Downloads/2017/V7-Desktop.png');
+            background-repeat:no;
+            background-position:center center;
+            background-attachment:fixed;
+            color:crimson;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align:center;
+        }
+
+#divClass {   margin:auto;
+                width:70%;
+                padding:20px;}
+
+div {   background-color:black;
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier. */
+            border-radius:5px;
+            position:relative;
+            top:0px;
+            left:50px;
+        }
+
+.spanId  { font-size:18px;
+            margin:50px;
+
+        }
+
+#thirdDiv    { background-color:crimson;
+                height:600px;
+                height:500px;
+                padding:50px;
+                border:3px solid black;
+                border-radius:25px;
+                opacity:.9;
+                margin:auto;
+                width:50%;
+                color:black;
+            }
+
+img { width:400px;
+    }
+
+.flex-container {   display:flex;
+                        flex-direction:row;
+                }
+
