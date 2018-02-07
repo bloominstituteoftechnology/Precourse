@@ -1,0 +1,45 @@
+h1 { 
+    color: royalblue;
+    background-image: url(http://beyondesign.co.in/images/background.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    
+
+}
+img {
+    width: 400px;
+    
+}
+#thirdDiv {
+    margin: auto;
+    height: 450px; 
+    width: 460px;
+    border-style: dashed;
+    border-width: 20px 20px;
+    border-color: chartreuse;
+    background-color: yellow;
+    padding: 10px;
+}
+#spanId {
+    
+    color: brown;
+    font: 18px;
+    
+    padding: .5px;
+    width: 100px;
+    
+
+}
+.divclass {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    border: 3px solid rgb(205, 63, 63);
+    padding: 10px;
+}
+body {
+    background-image:url(https://wallpapercave.com/wp/AopTcFx.png);
+    background-repeat: no-repeat, repeat;
+    
+}
