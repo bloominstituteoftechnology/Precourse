@@ -5,17 +5,17 @@ You will be writing all of your code in homework.html found in this folder.
 To view your HTML file, in your web browser select File-Open File- then select the homework.html file in this folder. 
 
 I. Create a basic HTML page.
-  A. Create the basic layout for an HTML page using html, head, and body.
-  B. Add a title element and give your page the title of "[Your name]'s HTML homework".
-  C. In the body, create three divs.
-    1. In the first div create:
+  /A. Create the basic layout for an HTML page using html, head, and body.
+  /B. Add a title element and give your page the title of "[Your name]'s HTML homework".
+  /C. In the body, create three divs.
+    /1. In the first div create:
       * an h1 element containing [Your name].
       * an h3 element containing "Lambda School".
       * an h4 element containing "HTML/CSS homework".
-    2. In the second div create:.
+    /2. In the second div create:.
       * a span element containing text describing your favorite food.
       * an 'a' element linking to your favorite restaurant.
-    3. In the third div create:
+    /3. In the third div create:
       * an an unordered list with two list items
       * an img tag in each list item linking to your favorite food. (Use google image search to find a photo, if you can't 
         use this address: "http://http://lorempixel.com/400/200/food/").
@@ -36,10 +36,10 @@ II. Add some style
   /L. Give the id 'thirdDiv' a border, any width color and style you choose.
 
 III. Create an external style sheet and import all of our previous style rules into the new stylesheet.
-  A. Find styles.css file in this folder.
-  B. COPY all of your style rules to this new file. (Do not include the style tags!)
-  C. Place: <!-- in front of your first style tag.
-  D. Place: --> after your closing style tag.
+  /A. Find styles.css file in this folder.
+  /B. COPY all of your style rules to this new file. (Do not include the style tags!)
+  /C. Place: <!-- in front of your first style tag.
+  /D. Place: --> after your closing style tag.
 
 IV. Add, Commit and push your work to your github account.
 
