@@ -1,0 +1,46 @@
+body {
+  background-image: url(https://cdn.shopify.com/s/files/1/0871/3976/products/sushi_cat_1024x1024.jpg?v=1438364325);
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+a {color: #fff}
+
+h1 {
+  color: #ff3399;
+
+}
+
+img {
+  width: 400px;
+  display: block;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: #99dd44;
+  margin: 50px;
+  border: 10px solid #00ccff;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li {
+  position: sticky;
+  top: 100px;
+}
