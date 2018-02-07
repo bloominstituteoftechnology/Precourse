@@ -12,7 +12,7 @@ const toDoItems = [];
 */
 
 // code here
-const nn = document.querySelector('#createdBy');
+const nn = document.querySelector("div > span['#createdBy']");
 nn.innerHTML = 'This app was created by: Eian Landis';
 
 /* 
