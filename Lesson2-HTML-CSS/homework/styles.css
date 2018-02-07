@@ -1,0 +1,62 @@
+
+body {
+    background-image: url("https://tinyurl.com/ycl4synu");
+    color: green;
+}
+
+div {
+    vertical-align: middle;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: rgba(12, 211, 22, 0.774);
+}
+
+a {
+    color: rgb(187, 255, 0);
+}
+
+
+.divClass {
+    /* 
+        This is a placeholder for the most part since the homework doesn't have instructions
+        for what to put here, although I do like the font.
+    */
+    font-family: sans-serif;
+}
+
+.divFixed {
+    position: fixed;
+    top: 0;
+    width: 200px;
+    background-color: green;
+    border: 1.75px solid rgb(115, 173, 33)
+}
+
+.divFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#thirdDiv {
+    height: 420px;
+    width: 225px;
+    background-color: green;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border: 1.5px solid rgb(0, 195, 255);
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
