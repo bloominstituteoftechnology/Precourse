@@ -1,0 +1,50 @@
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+}
+h1 {
+    position: relative;
+    color: darkgrey;
+}
+img {
+    position: static;
+    width: 400px; 
+}
+body, html {
+    height: 100%;
+}
+.bg {
+    background-image: url(http://www.domainedefontenille.com/image/images_site/33/le-champ-des-lunes-restaurant-gastronomique-au-coeur-du-luberon-fond-background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box { 
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+.divClass {
+    align-self: flex-start;
+    max-width: 100%;
+}
+.thirdDiv {
+    align-self: flex-end;
+    height: 600px;
+    width: 500px;
+    background-color: bisque;
+    padding: 50px;
+    border: 1px solid black;
+}
