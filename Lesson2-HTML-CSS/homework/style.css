@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://previews.123rf.com/images/saidi21ns/saidi21ns1701/saidi21ns170100086/69287324-seamless-background-of-birthday-illustration-with-cute-unicorn-girl-with-colorful-balloons-on-polka-.jpg");
+}
+
+h1 {
+  color: magenta;
+  font-family: sans-serif;
+  font-size: 3em;
+  text-shadow: 3px 3px 1px rgba(0, 5, 0, 1);
+}
+
+img {
+  width: 400px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.divClass {
+  margin: auto;
+  width: auto;
+  color: darkviolet;
+  font-family:monospace;
+  font-size: 1em;
+  text-align: center;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: turquoise;
+  padding: 50px;
+  border: 7px dotted darkviolet;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
