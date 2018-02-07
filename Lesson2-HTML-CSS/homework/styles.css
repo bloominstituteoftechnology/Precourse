@@ -1,0 +1,11 @@
+h1 {color: deeppink;}
+img {width: 400px;}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: cyan;
+    padding: 50px;
+    border: 7px solid gold;}
+    #spanID {
+        margin: 50px;
+        font-size: 18px;}
