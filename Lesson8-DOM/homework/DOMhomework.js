@@ -3,7 +3,7 @@
 */
 
 // code here
-const toDoItems = [];
+//const toDoItems = [];
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -12,7 +12,7 @@ const toDoItems = [];
 */
 
 // code here
-const nn = document.querySelector("div > span['#createdBy']");
+const nn = document.querySelector('#createdBy');
 nn.innerHTML = 'This app was created by: Eian Landis';
 
 /* 
@@ -20,10 +20,10 @@ nn.innerHTML = 'This app was created by: Eian Landis';
           Add two properties to the class: 'description' which should be set equal to the description passed to the constructor, and 
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
-class ToDo{
-	constructor(description){
-		this.description = description;
-		this.complete = false;
+//class ToDo{
+	//constructor(description){
+		//this.description = description;
+		//this.complete = false;
 	}
 }
 
@@ -37,9 +37,9 @@ class ToDo{
 
 // code here
 
-ToDo.prototype.completeToDo function () {
-	this.complete = true;
-}
+//ToDo.prototype.completeToDo function () {
+//	this.complete = true;
+//}
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -56,7 +56,7 @@ ToDo.prototype.completeToDo function () {
             7.) Append child 'toDoText' to 'toDoShell'
             8.) return toDoShell
 */
-
+/*
 function buildToDo(todo, index) {
   // code here
   const toDoShell = document.createElement('div');
@@ -68,21 +68,21 @@ function buildToDo(todo, index) {
   
   toDoShell.appendChild('toDoText');
   return toDoShell;
-}
+}*/
 
 /* 
   STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
           Using the map method on the array passed in, use the 'buildToDo' function you wrote above as the callback passed to map. 
           Return the new mapped array.
 */
-
+/*
 function buildToDos(toDos) {
   // code here
   toDos.map(buildToDo(toDos);
   return toDos;
   
 	
-}
+}*/
 
 /* 
   STEP 6: Now that we can build an array of toDo elements, we want to make these elements appear on the screen, 
@@ -95,6 +95,7 @@ function buildToDos(toDos) {
           You can now load your html file in your broswer and see your work so far.
 */
 
+/*
 function displayToDos() {
   // code here
 	const toDoContainer = document.querySelector('toDoContainer');
@@ -106,7 +107,7 @@ function displayToDos() {
 	}
 	
   
-}
+}*/
 
 /* 
   STEP 7: This function, 'addToDo' will add a new ToDo to the 'toDoItems' array.
@@ -118,7 +119,7 @@ function displayToDos() {
           3.) Set the value of newToDo to an empty string (this will clear the text in the box allowing the user to enter another item).
           4.) Call displayToDos to refresh the toDos displayed
 */
-
+/*
 function addToDo() {
   // code here
   newToDo.value = new ToDo.description;
@@ -126,7 +127,7 @@ function addToDo() {
   newToDo.value = '';
   displayToDos();
    
-}
+}*/
 
 /* 
   STEP 8: In this step we will fire addToDo everytime the 'ADD' button is clicked.
@@ -134,12 +135,13 @@ function addToDo() {
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
 
+/*
 // code here
 const addButton = document.querySelector('#addButton');
 adderButton.onclick = function () {addToDo();}
 adderButton.addEventListener('mouseenter',function () {
 	addToDo;});
-
+*/
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
@@ -153,9 +155,9 @@ adderButton.addEventListener('mouseenter',function () {
           3.) In the 'buildToDo' function add a 'click' event listener to the 'toDoText' element, and pass this function as the callback.
 */
 
-function completeToDo(event) {
+//function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-	const index = event.target.id;
+	//const index = event.target.id;
 	//code here
 }
 
@@ -176,7 +178,7 @@ function completeToDo(event) {
 
 
 // Call displayToDos here (Step 6)<-----
-displayToDos();
+//displayToDos();
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
