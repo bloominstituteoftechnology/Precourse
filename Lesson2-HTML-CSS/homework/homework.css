@@ -1,0 +1,34 @@
+h1 {
+    color: burlywood;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: lightblue;
+    padding: 50px;
+    border: 4px solid tomato;
+}
+
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+}
+
+body {
+    background-image: url(lakeohau.jpg);
+}
+
+div {
+    margin: auto;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
