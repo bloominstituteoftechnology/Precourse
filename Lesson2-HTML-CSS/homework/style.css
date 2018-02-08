@@ -1,0 +1,33 @@
+
+        h1 {
+            color: darkcyan;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img {
+            width: 400px;
+            
+        }
+
+        #thirdDiv {
+            height: 600px;
+            width: 500px;
+            background-color: deeppink;
+            padding: 50px;
+            border: 4px solid darkcyan;
+            margin-left: auto;
+    margin-right: auto;
+        }
+
+        .spanId {
+            font-size: 18px;
+            margin: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        body {
+            background-image: url("https://www.planwallpaper.com/static/images/cool-background.jpg");
+
+        }
