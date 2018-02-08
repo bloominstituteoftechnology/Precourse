@@ -11,13 +11,13 @@ let newNum = 5;
 let newBool = true;
 
 //solve the following math problem
-let newSubtract = false;
+let newSubtract = true;
 
 //Solve the following math problem
-let newMultiply = false;
+let newMultiply = true;
 
 //Solve the following math problem:
-let newModulo = false;
+let newModulo = true;
 
 
 
