@@ -1,0 +1,41 @@
+h1 {
+	color:#006400;
+}
+
+img {
+	width:400px;
+}
+
+
+#thirdDiv {
+	width:500px;
+	height:600px;
+	background-color:#ff0;
+	padding:50px;
+	border: 1px solid rgba(200,0,0,.9);
+}
+
+#spanId {
+	font-size: 18px;
+	margin:50px;
+}
+
+/********************************
+    Extra Credit Work
+*********************************/
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYf7NDZyHP3G-v-AGMKNHyovZJ0lPck-IAYx0p8lj3S2JH7zpCMA");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+div {
+	margin: 0 auto;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}   

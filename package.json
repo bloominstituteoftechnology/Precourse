@@ -4,7 +4,16 @@
   "description": "This repo contains the instruction material and assignments for Lambda School's pre-course workshop.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint Lesson8-DOM/homework/homework.js Lesson7-JS-IV/homework/homework.js Lesson6-JS-III/homework/homework.js  Lesson5-JS-II/homework/homework.js Lesson4-Intro-to-JS/homework/homework.js && jest"
+    "test": "eslint Lesson8-DOM/homework/homework.js Lesson7-JS-IV/homework/homework.js Lesson6-JS-III/homework/homework.js  Lesson5-JS-II/homework/homework.js Lesson4-Intro-to-JS/homework/homework.js && jest",
+    "test:JSI": "eslint Lesson4-JS-I/homework/homework.js && jest JSI.test.js",
+    "test:JSII": "eslint Lesson5-JS-II/homework/homework.js && jest JSII.test.js",
+    "test:JSIII": "eslint Lesson6-JS-III/homework/homework.js && jest JSIII.test.js",
+    "test:JSIV": "eslint Lesson7-JS-IV/homework/homework.js && jest JSIV.test.js",
+    "test:JSV": "eslint Lesson8-JS-V/homework/homework.js && jest JSV.test.js",
+    "test:JSVI": "eslint Lesson9-JS-VI/homework/homework.js && jest JSVI.test.js",
+    "test:JSVII": "eslint Lesson10-JS-VII/homework/homework.js && jest JSVII.test.js",
+    "test:JSVIII": "eslint Lesson11-JS-VIII/homework/homework.js && jest JSVIII.test.js",
+    "test:DOM": "eslint Lesson12-DOM/homework/homework.js && jest DOM.test.js"
   },
   "repository": {
     "type": "git",
