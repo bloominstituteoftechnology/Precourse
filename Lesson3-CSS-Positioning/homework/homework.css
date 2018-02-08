@@ -44,7 +44,7 @@ in this folder, you are in the wrong place.
 #exerciseFive {
   display:flex;
   flex-direction:row-reverse;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items:center;
 }
 
