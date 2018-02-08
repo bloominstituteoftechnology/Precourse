@@ -56,40 +56,26 @@ in this folder, you are in the wrong place.
 
 #exerciseSeven {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-content: space-between;
 
 }
 
 #itemOne{
-  order: 1;
-  width: 40%;
-  height: 40%;
+flex-grow: 2;
 
 }
 
 #itemTwo{
-  order: 2;
-  width: 40%;
-  height: 40%;
-  position: absolute;
-  right: 0;
-
+align-self: flex-end;
+flex-grow: 2;
 }
 
 #itemThree {
-  order: 3;
-  width: 40%;
-  height: 40%;
-  align-self: flex-end;
-  position: absolute;
-  left: 0;
+flex-grow: 3;
 }
 
 #itemFour {
-  order: 4;
-  width: 40%;
-  height: 40%;
-  align-self: flex-end;
-  position: absolute;
-  right: 0;
+flex-grow: 1;
 }
