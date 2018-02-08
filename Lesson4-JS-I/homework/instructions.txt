@@ -1,0 +1,13 @@
+Variables
+Variables can be anything that can be declared by var, let, const.
+Strings
+Strings are words strung together by quotation marks can be double or single quotes.
+Functions
+Functions are blocks of code that run to execute a certain set of code.
+Functions use console.log to output things in the console.
+Functions use return to return the execution of the code in the function.
+if Statements
+if Statements are blocks of code that are used to figure out if one thing is true or false.
+if Statements will run a certain block of code if the parameter is either met or not met.
+Booleans
+Booleans are true/false Statements.
