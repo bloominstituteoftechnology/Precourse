@@ -1,0 +1,6 @@
+Lesson 4 Feynman prompts
+Objects: containers that hold items that are related to each other, such as a dictionary word and definition.
+Properties: a key/value pair held in in object.
+Methods: functions set on an object as a value.
+for in loop: a function that iterates through the items in an object
+Dot notation vs bracket notation: Dot notation is used to call the object and key. Bracket notation can only be used when calling a string or number.

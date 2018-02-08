@@ -1,0 +1,8 @@
+Lesson 5 Feynman prompts
+Undefined and Null: Undefined means that the object does not exist. Null means it exists, but there is no value associated with it.
+Truthiness: When a value is not true or false, it may be assigned a boolean value through type coercion.
+Arguments object: an array-like object related to the arguments passed in a function.
+Callbacks: inserting a function inside another function
+More Array Methods:
+Classes: contain objects that share the same properties.
+Prototype: methods that can be accessed by all objects within a class.
