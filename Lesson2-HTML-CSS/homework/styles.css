@@ -1,0 +1,39 @@
+/**********
+
+http://http://lorempixel.com/400/200/food/
+
+IV. Add, Commit and push your work to your github account.
+
+Extra credit:   
+  In order to do some of this you will either need to have an understanding of CSS currently, or will need to 
+  do some further homework, I recoomend the additional resources in the README or https://www.w3schools.com/css/default.asp)
+  
+  * Set the background of the entire page to an image
+  * Center the div's on the page
+  * Center all of the elements on the page
+  * Read about positioning and use the position rule in your styles
+  * Read about flexbox and use flexbox to center all of the items on the page
+
+**********/
+
+
+h1 {
+  color: darkslateblue;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: darkslateblue;
+  padding: 50px;
+  border: 5px solid darkslategray;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
