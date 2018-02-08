@@ -25,7 +25,7 @@ function addReverseString() {
 // --------------------------------
 
 module.exports = {
-  createUserClass: createUserClass,
-  addPrototypeMethod: addPrototypeMethod,
-  addReverseString: addReverseString,
+  createUserClass,
+  addPrototypeMethod,
+  addReverseString,
 };
