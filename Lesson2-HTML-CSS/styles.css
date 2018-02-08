@@ -1,0 +1,32 @@
+body {
+    background-image:url ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD2zagODrRI0a9r1vK-glny4mVHwc3hR3vKwTReKku4mvLR7Or");
+    background-color: #cccccc;
+}
+h1 {
+   color: olive; 
+}
+
+img { 
+    width: 400px;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: beige;
+    padding: 50px;
+    border: 25px;
+    border-color: black;
+    border-style: groove;
+
+}
+
+.divClass { 
+    width: 700px;
+    margin: 0 auto;
+}
