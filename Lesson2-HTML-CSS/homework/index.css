@@ -1,13 +1,14 @@
 #thirdDiv {
-    width:  500px;
-    height: 600px;
-    background-color: transparent;
-    padding: 50px;
+    width:  auto;
+    height: auto;
+    background-color: black;
+    padding: 10px;
     border: 3px dotted darkred;
-    /* margin: auto; */
+    display: flex;
 }
 
 .divClass {
+    
 }
 
 #spanId {
@@ -21,13 +22,15 @@ h1 {
 
 img {
     width:  300px;
-    height: 300px
+    height: 300px;
+    padding: 10px;
 }
 
 /* Extra credit */
 
 .text {
-    color: slategray;
+    color: darkred;
+    font-weight: bold;
 }
 
 .homepage-hero-module {
@@ -79,11 +82,19 @@ img {
     z-index: 1;
     width: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     /* text-align: center;*/
 }
 
 .overlay-item {
     margin: auto;
+    text-align: center;
+}
+
+li {
+    font-size: 30px;
+}
+
+thirdDiv-item {
+    
 }
