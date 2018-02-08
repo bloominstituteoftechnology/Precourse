@@ -2,15 +2,24 @@
 Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files 
 in this folder, you are in the wrong place. 
 */
+
+
+/* Exercise One: Centering the text in a span */
+
+/* We will start this one off for you: */
 #exerciseOne {
     display: block;
     text-align: center;
 }
+
+
 /* Exercise Two: Positioning a Header Bar*/
 
 #exerciseTwo{
     display: none;
 }
+
+
 /* Exercise Three: */
 #moveBoxcontainer{
   height: 300px;
@@ -27,6 +36,9 @@ in this folder, you are in the wrong place.
   top: 100px;
   left: 200px;
 }
+
+
+
 /* Exercise Four: */
 #exerciseFour{
     position: fixed
@@ -38,6 +50,8 @@ in this folder, you are in the wrong place.
 #exerciseFive{
     display: flex;
     justify-content: space-between;
+
+
 
 /* Exercise Six */
 #exerciseFive{
