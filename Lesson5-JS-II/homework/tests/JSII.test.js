@@ -29,8 +29,8 @@ describe('greeting(language)', function() {
   it('should return \'Hola!\' for Spanish', function() {
     expect(greeting('Spanish')).toBe('Hola!');
   });
-  it('should return \'Hello!\' for English', function() {
-    expect(greeting('English')).toBe('Hello!');
+  it('should return \'Ni Hao!\' for Mandarin', function() {
+    expect(greeting('Mandarin')).toBe('Ni Hao!');
   });
   it('should return \'Hello!\' if no argument is passed in or if a language beyond Spanish, English, and German is passed in.', function() {
     expect(greeting('French')).toBe('Hello!');

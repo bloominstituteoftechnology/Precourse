@@ -102,7 +102,7 @@ describe('newUser(name, email, password)', function() {
 describe('hasEmail(user)', function() {
   it('should return true if the user object has a value for its email property', function() {
     expect(hasEmail({ username: 'SunJieMing', email: 'ben@lambdaschool.com' })).toEqual(true);
-    expect(hasEmail({ username: 'Austen', email: '' })).toEqual(false);
+    expect(hasEmail({ username: 'Austen', email: null })).toEqual(false);
     expect(hasEmail({ username: 'Ryan' })).toEqual(false);
   });
 });
