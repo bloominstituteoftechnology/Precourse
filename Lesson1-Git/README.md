@@ -1,4 +1,4 @@
-# Lesson 1: Git fundamentals
+# Lesson 1: Git Fundamentals
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class.)
 
 In this lesson we will cover: 
@@ -17,9 +17,9 @@ In this lesson we will cover:
 * If you are on a Linux machine, you may need to install git by accessing your terminal and entering "apt-get install git".
 * If you are having trouble installing Git, this resource will help: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-## Description of version control and Git
+## Description of Version Control and Git
 
-Version control is a concept in software engineering which applies to the management of source code. There are many systems for applying version control practices to source code. We will be focusing on one of the most popular, "Git". 
+Version control is a concept in software engineering that applies to the management of source code. There are many systems for applying version control practices to source code. We will be focusing on one of the most popular: "Git". 
 
 ### Git
 
