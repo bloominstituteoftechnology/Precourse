@@ -1,0 +1,44 @@
+<!--
+body  {
+    background-image: url("https://s3-ap-southeast-2.amazonaws.com/nandosau-staticassets/s3fs-public/NandosPattern3_0.png");
+
+}
+h1 {
+    color: dodgerblue;
+    text-align: center;
+    flex-wrap: center;
+}
+h3 {
+    text-align: center;
+    flex-wrap: center;
+}
+h4 {
+    text-align: center;
+    flex-wrap: center;
+}
+img {
+    width: 400px;
+   }
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: peru;
+    padding: 50px;
+    border: 5px orangered solid;
+    margin: auto;
+    display: flex;
+    justify-content: center
+   
+    }
+    #spanId {
+        font-size: 18px;
+        margin: 50px;
+        }
+        #divClass {
+            padding: 100px;
+        }
+        .divClass {
+            text-align: center;
+            flex-wrap: center;
+        }
+        -->
