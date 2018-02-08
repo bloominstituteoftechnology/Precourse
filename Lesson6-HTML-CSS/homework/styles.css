@@ -1,0 +1,32 @@
+h1 {
+    color: darkred;
+}
+img {
+    width: 400px;       
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: dimgray;
+    padding: 50px;
+    border: 11px dotted darkslateblue;
+    margin: auto;    
+}
+.spanId {
+    font: 18px;
+    margin: 50px;    
+}
+body {
+    background-image: url(https://www.wallsandmurals.com/content/images/thumbs/0001641_wp30032_900.jpeg);
+    text-align: center;
+    margin: auto
+}
+.divClass {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    position: sticky;
+}
