@@ -1,0 +1,37 @@
+
+
+body {
+	background-image: url("http://wallpapercave.com/wp/93ikpOH.jpg");s
+	background-position: center;
+	background-size: cover;
+}
+
+
+}
+
+div {
+	align: center;
+}
+
+h1 {
+	color: blue;
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	background-color: green;
+	height: 600px;
+	width: 500px;
+	padding: 50px;
+	border: 2px solid black;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+} 
+
+
