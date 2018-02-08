@@ -1,0 +1,53 @@
+<!--
+            h1 {
+                color: purple;
+            }
+            img {
+                width: 400px;
+            }
+            #thirdDiv {
+                height: 600px;
+                width: 500px;
+                background-color: mistyrose;
+                padding: 50px;
+                border: thick double lightcoral;             
+            }
+            #spanId {
+                Font-size: 18px;
+                Margin: 50px;
+            }
+            body {
+                background-image: url("http://www.delgadoscarp.com/img/hero/home.jpg");
+            }
+            h1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }                
+            h3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            h4 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }                
+            #spanId {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }    
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            } 
+            #thirdDiv {
+                margin: 50px;
+                position: relative;
+                display: flex;                 
+                left: 300px;    
+            }
+-->
