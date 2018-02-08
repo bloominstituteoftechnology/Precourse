@@ -8,36 +8,85 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
+  display: block;
+  text-align: center;
 
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
+#exerciseTwo {
+  display: none;
 
-/* Place code here */
+}
+
+
 
 
 
 /* Exercise Three: */
+#exerciseThree {
+  position: relative;
+  top: 100px;
+  left: 200px;
+  
+}
 
-/* Place code here */
+
 
 
 
 /* Exercise Four: */
 
-/* Place code here */
+#exerciseFour {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
 
 
 
 /* Exercise Five */
-
-/* Place code here */
+#exerciseFive
+ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
 
 /* Exercise Six */
 
-#exerciseSeven {
+#exerciseFive{
   display: flex;
+  flex-direction: row-reverse;
+}
+
+    
+/* Exercise Seven */
+#exerciseSeven{
+  display: flex;
+  justify-content: space-around;
+  flex direction: row-reverse;
+
+}
+
+#itemOne {align-self: center;}
+#itemTwo {align-self: center;)
+#itemThree {align-self: flex-end;}   //this line is not working; please help correct
+#itemFour {align-self: flex-end;}    //this line is not working; please help correct
+  
+ 
+//Extra Credit - FlexBox Froggy **I got to level 24
+//EC2 - will read CSS Grid info
+
+
+
+
+
+
+  
+
+
 }
