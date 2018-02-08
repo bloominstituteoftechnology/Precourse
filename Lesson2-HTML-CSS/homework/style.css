@@ -1,0 +1,35 @@
+h1 {
+   color: white;
+        }
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: crimson;
+    padding: 50px;
+    border: 2px solid black
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+body {
+    background-image: url(http://images5.fanpop.com/image/photos/30500000/Ponyo-screencap-ponyo-on-the-cliff-by-the-sea-30547685-1920-1080.png);
+    background-position: center;   
+}
+
+div {
+    text-align: center;
+    margin: auto;
+}
+
+ul { 
+    list-style: none;
+    padding: 0;
+}
