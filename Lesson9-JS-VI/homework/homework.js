@@ -19,6 +19,7 @@ function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
+  // return new array
 }
 
 // Do not modify code below this line.
