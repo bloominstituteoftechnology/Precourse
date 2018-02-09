@@ -11,7 +11,7 @@ let newNum = 5;
 let newBool = true;
 
 //solve the following math problem
-let newSubtract = true;
+let newSubtract = 10 - 5 === 5;;
 
 //Solve the following math problem
 let newMultiply = true;
