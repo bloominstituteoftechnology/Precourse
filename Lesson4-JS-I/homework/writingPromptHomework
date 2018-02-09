@@ -1,0 +1,5 @@
+variable = data that is set to a value such as 'hi' or a number.
+strings = a stored sentence that is quoted.
+functions = a set of instructions to perform a task or calculation
+if statements = if a task is true, then that specified product is returned; otherwise another block of code is returned.
+Boolean statements= whether a statement is "true" or "false"
