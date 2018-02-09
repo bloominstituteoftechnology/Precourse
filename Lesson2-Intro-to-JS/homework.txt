@@ -1,0 +1,11 @@
+Variables - This like empty slots use to stores information to use for different purposes.
+
+Strings - This is like a group text that is place quotation marks.
+
+Functions - This is what we use to manipulate the variables. We can change them by adding them, multplying.
+--Arguments - we pass this into a function. You can choose to give a variable any value by giving the function an argument and then passing then argument in the function.
+
+if Statements - This is use to make a choise between differnt options. You can choose to do something if it is true or false.
+
+Boolean values - This gets it name from machine language from the past. It means to either be true or false, yes or no, 1 or 0.
+
