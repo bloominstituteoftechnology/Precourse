@@ -1,0 +1,53 @@
+Variables :
+    Variables can be anything -  numbers, text, groups of text and/or numbers. Variables are like assigning
+    a code word to a piece of information. For example, we can assign George Washington to the variable firstPrez. SO, rather than
+    write out George's full name, we can just write fristPrez and the computer will know what we're talking about.
+
+Strings :
+  Strings are pieces of information that are words. We're not going to use them to do math. Like your name. That's a string. We're not going
+  to need to do anything like divide or multiply your name.
+
+Functions (arguments, `return`) :
+  Functions are little packages of code. Any information that your function needs to run will be entered as an argument. What you
+  get out of the function will come out through the 'return' statement. For example - say you want to write a function that outs your first name and
+  last name together. The function will need your first and last name - your arguments. The function will run and your return statement will
+  return you full name.
+      function(firstName, lastName) {
+      return(firstName + ' ' + lastName);
+      }
+
+`if` statements :
+  If statements bits of code that run - if - a condition is met. Like, "If I get all A's, I get a tattoo". If the condition is not met, the code
+  doesn't run. For example,
+
+    var grade = A;
+    if (grade == A) {
+    return('tattoo');
+    }
+
+  My grade is grade is A (see the variable above the if statement). The variable grade is equal to (==) A, the statement is true. So 'tattoo' is returned.
+  If the variable of grade was equal to B, then grade == A would not be true and it would not return 'tattoo'.
+
+    And the opposite side of that, we can write an if statement like this -
+
+    if (grade != A) {
+    return 'grounded';
+    }
+
+  This if statement says that if grade is NOT EQUAL (!=) A, then return 'grounded'. If the variable grade is A, then this won't run. We won't
+  be grounded. If the variable grade is equal to anything other than A, then - :( - we're 'grounded'.
+
+Boolean values (`true`, `false`):
+  Boolean values compare two values and let you know if the statement is true or false. Your answer will always be true or false.
+    == EQUAL T0
+      4 == 4 : true
+      4 == 5 : false
+      'Abi' == 'Abi' : true
+      'Abi' == 'Awesome' : false
+    != NOT EQUAL TO
+      4 != 4: false
+      4 != 5: true
+      'Abi' != 'Abi' : false
+      'Abi' != 'Awesome' : true
+
+    You can similarly compare values with less than (<), greater than (>), less than or equal to (<=), and greater than or equal to (>=).
