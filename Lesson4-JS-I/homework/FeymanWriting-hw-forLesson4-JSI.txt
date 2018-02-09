@@ -1,0 +1,23 @@
+
+
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Variables
+	* Strings
+	* Functions (arguments, `return`)
+	* `if` statements
+	* Boolean values (`true`, `false`)
+
+
+
+Answers:
+
+Variables are things you want to store for later use. They can be words or text, numbers, or true/false values. They can be assigned or changed. Variables are how you tell the computer to store them for you.
+
+Strings are any text (or numbers you are not going to use for any kind of calculations) that you store in a variable.
+
+Functions are directions you give the computer to do things for you with the variables you have stored.
+
+"If" statements are ways to explain what the computer should do in different cases or situations.
+
+Boolean values are true or false values that you store in variables.
