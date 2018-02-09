@@ -1,0 +1,19 @@
+body {
+background-image: url("https://www.gamedevmarket.net/inc/uploads/Chicken_sombrero.gif");
+  }
+h1 {
+color:blue;
+}
+.divThree {
+height:600px;
+ width:500px;
+background-color:red;
+padding:50px;
+border-style:dotted;
+}
+.spanId {
+font-size:18px;
+margin:50px;
+}
+
+  }
