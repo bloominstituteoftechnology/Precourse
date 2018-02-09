@@ -19,7 +19,7 @@ function multiplyArguments() {
 
 function invokeCallback(cb) {
   // invoke cb
-  return cb();
+  cb();
 }
 
 function sumArray(numbers, cb) {
@@ -36,20 +36,27 @@ function sumArray(numbers, cb) {
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
-  arr.forEach(function(item){
-    cb(item);
-  });
+  //arr.forEach(function(item){
+  //  cb(item);
+  //});
+  for (let i = 0; i < arr.length; i++){
+    cb(arr[i]);
+  }
 }
 
 function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
-  let newArr = [];
-  arr.map(function(item){
-    newArr.push(cb(item));
-  });
-  return newArr;
+   const newArr = [];
+  // arr.map(function(item){
+  //   newArr.push(cb(item));
+  // });
+   for (let i = 0; i < arr.length; i++){
+     let newVal = cb(arr[i]);
+     newArr.push(newVal);
+   }
+   return newArr;
 }
 
 function createUserClass() {
