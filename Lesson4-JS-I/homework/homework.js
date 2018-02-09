@@ -94,14 +94,14 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  return (num % 2) === 0;
+  return num % 2 === 0;
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  return (num % 2) === 1;
+  return num % 2 === 1;
 }
 
 function square(num) {
@@ -139,7 +139,7 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  return str + '!';
+  return `${str}!`;
 }
 
 function combineNames(firstName, lastName) {
@@ -149,29 +149,11 @@ function combineNames(firstName, lastName) {
   return firstName + ' ' + lastName;
 }
 
-/*
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  let str1 = 'Hello ';
-  const str2 = '!';
-  return str1.concat(name, str2);
-}
-
-function getGreeting(name) {
-  // Take the name string and concatenate other strings onto it so it takes the following form:
-  // 'Sam' -> 'Hello Sam!'
-  // code here
-  return 'Hello '.concat(name, '!');
-}
-*/
-
-function getGreeting(name) {
-  // Take the name string and concatenate other strings onto it so it takes the following form:
-  // 'Sam' -> 'Hello Sam!'
-  // code here
-  return 'Hello '+ name +'!';
+  return `Hello ${name}!`;
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -186,7 +168,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  return (base * height) / 2;
+  return base * height / 2;
 }
 
 // Do not modify code below this line.
