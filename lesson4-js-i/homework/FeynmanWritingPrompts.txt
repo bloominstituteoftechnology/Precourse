@@ -1,0 +1,23 @@
+Feynman Writing Prompts  by M.E. Lau / Emmy
+
+    Variables 
+
+    Strings 
+
+    Functions (arguments, return) 
+
+    if statements 
+
+    Boolean values (true, false) 
+
+ 
+
+    1. Variables are defined using 'var' in ES5 or 'let' in ES6. They specified name of the variable is followed by an equals sign followed by the assigned 	       value of the variable. For example: Totalcount = a or Totalcount = 10.  
+
+    2. Strings are recognized as data within single or double quotation marks. Real numbers do not have quotation marks around them.  Strings may be a        sequence of characters separated by commas or plus signs.  
+
+    3. Functions are a type of procedure, routine, operation, or command that will be executed or called at the end of the function (return or console.log)         to produce a result. Arguments are the actual input expression passed/supplied to a function, procedure, or routine in the invocation/call statement.        Return defines the method in which the desired output will produced. 
+
+    4. 'If' statements are used in a Boolean inquiry to produce binary results of Yes or No, True or False, 1 or 0.  
+
+    5. Boolean values are binary. For example, Yes or No, True or False, Black or White, are boolean values.  
