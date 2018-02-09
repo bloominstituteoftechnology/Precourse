@@ -1,0 +1,45 @@
+body {
+    background-color: gainsboro;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: whitesmoke;
+    padding: 50px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.divClass {
+
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+h1 {
+    color: firebrick;
+}
+
+ul { 
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+img {
+    width: 400px;
+    border-radius: 5px;
+} 
+
+div {
+    text-align:center;
+    margin:auto;
+}
