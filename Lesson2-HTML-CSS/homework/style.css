@@ -1,0 +1,24 @@
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+    background-color: indianred;
+    padding: 50px;
+    border: 6px black;
+}
+
+h1 {
+    color: indigo;
+}
+
+img {
+    width: 400px;
+}
+
+.spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+.divClass {
+    padding-bottom: 6px;
+}
