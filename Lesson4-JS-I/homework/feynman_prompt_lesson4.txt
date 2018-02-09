@@ -1,0 +1,11 @@
+Feynman Writing Prompt
+
+* Variables - A container that can hold a value; that value can vary over     time. Examples might be numbers.
+
+* Strings - A string is a series of characters (a, b, c, etc.) that are grouped together in a series. Words in a sentence are strings.
+
+* Functions (arguments, `return`) - A function is something that allows you to group things together in a kind of unit. Arguments are things that can be passed or given to the function. Return is a value that is received back from a function when it is called.
+
+* `if` statements - If statements allow you to ask questions. The questions are in the form of 'yes' or 'no'.
+
+* Boolean values (`true`, `false`) - From the 'if' statements these are what the 'yes' and 'no' would be similar to. Yes is true and no is false.
