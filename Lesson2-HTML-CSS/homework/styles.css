@@ -1,0 +1,24 @@
+h1{
+    color:hotpink;
+}
+img{
+    width:400px;
+}
+#thirdDiv{
+    height:600px;
+    width:500px;
+    padding:50px;
+    background-color:gainsboro;
+    border:2px dotted hotpink;
+    margin:auto;
+}
+#spanId{
+    margin:50px;
+    font-size:18px;
+}
+.divClass{
+    text-align:center;
+}
+body{
+    background-image:url("https://i1.wp.com/famishedfish.com/wp-content/uploads/2014/04/Creamy-Homemade-Mac-N-Cheese-Spirals-4.jpg");
+}
