@@ -1,0 +1,27 @@
+body {
+    background-image: url("http://lorempixel.com/output/city-q-c-1920-1920-7.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+  text-align: center;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    background-color: burlywood;
+    border: 2px solid red;
+}
+
+#spanId {
+    display: table;
+    font-size: 18px;
+    margin: 50px;
+}
