@@ -23,15 +23,15 @@ Version control is a concept in software engineering that applies to the managem
 
 ### Git
 
-Git was created in 2005 by Linus Torvalds. Git allows a team to work concurrently on a single project, or "repository", all while staying current and up to date. This is done through branching, each member, or feature, can have a branch from the master branch. That branch can be edited as needed without interfering with the "master". When the time comes to merge the branches back together, git will evaluate where the changes were made and will correct the master to reflect those changes without interfering with other changes. Git also acts as a sort of time machine, allowing a team to revert ANY changes made to the source code throughout the history of the code. 
+Git was created in 2005 by Linus Torvalds. Git allows a team to work simultaneously on a single project, or "repository", all while keeping everything current and up to date. This is done through branching, where each member or feature can have a branch from the master branch. That branch can then be edited as needed without interfering with the "master" version. When the time comes to merge the branches back together, git will evaluate where the changes were made and will correct the master to reflect those changes without interfering with other changes. Git also acts as a sort of time machine, allowing a team to revert ANY changes made to the source code throughout the history of the code. 
 
 ### Github.com
 
-[Github.com](https://github.com) is a network to store your repositories, essentially it is a repository of repositories. It is one of many available on the internet, and the most popular. Git != Github, although they work very well together. Github is a place for you to store your code or find other projects. It also acts as a portfolio for any code you've worked on. If you plan on being a developer you should have a Github account. We will be using Github extensively throughout your time at Lambda School. 
+[Github.com](https://github.com) is a network to store your repositories, being, essentially, a repository of repositories. It is one of many available on the internet, and the most popular. Git != Github, although they work very well together. Github is a place for you to store your code or find other projects. It also acts as a portfolio for any code you've worked on. If you plan on being a developer you should have a Github account. We will be using Github extensively throughout your time at Lambda School. 
 
-## Basic terminal commands:
+## Basic Terminal Commands:
 
-> We will be using the "terminal" or "command line" throughout your time at Lambda school. If you are on a Mac or Linux machine, you should have the terminal and git installed already, if you are on a Windows machine I recommend installing ["git-bash"](https://git-for-windows.github.io/).
+> We will be using the "terminal" or "command line" throughout your time at Lambda school. If you are on a Mac or Linux machine, you should have the terminal and git installed already. If you are on a Windows machine, I recommend installing ["git-bash"](https://git-for-windows.github.io/).
 
 Within our terminal we can: traverse our file structure, add files, remove files, update files, and tons more! The terminal is a very powerful tool for developers and you will be using it a lot in your professional development career. It might look scary at first, but in time you will enjoy using it. It is best to get accustomed to it now. To begin we will learn the 'basic' commands:
 
@@ -101,7 +101,7 @@ Once you have the address copied, return to your terminal window and enter the f
 
 This will download the repo and you now have a local copy of the repo saved to your machine!
 
-## Git commands:
+## Git Commands:
 
 Throughout these lessons, we will interact with git through our terminal. In the future you may wish to use a Git GUI interface, but during these lessons we will need to use the terminal for all git functions. 
 
@@ -181,7 +181,7 @@ Congratulations! You just pushed your first git commit!
   In this exercise, we will submit a pull request through github.com
 
 
-  ## Further reading and tutorials:
+  ## Further Reading and Tutorials:
 
   * [Git: official site](https://git-scm.com/)
   * [Github: official tutorial](https://try.github.io/levels/1/challenges/1)
