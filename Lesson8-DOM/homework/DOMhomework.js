@@ -3,7 +3,7 @@
 */
 
 // code here
-let toDoItems = [];
+const toDoItems = [];
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -31,9 +31,9 @@ class ToDo{
 };*/
 
 
-function ToDo (description) {  
-  this.description= description;
-  this.complete= false;
+function ToDo(description) {  
+  this.description = description.description;
+  this.complete = description.false;
 }
 
 
@@ -61,15 +61,17 @@ ToDo.prototype.completeToDo = function () { this.complete = true;}
                   is set to true. If it is, give 'toDoText' a CSS class of 'completeText'. If it is not, do not give it a class.
             7.) Append child 'toDoText' to 'toDoShell'
             8.) return toDoShell
+             3.) In the 'buildToDo' function add a 'click' event listener to the 'toDoText' element, and pass this function as the callback.
 */
 
 function buildToDo(todo, index) {
   // code here
-	const toDoShell = document.createElement("div");
+	var toDoShell = document.createElement("div");
 	toDoShell.className = 'toDoShell';
-	const toDoText = document.createElement("span");
+	var toDoText = document.createElement("span");
 	toDoText.innerHTML = todo.description;
 	toDoText.id = index;
+	toDoText.onclick = function(){return completeToDo();}
 	if (todo.complete === true)
 		{toDoText.className = 'completeText';}
 	toDoShell.appendChild(toDoText);
@@ -84,8 +86,8 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
-  const why = toDos.map(buildToDo);
-  return why;
+	toDos.map(buildToDo);
+	return toDos;
 }
 
 /* 
@@ -101,20 +103,14 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
-  console.log('hi');
-	const toDoContainer = document.querySelector('#toDoContainer');
-	//const toDoContainer = document.getElementById('toDoContainer');
-	toDoContainer.innerHTML = " ";
-	let hh = buildToDos(toDoItems);
-	for(const i=0; i < hh.length; i++)
+	const toDoContainer = document.getElementById('toDoContainer');
+	toDoContainer.innerHTML = "";
+	const tt = buildToDos(toDoItems);
+	for(var i=0; i < tt.length; i++)
 	{
-		toDoContainer.push(hh[i]);
-		//toDoContainer.appendData(toDoItems[i]);
-		
+		toDoContainer.innerHTML = tt;
+		//toDoContainer.appendData(tt.description);
 	}
-
-	
-  
 }
 
 /* 
@@ -130,12 +126,10 @@ function displayToDos() {
 
 function addToDo() {
   // code here
-	const newToDo = document.querySelector('#text').value;
-	//const newToDo = document.getElementById("toDoInput").value;
-	const tt = new ToDo(newToDo);
-	ToDo(tt);
-	toDoItems.push();
-	newToDo.value = '';
+	const newToDo = new ToDo(document.getElementById('toDoInput').value);
+	toDoItems.push(newToDo);
+	document.getElementById('toDoInput').value = "";
+	//newToDo.value = " ";
 	displayToDos();
 }
 
@@ -146,8 +140,9 @@ function addToDo() {
 */
 
 // cod here
-const click = document.querySelector('#addButton');
-click.onclick = function () {addToDo();};
+var click = document.getElementById('addButton');
+click.onclick = function () {return addToDo();}
+//click.addEventListener("mouseenter" function () {addToDo();});
 
 
 /* 
@@ -164,8 +159,10 @@ click.onclick = function () {addToDo();};
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  //const index = event.target.id;
+  const index = event.target.id;
+  completeToDo(toDoItems(index));
   // code here
+  displayToDos();
 }
 
 /* STEP 10: Make sure ALL tests pass */
