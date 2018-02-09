@@ -1,0 +1,9 @@
+Variables - A variable is given a name and is used to store and reference a given value.
+
+Strings - A stored array of characters.
+
+Functions - A set of code to be executed when called. A function can be passed variables to be used within the function's execution.
+
+If statement - Executes code within the statement if a certain criteria is met.
+
+Boolean values - A stored value of true or false.
