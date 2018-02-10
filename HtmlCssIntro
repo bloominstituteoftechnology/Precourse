@@ -1,0 +1,44 @@
+HTML
+
+<html>
+    <head>
+        <title>Title here</title>
+        <link rel="stylesheet" href="./index.css"/>
+    </head>
+    <body>
+        <p id="firstParagraph">This is text to display in a paragraph</p>
+        <span class="spanClass"> This is text to display in a span</span>
+        <div id="divId"><span>THIS IS THE DIV</span></div>
+        <a> href="http://www.espn.go.com">ESPN</a>
+        <h1>h1 tag</h1>
+        <h3>h3 tag</h3>
+        <h6>h6 tag</h6>
+        <img src="http://lorempixel.com/200/200" />
+        <ul>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+            <li>list item 4</li>
+        </ul>
+    </body>
+</html>
+
+
+li {
+  color:red;
+}
+
+#firstParagraph {
+  color:red;
+  font-size: 34px;  
+}
+
+.spanClass {}
+
+#divId {
+  border: 1px solid blue;
+  height: 100px;
+  width: 100px;
+  padding: 10px:
+  margin: 50px;  
+}
