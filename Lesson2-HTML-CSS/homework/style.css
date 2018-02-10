@@ -1,0 +1,34 @@
+h1 {
+    color: blue;
+}
+img {
+    width: 400px;
+}
+h3 {
+    color: yellow
+}
+h4 {
+    color: yellow;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color:black;
+    padding: 50px;
+    border: 2px solid yellow;
+    text-align: center;
+}
+.divclass {
+    text-align: center;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    color: yellow;
+}
+a {
+    color: white;
+}
+body {
+    background: url("http://www.kentucky.com/news/business/p25fm7/picture94564067/alternates/LANDSCAPE_1140/Logans-Roadhouse_Restaurant");
+}
