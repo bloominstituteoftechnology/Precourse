@@ -1,6 +1,6 @@
-/* 
-Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files 
-in this folder, you are in the wrong place. 
+/*
+Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files
+in this folder, you are in the wrong place.
 */
 
 
@@ -35,12 +35,21 @@ in this folder, you are in the wrong place.
 #exerciseFour{
 	position: fixed;
 	top: 0;
+	z-index: 1;
 }
 
 
 /* Exercise Five */
 
+
 /* Place code here */
+#exerciseFive{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
 
 
 
@@ -48,4 +57,7 @@ in this folder, you are in the wrong place.
 
 #exerciseSeven {
   display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column-reverse;
 }
