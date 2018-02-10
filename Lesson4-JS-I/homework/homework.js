@@ -47,7 +47,7 @@ function divide(x, y) {
 }
 
 function areEqual(x, y) {
-  /return(x===y);
+  return(x===y);
 }
 
 function areSameLength(str1, str2) {
@@ -79,55 +79,42 @@ function square(num) {
 }
 
 function cube(num) {
-  // cube num and return the new value
-  // code here
+  return(Math.pow(num, 3));
 }
 
 function raiseToPower(num, exponent) {
-  // raise num to whatever power is passed in as exponent
-  // code here
+  return(Math(num, exponent));
 }
 
 function roundNumber(num) {
-  // round num and return it
-  // code here
+  return(Math.round(num));
 }
 
 function roundUp(num) {
-  // round num up and return it
-  // code here
+  return(Math.ceiling(num));
 }
 
 function addExclamationPoint(str) {
-  // add an exclamation point to the end of str and return the new string
-  // 'hello world' -> 'hello world!'
-  // code here
+  return(str + '!');
 }
 
 function combineNames(firstName, lastName) {
-  // return firstName and lastName combined as one string and separated by a space.
-  // 'Lambda', 'School' -> 'Lambda School'
-  // code here
+  return(firstName + ' ' + lastName);
 }
 
 function getGreeting(name) {
-  // Take the name string and concatenate other strings onto it so it takes the following form:
-  // 'Sam' -> 'Hello Sam!'
-  // code here
+  return('Hello ' + name + '!');
 }
 
 // The next three questions will have you implement math area formulas.
 // If you can't remember these area formulas then head over to Google.
 
 function getRectangleArea(length, width) {
-  // return the area of the rectangle by using length and width
-  // code here
+  return(length * width);
 }
 
 function getTriangleArea(base, height) {
-  // return the area of the triangle by using base and height
-  // code here
-}
+  return((base * height)/2);
 
 // Do not modify code below this line.
 // --------------------------------
