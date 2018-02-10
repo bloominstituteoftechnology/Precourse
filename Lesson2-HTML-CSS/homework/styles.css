@@ -1,0 +1,46 @@
+h1{
+    color: dimgray;
+}    
+img{
+    width: 400px;
+   
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: mintcream;
+    padding: 50px;
+    border: 1px solid ghostwhite;
+   
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-image: url("https://inspirationhut.net/wp-content/uploads/2013/05/201.png");
+    margin: 0;
+}
+.center{
+    /* height: 100%;
+    padding: 0;
+    margin: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.divClass{
+   top: 0%;
+   text-align: center;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 80px;
+}
+span{
+    text-align: center;
+}
