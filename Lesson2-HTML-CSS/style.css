@@ -1,0 +1,29 @@
+<style>
+
+h1{
+color: red;
+
+}
+
+img{
+
+  width: 400px;
+}
+
+#thirdDiv{
+height: 600px;
+width: 500px;
+background-color: grey;
+padding: 50px;
+border: solid;
+border-width: thin;
+border-color: inherit;
+border-style: groove;
+}
+
+#spanId{
+font-size: 18px;
+margin: 50px;
+
+}
+</style>

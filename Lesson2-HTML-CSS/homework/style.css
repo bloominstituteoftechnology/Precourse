@@ -1,0 +1,78 @@
+a:link {color: #FF0000}
+
+
+
+
+body{
+
+  background: url(http://ocean.nationalgeographic.com/u/TvyamNb-BivtNwpvn7Sct0VFDulyAfA9wBcU0gVHVnqC5ghqXjggeitqtJ-1ZIZ1rmCgor42TXOteIQU/)  no-repeat 50% 50% fixed;
+    background-size: cover;
+      -moz-background-size: cover;
+        -o-background-size: cover;
+          -webkit-background-size: cover;
+
+}
+
+
+h1{
+color: firebrick;
+
+}
+
+img{
+
+  width: 400px;
+}
+
+#thirdDiv{
+
+height: 600px;
+width: 500px;
+background-color: azure;
+padding: 50px;
+border: solid;
+border-width: thin;
+border-color: inherit;
+border-style: groove;
+}
+
+#spanId{
+font-size: 18px;
+margin: 50px;
+
+}
+
+
+div{
+  margin: auto;
+
+}
+
+.divClass{
+  text-align: center;
+}
+
+
+  flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  row {
+    width: 100%;
+  }
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
