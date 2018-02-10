@@ -1,0 +1,5 @@
+    * Variables - allow to save data
+	* Strings - data type of text
+	* Functions (arguments, `return`) - take the arguments and execude specific lines of command which results in giving out the return
+	* `if` statements - boolean loop 
+	* Boolean values (`true`, `false`) - data type of 1 or 0
