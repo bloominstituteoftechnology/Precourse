@@ -1,0 +1,56 @@
+h1 {
+    color: orchid;
+}
+
+img{
+    width: 400px;
+}
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: orange;
+    padding: 10px;
+    border: 100px dotted black;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 3px;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
+body, html{
+    height: 100%;
+}  
+
+.bg{
+    background-image: url("http://truxter.org/wp-content/uploads/2014/05/jack.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divClass{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 3px;
+}
+
+*{
+    text-align: center;
+    margin:auto;
+}
