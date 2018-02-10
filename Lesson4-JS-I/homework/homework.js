@@ -20,9 +20,9 @@ const newModulo = 21 % 5 === null ;
 
 
 
-//In the next 22 problems you will compete the function. All of your code will go inside of the function braces. 
+//In the next 22 problems you will compete the function. All of your code will go inside of the function braces.
 //Make sure you use return when the prompt asks you to.
-//hint: console.log() will NOT work. 
+//hint: console.log() will NOT work.
 //Do not change any of the function names
 
 function returnString(str) {
@@ -135,9 +135,9 @@ function getGreeting(name) {
   // code here
 }
 
-// The next three questions will have you implement math area formulas. 
+// The next three questions will have you implement math area formulas.
 // If you can't remember these area formulas then head over to Google.
- 
+
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
