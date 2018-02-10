@@ -1,0 +1,37 @@
+h1 {
+    color: darkseagreen;
+}
+
+img {
+    width: 400px;
+    height: 280px;
+}
+
+#divClass {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#thirdDiv {
+    display: flex;
+    align-items: center;
+    height: 600px ;
+    width: 500px;
+    background-color: slategrey;
+    padding: 50px;
+    border: 4px darkslategrey solid;
+    
+}
+
+#spanId {
+    font: 18px;
+    margin: 50px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://i.imgur.com/dLmm1cn.jpg");
+    background-size: 100%
+}
