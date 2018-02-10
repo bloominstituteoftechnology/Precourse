@@ -1,0 +1,23 @@
+Variables
+=========
+def: terms you create that hold different types of data such as numbers or words.
+
+Strings
+=========
+def: a type of data meant to handle letters, words, or sentences
+
+Functions (arguments, return)
+===========================
+def: an operation (with a name) that performs a specific task when used.
+sometimes variables can be included as arguments that do something within the function.
+sometimes the function will return data when it is done.
+
+if statements
+==================
+def: conditions that decide the program/application will do. It is mostly used for
+numerical comparisons.
+
+Boolean values (true, false)
+===========================
+def: values that determine if something is logically correct or not.
+they consist of "true" and "false" and can also be defined as 1s and 0s.
