@@ -1,0 +1,5 @@
+A variable represent a value, either a number, letter, string, or boolean
+A string are a group of characters, they can contain numbers, letters, spaces, or symbols
+A function is a snippet of code that can be called.  It may require arguments to use for variables and may return a value
+An if statement is code that will result in one action if true and a different specified action if false
+A boolean value is simply a variable that either equals true or false
