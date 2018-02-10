@@ -8,7 +8,7 @@ To receive help with the homework you can join our Slack team.  After registerin
 
 ### Live Broadcast Recordings
 
-All recordings are available on our [YouTube channel](https://www.youtube.com/channel/UCmgWnKIhmOi-MuRUC62mOFw?view_as=subscriber
+All recordings are available on our [YouTube channel](https://www.youtube.com/channel/UCmgWnKIhmOi-MuRUC62mOFw?view_as=subscriber).
 
 Live stream recordings will also be listed here:
 
