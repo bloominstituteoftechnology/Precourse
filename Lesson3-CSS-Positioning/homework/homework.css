@@ -10,34 +10,44 @@ in this folder, you are in the wrong place.
 #exerciseOne {
 
 }
+#exerciseOne {
+  display: block;
+  text-align: center;
+}
 
+#exerciseTwo {
+  display: none;
+}
 
-/* Exercise Two: Positioning a Header Bar*/
+#exerciseThree {
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
 
-/* Place code here */
+#exerciseFour {
+  position: absolute;
+  top: 0px;
+}
 
-
-
-/* Exercise Three: */
-
-/* Place code here */
-
-
-
-/* Exercise Four: */
-
-/* Place code here */
-
-
-
-/* Exercise Five */
-
-/* Place code here */
-
-
+#exerciseFive {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
 
 /* Exercise Six */
 
 #exerciseSeven {
   display: flex;
+}
+
+#itemOne {
+  flex-direction: row;
+  align-self: center;
+}
+
+#itemThree {
+  align-self: center;
 }
