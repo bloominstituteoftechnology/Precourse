@@ -1,0 +1,38 @@
+Variable: is like a storage box for various types of information. Using variables makes it easier to reference information in a program. for example, instead of typing " Lambda School is the best school ever" over and over again, we can  instead make a variable called "X" to store the sentence. And when you want to use it, all you have to do is type "X". there are different types of variables for different types of information: integers, strings, booleans, arrays ...Above all, you can change or edit  the values of variables. Using variables in a program means you are controlling the output of the program or what the user sees 
+
+String: it is a variable type used to represent text. Strings hold group of characters like a word or a phrase,  making it easier for programmers to read and work with. The string values have to be written within the quotation marks in order to be evaluated as strings.
+
+Function: in programming we often use the code more than once, and we can repeat actions or we can add a pieces of code to complete more complex tasks. Functions teach the computer how to do something one time and easily reuse the the code to do it again later. Function is a sequence of commands that can be reused together later in the program. functions dictate what code is executed and allows separation of code making it  easy for us to reuse it again later.Functions simplify complex actions into one command.  
+ 
+Arguments: are specifications that we put inside the functions in order to get the output that we need from it. For example, let say we have a function to add 2 numbers and give us the results. We decide what numbers we give to  the function, the two numbers that we choose are called arguments.
+
+Return: it is a command that runs  inside the function and whenever the execution of the code inside the  function reach it,  the function stop working and pass the value to the code outside the function. Return is a tool to extract the value from the inside of the function to the outside of a function.
+
+If Statements: it is a conditional statement to help guid the computer to take decision based on the information stated in the If statement.  The if statement  says if something is true, the computer should run a specific piece of code stated inside the If statement curly braces. The information stated in the if statement could be the words "true" or "false" directly, or the expressions stated get evaluated to true or false.
+
+Boolean: it is a type of variables has only 2 possible values "true and false". in computer all comparisons, logical operations, and conditional statements applied to and/or yielded Boolean values. The computer can use them directly as words, or evaluate the expressions stated in comparisons and logical operations  to a true concept or a false concept.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
