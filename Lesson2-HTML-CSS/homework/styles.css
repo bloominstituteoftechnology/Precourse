@@ -1,0 +1,29 @@
+h1 {
+    color: midnightblue;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: darksalmon;
+    padding: 50px;
+    border: 5px solid slategray;
+}
+#spanId {
+    font-size: 18px;
+    margin:  50px;
+}
+body {
+    background: 100% 100% url('https://www.desktopbackground.org/p/2010/06/27/39599_swirly-framed-paper-texture-wallpapers_1920x1200_h.jpg') no-repeat floralwhite;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+div {
+    /*margin:  0 auto;
+    text-align: center;*/
+}
