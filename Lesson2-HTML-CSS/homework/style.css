@@ -1,0 +1,29 @@
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: steelblue;
+}
+
+img {
+    width: 400px;
+}
+
+.divClass {
+    text-align: center;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: burlywood;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
