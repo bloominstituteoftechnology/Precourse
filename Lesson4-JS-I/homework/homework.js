@@ -83,15 +83,15 @@ function cube(num) {
 }
 
 function raiseToPower(num, exponent) {
-  return(Math(num, exponent));
+  return(Math.pow(num, exponent));
 }
 
 function roundNumber(num) {
-  return(Math.round(num));
+  return Math.round(num);
 }
 
 function roundUp(num) {
-  return(Math.ceiling(num));
+  return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
@@ -115,6 +115,7 @@ function getRectangleArea(length, width) {
 
 function getTriangleArea(base, height) {
   return((base * height)/2);
+}
 
 // Do not modify code below this line.
 // --------------------------------
