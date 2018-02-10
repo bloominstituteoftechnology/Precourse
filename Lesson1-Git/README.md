@@ -11,7 +11,7 @@ In this lesson we will cover:
 
 ### Prerequisites:
 * Create a [Github.com](https://www.github.com/) account.
-* If you are applying or have applied to Lambda School, then set your account email to "public" in settings. 
+* If you have applied or are currently applying to Lambda School, then set your account email to "public" in settings. 
 * If you are on a Windows computer, you can install the [git-bash command terminal here](https://git-for-windows.github.io/).
 * If you are on a Mac, git is preinstalled. You can access it from your terminal by pressing ⌘+space and entering "terminal". (You can make sure that git is installed by typing "which git" and pressing enter; if a file path appears on your screen, you are good to go. In some cases, however, you may be directed to download the Xcode command line developer tools. If that is the case, follow the instructions to do so.)
 * If you are on a Linux machine, you may need to install git by accessing your terminal and entering "apt-get install git".
@@ -23,17 +23,17 @@ Version control is a concept in software engineering that applies to the managem
 
 ### Git
 
-Git was created in 2005 by Linus Torvalds. Git allows a team to work simultaneously on a single project, or "repository", all while keeping everything current and up to date. This is done through branching, where each member or feature can have a branch from the master branch. That branch can then be edited as needed without interfering with the "master" version. When the time comes to merge the branches back together, git will evaluate where the changes were made and will correct the master to reflect those changes without interfering with other changes. Git also acts as a sort of time machine, allowing a team to revert ANY changes made to the source code throughout the history of the code. 
+Git was created in 2005 by Linus Torvalds. Git allows a team to work simultaneously on a single project, or "repository", all while keeping everything current and up to date. This is done through branching, where each member or feature can have a branch from the master branch. That branch can then be edited as needed without interfering with the "master" version. When the time comes to merge the branches back together, git will evaluate where the changes were made and will correct the master to reflect those changes without interfering with other changes. Git also acts as a sort of time machine, allowing a team to revert ANY changes made to the source code throughout the history of that code. 
 
 ### Github.com
 
-[Github.com](https://github.com) is a network to store your repositories, being, essentially, a repository of repositories. It is one of many available on the internet, and the most popular. Git != Github, although they work very well together. Github is a place for you to store your code or find other projects. It also acts as a portfolio for any code you've worked on. If you plan on being a developer you should have a Github account. We will be using Github extensively throughout your time at Lambda School. 
+[Github.com](https://github.com) is a network for storing your repositories, being, essentially, a repository of repositories. Git != Github, although they work very well together. Github is a place for you to store your code or find other projects. It also acts as a portfolio for any code you've worked on. If you plan on being a developer you should have a Github account, as it is one of the most popular resources available on the internet. We will be using Github extensively throughout your time at Lambda School. 
 
 ## Basic Terminal Commands:
 
-> We will be using the "terminal" or "command line" throughout your time at Lambda school. If you are on a Mac or Linux machine, you should have the terminal and git installed already. If you are on a Windows machine, I recommend installing ["git-bash"](https://git-for-windows.github.io/).
+> We will be using the "terminal" or "command line" throughout your time at Lambda School. If you are on a Mac or Linux machine, you should have the terminal and git installed already. On a Windows machine, however, I recommend installing ["git-bash"](https://git-for-windows.github.io/).
 
-Within our terminal we can: traverse our file structure, add files, remove files, update files, and tons more! The terminal is a very powerful tool for developers and you will be using it a lot in your professional development career. It might look scary at first, but in time you will enjoy using it. It is best to get accustomed to it now. To begin we will learn the 'basic' commands:
+Within our terminal we can: traverse our file structure, add files, remove files, update files, and so much more! The terminal is a very powerful tool for developers, and you will be using it a lot throughout your professional development career. It might look scary at first, but in time you will enjoy using it. It is best to get accustomed to it now. To begin we will learn the "basic" commands:
 
 "List": Allows us to view the contents of the current folder we are in.
 ```bash
@@ -45,47 +45,47 @@ Within our terminal we can: traverse our file structure, add files, remove files
   $ cd [folder]
 ```
 
-"Make Directory": Makes a new folder in the directory you are currently in.
+"Make Directory": Makes a new folder in the directory we are currently in.
 ```bash
   $ mkdir [folder name]
 ```
-"Touch" will create a new file.
+"Touch": Creates a new file.
 ```bash
   $ touch [file]
 ```
 
-"Remove": permanently deletes a file. (WARNING! This bypasses any "trashcan" or recycling can you may have and PERMANENTLY deletes the file) (also of note: This will not remove folders, we need a special command for that, that we will learn later.)
+"Remove": Permanently deletes a file. (WARNING! This bypasses any "trashcan" or recycling you may have and PERMANENTLY deletes the file) (also of note: This will not remove folders, we need a special command for that, that we will learn later.)
 ```bash
   $ rm [file]
 ```
 
 ## Exercise
 
-In this exercise we will create a new folder titled: "LambdaSchool"
+In this exercise, we will create a new folder titled: "LambdaSchool"
 
-To get to your top level folder type:
+To get to your top level folder, type:
 
 ```bash
   cd ~
 ```
 
-and press enter. Once in your top level type:
+and press enter. Once in your top level, type:
 
 ```bash
   mkdir LambdaSchool
 ```
 
-and press enter. Congratulations you have created a directory!
+and press enter. Congratulations! You have created a directory!
 
 ## Github
 
-As mentioned before, Github is a central place to store, view, and download repositories, it is not synonymous with "git". You need to have a Github account in order to complete this exercise. 
+As mentioned before, Github is a central place to store, view and download repositories; it is not synonymous with "git". You need to have a Github account in order to complete this exercise. 
 
 ### Forking
 
-Github.com allows users to create their own copy of an repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo, and at a future time you may be able to reincorporate("pull") the changes you have made to this branch with the master branch you forked from.
+Github.com allows users to create their own copy of a repository (as long as it is public) and do whatever work you would like to under your own account. This is called "Forking". Essentially, this will create a new branch of the repo, enabling you to later reincorporate("pull") the changes you made to this branch with the master branch you originally forked from.
 
-In order to fork a repo, you will visit the Github repo of your choosing (for this exercise we will be using [this](http://github.com/lambdaschool/precourse) repo). Anywhere within the repo you will see a "Fork" button in the upper right hand corner, click this. Github will take a moment and copy all of the data to your account and it is now available to you to work on. 
+In order to fork a repo, you will visit the Github repo of your choosing (for this exercise, we will be using [this](http://github.com/lambdaschool/precourse) repo). Anywhere you go within the repo, you will see a "Fork" button in the upper right hand corner; click this. Github will take a moment and copy all the data to your account. It will then be available for you to work on. 
 
 ### Cloning
 
