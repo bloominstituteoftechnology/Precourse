@@ -55,7 +55,7 @@ function divide(x, y) {
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  if (x==y){
+  if (x===y){
     return true;
   }
   return false;
@@ -64,7 +64,7 @@ function areEqual(x, y) {
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  if (str1.length == str2.length) {
+  if (str1.length === str2.length) {
     return true;
   }
   return false;
@@ -96,7 +96,7 @@ function getRemainder(x, y) {
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-  if (num % 2 == 0) {
+  if (num % 2 === 0) {
     return true;
   }
 return false;
@@ -105,7 +105,7 @@ return false;
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
-  if (num % 2 == 1) {
+  if (num % 2 === 1) {
     return true;
   }
 return false;
