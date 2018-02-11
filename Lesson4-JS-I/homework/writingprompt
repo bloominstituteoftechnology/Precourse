@@ -1,0 +1,12 @@
+
+Writing Prompts
+
+Variables: Variables are essentially a box that can hold some other kind of data, you give it a name and can always refer to it by that name.
+
+Strings: Strings are a group of letters and all the characters that can go with them.
+
+Functions: Functions are groups of code that are meant to be reused, think mini-programs that can be called anywhere in the program they were created.
+
+If statements: If statements are a way to control what happens when some other condition is met, or what doesn't happen when that condition is not met.
+
+Boolean statements: Boolean statements are used when you need something to be decisively true or false, like in if statements.
