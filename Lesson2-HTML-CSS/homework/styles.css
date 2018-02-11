@@ -1,0 +1,19 @@
+h1 {
+    color: darkslateblue;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: azure;
+    padding: 50px;
+    border: 2px solid darkblue;
+}
+
+#spanId {
+    margin: 50px;
+}
