@@ -1,0 +1,43 @@
+h1 {
+    color:red;
+}
+h3 {
+    color:green;
+}
+
+h4 {
+    color:green;
+}
+img {
+    width: 400px;
+}
+
+
+#thirdDiv {
+    margin: auto;
+    height: 600px;
+    width: 500px;
+    background-color: rgba(226, 43, 43, 0.459);
+    padding: 50px;
+    border: 3px solid rgba(51, 255, 0, 0.733);
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    color: blue;
+}
+#linkID {
+    color: blue;
+
+}
+
+
+.divClass {
+    text-align: center;
+    
+}
+
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/60/Sushi_platter.jpg");
+}
