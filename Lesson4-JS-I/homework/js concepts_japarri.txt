@@ -1,0 +1,11 @@
+* Variables are containers that hold values. Just like a box which can contain any item, such as a toy car or food.
+
+* Strings are a type of variable that are of any letter in the alphabet,  or special characters like *, @, etc.
+
+* Functions are a block of commands that perform a specific task. For example, accepting user input and displaying it on screen.
+
+* If statements are commands that gives condition whether or not to run a command(s). 
+
+* Boolean values are of only two values. From the technical electricity concept of on or off and 0 or 1 came true or false, or in a layman's term, yes or no.
+
+  
