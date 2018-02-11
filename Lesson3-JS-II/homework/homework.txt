@@ -1,0 +1,10 @@
+
+- For Loop - This is use go through a something multiple times until we are finish. It can repeat a selected code for a number of times.
+
+&& - AND operator - This can be used compare 2 conditions and evaluate the condition to true if both returns true. If one of the condition is false and the other is true the condition will return to false.
+
+|| - Or operator - This is used to compare expressions. If one of the expression is false and the other is true it will return true.
+
+!- Not operator - This is used to get the opposite of an expression.
+
+Arrays - This is a container for a list of items. e.g: list of names, list animals, list of ages.
