@@ -1,0 +1,9 @@
+- Objects - Everything in Javascript are objects. Objects are similar to arrays. Objects is a container for multple information on one thing.
+
+- Properties - Object has a collection of properties. Properties are the association between a key (name) and the value.
+
+- Methods - This means that a function is on the object. The value of a key is set as a function.
+
+- For in loop - This is used to iterate through an object as the normal for loops are use to iterate through an array. The for for in loop looks throuh each key and returns the value.
+
+- Dot notation vs bracket notation - To access a value within a object we can use a bracket notation or dot notation. eg: user.firstname or user['firstname'].
