@@ -1,0 +1,5 @@
+* Variables - used to store values 
+* Strings - any text or number within quotes
+* Functions (arguments, `return`) - used to avoid repeating code
+* `if` statements - conditional logic used to perform function if returns true
+* Boolean values (`true`, `false`) object representing either true or false
