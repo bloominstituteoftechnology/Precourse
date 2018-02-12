@@ -1,0 +1,3 @@
+Arrays
+Arrays are made of strings, numbers, and objects. They can all be in the same array.
+Arrays use [] to assign the arrays. 
