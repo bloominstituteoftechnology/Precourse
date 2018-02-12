@@ -105,7 +105,6 @@ function isOdd(num) {
   // otherwise return false
   return num % 3 === 0;
 }
-
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
