@@ -1,0 +1,17 @@
+(Var) is a generic variable in ES5 similar to (let) with different behavior patterns. It is used to declare a variable.
+ 
+(let) is a variable used in ES6 to declare a variable.
+
+(const) is new to ES6 and it is used to declare a constant ie something that will not be changed.
+
+Strings are effectively text set within the boundaries of quotes. The quotes can be single or double.
+
+Function is a keyword used to declare that the code after its writing are in fact a function. It opens with a set of parenthesis and uses curly brackets to define where its functional code will go.
+
+Arguments are used throughout functions to give it meaning. They are the 'Hello World' part of the action. They are also defined in the function's first set of parenthesis.
+
+Return is the statement that this part of the functions is over and to return the information processed therein. It is a vital part of javascript as it returns information.
+
+If statements are used to define functions through its flow of information for example if I want to know if Client X is over the age of 40 I would need an if statement to translate it into a boolean value. It works within the function and needs its own set of curly brackets.
+
+Boolean Values are basically true or false. They are used in If statements to verify the veracity of the argument.
