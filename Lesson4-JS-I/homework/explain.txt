@@ -1,0 +1,10 @@
+variables: can define a value(string, number, method, etc). Things are stored in variables for readability and efficiency
+ex: var name = 'Alexandra';
+strings: usually a word or sentence that is being printed somewhere. Must have quotes around it
+ex: 'hi';
+functions: a layout or method of doing something. It can be used many times over and is very efficient.
+ex: you can have a function that multiplies two numbers and returns the value. when you call the function it would take whatever two values you input and run the program with those numbers
+if statements: Give the if statement conditions and if it is true of false something given will happen
+ex: if 2 + 2 == 4 is true then multiply the number by 2 and return it.
+boolean values: true and false are boolean values.
+ex: 1 == '1' is a boolean statement and false is a boolean value
