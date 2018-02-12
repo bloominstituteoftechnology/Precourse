@@ -99,7 +99,7 @@ function isPrime(num) {
       return num;
     } else {
       return false;
-    } 
+    }
 }
 
 
