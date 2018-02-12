@@ -1,0 +1,5 @@
+For loops complete a set of code as long as a specific thing remains true
+&& means 'and' when checking to see if specific things are true to run 'ifs'
+|| means 'or' when checking to see if specific things are true
+! means 'not' when checking to see if specific things are true
+Arrays are variables that can contain multiple values.  A group of variables that are placed together in a box.
