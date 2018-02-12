@@ -55,45 +55,47 @@ function divide(x, y) {
   // code here
 }
 
-function areEqual(x, y) 
+function areEqual(x, y) {
 if (x === y) {
   return true;
 } else {
-  return false;
+  return false;}
 
   // return true if x and y are the same
   // otherwise return false
   // code here
 }
 
-function areSameLength(str1, str2)
+function areSameLength(str1, str2) {
 if (str1.length === str2.length) {
   return true;
 } else {
   return false;
+}
  
   // return true if the two strings have the same length
   // otherwise return false
   // code here
 }
 
-function lessThanNinety(num)
+function lessThanNinety(num) {
 if (num < 90) {
   return true;
 } else {
   return false;
-
+}
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
 }
 
-function greaterThanFifty(num)
+function greaterThanFifty(num) {
 if (num > 50) {
   return true;
-} else {
+} 
+else {
   return false;
- 
+}
   // return true if num is greater than fifty
   // otherwise return false
   // code here
@@ -105,21 +107,24 @@ function getRemainder(x, y) {
   // code here
 }
 
-function isEven(num)
-if (x%y===0) {
+function isEven(num) {
+if (num%2===0) {
   return true;
-} else {
+} 
+else {
   return false;
- 
+}
   // return true if num is even
   // otherwise return false
   // code here
 }
-function isOdd(num)
-if (x%y===0) {
+function isOdd(num) {
+if (num%2===0) {
   return false;
-} else {
+} 
+else {
   return true;
+}
   // return true if num is odd
   // otherwise return false
   // code here
@@ -148,19 +153,21 @@ function raiseToPower(num, exponent) {
 }
 
 function roundNumber(num) {
+  roundNumber = Math.round(num);
+  return roundNumber
   // round num and return it
   // code here
 }
 
 function roundUp(num) {
-  roundNumber = Math.round(num);
-  return roundNumber
+  roundUp=Math.ceil(num);
+  return roundUp
+  
   // round num up and return it
   // code here
 }
 
 function addExclamationPoint(str) {
-  str = 'hello world'
   return str + '!'
 
   // add an exclamation point to the end of str and return the new string
@@ -169,8 +176,6 @@ function addExclamationPoint(str) {
 }
 
 function combineNames(firstName, lastName) {
-  firstName = 'Lambda'
-  lastName = 'School'
   return firstName + ' ' + lastName 
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
@@ -178,8 +183,7 @@ function combineNames(firstName, lastName) {
 }
 
 function getGreeting(name) {
-  namestr= 'Sam'
-  return 'Hello' + ' ' + namestr + '!'
+  return 'Hello' + ' ' + name + '!'
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
