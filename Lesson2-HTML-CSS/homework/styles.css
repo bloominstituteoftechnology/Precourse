@@ -1,0 +1,41 @@
+h1 {
+	color:green;
+}
+img {
+	width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: red;
+    padding: 50px;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 25px;
+    border-style: dotted;
+}
+
+#spanId {
+    margin: 50px;
+    font-size: 18px;
+}
+
+.divClass {
+    position: fixed;
+}
+
+body {
+    background-image: url('https://static.pexels.com/photos/321441/pexels-photo-321441.jpeg');
+    background-size: 100%;
+    margin: auto;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    margin: auto;
+}
