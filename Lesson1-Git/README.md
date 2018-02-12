@@ -83,13 +83,13 @@ As mentioned before, Github is a central place to store, view and download repos
 
 ### Forking
 
-Github.com allows users to create their own copy of a repository (as long as it is public) and do whatever work you would like to under your own account. This is called "Forking". Essentially, this will create a new branch of the repo, enabling you to later reincorporate("pull") the changes you made to this branch with the master branch you originally forked from.
+Github.com allows users to create their own copy of a repository (as long as it is public) and do whatever work they would like to under their own account. This is called "Forking". Essentially, this will create a new branch of the repo, enabling you to later reincorporate ("pull") the changes you made to this branch with the master branch you originally forked from.
 
-In order to fork a repo, you will visit the Github repo of your choosing (for this exercise, we will be using [this](http://github.com/lambdaschool/precourse) repo). Anywhere you go within the repo, you will see a "Fork" button in the upper right hand corner; click this. Github will take a moment and copy all the data to your account. It will then be available for you to work on. 
+In order to fork a repo, you must first visit the Github repo of your choosing (for this exercise, we will be using [this](http://github.com/lambdaschool/precourse) repo). Anywhere you go within that repo, you will see a "Fork" button in the upper right hand corner; click this. Github will take a moment and copy all the data to your account. It will then be available for you to work on. 
 
 ### Cloning
 
-In order to work on a project you must clone (download) it to your local machine. To do this, visit the top level of the forked repo on your own account, and click on the green button in the upper right hand side of the page that says: "Clone or Download" a dropdown should appear and will can click on the clipboard icon to copy the address. (Note: you can download the entire repo, but this is not advised as cloning will do quite a few steps for you behind the scenes that will make your life much easier.)  
+In order to work on a project, you must clone (download) it to your local machine. To do this, visit the top level of the forked repo on your own account, and click on the green button in the upper right hand side of the page that says: "Clone or Download". A dropdown should appear. You can then click on the clipboard icon to copy the address. (Note: You can download the entire repo, but this is not advised as cloning will do quite a few "behind-the-scene" steps for you that will make your life much easier.)  
 
 Once you have the address copied, return to your terminal window and enter the following:
 
@@ -99,11 +99,11 @@ Once you have the address copied, return to your terminal window and enter the f
   $ git clone [copied address]
 ```
 
-This will download the repo and you now have a local copy of the repo saved to your machine!
+This will download the repo, giving you a local copy of the repo saved to your machine!
 
 ## Git Commands:
 
-Throughout these lessons, we will interact with git through our terminal. In the future you may wish to use a Git GUI interface, but during these lessons we will need to use the terminal for all git functions. 
+Throughout these lessons, we will interact with git through our terminal. While in the future you may wish to use a Git GUI interface, during these lessons we will need to use the terminal for all git functions. 
 
 In this exercise, we will add a file to our project and then commit this change to memory in git. 
 
@@ -114,9 +114,9 @@ Then enter the following in your terminal:
   $ touch Lesson1-Git/newFile.js
 ```
 
-This will add a new file your your project titled "newFile.js"
+This will add a new file your your project titled "newFile.js".
 
-at this time we can use the git command "status". Status will read back the status of all changes made to your repo. Use status often, if you’re not sure if something worked, using status will tell you. 
+Now we can use the git command "status". Status will read back the status of all changes made to your repo. Use status often; if you are not sure if something worked, using status will tell you. 
 
 ```bash
   $ git status
@@ -141,25 +141,25 @@ You should see something along these lines:
 
 This tells us that we have a file that has been changed, but is not saved into the git history yet.
 
-To do this we will use the 'add' command:
+To save the file into the git history, we will use the 'add' command:
 
 ```bash
   git add Lesson1-Git/newFile.js
 ```
 
-This has added our changes to the history, now to save that history, we will use "commit". Commit will take all of our added changes and save it to git history. For future reference you will be able to leave a message about the changes, this will make it easier to go back and find the changes you(or anyone) are looking for in the future ,if you should need to. It is always a good idea to leave a concise description of the changes in your commit. A shorthand way of leaving an inline message is using the '-m' flag and writing your message directly after, in quotes.
+This has added our changes to the history. Now to save that history, we will use "commit". Commit will take all of our added changes and save it to git history. For future reference, you will be able to leave a message about the changes. This will make it easier to go back and find the changes you - or anyone else - are looking for in the future. It is always a good idea to leave a concise description of the changes in your commit. A shorthand way of leaving an inline message is using the '-m' flag and writing your message directly after in quotes.
 
 ```bash
   git commit -m 'added new file, newFile.js'
 ```
 
-Now that we have our changes saved locally, we want to share those changes in our Github. To do this we will "push"
+Now that we have our changes saved locally, we want to share those changes in our Github. To do this we will "push".
 
 ```bash
   git push
 ```
 
-You will be prompted for your username and password. Enter these and then you will receive a message if your changes were pushed successfully:
+You will be prompted for your username and password. Enter these. You will then receive a message notifying you if your changes were pushed successfully:
 
 ```bash
   Counting objects: 5, done.
@@ -176,7 +176,7 @@ Congratulations! You just pushed your first git commit!
 
 ## Pull Requests
 
-  Once you have completed the changes you intend to make, it will be time to merge those changes with the master branch. If you are not making changes directly to your own repository, you will need to submit a "Pull Request" or "PR" as we will refer to it. This allows to owner(or manager/supervisor/lead/senior) of the original repo to look over the changes and decide if they want to include these changes in their master. We will do this through Github.
+  Once you have completed the changes you intend to make, it will be time to merge those changes with the master branch. If you are not making changes directly to your own repository, you will need to submit a "Pull Request" or "PR" as we will refer to it. This allows the owner (or manager/supervisor/lead/senior) of the original repo to look over the changes and decide if they want to include these changes in their master. We will do this through Github.
 
   In this exercise, we will submit a pull request through github.com
 
