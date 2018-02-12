@@ -61,3 +61,5 @@ typings/
 
 package-lock.json
 
+# code editor files
+.vscode
