@@ -45,26 +45,40 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
+  return words.join(' ');
 }
 
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
+  if (arr.includes(item)) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
+  return numbers.reduce();
 }
 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
+  for (let i = 0; i < testScores.length; i++) {
+    testScores += testScores[i];
+  }
+  return averageTestScore;
 }
 
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
+  for (let arrayIndex = 0; arrayIndex < numbers.length; arrayIndex++) {
+    return largestNumber;
+  }
 }
 
 // Do not modify code below this line.
