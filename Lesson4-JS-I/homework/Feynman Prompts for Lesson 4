@@ -1,0 +1,50 @@
+
+Feynman Writing Prompts
+
+1. Variables - Variables are simple way to store things. You simply give it a name and store whatever you want inside that variable. Whenever you want to access whatever is inside that variable you simply Call It by its name that you gave it. In order to make this work you first need to tell the computer that you are going to create a variable. In order to do that, you use what is called a keyword. This keyword is a special word that lets a computer know that you are about to create a variable. There are three key words you can use to let the computer know that you are about to create a variable. They are var, let, const. var and let are the same, the only difference is var is a older way of letting the computer know. const on the other hand is different, it has more rules. For example with var and let, you can change what is inside the variable you create without having to give it a new name. With const you can't. With var and let you can even create a variable and give it a name without adding anything in it. You can add stuff in it afterwards. You can't do that with const. When it comes to telling the computer you are about to create a variable using the key word, you only need to do that once. This only applies to var and let since you can reassign those. In addition the semicolons at the end are like a period In a sentence.
+
+var name1 = 'hello everyone';
+name1 = 'hello again';
+
+let name2 = 'hello everyone';
+name2 = 'hello again';
+
+const name3 = 'hello everyone';
+
+
+
+
+
+2. Strings - Strings are simply any characters that are wrapped in quotes. the quotes can be single quotes, double quotes, and back ticks. These characters can be anything from letters to numbers to symbols.
+
+'hello everyone'
+"hello everyone"
+`hello everyone`
+'hehe 378!? Hsusb'
+
+
+
+
+
+3. Functions - Functions are similar to variables you first tell the computer you're going to write a function by using the special key word function once you do that you are also going to store things inside that function. The difference is what you store inside the function is blocks of code. You can store almost any type of code you want in it, and when you call the function with the name you gave it it will run the code that you put inside it. There are many ways to write functions. And also functions have many rules that you should know about. Functions can also take in parameters inside the parentheses, you can think of parameters like placeholders you ride a sort of keyword and you can replace it with anything you want. You can use one parameter or multiple parameters. You use these parameters inside the functions as placeholders so you can use functions in many different ways without having to write multiple functions. Another thing to know about functions is what's called function scope. What this means is that whatever is inside functions can only be accessed within functions, they cannot be accessed from outside functions. On the other hand functions do have access two things outside of the function. In order to gain access to what is inside the function you must use a special key word called return. What return does is it will return whatever is inside that function so now you can gain access to whatever is inside the function. Another thing to know about return is that once it returns whatever is inside that function it will stop the function. So you cannot keep writing code inside the function after returning something since it will ignore it because once you return something it stops the function.
+
+function funcName (placeholder) {
+    Code inside the function 
+    ‎return whatever is inside the function;
+}
+
+
+
+
+
+4. & 5. If statements and booleans - If statements also known as control flow is away to give the computer an argument, if that argument is true it will return something, if that argument is false, it will return something else. True and false are what's known as booleans. booleans or simply that, things that are either true or false. If statements always look for booleans. If something is true it will return something, if something is false it will return something else.
+
+if (true) {
+    return 'this is true' 
+} else
+    return 'this is false' 
+
+
+
+
+
