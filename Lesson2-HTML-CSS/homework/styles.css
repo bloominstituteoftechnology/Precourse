@@ -1,9 +1,4 @@
-<!-- In this file you will complete the homework found in the homework-readme.md file -->
-<html>
-    <head>
-        <title>Maribel Cuales' HTML Homework</title>
-        <link rel="stylesheet" href="./styles.css" />
-        <style>
+<!--
             h1 {
                 color: purple;
             }
@@ -55,29 +50,4 @@
                 display: flex;                 
                 left: 300px;    
             }
-        </style>
-    </head>
-    <body>
-        <div class="divClass">
-            <h1>Maribel Cuales</h1>
-            <h3>Lambda School</h3>
-            <h4>HTML/CSS Homework</h4>
-        </div>
-        <div class="divClass">
-            <span id="spanId">I love the Apple, Candied Walnut, and Blue Cheese Salad at Cafe Georg. The mix of the fresh lettuce, apples, walnuts, and blue cheese is a wonderful combination of different flavors and textures. I love the crisp and fresh lettuce which is greatly complimented by the crunch of the apples and walnuts. The blue cheese also adds a wonderful tangy flavor to the salad.</span>
-            <a href="http://www.cafegeorg.com/">Click here for Cafe Georg!</a>
-        </div>
-        <div id="thirdDiv">
-            <ul>
-                <li>
-                    <p>Apple, Candied Walnut, and Blue Cheese Salad</p>
-                <image src="http://www.cafegeorg.com/images/gallery_images/f001.png"/>
-                </li>
-                <li>
-                    <p>Chocolate Decadence</p>
-                <image src="http://dessertcomesfirst.com/wp-content/uploads/Cebu-176.jpg"/>
-                </li>
-            </ul>
-        </div>
-    </body>
-</html>
+-->
