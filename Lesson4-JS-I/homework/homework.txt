@@ -1,0 +1,31 @@
+* Variables: A variable is used to store values to be used later. A variable has to be declared before a value is assigned to it. There are 3 ways in which a variable can be declared as shown below:
+	var variable_name = value;
+	let variable_name = value;
+	const variable_name = value;
+Here 'var', 'let' and 'const' are keywords in Javascript. When declaring the variable in Javascript, you don't need to declare its type.  
+
+
+* Strings: String is a data type in Javascript that consists of groups of text enclosed in single or double quotes.
+
+
+* Functions (arguments, `return`): A function contains series of statements that will only be executed if the function is called. It is defined using the "function" keyword followed by the function name then the function arguments within parenthesis "(arguments)" and curly braces "{}". The statements to be executed are placed within the curly braces. An example is shown below:
+	
+	function boatFunction(arguments){
+		//statements go here
+	}
+Function arguments are like variables that can be used within the function. We initialize the variable's value by passing the argument to the function during function calls. 
+The return statement is used to return a value that is needed outside of the function.  
+
+
+* `if` statements: If statements are used to perform tasks only when a specified condition is met. It is usually accompanied by an "else" statement which is only executed if the condition on the if statement is not met. The structure of the if statement is shown below:
+	
+	if(condition){
+	//do this
+	}
+	else{
+	//do this
+	}
+
+
+* Boolean values (`true`, `false`): Boolean values are either "true" or "false". If the value parameter is omitted, 0, -0, null, false, NaN, undefined, or "", the object has an initial value of false. Otherwise it has a value of true.
+
