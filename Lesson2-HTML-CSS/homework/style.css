@@ -36,5 +36,5 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column-reverse;
-    position: solid;
+    position: sticky;
 }
