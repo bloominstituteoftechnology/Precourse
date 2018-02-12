@@ -1,0 +1,8 @@
+For Loops
+For Loops are loops to loop through items to figure out blocks of code to run.
+&&
+Both sides of the argument in an if statement have to equal to true.
+||
+One of the sides of the argument in an if statement have to equal to true.
+!
+The NOT operator. Turns !true to false and !false to true.
