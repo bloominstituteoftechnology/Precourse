@@ -1,0 +1,45 @@
+/* ----- BASE STYLES ----- */
+
+body {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/1200px-Olympic_rings_without_rims.svg.png);
+}
+
+h1 {
+	color: skyblue;
+}
+
+img {
+	width: 400px;
+}
+
+.divClass {
+	text-align: center;
+}
+
+#thirdDiv {
+	background-color: lightsalmon;
+	height: 600px;
+	width: 500px;
+	padding: 50px;
+	border: 1px dashed red;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+
+/* ----- FLEX BOX ----- */
+
+.container {
+	display: flex;
+/*	flex-direction: row;
+	flex-wrap: wrap;*/
+	flex-flow: row wrap;
+	justify-content: center;
+	
+}
+
+.divClass {
+	flex-basis: 100%;
+}
