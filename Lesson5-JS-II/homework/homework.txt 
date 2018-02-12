@@ -1,0 +1,10 @@
+FOR LOOP :  The FOR LOOP is a function in javascript that runs the code for multiple times. It has three items: The initialization followed by semicolon, and the Condition and then a semicolon,  and then the final expression. the code will be inside the curly braces. The initialization runs only once to set up the variable. Every time the loop run the condition statement is evaluated at the beginning and keep going until the condition is false. The final expression is evaluated at the end of each loop iteration and it is usually used to increment of decrement the  loop counter. For example:
+
+for ( let I = , I < 20 , I++) this means we  are covering all possible numbers that I can take from 1 to 20, every time the loop add 1 to the previous I, once the loop reach 19 stops automatically because 20 is a false condition. 
+
+&& : means "AND" in javascript. It is a logical operator to  check if multiple conditions  or statements are true or false. Let say we have a statement contained multiple conditions. To get  the true statement all conditions must be true. If one condition is false the whole statement will be evaluated to false.
+
+|| : means "OR" in javascript. It is a logical operator to check if multiple conditions or statements are true or false. Let say we have a statement contained multiple conditions. To get the true statement at least one condition has to be true. It one condition is true the whole statement will be evaluated to true. 
+
+! : it is a comparison operator that allows us to compare between 2 statements. it basically means "NOT". If we add it to any comparison operator such as  = < >  == ===, it will invert the meaning that operator. example != means not equal,
+!< means not less, !> means not greater ...
