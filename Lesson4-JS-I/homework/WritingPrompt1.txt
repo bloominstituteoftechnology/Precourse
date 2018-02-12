@@ -1,0 +1,17 @@
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Variables
+	* Strings
+	* Functions (arguments, `return`)
+	* `if` statements
+	* Boolean values (`true`, `false`)
+
+Variables are containers in Javascript that you can store different types of information like text and numbers. Usually they are called with special words such as "var" and "const." If you see those special words, you know a variable is created. You can put information into variables with the "=" sign. For example, if we wanted to store your favorite color into a variable we could type: var favoriteColor = "blue."
+
+Strings in Javascript are pieces of text, like words or phrases, within quotation marks. You can use single quotes('') and double quotes("") to store any text you want.
+
+Functions are blocks of code that do something very specific like math operations or even print out strings. These blocks sometimes need you to tell them to use certain variables called arguments. Once you give a function arguments, functions will often output something to you in the console after it runs its block of code using a return statement. Return statements are executed once and stops the function.
+
+"If" statements are special blocks of code that only run only if something specific happens. These statements need a condition to be true in order for a block of code to run. You can read if statements like plain English. For example, before Christmas if you were good, then Santa brings you presents. You need to be good during the year to get presents. If statements need something to happen in order for its code to be run.
+
+Boolean value is a fancy term for 'true' or 'false' in Javascript. 'True' and 'false' are special words like var and const and are another type of information such as strings and numbers. Booleans are often the result of comparing data types or expressions together. You can also use booleans to fulfill an if statement. 'True' will allow the code block in an 'if'statement to run while 'false' will not run the code block.
