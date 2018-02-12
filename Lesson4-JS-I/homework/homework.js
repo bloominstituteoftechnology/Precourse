@@ -105,6 +105,7 @@ function isOdd(num) {
   // otherwise return false
   return num % 3 === 0;
 }
+
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
@@ -146,7 +147,7 @@ function combineNames(firstName, lastName) {
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  return 'Hello, '.concatenate(`${name}`);
+  return (name = name + 'hello');
 }
 
 // The next three questions will have you implement math area formulas.
