@@ -2,31 +2,42 @@
 
 function returnFirst(arr) {
   // return the first item from the array
+  const first = ['cat', 'dog', 'elephant'];
+  return first(0);
 }
 
 function returnLast(arr) {
   // return the last item of the array
+  const last = ['cat', 'dog', 'elephant'];
+  return last.length - 1;
 }
 
 function getArrayLength(arr) {
   // return the length of the array
+  const length = ['cat', 'dog', 'elephant'];
+  return length.length;
 }
 
 function incrementByOne(arr) {
-  // arr is an array of integers  
+  // arr is an array of integers
   // increase each integer by one
   // return the array
+  for (let i = 0; i < arr.length; i++) {
+    return arr[i] + 1;
+  }
 }
 
 function addItemToArray(arr, item) {
   // add the item to the end of the array
   // return the array
+  return arr.push(item);
 }
 
 function addItemToFront(arr, item) {
   // add the item to the front of the array
   // return the array
   // hint: use the array method .unshift
+  return arr.unshift(item);
 }
 
 function wordsToSentence(words) {
@@ -70,5 +81,5 @@ module.exports = {
   contains: contains,
   addNumbers: addNumbers,
   averageTestScore: averageTestScore,
-  largestNumber: largestNumber,
+  largestNumber: largestNumber
 };
