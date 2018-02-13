@@ -132,7 +132,7 @@ function wordsToSentence(words) {
   for (let i = 0; i < words.length; i++){
   newSent += words[i] + ' ';
   }
-  return newSent;
+  return newSent.slice(0, -1);
 }
 
 function contains(arr, item) {
@@ -141,8 +141,9 @@ function contains(arr, item) {
   for (let i = 0; i < arr.length; i++){
     if(arr[i] === item){
       return true;
-    } else return false;
-  }
+    } 
+  } 
+ return false;
 }
 
 function addNumbers(numbers) {
