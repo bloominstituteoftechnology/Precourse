@@ -54,7 +54,7 @@ And finally, we can return a function definition from a function:
     inner(); // logs 'hi'
 ```
 
-The function that retuns the new function is called a "Higher Order Function" or HOF.  The idea of closure is simply that `inner` - as defined up above - is able to look back into `outer` for variables that it needs.  Its scope chain is going to look inside of `outer` before looking at the global scope.
+The function that retuns the new function is called a "Higher Order Function" or HOF.  The idea of closure is simply that `inner` - as defined up above - is able to look back into `outer` for variables that it needs. Its scope chain is going to look inside of `outer` before looking at the global scope.
 
 Here's another example:
 
@@ -92,7 +92,7 @@ This also applies to the function's parameters:
     console.log(product2); // logs 14
 ```
 
-In the example above, the `x` and the `y` are both set by their respective function calls. This can be used in many interesting ways.  You can make cache functions, private variables and customize a function's behavior as we did in the example above. We are also able to produce a custom multiplication function.
+In the example above, the `x` and the `y` are both set by their respective function calls. This can be used in many interesting ways. You can make cache functions, private variables and customize a function's behavior as we did in the example above. We are also able to produce a custom multiplication function.
 
 
 ## Additional Resources:
