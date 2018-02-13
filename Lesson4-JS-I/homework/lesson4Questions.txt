@@ -1,0 +1,14 @@
+1. variables are like containers that hold data like numbers, strings ect.
+   when you open the box you get access to whats inside.
+
+2. Strings are data types that are the literal value of themselves and are contained 
+   by quotes. Like "banana". 
+
+3. functions are self contained blocks of code that perform a task. Functions take in 
+   data as arguments perform some task on them and return the result.
+
+4. If statements are part of control structure. If a condition is met an instruction 
+   is executed if condition is not met instuctions are not executed.
+
+5. Boolean values are the logical conclusions to a condition and only one of two values
+   true or false.
