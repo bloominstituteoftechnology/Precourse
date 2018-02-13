@@ -20,7 +20,7 @@ function getBiggest(x, y) {
 function greeting(language) {
   // return a greeting for three different languages:
   // language: 'German' -> 'Guten Tag!'
-  // language: 'English' -> 'Hello!'
+  // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
   const greetings = {
@@ -83,12 +83,12 @@ function isPrime(num) {
 // --------------------------------
 
 module.exports = {
-  multiplyArguments: multiplyArguments,
-  getBiggest: getBiggest,
-  greeting: greeting,
-  isTenOrFive: isTenOrFive,
-  isInRange: isInRange,
-  isInteger: isInteger,
-  fizzBuzz: fizzBuzz,
-  isPrime: isPrime
+  multiplyArguments,
+  getBiggest,
+  greeting,
+  isTenOrFive,
+  isInRange,
+  isInteger,
+  fizzBuzz,
+  isPrime,
 };

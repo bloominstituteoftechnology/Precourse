@@ -45,7 +45,11 @@ function deleteProperty(object, property) {
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
-  return { name, email, password };
+  return {
+    name,
+    email,
+    password
+  };
 }
 
 function hasEmail(user) {
@@ -111,7 +115,10 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
   storeItem.calculateDiscountPrice = () => {
-    let { price, discountPercentage } = storeItem;
+    let {
+      price,
+      discountPercentage
+    } = storeItem;
     return price - price * discountPercentage;
   };
   return storeItem;
@@ -121,18 +128,18 @@ function addCalculateDiscountPriceMethod(storeItem) {
 // --------------------------------
 
 module.exports = {
-  makeCat: makeCat,
-  addProperty: addProperty,
-  invokeMethod: invokeMethod,
-  multiplyMysteryNumberByFive: multiplyMysteryNumberByFive,
-  deleteProperty: deleteProperty,
-  newUser: newUser,
-  hasEmail: hasEmail,
-  hasProperty: hasProperty,
-  verifyPassword: verifyPassword,
-  updatePassword: updatePassword,
-  addFriend: addFriend,
-  setUsersToPremium: setUsersToPremium,
-  sumUserPostLikes: sumUserPostLikes,
-  addCalculateDiscountPriceMethod: addCalculateDiscountPriceMethod
+  makeCat,
+  addProperty,
+  invokeMethod,
+  multiplyMysteryNumberByFive,
+  deleteProperty,
+  newUser,
+  hasEmail,
+  hasProperty,
+  verifyPassword,
+  updatePassword,
+  addFriend,
+  setUsersToPremium,
+  sumUserPostLikes,
+  addCalculateDiscountPriceMethod,
 };
