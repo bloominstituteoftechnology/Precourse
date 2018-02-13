@@ -1,0 +1,15 @@
+# Homework #JSII
+
+Feynman Writing Prompts
+
+Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `for`
+	* `&&`, `||`, `!`
+
+A 'FOR' LOOP is the way you tell the program to do something for as long as some condition is being met.
+
+THE LOGICAL OPERATORS  `&&`, `||`, `!` are what conditions have to be met in order to run a specific block of code. They return a tru or false value, and the code will behave according to instructions based on these operators.
+For `&&`, both sides of the statement need to be true for TRUE to be returned and the code to be executed; otherwise a false value is returned and the code is not executed.
+For `||`, either one or the other side can be true for TRUE to be returned and the code to be executed; otherwise a false value is returned and the code is not executed.
+ `!` is a negator. It negates whatever follows it. Therefore the condition of "not..(something)" has to be met for TRUE to be returned and the code to be executed; otherwise a false value is returned and the code is not executed.
