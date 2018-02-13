@@ -14,70 +14,14 @@ function multiplyArguments() {
   } else {
     return 0;
   }
-  //arguments.reduce((a,b) => a * b);
-}
-
-/*
-function getBiggest(x, y) {
-  // x and y are integers.  Return the larger integer
-  // if they are the same return either one
-  if (x > y)
-    return x;
-  else
-    return y;
 }
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
-  return Math.max(x, y);
+  // return Math.max(x, y);
+  return x > y ? x : y;
 }
-*/
-
-function getBiggest(x, y) {
-  // x and y are integers.  Return the larger integer
-  // if they are the same return either one
-  return (x > y ? x : y);
-}
-
-/*
-function greeting(language) {
-  // return a greeting for three different languages:
-  // language: 'German' -> 'Guten Tag!'
-  // language: 'English' -> 'Hello!'
-  // language: 'Spanish' -> 'Hola!'
-  // if language is undefined return 'Hello!'
-  if (language === 'German') {
-    return 'Guten Tag!';
-  }
-  else if (language === 'English') { // can I get rid of this? catch it in the else - yes (will the test work? yes)
-    return 'Hello!';
-  }
-  else if (language === 'Spanish') {
-    return 'Hola!';
-  }
-  else {
-    return 'Hello!';
-  }
-}
-
-function greeting(language) {
-  // return a greeting for three different languages:
-  // language: 'German' -> 'Guten Tag!'
-  // language: 'English' -> 'Hello!'
-  // language: 'Spanish' -> 'Hola!'
-  // if language is undefined return 'Hello!'
-  if (language === 'German') {
-    return 'Guten Tag!';
-  }
-  else if (language === 'Spanish') {
-    return 'Hola!';
-  }
-  else {
-    return 'Hello!';
-  }
-}
-*/
 
 function greeting(language) {
   // return a greeting for three different languages:
@@ -92,25 +36,6 @@ function greeting(language) {
   else
     return 'Hello!';
 }
-
-/*
-function isTenOrFive(num) {
-  // return true if num is 10 or 5
-  // otherwise return false
-  if (num === 5 || num === 10) {
-    return true
-  }
-  else {
-    return false
-  }
-}
-
-function isTenOrFive(num) {
-  // return true if num is 10 or 5
-  // otherwise return false
-  return (num === 5 || num === 10) ? true : false;
-}
-*/
 
 function isTenOrFive(num) {
   // return true if num is 10 or 5
