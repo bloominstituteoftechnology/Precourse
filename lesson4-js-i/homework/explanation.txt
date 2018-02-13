@@ -1,0 +1,9 @@
+* Ok kid, so variables are like a piece of paper right? And when you make a variable equals something like a number, a word, or something else, it's like writing that on a blank piece of paper. But in this it's not just empty paper anymore it actually has something on it that makes it show us information, and like variables, you can always change what's on the paper and it will carry that new value.
+
+* Strings are just 'strings' of words to make a statement or a sentence, they can be as long or as short as you need them to be but they must always be between single: '', or double: "" quotes.
+
+* Booleans are like coins, just as how coins can have 'heads or tails', booleans can have 'true or false' and whether the value is true or false dictates what your code will do.
+
+* 'if' statements are logical statements that use logic to return a boolean of either 'true' or 'false', if something meets a certain condition then it will be true and something will happen if it's false then nothing or something else will happen.
+
+* Think of functions as a machine in the code that runs on logic and does stuff with the logic given to it. Kinda like a toaster, you put the toast(conditions) into the toaster(function) you let it do its thing until out comes a finished piece of toast(the result of the function). Arguments are like little placeholders that are used with funcitons so that you can change the information they interact with on the fly and using 'return' will return a vlue, string, or bollean from a function or statement.
