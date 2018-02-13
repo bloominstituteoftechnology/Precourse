@@ -1,0 +1,3 @@
+1) For loops are used to repeat a code a certain amount of times that we specify it to repeat instead of making it a huge long list of code to repeat the code that we want it to repeat one after another using many statements instead of one.
+
+2) && is the and statement. When we use this statement both sides of this statement has to be true. If either side of the && is false the whole statement will become false. || is the or statement. When we use this statement either side of the || can be true and the statement will evaluate to true. ! is the not operator. It makes a boolean become the opposite of its actual value. !true would be false and !false would be true.
