@@ -1,0 +1,10 @@
+
+Writing Prompts
+
+for loop: A loop that is meant to repeat a fixed number of times, will run the same code until the counter has hit its' mark.
+
+&&(and) operator: Compares two statements and will only pass if both sides are true.
+
+||(or) operator: Compares two statements and will only pass if at least one is true.
+
+!(not) operator: If a statement is true it makes it false, if it's false it makes it true.
