@@ -132,7 +132,7 @@ function wordsToSentence(words) {
   for (let i = 0; i < words.length; i++){
   newSent += words[i] + ' ';
   }
-  return newSent;
+  return newSent.slice(0, -1);
 }
 
 function contains(arr, item) {
