@@ -1,0 +1,42 @@
+
+body {
+background-image:  url(" https://static.pexels.com/photos/235994/pexels-photo-235994.jpeg")
+
+}
+
+
+h1 {
+  color: darkolivegreen;
+  text-align: center;
+}
+h4 {
+
+  text-align: center;
+}
+h3 {
+
+    text-align: center;
+}
+#thirdDiv{
+  height: 600px;
+  width: 500px;
+  background color: green;
+  padding: 50px;
+  border: 10px solid green;
+  margin: 600px;
+  /*margin-right: 300px;*/
+  margin-bottom:  400px;
+  margin-top: 100px;
+  text-align: center;
+}
+#spanId{
+  font: 18px;
+  margin: 600px;
+  text-align: center;
+}
+a{
+    text-align: center;
+}
+span {
+    text-align: center;
+}
