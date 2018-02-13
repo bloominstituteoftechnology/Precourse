@@ -1,0 +1,17 @@
+Feynman Prompts, Lesson Five
+
+1. 'for' loops:
+
+    'for' loops are a type of conditional loop that will keep running until a certain condition is 
+    false. 'for' loops are often used with a counter.
+
+2. &&, ||, and !
+
+    && is a logical operator. It stands for the word 'and'. When && is used, for example inside an if statement, 
+    the conditions on both sides of the && have to be true for the entire statement to evaluate to true.
+
+    || stands for 'or'. When || is used, only the condition to one side of it has to be true in order for the 
+    whole thing to evaluate to true.
+
+    ! stands for 'not'. It sets the statement to the opposite Boolean value, i.e. if the statement would have 
+    originally been true, '!' sets it to false.
