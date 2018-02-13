@@ -26,7 +26,8 @@ function greeting(language) {
   const greetings = {
     German: 'Guten Tag!',
     English: 'Hello!',
-    Spanish: 'Hola!'
+    Spanish: 'Hola!',
+    Mandarin: 'Ni Hao!'
   };
   return greetings[language] || 'Hello!';
 }
