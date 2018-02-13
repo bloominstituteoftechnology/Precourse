@@ -1,0 +1,15 @@
+* Objects: An object is a variable that contains many values written as key:value pairs. These key:value pairs are called properties and objects can hold many of them seperated by comma.
+
+* Methods: For key:value pairs, the value can be a string, number, boolean (any of the data types) or even a function. When the value is a function, it is called a method.These methods can be called using dot notation.
+
+* for in loop
+
+* Dot notation vs bracket notation: For dot notation we call the object name followed with a dot and then the key name. For example: 
+user.name = name
+
+Bracket notation involves calling a key using a string or number, or variable pointing to a string or number between square brackets. Each key can be called by wrapping it with quotes:
+
+    const passString = 'password';
+    user['lovesJavascript']; // true
+    user['username'];        // dan.frehner
+    user[passString];        // abc123
