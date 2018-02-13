@@ -1,0 +1,15 @@
+For
+
+For loops are for when you want to perform a certain group of tasks more than once in succession. To use the for loop you specify the starting value to begin counting then specify the condition to end the count and then specify how to advance the counter.
+
+&&
+
+The && operator is for the AND logical expression. This expression dictates that both of the operands MUST be true for the expression to evaluate to true.
+
+||
+
+The || operator is for the OR logical expression. This expression dictates that one or both of the operands MUST be true for the expression to evaluate to true. 
+
+!
+
+The ! operator is also called the NOT operator. It's used in various situations. One situation is when you want to test inequality in the form of '!='. Another situation is where you want to test for false. The other situation is where you want to reverse the value of a boolean variable. 

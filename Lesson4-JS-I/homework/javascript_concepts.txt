@@ -1,0 +1,19 @@
+Variables
+
+Variables are pieces of information you want to reuse in different parts of your program. Some examples are a person's first name or the year a person was born. Normally a variable is created by typing the word 'var', followed by a space, then a meaningful name that best describes the information you are going to store in that variable. Variables don't need to have a value initially. You can declare them and then set a value later on.
+
+Strings
+
+Strings are any number of characters surrounded by single or double quotes.
+
+Functions
+
+Functions are blocks of instructions that perform one or more tasks. A function can be passed in arguments that are variables to be used only inside the function. When the function is done completing all the tasks it is assigned, it may return a value or just stop.
+
+If Statements
+
+If statements allow your program to make decisions on which action to take based on certain peices of information. For example if you have a variable that holds the color of a person's name, you can have it be red if that person's name has more than 10 characters or blue it has less than 10 characters.
+
+Boolean values
+
+Boolean values are a type of value that can be true or false. For example if you have a variable that holds wether a person is a teen, it would be true if the person's age is between 14 and 17.
