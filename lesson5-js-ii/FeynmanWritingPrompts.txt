@@ -1,0 +1,30 @@
+Lesson 5 HW
+
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `for` - The for loop enables most software systems to run code and execute core functions of the program. It consists of three statements within                     parentheses. The first statement assigns a value to the variable; the second assigns a condition; and the third statement runs if the 
+                  second condition is met. Additionally, if the third statement runs, the loop begins again. The letter 'i' is most popularly used as the 
+                  variable. This is an example of the for loop structure and syntax:
+			
+			for (i=0; i<=100; i++;) {
+			console.log (i);
+			}
+
+		
+	* `&&`, `||`, `!` 
+
+		&& represents "and" in Javascript, which allows two conditions to be stated, compared, and if BOTH conditions are either true or false, 
+		the program will return what is asked. Here is an example:
+			
+			if (10 < 4 && 20 === 20); {
+			return true; } 					//returns true because both statements are true
+
+		|| stands for "or" in Javascript, which compares two conditions, and if one of the conditions is true or false, the program will return what 		is asked. Here is an example:
+		
+			if (10 > 30 || 2.34 > 2.33); {
+			return true;					//return true because one of the statements is true
+
+		! is the symbol for "not" in Javascript, which flips any boolean to its opposite. "!True" becomes false, and "!False" becomes true. 
+
+			if (!(10 < 4 && 20 === 20)); {
+			return true; }					//Will not return undefined (next line of code will not run), because the if 										statement has been turned false
