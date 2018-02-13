@@ -2,7 +2,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = "dog" ;
+let newString = 'str';
 
 //create a number variable, it an be any number
 let newNum = 10 ;
@@ -75,7 +75,7 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  if (str1.length === str.length){
+  if (str1.length === str2.length){
     return true;
   } else {
     return false;
@@ -173,7 +173,7 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  const newStr = str + "!";
+  const newStr = str + '!';
   return newStr;
 }
 
@@ -181,7 +181,7 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  const combineStr = firstName + " "+ lastName;
+  const combineStr = firstName + ' '+ lastName;
   return combineStr;
 }
 
@@ -189,8 +189,8 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  let greetings = "Hello";
-  const sayHello = greetings + " "+ name;
+  let greetings = 'Hello';
+  const sayHello = greetings + ' '+ name + '!';
   return sayHello;
 }
 
