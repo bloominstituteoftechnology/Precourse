@@ -1,0 +1,16 @@
+body {
+    background-image: url("tracer.jpg");
+    background-position: center;
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+#h1tag { color: firebrick; }
+#imgele {width: 400px;}
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	padding: 50px;
+	border: 5px dashed red;
+}
+#spanID { margin: 18px; }
