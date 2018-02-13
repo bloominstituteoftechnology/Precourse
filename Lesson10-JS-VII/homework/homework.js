@@ -5,7 +5,14 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
+  let c = 1;
+
+  return () => {
+    return (() => c++)();
+  };
 }
+
+const cache = {};
 
 function cacheFunction(cb) {
   // use closure to create a cache for the cb function
@@ -18,12 +25,26 @@ function cacheFunction(cb) {
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
+
+  let addToCache = obj => Object.assign(cache, obj);
+
+  // property names cannot be numbers
+  let isInCache = key => Object.keys(cache).includes(key.toString());
+
+  let handleAddToCache = k => {
+    let obj = {};
+    obj[k] = cb(k);
+    addToCache(obj);
+    return obj[k];
+  };
+
+  return k => (isInCache(k) ? cache[k] : handleAddToCache(k));
 }
 
 // Do not modify code below this line.
 // --------------------------------
 
 module.exports = {
-  counter,
-  cacheFunction,
+  counter: counter,
+  cacheFunction: cacheFunction
 };
