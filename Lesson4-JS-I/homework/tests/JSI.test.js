@@ -75,7 +75,6 @@ describe('multiply(x, y)', function() {
   });
 });
 
-
 describe('areEqual(x, y)', function() {
   it('should return true if the arguments are equal', function() {
     expect(exercises.areEqual(15, 15)).toBe(true);
