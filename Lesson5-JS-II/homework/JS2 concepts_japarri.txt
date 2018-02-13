@@ -1,0 +1,10 @@
+1. for loop - commands the computer to execute the statements inside its block with a specified condition range.
+
+2. && - and = evaluates condition, returning true if all conditions are true.
+
+3. || - or = ditto and returns true if either of the condition is true.
+
+4. !-  - not = makes any statement false; returns true if the condition is opposite its value. False and false equals true.
+
+
+
