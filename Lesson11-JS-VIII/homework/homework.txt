@@ -1,0 +1,1 @@
+* Recursion: This is a type of iteration that involves invoking a function from inside of itself. Recursive functions are generally used when working with various data structures like trees, linked lists, or graphs. 
