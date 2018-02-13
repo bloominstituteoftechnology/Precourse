@@ -16,8 +16,6 @@ function multiplyArguments() {
   }
   return product; 
   }
-  //I did not understand the one above but looked it up. Need help.
-  //We didn't even cover arguments.length in tonight's lesson.
 
 
 function getBiggest(x, y) {
