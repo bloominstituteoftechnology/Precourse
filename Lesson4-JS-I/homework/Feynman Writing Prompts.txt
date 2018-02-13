@@ -1,0 +1,18 @@
+Feynman Writing Prompts - In a seprate(sic) text file that you create, write out explanations of the 
+following concepts like you are explaining it to a 12 year old. Doing this will help you quickly 
+discover any holes in your understanding. Ask your questions on Slack.
+
+ELI12:
+
+Variables //Store information; they can be a 'string' of text like "Hello!", a 'number' like 42, or a 'boolean' like True or False.
+
+Strings //Lines of text, like "Hello world!" or "My name is Spartacus!"
+
+Functions (arguments, return) //A command or set of commands that can be used repeatedly. 'Arguments' are info that the function will process and return a result. 
+			      //'Return' tells the function to stop processing any further and give back the result of the command(s). 
+
+if statements //A way to take information and translate it into a boolean. For example, if you have a variable for someone's age, and a variable for the legal age to buy alcohol, 
+		//it can compare the two and return a boolean (True or False) as to whether the person is of legal age. 
+
+Boolean values (true, false) //Like binary or a light switch; 1 or 0, true or false, yes or no, on or off. A toggle with only two states.
+
