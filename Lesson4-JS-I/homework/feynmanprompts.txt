@@ -1,0 +1,33 @@
+1. What are variables?
+
+	A variable is a name used to store different data types in Javascript into memory. The information inside 
+	a variable can be changed (unlike a const, which will always contain the same information once it is set).
+
+2. What is a string in JavaScript?
+
+	A string is a data type consisting of any text within opening and closing quotation marks.
+
+3. What is a function in JavaScript?
+	
+	A function is a reusable portion of code that is used to compute things related to variables.
+
+	3a. Arguments
+
+		An argument is a variable unique to a function that is set in the parentheses directly after the 
+		function name.
+
+	3b. 'return'
+
+		A function will only work up until it hits the word 'return'. 'return' acts like an off switch or 
+		exit button within a function, and any code after the 'return' will not be executed. It also returns
+		a value when the function is called.
+
+4. What are 'if' statements?
+	
+	An if statement is a portion of a function that checks to see if a condition of true. If it is true, the 
+	commands within the if statement will run, otherwise the program will skip the contents of the if statement 
+	and move to the portion of the function that comes after it.
+
+5. What are Boolean statements?
+
+	A Boolean is a data type that either equates to 'True' or 'False'.
