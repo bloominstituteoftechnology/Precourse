@@ -24,9 +24,11 @@ Todo.prototype.completeTodo = function() {
   this.complete = true;
 };
 
+
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
 let toDoItems = [];
-toDoItems = [Todo];
+let newObject = new Todo();
+toDoItems = [newObject];
 
 function buildTodo(Todo, index) {
 /*
@@ -87,7 +89,12 @@ function displayTodos() {
   todoContainer.innerHTML = ' ';
   buildTodos(toDoItems);
   for (let i = 0 ; i < toDoItems.length ; i++) {
-    todoContainer.innerHTML += toDoItems[i];
+      let listItem = document.createElement('li');
+      listItem.innerHTML += toDoItems[i] ;
+      let newList = document.createElement('ul');
+      newList.appendChild(listItem);
+      todoContainer.appendChild(newList);
+
   }
 
 }
@@ -110,10 +117,12 @@ function addTodo() {
   */
 
   //UNCOMMENT THE NEXT LINE
+
   let newTodo = document.querySelector('#todoInput');
-  let newObject = new Todo(newTodo.value);
-  toDoItems.push(newObject);
+  let toDoObject = newTodo.value;
+  toDoItems.push(toDoObject);
   newTodo.value = '';
+  
   displayTodos();
 }
 
