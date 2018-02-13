@@ -51,13 +51,13 @@ in this folder, you are in the wrong place.
 }
 
 #exerciseFive span{
-    order: 1;
+    order: 0;
 }
 
 #exerciseFive img{
     align-self: flex-start;
     align-items: flex-start;
-    order: 0;
+    order: 1;
 }
 
 
@@ -66,5 +66,17 @@ in this folder, you are in the wrong place.
 /* Exercise Six */
 
 #exerciseSeven {
-  display: flex;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#itemOne{
+    align-self: baseline;
+}
+
+#itemTwo{
+    
 }
