@@ -1,3 +1,6 @@
+body {
+    background-image: url("https://n6-img-fp.akamaized.net/free-psd/abstract-background-design_1297-84.jpg?size=338&ext=jpg");
+}
             h1 {
                 color: darkgreen;
             }
@@ -5,6 +8,7 @@
                 width: 400px;
             }
             #thirdDiv {
+                margin: auto;
                 height: 600px;
                 width: 500px;
                 background-color: greenyellow;
@@ -15,4 +19,8 @@
             #spanId {
                 font: 18px;
                 margin: 50px;
+            }
+            .divClass {
+                margin: auto;
+                text-align: center;
             }
