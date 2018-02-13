@@ -8,9 +8,53 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
+  display: block;
+  text-align: center;
 
 }
 
+#exerciseTwo {
+  display: none;
+
+}
+
+#exerciseThree {
+  position: relative;
+  top: 100px;
+  left: 200px;
+
+}
+
+#exerciseFour {
+  position: fixed;
+  top: 0px;
+  left: 0px;  
+}
+
+#exerciseFive {
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#exerciseSeven {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end
+  
+}
+
+#itemOne {
+  align-self: flex-start
+}
+#itemTwo {
+  align-self: center
+}
+#itemThree {
+  align-self: flex-end
+}
 
 /* Exercise Two: Positioning a Header Bar*/
 
