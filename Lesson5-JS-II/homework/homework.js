@@ -4,12 +4,13 @@ function multiplyArguments() {
     // use the arguments keyword to multiply all of the arguments together and return the product
     // if no arguments are passed in return 0
     // if one argument is passed in just return it
-    for (var i = 0; i < arguments.length; i++) {
-        if (i > 1) {
-            let sum = arguments * arguments;
-            return sum;
-        } else return arguments;
-    }
+    var sum = 1;
+    if (arguments.length >= 1) {
+        for (var i = 1; i < arguments.length; i++) {
+            sum = sum * arguments[i];
+        }
+        return sum;
+    } else return arguments;
 }
 
 function getBiggest(x, y) {
@@ -72,12 +73,12 @@ function fizzBuzz(num) {
     // if num is divisible by 5 return 'buzz'
     // if num is divisible by 3 & 5 return 'fizzbuzz'
     // otherwise return num
-    if (num % 3 === 0) {
+    if (num % 15 === 0) {
+        return 'fizzbuzz';
+    } else if (num % 3 === 0) {
         return 'fizz';
     } else if (num % 5 === 0) {
         return 'buzz';
-    } else if (num % 15 === 0) {
-        return 'fizzbuzz';
     } else return num;
 }
 
@@ -87,15 +88,21 @@ function isPrime(num) {
     // hint: a prime number is only evenly divisible by itself and 1
     // hint2: you can solve this using a for loop
     // note: 0 and 1 are NOT considered prime numbers
-
-    if (num !== 0 && num !== 1) {
+    if (num === 1 || num === 0) {
+        return false;
+    } else if (num === 2) {
+        return true;
+    } else
         for (var i = 2; i < num; i++) {
             if (num % i === 0) {
-                return true;
-            } else return false;
+                return false;
+            }
         }
-    }
+    return true;
 }
+
+
+
 
 // Do not modify code below this line.
 // --------------------------------
