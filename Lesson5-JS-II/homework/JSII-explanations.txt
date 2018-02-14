@@ -1,0 +1,9 @@
+* `for`
+
+A loop is a way to evaluate expressions over and over again until some condition we set is true.  "For" loops are a specific kind of loop where we pick a variable to act as a "counter", and to do something repeatedly - incrementing the counter with each pass - until the counter reaches a certain value that we specify.
+
+* `&&`, `||`, `!`
+
+"&&" is called "AND": it evaluates two statements, side by side, and if both are true, it returns true.  If one or both are false, it returns false.
+"||" is called "OR": it evaluates two statements, side by side, and if at least one of them is true, it returns true.  If neither of them are true, it returns false.
+"!" is called "NOT": it returns the opposite of whatever statement before which it is placed.
