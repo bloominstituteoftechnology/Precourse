@@ -1,0 +1,28 @@
+body {
+  background: url("http://lorempixel.com/400/200/food/");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  color: darkslateblue;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: darkslateblue;
+  padding: 50px;
+  border: 5px solid darkslategray;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
