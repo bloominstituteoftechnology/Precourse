@@ -1,0 +1,3 @@
+Arrays:
+	Arrays are like little, ordered bundles of information. They can contain strings or integers. In order to refernce a piece of information within an array, you have to
+know it's position. The first piece of information is in the '0' spot. The second is at '1', third at '2' and so on.
