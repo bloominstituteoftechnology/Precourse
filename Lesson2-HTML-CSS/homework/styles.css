@@ -1,0 +1,28 @@
+body {
+  background-image: url("bal.jpg");
+  background-position: center;
+  text-align: center;
+}
+h1 {
+  color:darkred;
+}
+img {
+  width: 400px;
+}
+div {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: beige;
+  padding: 50px;
+  border: 15px solid black;
+  color: black;
+}
+#spanID {
+  size: 18px;
+  margin: 50px;
+}
