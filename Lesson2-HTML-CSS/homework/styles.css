@@ -1,0 +1,17 @@
+h1 {
+    color: darkorchid;
+ }
+ img {
+     width: 400px;
+ }
+ #thirdDiv {
+    height: 600px;
+    width: 500px;
+    background: darkseagreen;
+    padding: 50px;
+    border: 5px solid rgb(255,0,0);
+ }
+ #spanId {
+     font-size: 18px;
+     margin: 50px;
+ }
