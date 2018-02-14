@@ -8,7 +8,7 @@ function multiplyArguments() {
   if(arguments.length === 0){
       return 0;
   } else if(arguments.length === 1){
-      return arguments;
+      return arguments[0];
   }
   for(let i = 0; i < arguments.length; i++){
       if(i === 0){
