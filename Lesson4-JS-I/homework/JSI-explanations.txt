@@ -1,0 +1,19 @@
+* Variables
+
+Variables are placeholders that allow a value to be stored for later.
+
+* Strings
+
+Strings are blocks of text.  The text can include letters, numbers, and punctuation, but in JavaScript it is all treated as text.
+
+* Functions (arguments, `return`)
+
+A function is like a mystery box.  It can take data inputs (known as arguments) and can change those arguments based on the instructions it contains, and spit out an answer (known as "returning" something).
+
+* `if` statements
+
+If statements allow you to check whether something is true, and to only take certain steps if that statement is true.  If the statement is false, the steps tied to the if statement don't happen.
+
+* Boolean values (`true`, `false`)
+
+Booleans can be either "true" or "false", but nothing else.
