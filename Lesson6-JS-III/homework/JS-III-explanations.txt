@@ -1,0 +1,3 @@
+	* Arrays
+
+  Arrays are storage containers that allow a collection of objects to be arranged systematically.  Arrays are variables, but unlike other variables we've learnt about so far, arrays allow their constituent objects to be kept in a sequence, whether they're related or not. 
