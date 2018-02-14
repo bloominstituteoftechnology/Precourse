@@ -1,0 +1,41 @@
+body{
+	background-image: url("front.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+h1{
+	text-align: center;
+	color: #4462c4;
+}
+
+ul img{
+	width: 400px;
+	list-style: none;
+}
+ul li{
+	list-style: none;
+}
+
+
+.divClass1{
+	text-align: center;
+}
+
+.divClass2{
+	text-align: center;
+}
+#thirdDiv{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 600px;
+	width: 500px;
+	background-color: rgba(201, 214, 211, 0.26);
+	padding: 50px;
+	border: 2px solid #b5b5b5;
+
+}
+#spanId{
+	font-size: 18px;
+	margin: 50px;
+}
