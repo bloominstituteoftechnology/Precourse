@@ -1,0 +1,4 @@
+What is an array? 
+
+ An array is a storage container for collections of data. For example, a list of names, places, or numbers can be considered an array. To build an array, name the array and put the names, places, numbers, or array items into square brackets. Place single quotation marks around each array item and separate them with commas. 
+ 

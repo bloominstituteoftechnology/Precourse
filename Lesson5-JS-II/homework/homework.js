@@ -1,13 +1,13 @@
 // Do not change any of the function names
 
-//function multiplyArguments() {
-//if (arguments === ()); {return 0;}
+function multiplyArguments() {
+if (arguments === ()) {return 0;}
 
-//Per Daniel Frehner, this exercise is to be skipped and saved for lesson 6.
+
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
-
+}
 
 function getBiggest(x, y) {
 if (x > y) {return x;}
@@ -78,10 +78,11 @@ else {return num;}
 
 function isPrime(num) {
 if (num===0 || num===1) {return false;}
-  for (let i = 2; i > 15; i++) {
+  for (let i = 2; i > num; i++) {
     if (num%i===0)
     {return false;}
-    else {return true;}
+  }
+    return true;
   }
    
     // return true
@@ -90,7 +91,7 @@ if (num===0 || num===1) {return false;}
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-}
+
 
 
 
