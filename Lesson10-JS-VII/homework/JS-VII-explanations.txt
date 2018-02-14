@@ -1,0 +1,3 @@
+	* Closure
+
+  Closure allows functions to be nested within other functions.  The "inner" functions have access to variables created within their own scope, as well as variables in the scope of the outer function in which they nest, and to global variables like any other function.
