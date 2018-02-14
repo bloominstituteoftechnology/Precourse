@@ -6,6 +6,7 @@ body {
     ),
     url("http://cognitive-edge.com/wp-content/uploads/2017/01/londonA6.jpg"); 
 }
+
 h1 { 
 	color: aquamarine; 
 }
@@ -17,8 +18,8 @@ h1 {
 
 #thirdDiv { 
 		height: 600px; 
-		width: 470px; 
-		padding: 53px; 
+		width: 478px; 
+		padding: 51px; 
 		background-color: white; 
 		margin-left: 390px; 
 		margin-top: 15px;
