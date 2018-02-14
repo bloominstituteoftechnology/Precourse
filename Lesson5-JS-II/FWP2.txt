@@ -1,0 +1,7 @@
+for - is the starting word for a 'for loop', for each instance where the condition is right, the action prescribed will be taken. For instance, every day a person is sick the person will take medicine. The person stops taking medicine when the sickness goes away.
+
+&& - used for comparison, if all statements are true then everything is read as true. If one condition is false, then it will return the boolean value of false. In army training, if one guy falls behind on an assigned time then everyone in his group has to redo the run, similar to either everything(everyone) being right or else it is wrong.
+
+| | - 'or' is used for comparison, if either part of the statement is true then it will return true. In a classroom if the class were asked a question and different answers were given, then one person with the correct answer would still mean the class is right even though other students got the answer wrong. 
+
+! - 'not' reverses the boolean value that is expected. It is similar to saying the opposite of something, if it is not right then it is wrong.
