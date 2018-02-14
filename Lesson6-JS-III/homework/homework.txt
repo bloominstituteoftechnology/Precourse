@@ -1,3 +1,8 @@
-Array: It is a list of values separated by commas embedded inside of open and close square brackets. The order of the values inside the array is very important, and every element have an index based on that order. Array It is a data structure allows us to store multiple values in one single variable. the array can store any data-type such as string, numbers and boolean. We differentiate between the different  values in the array via the index number. So every value store within the array has a unique index as a reference. We mainly use the FOR-LOOP to access the values inside the array using the index to call them out. example:
+Array: It is a list of values separated by commas embedded inside of open and close square brackets. The order of the values inside the array is very important, and every element have an  unique index based on that order. Array is a data structure allows us to store multiple values in one single variable. The array can store any data-type such as string, numbers and boolean. We differentiate between the different  values in the array via the index number. So every value stored within the array has a unique index as a reference. We mainly use the FOR-LOOP to access the values inside the array using the index to call them out. example:
 
 storItems = [ goods, shelves, $5000, chairs, windows, staff ...]
+Goods = index 0
+Shelves = index 1
+$5000 = index 2  and so on....
+
+The first index in the array is 0. We can use the option '.length' to know the length of the array and to know how many items  are there. We can add items to the array and we could delete them as well.
