@@ -1,0 +1,15 @@
+Objects
+Objects hold information about one thing, not multiple. They have key:value pairs.
+Object key:value pairs are an object(value) about one thing with a certain key word that calls it.
+Objects are separated by commas not semicolons.
+Methods
+Methods are functions saved on an object. (.length, .push, .pop) They work just like functions.
+For...In Loops
+For...In Loops are the same as for loops with some different syntax. Use the in keyword.
+This
+This is a self referential keyword used in an object. Very useful in methods.
+Dot Notation
+Dot Notation is a way of calling an objecting using a (.).
+Bracket Notation
+Bracket Notation is the most common way of referencing an object.
+Bracket Notation uses ({}) and inside must be a string ('', "").
