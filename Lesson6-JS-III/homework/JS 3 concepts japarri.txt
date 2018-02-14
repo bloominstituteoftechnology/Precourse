@@ -1,0 +1,2 @@
+Arrays are a group of values usually of the same type. It is like a container or package having items as contents.
+
