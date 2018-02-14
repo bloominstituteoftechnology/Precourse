@@ -6,7 +6,7 @@
 		
 	* Arrays
 
-2. 3. From the top level of your `Precourse` folder, run `npm test JSIII` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
+2. 3. From the top level of your `Precourse` folder, run `npm test JSIII.test.js` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
 
 
 For more information about Lambda School's six month CS program visit: https://lambdaschool.com
