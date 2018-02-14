@@ -1,0 +1,1 @@
+1) An array is a list that can store multiple values inside of them. We can assign an array to a variable which makes it easier for us to give a single variable multiple data types instead of assigning each one on a separate line as a single item.
