@@ -1,0 +1,17 @@
+h1 {
+    color: salmon;
+    }
+img {
+    width: 400px;
+    }
+#thirdDiv {
+    height: 600px; 
+    width: 500px;
+    background: khaki;
+    padding: 50px;
+    border: 9px solid greenyellow;
+    }
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    }
