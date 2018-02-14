@@ -1,0 +1,10 @@
+Variables - are tools to store information for later use. This is like putting things in a labeled storage box.
+
+Strings - information surrounded by quotes. This is interpreted as text, and can be seen as things inside a speech bubble in a cartoon.
+
+Functions - directions to implement a task that needs to be done over and over again. Such as a recipe in a cook book.
+The return is the result of the combination of directions and ingredients. The arguments is the ingredients.
+
+if statements - is a way to provide conditional answers. Based on certain situations, a different result will appear. For instance, if it is raining, Sally will wear a raincoat. If not, she will leave her raincoat in the closet. 
+
+Boolean values - summarized to either true or false as interpreted by a computer. These are values that translates to "if right" I will listen, and "if wrong" I will ignore.
