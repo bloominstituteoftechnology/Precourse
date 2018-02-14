@@ -1,0 +1,3 @@
+	* Recursion
+
+  Recursion is the act of calling a function from within itself.  This provides another way to loop through things, as opposed to "for" and "while" loops, which are called "iterative" because they iterate over a counter variable we specify, and do not call themselves.
