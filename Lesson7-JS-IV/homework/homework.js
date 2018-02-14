@@ -5,12 +5,19 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
-}
+  const newName = name;
+    makeCat['age'],
+    catMeow() {
+      console.log('Meow!');
+    };
+    return newName.catMeow();
+  }
 
 function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
+
 }
 
 function invokeMethod(object, method) {
@@ -82,7 +89,7 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
   // the method then subtracts the discount from the price and returns the discounted price
   // return storeItem at the end of the function
-  // example: 
+  // example:
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
