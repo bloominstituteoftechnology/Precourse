@@ -1,0 +1,21 @@
+* Objects
+
+Objects are containers that store data in pairs of keys and values.  The pairs are comma separated and, unlike arrays, they are not sequenced (a.k.a. indexed). They allow us to store a lot of information about one thing.
+
+* Properties
+
+Properties are keys in objects whose values are static.  They must be unique (so multiple keys in an object can have the same value, but there cannot be multiple keys with the same name.)
+
+* Methods
+
+Methods are keys in objects whose values are functions.  Like properties, they must be unique.  They can be called with arguments like a normal function.
+
+* for in loop
+
+A "for in" loop allows us to loop over each key in an object, finishing only when it has covered all of them.  This is useful because a normal "for" loop loops over a numerical index, but objects do not contain numerical indexes, so "for" loops won't work.  The syntax starts with the word "for", then parentheses with a variable declared, the keyword "in", and the name of the object.
+
+* Dot notation vs bracket notation
+
+There are two ways to access values in an object: dot notation and bracket notation.
+In dot notation, we call the object name, a dot, and the key name.  This is useful when we know with certainty what the key is.
+In bracket notation, we call the object in the same way we would call an item in an array, except that the brackets must contain a string, a number, or a variable pointing to a string or a number.  This is useful when the key is a variable, and we don't know what it is before it's being called.
