@@ -4,17 +4,15 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
-  if (arguments === null) {
+  if (arguments.length === 0) {
     return 0;
   } else {
-  let holder = 0;
-  let result = 1;
-  for (let z = 0; z < arguments.length; z++) {
-   holder = arguments[z];
-   result *= holder;
+    let o = 1; 
+    for (let p = 0; p < arguments.length; p++) {
+      o *= arguments[p];
+    }
+    return o;
   }
-  return result;
-}
 }
 
 function getBiggest(x, y) {
