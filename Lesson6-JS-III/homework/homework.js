@@ -60,15 +60,15 @@ function largestNumber(numbers) {
 // --------------------------------
 
 module.exports = {
-  returnFirst: returnFirst,
-  returnLast: returnLast,
-  getArrayLength: getArrayLength,
-  incrementByOne: incrementByOne,
-  addItemToArray: addItemToArray,
-  addItemToFront: addItemToFront,
-  wordsToSentence: wordsToSentence,
-  contains: contains,
-  addNumbers: addNumbers,
-  averageTestScore: averageTestScore,
-  largestNumber: largestNumber,
+  returnFirst,
+  returnLast,
+  getArrayLength,
+  incrementByOne,
+  addItemToArray,
+  addItemToFront,
+  wordsToSentence,
+  contains,
+  addNumbers,
+  averageTestScore,
+  largestNumber,
 };
