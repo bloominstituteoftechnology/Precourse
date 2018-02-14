@@ -1,0 +1,8 @@
+For:
+   For loops are used to run a set function for a number of rounds that is set by range. The range is usually outlined in terms of i with the starting value of i being set, then you define how long the loop should run (ex. Run as long as I is less than 10), and the last section defines by how much i should change for each run.
+
+! Is read as 'not'.
+
+&& is read as 'and'.
+
+|| is read as 'or'.
