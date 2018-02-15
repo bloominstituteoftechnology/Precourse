@@ -1,0 +1,2 @@
+##Arrays
+    Arrays are like a list of values, where each value is assigned an index number to access it directly. Arrays can have values added to the front or back, and have many functions that can be called on it.
