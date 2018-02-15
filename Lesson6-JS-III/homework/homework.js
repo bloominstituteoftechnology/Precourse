@@ -2,31 +2,39 @@
 
 function returnFirst(arr) {
   // return the first item from the array
+  console.log(studentNames[]);
 }
 
 function returnLast(arr) {
   // return the last item of the array
+  console.log(studentNames[]);
 }
 
 function getArrayLength(arr) {
   // return the length of the array
+
+    console.log(getArrayLength.length);  
+
 }
 
 function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
+  incrementByOne[];
 }
 
 function addItemToArray(arr, item) {
   // add the item to the end of the array
   // return the array
+  addItemToArray.push=[];
 }
 
 function addItemToFront(arr, item) {
   // add the item to the front of the array
   // return the array
   // hint: use the array method .unshift
+  addItemToFront.unshift[];
 }
 
 function wordsToSentence(words) {

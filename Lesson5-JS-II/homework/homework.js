@@ -4,20 +4,31 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  if (typeof(true) !== 'number') return 0;
+  return x * x * x;
+
 }
+muliplyArguments(4);
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
 }
 
-function greeting(language) {
-  // return a greeting for three different languages:
-  // language: 'German' -> 'Guten Tag!'
-  // language: 'English' -> 'Hello!'
-  // language: 'Spanish' -> 'Hola!'
-  // if language is undefined return 'Hello!'
-}
+  function greeting(language) {
+    // return a greeting for three different languages:
+    // language: 'German' -> 'Guten Tag!'
+    // language: 'English' -> 'Hello!'
+    // language: 'Spanish' -> 'Hola!'
+    // if language is undefined return 'Hello!
+    if (true) {
+      console.log('German ==== Guten Tag!');
+  } else if (true) {
+      console.log('Hello!');
+  } else if (true) {
+      console.log('Hola!');
+  }
+  }
 
 function isTenOrFive(num) {
   // return true if num is 10 or 5
@@ -43,6 +54,22 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
+  function fizzy(n) {
+    if (n % 15 === 0) {
+      return "FizzBuzz";
+    }
+    if (n % 3 === 0) {
+      return "Fizz";
+    }
+    if (n % 5 === 0) {
+      return "Buzz";
+    }
+    return n.toString();
+  }
+  
+  for (let i = 1; i <= 50; i++) {
+    console.log(fizzy(i));
+  }
 }
 
 function isPrime(num) {
@@ -51,8 +78,34 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-}
+  
 
+    if (num === 2) {
+      return true;
+    }
+    else if(num > 1){
+      for (var i = 2;  i < num; i++) {
+  
+        if (num % i !== 0 ) {
+          return true;
+        }
+  
+        else if (num === i * i) {
+          return false
+        }
+  
+        else {
+          return false;
+        }
+      }
+    }
+    else {
+      return false;
+    }
+  
+  }
+  
+  console.log(isPrime(121));
 
 
 // Do not modify code below this line.

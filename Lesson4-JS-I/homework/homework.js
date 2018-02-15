@@ -2,22 +2,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = null ;
+let newString = 'april' ;
 
 //create a number variable, it an be any number
-let newNum = null ;
+let newNum = 43 ;
 
 //create a boolean variable
-let newBool = null ;
+let newBool = true ;
 
 //solve the following math problem
-let newSubtract = 10 - null === 5;
+let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * null === 40 ;
+let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === null ;
+let newModulo = 21 % 5 === 1 ;
 
 
 
@@ -28,28 +28,49 @@ let newModulo = 21 % 5 === null ;
 
 function returnString(str) {
   //simply return the string provided: str
+  console.log (str);
 }
+returnString('april')
+
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
+  const sum = x + y;
+      return sum;
 }
+  add(3, 6);
+
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-}
+  const difference = y - x;
+      return difference;
 
+}
+subtract(10,5);
+    
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-}
+  
+    return x * y;
+};
+
+multiply(2, 5);
+
 
 function divide(x, y) {
-  // divide x by y and return the value
+  // divide x by y  and return the value
   // code here
+  const product = a / b;
+  return product;
 }
+
+product(21,7);
+
 
 function areEqual(x, y) {
   // return true if x and y are the same
@@ -96,44 +117,62 @@ function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-}
+  
+    return num * num;
+};
 
+    square(4);
+    
 function cube(num) {
   // cube num and return the new value
   // code here
-}
+  
+    return num * num * num;
+};
+
+cube(7);
+
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
-  // code here
+  // cod e here
+  Math.pow(2,2) = 4;
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
+  Math.round(6.5) = 7;
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
+  Math.ceil(6.0001) = 7;
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
+  
+   
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
+  console.log(firstName +''+lastName);
 }
+combineNames('Lambda','School');
+
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
+
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -145,9 +184,9 @@ function getRectangleArea(length, width) {
 }
 
 function getTriangleArea(base, height) {
-  // return the area of the triangle by using base and height
-  // code here
-}
+here
+}  // return the area of the triangle by using base and height
+  // code 
 
 // Do not modify code below this line.
 // --------------------------------
