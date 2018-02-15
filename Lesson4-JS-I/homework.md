@@ -12,3 +12,5 @@
     If statements are conditional, so if I were to say "If you did your homework, go play video games"
     Obviously, if you did your homework, I just told you to go play video games. But if the condition, you doing your homework,
     is not true, you would skip that instruction and continue on.
+## Booleans
+    Booleans are simple true or false. In javascript false can be a broad term to include "falsey" values, like null.
