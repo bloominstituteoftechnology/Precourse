@@ -1,0 +1,39 @@
+Objects: are a sort of data structures contains a list of Key-Value pairs. It is a way to organize variables. Objects can have  different types of  data such as functions, arrays, small objects, key-words, booleans and numbers ... Every key in the object store a value or more. In each line   we write the name of the key followed by colons and then the value of it,  and a commas at the end.
+If we need to access any key inside the object we use the dot-notation " nameOfTheObject.nameOfThekey ".
+
+Properties: are the keys or the elements that store the values inside the object. Every property has a unique and distinct name. The properties can store string values , numbers, booleans , functions and arrays...
+
+Methods: It is an action that we could perform in  the object. Example : we add a function to an object. This function have a piece of code and that code will perform an action inside the object. This action of a function is  called a method.
+
+
+For In Loop:
+It is a loop we use to access to the object properties and their values, so we can display them and we can display their values as well. Example:
+for ( let key in store ){
+	console.log(key);
+	console.log(store[key]);
+};
+in this example  there is an object called store, and there is a list of properties inside it. We use 'console.log(key);' to display all the properties. We use 'console.log(store[key]);' to display all the values stored in the properties.
+
+Dot notation: it is a way to access a specific item or property in the object. The way we use it is we state the name of the object followed by a dot, followed by the property-name. 
+ example:
+ store.counter-color; this sentence will access the property 'counter-color' in the object called store,  and display its value.
+
+ Bracket notation: it is a way to access a specific item or property in the object. The way we use it is we search inside an object for the value of string  stated inside the bracket. 
+ example: 
+ console.log(store['counter-color']) ; this sentence will display the value of the property 'counter-color' in the "store" object . the string inside the bracket has to have the quotation marks, but if we use the word 'key' we don't need the quotation but all the properties values will be displayed 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
