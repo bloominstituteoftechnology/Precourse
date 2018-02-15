@@ -1,0 +1,36 @@
+h1{
+    font-color: cadetblue;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 500px;
+    border: 1px solid black;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    Background-color: floralwhite;
+    padding: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+body{
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.MXuYI4KLGWbNYWZWjeQbygHaE1&w=274&h=178&c=7&o=5&pid=1.7);
+    align-items: center;
+}
+div{
+    align-self: center;
+}
+#flexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
