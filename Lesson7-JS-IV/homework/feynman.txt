@@ -1,0 +1,12 @@
+Feynman Writing Prompt - Lesson 7
+
+Objects - A collection of data that is stored as a group in memory.
+
+Properties - Sort of like a feature of some thing...like age of a person.
+
+Methods - This is a function within an object.
+
+for in loop - Special loop that works with objects.
+
+Dot notation vs bracket notation - Dot notation is used when you know the name of a property (key)--working directly with it.
+Bracket notation is used when the property (key) has spaces in it or when the property has been assigned to a variable.
