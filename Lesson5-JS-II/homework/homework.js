@@ -83,10 +83,6 @@ function isPrime(num) {
 
   // implement Eratosthenes' Seive
   
-  // find the square root of the number
-  // this is the highes number we have to brute force check
-  // can we find the square root of that number?
-  
   /*
   function isPrimeOld(num) {
     if(num < 2) 
@@ -105,7 +101,6 @@ function isPrime(num) {
     // creates an array of the prime numbers from 2 to num
     // returns the array
     const primes = [];
-    // go from 2(?) to num and determine if prime
     for(let i = 2; i <= num; i++)
       if(isPrime(i)) {
         // console.log(`found a prime!: ${i}`);
