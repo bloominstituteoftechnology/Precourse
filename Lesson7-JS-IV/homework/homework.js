@@ -17,6 +17,9 @@ function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
+  const newProp = property;
+  object[newProp] = null;
+  return object;
 }
 
 function invokeMethod(object, method) {
