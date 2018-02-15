@@ -160,33 +160,44 @@ console.log(isOdd(18));
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
-  
+  return Math.pow(num,2);
 }
-
+console.log(square(5));
   
 
 
 function cube(num) {
   // cube num and return the new value
-  
+  return num * num * num; 
 }
+console.log(cube(5));
 
 
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
-  // code here
+  return Math.exp(3);
 }
+console.log(raiseToPower(2));
+
+
+
 
 function roundNumber(num) {
   // round num and return it
   // code here
 }
 
+
+
+
 function roundUp(num) {
   // round num up and return it
   // code here
 }
+
+
+
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
@@ -194,17 +205,28 @@ function addExclamationPoint(str) {
   // code here
 }
 
+
+
+
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
 }
 
+
+
+
+
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
 }
+
+
+
+
 
 // The next three questions will have you implement math area formulas. 
 // If you can't remember these area formulas then head over to Google.
@@ -213,6 +235,10 @@ function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
 }
+
+
+
+
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
