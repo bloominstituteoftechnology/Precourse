@@ -5,6 +5,18 @@ function multiplyArguments() {
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
 
+  if(arguments.length === 0) {
+    return 0;
+  } else if(arguments.length === 1) {
+    return arguments[0];
+  }
+
+  let prod = 1;
+  for(let i = 0; i < arguments.length; i++) {
+    prod = prod * arguments[i];
+  }
+  return prod;
+
 }
 
 function getBiggest(x, y) {
