@@ -1,0 +1,9 @@
+1. for is a keyword to initiate a loop. A loop is a control structure that enables repetitive execution of instructions.
+   any task that requires iteration such as going thru an array is perfect for a for loop.
+
+2. && is the logical operator and that requires two conditions to be true for the whole expression to be returned as true.
+
+3. || is the logical operator or that requires only one of two conditions to be true in order to return true for the expression.
+
+4. ! is the not logical operator that reverses the truth or falseness of a statement.
+
