@@ -118,56 +118,79 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
+    if(num % 2 == 0){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
+    if(num % 2 != 0){
+       return true;
+    }
+    else{
+        return false;
+    }
 }
 
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
+    var result = num * num;
+    return result;
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
+    var result = Math.pow(num, 3);
+    return result;
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
+    return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
+    return Math.round(num);
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
+    return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
+    var newString = str + "!";
+    return newString;
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
+    return firstName + " " + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
+    return "Hello " + name + "!";
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -176,11 +199,15 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
+    var area = length * width;
+    return area;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
+    var area = base * height * 0.5;
+    return area;
 }
 
 // Do not modify code below this line.
