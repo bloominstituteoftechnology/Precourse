@@ -1,0 +1,5 @@
+	* Callback Functions
+
+  Callback functions are functions that are passed as arguments to other functions.
+  They are important because often an application needs to execute different functions based upon its context/state.
+  To do this, we use a variable where we would store the information about the function to be called, rather than specifying the function up front.

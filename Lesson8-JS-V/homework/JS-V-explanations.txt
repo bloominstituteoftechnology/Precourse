@@ -1,0 +1,7 @@
+* `prototype`
+
+A "prototype" is a property of a class.  By setting a method on the prototype, it gives every object of that class access to run that method.  This uses less memory by removing the need to create duplicate methods for every object of that class.
+
+* Constructors
+
+A constructor is a special method for creating and initializing an object created within a class.  Every class can only have one constructor method.
