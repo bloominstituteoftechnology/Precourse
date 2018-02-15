@@ -1,0 +1,38 @@
+Lesson 4 Homework
+Submitted By: Maribel Cuales 
+
+
+
+1. Feynman Writing Prompts
+
+		
+	* Variables
+		
+		We use variables in Javascript to assign a name and value to something.  This way it will be easier to remember and retrieve the values they represent.     
+    
+
+
+	* Strings
+	
+		Strings can be text or numbers that are enclosed by single or double quotation marks. 
+
+
+
+	* Functions (arguments, `return`)
+	
+		Functions are used to change variables just like how math equations change and manipulate numbers.
+
+		Arguments are the values that we declare for a function. For example, x and y can be any number. 
+	
+		Return executes what value the function is calling for.  
+
+
+
+	* `if` statements
+
+		'If' statements specify what conditions should be met for the statement to be returned either true or false.   
+
+
+	* Boolean values (`true`, `false`)
+
+		Boolean values in Javascript are either True or False.  Boolean statements will always check if the statement is True or False.
