@@ -1,22 +1,28 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = null ;
+const newString = "London";
+console.log(newString);
 
 //create a number variable, it an be any number
-const newNum = null ;
+const newNum = 8;
+console.log(newNum);
 
 //create a boolean variable
-const newBool = null ;
+const newBool = true;
+console.log(newBool);
 
 //solve the following math problem
-const newSubtract = 10 - null === 5;
+const newSubtract = 10 - 5 === 5;
+console.log(newSubtract);
 
 //Solve the following math problem
-const newMultiply = 10 * null === 40 ;
+const newMultiply = 10 * 4 === 40;
+console.log(newMultiply);
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === null ;
+const newModulo = 21 % 5 === 1;
+console.log(newModulo);
 
 
 
@@ -27,80 +33,145 @@ const newModulo = 21 % 5 === null ;
 
 function returnString(str) {
   //simply return the string provided: str
+  return str;
 }
+console.log("hello")
+
+
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
-  // code here
+  return x + y;
 }
+console.log(add(5, 6));
+
+
 
 function subtract(x, y) {
   // subtract y from x and return the value
-  // code here
+  return x - y;
 }
+console.log(subtract(57, 16));
+
+
 
 function multiply(x, y) {
   // multiply x by y and return the value
-  // code here
+  return x * y;
 }
+console.log(multiply(10, 4));
+
+
 
 function divide(x, y) {
   // divide x by y and return the value
-  // code here
+  return x / y;
 }
+console.log(divide(24, 6));
+
+
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  // code here
+  if (x === y) {
+    return true;
+  } else {
+    return false;
+  }
 }
+console.log(areEqual(5,8));
+
+
+
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  // code here
+  if (str1.length === str2.length) {
+    return true;
+  } else {
+    return false;
+  }
 }
+console.log(areSameLength("hello", "world"));
+
+
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
-  // code here
+  if (num < 90) {
+    return true;
+  } else {
+    return false;
+  }
 }
+console.log(lessThanNinety(91));
+
+
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
-  // code here
+  if (num > 50) {
+    return true;
+  } else {
+    return false;
+  }
 }
+console.log(greaterThanFifty(51));
+
+
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
-  // code here
+  return x % y;
 }
+console.log(getRemainder(32,11));
+
 
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-  // code here
+  if (num % 2 === 0 ) {
+    return true;
+  } else {
+    return false;
+  }
 }
+console.log(isEven(9));
+
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
-  // code here
+  if (num % 2 === 1) {
+    return true;
+  } else {
+    return false;
+  }
 }
+console.log(isOdd(18));
+
+
 
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
-  // code here
+  
 }
+
+  
+
 
 function cube(num) {
   // cube num and return the new value
-  // code here
+  
 }
+
+
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent

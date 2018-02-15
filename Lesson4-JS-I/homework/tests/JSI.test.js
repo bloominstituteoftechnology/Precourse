@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+  /* eslint-disable no-undef */
 const {
   newString,
   newNum,
