@@ -59,6 +59,6 @@ in this folder, you are in the wrong place.
 #exerciseSeven {
   display: flex;
   justify-content:space-between;
-  align:left;
+  align-items:left;
   flex-direction: column;
 }
