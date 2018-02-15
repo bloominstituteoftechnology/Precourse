@@ -1,0 +1,9 @@
+Feynman Writing Prompts:
+
+1. Variables -- Variables are kind of like boxes. You can give them names and assign labels to them.
+2. Strings -- Strings are texts or characters, such as letters, words, or even numbers, that are enclosed in single or double quotation marks.
+3. Functions -- Functions are commands that have their own operations. They're like little machines inside which you can put codes so that they'll operate in particular ways -- that is, in ways you want them to operate. They're like "virtual robots" that you can code in special ways. 
+4. Arguments -- Arguments are variables that you put inside the parentheses in functions. You can have one or more of these variables.
+5. Return -- Is an element in Javascript that is part of the concept of control flow.
+6. If Statements -- Are elements inside a function that enable you to evaluate to items.
+7. Boolean Values -- A concept in Javascript which simple means that a statement can have either of two values: true or false.
