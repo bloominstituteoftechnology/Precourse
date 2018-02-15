@@ -1,0 +1,24 @@
+Objects - Like arrays, objects are containers with one more contents or values inside them. Instead of indexed valued items, it has key value pairs which can be a string, number, arrays, functions or even another object.
+
+Property - is the relation between a name and its value, e.g. arr.length.
+
+Method - is a property that executes or runs something, arr.pop().
+
+For in loop - a distinct looping syntax for objects. Must not be used with arrays.
+
+
+Dot notation vs bracket notation 
+In accessing the key value pair of an object, we can use dot notation or bracket notation. The former is like calling an array's property while the latter is like calling an item in an array by using brackets.
+
+With dot notation, we use the explicit property name. When the property name is inside a variable as a value, then we should use bracket. Example:
+
+dan.username  is the same  as dan['username']
+
+but when we use a variable like:
+uname = 'username'
+
+we should use brackets
+
+dan[uname]
+
+
