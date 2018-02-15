@@ -74,61 +74,74 @@ function fizzBuzz(num) {
   }
 }
 
-/*
 function isPrime(num) {
   // return true if num is prime.
   // otherwise return false
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  let n = true;
-  if (num < 2) {
-    n = false;
+
+  // implement Eratosthenes' Seive
+  
+  // find the square root of the number
+  // this is the highes number we have to brute force check
+  // can we find the square root of that number?
+  
+  /*
+  function isPrimeOld(num) {
+    if(num < 2) 
+      return false;
+    else if (num !== 2 && num % 2 === 0)
+      return false;
+    else {
+      for(var i = 3; i < num; i+=2)
+        if(num % i === 0) return false;
+    }
+    return true;
   }
-  else {
-    for (let i = 2; i < num; i++) {
-      if (num % i === 0) {
-        n = false;
-        break;
+  */
+  
+  function findPrimes(num) {
+    // creates an array of the prime numbers from 2 to num
+    // returns the array
+    const primes = [];
+    // go from 2(?) to num and determine if prime
+    for(let i = 2; i <= num; i++)
+      if(isPrime(i)) {
+        // console.log(`found a prime!: ${i}`);
+        primes.push(i);
+      }
+    return primes;
+  }
+  
+  function isDivisibleByArrayNum(num, arr) {
+    // given an array of numbers, arr, is number, num, evenly
+    // divisible by numbers in arr
+    // if yes, returns true
+    // otherwise false
+
+    // console.log(`${num} is the number; ${arr} the array`);
+    for(let i = 0; i < arr.length; i++) {
+      // console.log(`${num} / ${arr[i]} is being checked`);
+      if(num % arr[i] === 0) {
+        // console.log(`${num} is divisible by ${arr[i]}`);
+        return true;
       }
     }
+    return false;
   }
-  return n;
-}
-*/
-
-/*
-function isPrime(num) {
-  // return true if num is prime.
-  // otherwise return false
-  // hint: a prime number is only evenly divisible by itself and 1
-  // hint2: you can solve this using a for loop
-  // note: 0 and 1 are NOT considered prime numbers
+  
+  // console.log(`${num} is the number`);
+  
   if(num < 2)
     return false;
-  else {
-    for(var i = 2; i < num; i++)
-      if(num % i === 0) return false;
-  }
-  return true;
-}
-*/
-
-function isPrime(num) {
-  // return true if num is prime.
-  // otherwise return false
-  // hint: a prime number is only evenly divisible by itself and 1
-  // hint2: you can solve this using a for loop
-  // note: 0 and 1 are NOT considered prime numbers
-  if(num < 2) 
-    return false;
-  else if (num !== 2 && num % 2 === 0)
-    return false;
-  else {
-    for(var i = 3; i < num; i+=2)
-      if(num % i === 0) return false;
-  }
-  return true;
+  else if (num === 2)
+    return true;
+  let sr = Math.ceil(Math.sqrt(num));
+  // console.log(`the square root is ${sr}`);
+  const rootPrimes = findPrimes(sr);
+  // console.log(`the root primes are ${rootPrimes}`);
+  return !(isDivisibleByArrayNum(num, rootPrimes));
 }
 
 
