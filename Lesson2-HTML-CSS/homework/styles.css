@@ -1,0 +1,19 @@
+h1 {
+  color: darkviolet;
+}
+img {
+  width: 400px;
+  height: 245px;
+  object-fit: cover;
+}
+#thirdDiv {
+  width: 600px;
+  height: 500px;
+  border: 1px solid darkblue;
+  padding: 50px;
+  background-color: khaki;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
