@@ -1,0 +1,68 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `prototype`
+
+		A prototype in Javascript is mechanism for objects to access properties and methods
+		that are not immediately available. Objects that are part of the same prototype have access to all
+		the properties and methods stored in that prototype. For example if we create two arrays:
+
+			var array1 = [1,2,3,4];
+			var array2 = [5,6,7,8];
+
+		we see that both arrays only contain integers and nothing else. However arrays are objects so they
+		have access to all the properties and methods in the Array.prototype. For example we can use the
+		length property to both arrays.
+
+			array1.length // returns 4
+			array2.length // returns 4
+
+		Array.prototype.length is a property that gives you the length of the array. Even though we didn't
+		specify a length property the Array.prototype gave us access to it. You can think of 
+		prototypes as a box filled with useful properties and methods that your objects can use. Other 
+		examples of prototypes include the String.prototype, available to strings, and the Object.prototype
+		which is available to objects.
+
+	* Constructors
+
+		A constructor is a method of creating valid object immediately. For example lets say we have an object:
+
+			var user = {
+				username: 'john541',
+				password: 'abc321230',
+				email: 'john88@yahoo.com'
+			}
+
+		Our user object holds a new user's information in the social media site we are building. But how do we 
+		add other users? It would be really time consuming and tiring to manually code every user that registers
+		for our site. Constructors allow us to create a template to create objects instantly when we need them.
+
+			function User (username, password, email) {
+				this.username = username,
+				this.password = password,
+				this.email = email
+			}
+
+		Our new constructor allows us to create as many user profiles as need by simply calling the function:
+
+			var justin = new User('justin123', 'abc321321', 'justin32@gmail.com');
+
+		Now we created a new user for by calling the constructor function. If we console.log, we end up with
+
+
+			var justin = {
+				username: 'justin123',
+				password: 'abc321321',
+				email: 'justin32@gmail.com'
+			}
+
+		Constructors make use of the 'this' keyword to create new objects with the same template. 'This' just
+		refers to the object that called it. In our example, 'this' refers to the new object that is being made.
+
+
+
+
+
+
+
+
+
