@@ -2,8 +2,8 @@
     color: navy;
             }
             img {
-                height: 290px;
-                width: 400px;
+                height: 280px;
+                width: 350px;
             }
             #thirdDiv {
                 height: 600px;
@@ -11,7 +11,30 @@
                 background: lightgrey;
                 padding: 50px;
                 border: navy 2px dotted;
+                 
+
+            }
+            .divClass {
+                
+                text-align: center;
             }
             #spanId {
                 font-size: 18px;
             }
+            #center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column nowrap;
+            }
+
+        body {
+            background-image: url("http://www.pngmart.com/files/4/Japanese-Transparent-Background.png");
+            background-repeat: no-repeat;
+            background-position: left top;
+            background-attachment: fixed;
+            
+        }
+        .link {
+            font-size: 20px;
+        }
