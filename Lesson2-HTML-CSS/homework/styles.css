@@ -1,0 +1,17 @@
+ h1 {
+    color: navy;
+            }
+            img {
+                height: 290px;
+                width: 400px;
+            }
+            #thirdDiv {
+                height: 600px;
+                width: 500px;
+                background: lightgrey;
+                padding: 50px;
+                border: navy 2px dotted;
+            }
+            #spanId {
+                font-size: 18px;
+            }
