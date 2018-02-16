@@ -1,0 +1,28 @@
+h1 {
+    color: darkgreen;
+}
+img {
+    width: 400px;
+    margin: center;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: rgb(0, 183, 255);
+    padding: 50px;
+    border: 4px solid black;
+    margin: auto;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhNBiTYAMILgp4xDIGRlcCfNHQ-2e07Ih5qyJmvt9hqRP7qfvVgQ");
+    text-align: center;
+    margin: auto; 
+}
+.divClass {
+    margin-left: auto;
+    margin-right: auto;
+}
