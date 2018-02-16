@@ -17,13 +17,17 @@ function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
-
+  const object = {
+    property['null'],
+    return object;
+  }
 }
 
 function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
+  invokeMethod();
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
