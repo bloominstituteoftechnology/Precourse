@@ -1,0 +1,4 @@
+What is an array?
+
+    An array is a structure in Javascript that can contain multiple items, as well as any data type.
+    Items in an array are accessed using an index number (ex. arr[1]).
