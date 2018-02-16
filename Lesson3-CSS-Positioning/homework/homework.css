@@ -61,5 +61,26 @@ align-items: center;
 #exerciseSeven {
 
 display: flex;
+flex-direction: column;
+justify-content: space-between;
+flex-wrap:wrap;
+}
+#itemOne{
+align-self:flex-start;
+}
 
+#itemTwo{
+
+align-self: flex-end;
+	
+}
+
+#itemThree{
+
+align-self:flex-end; 
+
+}
+
+#itemFour{
+align-self:flex-end;
 }
