@@ -193,9 +193,9 @@ console.log(roundNumber(4.5));
 
 function roundUp(num) {
   // round num up and return it
-  // code here
+  return Math.ceil(num);
 }
-
+console.log(roundUp(4.5));
 
 
 
