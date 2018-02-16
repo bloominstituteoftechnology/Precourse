@@ -176,9 +176,9 @@ console.log(cube(5));
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
-  return Math.exp(3);
+  return Math.pow(num,exponent);
 }
-console.log(raiseToPower(2));
+console.log(raiseToPower(4,3));
 
 
 
