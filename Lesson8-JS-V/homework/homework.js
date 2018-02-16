@@ -3,15 +3,29 @@
 function createUserClass() {
   // create a class constructor called User
   // it should accept an options object with username, name, email, and password properties
+  //const options = {username: 'sunjiemai', name: 'ben', email: 'example@test.com', password: 'abc123'}
   // in the constructor set the username, name, email, and password properties
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the constructor
+  function User(options){
+    this.username = options.username;
+    this.name = options.name;
+    this.email = options.email;
+    this.password = options.password;
+  };
+  User.prototype.sayHi = function(){
+    return "Hello, my name is " + this.name;
+  }
+  return User;
 }
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
+  Constructor.prototype.sayHi = function(){
+    return "Hello World!"
+  }
 }
 
 function addReverseString() {
@@ -19,6 +33,13 @@ function addReverseString() {
   // name this method reverse
   // hint:
   // you will need to use 'this' inside of reverse
+  String.prototype.reverse = function(){
+    let fullString = this;
+    let arrayString = fullString.split('');
+    let revArrString = arrayString.reverse();
+    let revString = revArrString.join('');
+    return revString;
+  }
 }
 
 // Do not modify code below this line.
