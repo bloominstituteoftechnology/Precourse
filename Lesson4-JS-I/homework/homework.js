@@ -202,18 +202,18 @@ console.log(roundUp(4.5));
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  // code here
+  return str + "!";
 }
-
+console.log(addExclamationPoint("hello world"));
 
 
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  // code here
+  return firstName + lastName;
 }
-
+console.log(combineNames("Lambda", " School"));
 
 
 
@@ -221,9 +221,9 @@ function combineNames(firstName, lastName) {
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  // code here
+  return "Hello " + name + "!";
 }
-
+console.log(getGreeting("Sam"));
 
 
 
@@ -233,17 +233,19 @@ function getGreeting(name) {
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
-  // code here
+  return length * width;
 }
-
+console.log(getRectangleArea(5,10));  
 
 
 
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  // code here
+  return base * height;
 }
+console.log(getTriangleArea(15,30));
+
 
 // Do not modify code below this line.
 // --------------------------------
