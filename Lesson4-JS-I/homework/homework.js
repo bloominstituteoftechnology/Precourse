@@ -185,9 +185,9 @@ console.log(raiseToPower(4,3));
 
 function roundNumber(num) {
   // round num and return it
-  // code here
+  return Math.round(num);
 }
-
+console.log(roundNumber(4.5));
 
 
 
