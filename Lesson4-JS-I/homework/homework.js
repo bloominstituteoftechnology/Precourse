@@ -211,7 +211,7 @@ console.log(addExclamationPoint("hello world"));
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  return firstName + lastName;
+  return firstName + ' ' + lastName;
 }
 console.log(combineNames("Lambda", " School"));
 
@@ -244,7 +244,7 @@ function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   return base * height;
 }
-console.log(getTriangleArea(15,30));
+console.log(getTriangleArea(4,16));
 
 
 // Do not modify code below this line.
