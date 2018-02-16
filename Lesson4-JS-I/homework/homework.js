@@ -242,7 +242,7 @@ console.log(getRectangleArea(5,10));
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  return base * height;
+  return base * height / 2;
 }
 console.log(getTriangleArea(4,16));
 

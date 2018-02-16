@@ -234,7 +234,7 @@ describe('getRectangleArea(length, width)', function() {
 
 describe('getTriangleArea(base, height)', function() {
   it('should return the correct area', function() {
-    expect(getTriangleArea(2, 2)).toBe(4);
+    expect(getTriangleArea(2, 2)).toBe(2);
     expect(getTriangleArea(0, 2)).toBe(0);
   });
 });
