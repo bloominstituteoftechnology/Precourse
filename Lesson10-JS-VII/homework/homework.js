@@ -5,9 +5,14 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
+  let count = 0;
+  return function(){
+    count += 1;
+    return count;
+  };
 }
 
-function cacheFunction(cb) {
+function cacheFunction() {
   // use closure to create a cache for the cb function
   // the function that you return should accept a single argument and invoke cb with that argument
   // when the function you return is invoked with an argument it should save that argument and its result
@@ -18,6 +23,20 @@ function cacheFunction(cb) {
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
+
+
+  //TODO: Come back to this, not making sense to me atm.
+  // let cache = 0;
+  // let result = 0;
+  // return function(x){
+  //   if(cache == x){
+  //     return result;
+  //   }
+  //   cache = x;
+  //   result = x * x;
+  //   return result;
+  // };
+
 }
 
 // Do not modify code below this line.
