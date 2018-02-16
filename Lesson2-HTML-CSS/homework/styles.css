@@ -1,0 +1,34 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+h1 {
+    color: blue;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    font-size: 20px;
+    height: 600px;
+    width: 500;
+    background-color: darkblue;
+    padding: 85px;
+    border: 10px;
+}
+#spanId {
+    font: 18px;
+    margin: 50px;
+}
+.divClass
+{
+     margin: 0 auto;
+     width: 500px; 
+}
+
