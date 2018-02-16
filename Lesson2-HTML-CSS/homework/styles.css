@@ -1,0 +1,31 @@
+body {
+  background: url("http://img1.10bestmedia.com/Images/Photos/269162/p-e7a06a59851ec2830279ab2637e2d95ab3d88bbf_54_990x660.jpg") center no-repeat;
+  background-size:  cover;
+}
+
+.divClass {
+  color:gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.thirdDiv {
+  position: absolute;
+  bottom: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {display: inline}
+
+img, iframe {
+  height: 300px;
+  width: 400;
+  margin: 3px solid white;
+}

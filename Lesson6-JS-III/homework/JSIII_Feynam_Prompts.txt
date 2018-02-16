@@ -1,0 +1,1 @@
+Array: Is a container that can hold more than one variable such a number, a single or multiple characters, and a true and false answer.
