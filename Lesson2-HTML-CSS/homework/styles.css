@@ -1,0 +1,48 @@
+body {
+	background-image: url("http://starawozownia.pl/wp-content/uploads/2016/05/background.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	color: rgba(0,20,20,0.8);
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: #F7E7CE;
+	padding: 50px;
+	border: 3px solid black;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	position: relative;
+	top: 750;
+	left: -170;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: rgba(0,20,20);
+	padding: 10px;
+	color: orange;
+	border-radius: 25px;
+}
