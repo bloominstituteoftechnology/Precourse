@@ -1,0 +1,9 @@
+
+Writing Prompts
+
+Objects: Objects are structures of other data combined under one name.
+Properties: Properties are the names of the data that form structures.
+Methods: Methods are like Functions, except they exist within objects.
+For in loop: A special loop that was created to give you the contents of an object.
+Dot notation is the normal way to interact with an object's data,
+     bracket notation is mostly useful when you don't know what the properties are called or need them in a variable.
