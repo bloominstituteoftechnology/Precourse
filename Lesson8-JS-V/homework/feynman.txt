@@ -1,0 +1,5 @@
+Feynman Wrinting Prompt
+
+`prototype` - An object available to all objects in JavaScript that allows you to attached functions to objects that are shared by those objects.
+
+Constructors - A function that initializes an objects state.
