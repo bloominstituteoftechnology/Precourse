@@ -1,0 +1,30 @@
+body {
+  background-image: url("http://www.designbolts.com/wp-content/uploads/2012/12/White-Gradient-Squares-Seamless-Patterns-For-Website-Backgrounds.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  text-align: center;
+}
+h1 {
+  color: steelblue;
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: mistyrose;
+  padding: 50px;
+  border: 5px solid rosybrown;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+#flexContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
