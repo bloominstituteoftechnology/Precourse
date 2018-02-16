@@ -1,0 +1,5 @@
+Prototype - is the class' unique way of creating a method only once and makes it accessible by every object of the class. This saves a huge amount of space inside the computer and convenience for developers too.
+
+Constructors - or classes is Javascript's way of allowing us not to repeat code statements. It's a kind of template of a function or method that we can call repeatedly.
+
+
