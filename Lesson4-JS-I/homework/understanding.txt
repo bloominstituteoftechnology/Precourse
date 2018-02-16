@@ -1,0 +1,11 @@
+Feyman Writing Prompts
+
+Variables: A container for storing data values.
+
+	   the way I see variables work Is that I use a letter or a word 
+	   to name my function and I set it equal to a value or I have 
+	   an annonomus function which has a letter or a word I use as
+	   it's name, whereas later on I call it by using the letter or
+	   name followed by (); these parentheses. What I put inside the
+	   Parentheses is either my Variable or some other data type.
+	   	   
