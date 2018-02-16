@@ -2,11 +2,15 @@
 body{
 	color: aquamarine;
 	background-image: url("https://i.imgur.com/XjKfgHt.jpg");
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
 }
 h1{
 	color: dodgerblue;
+	position: relative;
+	
 }
 .divClass {
 	text-align: center;
