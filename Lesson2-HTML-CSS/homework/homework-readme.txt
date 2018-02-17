@@ -17,15 +17,24 @@ I. Create a basic HTML page.
       * an 'a' element linking to your favorite restaurant.
     3. In the third div create:
       * an an unordered list with two list items
+<<<<<<< HEAD
       * an img tag in each list item linking to your favorite food. (Use google image search to find a photo, if you can't
+=======
+      * an img tag in each list item linking to your favorite food. (Use Google image search to find a photo, if you can't 
+>>>>>>> upstream/master
         use this address: "http://http://lorempixel.com/400/200/food/").
 
 II. Add some style
-  A. Add style tags to you HTML document.
+  A. Add style tags to your HTML document.
   B. Give your third div the id "thirdDiv".
   C. Give your other divs the class "divClass".
+<<<<<<< HEAD
   D. Give the span in your seond div the id "spanId".
   E. Add a style rule to your h1 element changing the color of the text (pick from
+=======
+  D. Give the span in your second div the id "spanId".
+  E. Add a style rule to your h1 element changing the color of the text (pick from 
+>>>>>>> upstream/master
      here: https://www.crockford.com/wrrrld/color.html).
   F. Add a style rule to the img element giving it a width of 400px;
   G. Add a style rule to 'thirdDiv' changing the height to 600px and the width to 500px.
@@ -35,18 +44,26 @@ II. Add some style
   K. Give the id 'thirdDiv' a padding of 50px.
   L. Give the id 'thirdDiv' a border, any width color and style you choose.
 
-III. Create an external style sheet and import all of our previous style rules into the new stylesheet.
-  A. Find styles.css file in this folder.
+III. Create an external style sheet and move all of our previous style rules into the new stylesheet.
+  A. Create a file called styles.css in this folder.
   B. COPY all of your style rules to this new file. (Do not include the style tags!)
   C. Place: <!-- in front of your first style tag.
   D. Place: --> after your closing style tag.
+  E. Add a link tag to your html that imports your new css file. 
 
 IV. Add, Commit and push your work to your github account.
 
+<<<<<<< HEAD
 Extra credit:
   In order to do some of this you will either need to have an understanding of CSS currently, or will need to
   do some further homework, I recoomend the additional resources in the README or https://www.w3schools.com/css/default.asp)
 
+=======
+Extra credit:   
+  In order to do some of this you will either need to have an understanding of CSS currently, or will need to 
+  do some further homework, I recommend the additional resources in the README or https://www.w3schools.com/css/default.asp)
+  
+>>>>>>> upstream/master
   * Set the background of the entire page to an image
   * Center the div's on the page
   * Center all of the elements on the page
