@@ -3,9 +3,8 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
-let creator = document.querySelector('#createdBy');
-creator.innerhtml = "This app was created by: Julian Piñeyro"
+let created = document.querySelector('#createdBy');
+created.innerHTML += 'Julian Pineyro';
 
 
 /* 
@@ -13,7 +12,7 @@ creator.innerhtml = "This app was created by: Julian Piñeyro"
     add two values to the class: this.description which should be set equal to the description passed to the class, and 
     this.complete which should be set to false. 
 */
-function Todo(description){
+function Todo (description) {
   this.description = description;
   this.complete = false;
 }
@@ -24,7 +23,9 @@ Todo.prototype.completeTodo = function () {
   this.complete = true;
 }
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems = [Todo()];
+let newObject = new Todo();
+let toDoItems = [];
+toDoItems.push(newObject);
 /*
   STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and 
           a numerical index as it's second.
@@ -42,17 +43,20 @@ let toDoItems = [Todo()];
             8.) return todoShell
 */
 function buildTodo(object, index) {
-  let.todoShell = document.createElement('div');
+  let todoShell = document.createElement('div');
   todoShell.className = 'todoShell';
-
+  var chckbx = document.createElement('input');
+  chckbx.setAttribute("type", "checkbox");
+  chckbx.id = index;
+  chckbx.className = 'completeCheckbox';
+  
   let todoText = document.createElement('span');
   todoText.innerHTML = 'description';
-  todoText.id = index;
 
   if (object.complete === true){
-    todoText.className = 'completeText';
+    chckbx.setAttribute("checked", true);
   }
-  todoShell.appendChild(todoText);
+  todoShell.appendChild(chckbx);
   return todoShell;
 }
 
@@ -63,7 +67,7 @@ function buildTodo(object, index) {
           Return the new mapped array.
   */
 function buildTodos(arr) {
-  return arr.map(Todo);    
+  return arr.map(buildTodo);    
 }
 
 
@@ -82,6 +86,11 @@ function buildTodos(arr) {
 function displayTodos() {
   let todoContainer = document.querySelector('#todoContainer');
   todoContainer.innerHTML = '';
+  let bt = buildTodos(toDoItems);
+ 
+  for ( let i = 0 ; i < toDoItems.length ; i++){
+    todoContainer.appendChild(bt[i]);
+  }
 }
 
 
@@ -102,8 +111,12 @@ function addTodo() {
   */
 
   //UNCOMMENT THE NEXT LINE
-  // let newTodo = document.querySelector('#todoInput');
-}
+  let newTodo = document.querySelector('#todoInput');
+  let newtoD = new Todo (newTodo.value);
+  toDoItems.push(newtoD);
+  newTodo.value= '';
+  displayTodos();
+};
 
 /* 
   STEP 9: In this step we will fire addTodo everytime the 'ADD' button is clicked.
@@ -113,7 +126,10 @@ function addTodo() {
 */
 
 //UNCOMMENT THE NEXT LINE
-// let button;
+let button = document.querySelector('#addButton');
+button.onclick = function(){
+  addTodo;
+}
 
 
 
@@ -131,7 +147,9 @@ function completeTodo(event) {
             3.) In the buildTodo function add a 'click' event listener to the 'todoText' element, and pass this function as the callback.
   */
   //UNCOMMENT THE NEXT LINE
-  // let index = event.target.id;
+  let index = event.target.id;
+  toDoItems[index].completeTodo();
+  displayTodos();
 }
 
 /* STEP 11: Make sure ALL tests pass */
@@ -151,7 +169,7 @@ function completeTodo(event) {
 
 
 
-// Call displayTodos here <-----
+displayTodos();
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
   module.exports = {
