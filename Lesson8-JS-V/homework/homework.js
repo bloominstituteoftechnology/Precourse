@@ -17,7 +17,6 @@ function createUserClass() {
   User.prototype.sayHi = function() {
     return `Hello, my name is ${this.name}`;
   }
-  
   return User;
 }
 
@@ -35,6 +34,11 @@ function addReverseString() {
   // hint:
   // you will need to use 'this' inside of reverse
   String.prototype.reverse = function() {
+    let reverseString = '';
+    for(let i = this.length - 1; i >= 0; i--) {
+      reverseString += this[i];
+    }
+    return reverseString;
   }
 }
 
