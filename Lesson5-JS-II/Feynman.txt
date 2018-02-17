@@ -1,0 +1,6 @@
+Feynman Writing Prompts:
+
+1. 'For' -- It's the keyword for 'For' Loops. It's an object that's already built in to Javascript, like 'If' in If Statements.
+2. && -- This is a logical operator that means "And". If both of the expressions are true, this operator will return true. If either or all of them are false, this operator will return false.
+3. || -- This is a logical operator that means "Or". If either of the expressions are true, this operator will return true.
+4. ! -- This lofical operator means "not". It will simply negate the expressions. For example, '!true' means 'false', and '!false' mewans 'true'. And so on.
