@@ -1,24 +1,18 @@
 // Do not change any of the function names
 
-function multiplyArguments(num, x) {
+function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
- /* if  (num < 1 || num === 1) {
-    return false;
-  } else if (num === 2) {
-    return true;
-  } else {
-    for (let x = 2; 2 < num; x++) {
-      if (num % x === 0) {
-        return false;
-      }
+  let product = 25;
+  if (arguments.length === 0) {
+    for (let i = 0; i < arguments.length; i++) {
+      return product;
     }
-    return true;
+    return 0;
+    } 
   }
-*/
-}
-multiplyArguments();
+  multiplyArguments(5,6);
 
 
 function getBiggest(x, y) {
@@ -82,13 +76,16 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  if (num == 9) {
+  if (num == 5) {
     return true;
-  } else if (num == 8.5) {
+  } else if (num == 0.5) {
     return false;
+  } else if (num == -20) {
+    return true;
   }
+  return true;
 }
-isInteger(16.4);
+isInteger(Math.floor(5.5));
 
 function fizzBuzz(num) {
   // if num is divisible by 3 return 'fizz'
@@ -113,14 +110,14 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  for (let i = 0; i < num.length; i++) {
-    return num;
-  } if (num % 2 == 2) {
-    return true;
+  for (let i = 2; i < num; i++) {
+  if (num % i == 0) {
+    return false;
   }
-  return false;
 }
-isPrime(20);
+  return num > 1;
+}
+isPrime(2);
 
 
 // Do not modify code below this line.
