@@ -1,0 +1,64 @@
+Obects
+
+Often when we are writing a program, we have a reason to take something from the
+real world (an "Object") and use it in our code. An object is more than a number or
+a sentence, it is something that can only be described. One way to do this is to make
+a variable for each unique feature of the object, and use those variables in our 
+instructions when we need to. This only works when we have only one of these objects, 
+because we would be forced to make a choice: either make another copy of every variable
+we had used to describe the first object, or replace the value of the each of those 
+variables. The first means many lines of extra code, and the second means we will lose
+the information from the first. Since this is a common problem, Objects were created
+for programmers to use. An Object is used like a variable with many values, where
+each value describes a feature of the object. These values are like variables, because
+they have a name and a value, but are special in a few ways and have their own name.
+They are called Properties. 
+
+Properties
+
+Objects represent ideas as well as things in the real world. Both of these need to be
+described: A stone can be smooth or rough, and the tardy policy states that 5 minutes
+lateness earns a disciplinary note. Programmers use Properties to describe their
+objects. Properties are used like variables to store values under a chosen name, but
+are different from variables because we have to look at the object they are tied to in
+order to get to them. Languages treat properties like they belong to their object, so
+functions and instructions that work with objects will be able to use their properties.
+
+Methods
+
+Methods are a special type of property. They contain a function in their value and are
+used to describe actions that an object can perform. They receive similar special
+treatment when compared to normal functions, like other properties.
+
+For In Loop
+
+For loops are used quite a bit to access all of an object's properties and execute code
+for each of them. The most common use is with arrays, which are objects with a property
+for each index. The "for...in" loop was created to make the boring For loop syntax more
+readable. You provide it with a name for a variable that will be filled with each
+each property value during the loop, and the name of a variable that is tied to the
+object you want to loop through. 
+
+Dot notation vs bracket notation
+
+All programming languages are a way for programmers to communicate instructions to
+a computer. These languages are interpreted for us by a translator so that they can be
+understood by the computer. Each language has its own method of translating our code
+into the instructions actually executed by the machine. Sometimes this means having
+more than one way to do the same thing. In Javascript, this is true of accessing 
+the properties of objects. There are two options, dot notation and bracket notation.
+Dot notation looks like this: 
+
+Object.property 
+
+and bracket notation looks like this:
+
+Object["property"]
+
+both of these forms will return the value of the property. The difference between
+them appears in complicated situations. The names of properties in Javascript are
+actually Strings, and can contain unusual characters, such as [ ] ; . These will
+cause Javascript to misinterpret our code when used with dot notation, and we are
+required to use bracket notation instead. It can be helpful to think of dot notation
+as a helpful shortcut that doesn't always work, and to memorize the bracket way of
+accessing properties.
