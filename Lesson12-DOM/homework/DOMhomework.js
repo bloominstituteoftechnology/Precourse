@@ -79,12 +79,12 @@ function displayToDos() {
 /* 
   STEP 7: This function, 'addToDo' will add a new ToDo to the 'toDoItems' array.
           NOTE: We have not learned about input HTML elements yet, so we will give you a little more code to go on here.
-          'newToDo' is an text input element. All text input elements have a property called 'value', this value will be whatever is typed into 
+          'toDoInput' is an text input element. All text input elements have a property called 'value', this value will be whatever is typed into 
           the text box on the page.
 
-          1.) Using the value property on 'newToDo', create an new ToDo object using the ToDo class and pass the value as the description.
+          1.) Using the value property on 'toDoInput', create an new ToDo object using the ToDo class and pass the value as the description.
           2.) add the object from (1) into the toDoItems array.
-          3.) Set the value of newToDo to an empty string (this will clear the text in the box allowing the user to enter another item).
+          3.) Set the value of toDoInput to an empty string (this will clear the text in the box allowing the user to enter another item).
           4.) Call displayToDos to refresh the toDos displayed
 */
 
