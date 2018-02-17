@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://static1.squarespace.com/static/523b20b0e4b0a2f73b0eb27a/t/525c614be4b0bbf531404790/1431062334212/burger+wide.jpg?format=1500w);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#flexContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;    
+}
+h1 {
+    color: royalblue;
+}
+
+img {
+    width:400px;
+    max-height: 350px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: saddlebrown;
+    padding: 50px;
+    border: 2px inset whitesmoke;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    color: white;
+}
+#thirdDiv > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
