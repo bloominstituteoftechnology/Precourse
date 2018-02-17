@@ -26,16 +26,16 @@ function cacheFunction() {
 
 
   //TODO: Come back to this, not making sense to me atm.
-  // let cache = 0;
-  // let result = 0;
-  // return function(x){
-  //   if(cache == x){
-  //     return result;
-  //   }
-  //   cache = x;
-  //   result = x * x;
-  //   return result;
-  // };
+  //I can't figure out how to look at the argument of the callback that's passed in to check the cache
+  let cache = {};
+  return function(x){
+    
+    if(!cache[x]){
+      cache[x] = x * 2;
+    }
+    return cache[x];
+  }
+  
 
 }
 
