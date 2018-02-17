@@ -1,0 +1,17 @@
+            h1 {
+                color: maroon;
+            }
+            img {
+                width: 400px;
+            }
+            #thirdDiv {
+                width: 500px;
+                height: 600px;
+                background-color: royalblue;
+                padding: 50px;
+                border: 5px solid darkblue;
+            }
+            #spanId {
+                font-size: 18;
+                margin: 50px;
+            }
