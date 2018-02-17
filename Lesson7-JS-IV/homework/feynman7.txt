@@ -1,0 +1,24 @@
+1. What are objects in JavaScript?
+
+    Objects in Javascript hold information like arrays, but instead of holding several different things, 
+    objects store different information about one thing (for example, a website user).
+
+2. What are properties?
+
+    Properties are the values held inside of an object.
+
+3. What are methods? 
+
+    Methods are functions inside of an object.
+
+4. What is a 'for in' loop?
+
+    A 'for in' loop is a way to iterate over an object, because it does not have numerical indices the 
+    way an array does.
+
+5. What are the differences between dot notation and bracket notation?
+
+    Dot and bracket notation are two different ways to access properties within an object. With dot 
+    notation, the name of the property would be written after the dot. Bracket notation is more similar 
+    to how items are accessed within an array, but with bracket notation, a string or number must be in 
+    between the brackets.
