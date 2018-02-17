@@ -11,6 +11,9 @@
 */
 
 // code here
+const span = document.querySelector('#createdBy');
+const name = ' Venky';
+span.innerHTML += name;
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -20,6 +23,10 @@
 
 function ToDo () {
   // code here
+  constructor(description) {
+    this.description = description;
+    this.complete = false;
+  }
 }
 
 /* 
@@ -29,7 +36,9 @@ function ToDo () {
 */
 
 // code here
-
+Todo.prototype.completeToDo = function() {
+  
+}
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
           the second is a numerical index.
