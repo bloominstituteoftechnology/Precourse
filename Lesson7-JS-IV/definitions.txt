@@ -1,0 +1,11 @@
+Objects: an object is a bit of code that is made up of properties
+
+Properties: the "characteristics" that make up an object. Where 'Chair' would be an object, legs with the value of 4 would be a property, material with the value of wood would be another property
+
+Methods: methods are functions within a object; functions that are properties of object
+
+for in loop: 
+
+Dot notation vs bracket notation
+	Dot notation is used if you know the key
+	bracket notation is used if you have to use a variable to access a property
