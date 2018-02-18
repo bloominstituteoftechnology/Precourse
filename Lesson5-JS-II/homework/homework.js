@@ -23,11 +23,11 @@ function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
   if (x > y) {
-    console.log(x);
+    return x;
   } else if (y >x){
-    console.log(y);
+    return y;
   } else {
-    console.log(x);
+    return x;
   }
 }
 
@@ -38,13 +38,13 @@ function greeting(language) {
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
   if (language === 'German') {
-    console.log('Guten Tag!');
+    return ('Guten Tag!');
   } else if (language === 'English') {
-    console.log('Hello!');
+    return ('Hello!');
   } else if (language === 'Spanish'){
-    console.log('Hola!');
+    return ('Hola!');
   } else {
-    console.log('Hello!');
+    return ('Hello!');
   }
 }
 
@@ -52,9 +52,9 @@ function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
   if (num === 10 || num === 5){
-    console.log('True');
+    return true;
   } else {
-    console.log('False');
+    return false;
   }
 }
 
@@ -62,9 +62,9 @@ function isInRange(num) {
   // return true if num is less than 50 and greater than 20
   // otherwise return false
   if (num < 50 && num > 20){
-    console.log('True');
+    return true;
   } else {
-    console.log('False');
+    return false;
   }
 }
 
@@ -76,9 +76,9 @@ function isInteger(num) {
   // otherwise return false
   // hint: you can solve this using Math.floor
   if (Math.floor(num) !== num) {
-    console.log('false');
+    return false;
   } else {
-    console.log('true');
+    return true;
   }
 }
 
@@ -88,13 +88,13 @@ function fizzBuzz(num) {
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
   if ((num % 3 === 0) && (num % 5 !== 0)){
-    console.log('fizz');
+    return ('fizz');
   } else if ((num % 3 !== 0) && (num % 5 === 0)){
-    console.log('buzz');
+    return ('buzz');
   } else if ((num % 3 === 0) && (num % 5 === 0)){
-    console.log('fizzbuzz');
+    return ('fizzbuzz');
   } else {
-    console.log(num);
+    return (num);
   }
 }
 
