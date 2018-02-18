@@ -1,0 +1,7 @@
+for is a statement that allows us to run loops until we get the answer we need. It follows the keyword, parenthesis, and curly braces pattern.
+
+&& is the 'And' logical operation used to determine if both expressions are true in order to return true other wise it will return false.
+
+|| is the 'Or' logical operator which determines whether either expression is true and if not return false.
+
+! is the 'Not' logical operator which returns the opposite boolean value of that which was passed to it.
