@@ -11,6 +11,10 @@
                 background: lightgrey;
                 padding: 50px;
                 border: navy 2px dotted;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column nowrap;
                  
 
             }
