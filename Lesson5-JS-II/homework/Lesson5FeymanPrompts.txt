@@ -1,0 +1,19 @@
+Lesson 5 Homework (JSII)
+By: Maribel Cuales
+
+
+## Instructions
+---
+1. Feynman Writing Prompts: 
+		
+	* `for`
+        A 'for' loop will continue running its conditional expression until it will become false.  
+
+
+	* `&&` `||`, `!`
+        '&&' stands for And. It needs for both conditions/expressions to be True in order to return True. 
+
+        '||' stands for Or. Only one of the conditions/expressions needs to be True in order to return True. 
+
+        '!' stands for Not and will return the opposite.   
+
