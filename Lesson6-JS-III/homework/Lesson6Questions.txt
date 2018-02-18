@@ -1,0 +1,3 @@
+An array is a collection of data types(all the same or could be differant) between brackets that keep thier order and have an ordered index 
+value associated with it. like [1, 2, 3, 'cat']
+                        index   0  1  2    3
