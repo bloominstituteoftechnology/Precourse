@@ -1,0 +1,30 @@
+body {
+	background-image: url('images/image1.jpg');
+	display: flex;
+	flex-direction: column;
+    position: relative;
+}
+h1 {
+	color: blue;
+}
+img{
+	width: 400px;
+}
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: beige;
+}
+#spanId{
+	font-size: 18px;
+	margin: 50px;
+}
+#thirdDiv {
+	padding:50px;
+	border: solid red;
+}
+div {
+	margin: auto;
+	width: 90%;
+	text-align: center;
+}
