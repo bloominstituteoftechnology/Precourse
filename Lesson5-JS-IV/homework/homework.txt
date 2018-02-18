@@ -1,0 +1,19 @@
+1. undefine - this is the computers default value for anything that you didn't set a value for.
+
+2. null  - This is similar to undefine but the normally assigns null value to something.
+
+3. Truthiness - every item has a value of truety or falsey.
+
+4. The arguments -This is a key word that can be used to get an array of parameters that was passed through an function.
+
+5. callbacks - whenever you create a function you can activate using the callback method. You can even call one function in another one.
+
+6. More array methods: MAP, FOREACH, REDUCE.
+
+- Foreach - this can be used to iterate through an array, just like the for loop. You can then use a callback function on every item in the array,
+- MAP - this is like the foreach, but you can make changes to each item in the array.
+- Reduce - This can be used to loop through a array and reduce the array to a singer item.
+
+7. Classes - this is like a template for an object. you can use this template to add many differnt object.
+
+8. Prototype - 
