@@ -13,15 +13,11 @@ function createUserClass() {
     this.email = options.email;
     this.password = options.password;
   }
-
   User.prototype.sayHi = function () {
     return 'Hello, my name is ' + this.name;
   }
-
   return User;
-
 }
-
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
@@ -38,7 +34,7 @@ function addReverseString() {
   // you will need to use 'this' inside of reverse
   String.prototype.reverse = function () {
     let reverseString = '';
-    for(let i = this.length -1; i >= 0; i--) {
+    for (let i = this.length - 1; i >= 0; i--) {
       reverseString = reverseString + this[i];
     }
     return reverseString;
