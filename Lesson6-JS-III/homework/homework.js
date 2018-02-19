@@ -45,8 +45,12 @@ function wordsToSentence(words) {
   // words is an array of strings
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
-  // example: ['Hello', 'world!'] -> 'Hello world!'
-  return words['Hello ', 'world!'];
+  // example: ['Hello', 'world!'] -> 'Hello world!' 
+  let string = '';
+ for (let i = 0; i < words.length; i++) {
+   string = string + ' ' + words[i];
+ }
+ return string.trim();
 }
 
 function contains(arr, item) {
