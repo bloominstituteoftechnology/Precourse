@@ -1,0 +1,56 @@
+	/*<style>*/
+	* {
+
+			padding: 0;
+	}
+		body {
+			position: relative;
+			font-family: monospace;
+			background-image: url('images0.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			color: white;
+			display: flex;
+			flex-flow: column wrap;
+			justify-content: space-between;
+			box-sizing: border-box;
+			margin: auto;
+			width: 60%;
+			overflow: hidden;
+		}
+		#thirdDiv {
+			/*height: 600px;*/
+			/*width: 500px;*/
+			background-color: darkmagenta;
+			/*padding: 50px;*/
+			/*border: 0px solid aquamarine;*/
+			border-radius: 10px;
+		}
+
+		h1 {
+			color: darkred;
+		}
+
+		img {
+			/*width: 400px;*/
+			width: 100%;
+			position: relative;
+
+
+		}
+
+		#spanId {
+			font-size: 18px;
+			margin: 50px;
+		}
+
+		div {
+			text-align: center;
+		}
+
+		li {
+			list-style: none;
+			display: block;
+		}
+		/*https://www.crockford.com/wrrrld/color.html*/
+	/*</style>*/
