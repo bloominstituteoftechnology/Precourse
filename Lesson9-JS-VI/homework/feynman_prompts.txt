@@ -1,0 +1,15 @@
+Callback Functions
+
+In many languages, functions can be treated just like variables when used in your
+instructions. By referring to the function's name, you can assign the function's
+value to other variable names, and you can even use the function as an argument
+when calling another function. When you use a function like this, it is called a
+"Callback Function." Functions that perform very general and important tasks are
+often written to take a callback function. They will execute this callback function
+during their own execution, and can used any information returned by the callback
+function. An example is a function that can compare any two objects to each other.
+Comparison is very general, so you will decide what kind of comparison you would
+like to use, and write a function that performs that comparison. You can then call
+the general "compare" function, using your two objects, and the comparison function
+you created. For any function that does work, designing it to use callbacks can
+save time if there are many ways the work can be done.
