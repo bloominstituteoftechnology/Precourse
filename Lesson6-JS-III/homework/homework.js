@@ -2,20 +2,27 @@
 
 function returnFirst(arr) {
   // return the first item from the array
+  return arr[0];
 }
 
 function returnLast(arr) {
   // return the last item of the array
+  return arr.pop();
 }
 
 function getArrayLength(arr) {
   // return the length of the array
+  return arr.length;
 }
 
 function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
+  for(let i = 0; i < arr.length; i++) {
+    arr[i]++;
+  }
+  return arr;
 }
 
 function addItemToArray(arr, item) {

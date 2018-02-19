@@ -1,17 +1,17 @@
 // Do not change any of the function names
 
 function multiplyArguments() {
-  // use the arguments keyword to multiply all of the arguments together and return the product
-  // if no arguments are passed in return 0
-  // if one argument is passed in just return it
-  if(arguments === undefined) {
-    return 0;
+  
+	let product = 1;
+  
+	for (let i = 0; i < arguments.length; i++) {
+    product = product * arguments[i];
   }
-  else if(arguments === 1) {
-    return arguments;
-  }
-  else {
-    return arguments * arguments;
+  
+  if(arguments.length === 0) {
+	return 0;
+  } else {
+  return product;
   }
 }
 
