@@ -1,0 +1,3 @@
+Classes are effectively templates to be used over and over again. Classes are used for creating objects that share the same properties/methods.
+
+Prototype is a method specific to a class.
