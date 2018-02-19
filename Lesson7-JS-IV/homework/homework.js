@@ -1,72 +1,123 @@
 // Do not change any of the function names
 
 function makeCat(name, age) {
-  // create a new object with a name property with the value set to the name argument
-  // add an age property to the object with the value set to the age argument
-  // add a method called meow that returns the string 'Meow!'
-  // return the object
+    // create a new object with a name property with the value set to the name argument
+    // add an age property to the object with the value set to the age argument
+    // add a method called meow that returns the string 'Meow!'
+    // return the object
+    const cat = {
+        name: name,
+        age: age,
+        meow: function () {
+            return 'Meow!';
+        },
+    };
+    for (let key in cat) {
+        return (cat);
+    }
 }
 
-function addProperty(object, property) {
-  // add the property to the object with a value of null
-  // return the object
-  // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
+
+
+function addProperty(object, property) { 
+    // add the property to the object with a value of null
+    // return the object
+// note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
+    // so to take addProperty( , property) property that is a string 
+    //                           string of some kind
+    //                        you take its parent ie the ( , property)  and put it into a bracket [] 
+    //                        then put the name where you want it to go befor it  and set the value = to your desire
+
+    object[property] = null;
+    
+     return object;
 }
 
-function invokeMethod(object, method) {
-  // method is a string that contains the name of a method on the object
-  // invoke this method
-  // nothing needs to be returned
+function invokeMethod(object, method) { 
+    // method is a string that contains the name of a method on the object
+    // invoke this method
+    // nothing needs to be returned
+    //   [ method] is saying the value that invokeMethod ( , method) has 
+    //   objects has a key with the name that is the same as what  invokemethods arguments method is 
+    // this is hacking it so to speak becasue ( , method ) in brackes [ ] matachs like walking by finding a diffrent 
+    // key to a car that matches a strangers car. ??????
+    // but object.method(); no ??? is it beacues method is a string?
+    //object.method();
+    object[method]();
 }
-
-function multiplyMysteryNumberByFive(mysteryNumberObject) {
+function multiplyMysteryNumberByFive(mysteryNumberObject) {      
   // mysteryNumberObject has a property called mysteryNumber
-  // multiply the mysteryNumber property by 5 and return the product
+    // multiply the mysteryNumber property by 5 and return the product
+    return ( mysteryNumberObject.mysteryNumber * 5 );
 }
 
 function deleteProperty(object, property) {
-  // remove the property from the object
-  // return the object
+    // remove the property from the object
+    // return the object
+    delete object [property];
+    return (object);
 }
 
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
-  // return the new object
+    // return the new object
+    let n = {
+        name: name,
+        email: email,
+        password: password,
+    };
+        return (n);
+    
 }
 
 function hasEmail(user) {
-  // return true if the user has a value for the property 'email'
-  // otherwise return false
+    // return true if the user has a value for the property 'email'
+    // otherwise return false
+    if (user.email) { return true; } return false;
 }
 
 function hasProperty(object, property) {
-  // return true if the object has the value of the property argument
-  // property is a string
-  // otherwise return false
-}
+    // return true if the object has the value of the property argument
+    // property is a string
+    // otherwise return false
+    if (object.hasOwnProperty(property)) { return true;}
+        else return false;
+    }
+
 
 function verifyPassword(user, password) {
-  // check to see if the provided password matches the password property on the user object
-  // return true if they match
-  // otherwise return false
+    // check to see if the provided password matches the password property on the user object
+    // return true if they match
+    // otherwise return false
+    if (user['password'] === (password)) { return true; } 
+    else return false;
 }
 
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
-  // return the object
+    // return the object
+    user.password = newPassword;
+    return user;
 }
 
-function addFriend(user, newFriend) {
-  // user has a property called friends that is an array
-  // add newFriend to the end of the friends array
-  // return the user object
+function addFriend(user, newFriend) { 
+    // user has a property called friends that is an array
+    // add newFriend to the end of the friends array
+    // return the user object
+    user.friends.push( newFriend);
+    return user;
 }
 
 function setUsersToPremium(users) {
   // users is an array of user objects.
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
-  // return the users array
+    // return the users array
+    for (let i = 0; i < users.length; i ++) {
+        users[i].isPremium=true;
+    }
+    return users;
+
 }
 
 function sumUserPostLikes(user) {
@@ -74,7 +125,12 @@ function sumUserPostLikes(user) {
   // posts is an array of post objects
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
-  // return the sum
+    // return the sum
+    let totallikes = 0;
+    for (let i in user.posts) {
+        totallikes += user.posts[i].likes;
+    }
+    return (totallikes);
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
@@ -85,8 +141,15 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // example: 
   // price -> 20
   // discountPercentage -> .2
-  // discountPrice = 20 - (20 * .2)
-}
+    // discountPrice = 20 - (20 * .2)
+   /// creating a funtion inside addCalculateDiscountPriceMethods object called storeItem
+    //the function returns s the storeItems object .....(price) as
+    //its price * what the price is after taking out the % of the price discounted 
+    // making discount = the portion of the p
+    storeItem.calculateDiscountPrice = function (){
+        return storeItem.price * (1-storeItem.discountPercentage);};
+    return(storeItem);}
+
 
 // Do not modify code below this line.
 // --------------------------------
