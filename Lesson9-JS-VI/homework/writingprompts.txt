@@ -1,0 +1,5 @@
+Callback Functions -
+
+An important concept that allows a function to pass arguments tp another function. 
+These are then called callbacks. They can be called anytime and passed as arguments within the function. 
+Convention is to use cb as the arguent variable for your callback.
