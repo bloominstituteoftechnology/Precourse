@@ -1,0 +1,3 @@
+Feynman Writing Prompt:
+
+1. Array - An array is like a box wherein you can store more than one string.
