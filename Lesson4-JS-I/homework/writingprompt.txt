@@ -1,0 +1,14 @@
+Variables- variable help javascript run, they are at the heart of the program
+The breakdown of a variable is a follows, the keyword, followed by a space, the name we give the variable, followed by an equal sign, tyhen the value we give it, and ending it with a semi-colon.
+There are 3 ways we can declare a variable var- is the old way in ES5 let- is the new way in ES6 and const-which also is the new way in ES6 but cannot be changed.
+To print to the console we use console.log () 
+
+Strings- strings are a block of texts, that have to be in inside quotation marks either single or double, any text inside the quatation marks is a string.
+
+Functions (arguments, return)- functions compute the variables, we write by typing the keyword function then program we use will treat whatever it follows as a function. It is followed by a set of parenthesis and followed by a set of brackets, in which inside the brackets we input all the function code.
+Arguments- are the variables we input inside the parenthesis of the function. We can add multiple variables by placing a comma between them.
+Return- by addinhg a return statement it is the only way for data to escape the function. We can also set variables to equal what a function returns.
+
+If statements- it is how we can branch out our code. It tells the program which way to go depending on the variables used.
+
+Boolean values (true, false)- In Javascript we use Booleans to mean true or false.  
