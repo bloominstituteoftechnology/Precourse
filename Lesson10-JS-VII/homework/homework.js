@@ -12,7 +12,7 @@ function counter() {
   };
 }
 
-function cacheFunction() {
+function cacheFunction(cb) {
   // use closure to create a cache for the cb function
   // the function that you return should accept a single argument and invoke cb with that argument
   // when the function you return is invoked with an argument it should save that argument and its result
@@ -25,18 +25,17 @@ function cacheFunction() {
   // and return 25 directly and will not invoke cb again
 
 
-  //TODO: Come back to this, not making sense to me atm.
-  //I can't figure out how to look at the argument of the callback that's passed in to check the cache
+  //Figured it out, finally. Memoization!
   let cache = {};
   return function(x){
-    
-    if(!cache[x]){
-      cache[x] = x * 2;
+    if(x in cache){
+      return cache[x];
+    } else {
+      let result = cb(x);
+      cache[x] = result;
+      return result;
     }
-    return cache[x];
-  }
-  
-
+  };
 }
 
 // Do not modify code below this line.
