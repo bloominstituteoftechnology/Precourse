@@ -1,0 +1,2 @@
+Arrays are storage containers for data. 
+They need only a declared variable and brackets. Any of the three basic data types can be stored boolean (true/false), numbers, or strings.
