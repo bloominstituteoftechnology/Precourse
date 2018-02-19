@@ -1,0 +1,21 @@
+h1 {
+    color: peru;
+}
+
+img {
+    border-width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    widows: 500px;
+    background-color: rgb(105, 105, 105);
+    padding: 50px;
+    border-style: solid;
+    border-color: palevioletred;
+}
+
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+}
