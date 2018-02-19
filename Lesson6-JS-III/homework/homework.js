@@ -15,14 +15,14 @@ function getArrayLength(arr) {
     return arr.length;
 
 }
-// ***************
+
 function incrementByOne(arr) {
     // arr is an array of integers  
     // increase each integer by one
     // return the array
     var i = 0;
     for (i = 0; i < arr.length; i++) {
-        arr[i.valueOf] = arr[i.valueOf + 1];
+        arr[i] = arr[i] + 1;
     }
     return arr;
 }
@@ -41,19 +41,20 @@ function addItemToFront(arr, item) {
     arr.unshift(item);
     return arr;
 }
-// ***************
+
 function wordsToSentence(words) {
     // words is an array of strings
     // return a string that is all of the words concatenated together
     // spaces need to be between each word
     // example: ['Hello', 'world!'] -> 'Hello world!'
-    var i = 0;
-    for (i = 1; i < words.length; i++) {
-        // make a String
-        return words;
+    var string = '';
+    for (let i = 0; i < words.length - 1; i++) {
+        string = string + words[i] + ' ';
     }
+    string = string + words[words.length - 1];
+    return string;
 }
-// ***************
+
 function contains(arr, item) {
     // check to see if item is inside of arr
     // return true if it is, otherwise return false
@@ -83,19 +84,18 @@ function averageTestScore(testScores) {
     }
     return average;
 }
-// ***************
+
 function largestNumber(numbers) {
     // numbers is an array of integers
     // return the largest integer
     var largestNum = 0;
     for (let i = 0; i < numbers.length; i++) {
-        if (numbers[i] < Math.max(numbers)) {
-            i++;
-        } else if (numbers[i] === Math.max(numbers)) {
+        if (numbers[i] > largestNum) {
             largestNum = numbers[i];
         }
     }
     return largestNum;
+
 }
 
 // Do not modify code below this line.
