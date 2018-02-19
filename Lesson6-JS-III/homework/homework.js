@@ -46,7 +46,7 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  return 'Hello ', 'world!';
+  return words['Hello ', 'world!'];
 }
 
 function contains(arr, item) {
@@ -62,13 +62,18 @@ function contains(arr, item) {
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
-    return numbers();
+  let sum = 0;  
+  for (let index = 0; index < numbers.length; index++) {
+    sum += numbers[index];
+  }
+    return sum;
 }
 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
-  
+  const sum = testScores.reduce((a, b) => a + b, 0);
+  return sum / testScores.length;
 }
 
 function largestNumber(numbers) {
