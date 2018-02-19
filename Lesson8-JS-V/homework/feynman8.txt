@@ -1,0 +1,9 @@
+1. What is a prototype?
+
+    A prototype (in Javascript) is a property of a class that allows a method to be set once (instead 
+    of having to store it in multiple class instances). This uses significantly less memory than it 
+    would if a method were set in every class.
+
+2. What are constructors?
+
+    A constructor is a method that creates an object within a class.
