@@ -1,0 +1,34 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: pink;
+}
+
+img {
+  width: 400px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: chartreuse;
+  padding: 50px;
+  border: 2px teal dotted;
+}
+
+#spanID {
+  margin: 50px;
+}
+
+body {
+  background-image: url("http://lorempixel.com/200/200");
+}
