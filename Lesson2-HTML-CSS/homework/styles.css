@@ -10,14 +10,14 @@ body {
 .container  {
     display: flex;
     justify-content: center;
-    flex-flow: columm wrap;
-      
+    flex-flow: column wrap;
+    align-items: center;
 }
 .heading2 {
     display: flex;
-    flex-flow: columm wrap;
+    flex-flow: column wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
   
  
@@ -50,6 +50,6 @@ ul.rank p {
 
 div {
     display: flex;
-    white-space: nowrap;
-    flex-direction: columm;
+    white-space: wrap;
+    flex-direction: column;
 }
