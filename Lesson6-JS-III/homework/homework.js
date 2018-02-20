@@ -53,6 +53,7 @@ function wordsToSentence(words) {
  return string.trim();
 }
 
+
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
