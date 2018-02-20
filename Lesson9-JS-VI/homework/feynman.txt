@@ -1,0 +1,1 @@
+Callback Functions - Functions that are passed to other functions as arguments. Processing is delegated to the callback function.
