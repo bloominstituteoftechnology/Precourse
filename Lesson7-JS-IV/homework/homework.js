@@ -19,19 +19,28 @@ function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
- 
-  
+  const newProp = {
+    x: 1,
+    y: 2,
+    z: null,
+  };
+  return newProp;
 }
 
 function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
+  object[method]();  
 }
+
+
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
+    mysteryNumberObject = mysteryNumberObject.mysteryNumber * 5;
+    return mysteryNumberObject;
 
 }
 
