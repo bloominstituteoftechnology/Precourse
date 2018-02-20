@@ -1,0 +1,1 @@
+Callback Functions = is a  function passed into another function as a argument, which can then be invoked inside the hosting  function to perform  an  action or a behavior.
