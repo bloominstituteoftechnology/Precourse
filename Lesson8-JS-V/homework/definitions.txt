@@ -1,0 +1,4 @@
+prototype - A prototype is a single method on a constructor that provides for all objects made with that constructor.
+
+
+Constructors - A constructor is a set of given keys used to make multiple objects with those keys.
