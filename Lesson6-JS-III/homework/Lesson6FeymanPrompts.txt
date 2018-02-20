@@ -1,0 +1,9 @@
+# Homework #JSIII
+
+## Instructions
+---
+1. Feynman Writing Prompts:
+		
+	* Arrays
+            We use Arrays to contain several values in one variable. 
+            A variable can only store one value but if with Arrays, we can store more than one. 
