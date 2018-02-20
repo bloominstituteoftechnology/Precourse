@@ -1,7 +1,7 @@
 # Lesson 3: Intermediate CSS
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
-In this lesson we will cover: 
+In this lesson we will cover:
 
 * Introduction to positioning.
 * Display property.
@@ -15,14 +15,14 @@ Building a layout and making everything look clean is what most people are looki
 
 ## The Display property
 
-The display property is the one of the most important CSS properties for positioning. We can use the display property to control how the elements are displayed in relation to the elements around them, and how they behave on the screen. 
+The display property is the one of the most important CSS properties for positioning. We can use the display property to control how the elements are displayed in relation to the elements around them, and how they behave on the screen.
 ```css
   div {
     display: <display rule>;
   }
-``` 
+```
 
-There are two types of display elements already built into HTML. Block and Inline. 
+There are two types of display elements already built into HTML. Block and Inline.
 
 ### Block Elements
 
@@ -43,7 +43,7 @@ And vise-versa.
 
 ### Display has a few other rules that we should be aware of that can be set on it:
 
-### none 
+### none
 
 Setting the display to "none" will make an element disappear completely. This is not to be confused with the "visibility: hidden;" rule which only renders the element invisible, but does not remove it from the page (the space will still look occupied by something). If an item is set to display: none there will be no sign of it on the page.
 
@@ -62,7 +62,7 @@ The position property will specify the type of positioning method used for an HT
   div {
     position: <positioning method>;
   }
-``` 
+```
 
 ### static
 
@@ -135,7 +135,7 @@ example: if we wanted our items to be center in the exact middle of a flex box w
 
 ### flex-direction
 
-This property can change the way our browser interprets justify-content(JC) and align-items(AI). The default is "row", and this works for us in the majority of cases, but sometimes we want to change the way direction works. 
+This property can change the way our browser interprets justify-content(JC) and align-items(AI). The default is "row", and this works for us in the majority of cases, but sometimes we want to change the way direction works.
 
 * row: this is the default direction. JC applies from left to right, ai applies from top to bottom.
 * column: This will flip which property controls which direction. JC will apply from top to bottom and ai will apply from left to right.
@@ -155,12 +155,3 @@ One last, more advanced, property we will cover is called "align-self". This wil
 * [MDN: Using CSS Flexible Boxes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
 * [MDN: CSS display propery](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
 * [MDN: CSS position property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
-
-
-
-
-
-
-
-
-
