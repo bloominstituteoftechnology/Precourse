@@ -28,10 +28,11 @@ function map(arr, cb) {
   // create a new array
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
-  const newArr = [];
-  for(let i = 0; i<arr.length;i++){
-    newArr.push(cb(arr[i]));
-  }
+  // const newArr = [];
+  // for(let i = 0; i<arr.length;i++){
+  //   newArr.push(cb(arr[i]));
+  // }
+  const newArr = arr.map(cb, arr);
   return newArr;
 }
 
