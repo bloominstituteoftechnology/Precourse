@@ -1,0 +1,4 @@
+1. Callback Functions
+
+    Callbacks are a way to refer to a function by its name instead of having to rewrite the function within
+    another function. This saves time for the programmer and well as saving space in memory.
