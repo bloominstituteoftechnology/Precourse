@@ -1,0 +1,46 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.
+Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Callback Functions
+
+	A callback function is a function that can be passed into another function as an argument.
+
+	For example, lets say we made the following functions: 
+
+	function add(a, b) {
+		return a + b;
+	}
+
+	function subtract(a, b) {
+		return a - b;
+	}
+
+	Our add function takes two numbers and returns their sum. Our
+	subtract function takes two numbers and returns their difference.
+
+	add(1, 2) // returns 3
+	subtract(4, 3) // returns 1
+
+	Instead of having to write out separate function calls we can write
+	a math function:
+
+	function math(a, b, callback) {
+		return callback(a, b);
+	}
+
+	math(1, 4, add) // returns 5
+	math(4,1, subtract) // returns 3
+
+	Our new math function takes 3 arguments: two integers and a callback.
+
+	A callback is a reference to another function that is passed as a 
+	parameter into another. For instance, the add and the subtract functions
+	are used as callbacks in our math function.
+
+	When we call math(1, 4, add), a reference to the add function is passed. This means that the add functions' name is passed and we are not invoking it. Inside the math function's return statement, add is called with 1 and 4 and 5 is returned.
+
+
+
+
+
+
