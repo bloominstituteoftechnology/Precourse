@@ -1,0 +1,8 @@
+
+Writing Prompts
+
+'prototype' = A prototype is a function that is used outside 
+    of the class to save memory from having to attach it to each class member.
+
+Constructors = Constructors are essentially just a function to build a class object, 
+    so that you don't have to manually create a new object for each one.
