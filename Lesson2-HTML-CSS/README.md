@@ -1,5 +1,5 @@
 # Lesson 2: HTML/CSS fundamentals
-(Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
+(Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class.)
 
 In this lesson we will cover: 
 
@@ -13,11 +13,11 @@ In this lesson we will cover:
 
 ## Introduction to HTML
 
-HTML is a core building block of the internet. Every single webpage on the internet is made up of HTML in it's most basic form. HTML stands for Hyper Text Markup Language. It is not a programming language, but a markup language meant to be interpreted by web browsers and the data presented in a graphical form. We will be learning about the basic HTML makeup of a webpage.
+HTML is a core building block of the internet. Every single webpage on the internet is made up of HTML in its most basic form. HTML stands for Hyper Text Markup Language. It is not a programming language, but a markup language meant to be interpreted by web browsers and the data presented in a graphical form. We will be learning about the basic HTML makeup of a webpage.
 
 ## Basic HTML elements
 
-HTML is a series of "elements" with information in between them. Each element is contained in <> brackets (we will refer to these as "tags") with information either presented inside of them or in between two bookend brackets. HTML tags MUST close by including a "/" at the beginning of the closing element (\</elementName>),  or before the close of the first element (\<elementName />):
+HTML is a series of "elements" with information in between them. Each element is contained in <> brackets (we will refer to these as "tags") with information either presented inside of them or in between two bookend brackets. HTML tags MUST close by including a "/" at the beginning of the closing element (\</elementName>) or before the close of the first element (\<elementName />):
 
 ```html
   <span>Information to be displayed</span>
@@ -26,21 +26,21 @@ HTML is a series of "elements" with information in between them. Each element is
 
 ### \<html>
 
-The building block of the entire page, all of the other elements will be contained within the html tags. This tells the browser to interpret the page using HTML. Consider this the outermost container, and within it live the head and body elements.
+As the building block of the entire page, all of the other elements will be contained within the html tags. This tells the browser to interpret the page using HTML. Consider this the outermost container, and, within it, live head and body elements.
 
 ### \<head>
 
-Data or elements within these tags will not render to the page but tells the browser what data it should load before rendering items to the page. Most notably it will contain the title of the page and any external javascript or CSS dependencies.
+Data or elements within these tags will not render to the page, but tell the browser what data it should load before rendering items to the page. Most notably, it will contain the title of the page and any external javascript or CSS dependencies.
 
 ### \<title>
 
-This is the title of the website, it will be displayed at the top of the browser screen or in the tab (not on the actual page itself).
+This is the title of the website; it will be displayed at the top of the browser screen or in the tab, not on the actual page itself.
 
 ### \<body>
 
-This is where everything we want displayed to the screen will go, in between the body tags. Anything you see on the page will be in the body.
+This is where everything we want displayed to the screen will go: in between the body tags. Anything you see on the page will be in the body.
 
-So far our page looks like this: 
+So far, our page looks like this: 
 
 ```html
   <html>
@@ -51,13 +51,13 @@ So far our page looks like this:
     </body>
   </html>
 ```
-As you can see when we add tags inside of other tags, best practice is to indent those tags. This will make it easier for you and other developers to read the code and find out exactly where elements are nested.
+As you can see, when we add tags inside of other tags, best practice is to indent those tags. This will make it easier for you and other developers to read the code and find out exactly where elements are nested.
 
-(From this point, all of these elements will go within the body tags)
+(From this point, all of these elements will go within the body tags.)
 
 ### \<p>
 
-The p ("paragraph") element. Will render text to the screen on a new line.
+The p ("paragraph") element will render text to the screen on a new line.
 
 ```html
   <p>Here is a new Paragraph</p>
@@ -65,11 +65,11 @@ The p ("paragraph") element. Will render text to the screen on a new line.
 
 ### \<span>
 
-The span element is a generic text container. It does not create a new line like the p element does. This is primarily used for styling text.
+The span element is a generic text container; it does not create a new line like the p element does. This is primarily used for styling text.
 
 ### \<div>
 
-The div element is a generic container. It is used primarily for styling, imagine it like a box that you get to determine the exact size and color and place other boxes in.
+The div element is a generic container. It is used primarily for styling; imagine it like a box that you get to place other boxes in and determine the exact size and color of.
 
 ### \<a>
 
@@ -81,7 +81,7 @@ The a ("anchor") element, allows us to create links to other webpages (or even t
 
 ### \<h1> ... \<h6>
 
-These are header tags, there are intended to be used as a way to present the subject matter of the page. Like a newspaper headline. the larger numbers will represent smaller text. Imagine 1 is most important and 6 is least.
+These are header tags. These are intended to be used as a way to present the subject matter of the page, sort of like a newspaper headline. The larger numbers will represent smaller text. Imagine 1 is most important and 6 is least important.
 
 ```html
   <h1>Most Important Headline!</h1>
@@ -91,7 +91,7 @@ These are header tags, there are intended to be used as a way to present the sub
 
 ### \<img>
 
-This element will display an image on the screen. It will always have an 'src' flag which points to the address of the image (kind of like the "href" flag in the "a" element). NOTE: img tags can be self closing, as in they do not need two tags. Simply put the / before the closing bracket in the first tag:
+This element will display an image on the screen. It will always have an 'src' flag which points to the address of the image (kind of like the "href" flag in the "a" element). NOTE: img tags can be self closing, as in they do not need two tags, or, simply put, that the / before the closing bracket is in the first tag:
 
 ```html
   <img src="http://www.lambdaschool.com/imageurl.jpg" />
@@ -99,7 +99,7 @@ This element will display an image on the screen. It will always have an 'src' f
 
 ### \<ul>
 
-This element represents an "unordered list" this is the parent element and will contain list items. There is also an ordered list, but is hardly ever used in modern web development.
+This element represents an "unordered list". It is the parent element and will contain list items. There is also an ordered list, but is hardly ever used in modern web development.
 
 ### \<li>
 
