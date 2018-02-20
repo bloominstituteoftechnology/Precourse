@@ -18,36 +18,61 @@ function addProperty(object, property) {
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
   const object = {
-    property['null'],
-    return object;
-  }
+    ''['null'],
+  };
+  return object;
 }
 
 function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-  invokeMethod();
+  const object = {
+    method() {
+      console.log();
+    };
+    method();
+  }
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
+  const mysteryNumberObject = {
+    mysteryNumber * 5;
+  }
+  return mysteryNumber;
 }
 
 function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
+  const property = {
+    removeThisProperty: true;
+  };
+  delete.property.removeThisProperty;
+  return deleteProperty;
 }
 
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
+  const newObject = {
+    name['name'],
+    email['email'],
+    password['password'];
+  }
+  return newObject;
 }
 
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
+  for(let email in user) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function hasProperty(object, property) {
