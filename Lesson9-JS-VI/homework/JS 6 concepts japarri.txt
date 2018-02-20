@@ -1,0 +1,2 @@
+Callbacks functions are functions that have the ability to pass functions as arguments to other functions.
+
