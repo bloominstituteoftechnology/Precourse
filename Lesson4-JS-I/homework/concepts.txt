@@ -1,0 +1,15 @@
+Variables
+Son como cajas que guardan datos de un tipo específico, por ejemplo guardar solo juguetes de plástico en una caja. En este caso una variable podría ser ''edad = 24'' donde *edad* guarda el valor de 24.
+Así mismo se pueden datos de tipo: string, numbers, boolean.
+
+Strings
+Son las cadenas de texto que podemos encontrar en cualquiera lado (como tu frase favorita de un libro).
+
+Functions (arguments, return)
+Cuando hacemos una tarea repetitiva y que siempre nos devuelva un valor diferente (ejemplo multiplicar 2 números), la podemos poner dentro de una función. Se le pueden pasar argumentos y no hay que preocuparse del proceso sólo de copiar bien el resultado :).
+
+if statements
+Condicionales que se pueden agregar en cualquier momento para poder validar (o excluir algo). Por ejemplo: *Si terminas la tarea entonces te regalo $5*.
+
+Boolean values (true, false)
+Otro tipo de dato que pueden ser muy útiles para conocer el estado (verdadero o falso) de algo/alguien. Ejemplo: Termine_la_tarea = true.
