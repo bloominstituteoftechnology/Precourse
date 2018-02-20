@@ -3,13 +3,13 @@
 function returnFirst(arr) {
   // return the first item from the array
   return arr[0];
-  // return arr.shift();
+  // return arr.shift(); //does affect the array
 }
 
 function returnLast(arr) {
   // return the last item of the array
   return arr[arr.length-1];
-  // return arr.pop();
+  // return arr.pop(); //does affect the array
 }
 
 function getArrayLength(arr) {
@@ -21,9 +21,8 @@ function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-  for (let i = arr.length-1; i >= 0 ; i--) {
+  for (let i = 0; i < arr.length; i++)
     arr[i]++;
-  }
   return arr;
 }
 
@@ -42,36 +41,24 @@ function addItemToFront(arr, item) {
   return arr;
 }
 
-/*
 function wordsToSentence(words) {
   // words is an array of strings
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  let s = '';
-  for (let i = 0; i < words.length; i++) {
-    s += words[i] + ' ';
-  }
-  return s.slice(0, -1);
-}
+  return words.join(' ');
 
-function wordsToSentence(words) {
-  // words is an array of strings
-  // return a string that is all of the words concatenated together
-  // spaces need to be between each word
-  // example: ['Hello', 'world!'] -> 'Hello world!'
+  // return words.reduce((a,b) => a + ' ' + b);
+
+  /*
   let s = '';
-  for (let i = 0; i < words.length; i++) {
+  for (let i = 0; i < words.length; i++)
     s += words[i] + ' ';
-  }
   return s.trim();
-}
+  // return s.slice(0, -1);
 
-function wordsToSentence(words) {
-  // words is an array of strings
-  // return a string that is all of the words concatenated together
-  // spaces need to be between each word
-  // example: ['Hello', 'world!'] -> 'Hello world!'
+  OR
+
   let s = '';
   for (let i = 0; i < words.length; i++) {
     s += words[i];
@@ -79,100 +66,41 @@ function wordsToSentence(words) {
       s += ' ';
   }
   return s;
+*/  
 }
-*/
-
-function wordsToSentence(words) {
-  // words is an array of strings
-  // return a string that is all of the words concatenated together
-  // spaces need to be between each word
-  // example: ['Hello', 'world!'] -> 'Hello world!'
-  return words.join(' ');
-}
-
-/*
-function contains(arr, item) {
-  // check to see if item is inside of arr
-  // return true if it is, otherwise return false
-  for (let i = arr.length-1; i >=0; i--) {
-    if (arr[i] === item) {return true;}
-  }
-
-  return false;
-}
-
-function contains(arr, item) {
-  // check to see if item is inside of arr
-  // return true if it is, otherwise return false
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === item) {return true;}
-  }
-
-  return false;
-}
-*/
 
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
   return arr.includes(item);
-}
 
-/*
-function addNumbers(numbers) {
-  // numbers is an array of integers.
-  // add all of the integers and return the value
-  let sum = 0;
-  for (let i = numbers.length-1; i >= 0; i--) {
-    sum += numbers[i];
-  }
-  return sum;
-}
+  // return !(arr.every((a) => a !== item));
 
-function addNumbers(numbers) {
-  // numbers is an array of integers.
-  // add all of the integers and return the value
-  let s = 0;
-  for (let i = 0; i < numbers.length; i++) {
-    s += numbers[i];
-  }
-  return s;
+  /*
+  for (let i = 0; i < arr.length; i++)
+    if (arr[i] === item)
+      return true;
+  return false;
+  */
 }
-
-function addNumbers(numbers) {
-  // numbers is an array of integers.
-  // add all of the integers and return the value
-  function adder(accumulator, currentValue) {
-    return accumulator + currentValue;
-  }
-  return numbers.reduce(adder, 0);
-}
-
-function addNumbers(numbers) {
-  // numbers is an array of integers.
-  // add all of the integers and return the value
-  const adder = (accumulator, currentValue) => accumulator + currentValue;
-  return numbers.reduce(adder, 0);
-}
-*/
 
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
   return numbers.reduce((a,b) => a + b);
-}
 
-/*
-function averageTestScore(testScores) {
-  // testScores is an array.  Iterate over testScores and compute the average.
-  // return the average
-  let sum = 0;
-  for (let i = testScores.length-1; i >=0; i--) {
-    sum += testScores[i];
-  }
-  return sum / testScores.length;
-}
+  /*
+  const adder = (accumulator, currentValue) => accumulator + currentValue;
+  return numbers.reduce(adder, 0);
+
+  OR
+
+  let s = 0;
+  for (let i = 0; i < numbers.length; i++)
+    s += numbers[i];
+  return s;
 */
+}
 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
@@ -180,27 +108,19 @@ function averageTestScore(testScores) {
   return addNumbers(testScores) / testScores.length;
 }
 
-/*
-function largestNumber(numbers) {
-  // numbers is an array of integers
-  // return the largest integer
-  let largest = numbers[0];
-  for (let i = 1; i < numbers.length; i++)
-     if (numbers[i] > largest) largest = numbers[i];
-  return largest;
-}
-
-function largestNumber(numbers) {
-  // numbers is an array of integers
-  // return the largest integer
-  return Math.max(...numbers);
-}
-*/
-
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
   return numbers.reduce((a,b) => a >= b ? a : b);
+
+  // return Math.max(...numbers);
+
+  /*
+  let largest = numbers[0];
+  for (let i = 1; i < numbers.length; i++)
+     if (numbers[i] > largest) largest = numbers[i];
+  return largest; 
+*/
 }
 
 
