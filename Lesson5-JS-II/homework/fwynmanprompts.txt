@@ -1,0 +1,10 @@
+* `for`
+
+for is another name for a loop, describing how many times I need to repeat the tasks!
+
+
+* `&&`, `||`, `!`
+
+&& -  and operator - this weird looking symbol work only when both of the conditions satisfy!
+`||` - or operator- works when any of the the condition satisfy
+! - not- this does opposite of what its told. if we tell its true it replies with false and vice versa.
