@@ -1,0 +1,6 @@
+Feynman Writing Prompts:
+1. Objects -- Objects are like Arrays and Variables in that they are like boxes that can store multiple data.
+2. Properties -- These are simply the keys to objects.
+3. Methods -- These are functions that are contained within objects.
+4. For In Loop -- This is another type of For Loop that only works in objects
+5. Dot Notation vs Bracket Notation -- These are the two ways of assigning values when creating objects.
