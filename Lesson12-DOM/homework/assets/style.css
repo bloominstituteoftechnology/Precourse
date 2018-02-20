@@ -5,6 +5,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("https://80d2853cc4def76b377d-54344bc01a8b066c84096a8e7a3499ac.ssl.cf1.rackcdn.com/original/629288.jpg");
+  background-repeat: no-repeat;
+  background-size: 200%;
 }
 
 #header {
@@ -100,4 +103,48 @@ body {
 
 .completeCheckbox {
   transform: scale(1.8);
+}
+
+h1 {
+  color: darkolivegreen;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  width: 60%;
+  height: 25rem;
+  background-color: skyblue;
+  padding: 50px;
+  border: 2px solid darkkhaki;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+.listItem {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
