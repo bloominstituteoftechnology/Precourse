@@ -19,7 +19,7 @@ function getBiggest(x, y) {
   } else if(y > x) {
     return y;
   } else {
-    return x
+    return x;
   }
 }
 
@@ -36,7 +36,7 @@ function greeting(language) {
     return 'Hola!';
    // if language is undefined return 'Hello!'  
   } else {
-    return 'Hello!'
+    return 'Hello!';
   }
 }
 
@@ -88,14 +88,15 @@ function fizzBuzz(num) {
 
 function isPrime(num) {
   // return true if num is prime.
+  if(num % num === 1 && num % 1 === 0) {
+    return true;
+  } else {
+    return false;
+  }
   // otherwise return false
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  for (let i = 0; i < num.length; i++) {
-    
-  }
-}
 
 
 
