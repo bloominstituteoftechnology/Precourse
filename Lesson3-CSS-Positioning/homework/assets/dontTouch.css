@@ -52,6 +52,7 @@ body {
   width: 100vw;
   height: 70px;
   background-color: #1970fc;
+  z-index: 1;
 }
 
 #exerciseFive span {
@@ -72,6 +73,7 @@ body {
   border: 3px solid black;
   position: relative;
   background-color: black;
+  z-index: -1;
 }
 
 .itemSpan {
