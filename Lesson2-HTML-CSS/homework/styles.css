@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://static.pexels.com/photos/461198/pexels-photo-461198.jpeg");
+        
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+img {
+    width:400px;
+}
+
+.divClass{
+    text-align: center;
+}
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color:aquamarine;
+    padding: 50px;
+    border: 3px solid midnightblue;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
+#wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
