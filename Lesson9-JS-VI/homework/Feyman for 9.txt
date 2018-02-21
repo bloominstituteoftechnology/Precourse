@@ -1,0 +1,1 @@
+Callback Functions are used to pass functions as an argument to another function. They are really useful for streamlining. 
