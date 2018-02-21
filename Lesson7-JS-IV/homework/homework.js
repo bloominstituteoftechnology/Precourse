@@ -76,14 +76,20 @@ function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
-
-}
+  if (object.hasOwnProperty(property)) {
+    return true;
+  } 
+  return false;
+  }
 
 function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
-
+  if (user.hasOwnProperty(password)) {
+    return true;
+  }
+  return false;
 }
 
 function updatePassword(user, newPassword) {
@@ -96,7 +102,8 @@ function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
   // return the user object
-
+  user.friends.push(newFriend);
+  return user;
 }
 
 function setUsersToPremium(users) {
@@ -104,7 +111,10 @@ function setUsersToPremium(users) {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
-
+  for (let key in users) {
+    users[key].isPremium = true;
+  }
+  return users;
 }
 
 function sumUserPostLikes(user) {
@@ -113,7 +123,10 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
-
+  for (let i = 0; i < user.post.length; i++) {
+    let user = user.post[i];
+    return user.post[i];
+  }
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
