@@ -43,14 +43,16 @@ III. Create an external style sheet and move all of our previous style rules int
   E. Add a link tag to your html that imports your new css file. 
 
 IV. Add, Commit and push your work to your github account.
-
 *** cd LambdaSchoolPrecourse/Precourse
 *** ls (to see what files/folders inside directory)
 *** git status (to check for changes/untracked files)
 *** git add Lesson2-HTML-CSS/homework/styles.css
 *** git add Lesson2-HTML-CSS/homework/homework-readme.txt
 *** git add Lesson2-HTML-CSS/homework/homework.html
-*** git commmit -m 'Modified readme.txt and homework.html/ Added styles.css'
+*** git commmit -m 'Modified readme.txt and homework.html/ Added styles.css' (saves progress)
+*** git push (do this at end of day, uploads to GitHub)
+
+GIT WORK FLOW: fork, clone, work on it, add, commit, push, pull request 
 
 Extra credit:   
   In order to do some of this you will either need to have an understanding of CSS currently, or will need to 
