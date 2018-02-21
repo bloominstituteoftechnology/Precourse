@@ -1,0 +1,17 @@
+
+
+1.) Variables are names that we assign to data to help us
+    follow that data around in a meaningful way
+
+2.) Strings are a collection of characters grouped together.
+
+3.) Functions are the pieces of your code that actually do
+interesting stuff. They can take data as input and return
+different data as output.
+
+4.) `if` statements run code depending on wether a condition
+is satisfied or not
+
+5.) Boolean values are either true and false and are used
+in if statements and other areas of your code where a condition
+is being checked for true or false.
