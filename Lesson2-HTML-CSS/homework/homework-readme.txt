@@ -18,7 +18,7 @@ I. Create a basic HTML page.
     3. In the third div create:
       * an an unordered list with two list items
       * an img tag in each list item linking to your favorite food. (Use Google image search to find a photo, if you can't 
-        use this address: "http://http://lorempixel.com/400/200/food/").
+        use this address: "http://lorempixel.com/400/200/food/").
 
 II. Add some style
   A. Add style tags to your HTML document.
