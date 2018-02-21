@@ -26,33 +26,32 @@ const newModulo = 21 % 5 === 1 ;
 //Do not change any of the function names
 
 function returnString(str) {
-  const newStr = str;    //simply return the string provided: str
-  return newStr;
+      //simply return the string provided: str
+  return str;
 }
 
 function add(x, y) {
-  const newAdd = x + y;         // x and y are numbers
-  return newAdd ;               // add x and y together and return the value
+                                 // x and y are numbers
+  return (x + y);               // add x and y together and return the value
                                 // code here
 }
 
 function subtract(x, y) {
-  const newSubtract = x - y;    // subtract y from x and return the value
-  return newSubtract ;          // code here
+                            // subtract y from x and return the value
+  return (x - y);          // code here
 }
 
 function multiply(x, y) {
-  const newMultiply = x * y ;   // multiply x by y and return the value
-  return newMultiply ;          // code here
+                             // multiply x by y and return the value
+  return (x * y);          // code here
 }
 
 function divide(x, y) {
-  const newDivide = x / y ;     // divide x by y and return the value
-  return newDivide ;            // code here
+                                // divide x by y and return the value
+  return (x / y);            // code here
 }
 
 function areEqual(x, y) {
-  //const newBoo = x === y ;      // return true if x and y are the same
   if (x === y) {
     return true ;
   }                             // otherwise return false
@@ -81,8 +80,8 @@ function greaterThanFifty(num) {
 }
 
 function getRemainder(x, y) {
-  const newRemainder = (x % y);    // return the remainder from dividing x by y
-  return newRemainder;            // code here
+                               // return the remainder from dividing x by y
+  return (x % y);            // code here
 }
 
 function isEven(num) {
@@ -101,46 +100,37 @@ function isOdd(num) {
 }
 
 function square(num) {
-  const newSquare = Math.pow(num,2);  // square num and return the new value
-  return newSquare;                   // hint: NOT square root!
-                                      // code here
+  return (Math.pow(num,2));                   // hint: NOT square root!
 }
 
 function cube(num) {
-  const newCube = Math.pow(num,3);    // cube num and return the new value
-  return newCube;                     // code here
+  return (Math.pow(num,3));                     // code here
 }
 
 function raiseToPower(num, exponent) {
-  const newRaiseToPower = Math.pow(num,exponent);   // raise num to whatever power is passed in as exponent
-  return newRaiseToPower;                           // code here
+  return (Math.pow(num,exponent));                           // code here
 }
 
 function roundNumber(num) {
-  const newRoundNumber = (Math.round(num));         // round num and return it
-  return newRoundNumber;                            // code here
+   return (Math.round(num));                            // code here
 }
 
 function roundUp(num) {
-  const newRoundUp = (Math.ceil(num));                 // round num up and return it
-  return newRoundUp;                                  // code here
+  return (Math.ceil(num));                                  // code here
 }
 
 function addExclamationPoint(str) {
-  const newAddExclamationPoint = (str + '!');   // add an exclamation point to the end of str and return the new string
-  return newAddExclamationPoint;                // 'hello world' -> 'hello world!'
+  return (str + '!');                // 'hello world' -> 'hello world!'
                                                 // code here
 }
 
 function combineNames(firstName, lastName) {
-  const newCombineNames = (firstName + ' ' + lastName); // return firstName and lastName combined as one string and separated by a space.
-  return newCombineNames;                               // 'Lambda', 'School' -> 'Lambda School'
+  return (firstName + ' ' + lastName);                               // 'Lambda', 'School' -> 'Lambda School'
                                                         // code here
 }
 
 function getGreeting(name) {
-  const newGetGreetings = ('Hello ' + name + '!');      // Take the name string and concatenate other strings onto it so it takes the following form:
-  return newGetGreetings;                               // 'Sam' -> 'Hello Sam!'
+  return ('Hello ' + name + '!');                               // 'Sam' -> 'Hello Sam!'
                                                         // code here
 }
 
@@ -148,13 +138,11 @@ function getGreeting(name) {
 // If you can't remember these area formulas then head over to Google.
  
 function getRectangleArea(length, width) {
-  const newArea = (length * width);           // return the area of the rectangle by using length and width
-  return newArea;                             // code here
+  return (length * width);                             // code here
 }
 
 function getTriangleArea(base, height) {
-  const newTriangleArea = ((base * height) / 2);  // return the area of the triangle by using base and height
-  return newTriangleArea;                         // code here
+  return ((base * height) / 2);                         // code here
 }
 
 // Do not modify code below this line.
