@@ -26,17 +26,23 @@ function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-
+  // let method = 'name of a method inside "object"'
+  // invokeMethod should call the method inside "object" with the same name
+  object[method]();
 }
+
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
+  return mysteryNumberObject['mysteryNumber'] * 5;
 }
 
 function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
+  delete object[property];
+  return object;
 }
 
 function newUser(name, email, password) {
