@@ -6,7 +6,9 @@ function multiplyArguments() {
   // if one argument is passed in just return it
   if (arguments.length === 0){
     return 0;
-  }else{
+  }else if (arguments.length === 1) {
+    return arguments [0];
+  } else {   
     let product = 1;
     for (let i = 0; i < arguments.length; i++){
     product = product*arguments[i];
