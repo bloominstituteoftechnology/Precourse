@@ -54,7 +54,7 @@ And finally, we can return a function definition from a function:
     inner(); // logs 'hi'
 ```
 
-The function that retuns the new function is called a "Higher Order Function" or HOF.  The idea of closure is simply that `inner` that's defined up above is able to look back into `outer` for variables that it needs.  It's scope chain is going to look inside of `outer` before it looks at the global scope.
+The function that returns the new function is called a "Higher Order Function" or HOF.  The idea of closure is simply that `inner` that's defined up above is able to look back into `outer` for variables that it needs.  It's scope chain is going to look inside of `outer` before it looks at the global scope.
 
 Here's another example:
 
