@@ -47,19 +47,29 @@ function multiplyMysteryNumberByFive(mysteryNumberObject) {
 function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
-
+  delete object['z'];
+  return object;
+  
 }
 
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
-
+  const user2 = {
+    email: 'email',
+    name: 'name',
+    password: 'password',
+  };
+  return user2;
 }
 
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
-
+  if (user.email) {
+    return true;
+  }
+  return false; 
 }
 
 function hasProperty(object, property) {
