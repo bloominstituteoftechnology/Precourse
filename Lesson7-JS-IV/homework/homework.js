@@ -48,6 +48,12 @@ function deleteProperty(object, property) {
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
+  const object = {
+    name,
+    email,
+    password,
+  };
+  return object;
 }
 
 function hasEmail(user) {
