@@ -1,5 +1,5 @@
 # Lambda School Precourse Workshop
-This repo contains the instruction material and assignments for Lambda School's free mini-bootcamp.  Lambda School's free mini-bootcamp is a three week long course that covers the fundamentals of programming and web development.  Class is held at 5pm Pacific Time Monday through Thursday at the dates listed below.  This class is repeated and given live every month.
+This repo contains the instruction material and assignments for Lambda School's free mini-bootcamp.  Lambda School's free mini-bootcamp is a three-week long course that covers the fundamentals of programming and web development.  Class is held at 5pm Pacific Time Monday through Thursday at the dates listed below.  This class is repeated and given live every month.
 
 To sign up for the program or to learn more about Lambda School's intensive Computer Science program, visit https://www.lambdaschool.com
 
@@ -27,13 +27,13 @@ Live stream recordings will also be listed here:
 
 #### Directions for updating your fork
 
-If you have already forked this repository but you would like to add the new updates to your forked copy then type the following git commands from within your local repo:
+If you have already forked this repository but you would like to add the new updates to your forked copy, then type the following git commands from within your local repo:
 
 ```
 git remote add upstream https://github.com/LambdaSchool/Precourse.git
 git pull upstream master
 ```
 
-You only need to add the `upstream` remote once.  If you wish to pull down updates multiple times then just use `git pull upstream master` on subsequent pulls.
+You only need to add the `upstream` remote once.  If you wish to pull down updates multiple times, then just use `git pull upstream master` on subsequent pulls.
 
-If you have any questions or are experiencing merge conflicts then reach out to a TA for assistance.
+If you have any questions or are experiencing merge conflicts, then reach out to a TA for assistance.
