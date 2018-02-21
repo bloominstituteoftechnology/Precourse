@@ -1,12 +1,16 @@
-.divClass1 {
+html {
+  background-image: url("sky.jpg");
+}
+
+.divClass {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  border: 3px solid blue;
-}
+  flex-direction: column;
+ }
+ 
 #thirdDiv {
     height: 600px; 
-    width: 500px;
+    width: 1225px;
     background-color:antiquewhite ;
     padding: 50px;
     border: 3px green solid;

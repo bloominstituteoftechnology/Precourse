@@ -1,0 +1,2 @@
+Closure is a function within a function that can access the variables of its outer function.
+
