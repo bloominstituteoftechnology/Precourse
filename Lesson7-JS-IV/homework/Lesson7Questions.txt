@@ -1,0 +1,6 @@
+1. An object is a data structure which is a container for organizing data.
+2. An object is a collection of properties (names) which are linked to values (data).
+3. A function that is in a object is called a method.
+4. A for in loop is used to loop thru properties in an object.
+5. Dot notation is used to access the properties values if you know property name.
+6. Bracket notation is used to access the properties values if using a variable.
