@@ -18,11 +18,11 @@ h1 {
     color:blue;
 }
 body { /* Added background image  */
-    background-image: url(food.jpg);
+    background-image: url("http://lorempixel.com/400/200/food/");
+    background-size: 100%;
+    background-repeat: no-repeat; 
 }
-/*div  {
-    align-self: auto
-}*/
+
 .menu-container { /* Threw in some flexbox code  */
     color: rgb(255, 0, 255);
     background-color: #5995DA;  
