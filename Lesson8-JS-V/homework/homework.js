@@ -1,6 +1,7 @@
 // Do not change any of the function names
 
 function createUserClass() {
+<<<<<<< HEAD
   //   create a class constructor called User
   //   it should accept an options object with username, name, email, and password properties
   //   in the constructor set the username, name, email, and password properties
@@ -17,6 +18,14 @@ function createUserClass() {
     return 'Hello, my name is ' + this.name;
   }
   return User;
+=======
+  // create an ES6 class or a constructor function called User
+  // it should accept an options object with username, name, email, and password properties
+  // in the constructor set the username, name, email, and password properties
+  // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
+  // {{name}} should be the name set on each instance
+  // return the class
+>>>>>>> c799bdb6cf8ad66b72004f6f445aa4b97effafe8
 }
 
 function addPrototypeMethod(Constructor) {
@@ -45,7 +54,7 @@ function addReverseString() {
 // --------------------------------
 
 module.exports = {
-  createUserClass: createUserClass,
-  addPrototypeMethod: addPrototypeMethod,
-  addReverseString: addReverseString,
+  createUserClass,
+  addPrototypeMethod,
+  addReverseString,
 };
