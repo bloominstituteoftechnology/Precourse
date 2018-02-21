@@ -31,7 +31,7 @@ function cacheFunction(cb) {
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
 
-var cache = [];
+let cache = [];
   return (
     function(arg) {
      if (cache.hasOwnProperty(arg)) {
