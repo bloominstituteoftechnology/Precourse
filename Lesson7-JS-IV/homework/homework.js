@@ -56,9 +56,9 @@ function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
   const user2 = {
-    email: 'email',
-    name: 'name',
-    password: 'password',
+    email: email,
+    name: name,
+    password: password,
   };
   return user2;
 }
@@ -86,7 +86,7 @@ function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
-  if (user.hasOwnProperty(password)) {
+  if (user.password == password) {
     return true;
   }
   return false;
@@ -123,10 +123,10 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
-  for (let i = 0; i < user.post.length; i++) {
-    let user = user.post[i];
-    return user.post[i];
+  for (let i = 0; i < user.post; i++) {
+    user = user[i].post.likes;
   }
+  return user;
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
