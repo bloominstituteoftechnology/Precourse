@@ -92,7 +92,6 @@ function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
-  let num = 100;
   if(num > 90) {
     return true;
   } else {
