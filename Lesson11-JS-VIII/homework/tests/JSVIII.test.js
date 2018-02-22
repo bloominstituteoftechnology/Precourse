@@ -1,4 +1,6 @@
 var exercises = require('../homework');
+let recursiveMethods = require('../homework');
+
 
 describe('nFactorial(n)', function() {
 	it('should return the factorial of n', function() {
