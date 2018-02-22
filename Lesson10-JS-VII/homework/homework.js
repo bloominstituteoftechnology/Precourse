@@ -27,8 +27,8 @@ function cacheFunction(cb) {
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
 
-  last_arg = 0;            // ditto (see previous func)
-  lastresultfrcb = 0;
+  last_arg = 0;           // only initial value; closure keeps new value during 2nd round and up
+  lastresultfrcb = 0;     // ditto
   
   return function(new_arg) {
     if( new_arg !== last_arg ) {

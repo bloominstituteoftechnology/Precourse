@@ -8,6 +8,7 @@ function nFactorial(n) {
   // the factorial of 3 is 6 (3 * 2 * 1)
   
   if (n <= 1) return 1; 
+  
   return n * nFactorial(n-1);      // n keeps the previous value
 }
 
