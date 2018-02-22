@@ -120,13 +120,12 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if(num % 3 === 0) {
+  if(num % 3 === 1) {
     return true;
   } else {
     return false;
   }
 }
-isOdd(2);
 
 function square(num) {
   // square num and return the new value
