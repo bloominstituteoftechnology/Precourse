@@ -1,0 +1,1 @@
+Recursion is another way of running codes in loops. Instead of the usual for loop, this uses the method of calling the function within itself.
