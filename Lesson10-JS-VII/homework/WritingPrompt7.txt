@@ -1,0 +1,31 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Closure
+
+
+	Closure is the abiility of a function declared in another function to remember the scope it
+	was declared in and to access all variables in that scope. In other words the inner function
+	has access to all the data in the outer function's scope even after the outer scope was
+	executed.
+
+	For example, lets create a function called adder, which takes a number as an argument, and returns
+	another function that also takes a number as an argument and returns the sum.
+
+	function makeAdder(x) {
+		return function(y) {
+			return x + y;
+		}
+	}
+
+	When we call makeAdder(), we are returned the inner function. We can save this inside a varibale:
+
+		var addTwo = makeAdder();
+
+	Our addTwo variable now holds a reference to the inner function. We can call the inner function like this:
+
+		addTwo(5)(2)
+
+	and the result is the sum of 5 and 2.
+
+	The inner function has closure over the outter function, so the inner function was able to access makeAdder's
+	parameter even after makeAdder was executed.
