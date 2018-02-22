@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 const {
-  counter,
-  cacheFunction,
+	counter,
+	cacheFunction,
 } = require('../homework');
 
 describe('counter', () => {
@@ -21,19 +21,19 @@ describe('counter', () => {
 	});
 });
 
-describe('cacheFunction(cb)', function() {
-	it('should return the callback function', function() {
-		const cb = function() {};
+describe('cacheFunction(cb)', function () {
+	it('should return the callback function', function () {
+		const cb = function () {};
 		expect(typeof cacheFunction(cb)).toEqual('function');
 	});
-	it('should return the callback functions result when the cached function is invoked', function() {
-		const cb = function(x) {
+	it('should return the callback functions result when the cached function is invoked', function () {
+		const cb = function (x) {
 			return x * 2;
 		};
 		const cachedFunction = cacheFunction(cb);
 		expect(cachedFunction(5)).toBe(10);
 	});
-	it('should cache function results', function() {
+	it('should cache function results', function () {
 		const cb = jest.fn();
 		const cachedFunction = cacheFunction(cb);
 		cachedFunction(true);
