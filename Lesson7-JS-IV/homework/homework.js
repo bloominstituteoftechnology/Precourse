@@ -95,7 +95,8 @@ function verifyPassword(user, password) {
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
-
+  user.password = newPassword;
+  return user;
 }
 
 function addFriend(user, newFriend) {
@@ -123,10 +124,12 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
+  let sum = 0;
   for (let i = 0; i < user.post; i++) {
-    user = user[i].post.likes;
+    let user = user.post.likes;
+    sum += user.post.likes;
   }
-  return user;
+  return sum;
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
@@ -138,7 +141,15 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
-
+  const newCalc = {
+    price: 20,
+    discountPercentage: .2,
+    discountPrice: 20 - (20 * .2),
+    calculateDiscountPrice: function() {
+      return storeItem.price * newCalc.discountPercentage;
+    }
+  };
+  return newCalc;
 }
 
 // Do not modify code below this line.
