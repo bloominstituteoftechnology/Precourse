@@ -1,0 +1,1 @@
+Recursion is a type of function. It can be used in data structures. It works by using a variable, having a boolean value, and moving towards a condition where it stops.
