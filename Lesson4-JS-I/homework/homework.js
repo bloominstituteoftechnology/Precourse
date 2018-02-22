@@ -16,7 +16,7 @@ const newSubtract = 10 - 5 === 5;
 const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === 2 ;
+const newModulo = 21 % 5 === 1 ;
 
 
 
@@ -40,12 +40,13 @@ function add(x, y) {
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
+  return x - y;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-  return x - y;
+  return x * y;
 }
 
 function divide(x, y) {
@@ -91,6 +92,7 @@ function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
+  let num = 100;
   if(num > 90) {
     return true;
   } else {
@@ -119,7 +121,7 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if(num % 3 === 0) {
+  if(num % 2 === 0) {
     return true;
   } else {
     return false;
@@ -142,7 +144,7 @@ function cube(num) {
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-  Math.pow(num, exponent);
+  Math.pow(2, 2);
 }
 
 function roundNumber(num) {
@@ -161,7 +163,7 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  const newStr = str + ' ' + '!';
+  const newStr = str + '!';
   return newStr;
 }
 
@@ -177,7 +179,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  const greeting = name + ' ' + 'says Hello';
+  const greeting = 'Hello ' + name + '!';
   return greeting;
 }
 
@@ -193,7 +195,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  return base * height;
+  return base / height;
 }
 
 // Do not modify code below this line.
