@@ -1,28 +1,28 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = null ;
+const newString = 'I love coding' ;
 
 //create a number variable, it an be any number
-const newNum = null ;
+const newNum = 22 ;
 
 //create a boolean variable
-const newBool = null ;
+const newBool = true ;
 
 //solve the following math problem
-const newSubtract = 10 - null === 5;
+const newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-const newMultiply = 10 * null === 40 ;
+const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === null ;
+const newModulo = 21 % 5 === 2 ;
 
 
 
-//In the next 22 problems you will compete the function. All of your code will go inside of the function braces. 
+//In the next 22 problems you will compete the function. All of your code will go inside of the function braces.
 //Make sure you use return when the prompt asks you to.
-//hint: console.log() will NOT work. 
+//hint: console.log() will NOT work.
 //Do not change any of the function names
 
 function returnString(str) {
@@ -135,9 +135,9 @@ function getGreeting(name) {
   // code here
 }
 
-// The next three questions will have you implement math area formulas. 
+// The next three questions will have you implement math area formulas.
 // If you can't remember these area formulas then head over to Google.
- 
+
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
