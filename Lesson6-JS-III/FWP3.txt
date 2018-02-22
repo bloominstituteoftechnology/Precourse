@@ -1,0 +1,3 @@
+Arrays - This is a data structure that is capable of holding multiple data types and even be empty. These are stored in
+[] brackets and each item is separated by commas, which can be accessed because an array is stored in a variable. This is similar to having a jar that stores different
+type of candys. 
