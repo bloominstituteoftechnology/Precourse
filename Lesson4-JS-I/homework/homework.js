@@ -92,7 +92,7 @@ function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
-  if(num > 90) {
+  if(num > 50) {
     return true;
   } else {
     return false;
@@ -120,12 +120,13 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if(num % 2 === 0) {
+  if(num % 3 === 0) {
     return true;
   } else {
     return false;
   }
 }
+isOdd(2);
 
 function square(num) {
   // square num and return the new value
@@ -143,7 +144,7 @@ function cube(num) {
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-  Math.pow(2, 2);
+  return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
@@ -194,7 +195,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  return base / height;
+  return base / height * height;
 }
 
 // Do not modify code below this line.
