@@ -1,0 +1,1 @@
+Recursion is a function that calls itself repeatedly until a base case is met.
