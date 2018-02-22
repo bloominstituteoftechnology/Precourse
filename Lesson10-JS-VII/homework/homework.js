@@ -9,13 +9,17 @@ function counter() {
 }
 
 function cacheFunction(cb) {
-  let cache = [];
-  if (cache === cb) {
-    return cb();
-  } else {
-    let cache = cb;
-    return cb();
+  var cache = [];
+  return function(arg) {
+    if (cache[0] === arg) {
+      return cache[1];
+    } else {
+    var result = cb(arg);
+    cache = [arg, result];
+    return result;}
   };
+
+
   // use closure to create a cache for the cb function
   // the function that you return should accept a single argument and invoke cb with that argument
   // when the function you return is invoked with an argument it should save that argument and its result
