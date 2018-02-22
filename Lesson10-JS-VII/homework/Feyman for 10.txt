@@ -1,0 +1,1 @@
+Closure is basically the way in which javascript functions are sectioned off and given domain. It allows the inner function to use the outer functions data. It basically is used to help narrow the scope of a function.
