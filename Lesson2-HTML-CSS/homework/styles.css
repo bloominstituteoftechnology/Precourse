@@ -1,0 +1,25 @@
+
+.divClass {
+    text-align: center;
+
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background: silver;
+  padding: 50px;
+  border: 5px solid black;
+  margin: auto;
+  position: relative;
+  
+}
+#spanID {
+  font-size: 18px;
+  margin: 50px;
+  display: block;
+  position: relative;
+  
+}
+body {
+    background-image: url(https://static.pexels.com/photos/255379/pexels-photo-255379.jpeg)
+}
