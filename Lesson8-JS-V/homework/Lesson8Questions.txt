@@ -1,0 +1,2 @@
+1. A prototype is a way to give a ever instance of a class access to a method but is not part of the instance.
+2. A constructor creates a blueprint for the formation of differant instances pf it with differant values but same properties.
