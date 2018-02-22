@@ -1,22 +1,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = null ;
+const newString = "String of text" ;
 
 //create a number variable, it an be any number
-const newNum = null ;
+const newNum = 9 ;
 
 //create a boolean variable
-const newBool = null ;
+const newBool = true ;
 
 //solve the following math problem
-const newSubtract = 10 - null === 5;
+const newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-const newMultiply = 10 * null === 40 ;
+const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === null ;
+const newModulo = 21 % 5 === 1 ;
 
 
 
@@ -26,29 +26,42 @@ const newModulo = 21 % 5 === null ;
 //Do not change any of the function names
 
 function returnString(str) {
+  return str;
   //simply return the string provided: str
 }
+returnString();
+  //str is undefined
 
 function add(x, y) {
+  //let sum = x + y; return sum; would be another option
+  return x + y ;
   // x and y are numbers
   // add x and y together and return the value
   // code here
 }
+add(5, 7) ;
 
 function subtract(x, y) {
+  //let sub = x - y; retrun sub; would be another option
+  return x - y ;
   // subtract y from x and return the value
   // code here
 }
+subtract(7, 5) ;
 
 function multiply(x, y) {
+  return x * y ;
   // multiply x by y and return the value
   // code here
 }
+multiply(2, 3);
 
 function divide(x, y) {
+  return x / y ;
   // divide x by y and return the value
   // code here
 }
+divide(12, 4);
 
 function areEqual(x, y) {
   // return true if x and y are the same
@@ -127,6 +140,7 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
+
 }
 
 function getGreeting(name) {
@@ -141,6 +155,7 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
+  return (lenght * width)
 }
 
 function getTriangleArea(base, height) {
