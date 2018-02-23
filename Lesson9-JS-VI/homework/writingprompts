@@ -1,0 +1,6 @@
+
+Writing Prompts
+
+Callback Functions : Callback functions, also called Higher-order Functions,
+    are a way to give you more access to classes, while keeping virtually all information
+    about that function private.
