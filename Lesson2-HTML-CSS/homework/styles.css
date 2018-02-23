@@ -1,0 +1,21 @@
+h1 {
+    color: darkmagenta; 
+   }
+img {
+    width: 400px;
+   }
+#thirdDiv {
+    height: 900px;
+    width: 500px;
+    background: lightgoldenrodyellow;
+    padding: 50px;
+    border: 5px solid lightslategray;
+   }
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+   }
+.content {
+    max-width: 600px;
+    margin: auto;
+}
