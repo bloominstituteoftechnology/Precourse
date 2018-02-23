@@ -1,0 +1,1 @@
+* Arrays - a variable that can hold multiple values at a single time in []
