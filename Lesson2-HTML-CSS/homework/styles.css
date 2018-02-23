@@ -1,9 +1,19 @@
-#h1 {
+#name {
     color: darkred;
 }
 
 #img1 { 
     width: 400px;
+    height: 400px;
+}
+
+#img2 {
+    width: 400px;
+    height: 400px;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
 }
 
 #thirdDiv {
@@ -14,7 +24,3 @@
     border: 5px dotted indigo;
 }
 
-#spanId {
-    font-size: 18px;
-    margin: 50px;
-}
