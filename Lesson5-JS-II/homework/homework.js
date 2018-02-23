@@ -10,7 +10,7 @@ function multiplyArguments() {
   }
   return sum;
 }
-multiplyArguments(2, 3);
+multiplyArguments(10, 0, 10);
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
@@ -31,21 +31,20 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
-  let german = 'Guten Tag!';
-  let mandarin = 'Ni Hao!';
-  let spanish = 'Hola!';
 
   if(language === german) {
-    return german;
+    return 'Guten Tag!';
   } else if(language === mandarin) {
-    return mandarin;
+    return 'Ni Hao!';
   } else if(language === spanish) {
-    return spanish;
+    return 'Hola!';
   } else {
     return 'Hello!';
   }
 }
+greeting(german);
 greeting(mandarin);
+greeting(spanish);
 
 function isTenOrFive(num) {
   // return true if num is 10 or 5
@@ -76,12 +75,12 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  for(let i = 0; i === Math.floor(num); i++) {
+  if(num === Math.floor(num)) {
     return true;
-  }
+  } else {
     return false;
-}
-isInteger(2);
+  }
+  isInteger(.5);
 
 function fizzBuzz(num) {
   // if num is divisible by 3 return 'fizz'
@@ -98,7 +97,7 @@ function fizzBuzz(num) {
     return num;
   }
 }
-fizzBuzz(15);
+fizzBuzz(30);
 
 function isPrime(num) {
   // return true if num is prime.
@@ -114,7 +113,7 @@ function isPrime(num) {
     }
   }
 }
-isPrime(5);
+isPrime(6);
 
 
 // Do not modify code below this line.
