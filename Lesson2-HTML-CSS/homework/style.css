@@ -1,0 +1,57 @@
+* {
+  margin:  auto;
+  text-align: center;
+}
+
+h1, h3, h4 {
+  padding: 15px;
+}
+
+h1 {
+  color: cornflowerblue;
+}
+
+img {
+  width: 400px;
+  position: relative;
+  right: 20px;
+}
+
+.foodpix {
+  align-self: center;
+  border-radius: 30px;
+}
+
+.divClass {
+  padding: 5px;
+}
+
+#thirdDiv {
+  width: 500px;
+  height: 600px;
+  background-color: dodgerblue;
+  padding: 50px;
+  border: 15px solid steelblue;
+
+}
+
+#spanID {
+  font-size: 18px;
+  margin: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background: url(https://wallpapercave.com/wp/7n4uPEo.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#buca {
+  display: block;
+  padding: 15px;
+}
