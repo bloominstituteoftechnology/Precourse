@@ -132,12 +132,13 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if (num % 2 === 0) {
-    return false;
-  }else {
+  if (num % 2 === 0 + 1) {
     return true;
+  }else {
+    return false;
   }
 }
+
 
 function square(num) {
   // square num and return the new value
