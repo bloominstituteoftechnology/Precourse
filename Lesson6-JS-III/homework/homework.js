@@ -5,8 +5,10 @@ function returnFirst(arr) {
 }
 
 function returnLast(arr) {
-  // return the last item of the array
+      return arr [arr.length-1];
 }
+    // return the last item of the array
+
 
 function getArrayLength(arr) {
   // return the length of the array

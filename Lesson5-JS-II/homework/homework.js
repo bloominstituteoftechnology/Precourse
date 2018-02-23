@@ -22,12 +22,7 @@ function greeting(language) {
     {return 'Hola!';}
     return 'Hello!';
   }
-  // return a greeting for three different languages:
-  // language: 'German' -> 'Guten Tag!'
-  // language: 'Mandarin' -> 'Ni Hao!'
-  // language: 'Spanish' -> 'Hola!'
-  // if language is undefined return 'Hello!'
-
+ 
 
 function isTenOrFive(num) {
   return (num === 10 || num === 5);
