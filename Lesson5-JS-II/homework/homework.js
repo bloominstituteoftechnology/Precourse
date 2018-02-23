@@ -4,13 +4,7 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
-  let sum = 0;
-  for(let i = 0; i < arguments.length; i++) {
-    sum = sum + arguments[i];
-  }
-  return sum;
 }
-multiplyArguments(10, 0, 10);
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
@@ -32,19 +26,19 @@ function greeting(language) {
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
 
-  if(language === german) {
+  if(language === 'German') {
     return 'Guten Tag!';
-  } else if(language === mandarin) {
+  } else if(language === 'Mandarin') {
     return 'Ni Hao!';
-  } else if(language === spanish) {
+  } else if(language === 'Spanish') {
     return 'Hola!';
   } else {
     return 'Hello!';
   }
 }
-greeting(german);
-greeting(mandarin);
-greeting(spanish);
+greeting(German);
+greeting(Mandarin);
+greeting(Spanish);
 
 function isTenOrFive(num) {
   // return true if num is 10 or 5
