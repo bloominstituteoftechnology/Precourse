@@ -78,9 +78,8 @@ function isInteger(num) {
   // hint: you can solve this using Math.floor
   for(let i = 0; i === Math.floor(num); i++) {
     return true;
-  } else {
-    return false;
   }
+    return false;
 }
 isInteger(2);
 
