@@ -14,10 +14,12 @@ body {
 
 #myName {
     color: azure;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h3 {
     color: azure;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h4 {
@@ -27,24 +29,28 @@ h4 {
 a:link {
     color: azure;
     font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin: 10px;
 }
 
 a:visited{
     color: azure;
     font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin: 10px;
 }
 
 a:hover {
     color: darkcyan;
     font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin: 10px;
 }
 
 a:active {
     color: darkcyan;
     font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin: 10px;
 }
 #thirdDiv {
@@ -59,12 +65,15 @@ a:active {
 
 #spanID {
     font-size: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin: 50px;
 }
 #jeeraRice {
     width: 400px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #patbingsu {
     width: 400px;
+    font-family: 'Open Sans Condensed', sans-serif;
 } -->
