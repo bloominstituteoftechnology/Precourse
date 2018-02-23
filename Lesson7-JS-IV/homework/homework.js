@@ -1,5 +1,5 @@
 // Do not change any of the function names
-//this one is OK.
+
 function makeCat(name, age){
 var obj = {
   'name': name,
@@ -13,7 +13,7 @@ var obj = {
   return obj;
 }}
 
-//This one is OK.
+
 // create a new object with a name property with the value set to the name argument
 // add an age property to the object with the value set to the age argument
 // add a method called meow that returns the string 'Meow!'
@@ -22,9 +22,8 @@ var obj = {
 
 function addProperty(object, property) {
   object[property] = null;
-  for (let i =0; i<arguments.length; i++){
-    return (arguments[i]);
-  }
+
+return object;
 }
 
 //   add the = null
@@ -38,7 +37,8 @@ function invokeMethod(object, method) {
   // invoke this method
   // nothing needs to ((be returned
   
-object[method]();}
+  object[method]();
+}
 
 
 
@@ -101,7 +101,7 @@ function verifyPassword(user, password) {
 //   // return true if they match
 //   // otherwise return false
   return (user.password == password) ? true: false;
-  //This one is OK.
+
 
 }
 
@@ -111,7 +111,7 @@ function updatePassword(user, newPassword) {
 //   // return the object
   user.password = newPassword;
   return user;
-  //This one is ok.
+
 }
 
 function addFriend(user, newFriend) {
