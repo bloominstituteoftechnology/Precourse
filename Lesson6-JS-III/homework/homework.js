@@ -49,8 +49,6 @@ function addNumbers(numbers) {
   for(let i = 0; i < numbers.length; i++){
     num = num + numbers[i];
   }return num;
-  // numbers is an array of integers.
-  // add all of the integers and return the value
 }
 
 function averageTestScore(testScores) {
