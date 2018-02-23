@@ -1,0 +1,1 @@
+1. A closure is an inner function that has access to the outer functions variables.
