@@ -1,1 +1,69 @@
 <!-- In this file you will complete the homework found in the homework-readme.md file -->
+<html>
+    <head>
+        <title>H.I.Kara's HTML Homework</title>
+        <style>
+           body {
+               background-image: url("http://unasd.org/wp-content/uploads/2017/12/ocean-underwater-light-wallpaper-3-1.jpg");
+           }
+            h1 {
+                position: relative;
+                color: maroon;
+            }
+            img {
+                width: 400px;
+            }
+            .divClass{
+                margin: auto;
+                text-align: center;
+            }
+            .flex-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #thirdDiv {
+                margin: auto;
+                height: 600px;
+                width: 500px;
+                background-color: deepskyblue;
+                padding: 50px;
+                border: 1px solid darkblue;
+                text-align: center;
+                }
+            #spanId {
+                font-size: 18px;
+                margin: 50px;
+            }
+            li {
+                list-style-position: inside;
+            }
+        </style>
+        <!-- Even though the css file is in the same folder with the html file, the changes in the css does not
+        apply. I tried these:-->
+        <!-- <link rel="stylesheet" href:"styles.css"/>-->
+        <!-- <link rel="stylesheet" href:"./styles.css"/>-->
+        <!-- <link rel="stylesheet" type="text/css" href:"styles.css"/>-->
+        <!-- <link rel="stylesheet" type="text/css" href:"./styles.css"/>-->
+    </head>
+
+    <body>
+        <div class="divClass">
+            <h1>Halil Ibrahim Kara</h1>
+            <h3>Lambda School</h3>
+            <h4>HTML/CSS homework</h4>
+        </div>
+
+        <div class="flex-container">
+            <span id="spanId">Grilled Fish: Simple and delicious. Especially with sea bream or bluefish.</span>
+            <a href="http://www.erolbalik.com.tr">Here is one of the best places to have some.</a>
+        </div>
+
+        <div id="thirdDiv">
+            <ul>
+                <li>Bluefish<br><img src="http://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/10/03113524/43_WholeGrilledSalmon_WIDE.jpg"/></li>
+                <li>Sea Bream<br><img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/ab/3e/73/grilled-sea-bream.jpg"/></li>
+            </ul>
+        </div>
+    </body>
+</html>

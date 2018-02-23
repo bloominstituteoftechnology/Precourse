@@ -1,0 +1,35 @@
+body {
+    background-image: url("http://unasd.org/wp-content/uploads/2017/12/ocean-underwater-light-wallpaper-3-1.jpg");
+}
+ h1 {
+     position: relative;
+     color: maroon;
+ }
+ img {
+     width: 400px;
+ }
+ .divClass{
+     margin: auto;
+     text-align: center;
+ }
+ .flex-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #thirdDiv {
+     margin: auto;
+     height: 600px;
+     width: 500px;
+     background-color: deepskyblue;
+     padding: 50px;
+     border: 1px solid darkblue;
+     text-align: center;
+     }
+ #spanId {
+     font-size: 18px;
+     margin: 50px;
+ }
+ li {
+     list-style-position: inside;
+ }
