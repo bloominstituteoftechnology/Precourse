@@ -1,0 +1,3 @@
+An array is a grouping of data items. You can have an array of strings, numbers, or booleans. It doesn't matter
+what you put in an array because they are so flexible. Arrays are indexed so you can refer to the
+items within it by number. It starts from 0 and increases from there. 

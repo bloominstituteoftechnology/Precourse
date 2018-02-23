@@ -1,0 +1,27 @@
+body {
+  background-image: url('https://wallpaperscraft.com/image/dollars_frame_money_white_background_80211_3840x2160.jpg');
+  color: white;
+}
+h1 {
+  color: tomato;
+}
+img {
+  width: 400px;
+}
+#thirdDiv{
+  height: 600px;
+  width: 500px;
+  background-color: tomato;
+  padding: 50px;
+  border: 10px solid lightsteelblue;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
