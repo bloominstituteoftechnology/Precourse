@@ -1,0 +1,1 @@
+* Recursion - it is a technique where a function calls itself.
