@@ -1,0 +1,79 @@
+<!--
+body {
+    background-image: url("http://www.richmondnoticeboard.me/wp-content/uploads/2018/02/lead-free-glass-dinnerware-lead-free-dinnerware-sets-unique-home-dinnerware-plates-and-serving-dishes-dinner-sets-lead-free-glass-dinnerware-made-in-usa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divClass.container {
+    display: flex;
+    align-items: center; 
+    margin: auto; 
+    flex-direction: column;
+}
+
+#myName {
+    color: azure;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h3 {
+    color: azure;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h4 {
+    color: black;
+}
+
+a:link {
+    color: azure;
+    font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 10px;
+}
+
+a:visited{
+    color: azure;
+    font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 10px;
+}
+
+a:hover {
+    color: darkcyan;
+    font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 10px;
+}
+
+a:active {
+    color: darkcyan;
+    font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 10px;
+}
+#thirdDiv {
+    margin:auto;
+    height: 600px;
+    width: 500px;
+    position: center;
+    background-color: aqua;
+    padding: 50px;
+    border: 5px solid black;
+}
+
+#spanID {
+    font-size: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 50px;
+}
+#jeeraRice {
+    width: 400px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#patbingsu {
+    width: 400px;
+    font-family: 'Open Sans Condensed', sans-serif;
+} -->
