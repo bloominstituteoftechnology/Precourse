@@ -27,10 +27,6 @@ function addReverseString() {
     }
     return reverseString;
   }
-  // add a method to the string constructor's prototype that returns a reversed copy of the string
-  // name this method reverse
-  // hint:
-  // you will need to use 'this' inside of reverse
 }
 
 // Do not modify code below this line.
