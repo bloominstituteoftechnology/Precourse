@@ -1,0 +1,1 @@
+*Recursion: is when a function call itself from inside its own body. In the recursion, the function keep calling itself  and returning results until meets the condition set to stop it from looping.
