@@ -74,11 +74,6 @@ function sumUserPostLikes(user) {
   sum += obj.likes;
 }
 return sum;
-  // user has an array property called 'posts'
-  // posts is an array of post objects
-  // each post object has an integer property called 'likes'
-  // sum together the likes from all the post objects
-  // return the sum
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
