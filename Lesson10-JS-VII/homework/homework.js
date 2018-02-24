@@ -10,11 +10,20 @@ let counter = 0;
 }
 
 function cacheFunction(cb) {
-  return function (number) {
-    return number + number;
-    return cb(number);
-    return cacheFunction(cb);
-   }
+  var myObj = {};
+  return function(arg) {
+    // find the result of the cb
+    // cb(arg);
+    // if argument has been seen
+    if(!myObj.hasOwnProperty(arg)) {
+         myObj[arg] = cb(arg);
+         return myObj[arg];
+    } else {
+      return myObj[arg];
+    }
+    // return value from cache
+    // otherwise return cb
+  };
 }
   // use closure to create a cache for the cb function
   // the function that you return should accept a single argument and invoke cb with that argument
