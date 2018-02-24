@@ -31,7 +31,7 @@ function incrementByOne(arr) {
 
  function wordsToSentence(words) {
   let sum = '';
-  for (let i = 0; i < words.length; i++) {
+  for (let i = 0; i < words.length; i++) { 
     sum = sum + words[i] + ' ';
   }
   sum = sum.slice(0, - 1);
