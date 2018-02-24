@@ -19,10 +19,11 @@ function incrementByOne(arr) {
   // arr is an array of integers
   // increase each integer by one
   // return the array
+  let newArr = [];
   for(let i = 0; i < arr.length; i++) {
-    arr[i] = arr[i] + 1;
+    newArr[i]= arr[i] + 1;
   }
-  return arr;
+  return newArr;
 }
 
 function addItemToArray(arr, item) {
