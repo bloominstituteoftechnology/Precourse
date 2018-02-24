@@ -1,0 +1,1 @@
+* Callback Functions - a form of a higher order function that is passed to another function as a parameter and then later called and executed in the other function.
