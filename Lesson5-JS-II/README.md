@@ -1,7 +1,7 @@
 # Lesson 5: Javascript II (Control Flow, Comparison Operators, `for` Loops)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class.)
 
-In this lesson we will cover: 
+In this lesson, we will cover: 
 
 * Undefined and Null
 * Comparison Operators (continued)
