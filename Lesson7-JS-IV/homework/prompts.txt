@@ -1,0 +1,17 @@
+Feynman Writing Prompts
+
+Objects: Hold key value pairs. These keys could hold strings, numbers, functions, arrays, objects, boolean
+
+Properties: A key in an object that does not point to a function.
+          Property is interchangeable with key.
+
+Methods: A key that has a function as its value. It does something.
+
+For In Loop: A loop that is only used on objects.
+            It is used to grab the keys and or values from an object by looping through each key value pair
+
+Dot notation: Used to access information in objects.
+
+Bracket Notation: Also used to access information in objects.
+                When accessing information using a variable, you must use bracket notation.
+                Dot notation wont work.
