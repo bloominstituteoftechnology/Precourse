@@ -1,7 +1,7 @@
 # Lesson 1: Git Fundamentals
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class.)
 
-In this lesson we will cover: 
+In this lesson, we will cover: 
 
 * Description of version control and Git.
 * Basic terminal commands.
