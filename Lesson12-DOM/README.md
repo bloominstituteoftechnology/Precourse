@@ -1,7 +1,7 @@
 # Lesson 12: DOM
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class.)
 
-In this lesson we will cover: 
+In this lesson, we will cover: 
 
 * Introduction to the `DOM`
 * The `script` Element
