@@ -1,0 +1,34 @@
+h1 { color: darkslateblue; }
+		
+img { width: 400px; }
+		
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: dodgerblue;
+	padding: 50px;
+	border-bottom: 10px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+		
+#spanId { 
+	margin: 50px; 
+	font-size: 18px;
+}
+		
+body { 
+	background: url('https://s1.cdn.autoevolution.com/images/news/tesla-seeks-court-ruling-in-row-with-german-supplier-over-model-xs-falcon-doors-103813_1.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+		
+div { 
+	justify-content: center;
+	text-align: center;
+}
