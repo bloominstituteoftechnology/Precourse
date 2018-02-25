@@ -1,0 +1,10 @@
+JavaScript Terms explained
+
+Variable - a set of information which can be assigned a name and be referenced (or called back) 
+String - any block of text that is inside quotations
+Functions - a function is a calculation. A function is written when you want to tell the computer to do 
+            something to a set of data. 
+Arguments - are the assigned variables of a function
+Return - is the output of a function. It tells what end value is going to be used from the function.
+if statements - are conditional. if set conditions are met, then the function will return the assigned value or boolean
+Boolean values - are true or false. they are used to acknowledge whether conditions have been met. 

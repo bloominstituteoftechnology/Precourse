@@ -1,0 +1,3 @@
+Arrays - are object that contain multiple pieces of data. They can be assigned a name and referenced. They have a .length
+property that tells how many pieces of data there are in an array. Arrays also have a numbered
+position starting at 0 to identify the individual spots taken up by data. 

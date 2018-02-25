@@ -1,0 +1,44 @@
+ h1 {
+    color: navy;
+            }
+            img {
+                height: 280px;
+                width: 350px;
+            }
+            #thirdDiv {
+                height: 600px;
+                width: 500px;
+                background: lightgrey;
+                padding: 50px;
+                border: navy 2px dotted;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column nowrap;
+                 
+
+            }
+            .divClass {
+                
+                text-align: center;
+            }
+            #spanId {
+                font-size: 18px;
+            }
+            #center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column nowrap;
+            }
+
+        body {
+            background-image: url("http://www.pngmart.com/files/4/Japanese-Transparent-Background.png");
+            background-repeat: no-repeat;
+            background-position: left top;
+            background-attachment: fixed;
+            
+        }
+        .link {
+            font-size: 20px;
+        }

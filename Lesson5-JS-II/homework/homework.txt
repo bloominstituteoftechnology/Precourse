@@ -1,0 +1,6 @@
+for is a loop. the proper syntax is for (value for i; condition to be met; i + a further value) {
+    function to be ran if condition is met until conditions are not met
+}
+&& - means the function is testing both conditions and to be true both conditions must be true
+|| - means the function is testing both conditions and to be true only one condition has to be true
+!- is not. in front of == it means Not Equal to. ! also changes truthiness. 
