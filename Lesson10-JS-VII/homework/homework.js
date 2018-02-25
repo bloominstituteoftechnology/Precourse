@@ -24,12 +24,13 @@ function cacheFunction(cb) {
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
   let cache = {};
-  return function(argument) {
+  let cachingFunction = function(argument) {
     if (!cache.hasOwnProperty(argument)) {
       cache[argument] = cb(argument);
     }
     return cache[argument];
   }
+  return cachingFunction;
 }
 
 // Do not modify code below this line.
