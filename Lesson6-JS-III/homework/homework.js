@@ -68,14 +68,31 @@ console.log(wordsToSentence(['this', 'is', 'a', 'sentence']));
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] === item) {
+        return true;
+    }
 }
+return false;
+}
+contains("fish");
+
 
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
-  
-}
+  var nums = ['100','300','400','60','40'], 
+    num = 0;
 
+for (var i = 0; i < nums.length; i++) {
+    num += +nums[i];
+}
+return(num);
+
+}
+addNumbers(),
+  
+ 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average

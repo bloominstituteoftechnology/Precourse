@@ -27,7 +27,7 @@ There are three ways to declare a variable.
     let lastName = 'Smith';
     const favoriteFood = 'Taco';
 ```
-
+ 
 ### var
 
 `var` is the ES5 way of declaring a variable. This is a generic variable keyword.

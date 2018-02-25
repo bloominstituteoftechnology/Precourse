@@ -30,7 +30,7 @@ Unlike arrays that have index valued items, objects use a concept called key:val
     };
 ```
 
-### Accessing Values
+### Accessing Values=
 
 Once we have key:value pairs we can access those values by calling the object name and the key. There are two different ways to do this, dot notation and bracket notation. 
 

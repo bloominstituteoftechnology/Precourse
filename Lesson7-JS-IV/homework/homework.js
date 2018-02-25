@@ -5,9 +5,13 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
-  
-
-}
+  this.name = name;
+  this.age  = age;
+  this.meow = 'Meow!';
+        
+    }
+  let dan = new makeCat('april', 14, );
+console.log(dan);
 
 
 

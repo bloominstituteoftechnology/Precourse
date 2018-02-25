@@ -70,6 +70,7 @@ describe('addNumbers(numbers)', function() {
   });
 });
 
+
 describe('averageTestScore(testScores)', function() {
   it('should return the average test score', function() {
     expect(exercises.averageTestScore([10, 10, 16, 12])).toBe(12);
