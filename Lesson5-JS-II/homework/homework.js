@@ -5,7 +5,52 @@ function multiplyArguments() {
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
 
-}
+  // initializes product to 1, so it can be multiplied (something times 1 is itself, and something times undefined is undefined)
+
+    let product = 1;
+
+
+
+  // if no arguments are passed in return 0
+
+    if (arguments.length === 0) {
+
+      return 0;
+
+    }
+
+
+
+  // if one argument is passed in just return it
+
+  else if (arguments.length === 1) {
+
+      return arguments[0];
+
+    }
+
+
+
+  // use the arguments keyword to multiply all of the arguments together and return the product
+
+    else { // start else
+
+  // starts for loop that'll run [arguments.length] (A.K.A., how many arguments there are) times, multiplying each argument by the product, and storing that value into product.
+
+      for(let i = 0; i < arguments.length; i++) {
+
+      product *= arguments[i];
+
+      }
+
+      return product;
+
+    } // end else
+
+  }
+
+
+  
 
 
 function getBiggest(x, y) {
