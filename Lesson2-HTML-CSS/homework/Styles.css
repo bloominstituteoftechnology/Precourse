@@ -1,0 +1,38 @@
+  body {
+    background-image: url(http://wallpapercave.com/wp/6Su8qdA.jpg);
+  
+  }
+    .divClass {
+      text-align: center;
+  }
+  
+  <!--h1 {
+      color: whitesmoke;
+  }
+  #calaMari {
+      width: 400px;
+  }
+  #thirdDiv {
+      position: absolute;
+      right: 477.5;         /* (page width - element width) / 2 */
+
+      height: 600px;
+      width: 500px;
+      background-color: darksalmon;
+      padding: 50px;
+      border: 6px groove goldenrod;
+    
+  }
+  #spanID {
+      font-size: 18px;
+      margin: 50px;
+
+  }
+  .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      
+  }
