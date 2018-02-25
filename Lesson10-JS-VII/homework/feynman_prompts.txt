@@ -1,0 +1,19 @@
+Closure
+
+Whenever a variable is created in your program, it is stored on the computer running
+it in its memory. How long these variables are kept and access to the variables 
+are both controlled by the rules of the language you are using. Common to many 
+languages is the concept of Scope, which is shorthand for "which variables are 
+visible to the instructions currently executing?" In some languages, a function
+can only access its own arguments and variables created inside the function. This
+is the strictest form of scope. In Javascript and some other languages, a function
+can access variables that are accessible to the function it was created in. This is
+the first useful aspect of Closure. Ordinarily, when a function has finished its
+execution, the computer will destroy all variables the function had created, in
+order to free up the space in memory they were using. One exception to this is if
+you were to create a function which referenced a variable in your current scope,
+and assigned that function to a variable that will survive this scope's destruction.
+This is the second aspect of Closure, and the most important. By creating a closure,
+you can insure that the "enclosed" variables will remain accessible as long as the
+function remains assigned to a variable, and the function will be able to access
+and even change the enclose variable whenever it is called.
