@@ -71,9 +71,16 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-
+  if(num === Math.floor(num)) {
+    return true;
+  } else {
+    return false;
   }
-
+}
+isInteger(5);
+isInteger(0.5);
+isInteger(-20);
+isInteger(0);
 
 function fizzBuzz(num) {
   // if num is divisible by 3 return 'fizz'
