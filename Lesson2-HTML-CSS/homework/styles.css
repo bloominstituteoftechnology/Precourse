@@ -1,0 +1,28 @@
+h1 {
+	color: lightcoral;
+}
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: lightcoral;
+	padding: 50px;
+	border-style: dashed double none;
+	border-width: 24px;
+	border-color: yellow;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+div {
+	margin: auto;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	;
+}
