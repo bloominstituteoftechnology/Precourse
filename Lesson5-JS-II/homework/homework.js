@@ -26,41 +26,23 @@ function greeting(language) {
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
 
-  if(language === 'German') {
-    return 'Guten Tag!';
-  } else if(language === 'Mandarin') {
-    return 'Ni Hao!';
-  } else if(language === 'Spanish') {
-    return 'Hola!';
-  } else {
-    return 'Hello!';
-  }
+
 }
-greeting(German);
-greeting(Mandarin);
-greeting(Spanish);
+
 
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
-  if(num === 10 || num === 5) {
-    return true;
-  } else {
-    return false;
-  }
+
 }
-isTenOrFive(10);
+
 
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
   // otherwise return false
-  if(num < 50 && num > 20) {
-    return true;
-  } else {
-    return false;
-  }
+
 }
-isInRange(30);
+
 
 function isInteger(num) {
   // return true if num is an integer
@@ -69,29 +51,18 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  if(num === Math.floor(num)) {
-    return true;
-  } else {
-    return false;
+
   }
-  isInteger(.5);
+
 
 function fizzBuzz(num) {
   // if num is divisible by 3 return 'fizz'
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
-  if(num % 3 === 0) {
-    return 'fizz';
-  } else if(num % 5 === 0) {
-    return 'buzz';
-  } else if(num % 3 === 0 && num % 5 === 0) {
-    return 'fizzbuzz';
-  } else {
-    return num;
-  }
+
 }
-fizzBuzz(30);
+
 
 function isPrime(num) {
   // return true if num is prime.
@@ -99,15 +70,9 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  for(let i = 3; i % 1 === 0; i++) {
-    if(i % 1 === 0) {
-      return true;
-    } else {
-      return false;
-    }
-  }
+  
 }
-isPrime(6);
+
 
 
 // Do not modify code below this line.
