@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://organicdailypost.com/wp-content/uploads/2015/02/Chicken-Pickin-1011-679x560.jpg);
+}
+
+h1 {
+    color: rgb(39, 139, 84);
+}
+
+h3 {
+    color: rgb(3, 87, 66); 
+}
+
+h4 {
+    color: green;
+}
+.divClass1 {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(207, 207, 119);
+    padding: 50px;
+    border: 5px dotted purple;
+    position: sticky;
+    top: 0;
+}
+
+.divClass2 {
+    background-color: orange;
+    width: 700px;
+    border: 5px dotted red;
+    text-align: center; 
+}
+#thirdDiv img {
+    width: 400px;
+}
+
+#thirdDiv {
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    background-color: olive;
+    padding: 50px;
+    border: 5px dotted orange;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+div {
+    margin: auto;           
+}
