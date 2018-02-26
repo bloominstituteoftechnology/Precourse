@@ -32,8 +32,8 @@ class ToDo{
 
 
 function ToDo(description) {  
-  this.description = description.description;
-  this.complete = description.false;
+  this.description = description;
+  this.complete = false;
 }
 
 
@@ -45,7 +45,10 @@ function ToDo(description) {
 */
 
 // code here
-ToDo.prototype.completeToDo = function () { this.complete = true;}
+ToDo.prototype.completeToDo = function () 
+	{ 
+		this.complete = true;
+	}
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -67,13 +70,18 @@ ToDo.prototype.completeToDo = function () { this.complete = true;}
 function buildToDo(todo, index) {
   // code here
 	var toDoShell = document.createElement("div");
-	toDoShell.className = 'toDoShell';
+	//toDoShelll.setAttribute('class','toDoShell');
 	var toDoText = document.createElement("span");
+	toDoShell.className = 'toDoShell';	
 	toDoText.innerHTML = todo.description;
+	//toDoText.setAttribute('id',index);
 	toDoText.id = index;
-	toDoText.onclick = function(){return completeToDo();}
+	toDoText.onclick = function(){completeToDo(index);}
 	if (todo.complete === true)
-		{toDoText.className = 'completeText';}
+		{
+			toDoText.classList.add('completeText');
+			//toDoText.className = 'completeText';
+		}
 	toDoShell.appendChild(toDoText);
 	return toDoShell;
 }
@@ -86,7 +94,7 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
-	toDos.map(buildToDo);
+	var toDos = toDos.map(buildToDo);
 	return toDos;
 }
 
@@ -103,13 +111,14 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
-	const toDoContainer = document.getElementById('toDoContainer');
-	toDoContainer.innerHTML = "";
-	const tt = buildToDos(toDoItems);
+	var toDoContainer = document.getElementById('toDoContainer');
+	toDoContainer.innerHTML = " ";
+	var tt = buildToDos(toDoItems);
 	for(var i=0; i < tt.length; i++)
 	{
-		toDoContainer.innerHTML = tt;
-		//toDoContainer.appendData(tt.description);
+		toDoContainer.appendChild(tt[i]);
+		//console.log(toDoContainer.hasChildNodes());
+		console.log(tt.complete);
 	}
 }
 
@@ -126,10 +135,10 @@ function displayToDos() {
 
 function addToDo() {
   // code here
-	const newToDo = new ToDo(document.getElementById('toDoInput').value);
+	var newToDo = document.getElementById('toDoInput').value;
+	newToDo = new ToDo(newToDo);
 	toDoItems.push(newToDo);
 	document.getElementById('toDoInput').value = "";
-	//newToDo.value = " ";
 	displayToDos();
 }
 
@@ -141,12 +150,12 @@ function addToDo() {
 
 // cod here
 var click = document.getElementById('addButton');
-click.onclick = function () {return addToDo();}
+click.onclick = function () {addToDo();}
 //click.addEventListener("mouseenter" function () {addToDo();});
 
 
 /* 
-  STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
+  STEP 9: Finally in this step we will define the function to run when we want to complete a toDo, and add that function to the click event
             listener on the toDo element
           
           Note: We have not covered the argument every event listener receives, the 'event' object. There is a lot of data in this object, 
@@ -160,8 +169,7 @@ click.onclick = function () {return addToDo();}
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   const index = event.target.id;
-  completeToDo(toDoItems(index));
-  // code here
+  toDoItems[index].completeToDo;
   displayToDos();
 }
 
