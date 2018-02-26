@@ -88,7 +88,7 @@ function fizzBuzz(num) {
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
   for(var i = 1; i <= 30; i++) {
-    if(i % 3 === 0 && i % 5 === 0) {
+    if(i % 3 == 0 && i % 5 == 0) {
       return 'fizzbuzz';
     } else if(i % 3 === 0) {
       return 'fizz';
