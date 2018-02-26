@@ -3,7 +3,7 @@
 */
 
 // code here
-const toDoItems = [new ToDo()];
+const toDoItems = [];
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
@@ -62,11 +62,13 @@ function buildToDo(toDo, index) {
   
   if(this.complete === true) {
     toDoText.className = 'completeText';
-  } 
-  toDoShell.appendChild(toDoText);
-  toDoText.onclick = function() {
-    buildToDo();
+  } else{
+    toDoText.classList.remove('completeText');
   }
+  toDoShell.appendChild(toDoText);
+  // toDoText.onclick = function() {
+  //   buildToDo();
+  // }
   return toDoShell;
 }
 
@@ -99,6 +101,9 @@ function displayToDos() {
   const toDoContainer = document.getElementById('toDoContainer');
   toDoContainer.innerHTML = '';
   buildToDos(toDoItems).forEach(function(value) {
+    if(value.complete === false) {
+      return toDoContainer.appendChild(value);
+    }
     return toDoContainer.appendChild(value);
   });
 }
@@ -117,10 +122,10 @@ function displayToDos() {
 
 function addToDo() {
   // code here
-var newToDo = document.getElementById('toDoInput').value;
-var toDoObj = new ToDo(newToDo)
+var newToDo = document.getElementById('toDoInput');
+var toDoObj = new ToDo(newToDo.value)
 toDoItems.push(toDoObj);
-newToDo = '';
+newToDo.value = '';
 displayToDos();
 }
 
@@ -132,7 +137,6 @@ displayToDos();
 
 // cod here
 document.getElementById('addButton').addEventListener('click', addToDo);
-console.log(addToDo());
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
             listener on the toDo element
