@@ -1,0 +1,7 @@
+Feynman Writing Prompts
+
+Prototype: A place to store a method.
+          Instead of adding a method directly to the class constructors, it gets put into a prototype.
+          The objects in that class has access to it without having to create a new method every time a new object is created.
+
+Constructors: A template for building objects within a class.
