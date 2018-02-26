@@ -2,6 +2,8 @@
 
 function returnFirst(arr) {
   // return the first item from the array
+  const arr = ['Cat', 'Dog', 'Elephant'];
+  return (returnFirst[0]);
 }
 
 function returnLast(arr) {
@@ -13,7 +15,7 @@ function getArrayLength(arr) {
 }
 
 function incrementByOne(arr) {
-  // arr is an array of integers  
+  // arr is an array of integers
   // increase each integer by one
   // return the array
 }
