@@ -115,7 +115,6 @@ function isPrime(num) {
     }
   }
 }
-isPrime(10);
 
 
 // Do not modify code below this line.
