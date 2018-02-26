@@ -1,0 +1,1 @@
+1. Recursion is when a function call itsel within itself. Recursion is very simmilar to iterative while or for loops.
