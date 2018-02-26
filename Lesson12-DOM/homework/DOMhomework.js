@@ -133,7 +133,7 @@ function addToDo() {
 */
 
 // cod here
-let addClick = document.getElementById('#addButton');
+let addClick = document.getElementById('addButton');
 addClick.addEventListener('click','addToDo');
 
 /* 
