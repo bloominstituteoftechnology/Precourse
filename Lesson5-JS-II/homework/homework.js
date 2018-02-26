@@ -91,7 +91,7 @@ function fizzBuzz(num) {
     return 'fizz';
   } else if(num % 5 === 0) {
     return 'buzz';
-  } else if(num % 3 === 0 && num % 5 === 0) {
+  } else if(num % 3  && num % 5) {
     return 'fizzbuzz';
   } else {
     return num;
