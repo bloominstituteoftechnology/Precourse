@@ -99,7 +99,7 @@ function fizzBuzz(num) {
 }
 fizzBuzz(6);
 fizzBuzz(10);
-fizzBuzz(15);
+fizzBuzz(30);
 
 function isPrime(num) {
   // return true if num is prime.
