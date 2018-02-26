@@ -3,7 +3,7 @@
 function returnFirst(arr) {
   // return the first item from the array
   const array = ['Cat', 'Dog', 'Elephant'];
-  return (returnFirst[0]);
+  return (array[0]);
 }
 
 function returnLast(arr) {
