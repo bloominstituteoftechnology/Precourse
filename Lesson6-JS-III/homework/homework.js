@@ -2,10 +2,9 @@
 
 function returnFirst(arr) {
   // return the first item from the array
-  const array = ['Cat', 'Dog', 'Elephant'];
-  return (array[0]);
+  returnFirst(arr[0]);
 }
-returnFirst(array[0]);
+
 
 function returnLast(arr) {
   // return the last item of the array
