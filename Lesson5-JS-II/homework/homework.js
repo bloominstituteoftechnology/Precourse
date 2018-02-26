@@ -4,6 +4,14 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  let element = 1;
+  if(arguments.length === 0) {
+    return 0;
+    for(let i = 0; i < arguments.length; i++) {
+      element = element * arguments[i];
+    }
+  }
+  return element;
 }
 
 function getBiggest(x, y) {
@@ -107,12 +115,16 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  for(var i = 1; i <= 100; i++) {
-    if(num % 1 === 0) {
-      return true;
-    } else {
+  if(num <= 1){
+    return false;
+  } else if(num === 2){
+    return true;
+  }
+  for(let i = 2; i < num; i++){
+    if(num % i === 0){
       return false;
     }
+    return num > 1;
   }
 }
 
