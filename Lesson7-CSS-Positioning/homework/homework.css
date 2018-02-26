@@ -37,11 +37,10 @@ in this folder, you are in the wrong place.
 
 /* Place code here */
 #exerciseFour{
-	display: block;
+	display: flex;
+	width: 500px;
 	position: fixed;
-	top: 0;
-	left: 0;
-	
+	top: 0px;
 	
 }
 
@@ -50,10 +49,17 @@ in this folder, you are in the wrong place.
 
 /* Place code here */
 #exerciseFive{
-	display: inline-flex;
-	align-items: center;	
-	justify-content: space-between ;
+	display: flex;
+	align-items: center;
 	flex-direction: row-reverse;
+	justify-content: space-around;
+	
+	
+	/*display: inline-flex;
+	align-items: center;	
+	justify-content: space-between;
+	justify-content: center;
+	flex-direction: row-reverse;*/
 }
 
 
