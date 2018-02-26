@@ -25,9 +25,20 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
-
-
+  if(language === 'German') {
+    return 'Guten Tag!';
+  } else if(language === 'Mandarin') {
+    return 'Ni Hao!';
+  } else if(language === 'Spanish') {
+    return 'Hola!';
+  } else {
+    return 'Hello';
+  }
 }
+greeting('German');
+greeting('Mandarin');
+greeting('Spanish');
+greeting();
 
 
 function isTenOrFive(num) {
@@ -70,7 +81,7 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  
+
 }
 
 
