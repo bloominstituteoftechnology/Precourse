@@ -2,7 +2,7 @@
 
 function returnFirst(arr) {
   // return the first item from the array
-  const arr = ['Cat', 'Dog', 'Elephant'];
+  const array = ['Cat', 'Dog', 'Elephant'];
   return (returnFirst[0]);
 }
 
