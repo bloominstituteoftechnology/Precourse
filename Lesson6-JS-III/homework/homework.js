@@ -5,6 +5,7 @@ function returnFirst(arr) {
   const array = ['Cat', 'Dog', 'Elephant'];
   return (array[0]);
 }
+returnFirst(array[0]);
 
 function returnLast(arr) {
   // return the last item of the array
