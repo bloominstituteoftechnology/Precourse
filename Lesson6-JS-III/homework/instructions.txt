@@ -1,0 +1,3 @@
+ARRAYS
+Arrays are storage containers for data. Can have any data type in an array.
+Arrays use [] and the objects in side are separated by commas. 
