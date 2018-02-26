@@ -38,7 +38,7 @@ function greeting(language) {
 greeting('German');
 greeting('Mandarin');
 greeting('Spanish');
-greeting('Portugese');
+
 
 
 function isTenOrFive(num) {
