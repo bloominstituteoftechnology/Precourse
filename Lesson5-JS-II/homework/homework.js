@@ -53,13 +53,16 @@ function isTenOrFive(num) {
 isTenOrFive(10);
 isTenOrFive(15);
 
-
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
   // otherwise return false
-
+  if(num < 50 && num > 20) {
+    return true;
+  } else {
+    return false;
+  }
 }
-
+isInRange(30);
 
 function isInteger(num) {
   // return true if num is an integer
