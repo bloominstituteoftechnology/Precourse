@@ -32,13 +32,13 @@ function greeting(language) {
   } else if(language === 'Spanish') {
     return 'Hola!';
   } else {
-    return 'Hello';
+    return 'Hello!';
   }
 }
 greeting('German');
 greeting('Mandarin');
 greeting('Spanish');
-
+greeting('English');
 
 
 function isTenOrFive(num) {
