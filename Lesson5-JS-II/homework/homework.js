@@ -87,19 +87,19 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
-  for(var i = 1; i <= 30; i++) {
-    if(i % 3 == 0 && i % 5 == 0) {
-      return 'fizzbuzz';
-    } else if(i % 3 === 0) {
-      return 'fizz';
-    } else if(i % 5 === 0) {
-      return 'buzz';
-    } else {
-      return i;
-    }
+  if(num % 3 === 0 && num % 5 === 0) {
+    return 'fizzbuzz';
+  } else if(num % 3 === 0) {
+    return 'fizz';
+  } else if(num % 5 === 0) {
+    return 'buzz';
+  } else {
+    return num;
   }
 }
-fizzBuzz();
+fizzBuzz(15);
+fizzBuzz(6);
+fizzBuzz(10);
 
 function isPrime(num) {
   // return true if num is prime.
