@@ -51,7 +51,7 @@ let todoShell = document.createElement('div');
 todoShell.className = 'todoShell';
 let todoText = document.createElement('span');
 todoText.innerHTML = 'description';
-todoText.idName = index;
+todoText.id = 'index';
 if (this.complete === true) {
   todoText.className = 'completeText';
     //code
@@ -88,10 +88,10 @@ function displayTodos() {
   let todoContainer = document.getElementById('todoContainer');
   todoContainer.innerHTML = ' ';
   buildTodos(toDoItems);
+  let newList = document.createElement('ul');
   for (let i = 0 ; i < toDoItems.length ; i++) {
       let listItem = document.createElement('li');
-      listItem.innerHTML += toDoItems[i] ;
-      let newList = document.createElement('ul');
+      listItem.innerHTML += toDoItems[i] + '<br/>';
       newList.appendChild(listItem);
       todoContainer.appendChild(newList);
 
