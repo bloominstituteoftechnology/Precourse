@@ -79,7 +79,7 @@ function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
-  if(user.hasOwnProperty(password)){
+  if(password === user.password) {
     return true;
   } else {
     return false;
