@@ -49,15 +49,15 @@ function wordsToSentence(words) {
 
   // return a string that is all of the words concatenated together
 
-  let string = '';
+  let sentence = '';
 
   // spaces need to be between each word
 
-  for (let i = 0; i < words.length; i++) {
-  string = string + ' ' +  words[i];
+  for (let i = 0; i < words.length ; i++) {
+  sentence = sentence +' '+ words[i];
 }
 
-  return string;
+  return sentence.trim();
 
   // example: ['Hello', 'world!'] -> 'Hello world!'
 
