@@ -1,3 +1,5 @@
+// Will Lockman 02/27/18
+
 # Lesson 1: Git fundamentals
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
