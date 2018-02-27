@@ -72,17 +72,26 @@ function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
+  if (property in object){
+    return true;
+  } return false;
 }
 
 function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
+  if (password in user){
+    if(password == user['password']){
+      return true;
+    } return false;
+  } return false;
 }
 
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
+  
 }
 
 function addFriend(user, newFriend) {
