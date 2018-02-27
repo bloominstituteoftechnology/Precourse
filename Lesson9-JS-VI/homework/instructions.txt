@@ -1,0 +1,2 @@
+CALLBACKS
+To be able to add functions inside function arguments with existing functions.
