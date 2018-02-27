@@ -33,10 +33,10 @@ function wordsToSentence(words) {
 }
 
 function contains(arr, item) {
-  if (fruits.indexOf('item')){
+  if (arr.indexOf('item')){
   return true;
   }
-  return false;e
+  return false;
 }
 
 function addNumbers(numbers) {
