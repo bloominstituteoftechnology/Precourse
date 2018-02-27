@@ -7,7 +7,7 @@ const newString = 'factory' ;
 const newNum = 42 ;
 
 //create a boolean variable
-const newBool = correct ;
+const newBool = true ;
 
 //solve the following math problem
 const newSubtract = 10 - 5 === 5;
@@ -26,7 +26,7 @@ const newModulo = 21 % 5 === 1 ;
 //Do not change any of the function names
 
 function returnString(str) {
-   let str = 'mirror';
+   let word = 'mirror';
    return str;
 }
 
@@ -36,7 +36,7 @@ function add(x, y) {
 }
 
 function subtract(x, y) {
-  const difference = y - x;
+  const difference = x - y;
   return difference;
 }
 
@@ -80,7 +80,7 @@ function greaterThanFifty(num) {
 }
 
 function getRemainder(x, y) {
-  remainder = x%y;
+  let remainder = x%y;
   return remainder;
 }
 
@@ -99,42 +99,42 @@ function isOdd(num) {
 }
 
 function square(num) {
-  square = Math.pow(num,2);
+  let square = Math.pow(num,2);
   return square;
 }
 
 function cube(num) {
-  cube = Math.pow(num,3);
-  return square;
+  let cube = Math.pow(num,3);
+  return cube;
 }
 
 function raiseToPower(num, exponent) {
-  power = Math.pow (num, exponent);
+  let power = Math.pow (num, exponent);
   return power;
 }
 
 function roundNumber(num) {
-  rounded = Math.round(num);
+  let rounded = Math.round(num);
   return rounded;
 }
 
 function roundUp(num) {
-  roundedUp = Math.ceil(num);
-  return roundedup;
+  let roundedUp = Math.ceil(num);
+  return roundedUp;
 }
 
 function addExclamationPoint(str) {
-  excitement = str + '!';
+  let excitement = str + '!';
   return excitement;
 }
 
 function combineNames(firstName, lastName) {
-  fullName = firstname + ' ' + lastName;
+  let fullName = firstname + ' ' + lastName;
   return fullName
 }
 
 function getGreeting(name) {
-  greeting = 'Hello ' + name;
+  let greeting = 'Hello ' + name;
   return greeting;
 }
 
@@ -142,12 +142,12 @@ function getGreeting(name) {
 // If you can't remember these area formulas then head over to Google.
  
 function getRectangleArea(length, width) {
-  area = length*width;
+  let area = length*width;
   return area;
 }
 
 function getTriangleArea(base, height) {
-  triangleArea = (1/2)*base*height;
+  let triangleArea = (1/2)*base*height;
   return triangleArea;
 
 }

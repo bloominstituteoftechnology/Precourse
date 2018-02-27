@@ -8,17 +8,17 @@ function multiplyArguments() {
       return 0;
     }
     else if (arguments.length >= 2) {
-    let product = 1;
+    // let product = 1;
     }
-    for (i=0; i<arguments.length; i++) {
-    let product = product*argument[i];
+    for (let i=0; i<arguments.length; i++) {
+    let product = product*arguments[i];
     return product;
     }
 }
 
 function getBiggest(x, y) {
   if (x===y) {
-    return x
+    return x;
   }
   else if (x>y) {
     return x;
@@ -36,7 +36,7 @@ function greeting(language) {
   else if (language === 'Spanish' || 'spanish'){
     return 'Hola!';
   }
-  return 'Hello'
+  return 'Hello';
 }
 
 function isTenOrFive(num) {
@@ -75,7 +75,7 @@ function fizzBuzz(num) {
 }
 
 function isPrime(num) {
-  for (i=2; i<num; i++){
+  for (let i=2; i<num; i++){
     if(num % i === 0){
      return false;
     }
