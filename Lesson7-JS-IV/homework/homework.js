@@ -5,13 +5,15 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
-  this.name = name;
-  this.age  = age;
-  this.meow = 'Meow!';
-        
-    }
-  let dan = new makeCat('april', 14, );
-console.log(dan);
+  let myObject = {
+    name: name,
+    age: age,
+    meow: function() { return 'Meow!'; },
+  };
+  return myObject;
+}
+
+  makeCat('blah', 52);
 
 
 
@@ -19,12 +21,18 @@ function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
+  let obj ={
+    property: 'null',
+  };
 }
+let property = 'null';
+console.log(property);
 
 function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
+
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {

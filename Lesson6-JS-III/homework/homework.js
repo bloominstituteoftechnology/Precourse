@@ -75,7 +75,7 @@ function contains(arr, item) {
 }
 return false;
 }
-contains("fish");
+
 
 
 function addNumbers(numbers) {
@@ -101,7 +101,18 @@ function averageTestScore(testScores) {
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
+   
+var constant = 1;
+for (i = 0; i < numbers.length; i++) {
+    if (numbers[i] > constant) {
+        constant = numbers[i];
+    }
 }
+return constant;    // after iterating the entire array!
+}
+var numbers = [3, 4, 2, 6, 45, 775, 83, 5, 7];
+console.log(largestNumber(numbers))
+
 
 // Do not modify code below this line.
 // --------------------------------
