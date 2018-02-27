@@ -68,6 +68,10 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
+  if(Number.isInteger(num)) {
+    return true;
+  }
+  return false;
 }
 
 function fizzBuzz(num) {
@@ -93,6 +97,7 @@ function isPrime(num) {
   } else {
     return false;
   }
+}
   // otherwise return false
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
