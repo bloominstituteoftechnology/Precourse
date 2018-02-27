@@ -12,6 +12,7 @@
 
 
 2. Install Node and NPM.  NPM comes packaged with Node. https://nodejs.org/en/download/
+	Make sure to run 'npm install' after installing Node.
 
 3. From the top level of your `Precourse` folder, run `npm test JSI.test.js` to run the automated tests.  At first all of the tests will be broken.  You will fill out the functions in `homework.js` to make the tests pass.
 
