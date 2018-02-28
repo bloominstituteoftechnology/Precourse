@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+     width:400px;
+}
+ h1{
+    color: brown;
+    background-color: cornsilk;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h3{
+  color: cornsilk;
+  background-color: brown;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h4{
+  color: darkolivegreen;
+  background-color: cornsilk;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+a{
+  display: block;
+  background-color: cornsilk;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+#thirdDiv{
+        height: 600px;
+        width:500px;
+        background-color: cornsilk;
+        padding: 50px;
+        border: 10px solid darkolivegreen;
+        margin: auto;
+        display: block;
+}
+#spanId{
+        font-size: 18px;
+        margin:50px;
+        background-color: cornsilk;
+}
+body{
+        background-image: url("http://freestylepopuprestaurant.com/wp-content/uploads/2016/06/curry-world-map.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+}
