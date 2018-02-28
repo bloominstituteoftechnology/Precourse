@@ -25,7 +25,6 @@ in this folder, you are in the wrong place.
 
 
 /* Exercise Three: */
-
 #exerciseThree {
 	margin-top: 100px;
 	margin-left: 200px;
@@ -34,7 +33,6 @@ in this folder, you are in the wrong place.
 
 
 /* Exercise Four: */
-
 #exerciseFour {
 	position: fixed;
 	top: 0;
@@ -44,7 +42,6 @@ in this folder, you are in the wrong place.
 
 
 /* Exercise Five */
-
 #exerciseFive {
 	display: flex;
 	justify-content: space-around;
@@ -54,7 +51,6 @@ in this folder, you are in the wrong place.
 
 
 /* Exercise Six */
-
 #exerciseFive {
 	flex-direction: row-reverse;
 }
@@ -62,7 +58,6 @@ in this folder, you are in the wrong place.
 
 
 /* Exercise Seven */
-
 #exerciseSeven {
   display: flex;
   justify-content: center;
