@@ -1,0 +1,10 @@
+Lesson 5 - Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+
+	* `for`
+  for loops allow you to let the program look at a lot of items and evaluate them one by one until either you find the one that matches your criteria, or you run up to the end of the line (which you determine in the expression).
+
+	* `&&`, `||`, `!`
+  These are each called "Logical Operators," and their job is to do the following:
+  && - Compares two things, and if both are true, the program returns true
+  || - Compares two things, and if either are true, the program returns true
+  ! - This is the Not operator, and it looks for the opposite boolean value of what it inspects. So, if we say !false, then it looks for whether or not the item passed to it is NOT false, and will return true.
