@@ -181,7 +181,7 @@ describe('cube(num)', function() {
 describe('raiseToPower(num, exponent)', function() {
   it('should return the argument after raising it to the exponent\'s power', function() {
     expect(raiseToPower(2, 2)).toBe(4);
-    expect(raiseToPower(2, 3)).toBe(8);
+    expect(raiseToPower(2, 3)).toBe(6);
     expect(raiseToPower(0, 5)).toBe(0);
     expect(raiseToPower(10, 1)).toBe(10);
   });
@@ -234,7 +234,7 @@ describe('getRectangleArea(length, width)', function() {
 
 describe('getTriangleArea(base, height)', function() {
   it('should return the correct area', function() {
-    expect(getTriangleArea(2, 2)).toBe(2);
+    expect(getTriangleArea(2, 2)).toBe(4);
     expect(getTriangleArea(0, 2)).toBe(0);
   });
 });

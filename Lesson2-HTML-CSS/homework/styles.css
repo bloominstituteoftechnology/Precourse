@@ -1,0 +1,46 @@
+
+body{
+	color: aquamarine;
+	background-image: url("https://i.imgur.com/XjKfgHt.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+h1{
+	color: dodgerblue;
+	position: relative;
+	
+}
+.divClass {
+	text-align: center;
+}
+div {
+	margin: auto;
+}
+
+a {
+	color: aquamarine;
+
+}
+img {
+	width:400px;
+
+}
+
+#thirdDiv{
+	margin-top: 60px;
+	height: 600px;
+	width: 500px;
+	background-color: aquamarine;
+	background-size: 800px; 
+
+}
+#spanId{
+	margin: auto;
+	text-align: center;
+	font-size: 18px;
+	padding: 50px;
+	border: 4px solid black;
+
+}
