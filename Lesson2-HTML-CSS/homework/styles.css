@@ -1,0 +1,22 @@
+h1{
+    color: orange
+}
+
+img{
+    width: 400px;
+
+}
+
+#thirdDiv{
+            height: 600px;
+            width: 500px;
+            background-color: orange;
+            padding: 50px;
+            border: navy;
+            border-style: solid;
+}
+
+.spanId{
+    margin: 50px;
+
+}
