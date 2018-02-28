@@ -5,7 +5,7 @@ function multiplyArguments() {
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
   let product = 1;
-  
+
   if (arguments.length === 0) {
     return 0;
   }
@@ -40,7 +40,7 @@ function greeting(language) {
   } else if(language === 'Spanish') {
     return 'Hola!';
   } else {
-    return 'Hello';
+    return 'Hello!';
   }
 }
 
@@ -48,9 +48,9 @@ function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
   if(num === 10 || num === 5) {
-    return 'true';
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
@@ -58,9 +58,9 @@ function isInRange(num) {
   // return true if num is less than 50 and greater than 20
   // otherwise return false
   if (num < 50 && num > 20) {
-    return 'true';
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
@@ -71,10 +71,10 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  if(num = Math.floor(num)) {
-    return 'true';
+  if(num === Math.floor(num)) {
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
@@ -100,6 +100,18 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
+  if (num <= 1) {
+    return false;
+  } else if (num === 2) {
+    return true;
+  } else {
+      for (let i = 2; i < num; i++) {
+        if (num % i === 0) {
+        return false;
+      }
+    }
+  } 
+  return true;
 }
 
 
