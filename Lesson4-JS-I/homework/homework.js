@@ -87,10 +87,7 @@ function getRemainder(x, y) {
 }
 
 function isEven(num) {
-  // return true if num is even
-  // otherwise return false
-  // code here
-  if (num % 2 == 0)
+  if (num % 2 === 0)
   {
     return true;
   }
@@ -98,10 +95,7 @@ function isEven(num) {
 }
 
 function isOdd(num) {
-  // return true if num is odd
-  // otherwise return false
-  // code here
-  if (num % 2 == 1)
+  if (num % 2 === 1)
   {
     return true;
   }
