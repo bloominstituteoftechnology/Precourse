@@ -1,0 +1,30 @@
+h1 {
+    color: darkturquoise;  
+}
+
+img {
+    width: 400px;
+    height: 200px;
+} 
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    margin: 50px;
+    background-color: darkorange;
+    border: 5px solid #000;
+}
+
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+}
+
+#box {
+    display: flex;
+    flex-wrap: wrap; /* optional. only if you want the items to wrap */
+    justify-content: center; /* for horizontal alignment */
+    align-items: center; /* for vertical alignment */
+    flex-direction: column;
+}
