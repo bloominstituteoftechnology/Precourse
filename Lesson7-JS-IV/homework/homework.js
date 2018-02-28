@@ -28,6 +28,7 @@ function addProperty(object, property) {
 let property = 'null';
 console.log(property);
 
+
 function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
@@ -43,11 +44,15 @@ function multiplyMysteryNumberByFive(mysteryNumberObject) {
 function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
-}
+  
+  }
+
 
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
+  
+
 }
 
 function hasEmail(user) {
@@ -91,7 +96,13 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
+  for (let i = 0; i < user.posts.length; i++) {
+    let obj = user.posts[i];
+    sum += obj.likes;
+  }
+  return sum;
 }
+
 
 function addCalculateDiscountPriceMethod(storeItem) {
   // add a method to the storeItem object called 'calculateDiscountPrice'

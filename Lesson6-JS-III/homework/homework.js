@@ -3,29 +3,29 @@
 function returnFirst(arr) {
   // return the first item from the array
 
-  const returnfirst = ["april","may","june"];
+   // const returnFirst//= [10, 10, 16, 12];
 
-console.log(returnfirst[0]);
-}
-  returnFirst();
+    return (arr[0]);
+ }
+       
 
 
 function returnLast(arr) {
   // return the last item of the array
- const returnLast = ["april","may","june"];
+ //const returnLast // =[10, 10, 16, 12];
 
-  console.log(returnLast[2]);
+  return arr[arr.length -1];
 }
-returnLast();
+
 
 function getArrayLength(arr) {
   // return the length of the array
 
-  const getArrayLength = ["april", "may", "june"];
+ // const getArraylength// = [10, 10, 16, 12];
 
-    console.log(getArrayLength.length); 
+    return arr(arr.length); 
 }
-getArrayLength();
+
 
 
 
@@ -33,22 +33,19 @@ getArrayLength();
 function addItemToArray(arr, item) {
   // add the item to the end of the array
   // return the array
-  const addItemToArray = ["red","black"];
-  addItemToArray.push("purple");
-  console.log(addItemToArray);
+  arr.push (item);
+  return arr;
+  
 }
-addItemToArray();
+
 
 function addItemToFront(arr, item) {
   // add the item to the front of the array
   // return the array
   // hint: use the array method .unshift
-  const addItemToFront = ["red","black"];
-  addItemToFront.unshift("green");
-  console.log(addItemToFront);
-  
+  arr.unshift(item);
+  return arr;
 }
-addItemToFront();
 
 function wordsToSentence(words) {
   // words is an array of strings
@@ -62,7 +59,7 @@ function wordsToSentence(words) {
   return sentence.trim();
 }
 
-console.log(wordsToSentence(['this', 'is', 'a', 'sentence']));
+//console.log(wordsToSentence(['this', 'is', 'a', 'sentence']));
 
 
 function contains(arr, item) {
@@ -81,16 +78,17 @@ return false;
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
-  var nums = ['100','300','400','60','40'], 
+  var nums = numbers, 
     num = 0;
 
 for (var i = 0; i < nums.length; i++) {
-    num += +nums[i];
+    num += nums[i];
 }
 return(num);
 
 }
-addNumbers(),
+//addNumber();
+
   
  
 function averageTestScore(testScores) {

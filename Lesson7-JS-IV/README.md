@@ -11,7 +11,7 @@ In this lesson we will cover:
 
 ## Introduction to Objects
 
-In the last lesson we introduced Arrays. Arrays are containers that hold collections of data. In this lesson we will introduce another data container, the Object. Objects and arrays are similar in some ways and very different in others. Where arrays hold multiple items related to each other, Objects will hold a lot of information about one thing. Objects are instantiated by using braces (`{}`). 
+In the last lesson we introduced Arrays. Arrays are containers that hold collections of data. In this lesson we will introduce another data container, the Object. Objects and arrays are similar in some ways and very different in others.ne Where arrays hold multiple items related to each other, Objects will hold a lot of information about one thing. Objects are instantiated by using braces (`{}`). 
 
 ```javascript
     const newObj = {};
@@ -19,7 +19,7 @@ In the last lesson we introduced Arrays. Arrays are containers that hold collect
 
 ### Key:Value pairs
 
-Unlike arrays that have index valued items, objects use a concept called key:value pairs. The key is the identifier and the value is the value we want to save to that key. The syntax is "key: value". Objects can hold many key:value pairs, they must be separated by a comma (no semi-colons inside of an object!). Keys are unique in an object, there can be only one key of that name. Although, multiple keys can have the same value. Values can be any Javascript type, string, number, boolean, array, function or even another object. In this demo we will create a user object.
+Unlike arrays that have index valued items, objects use a concept called key:value pairs. The key is the identifier and the value is the value we want to save to that key. The syntax is "key: value". Objects can hold many key:value pairs, they must be separated by a comma (no semi-colons inside of an object!). Keys are unique in an object, there can be only one key of that name. Although, multiple keys can have the same value. Values can be any Javascript type, string, number, bou..olean, array, function or even another object. In this demo we will create a user object.
 
 ```javascript
     const user = {
