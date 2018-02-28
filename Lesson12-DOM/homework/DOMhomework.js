@@ -69,7 +69,7 @@ toDoText.innerHTML = todo.description;
 toDoText.id = index;
  toDoText.onclick = completeToDo;
 if (todo.complete === true) {
-  toDoText.className = completeText;
+  toDoText.className = 'completeText';
 }
 toDoShell.appendChild(toDoText);
 return toDoShell;
@@ -104,7 +104,7 @@ function displayToDos() {
   toDoContainer.innerHTML = ''; 
   let holder = buildToDo(toDoItems);
   for (let i = 0; i < holder.length; i++) {
-    toDoContainer.appendChild(toDoItems[i]);
+    toDoContainer.appendChild(holder[i]);
   }; 
 
 }
@@ -135,7 +135,7 @@ function addToDo() {
 */
 
 // cod here
-document.getElementById('addButton').onclick = addToDo();
+document.getElementById('addButton').onclick = addToDo;
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
