@@ -1,0 +1,49 @@
+div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divClass {
+	text-align: center;
+}
+
+h1, h3, h4, span, a {
+	color: #ffffff;
+}
+
+span {
+	display: inline-block;
+	text-align: center;
+}
+
+a {
+	display: inline-block;
+	text-align: center;
+}
+
+h1 {color: darkslateblue;}
+
+img {width: 400px;
+	}
+
+#thirdDiv {height: 600px; 
+	width: 500px; 
+    background-color: darkgrey;
+	padding: 50px;
+	border: 5px dotted black;
+	border-radius: 25px;
+	position: static;
+	}
+
+#spanId {font-size: 18px; 
+	margin: 50px}
+
+body {
+	background: url(https://perryandmina.files.wordpress.com/2013/02/black_pug_netbook_laptops.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+

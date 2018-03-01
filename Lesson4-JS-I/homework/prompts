@@ -1,0 +1,19 @@
+Variables{
+  A variable can be anything you tell it to be.  A variable can be a word, a number, or a formula. You just have to give the variable a name like "stuff" and then tell "stuff" what it's supposed to be.  For example, "stuff" = 3, means that variable stuff is also the number three.
+}
+
+Strings{
+  Strings can be any series of characters as long as they're inside double or single quotes.  For example, "Bruce Wayne" is a string.  It doesn't have any meaning to the code but it may be meaningful the person writing the code.  Strings are different from numbers.  For example, the number 3 is recognized as number.  But if you put 3 inside double quotes like so, "3", it's no longer a number and just a string.
+}
+
+Functions{
+  Functions can be used to tell the computer to "something" and end result is what we consider the "return." For example, I can create a function and tell it to "return" a number plus 1.  Functions are usually used for more complex actions and/or for actions that you want to repeat multiple times.  For example, a complex action can be returning the combination of the last letter of a first word and the first letter of a second word if I put in a single or a million full names.
+}
+
+'If' statements{
+  'If' statements are useful because they let us code decisions into functions when given multiple options.  Much like in life, you are presented with multiple options with their respective consequences.  For example, if you finish your homework now, you can watch your favorite show before bed.  But if you finish your homework later, you'll miss your favorite show.
+}
+
+Boolean values{
+  I understand Boolean values as a fancy term for saying 'yes' or 'no' except javascript uses the terms 'true' or 'false'.
+}
