@@ -1,0 +1,18 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+
+	* Objects
+  Variables that can contain many different values.
+
+	* Properties
+  These are the values associated with an Object.
+
+	* Methods
+	It is a function that is inside of an object.
+
+	* for in loop
+  A statement used to loop through the properties of an object.
+
+	* Dot notation vs bracket notation
+  Dot notation is most common way of accessing values within an object.
+  You use dot notation to call the object itself, and the exact key that we are looking for to unpack.
+  You use bracket notation when you are using a variable to look up a name. 
