@@ -13,7 +13,7 @@ In this lesson we will cover:
 * Create a [Github.com](https://www.github.com/) account.
 * If you are or have applied to Lambda School then set your account email to public in settings. 
 * If you are on a Windows computer you can install the [git-bash command terminal here](https://git-for-windows.github.io/)
-* If you are on a Mac, git is preinstalled and you can access it from your terminal. By pressing ⌘+space and entering "terminal". (You can make sure you have git installed by typing "which git" and pressing enter, if a file path appears on your screen you are go to go. In some cases you may be directed to download the Xcode command line developer tools, follow the instructions)
+* If you are on a Mac, git is preinstalled and you can access it from your terminal. By pressing ⌘+space and entering "terminal". (You can make sure you have git installed by typing "which git" and pressing enter, if a file path appears on your screen you are good to go.  If you want to know the git version that you have you can type "git --version". In some cases you may be directed to download the Xcode command line developer tools, follow the instructions)
 * If you are on a Linux machine, you may need to install git by accessing your terminal and entering "apt-get install git"
 * If you are having trouble installing Git, this resource will help: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
