@@ -1,0 +1,33 @@
+
+body  {
+    background-image: url("https://res.cloudinary.com/devra29/image/upload/v1497993395/water_flowers_dega6d.jpg");
+}
+h1 {
+	color: blue;
+}
+img {
+	width: 400px;
+}
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: black;
+	padding: 50px;
+	border: dashed pink;
+	margin: 0 auto;
+}
+#spanId {
+		font: 18px;
+		margin: 50px;
+		}
+.divClass {
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.center-div
+{
+     margin: 0 auto;
+     width: 100px; 
+}
+
