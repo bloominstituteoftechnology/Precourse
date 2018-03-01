@@ -7,8 +7,13 @@ in this folder, you are in the wrong place.
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
+ <span id="exerciseOne">
 #exerciseOne {
-
+display: block;
+  justify-content: center;
+  
+  
+  
 }
 
 
@@ -16,24 +21,41 @@ in this folder, you are in the wrong place.
 
 /* Place code here */
 
-
+#excerciseTwo {
+display: none
+}
 
 /* Exercise Three: */
 
-/* Place code here */
 
+/* Place code here */
+#excerciseThree{
+background-color: red;
+  top: 100px;
+  left: 200px;
+}
 
 
 /* Exercise Four: */
 
 /* Place code here */
-
+#exerciseFour {
+position: fixed;
+  top: 0px;
+  left: 0px;
+}
 
 
 /* Exercise Five */
 
 /* Place code here */
 
+#excerciseFive {
+display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
 
 
 /* Exercise Six */
