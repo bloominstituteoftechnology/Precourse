@@ -1,0 +1,5 @@
+Prototype -
+A special way to use a class that allows every object of that class to have access to those methods. Like a template.
+
+Constructors -
+Another word for a class. Expands on the functionality of objects. Allows for setting method once and alllowing access to it for every object of that class. A shortcut really.

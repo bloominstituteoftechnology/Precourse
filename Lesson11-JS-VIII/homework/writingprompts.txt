@@ -1,0 +1,6 @@
+Recursion --
+The ability to invoke a function within itself.
+Recursion is a type of iteration similar to for and while loops. It can produce infinite loops if not careful.
+It is usually easier and simpler to use recursive solutions, but for now it should be fine to use iterative code.
+It is generally used when working with various data structures like trees, linked lists, or graphs.
+Just another example of the flexibility of JavaScript and how programming has tradeoffs and different advantages for each purpose.

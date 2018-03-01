@@ -1,0 +1,13 @@
+Similar to Arryas, Objects are data containers as well but that hold information on one specific item rather than many. They are started by declaring them and adding curly braces post equal sign.
+
+Properties are the things held within the object. They can be just about anything as it relates to the object.
+
+Methods are fuctions used within an object. They have many usages.
+
+for in loop are used to access values in an object. It loops over the object and returns when all the keys are returned.
+
+As for dot notation vs bracket notation:
+
+Dot notation is used to identify an item within an object that has value. 
+
+Bracket Notation is used to call an item in an object. These items must be either a string, number, or variable that points to a string.
