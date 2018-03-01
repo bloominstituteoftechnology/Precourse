@@ -12,7 +12,7 @@ All recordings are available on our [YouTube channel](https://www.youtube.com/ch
 
 Live stream recordings will also be listed here:
 
-* [Lesson 1 - git, terminal, and GitHub](https://youtu.be/6lLMqYxIMvw)
+* [Lesson 1 - Git, terminal, and GitHub](https://youtu.be/6lLMqYxIMvw)
 * [Lesson 2 - HTML & CSS](https://youtu.be/uLSFDk2C5WA)
 * [Lesson 3 - CSS Positioning](https://youtu.be/GNLbLG6OxxU)
 * [Lesson 4 - JavaScript I](https://youtu.be/bL-1YjvTRXQ)
