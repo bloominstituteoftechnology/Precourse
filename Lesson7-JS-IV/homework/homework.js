@@ -26,15 +26,17 @@ function addProperty(object, property) {
   };
 }
 let property = 'null';
-console.log(property);
+//console.log(property);
 
 
 function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
+  const User =
+    this.name = name,
 
-}
+  }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
@@ -44,43 +46,71 @@ function multiplyMysteryNumberByFive(mysteryNumberObject) {
 function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
-  
+  delete object[property];
+  return object;
   }
 
 
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
-  // return the new object
-  
+    // return the new object
+    newObj = {
+      name: name,
+      email: email,
+      password: password,
+    
+    }
+  return newObj;
 
 }
 
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
+  if (user.email) {
+  return true;
+}  else {
+  return false;
 }
+
 
 function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
+  if (property === object){
+  return true;
+} else {
+return false;
 }
 
 function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
+  if (user.password === password){
+  return true;
+} else {
+return false;
 }
 
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
+  userObj = {
+password: ('abc123'),
+  }
+
+userObj.password = 'cba321';
+return userobj;
 }
 
 function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
   // return the user object
+  friends.push(newFriend);
+  return friend;
 }
 
 function setUsersToPremium(users) {
@@ -88,7 +118,11 @@ function setUsersToPremium(users) {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
-}
+  let users = {
+    isPremium: true,
+     },
+  }
+
 
 function sumUserPostLikes(user) {
   // user has an array property called 'posts'

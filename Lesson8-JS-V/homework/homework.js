@@ -8,11 +8,26 @@ function createUserClass() {
   // {{name}} should be the name set on each instance
   // return the constructor
   
+   function User() {
+  this.username =username;
+  this.name = name;
+  this.email = email;
+ this.password = password;
+ 
+   this.User.prototype. sayHi = function user(){
+        'Hello, my name is {{name}}';
+   };
+  }
 }
+      
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
+   user.prototype.sayHi = function(){
+     return 'Hello World';
+   }
+  
 }
 
 function addReverseString() {

@@ -44,7 +44,7 @@ function addItemToFront(arr, item) {
   // return the array
   // hint: use the array method .unshift
   arr.unshift(item);
-  return arr;
+  return arr
 }
 
 function wordsToSentence(words) {
@@ -94,6 +94,7 @@ return(num);
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
+
 }
 
 function largestNumber(numbers) {
@@ -105,11 +106,12 @@ for (i = 0; i < numbers.length; i++) {
     if (numbers[i] > constant) {
         constant = numbers[i];
     }
-}
+   }  
+
 return constant;    // after iterating the entire array!
 }
 var numbers = [3, 4, 2, 6, 45, 775, 83, 5, 7];
-console.log(largestNumber(numbers))
+console.log(largestNumber(numbers));
 
 
 // Do not modify code below this line.
