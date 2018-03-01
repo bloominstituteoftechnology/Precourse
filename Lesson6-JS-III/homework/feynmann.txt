@@ -1,0 +1,3 @@
+Arrays -
+
+this is like a box or a container. where we can put in as much stuff as want. this bag grows as we put in stuff in it!

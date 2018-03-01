@@ -1,0 +1,23 @@
+* Variables
+
+-- think of an empty box. we can put anything in this box. variable is just like that empty box, where we store our values.
+whatever they are - numbers, text, boolean etc.
+
+* Strings
+
+-- when we join characters to create words in our programmes. we call these words as strings.
+
+* Functions (arguments, `return`)
+
+-- think of it like instructions to create or do something. like cooking, where we put in pour raw material,
+add some heat and boom we have a the french onion soup
+
+* `if` statements
+
+-- remember that song - "if you ever leave me! i will be sad and blue". "if" is similar in programming
+do this if this happens. if  - you leave - i sad! lol!
+
+* Boolean values (`true`, `false`)
+
+-- I love you, I don't love you! these are the complimentary values. if one is true another cant be true.
+this is useful, especially when we need certainty in our programme. 
