@@ -1,0 +1,8 @@
+FOR
+For loops are loops that take three parameters and use them to run the block of code in side the loop.
+&&
+&& operator is where both sides of the argument have to be true.
+||
+|| operator is where one side of the argument has to be true.
+!
+! operator is where is turns this either true or false, the opposite of the arguments value.

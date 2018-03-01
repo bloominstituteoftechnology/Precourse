@@ -1,0 +1,5 @@
+PROTOTYPE
+Classes have a way of setting a method once and giving every object of that class access to the method.
+CONSTRUCTORS
+Constructors or also known as classes are like objects but can expand on and add a lot to it.
+Constructors can have multiple objects using the same properties and methods.

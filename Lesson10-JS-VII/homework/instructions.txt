@@ -1,0 +1,3 @@
+CLOSURES
+Closures are simple in that the function inside the function is able to look at the function it's nested
+in to look for variables it needs before looking globally. 

@@ -1,0 +1,12 @@
+VARIABLES
+Variables can be anything to set equal to anything.
+STRINGS
+Strings are any words or sentences put together in between single quotes.
+FUNCTIONS
+Functions are blocks of code that run certain commands depending on what is needed.
+Functions use arguments to figure out if one thing should run or another.
+Functions use returns to be able to call on them to return what the code is running.
+IF STATEMENTS
+if statements are arguments that decide if one piece of code is run or if another is run depending on if one is true or false.
+BOOLEANS
+Booleans are true/false statements.

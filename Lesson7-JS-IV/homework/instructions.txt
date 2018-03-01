@@ -1,0 +1,13 @@
+OBJECTS
+Objects hold a bunch of information about one specific thing.
+PROPERTIES
+Properties are built in arguments to call on objects.
+METHODS
+
+FOR IN LOOP
+
+DOT NOTATION
+Dot Notation is where calling an object is using a dot the object and the key name.
+BRACKET NOTATION
+Bracket Notation is where calling an object is using brackets just like calling an array.
+But inside the brackets have to be either a string or number. Key names have to have quotes.
