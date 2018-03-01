@@ -10,8 +10,6 @@ function createUserClass() {
 
 function User (options){
 
-
-
   this.username = options.username;
   this.name = options.name;
   this.email = options.email;
