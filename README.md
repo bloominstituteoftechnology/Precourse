@@ -23,7 +23,7 @@ Live stream recordings will also be listed here:
 * [Lesson 9 - JavaScript VI](https://www.youtube.com/watch?v=ucctc5-kjOo)
 * [Lesson 10 - JavaScript VII](https://www.youtube.com/watch?v=pNit3wXnsHc)
 * [Lesson 11 - JavaScript VIII](https://www.youtube.com/watch?v=YWHjh3QvEZo)
-* [Lesson 12- DOM](https://www.youtube.com/watch?v=_0ZQCGPlsQg)
+* [Lesson 12 - DOM](https://www.youtube.com/watch?v=_0ZQCGPlsQg)
 
 #### Directions for updating your fork
 
