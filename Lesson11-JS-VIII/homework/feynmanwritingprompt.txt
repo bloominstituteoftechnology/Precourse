@@ -1,0 +1,2 @@
+Recursion: recursion lets us call a function inside of itself. It's like for and while loops. It can call itself back as long as it doesn't do it too
+often and overflows the stack.
