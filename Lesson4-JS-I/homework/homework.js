@@ -181,3 +181,7 @@ module.exports = {
   getRectangleArea,
   getTriangleArea,
 };
+
+npm run tests:JSI
+
+
