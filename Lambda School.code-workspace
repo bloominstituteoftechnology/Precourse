@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "Lesson1-Git"
+		},
+		{
+			"path": "Lesson2-HTML-CSS"
+		},
+		{
+			"path": "Lesson3-CSS-Positioning"
+		},
+		{
+			"path": "Lesson4-JS-I"
+		},
+		{
+			"path": "Lesson5-JS-II"
+		},
+		{
+			"path": "Lesson6-JS-III"
+		},
+		{
+			"path": "Lesson7-JS-IV"
+		},
+		{
+			"path": "Lesson8-JS-V"
+		},
+		{
+			"path": "Lesson9-JS-VI"
+		},
+		{
+			"path": "Lesson10-JS-VII"
+		},
+		{
+			"path": "Lesson11-JS-VIII"
+		},
+		{
+			"path": "Lesson12-DOM"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+My explaination/understanding of the concepts below
+
+1. variable : A variable can be thought of as a container for keeping items. Let's say you go fishing, and for every
+that you catch, you have to store them in a container. So, the container here can be thought of as a variable because
+it helps you keep your fish (data) so that you can use after you're done fishing.
+
+2. String : They are basically just sequence of characters wrapped around a single quote or double quotes.
+
+3. Functions : Could be thought of as like a "verb" in english language. It's full of "action!". A function helps us
+create functionalities within our program. So, for a function to be effective, it has to actively produce a value (return a value),
+that's what makes it a function (actionable) because it always returns a value (does something); Sometimes, we can choose
+to make our functions behave in a more dynamic way(returning different values and not just one static value), hence we 
+might choose to pass in an argument, in many cases, the argument might be of different values which makes it more interesting
+because as the value of the arguments passed to the function changes, the return value of the function changes.
+The holy grail of function dynamism! 
+
+4. 'if' statements - An 'if' statement is a fork-in-the-road; it's a decision maker; can be thought of as a control flow
+for our program. We say "if this thing," then "do that thing"; else if "this other thing", then "do that other thing".
+
+5. Boolean values - That data that has just 2 values attached to it. It's safe to think of as either 1 or 0; white or black;
+on or off, true or false.

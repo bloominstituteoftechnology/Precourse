@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/circles-dark.png");
+    text-align: center;
+    /* display: flex; */
+}
+
+h1 {
+    color: darkorchid;
+ }
+ img {
+     width: 400px;
+     display: inline;
+ }
+ #thirdDiv {
+    height: 600px;
+    width: 100%;
+    background: darkseagreen;
+    padding: 50px;
+    border: 5px solid rgb(255,0,0);
+ }
+ #spanId {
+     font-size: 18px;
+     margin: 50px;
+ }
+ 
+ ul li {
+     list-style-type:none;
+     display: inline-block;
+     text-align: center;
+ }
+
+ul li img {
+    text-align: center;
+}
+
