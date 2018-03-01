@@ -7,37 +7,87 @@ in this folder, you are in the wrong place.
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
-#exerciseOne {
-
+#exerciseOne { 
+  display: block;
+  text-align: center;
 }
 
-
 /* Exercise Two: Positioning a Header Bar*/
-
-/* Place code here */
-
-
+#exerciseTwo {
+  display: none ;
+}
 
 /* Exercise Three: */
-
-/* Place code here */
-
-
+#exerciseThree {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  top: 100px;
+  left: 200px;
+  <img id="exerciseThree" src="./assets/tiger.jpeg" attribute: top: 100px; left: 200px />
+}
 
 /* Exercise Four: */
-
-/* Place code here */
-
-
+#exerciseFour {
+  position: fixed;
+}
 
 /* Exercise Five */
+#exerciseFive {
+  .container {
+    display: flex;
+    flex-direction: center;
+    flex-grow: 1;
+  }
 
-/* Place code here */
-
-
+  .LambdaSchool {
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+    color: black;
+  }
+  .LambdaSchoollogo {
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+    color: black;
+  }
+  
+  .Pre-CourseLessons {
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+    color: black;
+}
 
 /* Exercise Six */
+#exerciseSix {
+  .LambdaSchool {
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+    color: black;
+    align: left;
+  }
+
+  .Pre-CourseLessons {
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+    color: black;
+    align: right;
+  }
+}
 
 #exerciseSeven {
-  display: flex;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: column;
+  }
+
+  .child {
+    align-self: stretch;
+  }
 }
