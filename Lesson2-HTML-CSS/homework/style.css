@@ -1,0 +1,54 @@
+body {
+    background: url(http://freespirityoga.com/wp-content/uploads/2015/03/bamboo-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: saddlebrown;
+    padding: 50px;
+    border: 5px solid olive;
+}
+
+spanID {
+    font-size: 18px;
+    margin: 50px;
+}
+
+
+/*  Extra Credit: Centering without flexbox
+
+----- Without position -----
+
+    div {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+----- With position -----
+
+    div {
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+*/
