@@ -3,7 +3,7 @@
 */
 
 // code here
-
+let toDoItems = [];
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
@@ -11,7 +11,8 @@
 */
 
 // code here
-
+const idElement = document.querySelector('#createdBy');
+idElement.innerHTML = 'something new'
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
           Add two properties to the class: 'description' which should be set equal to the description passed to the constructor, and 
@@ -20,6 +21,10 @@
 
 function ToDo () {
   // code here
+  function ToDo(description) {
+    this.description = description;
+    this.complete = false;
+  }
 }
 
 /* 
@@ -29,7 +34,9 @@ function ToDo () {
 */
 
 // code here
-
+ToDo.prototype.completeToDo = function() {
+  return complete === true;
+}
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
           the second is a numerical index.
@@ -48,6 +55,16 @@ function ToDo () {
 
 function buildToDo(todo, index) {
   // code here
+  const toDoShell     = document.createElement('div');
+  toDoShell.className = "toDoShell";
+  const toDoText      = document.createElement('span');
+  toDoText.innerHTML  = todo.description;
+  toDoText.id         = index;
+  if( todo.complete ) {
+    toDoText.className = "completeText";
+  }
+  toDoShell.appendChild(toDoText);
+  return toDoShell;
 }
 
 /* 
@@ -58,6 +75,12 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
+  const toDoContainer = document.querySelector('#toDoContainer');
+  toDoContainer.innerHTML = '';
+  const arr = buildToDos(toDoItems);
+  arr.forEach(function(element){
+    toDoContainer.appendChild(element);
+  });
 }
 
 /* 
@@ -74,6 +97,12 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
+  module.exports = {
+    toDoItems: toDoItems,
+    ToDo: ToDo,
+    buildToDos: buildToDos,
+    buildToDo: buildToDo,
+    completeToDo: completeToDo,
 }
 
 /* 
@@ -90,6 +119,12 @@ function displayToDos() {
 
 function addToDo() {
   // code here
+  let toDoContainer = document.getElementById('toDoContainer');
+  toDoContainer.innerHTML = ''; 
+  let holder = buildToDo(toDoItems);
+  for (let i = 0; i < holder.length; i++) {
+    toDoContainer.appendChild(holder[i]);
+  };
 }
 
 /* 
@@ -115,8 +150,18 @@ function addToDo() {
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+  const index = event.target.id;
   // code here
+  let toDoShell = document.createElement('Div');
+  toDoShell.className = 'toDoShell';
+  let toDoText = document.createElement('span');
+  toDoText.innerHTML = ToDo.description;
+  toDoText.id = index;
+  if (ToDo.complete === true) {
+    toDoText.className = completeText;
+  }
+  toDoShell.appendChild(toDoText);
+  return toDoShell;
 }
 
 /* STEP 10: Make sure ALL tests pass */
