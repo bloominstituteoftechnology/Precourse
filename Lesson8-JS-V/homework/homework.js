@@ -7,15 +7,15 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the class
-  function User(username, name, email, password) {
-    this.username = username;
-    this.name = name;
-    this.email = email;
-    this.password = password;
-    this.sayHi = function() {
-      return 'Hello, my name is {{name}}';
-    };
+  function User(options) {
+    this.username = options.username;
+    this.name = options.name;
+    this.email = options.email;
+    this.password = options.password;
   }
+  User.prototype.sayHi = function() {
+    return 'Hello, my name is ' + this.name;
+    };
   return User;
 }
 
@@ -32,9 +32,9 @@ function addReverseString() {
   // name this method reverse
   // hint:
   // you will need to use 'this' inside of reverse
-  Constructor.prototype.reverse = function() {
-    return reverse(this);
-  }
+  String.prototype.reverse = function() {
+    return this.split('').reverse().join('');
+  };
 }
 
 // --------------------------------
