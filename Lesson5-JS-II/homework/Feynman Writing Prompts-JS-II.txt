@@ -1,0 +1,11 @@
+Javascript II (Control Flow, Comparison Operators, `for` Loops)
+
+Feynman Writing Prompts
+
+* 'for'
+    To do a certain thing again and again, we can use 'for' to make computer do the job. Just tell it how many times to repeat the job on what interval.
+
+* '&&', '||', '!'
+    && means and. Both conditions before and after && should be true.
+    || means or. Either before or after || is true, the condition is true.
+    ! means not.

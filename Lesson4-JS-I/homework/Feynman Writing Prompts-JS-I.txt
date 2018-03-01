@@ -1,0 +1,18 @@
+Introduction to Javascript
+
+Feynman Writing Prompts
+
+* Variables
+    Like an empty pouch, it can hold anything you throw into it to use later.
+
+* Strings
+    Strings are letters, words, and sentences. If a word or sentence is in quotation marks, it's a string.
+
+* Functions
+    Like a food processor, function accepts some ingredients then changes them to another.
+
+* 'if' statements
+    'if' statements decides whether something is right to the condition or not.
+
+* Boolean values
+    True or false, bright or dark, 0 or 1. Boolean values are two very different things, opposite to each other.

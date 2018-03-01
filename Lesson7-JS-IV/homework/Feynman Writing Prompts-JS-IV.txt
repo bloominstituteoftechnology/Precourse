@@ -1,0 +1,19 @@
+Javascript IV (Objects)
+
+Feynman Writing Prompts
+
+* Objects
+    Objects hold a lot of information about one thing. Like finding a book in a library with call number, values in objects can be found by key.
+
+* Properties
+    Properties are informations in an object.
+
+* Methods
+    Objects can hold a lot of informations. If the information is a function, it is called method.
+
+* For...in loop
+    Although there are keys for informations in objects, keys cannot be lined up by certain rules to be used as index. To access the informations one by one, we use "for...in" loop instead of regular for loop.
+
+
+* Dot notation vs bracket notation
+    With dot notation, we can access an information by calling the name of the key. With bracket notation, we can access an information by more means including variables.

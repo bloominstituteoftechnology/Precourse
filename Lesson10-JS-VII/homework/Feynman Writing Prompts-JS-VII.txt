@@ -1,0 +1,6 @@
+Javascript VII (Closure)
+
+Feynman Writing Prompts
+
+* Closure
+    In Javascript, output of function can be another function definition. The returning or inner function refers outer function scope first before look into global scope.

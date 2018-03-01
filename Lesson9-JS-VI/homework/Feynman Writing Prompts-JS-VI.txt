@@ -1,0 +1,6 @@
+Javascript VI (Callbacks)
+
+Feynman Writing Prompts
+
+* Callback Functions
+    Javascript functions can handle various type of arguments, including function. When function gets another function as arguments, it is called 'callbacks'.
