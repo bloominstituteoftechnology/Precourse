@@ -1,0 +1,4 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+
+	* Callback Functions
+  A Callback Function is a function that is passed to another function as a parameter, and then executed within the function it's been passed onto. 
