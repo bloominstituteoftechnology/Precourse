@@ -56,7 +56,7 @@ function buildToDo(todo, index) {
   const toDoText = document.createElement('span');
   toDoText.innerHTML = Todo.description;
   toDoText.id = index;
-  toDoText.onclick = completeToDo;
+  toDoText.onclick = completeToDo();
   if(toDo.complete === true) {
     toDoText.class = 'completeText';
   }
@@ -71,7 +71,7 @@ function buildToDo(todo, index) {
 */
 
 function buildToDos(toDos) {
-  document.getElementById('toDoText').onclick = completeToDo;
+  document.getElementById('toDoText').onclick = completeToDo();
   return toDo.map(buildToDo);
 }
 
@@ -88,7 +88,7 @@ function buildToDos(toDos) {
 */
 
 function displayToDos() {
-  const toDoContainer = document.getElementById('#toDoContainer');
+  const toDoContainer = document.getElementById('toDoContainer');
   toDoContainer.innerHTML = '';
   const hold = buildToDos(toDoItems);
   for(let i = 0; i < hold.length; i++) {
