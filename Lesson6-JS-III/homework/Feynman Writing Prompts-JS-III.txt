@@ -1,0 +1,6 @@
+Javascript III (`for` Loops continued, and Arrays)
+
+Feynman Writing Prompts
+
+* Arrays
+    Like an apartment or hotel, array has numbered vacant rooms to store items. Knowing the room number, you can easily find item stored in it later.

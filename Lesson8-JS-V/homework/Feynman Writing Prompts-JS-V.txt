@@ -1,0 +1,9 @@
+Javascript V (Classes and Prototype)
+
+Feynman Writing Prompts
+
+* Prototype
+    If every classroom in the school has a kitchen and dining room for lunch, it will be waste of money and space. Like a common mess hall, prototype provides a way of setting methods to which other classes can access.
+
+* Constructors
+    With cookie cutter, we can make cookies in the same shape. Constructor or class creates a template which we can use again and again.

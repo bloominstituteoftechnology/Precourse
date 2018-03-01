@@ -1,0 +1,6 @@
+Javascript VIII (Recursion)
+
+Feynman Writing Prompts
+
+* Recursion
+    Recursion is a way of letting computer to do repetitive works under certain rules, other than iteration.    
