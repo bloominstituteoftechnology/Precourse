@@ -3,7 +3,7 @@
 
 In this lesson we will cover: 
 
-* Recursion
+* Recursion - In programming means by recursion a function call from itself.
 
 ## Recursion
 
