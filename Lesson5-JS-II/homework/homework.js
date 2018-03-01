@@ -4,7 +4,15 @@ function multiplyArguments(a,b) {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
-
+if (arguments[0] === undefined && arguments [1] === undefined) {
+  return 0;
+}
+else if (arguments.length === 1) {
+  return arguments[0];
+}
+else {const argthing = arguments[0]*arguments[1];
+return argthing;
+}
 }
 
 function getBiggest(x, y) {
