@@ -3,6 +3,8 @@
 */
 
 // code here
+let toDoItems = [];
+
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -11,6 +13,9 @@
 */
 
 // code here
+const spanEl = document.querySelector("#createdBy");
+spanEl.innerHTML = spanEl.innerHTML + ' Judy';
+
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -18,8 +23,10 @@
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+function ToDo(description) {
   // code here
+  this.description = description;
+  this.complete = false;
 }
 
 /* 
@@ -29,6 +36,9 @@ function ToDo () {
 */
 
 // code here
+ToDo.prototype.completeToDo = function() {
+  this.complete = true;
+}
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -38,58 +48,99 @@ function ToDo () {
             1.) Create a new 'div' element. Set this to a variable 'toDoShell'.
             2.) Give 'toDoShell' a class (for CSS) of 'toDoShell'.
             3.) Create a new 'span' element. Set this to a variable called 'toDoText'.
-            4.) Using the toDo item passed in, set the 'toDoText' innerHTML to the value of the 'description' property on the toDo object.
+            4.) Using the toDo item passed in, set the 'toDoText' innerHTML to the value 
+                of the 'description' property on the toDo object.
             5.) Set the id of 'toDoText' to the value of the index argument.
-            6.) Using an if statement, check to see if the 'complete' property on the object passed as the first argument 
-                  is set to true. If it is, give 'toDoText' a CSS class of 'completeText'. If it is not, do not give it a class.
+            6.) Using an if statement, check to see if the 'complete' property on the object passed 
+                  as the first argument is set to true. 
+                  If it is, give 'toDoText' a CSS class of 'completeText'. 
+                  If it is not, do not give it a class.
             7.) Append child 'toDoText' to 'toDoShell'
             8.) return toDoShell
 */
 
 function buildToDo(todo, index) {
   // code here
+  const toDoShell     = document.createElement('div');
+  toDoShell.className = "toDoShell";
+  const toDoText      = document.createElement('span');
+  toDoText.innerHTML  = todo.description;
+  toDoText.id         = index;
+  if( todo.complete ) {
+    toDoText.className = "completeText";
+  }
+  toDoShell.appendChild(toDoText);
+  return toDoShell;
+
 }
 
 /* 
-  STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
-          Using the map method on the array passed in, use the 'buildToDo' function you wrote above as the callback passed to map. 
+  STEP 5: This function will build and return an array of toDo elements. It will take an array of objects 
+          of the ToDo class as it's only argument.
+          Using the map method on the array passed in, use the 'buildToDo' function you wrote above 
+          as the callback passed to map. 
           Return the new mapped array.
 */
 
 function buildToDos(toDos) {
   // code here
+  
+ // const newArrtoDo = toDos.map(buildToDo());
+  //return newArrtoDo;
+
+  return toDos.map(buildToDo);
+
 }
 
 /* 
   STEP 6: Now that we can build an array of toDo elements, we want to make these elements appear on the screen, 
           to do this we will create a 'displayToDos' function.
           1.) Select the element with the id 'toDoContainer'.  Save this to a variable: 'toDoContainer'.
-          2.) Set the innerHTML of 'toDoContainer' to an empty string. (This will let us refresh the elements, and display the new toDos)
+          2.) Set the innerHTML of 'toDoContainer' to an empty string. 
+              (This will let us refresh the elements, and display the new toDos)
           3.) Using the buildToDos function pass it the array toDoItems as it's only argument.
           4.) Using the result of (3), loop over the array appending each element to 'toDoContainer'.
-          5.) at the very end of this file, the line before the comment "DO NOT CHANGE ANY CODE BELOW THIS LINE", call this function.
+          5.) at the very end of this file, the line before the comment "DO NOT CHANGE ANY CODE BELOW THIS LINE", 
+              call this function.
 
           You can now load your html file in your broswer and see your work so far.
 */
 
 function displayToDos() {
   // code here
+  const toDoContainer = document.getElementById('toDoContainer');
+  toDoContainer.innerHTML = '';
+  const ArrtoDoitems = buildToDos(toDoItems);
+
+  for(let i=0; i<ArrtoDoitems.length; i++) {
+    toDoContainer.appendChild(ArrtoDoitems[i]);
+  }
 }
 
 /* 
   STEP 7: This function, 'addToDo' will add a new ToDo to the 'toDoItems' array.
-          NOTE: We have not learned about input HTML elements yet, so we will give you a little more code to go on here.
-          'newToDo' is an text input element. All text input elements have a property called 'value', this value will be whatever is typed into 
-          the text box on the page.
+          NOTE: We have not learned about input HTML elements yet, so we will give you a little more 
+          code to go on here.
+          'newToDo' is an text input element. All text input elements have a property called 'value', 
+          this value will be whatever is typed into the text box on the page.
 
-          1.) Using the value property on 'newToDo', create an new ToDo object using the ToDo class and pass the value as the description.
+          1.) Using the value property on 'newToDo', create an new ToDo object using the ToDo class 
+              and pass the value as the description.
           2.) add the object from (1) into the toDoItems array.
-          3.) Set the value of newToDo to an empty string (this will clear the text in the box allowing the user to enter another item).
+          3.) Set the value of newToDo to an empty string 
+              (this will clear the text in the box allowing the user to enter another item).
           4.) Call displayToDos to refresh the toDos displayed
 */
 
 function addToDo() {
   // code here
+
+  const newToDo = document.querySelector('#toDoInput');
+  const ToDo2 = new ToDo(newToDo.value);
+  toDoItems.push(ToDo2);
+  newToDo.value = '';
+  displayToDos();
+
 }
 
 /* 
@@ -136,6 +187,9 @@ function completeToDo(event) {
 
 
 // Call displayToDos here (Step 6)<-----
+
+displayToDos();
+
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
