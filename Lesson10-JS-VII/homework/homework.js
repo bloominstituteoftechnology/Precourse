@@ -33,8 +33,9 @@ return function (arg) {
     cache[arg] = cb(arg);
     return cache[arg];
   } else {
-    return cache(cb(arg));
+    return cb(arg);
   }
+  return cache;
 }
 
 }
