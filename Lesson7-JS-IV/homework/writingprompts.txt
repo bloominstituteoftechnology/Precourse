@@ -1,0 +1,12 @@
+Objects: objects are variables that can contain many values. For example, a person could be an object, it will have the property of first name
+and its value will be that person's first name.
+
+Properties: properties are the pairs of name and values. Everything comes with a property of its own, be it something that makes it recognizable
+or something that decribes that object.
+
+Methods: Methods are actions that can be performed on objects. Like a person can walk, talk, or jump. Those are all methods given to a person.
+
+For in loops: for in statements loops through properties of an object. 
+
+Dot notation vs breacket notation: There's not much difference between a dot and bracket notation, though a dot notation is easier to read. 
+Bracket notations are mostly used when working with arrays.
