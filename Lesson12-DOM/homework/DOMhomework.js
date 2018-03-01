@@ -38,7 +38,10 @@ function ToDo(description) {
 // code here
 ToDo.prototype.completeToDo = function() {
   this.complete = true;
+
 }
+
+
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -66,6 +69,9 @@ function buildToDo(todo, index) {
   const toDoText      = document.createElement('span');
   toDoText.innerHTML  = todo.description;
   toDoText.id         = index;
+
+  toDoText.addEventListener('click', completeToDo);   // as per step 9 instruction
+
   if( todo.complete ) {
     toDoText.className = "completeText";
   }
@@ -136,7 +142,7 @@ function addToDo() {
   // code here
 
   const newToDo = document.querySelector('#toDoInput');
-  const ToDo2 = new ToDo(newToDo.value);
+  const ToDo2 = new ToDo(newToDo.value);   // "new" keyword here creates new obj ToDo2
   toDoItems.push(ToDo2);
   newToDo.value = '';
   displayToDos();
@@ -150,24 +156,33 @@ function addToDo() {
 */
 
 // cod here
+const addEl   = document.querySelector('#addButton');
+addEl.addEventListener('click', addToDo);
+
 
 /* 
-  STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
-            listener on the toDo element
+  STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, 
+            and add that function to the click event listener on the toDo element
           
-          Note: We have not covered the argument every event listener receives, the 'event' object. There is a lot of data in this object, 
-          including event type, which element called it, what the values of that element are, etc. In this exercise we will use it to find the 
-          index of the item that called it. We have given you that code, study it to make sure you understand what is happening.
+          Note: We have not covered the argument every event listener receives, the 'event' object. 
+          There is a lot of data in this object, including event type, which element called it, 
+          what the values of that element are, etc. In this exercise we will use it to find the 
+          index of the item that called it. We have given you that code, study it to make sure 
+          you understand what is happening.
 
           1.) Using the index supplied, call completeToDo on the item which called it from toDoItems.
           2.) call displayToDos to refresh to items on the screen.
-          3.) In the 'buildToDo' function add a 'click' event listener to the 'toDoText' element, and pass this function as the callback.
+          3.) In the 'buildToDo' function add a 'click' event listener to the 'toDoText' element, 
+              and pass this function as the callback.
 */
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+  const index = event.target.id;
   // code here
+  toDoItems[index].completeToDo();
+  displayToDos();
+
 }
 
 /* STEP 10: Make sure ALL tests pass */
