@@ -23,13 +23,13 @@ createdBy.innerHTML += 'Cruise Brantley';
 
 //function ToDo () {
   // code here
-  class ToDo{
+class ToDo{
     constructor (description){
-      this.description = description;
-      this.complete = false;
-      return this;
-    }
-  }
+    this.description = description;
+    this.complete = false;
+    return this;
+   }
+}
 //}
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
