@@ -137,7 +137,7 @@ function addTodo() {
 //UNCOMMENT THE NEXT LINE
 let button;
 let add = document.querySelector('#addButton');
-add.addEventListener('submit',addTodo);
+add.addEventListener('click',addTodo);
 
 
 function completeTodo(event) {
