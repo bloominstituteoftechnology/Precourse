@@ -81,23 +81,24 @@ function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
-  if (password in user){
-    if(password == user['password']){
+  if(password == user['password']){
       return true;
-    } return false;
   } return false;
 }
 
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
-  
+  user['password'] = newPassword;
+  return user;
 }
 
 function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
   // return the user object
+  user['friends'].push(newFriend);
+  return user;
 }
 
 function setUsersToPremium(users) {
