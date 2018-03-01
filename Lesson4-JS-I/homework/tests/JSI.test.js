@@ -238,3 +238,4 @@ describe('getTriangleArea(base, height)', function() {
     expect(getTriangleArea(0, 2)).toBe(0);
   });
 });
+
