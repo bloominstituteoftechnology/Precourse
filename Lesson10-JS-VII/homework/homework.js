@@ -14,12 +14,15 @@
 
 
 function cacheFunction(cb) {
+  
   function cache(cb) {
+    let cb = cb + 1;
     return function cacheFunction(cb) {
     return cb + 1;
     }
   }
-  const resultOfCache = cacheFunction();
+  const cache = cacheFunction();
+  cache();
 }
 
   // Return a function that when invoked increments and returns a counter variable.
