@@ -25,19 +25,31 @@ function cacheFunction(cb) {
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
 
-let cache = {};
+// let cache = {};
+//
+// return function (arg) {
+// let cache = {};
+//
+// return function (arg) {
+//
+//  if (cache.hasOwnProperty(cb(arg))) {
+//    cache[arg] = cb(arg);
+//    return cache[arg];
+//  } else {
+//    return cb(arg);
+//  }
+//  return cache;
+// }
 
-return function (arg) {
+let cache = {}; // cache (object) creation
 
-  if (cache.hasOwnProperty(cb(arg))) {
-    cache[arg] = cb(arg);
-    return cache[arg];
-  } else {
-    return cb(arg);
-  }
-  return cache;
+return function (arg) { // closure with single argument that invokes cb
+
+ if (cache.hasOwnProperty(arg) === false) { // checking to see if value exsists within cache (object)
+   cache[arg] = cb(arg); // if value doesn't already exsist within cache this statement invokes cb adds value to cache
+ }
+ return cache[arg]; // returns cache value (arg). if value (arg) already exists in cache cb is not invoked
 }
-
 }
 
 
