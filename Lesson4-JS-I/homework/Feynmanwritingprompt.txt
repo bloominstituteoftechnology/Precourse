@@ -1,0 +1,9 @@
+Variables: Variables are sort of like containers able to hold datas like strings or numbers. The values in variables are able to be changed easily.
+
+Strings: strings are blocks of texts in quotation marks. They are a string of words and can only be texts and not numbers.
+
+Functions: A function is designed to perform a particular task. It's arguments are are the values that is received by the function when it is called and behave like the local variables. Function return will stop running the code and return the value that it is left with.
+
+if statements: an if statement is used to run a code only if the statement given is true.
+
+boolean: A boolean function is used when you are trying to find out if something is true or false.

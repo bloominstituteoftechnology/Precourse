@@ -1,0 +1,8 @@
+for: for loops use conditional statements. First it will declare a variable like i is 0, then it will look at the next statement so
+that as long as i is less than the number 10, it will continue running until it is bigger than it then it stops. After running, the 
+loop will execute the last statement which means that it either raises the number by 1 or lowers it depending on the statement.
+
+Logical operators: are used to find out if something is true. In Logical AND (&&), both expressions have to be true for the operator 
+to be true and continue running. Logical OR (||), either one of the statements have to be true for it to run. In Logical NOT (!), 
+it will return the opposite of the expression that is passed to it. Logical operators also follow order of operations so those in 
+parenthesis gets evaluated first and if it occurs first, then it will also get evvaluated first.

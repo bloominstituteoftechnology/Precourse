@@ -1,0 +1,2 @@
+Closures: Closures are functions that are not bound by its parent functions scope. It means that it can use the variables and parameters
+that are being called by the outer functions.

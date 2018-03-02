@@ -1,0 +1,2 @@
+callbacks: callbacks are the ability to pass a function off as an argument to another function. You are "calling back" to the old argument
+using it again. They can be called anytime that it is needed.

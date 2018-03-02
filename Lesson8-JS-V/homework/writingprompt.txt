@@ -1,0 +1,5 @@
+prototype: prototypes are a way of creating a method only once and giving all the objects in that class a way to use those methods
+withought having to keep recreating it.
+
+Comstructors: Constructors are methods that is used to create and initialize an object that is in a class. Constructors and class are seperate things
+with a constructor being inside it.

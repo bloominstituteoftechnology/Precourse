@@ -1,0 +1,1 @@
+Arrays: are sort of containers that contain a large amount of data. We can add any amount of trings, numbers, and booleans that we need in it. It can be accessed easily too by just giving the number of placing that the data is in.
