@@ -1,0 +1,10 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+
+	* Arrays
+
+	Arrays are a complex tool for storing and accessing data and are often referred to as a data structure. Unlike
+	variables, they are able to store large quantities of different types of primitive values at one time. For example, you can store numbers, booleans, and strings in the same array. You can even have arrays inside of arrays.
+
+	This type of data structure is useful in situations where you know you need to store an unknown amount of data
+	and be able to access each piece of data. Variables are limited in that they can only store one value at a time.
+	Each element in an array is assigned an index value, which acts like an address. Each index tells you where in that array an element is. Accessing elements by index is useful since it allows you to change the array when you need to.

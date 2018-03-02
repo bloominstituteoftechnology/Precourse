@@ -1,0 +1,22 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `for`
+
+A for loop is a way of doing something multiple times in Javascript. Let's say you had to write code to
+count all the even numbers from 1 to 100. One way you could do this is to manually check if every number is even and then log all the even numbers to the console. But this would take a lot of time. For loops can save you a lot of time and effort when it comes to doing something multiple times. When writing a for loop you need to declare a starting variable with some value, then you need to specify a condition for the loop, and then you need to set how much the starting variable will change after each loop.
+
+In our example, you could set the starting variable to 0, set the condition to test if each value of our
+variable is less than or equal to 100, and then add 2 to the variable after every loop. You could then write have the loop log each number to the console with console.log.
+
+	* `&&`, `||`, `!`
+
+`&&` or the logical and is a type of logical operator. It accepts two boolean statements and compares both of them to each other. Remember that boolean statements evaluate to true or false. Logical 
+operators return true or false after comparing both statements. `&&` requires that both statements to be true in order for the comparison to result in true. For example, 1 === 0 && 2 + 2 === 4 will
+return false because 1 === 0 is not true.
+
+`||` is another type of logical operator. It also accepts two boolean statements and compares both
+of them to each other. `||` only requires one of the statements to be true in order for the comparison to result in true. For example, 1 === 0 || 2 + 2 === 4 will return true since the statement 2 + 2 === 4
+is true.
+
+`!` is the last type of logical operator. It accepts one boolean statement and returns the opposite boolean value the statement should be evaluated to. For example !true returns false and
+!(2 + 2 === 4) also returns false.

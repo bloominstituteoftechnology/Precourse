@@ -1,0 +1,34 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Recursion
+
+	Recursion refers to a function calling itself inside itself. Recursive functions are often
+	used to traverse complex data structures like trees.
+
+	You can think of recursion as another form of looping. For example given a simple for loop:
+
+		for (let i = 0; i < 11; i++) {
+			console.log(i);
+		}
+
+	We can see that for loops in general have the following properties: an initializer(i = 0),
+ 	a condition to fulfill (i < 11), and an incrementor (i++) to move the loop to the next iteration.
+ 	Recursive functions also have these properties in common with for loops. 
+
+ 		function plusOne(num) {
+ 			if (num > 10) {
+ 				return;
+ 			}
+ 			console.log(num);
+ 			return plusOne(num + 1);
+ 		}
+
+ 		plusOne(1)
+
+ 	The recursive function plusOne also has an initializer in the form of its argument, num. It has a
+ 	condition in the boolean expression (num > 10) and a way of incrementing num.
+
+ 	When we invoke plusOne, it first checks to see if its condition is true. If num > 10 then the function
+ 	will stop running. Else num is logged to the console and plusOne calls itself with num + 1. 
+
+ 	All of these steps continue until num > 10.

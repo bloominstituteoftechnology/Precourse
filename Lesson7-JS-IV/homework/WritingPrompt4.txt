@@ -1,0 +1,37 @@
+
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Objects
+
+		In JavaScript, objects are a group of key value pairs. Each key is unique to
+		a value in an object. Values can be primitives, arrays, other objects, and even functions. Unlike arrays, objects are unordered so they do not use
+		indexes. In order to access value, you need to first access the value's key. 
+		For example, in order to access a word's definition you need to find the word in a
+		dictionary. Objects can hold as many key value pairs as a developer needs.
+
+	* Properties
+
+		Properties, also known as keys, are links to values in objects which can hold
+		many properties at once. All properties are strings in JavaScript.
+
+	* Methods
+
+		Methods are functions that are associated with object properties. These
+		functions are anonymous because they are not named like functions
+		stored in variables. Instead methods are associated with unique keys. Calling
+		a method requires you to access its key in the object and use ().
+
+	* for in loop
+
+		A for in loop is a way of iterating through all the keys in an object. This type
+		of loop is similar to a for loop on an array but is only used for objects since it does not guarantee any sort of order. For in loops allow you to access and modify object
+		key value pairs.
+
+	* Dot notation vs bracket notation
+
+		Dot notation is the default method of accessing object key value pairs. It is
+		used when you already know the properties in an object and when the properties
+		are not variables.
+
+		Bracket notation is used when you don't know the keys in an object or when you
+		are given a variable associated with a value in an object.
