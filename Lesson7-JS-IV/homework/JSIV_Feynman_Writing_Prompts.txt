@@ -1,4 +1,4 @@
-* Objects:  are special containers that can hold many variables that describe a single thing. Each variable is made of a key and it's value (Key:value).
+* Objects:  are special containers that can hold many variables. Each variable is made of a key and it's value  (Key:value).
 * Properties: are the name are the names used for each key in the objects. 
 * Methods: are instructions to the computer to perform on the object.
 * for in loop: a computer instruction that allows us to move through each variable in the object

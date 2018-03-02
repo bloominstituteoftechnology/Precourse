@@ -3,6 +3,7 @@
 */
 
 // code here
+var toDoItems= [];
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
