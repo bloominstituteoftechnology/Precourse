@@ -1,7 +1,7 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-
+var toDoItems = [];
 // code here
 
 /* 
@@ -9,16 +9,18 @@
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
           add your name to the END of the current innerHTML.
 */
-
+document.querySelector('#createdBy').innerHTML += ' Derrick Mei'
 // code here
 
 /* 
-  STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
+  STEP 2: Create a class called 'ToDo'.  The constructor should have a string parameter called description. This is the description of the toDo.
           Add two properties to the class: 'description' which should be set equal to the description passed to the constructor, and 
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+function ToDo (description) {
+  this.description = description;
+  this.complete = false;
   // code here
 }
 
@@ -27,7 +29,8 @@ function ToDo () {
           It will not take any arguemnts. 
           Inside the function set the ToDo's 'complete' property to true.
 */
-
+ToDo.prototype.completeToDo = function(){
+  this.complete = true};
 // code here
 
 /*
@@ -47,6 +50,19 @@ function ToDo () {
 */
 
 function buildToDo(todo, index) {
+  var toDoShell = document.createElement('div');
+  toDoShell.className = 'toDoShell';
+  var toDoText = document.createElement('span');
+  toDoText.innerHTML = todo.description;
+  toDoText.id = index;
+
+  toDoText.onclick = completeToDo;
+
+  if(todo.complete){
+    toDoText.className = 'completeText'
+  };
+  toDoShell.appendChild(toDoText);
+  return toDoShell;
   // code here
 }
 
@@ -57,6 +73,7 @@ function buildToDo(todo, index) {
 */
 
 function buildToDos(toDos) {
+  return toDos.map(buildToDo);
   // code here
 }
 
@@ -73,6 +90,13 @@ function buildToDos(toDos) {
 */
 
 function displayToDos() {
+  var toDoContainer = document.getElementById('toDoContainer');
+  toDoContainer.innerHTML = '';
+  var x = buildToDos(toDoItems);
+  x.forEach(function(element){
+    toDoContainer.appendChild(element);
+  })
+
   // code here
 }
 
@@ -89,6 +113,10 @@ function displayToDos() {
 */
 
 function addToDo() {
+  let procrastinate = new ToDo(document.querySelector("#toDoInput").value);
+  toDoItems.push(procrastinate);
+  document.querySelector("#toDoInput").value = "";
+  displayToDos();
   // code here
 }
 
@@ -97,25 +125,28 @@ function addToDo() {
           1.) Select the element with the id 'addButton'
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
-
-// cod here
+var add = document.querySelector('#addButton')
+add.onclick = addToDo;
+// code here
 
 /* 
-  STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
+  STEP 9: Finally in this step we will define the function to run when we want to complete a toDo, and add that function to the click event
             listener on the toDo element
           
           Note: We have not covered the argument every event listener receives, the 'event' object. There is a lot of data in this object, 
           including event type, which element called it, what the values of that element are, etc. In this exercise we will use it to find the 
           index of the item that called it. We have given you that code, study it to make sure you understand what is happening.
 
-          1.) Using the index supplied, call completeToDo on the item which called it from toDoItems.
+          1.) Call completeToDo on the item pulled from the toDoItems array with the supplied index.
           2.) call displayToDos to refresh to items on the screen.
           3.) In the 'buildToDo' function add a 'click' event listener to the 'toDoText' element, and pass this function as the callback.
 */
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+  const index = event.target.id;
+  toDoItems[index].completeToDo();
+  displayToDos();
   // code here
 }
 
@@ -136,7 +167,7 @@ function completeToDo(event) {
 
 
 // Call displayToDos here (Step 6)<-----
-
+displayToDos()
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
