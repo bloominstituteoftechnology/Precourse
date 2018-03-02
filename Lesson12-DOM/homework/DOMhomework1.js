@@ -42,6 +42,7 @@ ToDo.prototype.completeToDo = function() {
 }
 
 
+
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
           the second is a numerical index.
@@ -67,22 +68,14 @@ function buildToDo(todo, index) {
   toDoShell.className = "toDoShell";
   const toDoText      = document.createElement('span');
   toDoText.innerHTML  = todo.description;
- // toDoText.id         = index;
+  toDoText.id         = index;
 
-  const toDochkbox     = document.createElement('input');
-  toDochkbox.type      = "checkbox";
-  toDochkbox.id        = index;
-  toDochkbox.classname = "completeCheckbox";
-  toDochkbox.addEventListener('click', completeToDo);   // as per extra credit instruction
-  
-  //  toDoText.addEventListener('click', completeToDo);   // as per step 9 instruction
+  toDoText.addEventListener('click', completeToDo);   // as per step 9 instruction
 
   if( todo.complete ) {
     toDoText.className = "completeText";
-    toDochkbox.checked = true;
   }
   toDoShell.appendChild(toDoText);
-  toDoShell.appendChild(toDochkbox);
   return toDoShell;
 
 }
@@ -202,8 +195,7 @@ function completeToDo(event) {
         b.) Give the checkbox the id of the index, and remove the id of the index from toDoText
         c.) Give the checkbox the 'click' event listener of completeToDo, and remove the event listener from toDoText
         d.) Give the checkbox the class of 'completeCheckbox'
-        e.) Inside of the current 'if' statement in the buildToDo function, 
-            if true, set the attribute, 'checked' to true on the checkbox.
+        e.) Inside of the current 'if' statement in the buildToDo function, if true, set the attribute, 'checked' to true on the checkbox.
         f.) Append this checkbox on the toDoShell element.
 */
 // ********************************************** ----------- ********************************************** //
