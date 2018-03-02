@@ -11,11 +11,13 @@ In this lesson we will cover:
 
 ## Introduction to positioning
 
-Building a layout and making everything look clean is what most people are looking to do when they start learning CSS. Positioning HTML elements on the page with CSS is possibly the most powerful ability CSS has, it can also be the most frustrating. In this lesson we will learn a few different ways to position items on the page.
+Building a layout and making everything look clean is what most people are looking to do when they start learning CSS. Positioning HTML elements on the page with CSS is possibly the most powerful ability CSS has, 
+it can also be the most frustrating. In this lesson we will learn a few different ways to position items on the page.
 
 ## The Display property
 
-The display property is the one of the most important CSS properties for positioning. We can use the display property to control how the elements are displayed in relation to the elements around them, and how they behave on the screen. 
+The display property is the one of the most important CSS properties for positioning. We can use the display property to control how the elements are displayed in relation to the elements around them, and how 
+they behave on the screen. 
 ```css
   div {
     display: <display rule>;
@@ -26,7 +28,8 @@ There are two types of display elements already built into HTML. Block and Inlin
 
 ### Block Elements
 
-As a rule of thumb, a block element will always start on a new line, and will always take up the maximum width of the container it is in. Remember how in the last lesson we learned that the \<p> element will always start on a new line? It is a block element, as is div and \<h1-6>
+As a rule of thumb, a block element will always start on a new line, and will always take up the maximum width of the container it is in. Remember how in the last lesson we learned that the \<p> element will 
+always start on a new line? It is a block element, as is div and \<h1-6>
 
 ### Inline elements
 
@@ -45,7 +48,8 @@ And vise-versa.
 
 ### none 
 
-Setting the display to "none" will make an element disappear completely. This is not to be confused with the "visibility: hidden;" rule which only renders the element invisible, but does not remove it from the page (the space will still look occupied by something). If an item is set to display: none there will be no sign of it on the page.
+Setting the display to "none" will make an element disappear completely. This is not to be confused with the "visibility: hidden;" rule which only renders the element invisible, but does not remove it 
+from the page (the space will still look occupied by something). If an item is set to display: none there will be no sign of it on the page.
 
 ### flex
 
@@ -86,7 +90,8 @@ Now that we have set our position method to the style we want to use, we can the
 
 ### top, left, right, and bottom
 
-After we set a positioning method we can the use top, bottom, left, and right properties to position our element. The value you give to each of these will determine how far away from the edge we want our element to be. For example, if we want our element to be in the extreme upper left corner (with a fixed position) we would use the following:
+After we set a positioning method we can the use top, bottom, left, and right properties to position our element. The value you give to each of these will determine how far away from the edge we want our element to 
+be. For example, if we want our element to be in the extreme upper left corner (with a fixed position) we would use the following:
 
 ```css
   div {
@@ -108,15 +113,19 @@ If we wanted it to be 10px below the top and 10px off the right edge:
 
 ## Introduction to Flexbox
 
-Introduced in CSS3, Flexbox is an exciting new feature. It allows us to position our elements in relation to it's parent and each other. No longer do we have to apply CSS "hacks" for things like centering. This allows mobile friendly design to really shine; and allows us to spend less time trying to get our positioning just right. Flexbox can quickly get complicated, but we will cover the basics of flexbox positioning here.
+Introduced in CSS3, Flexbox is an exciting new feature. It allows us to position our elements in relation to it's parent and each other. No longer do we have to apply CSS "hacks" for things like centering. This 
+allows mobile friendly design to really shine; and allows us to spend less time trying to get our positioning just right. Flexbox can quickly get complicated, but we will cover the basics of flexbox positioning here.
 
 ### display: flex and inline-flex
 
-As we mentioned in the display property section, one of our display types can be "flex" this makes any container a flex block, we can also use "inline-flex" to make it a flex inline element. For the most part, we will just be using "flex".
+As we mentioned in the display property section, one of our display types can be "flex" this makes any container a flex block, we can also use "inline-flex" to make it a flex inline element. For the most part, 
+we will just be using "flex".
 
 ### justify-content and align-items
 
-Now that our container(element) is a flex box. We can imagine it as a grid, columns going from left to right and rows going from top to bottom. We can use the justify-contet and align-items properties to tell the flex box where we want our items to be on the grid. Initially "justify-content" will apply to the movement from left to right(row), and "align-items" will apply to the movement from top to bottom (column). We have a number of rules we can place on each of these properties:
+Now that our container(element) is a flex box. We can imagine it as a grid, columns going from left to right and rows going from top to bottom. We can use the justify-contet and align-items properties to tell 
+the flex box where we want our items to be on the grid. Initially "justify-content" will apply to the movement from left to right(row), and "align-items" will apply to the movement from top to bottom (column). 
+We have a number of rules we can place on each of these properties:
 
 * center: will center an item (or group of items) along the axis in which you apply this rule.
 * flex-start: This is what each flex box is set to initially, it will display all of the items in a group at the very beginning of the row or column.
@@ -144,7 +153,8 @@ This property can change the way our browser interprets justify-content(JC) and 
 
 ### align-self
 
-One last, more advanced, property we will cover is called "align-self". This will be applied to an element within a flex box that we want to break out of the align-items control. If we give it the property align-self we can position it anywhere along the align-items axis we want. (Note: there is NO justify-self, this is a primary reason developers will change the flex direction)
+One last, more advanced, property we will cover is called "align-self". This will be applied to an element within a flex box that we want to break out of the align-items control. If we give it the property 
+align-self we can position it anywhere along the align-items axis we want. (Note: there is NO justify-self, this is a primary reason developers will change the flex direction)
 
 ### Now in your browser window, open and complete homework.html
 
