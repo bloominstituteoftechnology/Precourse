@@ -1,14 +1,14 @@
 # Lesson 9: Javascript VI (Callbacks)
-(Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
+(Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class.)
 
-In this lesson we will cover: 
+In this lesson, we will cover: 
 
 * Callbacks
 * More Array Methods
 
 ## Callbacks
 
-A very important concept in Javascript is the ability to pass a function as an arguments to another function. These functions are called `callbacks`. These functions can be called anytime and passed arguments within the function. We will soon discover why callbacks are so important to Javascript. Convention is to use the `cb` argument variable as your callback.
+A very important concept in Javascript is the ability to pass a function as an argument to another function. These functions are called `callbacks`, and can be called anytime to pass arguments within the function. We will soon discover why callbacks are so important to Javascript. Convention is to use the `cb` argument variable as your callback:
 
 ```javascript
     function saysHelloToUser(user) {
@@ -29,11 +29,11 @@ A very important concept in Javascript is the ability to pass a function as an a
 
 ## More Array Methods
 
-We already know about and use array methods, `.push`, `.pop`, `.shift`, `.unshift`, and `.length`. But there are a lot more methods available to us natively on an array. The methods we are going to talk about here are called higher order methods, because they take callbacks as arguments. 
+We already know about and use array methods, `.push`, `.pop`, `.shift`, `.unshift`, and `.length`. However, there are a lot more methods available to us natively on an array. The methods we are going to talk about here are called higher order methods because they take callbacks as arguments. 
 
 ### .forEach
 
-`.forEach` is a built in for loop on every array. `.forEach` takes a callback as its only argument, and iterates over every item in the array and calls the callback on it. The callback can take two arguments, the first is the item itself, the second is the index of the item, this argument is optional. 
+`.forEach` is a built-in for loop on every array. `.forEach` takes a callback as its only argument and iterates over every item in the array, calling the callback on it. The callback can take two arguments, the first being the item itself, and the second being the index of the item; this argument is optional:
 
 ```javascript
     const cars = ['Ford', 'Chevrolet', 'Toyota', 'Tesla'];
@@ -55,7 +55,7 @@ We already know about and use array methods, `.push`, `.pop`, `.shift`, `.unshif
 
 ### .reduce
 
-`.reduce` will run a loop on our array with the intention of reducing each item into one item that is returned. As it's first argument it takes a callback that takes two arguments, first an 'accumulator' (the result of the reduce method until now), and the second is the item it is currently on. The callback must ALWAYS contain a return statement. Reduce also takes an optional second argument, which would be the starting accumulator. If the starting accumulator is not supplied reduce will start at the first item of the array. `.reduce` will always return the accumulator when it is done iterating through the items.
+`.reduce` will run a loop on our array with the intention of reducing each item into one item that is returned. As its first argument, it takes a callback that takes two arguments: first is  an 'accumulator' (the result of the reduce method until now), and the second is the item it is currently on. The callback must ALWAYS contain a return statement. Reduce also takes an optional second argument; this  would be the starting accumulator. If the starting accumulator is not supplied, reduce will start at the first item of the array. `.reduce` will always return the accumulator when it is done iterating through the items:
 
 ```javascript
     const nums = [ 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -85,7 +85,7 @@ We already know about and use array methods, `.push`, `.pop`, `.shift`, `.unshif
 ```
 ### .map
 
-`.map` is used when we want to change every item in an array in the same way. `.map` takes a callback as its only argument. Like the `.forEach` method, the callback has the optional arguments item and index. Unlike `.reduce`, `.map` will return the entire array.
+`.map` is used when we want to change every item in an array in the same way. `.map` takes a callback as its only argument. Like the `.forEach` method, the callback has the optional arguments item and index. Unlike `.reduce`, `.map` will return the entire array:
 
 ```javascript
     const nums = [2, 3, 4, 5];
@@ -105,7 +105,7 @@ We already know about and use array methods, `.push`, `.pop`, `.shift`, `.unshif
     console.log(triple); // [ 6, 9, 12, 15 ]
 ```
 
-## Please open the homework folder and complete the assignment described in the README file
+## Please open the homework folder and complete the assignment described in the README file.
 
 ## Additional Resources:
 
