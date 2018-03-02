@@ -1,0 +1,1 @@
+Callback Functions: is a function that is accessed inside another function
