@@ -1,0 +1,11 @@
+A variable is a container where we can store data, and we give the variable a name to help us remember what is in the container or what type of data the container can store.
+Variables can store things such as letters, numbers, and true or false values.
+
+A string is a variable that contains characters surrounded by quotes.
+
+A function is block of code that performs a specific task. Functions can accept arguments and return a value. An argument is data that you pass to the function to use.
+
+An if statement is code that is performed if a condition is met. If the condition is not met, then it ignores that part of the code and moves on to the rest of the function.
+
+A boolean is a value that is either true or false.
+The conditions in if statements, loops and any other statements that control the flow of the program use boolean values to run or ignore that part of the code.
