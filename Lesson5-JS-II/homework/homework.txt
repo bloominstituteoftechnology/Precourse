@@ -1,0 +1,22 @@
+* `for`: Loops are used to perform a task repeatedly. The for loop is used  to run the same code a finite number of times, each time with a different value. 
+It's syntax includes the 'for' keyword followed by '()' which contains the initialization statement, the conditional test statement and the update statement then curly braces which contains the code to be run. 
+For instance: we have the code below:
+
+book += page[0] + " ";
+book += page[1] + " ";
+book += page[2] + " ";
+
+The above code can be condensed using the for loop:
+	for (i = 0; i < page.length; i++) {
+    	book += page[i] + " ";
+    } 
+
+
+
+
+* `&&`: The AND logical operator compares both expressions and returns true if and only if  both expressions are true. It returns false if one or both expressions are false. 
+
+`||`: The OR logical operator compares both expressions and returns true if one or both of the expressions is true. It returns false if both expressions are false.
+
+`!`: The NOT logical operator returns the opposite boolean value of the value passed to it.
+

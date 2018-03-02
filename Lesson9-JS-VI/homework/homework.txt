@@ -1,0 +1,1 @@
+* Callback Functions: These are functions that are passed as arguments into other functions. They can be called anytime within the function.

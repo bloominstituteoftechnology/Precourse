@@ -1,0 +1,1 @@
+* Closure: The idea of closure is simply that inner functions have access to the variables of outer functions. Inner functions look inside of outer functions before it looks at the global scope.

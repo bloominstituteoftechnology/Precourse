@@ -1,0 +1,4 @@
+* `prototype`: Thsi refers to the methods within a class that can be accessed by every object of that class. Each class has a prototype property on which methods can be set.
+
+
+* Constructors: These are like regular functions, but we use them with the "new" keyword. Constructors can be built-in like Array and Object, which are available automatically in the execution environment at runtime or customized which define properties and methods for your own type of object. A constructor is useful when you want to create multiple similar objects with the same properties and methods.
