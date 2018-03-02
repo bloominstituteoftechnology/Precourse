@@ -32,10 +32,9 @@ function addReverseString() {
   // name this method reverse
   // hint:
   // you will need to use 'this' inside of reverse
-  String.prototype.reverse = function () {
-    reverseString += this[i];
+  String.prototype.reverse = function reverse () {
+    return this.split('').reverse().join('');
   }
-  return reverseString;
 }
 
 // Do not modify code below this line.

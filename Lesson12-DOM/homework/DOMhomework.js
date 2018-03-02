@@ -24,10 +24,10 @@ spanNew.innerHTML += 'Rosa Sandoval';
 
 function ToDo () {
   // code here
-  function ToDo (description) {
+  function ToDo (description){
     this.description = description;
     this.complete = false;
-  }
+}
 }
 
 /* 

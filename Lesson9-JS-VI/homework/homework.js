@@ -27,9 +27,9 @@ function map(arr, cb) {
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
   const newArray = [];
-  arr.forEac(function(item){
-    newArray.push(cb(item));
-  });
+  for (let i = 0; i < arr.length; i++){
+    newArray.push(cb(arr[i]));
+  }
   return newArray;
   }
 

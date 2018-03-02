@@ -49,8 +49,9 @@ function newUser(name, email, password) {
   // return the new object
   const objThree = {
   name: name,
-  email: name,
-  password: password};
+  email: email,
+  password: password
+};
   return objThree;
 }
 
