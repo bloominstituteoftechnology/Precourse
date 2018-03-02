@@ -50,13 +50,13 @@ function greeting(language) {
   if (language === 'German'){
     return 'Guten Tag!';
   }
-  else if (language === ' Mandarin'){
-    return 'Ni Hao';
+  else if (language === 'Mandarin'){
+    return 'Ni Hao!';
   }
-  else if (language === ' Spanish'){
-    return 'Hola';
+  else if (language === 'Spanish'){
+    return 'Hola!';
   }
-  else return 'Hello';
+  else return 'Hello!';
   
 }
 
@@ -98,13 +98,13 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
-  if (num % 3 && num % 5){
+  if (num % 3 === 0 && num % 5 === 0){
     return 'fizzbuzz';
   }
-  else if (num % 3){
+  else if (num % 3 === 0){
     return 'fizz';
   }
-  else if (num % 5){
+  else if (num % 5 === 0){
     return 'buzz';
   }
   else return num;
