@@ -1,0 +1,99 @@
+body {
+    background-image: url("http://newimages.ru/wallpapers/big_6149_oboi_golubaja_shershavaja_poverhnost.jpg");
+    text-align: center !important;
+    margin: auto !important;
+    /* display: flex; */
+}
+
+h1 {
+    color: darkviolet;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: chocolate;
+    padding: 50px;
+    border: 10px solid yellowgreen;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+.divCenter {
+    margin: 0 auto;
+    /* This is to center the divs */
+}
+
+/* Flexbox CSS */
+#flexbox-example {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.flexbox {
+    border: 1px black solid;
+    margin: 20px;
+    padding: 10px;
+    width: 25%;
+}
+
+/* CSS positioning */
+#positioning-example {
+    border: 5px black solid;
+    height: 400px;
+    width: 80%;
+    margin: 20px auto;
+    position: relative; /*this is here so that the absolute positioning uses this as its parent and not the <html> tag. */
+}
+
+.posbox {
+    height: 80%;
+    width: 30%;
+    display: inline-block;
+    border: 5px black solid;
+    margin-left: 10px;    
+}
+
+
+/* .posbox h4 {
+    font-size: 20px;
+} */
+
+/* This will not show any cahnges as this is the default positioning for all elements. */
+#static {
+    position: static;
+    background: red;
+    height: 50%;
+    width: 50%;
+    top: 0px;
+    
+}
+
+/* This will be relative to the parent container/element */
+#relative {
+    position: relative;
+    background: green;
+    height: 50%;
+    width: 50%;
+    top: 0px;
+}
+
+/* Due to this being set to absolute, it will use its position in relation to the first upstream ancestor that has the position set to either relative or absolute. If none is set then
+    it will use the <html> element as its parent. To keep this example where it should be on the page I have set the positioning-example ID as the positioning parent by specifying it
+    as position relative. */
+#absolute {
+    position: absolute;
+    background: lightpink;
+    height: 50%;
+    width: 50%;
+    top: 0px;
+    z-index: -1;  /* I used this so that you could still see the title of the box otherwise the box would hide the title. */
+}
