@@ -86,8 +86,8 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  for(let y = 2; i < num; y++) {
-    if(y % 2 === 0 && i % 3 === 0) {
+  for(let y = 2; y < num; y++) {
+    if(y % 2 === 0 && y% 3 === 0) {
       y === false; 
     } else {
       y === true;
