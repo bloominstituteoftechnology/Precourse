@@ -1,0 +1,5 @@
+* Objects:  are special containers that can hold many variables. Each variable is made of a key and it's value  (Key:value).
+* Properties: are the name are the names used for each key in the objects. 
+* Methods: are instructions to the computer to perform on the object.
+* for in loop: a computer instruction that allows us to move through each variable in the object
+* Dot notation vs bracket notation: Each variable in the object can be reached in two ways. Dot notation is used to find or create a specific property. Example: user.email = x@y.com. Bracket notation is used to find or create an unknown property. Example user[email] = x@y.com.

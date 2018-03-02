@@ -1,0 +1,2 @@
+* `prototype`: is a link to an object's constructor that provides an instruction, but that instruction is not included in the object.
+* Constructors: instead of creating many object of the same kind with the same  properties, we can use a computer instruction called a constructor to build a blueprint that can help build many objects quickly.

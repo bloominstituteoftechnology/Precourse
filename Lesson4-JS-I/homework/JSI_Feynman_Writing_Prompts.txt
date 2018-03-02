@@ -1,0 +1,5 @@
+	* Variables: are similar to a container that can hold something of specific value, like a number, letters of the alphabet, words, sentences, or the answer to a true or false question. 
+	* Strings: this is a specific variable that can any character such as a letter, number or symbol, or any combination of those like sentences, but there must be a " before the 1st character and a " after the last character. Examples "this is a string" or "there was 17 feet of snow!" or "I feel happy :o) !!!"
+	* Functions (arguments, `return`): are instructions that tell the computer what to do with variables, such as addition, multiplication, and changes, and many more instructions.
+	* `if` statements: is an instruction hat asks the computer to answer a true or false question. If the answer is true, the computer is given a new instruction, and if the answer is false, the computer is given another new instruction that is different from the true answer instruction.
+	* Boolean values (`true`, `false`): this is a specific variable that can only hold the value or true or false.

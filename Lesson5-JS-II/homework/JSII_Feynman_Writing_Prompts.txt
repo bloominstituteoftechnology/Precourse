@@ -1,0 +1,5 @@
+for: is an instruction that asks the computer a question, if the answer to that question is true then the computer is instructed to perform another single or multiple set of instructions, and check if the question is true, and repeat the process until the answer to the question is not true. 
+
+&&, ||, !: The && is an instruction to the computer to compare at least two questions. The computer is given a specific instruction only if both questions are true. If both aren't true, then the computer will not perform the given instruction. 
+The || is similar to &&, except only one question needs to be true for the commputer to perform the given instruction 
+The ! NOT logical operator tell the computer to take the opposite meaning of the variable or question. Example !true = false
