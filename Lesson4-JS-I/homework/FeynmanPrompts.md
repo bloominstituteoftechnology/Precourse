@@ -1,0 +1,5 @@
+- Variables = a way to store data inside of functions or globally
+- Strings = a data type that is usually a word having no numeric value, defined by either single `''` or double `""` quotation marks.
+- Functions (arguments, `return`) =  how to manipulate data, which accepts arguments when running, and can also return values via the `return ` method.
+- `if` statements = conditional statements that determine the execution of functions or parts of functions if the condition is true.
+- Boolean values (`true`, `false`) = binary values that arise from certain conditions being met inside of functions.
