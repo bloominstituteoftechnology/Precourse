@@ -1,0 +1,34 @@
+h1 {
+    color: crimson;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 650px;
+    width: 400px;
+    background-color: #aaaaaa;
+    padding: 50px;
+    border: 10px cadetblue;
+}
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+}
+body {
+    
+    background-image: url('https://www.imgbase.info/images/safe-wallpapers/tv_movies/the_lord_of_the_rings/59825_the_lord_of_the_rings.jpg');
+}
+ul li {
+    list-style: none;
+    align-content: center;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+.headings {
+    text-align: center;
+}

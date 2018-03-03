@@ -57,7 +57,7 @@ In the last lesson we touched on Comparison Operators, we will go a little more 
 In the last lesson we introduced our comparison operators, (`>` `>=` `<` `<=` `===` `!==`). These operators work just as they would in a math class, greater than, less than, etc. We use these operators to evaluate two expressions. As the computer runs the code the operator will return either a `true` (if the statement is true) or a `false`. 
 
 ```javascript
-    1 > 2;     // alse
+    1 > 2;     // false
     2 < 3;     // true
     10 >= 10;  // true
     100 <= 1;  // false
