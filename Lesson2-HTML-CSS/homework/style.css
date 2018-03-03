@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(http://www.anothermonkeythai.com/wp-content/uploads/2015/06/rest.jpg);
+}
+
+h1{
+  color: navy;
+}
+
+img{
+  width: 400px;
+}
+
+div{
+
+}
+
+#thirdDiv{
+  height: 600px;
+  width: 500px;
+  padding: 50px;
+  border: 1px solid white;
+}
+
+#spanId{
+  margin: 50px;
+}
