@@ -1,0 +1,20 @@
+Recursion
+
+Recursion is a very useful tool for breaking difficult tasks into a series of smaller
+tasks, in order to make writing the solution more simple. A recursive function will
+call itself after it is finished executing the code related to its arguments. Before
+executing this code, which is the work we are doing, a recursive function will check
+to see if the work has been completed. In this way, we stop the recursive function
+from calling itself forever. If the work has been completed, the function returns
+it to the parent function. Recursive functions are written so that they will all
+pass this return value to their parents as well. A recursive function you may do
+in real life is with alphabetizing. When I had to do this, I would look at the first
+letter and create groups of items with the same starting letter. Then, I would take
+each group and continue alphabetizing. With enough books to sort, I might have done
+this one letter at a time! When a group was fully in order, I could add it to the
+shelf, and once all groups were complete, I was done. This could be written with
+recursion by writing a function that will divide one large group of information
+into smaller groups that are sorted compared to each other, and then calling itself
+with each of these smaller groups as the argument. When each returns, the data will
+be sorted. Sorting is one of many concepts which are powerfully simplified by using
+recursion.

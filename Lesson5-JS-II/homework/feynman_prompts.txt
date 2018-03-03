@@ -1,0 +1,26 @@
+For loops
+
+Sometimes we want to run an instruction many times with the same or slightly
+different values. For loops are a convenient way to avoid writing the same lines
+of instructions many times in a row. We can put instructions inside a for statement,
+and the program will repeatedly execute these instructions while the For loop is
+"active." We are able to control For loops with the arguments that we provide them.
+One of these arguments is a Boolean expression. Before each "loop," or before the 
+code in the for block is executed, this Boolean expression is checked for truth,
+and the loop is ended if the value is False. If the loop is executed successfully,
+any instructions in the final argument of the For loop are executed. Using these
+two arguments together is what allows us to count from 1 to 10, and to stop before
+we reach 11;
+
+&&, ||, and !
+
+These are each examples of "operators", which are similar to the more familiar
+arithmetic operators (+, -, *, /). These operators should be used when a boolean
+is the expected result of an instruction. The && operator is called "and," and
+compares the values on the left and right of it. && will return True only if
+both arguments are True, and False if not. || is the "or" operator, and also
+requires two values to compare. || will return true if either of its arguments is
+True, and will only return False if both arguments are False. ! is the "not"
+operator, and is rare in that it only accepts a single argument. The ! operator
+will return the opposite Boolean value of its argument, and is a convenient way
+to make your instruction match the Boolean value expected by your other code.

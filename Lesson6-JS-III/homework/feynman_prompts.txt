@@ -1,0 +1,7 @@
+Arrays
+
+Arrays are a special kind of variable where the name of the variable belongs to
+multiple similar values. They are often used together with For loops to run the
+same instructions with many different arguments. Arrays can be small or very large,
+and each value in the array can be accessed with the same variable name by using
+the "index" of the value.

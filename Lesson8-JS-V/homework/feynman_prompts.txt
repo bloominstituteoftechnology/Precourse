@@ -1,0 +1,23 @@
+prototype
+
+Many objects created while programming are similar to existing objects or have need
+of properties and methods that other objects possess. Most languages have features
+that allow programmers to share properties and methods between objects, which is
+called "inheritance." This concept imagines objects as parents and children to each
+other, and allows us to make relationships between our objects. The child objects
+in this system are allowed to access properties and methods owned by the parents.
+In Javascript, the `prototype` keyword is provided to allow access to the object's
+parent. Every object has a parent in its prototype, up to Object, which is the highest
+parent and has a prototype of `null`. This is how arrays and strings get their special
+methods, and we can use object prototypes in our own code to create the same convenience.
+
+Constructors
+
+We often want the ability to create our objects with many different values, and
+Constructors are an easy way to achieve this. They are a special kind of function
+that is called with a keyword, `new`. Inside the function, we can set the value of
+any properties we want on this new object by using another keyword, `this`. This
+allows us to easily create a new copy of our object with any values we like for its
+properties. Another feature allowed by constructors is used by accessing its prototype.
+By setting properties on the Constructor's prototype, we grant these properties to
+all objects created using the constructor. 
