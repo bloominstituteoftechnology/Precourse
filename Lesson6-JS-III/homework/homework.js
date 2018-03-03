@@ -94,8 +94,18 @@ return(num);
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
+   
+  var sum = 0; 
+  if (testscores > 0) { 
+      for (i = 0; i < testScores; i++) {
+          sum += grades[i][2]; 
+      }
+      return sum 
+  }
+  return 0; }
 
-}
+
+
 
 function largestNumber(numbers) {
   // numbers is an array of integers

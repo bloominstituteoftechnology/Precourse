@@ -41,6 +41,10 @@ function invokeMethod(object, method) {
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
+  function(){
+    mysteryNumber:
+  }
+  return product;
 }
 
 function deleteProperty(object, property) {
@@ -147,6 +151,13 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
+
+  storeItem.calculateDiscountPrice = function() {
+     discount = this.discountPercentage;
+     saved = this.price * discount;
+     finalPrice = this.price - saved;
+    return finalPrice;
+  };
 }
 
 // Do not modify code below this line.
