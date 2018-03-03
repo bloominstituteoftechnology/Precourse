@@ -1,0 +1,18 @@
+h1 {
+    color:aquamarine;
+    }
+img {
+      width: 400px;
+    }
+#thirdDiv {
+   height: 600px;
+   width: 500px;
+   background-color: yellow;
+   padding: 50px;
+    border: solid 5px lightpink;
+    }
+#spanId {
+   font-size: 18px;
+    }
+    <!--
+-->
