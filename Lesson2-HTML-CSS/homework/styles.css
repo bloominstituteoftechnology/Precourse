@@ -1,0 +1,32 @@
+body {
+  background-image: url("https://images.pexels.com/photos/9056/pexels-photo.jpg?auto=compress&cs=tinysrgb");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: brown;
+}
+img {
+  width: 400px;
+  height: 245px;
+  object-fit: cover;
+}
+#thirdDiv {
+  width: 600px;
+  height: 500px;
+  border: 1px solid darkgreen;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+ul {
+  list-style-type: none;
+}
