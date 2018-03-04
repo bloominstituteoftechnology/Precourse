@@ -48,7 +48,8 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-
+var newString = words.join(' ');
+return newString;
   }
   
 
@@ -56,12 +57,14 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-  for (let i = 0; i < arr.length; i++){
-    if (arr[i] === item){
-      return true;
-    }
-    else return false;
+for (let i = 0; i < arr.length; i++){
+  if (arr[i] === item){
+    return true;
   }
+  else {
+    return false;
+}
+}
 }
 
 function addNumbers(numbers) {
@@ -88,7 +91,9 @@ return average / testScores.length;
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
-
+var largestNum = 
+Math.max.apply(Math, numbers);
+return largestNum;
 }
 
 // Do not modify code below this line.
