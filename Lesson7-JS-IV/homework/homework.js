@@ -132,6 +132,8 @@ function sumUserPostLikes(user) {
   return sum;
 }
 
+//this problem had me stuck for the longest
+
 function addCalculateDiscountPriceMethod(storeItem) {
   // add a method to the storeItem object called 'calculateDiscountPrice'
   // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
