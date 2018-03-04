@@ -1,0 +1,9 @@
+objects: storage containers that contain key: value pairs
+
+properties: the key of an object
+
+methods: functions on objects
+
+for in loop: a way to iterate through an object
+
+dot notation vs bracket notation: two ways to access key: value pairs
