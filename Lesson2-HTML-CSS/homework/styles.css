@@ -1,0 +1,25 @@
+h1 {
+  color: dodgerblue;
+}
+
+img {
+  width: 400px;
+}
+
+li {
+  list-style-type: none;
+  margin-top: -100px;
+}
+
+#thirdDiv {
+  background-color: dodgerblue;
+  border: 4px solid #000;
+  height: 600px;
+  padding: 50px;
+  width: 500px;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}

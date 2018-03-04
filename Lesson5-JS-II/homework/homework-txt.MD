@@ -1,0 +1,3 @@
+1) For loops are used to repeat conditions a certain known amount of times.
+
+2) && is the and operator. It's used to check to see if two statements are true. If one statement is false, both statements will evaluate to false. Ex. 1 === 1 && 2 === 2 is true and 3 === 1 && 5 === 5 is evaluated to false. || is the or operator. If either one of the statement on either side of the || is true the whole condition will become true. Ex. 1 === 1 || 1 === 2 is true and 1 === 1 || 2 === 2 is true. ! is the not operator. It's used to make statements opposite of what it really is. !true is false and !false is true.
