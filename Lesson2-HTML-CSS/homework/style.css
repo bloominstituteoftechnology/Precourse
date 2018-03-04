@@ -1,0 +1,31 @@
+<!--
+h1{
+    color:red;
+}
+img {
+    width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(180, 78, 10); 
+    padding: 50px;
+    border: 10px solid black; 
+    margin: auto; 
+    
+}
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+    
+}
+.divClass {
+    text-align: center; 
+}
+
+body {
+    background: url(http://www.petpaw.com.au/wp-content/uploads/2014/10/Pup-and-Mom-Berger-Blanc-Suisse-Dogs.jpg)
+     
+}
+
+--> 
