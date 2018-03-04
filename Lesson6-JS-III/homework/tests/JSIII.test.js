@@ -84,4 +84,3 @@ describe('largestNumber(numbers)', function() {
     expect(exercises.largestNumber([97, 10000, 80, 55, 7.2, -94])).toBe(10000);
   });
 });
-
