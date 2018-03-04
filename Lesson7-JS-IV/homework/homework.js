@@ -145,11 +145,11 @@ function addCalculateDiscountPriceMethod(storeItem) {
     discount: storeItem.price * storeItem.discountPercentage,
     discountedPrice: storeItem.discount - storeItem.price,
     calculateDiscountPrice: function() {
-      return  storeItem.price - total.discount;
-      },
-    };
-    return total;
-  }
+    return  storeItem.price - total.discount;
+    },
+  };
+  return total;
+}
   
 // Do not modify code below this line.
 // --------------------------------
