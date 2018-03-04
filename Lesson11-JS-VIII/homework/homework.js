@@ -6,7 +6,16 @@ function nFactorial(n) {
   // return the factorial for n
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
+ if (n === 0 ) {
+    return 1;
+  } else {
+    console.log(n);
+    return n * nFactorial(n - 1);
+    // 3 * 2 * 1
+  }
 }
+
+
 
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
