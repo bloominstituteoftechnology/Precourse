@@ -1,0 +1,13 @@
+variables  = storage of something
+
+strings = "text surrounded by quotations marks"
+
+functions = a general mechanism to execute code
+
+arguments = the specific variables we pass into the functions
+
+return = sends the solution outside of the function and stops the execution of the function
+
+if statements = a way to create multiple possibilities (if the conditional statement is true, the code within the if statement executes; if not the function checks the next conditional until it finds a true statement)
+
+boolean values = true or false

@@ -1,0 +1,1 @@
+arrays: a way to store things in sequential order

@@ -1,0 +1,7 @@
+for: a way for a function to continue to execute until the condition is no longer true
+
+&&: means 'and'; it is used in conditions (the condition before && and after && must be true for the statement to be true)
+
+||: means 'or'; it is used in conditions (the condition before || OR the condition after || must be true for the statement to be true)
+
+!: means 'not'
