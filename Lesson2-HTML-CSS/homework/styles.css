@@ -1,0 +1,55 @@
+h1 { color: black; }
+img{ width: 400px; }
+#spanId { font-size: 18px; }
+body {
+    background-image:url( http://floridakeysdivectr.com/wp-content/uploads/2013/12/Sand-underwater-wallpaper_5257.jpg;)
+}
+
+
+
+.container  {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.heading2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+ 
+ul.rank {
+    list-style: none outside none;
+    padding: 50px;
+    margin: 50px;
+    position: center;
+    border: 10px; 
+    border-style: outset;
+    height: 600px;
+    width: 500px;
+}
+
+
+  
+    
+
+ul.rank p {
+  
+    text-align:center;
+    position: Center;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+
+
+div {
+    display: flex;
+    white-space: wrap;
+    flex-direction: column;
+}

@@ -3,7 +3,7 @@
 */
 
 // code here
-
+let toDoItems = [];
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
@@ -11,6 +11,9 @@
 */
 
 // code here
+const p = document.querySelector('#createdBy');
+    console.log(p.innerHTML)
+    p.innerHTML = 'This app was created by: David Becker';
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -18,35 +21,45 @@
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+function ToDo (description) {
+    this.description = description;
+    this.complete = false;}
   // code here
-}
 
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
           It will not take any arguemnts. 
           Inside the function set the ToDo's 'complete' property to true.
 */
-
-// code here
+ToDo.prototype.completeToDo = function(){
+ this.complete = true;}
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
           the second is a numerical index.
            
           Inside this function it should:
-            1.) Create a new 'div' element. Set this to a variable 'toDoShell'.
-            2.) Give 'toDoShell' a class (for CSS) of 'toDoShell'.
-            3.) Create a new 'span' element. Set this to a variable called 'toDoText'.
-            4.) Using the toDo item passed in, set the 'toDoText' innerHTML to the value of the 'description' property on the toDo object.
-            5.) Set the id of 'toDoText' to the value of the index argument.
-            6.) Using an if statement, check to see if the 'complete' property on the object passed as the first argument 
+           / 1.) Create a new 'div' element. Set this to a variable 'toDoShell'.
+           / 2.) Give 'toDoShell' a class (for CSS) of 'toDoShell'.
+           / 3.) Create a new 'span' element. Set this to a variable called 'toDoText'.
+           / 4.) Using the toDo item passed in, set the 'toDoText' innerHTML to the value of the 'description' property on the toDo object.
+           / 5.) Set the id of 'toDoText' to the value of the index argument.
+           / 6.) Using an if statement, check to see if the 'complete' property on the object passed as the first argument 
                   is set to true. If it is, give 'toDoText' a CSS class of 'completeText'. If it is not, do not give it a class.
             7.) Append child 'toDoText' to 'toDoShell'
             8.) return toDoShell
 */
 
 function buildToDo(todo, index) {
+  const toDoShell = document.createElement('div')
+  toDoShell.classList.add('toDoShell');
+  const toDoText = document.createElement('span')
+  toDoText.innerHTML = todo.description
+  toDoText.id = index;
+  if (todo.complete === true) { toDoText.classList.add('completeText'); } 
+  toDoText.onclick=completeToDo
+  toDoShell.appendChild(toDoText);
+  return toDoShell;
   // code here
 }
 
@@ -57,6 +70,7 @@ function buildToDo(todo, index) {
 */
 
 function buildToDos(toDos) {
+  return toDos.map(buildToDo);
   // code here
 }
 
@@ -73,9 +87,13 @@ function buildToDos(toDos) {
 */
 
 function displayToDos() {
-  // code here
+  const toDoContainer = document.getElementById('toDoContainer');
+  toDoContainer.innerHTML = '';
+  const myVar = buildToDos(toDoItems);
+  for(let i = 0; i < myVar.length; i++) {
+    toDoContainer.appendChild(myVar[i]);
+ }
 }
-
 /* 
   STEP 7: This function, 'addToDo' will add a new ToDo to the 'toDoItems' array.
           NOTE: We have not learned about input HTML elements yet, so we will give you a little more code to go on here.
@@ -89,6 +107,11 @@ function displayToDos() {
 */
 
 function addToDo() {
+  const newToDo = document.getElementById('toDoInput');
+  const neww = new ToDo(newToDo.value);
+  toDoItems.push(neww);
+  newToDo.value ='';
+  displayToDos();
   // code here
 }
 
@@ -97,6 +120,8 @@ function addToDo() {
           1.) Select the element with the id 'addButton'
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
+
+document.getElementById('addButton').onclick = addToDo;
 
 // cod here
 
@@ -115,7 +140,10 @@ function addToDo() {
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+   const index = event.target.id;
+   toDoItems[index].completeToDo();
+   displayToDos();
+
   // code here
 }
 
@@ -137,7 +165,7 @@ function completeToDo(event) {
 
 // Call displayToDos here (Step 6)<-----
 
-
+displayToDos();
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
   module.exports = {
