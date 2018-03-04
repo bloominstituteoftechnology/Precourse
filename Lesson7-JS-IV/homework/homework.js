@@ -125,9 +125,9 @@ function sumUserPostLikes(user) {
   // sum together the likes from all the post objects
   // return the sum
   let sum = 0;
-  for (let i = 0; i < user.post; i++) {
-    let user = user.post.likes;
-    sum += user.post.likes;
+  for (let i = 0; i < user.posts.length; i++) {
+    let obj = user.posts[i];
+    sum += obj.likes;
   }
   return sum;
 }
@@ -141,15 +141,14 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
-  const newCalc = {
-    price: 20,
-    discountPercentage: .2,
-    discountPrice: 20 - (20 * .2),
+  const total = {
+    discount: storeItem.price * storeItem.discountPercentage,
+    discountedPrice: storeItem.discount - storeItem.price,
     calculateDiscountPrice: function() {
-      return storeItem.price * newCalc.discountPercentage;
-    }
+      return  storeItem.price - total.discount;
+    },
   };
-  return newCalc;
+  return total;
 }
 
 // Do not modify code below this line.
