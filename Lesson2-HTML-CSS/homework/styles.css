@@ -1,0 +1,36 @@
+body {
+    background-image: url("http://www.formapizzeria.com/uploaded_images/background-1932466_1920-min.jpg");
+    color: white;
+}
+
+h1 {
+    color: crimson;
+}
+
+img {
+    width: 400px;
+}
+
+div {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: lightgrey;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
