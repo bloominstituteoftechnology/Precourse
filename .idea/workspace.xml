@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de8b0eaf-42c1-4ae1-9053-907b850049f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson3-CSS-Positioning/homework/homework.css" afterPath="$PROJECT_DIR$/Lesson3-CSS-Positioning/homework/homework.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson4-JS-I/homework/homework.js" afterPath="$PROJECT_DIR$/Lesson4-JS-I/homework/homework.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,21 +14,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="homework.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson3-CSS-Positioning/homework/homework.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson4-JS-I/homework/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="323">
+                <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homework.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson3-CSS-Positioning/homework/homework.css">
+      <file leaf-file-name="JSI.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson4-JS-I/homework/tests/JSI.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="-153">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homework.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lesson4-JS-I/homework/homework.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -52,6 +67,8 @@
         <option value="$PROJECT_DIR$/Lesson2-HTML-CSS/homework/homework.html" />
         <option value="$PROJECT_DIR$/Lesson2-HTML-CSS/homework/styles.css" />
         <option value="$PROJECT_DIR$/Lesson3-CSS-Positioning/homework/homework.css" />
+        <option value="$PROJECT_DIR$/Lesson4-JS-I/homework/tests/FEYNMAN.md" />
+        <option value="$PROJECT_DIR$/Lesson4-JS-I/homework/homework.js" />
       </list>
     </option>
   </component>
@@ -59,9 +76,19 @@
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpServers">
     <servers />
@@ -120,6 +147,24 @@
               <item name="Lesson3-CSS-Positioning" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="homework" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Precourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Precourse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Lesson4-JS-I" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Precourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Precourse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Lesson4-JS-I" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="homework" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Precourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Precourse" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Lesson4-JS-I" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="homework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -136,6 +181,11 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="C:\Users\luisa\Documents\full-stack-development-offline\lambda-precourse\Precourse\node_modules\eslint" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luisa\Documents\full-stack-development-offline\lambda-precourse\Precourse\Lesson4-JS-I\homework" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,12 +212,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520124868779</updated>
-      <workItem from="1520124875709" duration="3195000" />
+      <workItem from="1520124875709" duration="6032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3195000" />
+    <option name="totallyTimeSpent" value="6032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -228,6 +278,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson3-CSS-Positioning/homework/homework.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson3-CSS-Positioning/homework/homework.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-408">
@@ -236,10 +294,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson3-CSS-Positioning/homework/homework.css">
+    <entry file="file://$PROJECT_DIR$/Lesson4-JS-I/homework/tests/JSI.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson4-JS-I/homework/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson4-JS-I/homework/FEYNMAN.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="357" lean-forward="false" selection-start-line="10" selection-start-column="357" selection-end-line="10" selection-end-column="357" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson4-JS-I/homework/homework.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding />
         </state>
       </provider>
