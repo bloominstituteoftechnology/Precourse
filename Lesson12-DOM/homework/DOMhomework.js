@@ -3,7 +3,7 @@
 */
 
 // code here
-toDoItems = [];
+let toDoItems = [];
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
@@ -56,12 +56,12 @@ function buildToDo(todo, index) {
   let toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
   let toDoText = document.createElement('span'); 
-  toDoText.innerHTML = toDo.description;
+  toDoText.innerHTML = ToDo.description;
   toDoText.id = index;
   toDoText.onclick = function() {
     completeToDo(toDoText.id);
   };
-    if (toDo.complete) {
+    if (ToDo.complete) {
       toDoText.class = 'completeText'
     }
   toDoShell.append(toDoText)
@@ -75,13 +75,13 @@ function buildToDo(todo, index) {
 */
 
 function buildToDos(toDos) {
+  return toDos.map(buildToDo);
   // code here
   // take array toDo
   // use .map to use the 'buildtodo' function as a callback
   //return new mapped array
-return buildToDo(toDos);
 }
-
+//  const triple = nums.map(multiplyByThree)
 /* 
   STEP 6: Now that we can build an array of toDo elements, we want to make these elements appear on the screen, 
           to do this we will create a 'displayToDos' function.
