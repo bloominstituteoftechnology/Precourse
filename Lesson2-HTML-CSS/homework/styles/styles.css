@@ -1,0 +1,50 @@
+html {
+    background: url("https://image.freepik.com/free-vector/golden-ornamental-pattern-background_1268-828.jpg");
+    width: 90%;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.divClass {
+    display: inline-block;
+    margin: 15px;
+}
+
+h1 {
+    color: darkslategrey;
+}
+
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: aquamarine;
+    padding: 50px;
+    border: 3px dotted darkslategrey;
+    display: flex;
+    justify-content: center;
+}
+
+#spanId {
+    margin: 50px;
+    font-size: 18px;
+}
+
+h3 {
+    display: block;
+}
+
+li {
+    list-style: none;
+    margin: 15px;
+}
