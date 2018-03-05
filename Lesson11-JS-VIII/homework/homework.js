@@ -9,19 +9,14 @@ function nFactorial(n) {
   else return 1;
 }
 
-var cache = {};
-function nFibonacci(n) { 
-  if (n <= 1) {
-    return 1;
-    }
-  }
-  if (n in cache) {
-    return cache[n];
-  }
-  var value = nFibonacci(n - 1) + nFibonacci(n - 2);
-  cache[n] = value;
-  return value;
-}
+function nFibonacci(n) {
+  let arr = [1, 1, 2];
+ for (i = 2; arr.length < (n + 2); i + arr[i++]) {
+  i = arr[arr.length - 1] + arr[arr.length - 2];
+  arr.push(i);
+ }
+ return arr[n];
+ }
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
  
