@@ -1,0 +1,21 @@
+img {   height:100px;
+        width: 400px;
+    }
+h1 {    color: darkgreen;
+    }
+#thirdDiv { margin:auto;
+            height:600px;
+            width:500px;
+            background-color:red;
+            padding:50px;
+            border: 10px ridge orange;
+            }
+.spanID {   font-size:18px;
+            margin:50px;
+        }
+body {  height: 100%;
+        width: 100%;
+        background: url(https://www.seriouseats.com/images/20120227-tonkotsu-ramen-broth-pork-fat-25a.jpg) no-repeat center center fixed;
+        background-size: auto 100%;
+        text-align: center; 
+    }
