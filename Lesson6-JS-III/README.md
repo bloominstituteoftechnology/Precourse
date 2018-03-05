@@ -121,6 +121,24 @@ Most of the time, for loops are used to iterate over all of the items in an arra
     // 'Raj'
 ```
 
+## Arguments object
+
+When we pass arguments to a function they are contained in an array-like data structure called `arguments`. `arguments` is available to us anywhere within the function and contains all of the arguments passed to it. While it is array like, it does not have all of the properties of an array. One property it does have is the method `.length`. When we are given a function with an unknown number of arguments, we can use `.length` and a `for` loop to iterate over all of the arguments:
+
+```javascript
+    function sumAllTheNumbers() {
+        let sum = 0;
+
+        for (let i = 0; i < arguments.length; i++) {
+            sum = sum + arguments[i];
+        }
+
+        return sum;
+    }
+
+    sumAllTheNumbers(2, 5, 3, 4, 7, 9, 1, 0, 7, 7, 7);  // 52
+```
+
 ## Please open the homework folder and complete the assignment described in the README file
 
 ## Additional Resources
