@@ -27,7 +27,7 @@ describe('ToDo Class', () => {
     desc = 'Create ToDo';
     newToDo = new ToDo(desc);
   });
-  
+
   it('creates a ToDo', () => {
     expect(newToDo.description).toEqual(desc);
     expect(newToDo.complete).toEqual(false);
