@@ -4,7 +4,7 @@
 const newString = 'myNewString';
 
 //create a number variable, it an be any number
-const newNum = 12 ;
+const newNum = 12;
 
 //create a boolean variable
 const newBool = true;
@@ -13,10 +13,10 @@ const newBool = true;
 const newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-const newMultiply = 10 * 4 === 40 ;
+const newMultiply = 10 * 4 === 40;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === 1 ;
+const newModulo = 21 % 5 === 1;
 
 
 
@@ -26,24 +26,27 @@ const newModulo = 21 % 5 === 1 ;
 //Do not change any of the function names
 
 function returnString(str) {
-      //simply return the string provided: str
+  //simply return the string provided: str
   return str;
 }
 
 function add(x, y) {
-                                 // x and y are numbers
-  return (x + y);               // add x and y together and return the value
-                                // code here
+// x and y are numbers
+// add x and y together and return the value
+// code here
+  return x + y;
 }
 
 function subtract(x, y) {
-                            // subtract y from x and return the value
-  return (x - y);          // code here
+// subtract y from x and return the value
+// code here
+  return x - y;
 }
 
 function multiply(x, y) {
-                             // multiply x by y and return the value
-  return (x * y);          // code here
+// multiply x by y and return the value
+// code here
+  return x * y;
 }
 
 function divide(x, y) {
