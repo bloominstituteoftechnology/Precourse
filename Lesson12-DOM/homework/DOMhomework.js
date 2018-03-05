@@ -1,7 +1,7 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-
+var toDoItems = [];
 // code here
 
 /* 
@@ -9,7 +9,9 @@
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
           add your name to the END of the current innerHTML.
 */
-
+const span = document.querySelector('#createdBy');
+span.innerHTML += ' Nicholas Brennan';
+//console.log(span.innerHTML + ' Nicholas Brennan');
 // code here
 
 /* 
@@ -18,8 +20,10 @@
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+function ToDo(description){
   // code here
+  this.description = description;
+  this.complete = false;
 }
 
 /* 
@@ -27,6 +31,10 @@ function ToDo () {
           It will not take any arguemnts. 
           Inside the function set the ToDo's 'complete' property to true.
 */
+
+ToDo.prototype.completeToDo = function(){
+  this.complete = true;
+}
 
 // code here
 
@@ -46,8 +54,19 @@ function ToDo () {
             8.) return toDoShell
 */
 
-function buildToDo(todo, index) {
+function buildToDo(todo, index){
   // code here
+  const toDoShell = document.createElement('div');
+  toDoShell.className = 'toDoShell';
+  const toDoText = document.createElement('span');
+  toDoText.innerHTML = todo.description;
+  toDoText.id = index;
+  toDoText.onclick = completeToDo;
+  if(ToDo.complete === true) {
+    toDoText.className = 'completeText';
+  }
+  toDoShell.appendChild(toDoText);
+  return toDoShell;
 }
 
 /* 
@@ -55,9 +74,10 @@ function buildToDo(todo, index) {
           Using the map method on the array passed in, use the 'buildToDo' function you wrote above as the callback passed to map. 
           Return the new mapped array.
 */
-
-function buildToDos(toDos) {
+function buildToDos(toDos){
   // code here
+  const arr = toDos.map(buildToDo);
+  return arr;
 }
 
 /* 
@@ -72,8 +92,14 @@ function buildToDos(toDos) {
           You can now load your html file in your broswer and see your work so far.
 */
 
-function displayToDos() {
+function displayToDos(){
   // code here
+  const toDoContainer = document.querySelector('#toDoContainer');
+  toDoContainer.innerHTML = '';
+  const arr = buildToDos(toDoItems);
+  arr.forEach(function(element){
+    toDoContainer.appendChild(element);
+  });
 }
 
 /* 
@@ -88,8 +114,12 @@ function displayToDos() {
           4.) Call displayToDos to refresh the toDos displayed
 */
 
-function addToDo() {
+function addToDo(){
   // code here
+  const newToDo = new ToDo(document.querySelector('#toDoInput').value);
+  toDoItems.push(newToDo);
+  document.querySelector('#toDoInput').value = '';
+  displayToDos();
 }
 
 /* 
@@ -97,6 +127,9 @@ function addToDo() {
           1.) Select the element with the id 'addButton'
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
+
+addButton = document.querySelector('#addButton');
+addButton.onclick = addToDo;
 
 // cod here
 
@@ -112,11 +145,12 @@ function addToDo() {
           2.) call displayToDos to refresh to items on the screen.
           3.) In the 'buildToDo' function add a 'click' event listener to the 'toDoText' element, and pass this function as the callback.
 */
-
-function completeToDo(event) {
+function completeToDo(event){
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+  const index = event.target.id;
   // code here
+  toDoItems[index].completeToDo();
+  displayToDos();
 }
 
 /* STEP 10: Make sure ALL tests pass */
@@ -137,6 +171,7 @@ function completeToDo(event) {
 
 // Call displayToDos here (Step 6)<-----
 
+displayToDos();
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {

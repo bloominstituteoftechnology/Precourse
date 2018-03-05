@@ -1,0 +1,34 @@
+.divClass {
+    text-align: center;
+}
+h1 {
+    color: blue;
+}
+img {
+    width: 400px;
+    max-width:50%;
+    vertical-align: middle;
+}
+#thirdDiv {
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    height: 600px;
+    width: 500px;
+    background-color: blue;
+    padding: 50px;
+    border: 25px dotted orange;
+}
+#thirdDiv>ul {
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+body {
+    background-image: url("http://ak9.picdn.net/shutterstock/videos/15484579/thumb/1.jpg");
+}
