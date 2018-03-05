@@ -8,10 +8,10 @@ function makeCat(name, age) {
       return 'Meow!';
     },
   };
- return newObject;
- }
+  return newObject;
+}
 
- function addProperty(object, property) {
+function addProperty(object, property) {
   const newProperty = property;
   object[newProperty] = null;
   return object;
@@ -24,7 +24,6 @@ function makeCat(name, age) {
 function invokeMethod(object, method) {
   const methodString = method;
   object[methodString]();
-
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
@@ -56,7 +55,6 @@ function newUser(name, email, password) {
 }
 
 function hasEmail(user) {
- // const newUser = user;  
   if (user.email === undefined) {
       return false;
     }
@@ -72,9 +70,9 @@ function hasEmail(user) {
 
 
 function hasProperty(object, property) {
- const propString = property;
+  const propString = property;
   if (object[propString]) {  
- return true;
+    return true;
   }
   else {
     return false;
@@ -84,7 +82,7 @@ function hasProperty(object, property) {
    // otherwise return false
  }
 
- function verifyPassword(user, password) {
+function verifyPassword(user, password) {
   if (user.password === password) {
     return true;
   }
@@ -114,7 +112,7 @@ function addFriend(user, newFriend) {
 
 function setUsersToPremium(users) {
   for (let i = 0; i < users.length; i++) {
-      users[i].isPremium = true;
+    users[i].isPremium = true;
   }
   return users;
   // users is an array of user objects.
@@ -125,12 +123,11 @@ function setUsersToPremium(users) {
 
 function sumUserPostLikes(user) {
   var sumLikes = 0;
-for (let i = 0; i < user.posts.length; i++) {
-   sumLikes = sumLikes + user.posts[i].likes;
-}
-    return sumLikes;
-      
-   // user has an array property called 'posts'
+  for (let i = 0; i < user.posts.length; i++) {
+    sumLikes = sumLikes + user.posts[i].likes;
+  }
+  return sumLikes;    
+  // user has an array property called 'posts'
   // posts is an array of post objects
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
@@ -139,10 +136,10 @@ for (let i = 0; i < user.posts.length; i++) {
 
 function addCalculateDiscountPriceMethod(storeItem) {
   storeItem.calculateDiscountPrice =  function() {
-   storeItem.discountPrice = storeItem.price - (storeItem.price * storeItem.discountPercentage);
-   return storeItem.discountPrice;
- };
-return storeItem;
+    storeItem.discountPrice = storeItem.price - (storeItem.price * storeItem.discountPercentage);
+    return storeItem.discountPrice;
+  };
+  return storeItem;
 // add a method to the storeItem object called 'calculateDiscountPrice'
 // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
 // the method then subtracts the discount from the price and returns the discounted price
