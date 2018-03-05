@@ -1,0 +1,31 @@
+body {
+  background-image: url("bg.png");
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: #f9f9f9;
+  padding: 50px;
+  border: 1px solid #999999;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
