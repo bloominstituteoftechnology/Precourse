@@ -1,5 +1,14 @@
 // Do not change any of the function names
 
+/*
+Prototype - Creating and storing methods/functions on new class objects take up memory. Classes can set a method once and 
+give access to the objects of that class by using the prototype. You can use 'this' and point to the object that is calling the method.
+
+Constructor - classes that are effectively templates for copies to be used repeatedly. Classes share functionality of objects but
+expand on that with properties and being able to use methods (on prototypes).
+
+*/
+
 function createUserClass() {
   // create an ES6 class or a constructor function called User
   // it should accept an options object with username, name, email, and password properties
@@ -7,11 +16,24 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the class
+  function User(options){
+    this.username = options.username;
+    this.name = options.name;
+    this.email = options.email;
+    this.password = options.password;
+  }
+  User.prototype.sayHi = function(){
+    return ('Hello, my name is ' + this.name);
+  };
+  return (User);
 }
 
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
+  Constructor.prototype.sayHi = function(){
+    return('Hello World!');
+  };
 }
 
 function addReverseString() {
@@ -19,6 +41,13 @@ function addReverseString() {
   // name this method reverse
   // hint:
   // you will need to use 'this' inside of reverse
+  String.prototype.reverse = function(){
+    let reverseString = '';
+    for (var i = this.length - 1; i >= 0; i--){
+      reverseString += this[i];
+    };
+    return(reverseString);
+  };
 }
 
 // Do not modify code below this line.
