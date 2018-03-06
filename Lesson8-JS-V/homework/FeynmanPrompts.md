@@ -1,0 +1,2 @@
+- `prototype` = A prototype in JavaScript is a way of setting a function in a class that enables the objects of that class to have access to that function.
+- Constructors = Constructors or `classes` in JavaScript are similar to Objects but have greater functionality. They are similar to a template, whereby a Constructor can create many Objects with properties defined by the Constructor. 
