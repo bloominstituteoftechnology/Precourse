@@ -178,7 +178,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  const conc = ('hi' + ' ' + name + '!');
+  const conc = ('Hello' + ' ' + name + '!');
   return conc;
 
 }
@@ -196,7 +196,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  const tri = (0.5(base * height));
+  const tri = (1/2(base * height));
   return tri;
 }
 
