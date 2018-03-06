@@ -71,7 +71,9 @@ function areSameLength(str1, str2) {
   if ((str1.length) === (str2.length)) {  
     return true;                        
   }                                     
-  return false;
+  else {
+    return false;
+  }
 }
 
 function lessThanNinety(num) {
@@ -81,7 +83,9 @@ function lessThanNinety(num) {
   if (num < 90) {                
     return true;                
   }                              
-  return false;
+  else {
+    return false;
+  }
 }
 
 function greaterThanFifty(num) {
