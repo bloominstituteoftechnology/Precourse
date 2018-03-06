@@ -1,7 +1,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = 'myNewString';
+const newString = 'my New String';
 
 //create a number variable, it an be any number
 const newNum = 12;
@@ -31,121 +31,160 @@ function returnString(str) {
 }
 
 function add(x, y) {
-// x and y are numbers
-// add x and y together and return the value
-// code here
+  // x and y are numbers
+  // add x and y together and return the value
+  // code here
   return x + y;
 }
 
 function subtract(x, y) {
-// subtract y from x and return the value
-// code here
+  // subtract y from x and return the value
+  // code here
   return x - y;
 }
 
 function multiply(x, y) {
-// multiply x by y and return the value
-// code here
+  // multiply x by y and return the value
+  // code here
   return x * y;
 }
 
 function divide(x, y) {
-                                // divide x by y and return the value
-  return (x / y);            // code here
+  // divide x by y and return the value
+  // code here
+  return (x / y);
 }
 
 function areEqual(x, y) {
+  // otherwise return false
+  // code here
   if (x === y) {
     return true ;e
-  }                             // otherwise return false
-  return false;                 // code here
+  }                             
+  return false;                 
 }
 
 function areSameLength(str1, str2) {
-  if ((str1.length) === (str2.length)) {  // return true if the two strings have the same length
-    return true;                        // otherwise return false
-  }                                     // code here
+  // return true if the two strings have the same length
+  // otherwise return false
+  // code here
+  if ((str1.length) === (str2.length)) {  
+    return true;                        
+  }                                     
   return false;
 }
 
 function lessThanNinety(num) {
-  if (num < 90) {                // return true if the function argument: num , is less than ninety
-    return true;                // otherwise return false
-  }                              // code here
+  // return true if the function argument: num , is less than ninety
+  // otherwise return false
+  // code here
+  if (num < 90) {                
+    return true;                
+  }                              
   return false;
 }
 
 function greaterThanFifty(num) {
-  if (num > 50) {                 // return true if num is greater than fifty
-    return true;                  // otherwise return false
-  }                               // code here
+  // return true if num is greater than fifty
+  // otherwise return false
+  // code here
+  if (num > 50) {                 
+    return true;                  
+  }                               
   return false;
 }
 
 function getRemainder(x, y) {
-                               // return the remainder from dividing x by y
-  return (x % y);            // code here
+  // return the remainder from dividing x by y
+  // code here
+  return x % y;
 }
 
 function isEven(num) {
-  if ((num % 2) == 0) {               // return true if num is even
-    return true;                  // otherwise return false
-  }                               // code here
+  // return true if num is even
+  // otherwise return false
+  // code here
+  if ((num % 2) == 0) {               
+    return true;                  
+  }                               
   return false;
 }
 
 function isOdd(num) {
-  if ((num % 2) == 1) {
-                             // return true if num is odd
-    return true;                  // otherwise return false
-  }                               // code here
+  // return true if num is odd
+  // otherwise return false
+  // code here
+  if ((num % 2) == 1) {                          
+    return true;                  
+  }                               
   return false;
 }
 
 function square(num) {
-  return (Math.pow(num,2));                   // hint: NOT square root!
+  // square num and return the new value
+  // hint: NOT square root!
+  // code here
+  return (Math.pow(num,2));                   
 }
 
 function cube(num) {
-  return (Math.pow(num,3));                     // code here
+  // cube num and return the new value
+  // code here
+  return (Math.pow(num,3));                     
 }
 
 function raiseToPower(num, exponent) {
-  return (Math.pow(num,exponent));                           // code here
+  // raise num to whatever power is passed in as exponent
+  // code here
+  return (Math.pow(num,exponent));                          
 }
 
 function roundNumber(num) {
-   return (Math.round(num));                            // code here
+  // round num and return it
+  // code here
+  return (Math.round(num));                            
 }
 
 function roundUp(num) {
-  return (Math.ceil(num));                                  // code here
+  // round num up and return it
+  // code here
+  return (Math.ceil(num));                                  
 }
 
 function addExclamationPoint(str) {
-  return (str + '!');                // 'hello world' -> 'hello world!'
-                                                // code here
+  // add an exclamation point to the end of str and return the new string
+  // 'hello world' -> 'hello world!'
+  // code here
+  return (str + '!');
 }
 
 function combineNames(firstName, lastName) {
-  return (firstName + ' ' + lastName);                               // 'Lambda', 'School' -> 'Lambda School'
-                                                        // code here
+  // return firstName and lastName combined as one string and separated by a space.
+  // 'Lambda', 'School' -> 'Lambda School'
+  // code here
+  return (firstName + ' ' + lastName);
 }
 
 function getGreeting(name) {
-  return ('Hello ' + name + '!');                               // 'Sam' -> 'Hello Sam!'
-                                                        // code here
+  // Take the name string and concatenate other strings onto it so it takes the following form:
+  // 'Sam' -> 'Hello Sam!'
+  // code here
+  return ('Hello ' + name + '!');
 }
 
 // The next three questions will have you implement math area formulas. 
 // If you can't remember these area formulas then head over to Google.
  
 function getRectangleArea(length, width) {
-  return (length * width);                             // code here
+  // return the area of the rectangle by using length and width
+  // code here
+  return (length * width);
 }
 
 function getTriangleArea(base, height) {
-  return ((base * height) / 2);                         // code here
+  // return the area of the triangle by using base and height
+  // code here
+  return ((base * height) / 2);
 }
 
 // Do not modify code below this line.
