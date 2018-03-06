@@ -1,0 +1,18 @@
+#Variable
+
+A variable is basically a drawer with a label on it that you can store things in. It can grow or shrink to fit anything you want in it, or you can even leave it empty. Then later, when you want to find whatever you've been saving, you can just go and open the drawer by the label. When you use a variable in the program, you're just telling the computer where it can go to find whatever you stored there so it can use it. The crazy thing is that the drawers can get so big that you can store another set of drawers inside if you need to! Then all you have to do is remember the label on the drawer.
+
+#String
+
+A string is something human beings can read and understand, but that computers can't. A computer program has its own language, and if it tries to read human language, it would just get confused and have a mental breakdown. To avoid this happening, you put it in a sealed envelope that we call a string for short. Computer programs know they should never open a "string" envelope, since they won't understand it anyway. But they can still use the envelope itself, without knowing what's in it. For example, they could put some envelopes in order based on your instructions, then give them back to you. Then when you open them, they'll make a sentence you can understand, even though the computer never knew what was in them, the whole time.
+
+#Functions
+
+A function is basically a cook that you teach a recipe to. Once the cook knows the recipe, he'll try to follow it with whatever you give him, and give you back something else. So if you teach him how to make a cake, and then give him butter, flour, milk, sugar, and vanilla, he'll make you a vanilla cake every time. If you give him chocolate instead of vanilla, he'll make a chocolate cake. If you give him spinach instead, he'll make a spinach cake, and if you give him a log, he'll try to make a log cake but will break all the kitchen appliances. He's a very useful guy, but not exactly bright.
+
+#if statements
+
+An if statement is a very simple instruction you give your cook. You tell him to only perform an activity under certain circumstances. So you can only tell him to take the cake out of the oven IF it has been 30 minutes since he put it in. The cook follow directions pretty well, so if you give him a good "if" instruction like that, he'll do it everytime. If you give make a mistake, and tell him to only take the cake out when pigs can fly, then he'll burn the house down by never taking the cake out of the oven, so you have to make sure you're giving him the right instructions.
+
+#Boolean values
+A boolean value is a value that is either True or False.A computer program doesn't know exactly what those words mean, even though we do, but it knows what to do when it sees them. It's like a True is a green sign, and False is a red sign for humans. Green and red don't really mean anything on their own, but we've been taught that we can go when there's a green sign, and have to stop when there's a red sign. True and False are the two sign colors that a computer program can recognize, and we also teach the program what to do when it sees each sign type in different parts of town. We can even teach the computer when to put up a green sign or a red sign on its own, and then to follow the rules when it sees that sign.
