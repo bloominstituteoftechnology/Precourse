@@ -11,15 +11,23 @@ function nFactorial(n) {
   } else {
     console.log(n);
     return n * nFactorial(n - 1);
-    // 3 * 2 * 1
+      // 4 * 3 = 12
+      // 12 * 2  = 24
+      // 24 * 1 = 24
   }
 }
-
+      //nFactorial(4);
 
 
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
+  if (n <= 1){
+    return 1;
+  } else {
+    return nFibonacci(n - 1) + nFibonacci(n - 2);
+  }
+
 }
 
 // Do not modify code below this line.
