@@ -1,0 +1,11 @@
+==> Prototype:
+    Is how Javascript objects inherit features one from another.
+    this is why Javascript is often referred to as a prototype-based
+    language. Each object has a prototype object that acts as a template
+    that can inherit methods and properties from each other, so on and so on. 
+    this is called prototype chain.
+
+==> Constructors:
+    Constructors are properties of objects. Objects created without the explicit
+    use of a constructor function WILL have a constructor property that points 
+    to the object constructor type for that object.
