@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/22555287_1173018152798663_2852137103375494265_n.jpg?_nc_eui2=v1%3AAeGmOlkZ9yolL8ZI1xxrLgbZMZMU9DGBH19zzadPPENBORyA_6dW4x39FrTwjdJfKK6xxO7nsL2gpVWTR2863RQ3pMXya_S9vAnHk6Owlrt-Iw&oh=9ff6bfb9c1b26694d111f250e5aea3a8&oe=5B040CA4)
+}
+
+h1 {
+     color: gold;
+ }
+
+img{
+     width: 400px;
+ }
+
+#thirdDiv {
+            height: 600px;
+            width: 500px;
+            background-color: dimgray;
+            padding: 50px;
+            border: 2px solid gold;
+            margin-left: 30%;
+            margin-right: 30%;
+
+ }
+
+#spanId {
+            font-size: 18px;
+            margin: 50px;
+ }
+
+ div {
+     text-align: center;
+ }
+
+ .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: centre;  
+ }
