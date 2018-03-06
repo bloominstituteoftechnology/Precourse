@@ -61,3 +61,5 @@ typings/
 
 package-lock.json
 
+# Sublime Text project files
+*.sublime-*
