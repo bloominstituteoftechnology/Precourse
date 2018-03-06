@@ -110,6 +110,10 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
+  if(num % 2 === 0) {
+    return true;
+  }
+  return false;
 }
 
 function isOdd(num) {
@@ -121,6 +125,7 @@ function isOdd(num) {
   }
     return false;
 }
+
 
 function square(num) {
   // square num and return the new value
@@ -136,6 +141,7 @@ function cube(num) {
   const cub = Math.pow(num,3);
   return cub;
 }
+
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
@@ -196,7 +202,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  const tri = (1/2(base * height));
+  const tri = ((base * height)/2);
   return tri;
 }
 
