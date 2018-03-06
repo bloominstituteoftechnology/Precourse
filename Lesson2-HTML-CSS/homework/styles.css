@@ -1,0 +1,28 @@
+body {
+  background-image: url("http://40.media.tumblr.com/4249c16711f42f3acfb35755faefbe97/tumblr_ngx6y8NfGO1r630xzo1_500.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: darkred;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: tomato;
+  padding: 50px;
+  border: 2px solid black;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
