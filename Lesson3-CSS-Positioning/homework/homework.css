@@ -10,28 +10,23 @@ in this folder, you are in the wrong place.
 #exerciseOne {
   display:block;
   text-align:center;
-
 }
 
-
 /* Exercise Two: Positioning a Header Bar*/
+
+/* Place code here */
 #exerciseTwo {
   display:none;
 }
 
-/* Place code here */
-
-
-
 /* Exercise Three: */
 
 /* Place code here */
-
 #exerciseThree {
   position:relative;
   left:200px;
   top:100px;
-  }
+}
 
 /* Exercise Four: */
 
@@ -42,7 +37,6 @@ in this folder, you are in the wrong place.
   left:0px;
 }
 
-
 /* Exercise Five */
 
 /* Place code here */
@@ -52,11 +46,11 @@ in this folder, you are in the wrong place.
   align-items: center;
 }
 
-
 /* Exercise Six */
-#exerciseFive {
+#exerciseSix {
   flex-direction: row-reverse;
 }
+
 #exerciseSeven {
   display: flex;
 }
