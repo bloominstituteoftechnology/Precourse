@@ -5,7 +5,13 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
+  let count = 0;
+  return function counted(){
+    return ++count;
+  }
 }
+const increase = counter();
+counter();
 
 function cacheFunction(cb) {
   // use closure to create a cache for the cb function
