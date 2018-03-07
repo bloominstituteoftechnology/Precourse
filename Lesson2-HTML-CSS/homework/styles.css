@@ -1,0 +1,47 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+body{
+    background-image: url(https://previews.123rf.com/images/romastudio/romastudio1603/romastudio160300198/54088670-healthy-eating-background-food-photography-different-fruits-and-vegetables-isolated-white-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+/* flex container used to center div tags and content*/
+   /* div
+{
+    margin: 0 auto;
+    max-width: 700px;
+}
+*{
+text-align: center !important;
+margin: auto !important;
+}*/
+
+ h1{
+     color: blue;
+ }
+ h2{
+    position: relative;
+ }
+ img{
+     width: 400px;
+ }
+ #thirdDiv{
+     height: 600px;
+     Width :500px;
+     background-color: chartreuse;
+     padding: 50px;
+     border: 5px dashed black;
+ }
+ #spanId{
+    font-size: 18px;
+    margin-left: 2%;
+}
+ a{
+    position: relative;
+    left: 10px;
+ }
