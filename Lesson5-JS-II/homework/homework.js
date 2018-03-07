@@ -24,13 +24,13 @@ function multiplyArguments() {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
   if ( x > y){
-    console.log("x is biggest");
+    return('x is biggest');
   
 }if (x < y){
-  console.log("y is biggest");
+  return('y is biggest');
   
 }if(x===y){
-  console.log("they are the same");
+  return('they are the same');
 }
 }
 getBiggest(12,11);
@@ -62,7 +62,7 @@ function isTenOrFive(num) {
   if (num === 10) {
     return( 'true!');
 }if (num === 5){
-   console.log(true);
+   return(true);
 } else  {
   return(false);
 }
@@ -95,13 +95,13 @@ function isInteger(num) {
   // otherwise return false
   // hint: you can solve this using Math.floor
   if (num === 1){
-    console.log(true);
+    return(true);
   }if (num === 0.8){
-    console.log(false);
+    return(false);
   }if (num === -10){
-    console.log(true);
+    return(true);
   }else {
-    console.log(false);
+    return(false);
   }
    }      
           
@@ -115,19 +115,19 @@ function fizzBuzz(num) {
   // otherwise return num
   function fizzy(n) {
     if (n % 15 === 0) {
-      return "FizzBuzz";
+      return 'FizzBuzz';
     }
     if (n % 3 === 0) {
-      return "Fizz";
+      return 'Fizz';
     }
     if (n % 5 === 0) {
-      return "Buzz";
+      return 'Buzz';
     }
     return n.toString();
   }
   
   for (let i = 1; i <= 20; i++) {
-    console.log(fizzy(i));
+    return(fizzy(i));
   }
 }
 fizzBuzz();
@@ -156,7 +156,7 @@ function isPrime(num) {
   
         else {
           return false;
-        }
+        };
       }
     }
     else {

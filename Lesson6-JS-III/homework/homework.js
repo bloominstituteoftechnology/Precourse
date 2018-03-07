@@ -52,7 +52,7 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  var sentence ="";
+  var sentence ='';
   for (var i = 0; i < words.length; i++){
     sentence += ' ' + words[i];
   }
@@ -102,7 +102,8 @@ function averageTestScore(testScores) {
       }
       return sum 
   }
-  return 0; }
+  return 0;
+ }
 
 
 
@@ -121,7 +122,7 @@ for (i = 0; i < numbers.length; i++) {
 return constant;    // after iterating the entire array!
 }
 var numbers = [3, 4, 2, 6, 45, 775, 83, 5, 7];
-console.log(largestNumber(numbers));
+return(largestNumber(numbers));
 
 
 // Do not modify code below this line.
