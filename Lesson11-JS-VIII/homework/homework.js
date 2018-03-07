@@ -7,11 +7,12 @@ function nFactorial(n) {
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
   
-    const num = 42;
-    return num;
-  }
-const num =nFactorial(n);
-num + 100;
+  if ( n === 1 ){ return 1; } 
+
+   return n * nFactorial( n - 1 );
+   } 
+    
+
 
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...

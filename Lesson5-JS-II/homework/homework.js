@@ -4,28 +4,23 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
-  for(let i = 0; i <= arguments.length; i++) {
-    if(arguments[i] > 0){
-  
-       return arguments[i] * arguments[i];
-  
-      }
-  
-      else if(arguments.length === 0){
-  
-          return arguments.length;
-      }
-  
-    }  
-  }
-  
-  multiplyArguments();
-  
-  
-  
-  
+  if ( arguments.length === 0 ) { 
+    		return 0; 
+       	} 
+        
+    	var total = 1; 
+       
+    	for ( var i = 0; i < arguments.length; i++ ) { 
+           
+    		total *= arguments[i]; 
+      }   
+    return total;
 
-function getBiggest(x, y) {
+      }
+    MultiplyArguments();
+
+    
+  function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
   if ( x > y){
@@ -168,9 +163,9 @@ function isPrime(num) {
       return false;
     }
   
-  }
+  }  
   
-  console.log(isPrime(121));
+  
 
 
 // Do not modify code below this line.

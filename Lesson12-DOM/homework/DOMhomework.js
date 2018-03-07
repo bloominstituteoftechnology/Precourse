@@ -1,7 +1,7 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-const   toDoItems = [];
+let   toDoItems = [];
 // code here
 
 /* 

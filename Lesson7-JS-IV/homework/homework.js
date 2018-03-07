@@ -41,9 +41,9 @@ function invokeMethod(object, method) {
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
-  function(){
-    mysteryNumber:
-  }
+  
+    
+  
   return product;
 }
 
@@ -86,8 +86,8 @@ function hasProperty(object, property) {
   return true;
 } else {
 return false;
+  }
 }
-
 function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
@@ -96,8 +96,8 @@ function verifyPassword(user, password) {
   return true;
 } else {
 return false;
+  }
 }
-
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
@@ -124,10 +124,10 @@ function setUsersToPremium(users) {
   // return the users array
   let users = {
     isPremium: true,
-     },
+     }
   }
 
-
+}
 function sumUserPostLikes(user) {
   // user has an array property called 'posts'
   // posts is an array of post objects

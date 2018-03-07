@@ -125,7 +125,7 @@ function getRemainder(x, y) {
   // code here
   x % y
 }
-getRemainder(x,y);
+getRemainder(21,5);
 
 function isEven(num) {
   // return true if num is even
@@ -196,10 +196,10 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  console.log('hello world');
-  console.log('hello world!');
+  
+    return str + '!';
    }
-   addExclamationPoint(Str)
+   
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
@@ -207,14 +207,14 @@ function combineNames(firstName, lastName) {
   // code here
   console.log(firstName +''+lastName);
 }
-combineNames('Lambda','School');
+
 
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  console.log("Hello" + " " + name)
+  return 'Hello' + ' ' + name + '!'; 
 
 }
 getGreeting("Sam!");
@@ -225,19 +225,18 @@ getGreeting("Sam!");
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
-  
-    this.length = length;
-    this.width = width;
-  }
+  return length * width;
+      }
 
 
 
 
 function getTriangleArea(base, height) {
 here
-}  // return the area of the triangle by using base and height
+  // return the area of the triangle by using base and height
   // code 
-
+  return (base * height) / 2;
+}
 // Do not modify code below this line.
 // --------------------------------
 
