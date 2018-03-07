@@ -5,7 +5,6 @@ function invokeCallback(cb) {
   return cb();
 }
 
-
 function sumArray(numbers, cb) { 
   // sum up all of the integers in the numbers array
   // pass the result to cb
@@ -16,7 +15,6 @@ function sumArray(numbers, cb) {
   cb(sum);
 } 
   
-
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
