@@ -1,0 +1,40 @@
+body {
+    background-image: url("https://templates.cms-guide.com/52206/images/page1_img6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    position: sticky;
+    top: 0;
+    color: white;
+    background: teal;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    background: rgba(255,255,255,0.9);
+    padding: 50px;
+    border: 5px dotted teal;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+.divClass {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    text-align:  center;
+    background: rgba(255,255,255,0.9);
+    color: teal;
+}
