@@ -1,4 +1,5 @@
 /* eslint-disable no-undef */
+/* eslint-disable no-undef */
 const {
   counter,
   cacheFunction,
