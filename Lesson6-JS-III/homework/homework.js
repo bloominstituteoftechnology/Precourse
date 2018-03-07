@@ -44,7 +44,7 @@ function addItemToFront(arr, item) {
   // return the array
   // hint: use the array method .unshift
   arr.unshift(item);
-  return arr
+  return arr;
 }
 
 function wordsToSentence(words) {

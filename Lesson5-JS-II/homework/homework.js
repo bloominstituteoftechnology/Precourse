@@ -44,11 +44,11 @@ getBiggest(12,11);
     // language: 'Spanish' -> 'Hola!'
     // if language is undefined return 'Hello!
     if (true) {
-      console.log('German ==== Guten Tag!');
+      return('German ==== Guten Tag!');
   } else if (true) {
-      console.log('Hello!');
+      return('Hello!');
   } else if (true) {
-      console.log('Hola!');
+      return('Hola!');
   }
   }
   greeting();
