@@ -11,7 +11,7 @@ function counter() {
   }
 }
 const increase = counter();
-counter();
+increase();
 
 function cacheFunction(cb) {
   // use closure to create a cache for the cb function
