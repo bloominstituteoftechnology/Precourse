@@ -20,9 +20,11 @@ document.querySelector("#createdBy").append(" Abi Franklin");
 */
 
 
-function ToDo (description) {
-  this.description = description;
-  this.complete = false;
+class ToDo {
+  constructor(desctiption) {
+    this.description = description;
+    this.complete = false;
+}
 }
 
 
@@ -58,7 +60,16 @@ ToDo.prototype.completeToDo = function(){
 */
 
 function buildToDo(todo, index) {
-  // code here
+  var toDoShell = document.createElement("div");
+  toDoShell.className = "toDoShell";
+  var toDoText = document.createElement("span");
+  toDoText.innerHTML = todo.description;
+  toDoText.id = index;
+  if (todo.complete == true) {
+    toDoText.className = completeText;
+  };
+  toDoShell.append(toDoText);
+  return toDoShell;
 }
 
 /*
