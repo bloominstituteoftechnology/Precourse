@@ -20,13 +20,10 @@ document.querySelector("#createdBy").append(" Abi Franklin");
 */
 
 
-  let ToDo = class ToDo {
-    constructor(description) {
-      this.description = description;
-      this.complete = false;
-      return this;
-    }
-  }
+function ToDo (description) {
+  this.description = description;
+  this.complete = false;
+}
 
 
 /*
@@ -37,13 +34,12 @@ document.querySelector("#createdBy").append(" Abi Franklin");
 
 
 
-  ToDo.protoype.completeToDo = function() {
-    this.complete = true;
-  }
+ToDo.prototype.completeToDo = function(){
+  this.complete = true;
+}
 
 
-completeToDo();
-console.log(ToDo);
+
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and
