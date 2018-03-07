@@ -8,23 +8,38 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
+  display:block;
+  text-align:center;
 
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
+#exerciseTwo{
+  display:none;
+}
 
 /* Place code here */
 
 
 
 /* Exercise Three: */
-
+#exerciseThree{
+position:relative;
+top:100px;
+left:200px;
+}
 /* Place code here */
 
 
 
 /* Exercise Four: */
+#exerciseFour{
+  position:fixed;
+  top:0;
+  left:0;
+
+}
 
 /* Place code here */
 
@@ -32,12 +47,34 @@ in this folder, you are in the wrong place.
 
 /* Exercise Five */
 
+
 /* Place code here */
+#exerciseFive{
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+justify-content:space-around;
+
+
+
+
+
+}
 
 
 
 /* Exercise Six */
+#exerciseFive{
+  flex-direction:row-reverse;
+}
 
 #exerciseSeven {
   display: flex;
+  flex-direction:row-reverse;
+  justify-content:space-between;
+  align-items:flex-end;
+ 
+  
+
 }
