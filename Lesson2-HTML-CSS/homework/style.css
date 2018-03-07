@@ -1,0 +1,37 @@
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/InNOut.svg/1200px-InNOut.svg.png");
+}
+#flex-all {
+  background-color: silver;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: forestgreen;  
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: aqua;
+  padding: 50px;
+  border: 2px solid olivedrab;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+
+
+
+
+
+
+
