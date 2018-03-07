@@ -1,0 +1,6 @@
+==> Callback functions:
+    These are functions that are passed into another function
+    as an argument and then it is called(invoked) inside the outer
+    function to complete an action. They are simply functions that are
+    passed around and called by other functions. They are higher order functions
+    
