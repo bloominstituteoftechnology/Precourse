@@ -111,19 +111,26 @@ function largestNumber(numbers) {
     return bigNum;
 }
 
+function multiplyArguments() {
+  // use the arguments keyword to multiply all of the arguments together and return the product
+  // if no arguments are passed in return 0
+  // if one argument is passed in just return it
+}
+
 // Do not modify code below this line.
 // --------------------------------
 
 module.exports = {
-  returnFirst: returnFirst,
-  returnLast: returnLast,
-  getArrayLength: getArrayLength,
-  incrementByOne: incrementByOne,
-  addItemToArray: addItemToArray,
-  addItemToFront: addItemToFront,
-  wordsToSentence: wordsToSentence,
-  contains: contains,
-  addNumbers: addNumbers,
-  averageTestScore: averageTestScore,
-  largestNumber: largestNumber,
+  returnFirst,
+  returnLast,
+  getArrayLength,
+  incrementByOne,
+  addItemToArray,
+  addItemToFront,
+  wordsToSentence,
+  contains,
+  addNumbers,
+  averageTestScore,
+  largestNumber,
+  multiplyArguments,
 };
