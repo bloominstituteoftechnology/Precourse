@@ -1,0 +1,44 @@
+h1{
+    color: rgb(43, 189, 226);
+} 
+
+img{
+    width: 400px;
+}
+
+#thirdDiv{
+    
+    height: 600px;
+    width: 500px;
+    background-color: blanchedalmond;
+}
+
+
+#spanID{
+    font: 18px;
+    margin: 50px;
+    padding: 50px;
+    border: 5px coral;
+    color: chartreuse;
+}
+
+html { 
+    background: url("https://www.sideshowtoy.com/wp-content/uploads/2016/01/marvel-deadpool-sixth-scale-hot-toys-feature-902628.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+li{
+    color: chartreuse;
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.divClass{
+    color: chartreuse;
+}
