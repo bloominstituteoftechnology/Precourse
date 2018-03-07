@@ -1,0 +1,1 @@
+- Closure = Closure in JavaScript is when one function is placed inside another function, and the inner function has memory of the scope of the outer function. This includes memory of such things as variables. The inner function can create private variables for security reasons as a result of Closure.
