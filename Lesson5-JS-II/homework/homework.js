@@ -5,7 +5,7 @@ function getBiggest(x, y) {
   // if they are the same return either one
     if(x > y){
       
-      return x;
+     console.log(x);
     }
       else if(x < y){
 
@@ -13,7 +13,7 @@ function getBiggest(x, y) {
       }
       else if ( x===y){
 
-        return x && y;
+        console.log( x && y);
       }
 
 function greeting(language) {

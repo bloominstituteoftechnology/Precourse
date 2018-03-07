@@ -27,32 +27,32 @@ const newModulo = 21 % 5 === 1 ;
 
 function returnString(str) {
   //simply return the string provided: str
-  return str;
+  console.log(str);
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
-  x+y;
+ console.log(x+y);
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-  x-y;
+  console.log(x-y);
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-  x*y;
+  console.log(x*y);
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
-  x/y;
+ console.log(x/y);
 }
 
 function areEqual(x, y) {
@@ -61,9 +61,9 @@ function areEqual(x, y) {
   // code here
     if(x===y){
    
-      return true;
+      console.log(true);
     }
-      return false;
+     console.log(false);
 
 }
 
@@ -72,9 +72,9 @@ function areSameLength(str1, str2) {
   // otherwise return false
   // code here
   if(str1===str2){
-    return true;
+    console.log(true); 
   }
-    return false;
+    console.log(false);
 }
 
 function lessThanNinety(num) {
@@ -82,7 +82,7 @@ function lessThanNinety(num) {
   // otherwise return false
   // code here
   if(num < lessThanNinety){
-    return true;
+    console.log(true);
   }
     return false;
 }
@@ -92,16 +92,16 @@ function greaterThanFifty(num) {
   // otherwise return false
   // code here
   if(num > 50){
-    return true;
+    console.log(true);
   }
-    return false;
+    console.log(false);
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
   remainder = x%y;
-  return remainder;
+  console.log(remainder);
 }
 
 function isEven(num) {
@@ -109,9 +109,9 @@ function isEven(num) {
   // otherwise return false
   // code here
   if(num===even){
-    return true;
+    console.log(true);
   }
-    return false;
+   console.log(false);
 }
 
 function isOdd(num) {
@@ -119,9 +119,9 @@ function isOdd(num) {
   // otherwise return false
   // code here
   if(num===odd){
-    return true;
+    console.log(true);
   }
-    return false;
+    console.log(false);
 }
 
 function square(num) {
@@ -129,14 +129,14 @@ function square(num) {
   // hint: NOT square root!
   // code here
   Math.pow(num,num);
-  return num;
+  console.log(num);
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
   Math.pow(num*num, num);
-  return num;
+  console.log(num);
 }
 
 function raiseToPower(num, exponent) {
@@ -155,7 +155,7 @@ function roundUp(num) {
   // round num up and return it
   // code here
   Math.ceil(num);
-  return num;
+  console.log(num);
 }
 
 function addExclamationPoint(str) {
@@ -163,7 +163,7 @@ function addExclamationPoint(str) {
   // 'hello world' -> 'hello world!'
   // code here
   const newString = str + 'hello world!';
-  return newString;
+  console.log(newString);
 }
 
 function combineNames(firstName, lastName) {
@@ -171,7 +171,7 @@ function combineNames(firstName, lastName) {
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
   const concatenation = firstName +' '+ lastName ;
-  return concatenation;
+  console.log(concatenation);
 }
 
 function getGreeting(name) {
@@ -188,14 +188,14 @@ function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
   const someRectangle = length * width;
-  return someRectangle;
+  console.log(someRectangle);
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
   const areaOfTriangle = (base * height)/2 ;
-  return areaOfTriangle;
+  console.log(areaOfTriangle);
 }
 
 // Do not modify code below this line.
