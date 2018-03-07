@@ -1,0 +1,53 @@
+h1{
+    color: black;
+}
+img{
+    width:400px;
+}
+#thirdDiv{
+    position: relative;
+    left: 500px;
+    height: 600px;
+    width: 500px;
+    background-color:chocolate;
+    padding: 50px;
+    border:5px solid burlywood;
+    border-radius: 10%;
+    margin: 50px;
+}
+#spanId{
+    position: relative;
+    left: 950px;
+    font: size 18px;
+    margin: 50px;
+}
+#macarons{
+    position: fixed;
+    text-align: center;
+
+}
+.navicon{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    margin: 40px;
+    position: relative;
+    left: 250px;
+    padding: 10px;
+
+}
+h1{
+    position: relative;
+    right: 250px;
+    
+}
+h3{
+    padding: 30px;   
+}
+h4{
+    padding: 30px;
+}
+body{
+    background-image: url("https://vignette.wikia.nocookie.net/masseffect/images/1/1f/Background.jpg/revision/latest?cb=20121030013132")
+}
