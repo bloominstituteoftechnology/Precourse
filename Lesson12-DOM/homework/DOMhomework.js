@@ -11,10 +11,13 @@ let   toDoItems = [];
 */
 
 // code here
-const span = document.querySelector('createBY');
-span.innerHTML = 'april'
+const spanNew = document.querySelector('#createdBy');
+
+spanNew.innerHTML += 'April Martinez';
 /* 
-  STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
+  STEP 2: Create a class called 'ToDo'.  The There is a span element currently on the page with the innerHTML of 'This app was created by:',
+          Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
+          add your name to the END of the current innerHTML.should have one string parameter called description, the description of the toDo.
           Add two properties to the class: 'description' which should be set equal to the description passed to the constructor, and 
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
@@ -22,8 +25,14 @@ span.innerHTML = 'april'
 function ToDo () {
 
   // code here
-  this.description = "todo";
-  this.complete = false;
+  function ToDo (description){
+
+    this.description = description;
+
+    this.complete = false;
+
+}
+
 }
 
 /* 
@@ -33,9 +42,11 @@ function ToDo () {
 */
 
 // code here
-completeToDo.prototype.ToDo = function() {
+ToDo.prototype.completeToDo = function() {
+
   this.complete = true;
-  }
+
+};
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
           the second is a numerical index.
@@ -54,13 +65,27 @@ completeToDo.prototype.ToDo = function() {
 
 function buildToDo(todo, index) {
   // code here
-  const New = document.createElement('toDoShell');
-p.innerHTML = 'New Element';
-p.id ='toDoText';
-p.style.background = "red";
-const div = document.querySelector('#parent')
-const pChild = document.querySelector('p');
+  const toDoShell = document.createElement('div');
 
+  toDoShell.className = 'toDoShell';
+
+  const toDoText = document.createElement('span');
+
+  toDoText.innerHTML = toDo.description;
+
+  toDoText.id = index;
+
+  toDoText.onclick = completeToDo;
+
+  if(toDo.complete === true) {
+
+    toDoText.class = 'completeText'
+
+  } toDoShell.appendChild(toDoText);
+
+  return toDoShell;
+
+}
 
 
 
@@ -72,6 +97,15 @@ const pChild = document.querySelector('p');
 
 function buildToDos(toDos) {
   // code here
+  function buildToDos(toDos) {
+
+    // code here
+  
+    document.getElementById('toDoText').onclick = completeToDo;
+  
+    return toDO.map(buildToDo);
+  
+  }
 }
 
 /* 
@@ -88,7 +122,20 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
+  const toDoContainer = document.getElementById('#toDoContainer');
+
+  toDoContainer.innerHTML = '';
+
+  const hold = buildToDos(toDOItems);
+
+  for(let i = 0; i < hold.length; i++) {
+
+    toDoContainer.appendChild(hold[i]);
+
+  }
+
 }
+
 
 /* 
   STEP 7: This function, 'addToDo' will add a new ToDo to the 'toDoItems' array.
@@ -104,13 +151,19 @@ function displayToDos() {
 
 function addToDo() {
   // code here
-  const p = document.querySelector('#pId');
-    console.log(p.innerHtml) // This is the text between the <p></p> tags
+ function addToDo() {
 
-    p.innerHTML = 'This is new text to display between the tags';
-
-    console.log(p.innerHTML); 
-}
+    // code here
+  
+    let newItem = newToDo(document.querySelector('#toDoInput').value);
+  
+    toDoItems.push(newItem)
+  
+    document.querySelector('#toDoInput').value = '';
+  
+    displayToDos();
+  
+  }
 
 /* 
   STEP 8: In this step we will fire addToDo everytime the 'ADD' button is clicked.
@@ -119,10 +172,7 @@ function addToDo() {
 */
 
 // code here
-const div = document.querySelector('#divId');
-div.onclick = function() {
-    console.log('addButton');
-};
+document.querySelector('#addButton').onclick = addToDo;
 }
 
 /* 
@@ -142,10 +192,12 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
    const index = event.target.id;
   // code here
-  const div = document.querySelector('#divId');
-    div.onclick = function() {
-        console.log('clicked!');
-    };
+  const index = event.target.id;
+
+  completeToDo (index);
+
+  displayToDos();
+
 }
 
 /* STEP 10: Make sure ALL tests pass */
