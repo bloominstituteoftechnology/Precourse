@@ -1,7 +1,7 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-
+const   toDoItems = [];
 // code here
 
 /* 
@@ -11,7 +11,8 @@
 */
 
 // code here
-
+const span = document.querySelector('createBY');
+span.innerHTML = 'april'
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
           Add two properties to the class: 'description' which should be set equal to the description passed to the constructor, and 
@@ -19,7 +20,10 @@
 */
 
 function ToDo () {
+
   // code here
+  this.description = "todo";
+  this.complete = false;
 }
 
 /* 
@@ -29,7 +33,9 @@ function ToDo () {
 */
 
 // code here
-
+completeToDo.prototype.ToDo = function() {
+  this.complete = true;
+  }
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
           the second is a numerical index.
@@ -48,7 +54,15 @@ function ToDo () {
 
 function buildToDo(todo, index) {
   // code here
-}
+  const New = document.createElement('toDoShell');
+p.innerHTML = 'New Element';
+p.id ='toDoText';
+p.style.background = "red";
+const div = document.querySelector('#parent')
+const pChild = document.querySelector('p');
+
+
+
 
 /* 
   STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
@@ -90,6 +104,12 @@ function displayToDos() {
 
 function addToDo() {
   // code here
+  const p = document.querySelector('#pId');
+    console.log(p.innerHtml) // This is the text between the <p></p> tags
+
+    p.innerHTML = 'This is new text to display between the tags';
+
+    console.log(p.innerHTML); 
 }
 
 /* 
@@ -98,7 +118,12 @@ function addToDo() {
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
 
-// cod here
+// code here
+const div = document.querySelector('#divId');
+div.onclick = function() {
+    console.log('addButton');
+};
+}
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
@@ -115,8 +140,12 @@ function addToDo() {
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+   const index = event.target.id;
   // code here
+  const div = document.querySelector('#divId');
+    div.onclick = function() {
+        console.log('clicked!');
+    };
 }
 
 /* STEP 10: Make sure ALL tests pass */

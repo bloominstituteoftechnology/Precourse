@@ -6,12 +6,28 @@ function nFactorial(n) {
   // return the factorial for n
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
-}
+  
+    const num = 42;
+    return num;
+  }
+const num =nFactorial(n);
+num + 100;
 
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
+  var array = [0, 1];
+
+  for (var i = 2; i <= n; i++) {
+    array.push(array[i - 1] + array[i - 2]);
+  }
+
+  return array[n];
 }
+var n = 9;
+var ans = fibonacci(n);
+console.log(ans);
+
 
 // Do not modify code below this line.
 // --------------------------------

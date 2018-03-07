@@ -5,8 +5,16 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
-}
+  const arr =[1,2,3,4];
+   arr.forEach(function(item){
+     console.log(item);
+   });
 
+  
+  const mapped = arr.map(function(item){
+
+  });
+  
 function cacheFunction(cb) {
   // use closure to create a cache for the cb function
   // the function that you return should accept a single argument and invoke cb with that argument
@@ -18,7 +26,11 @@ function cacheFunction(cb) {
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
+  return function(secondNum){
+    return cd = secondNum;
+  };
 }
+const timesFives = makemultipler(5);
 
 // Do not modify code below this line.
 // --------------------------------
