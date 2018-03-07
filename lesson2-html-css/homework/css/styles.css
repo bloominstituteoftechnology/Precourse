@@ -1,0 +1,39 @@
+/* says not to include style tags but says in next part include 
+<!-- in front of style tag and end of style tag --> */
+<!--
+h1{
+    color:rgba(236, 34, 34, 0.836);
+}
+        img{
+            width:400px;
+        }
+            #thirdDiv{
+                border: 10px solid rgb(34, 2, 34); 
+                height:600px;
+                width:500px;
+                padding:50px;
+                background-color:rgb(67, 23, 97);          
+            }
+                
+                #spanId{
+                    font-size:18px;
+                    margin:50px;
+                    color:white;
+
+                }
+                    body,html{
+                     height:100%;
+                     width:100%;
+                    
+            }   
+
+                        .backgroundImage{
+                            background-image:url("https://news.marvel.com/wp-content/uploads/2017/10/rag_post_master-960x540.jpg");
+                            background-repeat:repeat-x;
+                            background-position:center;
+                            background-size:cover;
+                            border:2px dashed purple
+                         }
+-->
+
+                       
