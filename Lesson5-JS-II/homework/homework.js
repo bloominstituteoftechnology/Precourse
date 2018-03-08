@@ -1,20 +1,21 @@
 // Do not change any of the function names
+// Removed in March edition
 
-function multiplyArguments() {
+// function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
-  const numbers = arguments.length;
-  let together = 1;
+  // const numbers = arguments.length;
+  // let together = 1;
 
-  if (numbers === 0) {
-    return 0;
-  } else for (let i = 0; i < numbers; i++) {
-    together = together * arguments[i];
-  }
+  // if (numbers === 0) {
+  // 	return 0;
+  // } else for (let i = 0; i < numbers; i++) {
+  // 	together = together * arguments[i];
+  // }
 
-  return together;
-}
+  // return together;
+	// }
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
@@ -96,7 +97,6 @@ function isPrime(num) {
 // --------------------------------
 
 module.exports = {
-  multiplyArguments,
   getBiggest,
   greeting,
   isTenOrFive,
