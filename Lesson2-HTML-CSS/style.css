@@ -1,0 +1,26 @@
+body {
+    background-image: url("https://kids.nationalgeographic.com/explore/nature/habitats/ocean/");
+}
+h1 {
+    color: blueviolet;
+}
+img {
+    width: 400px;
+}
+
+div {
+    align: center;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background: gainsboro;
+    padding: 50px;
+    border: 3px;
+    border-color: crimson;
+}
+
+#spanId {
+    font-size: 18px;
+}
