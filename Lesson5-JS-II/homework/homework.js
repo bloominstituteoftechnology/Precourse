@@ -17,7 +17,7 @@ function multiplyArguments() {
     return total;
 
       }
-    MultiplyArguments();
+  //  MultiplyArguments();
 
     
   function getBiggest(x, y) {
@@ -33,7 +33,7 @@ function multiplyArguments() {
   return('they are the same');
 }
 }
-getBiggest(12,11);
+//getBiggest(12,11);
         
 
 
@@ -54,7 +54,7 @@ getBiggest(12,11);
   }
 }
   
-  greeting();
+  //greeting();
 
 
 
@@ -70,7 +70,7 @@ function isTenOrFive(num) {
   return(false);
 }
 }
- isTenOrFive(11);
+ //isTenOrFive(11);
 
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
@@ -88,7 +88,7 @@ function isInRange(num) {
     }
   }
 
-isInRange(61);
+//isInRange(61);
 
 function isInteger(num) {
   // return true if num is an integer
@@ -108,7 +108,7 @@ function isInteger(num) {
   }
    }      
           
-       isInteger(0.8); 
+      // isInteger(0.8); 
 
 
 function fizzBuzz(num) {
