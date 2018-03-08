@@ -13,7 +13,7 @@ function makeCat(name, age) {
   return myObject;
 }
 
-  makeCat('blah', 52);
+  //makeCat('blah', 52);
 
 
 
