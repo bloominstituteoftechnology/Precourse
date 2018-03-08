@@ -31,7 +31,23 @@ function getArrayLength(arr) {
      return arr(arr.length); 
 }
 
+function incrementByOne(arr) {
 
+  // arr is an array of integers  
+
+  // increase each integer by one
+
+  // return the array
+
+  for (let i = 0; i < arr.length ; i++) {
+
+    arr[i] = arr[i] + 1;
+
+  }
+
+  return arr;
+
+}
 
 
 function addItemToArray(arr, item) {
