@@ -101,8 +101,22 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  let sum = 1;
+  if (arguments.length === 0) {
+    return 0;
+  }
+  else if (arguments.length === 1) {
+    let i = 0;                          
+    sum = sum * arguments[i];
+    return sum;
+  }
+  else {
+    for(let i = 0; i < arguments.length; i++){
+      sum = sum * arguments[i];
+    }
+    return sum;
+  }
 }
-
 // Do not modify code below this line.
 // --------------------------------
 
