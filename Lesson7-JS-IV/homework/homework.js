@@ -26,14 +26,14 @@ function addProperty(object, property) {
 
   return object;
 
-};
+}
 
 function invokeMethod(object, method)
  {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-   object[method] 	
+   object[method] ;	
 			
   }
   
@@ -93,7 +93,7 @@ function hasProperty(object, property) {
   // otherwise return false
   for (let key in object) {
 
-    if (object[key] === object.hasOwnProperty(property)) {
+    if (object[key] === object.hasProperty(property)) {
 
       return true;
 
