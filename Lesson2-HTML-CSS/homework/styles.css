@@ -1,0 +1,23 @@
+h1 {
+    color: cyan;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: blue;
+    padding: 50px;
+    border: 3px solid teal;
+}
+
+#spanId {
+    margin: 50px;
+}
+
+body {
+    background-image: url('http://campinggecko.com/wp-content/uploads/2017/07/Marvellous-Cool-Black-And-White-Background-67-About-Remodel-Wallpaper-Hd-Design-with-Cool-Black-And-White-Background.jpg');
+}
