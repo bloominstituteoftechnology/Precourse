@@ -121,7 +121,7 @@ for (i = 0; i < numbers.length; i++) {
 
 return constant;    // after iterating the entire array!
 }
-var numbers = [3, 4, 2, 6, 45, 775, 83, 5, 7];
+//var numbers = [3, 4, 2, 6, 45, 775, 83, 5, 7];
 return(largestNumber(numbers));
 
 
