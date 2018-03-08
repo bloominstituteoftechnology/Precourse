@@ -1,0 +1,20 @@
+  h1 {
+    color:aquamarine;
+  }
+
+  img {
+    width:400px;
+  }
+
+  #thirdDiv {
+    height:600px;
+    width:500px;
+    background-color:silver;
+    padding:50px;
+    border: 50px ridge aquamarine;
+  }
+
+  #spanId {
+    margin:50px;
+    font-size: 18px;
+  }
