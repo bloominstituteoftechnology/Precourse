@@ -28,18 +28,16 @@ function addProperty(object, property) {
 let property = 'null';
 //console.log(property);
 
-
-function invokeMethod(object, method) {
+function invokeMethod(object, method)
+ {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-  if(typeof object[method] === "function")	
-		object[method]();
-	
-	
+   object[method] 	
+			
   }
   
-  invokeMethod()
+  
     
 
   
