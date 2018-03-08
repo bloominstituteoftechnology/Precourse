@@ -168,7 +168,7 @@ function isPrime(num) {
     }
   
   }  
-  
+}
   
 
 
