@@ -84,6 +84,7 @@ function contains(arr, item) {
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
+  let arrSumVal = 0;
   for (let i = 0; i < numbers.length; i++) {
 
     arrSumVal = arrSumVal + numbers[i];
