@@ -48,9 +48,9 @@ in this folder, you are in the wrong place.
 /* Place code here */
 #exerciseFive {
   display:flex;
-  justify-content: space-between;
-  align-items: flex-end;
   flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
