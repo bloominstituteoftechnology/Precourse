@@ -1,0 +1,38 @@
+p{}
+        body{
+            background-image: url("https://assets.bonappetit.com/photos/57acc41953e63daf11a4d9d1/16:9/w_2560,c_limit/tuna-poke.jpg");
+        }
+        #h1Color{
+            color: darkslategrey;
+            font-family: Arial;
+            text-align: center;
+            display: flex;
+            justify-content: center
+
+        }
+        
+        .imgClass{
+            width: 400px;
+            display: flex;
+            justify-content: center
+        }
+
+        #thirdDiv{
+            height: 600px;
+            width: 500px;
+            background:rgb(254, 255, 255);
+            padding: 50px;
+            border: solid 10px black;
+            font-family: Arial;
+            align-items: center;
+            display: flex;
+            justify-content: center
+        }
+
+        #spanId{
+            font-size: 18px;
+            margin:50px;
+            font-family: Arial;
+            display: flex;
+            justify-content: center
+        }
