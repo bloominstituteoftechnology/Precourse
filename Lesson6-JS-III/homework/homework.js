@@ -5,27 +5,31 @@ function returnFirst(arr) {
 
    // const returnFirst//= [10, 10, 16, 12];
 
-    return (arr[0]);
+   const firstArrayItem = arr[0];
+
+   return firstArrayItem;
+ 
  }
-       
+ 
+    
 
 
 function returnLast(arr) {
   // return the last item of the array
  //const returnLast // =[10, 10, 16, 12];
 
-  return arr[arr.length -1];
+ const lastArrayItem = arr[arr.length - 1];
+
+ return lastArrayItem;
+
 }
 
 
 function getArrayLength(arr) {
   // return the length of the array
 
- // const getArraylength// = [10, 10, 16, 12];
-
-    return arr(arr.length); 
+     return arr(arr.length); 
 }
-
 
 
 
@@ -52,42 +56,41 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  var sentence ='';
-  for (var i = 0; i < words.length; i++){
-    sentence += ' ' + words[i];
+  
+  const str = words.join('');
+
+  return str;
+  
   }
-  return sentence.trim();
-}
-
-//console.log(wordsToSentence(['this', 'is', 'a', 'sentence']));
-
+  
 
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-  for (var i = 0; i < arr.length; i++) {
-    if (arr[i] === item) {
-        return true;
+  for (let i = 0; i < arr.length; i++) {
+
+    if (arr[i] === item)
+
+      return true;
+
     }
-}
-return false;
-}
+
+    return false;
+
+  }
 
 
 
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
-  var nums = numbers, 
-    num = 0;
+  for (let i = 0; i < numbers.length; i++) {
 
-for (var i = 0; i < nums.length; i++) {
-    num += nums[i];
-}
-return(num);
+    arrSumVal = arrSumVal + numbers[i];
+
+  } return arrSumVal;
 
 }
-//addNumber();
 
   
  
@@ -95,16 +98,17 @@ function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
    
-  var sum = 0; 
-  if (testscores > 0) { 
-      for (i = 0; i < testScores; i++) {
-          sum += grades[i][2]; 
-      }
-      return sum 
-  }
-  return 0;
- }
+  let avg = 0;
 
+  for (let i = 0; i < testScores.length; i++) {
+
+    avg = avg + testScores[i];
+
+  }
+
+  return avg / testScores.length;
+
+}
 
 
 
@@ -112,16 +116,19 @@ function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
    
-var constant = 1;
-for (i = 0; i < numbers.length; i++) {
-    if (numbers[i] > constant) {
-        constant = numbers[i];
+  let largest = numbers[0];
+
+  for (let i = 0; i < numbers.length; i++) {
+
+    if (numbers[i] > largest && numbers[i] !== largest) {
+
+      largest = numbers[i];
+
     }
-   }  
 
-return constant;    // after iterating the entire array!
+  } return largest;
+
 }
-
 
 
 // Do not modify code below this line.
