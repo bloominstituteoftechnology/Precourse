@@ -4,37 +4,36 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
-  if ( arguments.length === 0 ) { 
-    		return 0; 
-       	} 
-        
-    	var total = 1; 
-       
-    	for ( var i = 0; i < arguments.length; i++ ) { 
-           
-    		total *= arguments[i]; 
-      }   
-    return total;
+  let multiple = 1;
 
-      }
-  //  MultiplyArguments();
+  if(arguments.length === 0) {
+
+    return 0;
+
+  } if(arguments.length === 1) {
+
+    return arguments [0];
+
+  } else {
+
+    for(let i = 0; i < arguments.length; i++) {
+
+      multiple *= arguments[i];
+
+    }
+
+    return multiple;
+
+}
+
+}
 
     
   function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
-  if ( x > y){
-    return ('x is biggest');
-  
-}if (x < y){
-  return ('y is biggest');
-  
-}if (x===y){
-  return ('they are the same');
-  }
-}
-//getBiggest(12,11);
-        
+  return Math.max(x, y);
+  }    
 
 
   function greeting(language) {
@@ -43,18 +42,27 @@ function multiplyArguments() {
     // language: 'English' -> 'Hello!'
     // language: 'Spanish' -> 'Hola!'
     // if language is undefined return 'Hello!
-    if (German) {
-    return ( greeting = 'Guten Tag!' )
-  } else if  (English){
-   return greeting = 'Hello!'
-  } else if  (Spanish){
-   return greeting = 'Hola!'
-  }else  {
-   return( greeting = 'Hello!')
+    if (language === 'German') {
+
+      return 'Guten Tag!';
+   
+    } else if (language === 'English') {
+   
+      return 'Hello!';
+   
+    } else if (language === 'Spanish') {
+   
+      return 'Hola!';
+   
+    } else {
+   
+      return 'Hello!';
+   
+    }
+   
+   }
   
-}
   
-  //greeting();
 
 
 
@@ -70,23 +78,20 @@ function isTenOrFive(num) {
   return(false);
 }
 }
- //isTenOrFive(11);
+ 
 
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
   // otherwise return false
-  if (num < 50){
-    
-    return (true);
-  }
-    if (num < 20){
-      
-      return(true);
+  if(num < 50 && num > 20) {
 
-    } else{
-      return (false);
-    }
+    return true;
+
   }
+
+  return false;
+
+}
 
 //isInRange(61);
 
@@ -117,58 +122,27 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
-  function fizzy(n) {
-    if (n % 15 === 0) {
-      return 'FizzBuzz';
-    }
-    if (n % 3 === 0) {
-      return 'Fizz';
-    }
-    if (n % 5 === 0) {
-      return 'Buzz';
-    }
-    return n.toString();
+  if(num % 3 === 0 && num % 5 === 0) {
+
+    return 'fizzbuzz';
+
+  } else if (num % 5 === 0) {
+
+    return 'buzz';
+
+  } else if (num % 3 === 0) {
+
+    return 'fizz';
+
+  } else {
+
+    return num;
+
   }
-  
-  for (let i = 1; i <= 20; i++) {
-    return(fizzy(i));
-  }
+
 }
-fizzBuzz();
 
-function isPrime(num) {
-  // return true if num is prime.
-  // otherwise return false
-  // hint: a prime number is only evenly divisible by itself and 1
-  // hint2: you can solve this using a for loop
-  // note: 0 and 1 are NOT considered prime numbers
 
-    if (num === 2) {
-      return true;
-          }
-    else if(num > 1){
-      
-      for (var i = 2;  i < num; i++) {
-
-        if (num % i !== 0) {
-          return true;
-        }
-  
-        else if (num === i * i) {
-          return false;
-        }
-      
-        else {
-          return false;
-        };
-      }
-    }
-    else {
-      return false;
-    }
-  
-  }  
-}
   
 
 
