@@ -2,33 +2,27 @@
 
 body {
 	background:url('http://www.sonoquilibrium.com/wp-content/uploads/2014/11/3134971.jpg');
-	width:80%;
-	margin:auto;
-
-}
+	}
 
 h1 {color: #5f9ea0;
-}
+	}
 
 img { width: 400px;
-	
-}
+	}
 
-div {margin: auto;
-	position: relative; }
-
+.container {text-align: center;
+			display: flex;
+			align-items: center;
+			flex-direction: column;}
 
 #thirdDiv {	height: 600px;
 			width: 500px;
 			background-color: lightgrey;
 			padding: 50px;
 			border: solid 3px darkgrey;
-			
-			
 		}
 
 #spanId { 	font-size: 18px;
-			margin:50px;
-
+			margin:50px;}
 
 -->
