@@ -206,7 +206,7 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  return(firstName +''+lastName);
+  return(firstName +' '+lastName);
 }
 
 
@@ -236,7 +236,7 @@ function getTriangleArea(base, height) {
 here
   // return the area of the triangle by using base and height
   // code 
-  return (base * height) / 2;
+  return (base * height) 
 }
 
 
