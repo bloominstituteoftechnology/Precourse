@@ -1,0 +1,28 @@
+#main-content {
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/04/18/54/wall-3198880_1280.jpg');
+    background-repeat: repeat-x;
+}
+
+h1 {
+    color: darkorange;
+}
+
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: aqua;
+    padding: 50px;
+    border: 2px solid red;
+    margin: auto;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
