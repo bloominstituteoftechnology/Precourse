@@ -9,7 +9,7 @@ img {
 #thirdDiv {
   height: 600px;
   width: 500px;
-  background-color: red;
+  background-color: Darkred;
   padding: 50px;
   border: 5px solid black;
   position: relative;
@@ -19,6 +19,10 @@ img {
 #spanId {
   font-size: 18px;
   margin: 50px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 html {
@@ -31,7 +35,7 @@ html {
   -o-bacground-size: cover;
 }
 
-body {
+ body {
     text-align: center;
 }
 
@@ -42,6 +46,5 @@ div {
 .flex-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
 }
