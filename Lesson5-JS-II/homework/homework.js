@@ -1,7 +1,5 @@
 // Do not change any of the function names
-
-<<<<<<< HEAD
-function multiplyArguments() {
+/*function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
@@ -20,10 +18,8 @@ function multiplyArguments() {
     }
     return sum;
   }
-}
+} */
 
-=======
->>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
