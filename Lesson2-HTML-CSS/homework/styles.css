@@ -1,0 +1,32 @@
+h1 {
+    color:rgb(173, 196, 230);
+    }
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background: rgb(173, 196, 230);
+    padding: 50px;
+    border:dashed white 20px;
+    margin: auto;
+    position: sticky;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    color:rgb(173, 196, 230);
+
+}
+body {
+    background-image:url(https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/3293/s300/lambda400full.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3 {
+    color:rgb(173, 196, 230);
+}
+.linkId {
+    color:rgb(173, 196, 230));
+}
