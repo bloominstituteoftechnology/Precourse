@@ -28,9 +28,9 @@ let newModulo = 21 % 5 === 1 ;
 
 function returnString(str) {
   //simply return the string provided: str
-  console.log (str);
+  return (str);
 }
-returnString('april')
+
 
 
 function add(x, y) {
@@ -40,7 +40,7 @@ function add(x, y) {
   const sum = x + y;
       return sum;
 }
-  add(3, 6);
+  
 
 
 function subtract(x, y) {
@@ -50,7 +50,7 @@ function subtract(x, y) {
       return difference;
 
 }
-subtract(10,5);
+
     
 function multiply(x, y) {
   // multiply x by y and return the value
@@ -59,7 +59,7 @@ function multiply(x, y) {
     return x * y;
 };
 
-multiply(2, 5);
+
 
 
 function divide(x, y) {
@@ -69,7 +69,7 @@ function divide(x, y) {
   return divide;
 }
 
-divide(7,21);
+
 
 
 function areEqual(x, y) {
@@ -91,7 +91,7 @@ function areSameLength(str1, str2) {
   }  
   return false;
 }
-areSameLength(10,10);
+
   
 
 
@@ -105,7 +105,7 @@ function lessThanNinety(num) {
     return false;
 
   }
-lessThanNinety(100);
+
 
 
 function greaterThanFifty(num) {
@@ -118,14 +118,14 @@ function greaterThanFifty(num) {
   }
   return false;
 }
-greaterThanFifty(60);
+
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
   x % y
 }
-getRemainder(21,5);
+
 
 function isEven(num) {
   // return true if num is even
@@ -138,7 +138,7 @@ function isEven(num) {
     return(false);
   }
 }
-isEven(6);
+
 
 function isOdd(num) {
   // return true if num is odd
@@ -159,7 +159,7 @@ function square(num) {
     return num * num;
 };
 
-    square(4);
+    
     
 function cube(num) {
   // cube num and return the new value
@@ -168,29 +168,29 @@ function cube(num) {
     return num * num * num
 }
 
-cube(7);
+
 
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // cod e here
- console.log( Math.pow(num, exponent))
+ return( Math.pow(num, exponent))
 }
-raiseToPower(2,2);
+
 
 function roundNumber(num) {
   // round num and return it
   // code here
-  console.log (Math.round(num))
+  return (Math.round(num))
 }
-roundNumber(2.6);
+
 
 function roundUp(num) {
   // round num up and return it
   // code here
-  console.log (Math.ceil(num));
+  return (Math.ceil(num));
 }
-roundUp(3.2);
+
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
@@ -205,7 +205,7 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  console.log(firstName +''+lastName);
+  return(firstName +''+lastName);
 }
 
 
@@ -217,7 +217,7 @@ function getGreeting(name) {
   return 'Hello' + ' ' + name + '!'; 
 
 }
-getGreeting("Sam!");
+
 
 // The next three questions will have you implement math area formulas. 
 // If you can't remember these area formulas then head over to Google.
