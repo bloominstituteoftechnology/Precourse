@@ -6,7 +6,7 @@ function createUserClass() {
     this.name = options.name;
     this.email = options.email;
     this.password = options.password;
-  };
+  }
   User.prototype.sayHi = function() {
     return 'Hello, my name is ' + this.name;
   };
@@ -32,9 +32,9 @@ function addReverseString() {
     var revStr2 = '';
     for (let i = this.length - 1; i > -1; i--) {
       revStr2 = revStr2 + this.charAt(i);
-    };
+    }
     return revStr2;
-  }
+  };
     // add a method to the string constructor's prototype that returns a reversed copy of the string
     // name this method reverse
     // hint:

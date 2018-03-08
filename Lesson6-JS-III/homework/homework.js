@@ -97,6 +97,12 @@ function largestNumber(numbers) {
   return largest; 
 }
 
+function multiplyArguments() {
+  // use the arguments keyword to multiply all of the arguments together and return the product
+  // if no arguments are passed in return 0
+  // if one argument is passed in just return it
+}
+
 // Do not modify code below this line.
 // --------------------------------
 
@@ -112,4 +118,5 @@ module.exports = {
   addNumbers,
   averageTestScore,
   largestNumber,
+  multiplyArguments,
 };

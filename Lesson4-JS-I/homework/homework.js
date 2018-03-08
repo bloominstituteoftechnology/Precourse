@@ -59,7 +59,7 @@ function areEqual(x, y) {
   // otherwise return false
   // code here
   if (x === y) {
-    return true ;e
+    return true;
   }                             
   return false;                 
 }

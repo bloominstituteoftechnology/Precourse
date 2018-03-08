@@ -15,8 +15,9 @@ function invokeCallback(cb) {
 
 function forEach(arr, cb) {
   for(let i = 0; i < arr.length; i++) {
-    let item = cb(arr[i]);
-  };  
+    cb(arr[i]);
+    //let item = cb(arr[i]);
+  } 
   
   return arr;
   // iterate over arr and pass its values to cb one by one
