@@ -44,13 +44,13 @@ function multiplyArguments() {
     // language: 'Spanish' -> 'Hola!'
     // if language is undefined return 'Hello!
     if (German) {
-    return  greeting = 'Guten Tag!' 
-  }if  (English){
+    return ( greeting = 'Guten Tag!' )
+  } else if  (English){
    return greeting = 'Hello!'
-  }if (Spanish){
+  } else if  (Spanish){
    return greeting = 'Hola!'
-  }else {
-   return greeting = 'Hello!'
+  }else  {
+   return( greeting = 'Hello!')
   
 }
   
@@ -97,17 +97,18 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  if (num === 1){
+  if (num = Math.floor(num)){
+
     return(true);
-  }if (num === 0.8){
-    return(false);
-  }if (num === -10){
+
+  }if  (num === 1|| num === -10){
     return(true);
+  
   }else {
     return(false);
   }
    }      
-          
+        
       // isInteger(0.8); 
 
 
@@ -156,7 +157,7 @@ function isPrime(num) {
         else if (num === i * i) {
           return false;
         }
-  
+      
         else {
           return false;
         };
