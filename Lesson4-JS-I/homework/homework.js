@@ -46,7 +46,7 @@ function add(x, y) {
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-  const difference = y - x;
+  const difference = x - y;
       return difference;
 
 }
@@ -65,7 +65,7 @@ function multiply(x, y) {
 function divide(x, y) {
   // divide x by y  and return the value
   // code here
-  const divide = a / b;
+  const divide = x / y;
   return divide;
 }
 
@@ -112,7 +112,7 @@ function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
-  if (num < 50){
+  if (num > 50){
     return true;
 
   }
@@ -124,6 +124,7 @@ function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
   x % y
+  return getremainder;
 }
 
 
@@ -144,12 +145,12 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if (num % 1 === 0){
+  if (num % 2 !== 0){
     return(true);
-  }else{
+  }
     return(false);
   }
- }
+ 
 
 function square(num) {
   // square num and return the new value
