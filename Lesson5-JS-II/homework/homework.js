@@ -102,19 +102,11 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  if (num = Math.floor(num)){
+  return Math.floor (num) === num ? true : false;
 
-    return(true);
-
-  }if  (num === 1|| num === -10){
-    return(true);
-  
-  }else {
-    return(false);
-  }
-   }      
+}
         
-      // isInteger(0.8); 
+    
 
 
 function fizzBuzz(num) {
