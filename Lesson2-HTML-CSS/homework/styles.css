@@ -1,0 +1,42 @@
+/* #forIdTags {
+}
+.forClassTags {
+} */
+
+h1 {
+    color: red;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: blue;
+    padding: 50px;
+    border: 100px solid red;
+}
+#spanId {
+    font: 18px;
+    margin: 50px;
+}
+body {
+    background-image: url(http://lorempixel.com/1000/1000)
+}
+.center {
+    text-align: center;
+    /* text-align: center; only moves "text" NOT div block */
+    margin: auto;
+    /* margin: auto; ONLY moves <div blocks> NOT text  */
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.flex-container {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
