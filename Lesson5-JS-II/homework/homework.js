@@ -45,13 +45,13 @@ function multiplyArguments() {
     // if language is undefined return 'Hello!
     if (German) {
     return  greeting = 'Guten Tag!' 
-  }else if (English){
+  }if  (English){
    return greeting = 'Hello!'
-  }else if (Spanish){
+  }if (Spanish){
    return greeting = 'Hola!'
-  }else{
+  }else {
    return greeting = 'Hello!'
-  }
+  
 }
   
   //greeting();
