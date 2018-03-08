@@ -1,0 +1,19 @@
+
+h1   {color: blue;}
+img  {width: 400px;}
+#thirdDiv {background-color: red;
+           height: 600px;
+           width: 500px;
+           padding: 50px;
+           border-style: dotted;
+           border-color: gray;
+           border-width: 6px}
+#spanId   {font-size: 18px;
+           margin: 50px;} 
+body {background-image: url("http://oi66.tinypic.com/15qtg8k.jpg");}
+ div {
+     margin: auto;
+     width: 50%;
+     padding: 10px;
+     text-align: center;
+ }
