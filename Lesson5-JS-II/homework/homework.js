@@ -24,14 +24,14 @@ function multiplyArguments() {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
   if ( x > y){
-    return('x is biggest');
+    return ('x is biggest');
   
 }if (x < y){
-  return('y is biggest');
+  return ('y is biggest');
   
 }if (x===y){
-  return('they are the same');
-}
+  return ('they are the same');
+  }
 }
 //getBiggest(12,11);
         
