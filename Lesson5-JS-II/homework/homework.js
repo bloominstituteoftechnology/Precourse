@@ -43,14 +43,17 @@ getBiggest(12,11);
     // language: 'English' -> 'Hello!'
     // language: 'Spanish' -> 'Hola!'
     // if language is undefined return 'Hello!
-    if (true) {
-      return('German ==== Guten Tag!');
-  } else if (true) {
-      return('Hello!');
-  } else if (true) {
-      return('Hola!');
+    if (German) {
+      greeting = 'Guten Tag!' 
+  }if (English){
+    greeting = 'Hello!'
+  }if (Spanish){
+    greeting = 'Hola!'
+  }else{
+    greeting = 'Hello!'
   }
-  }
+}
+  
   greeting();
 
 
