@@ -1,5 +1,6 @@
 // Do not change any of the function names
 
+<<<<<<< HEAD
 function multiplyArguments() {
   
 	let product = 1;
@@ -15,6 +16,8 @@ function multiplyArguments() {
   }
 }
 
+=======
+>>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
@@ -31,7 +34,7 @@ function getBiggest(x, y) {
 function greeting(language) {
   // return a greeting for three different languages:
   // language: 'German' -> 'Guten Tag!'
-  // language: 'English' -> 'Hello!'
+  // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
   if (language === 'German') {
@@ -124,6 +127,7 @@ function isPrime(num) {
 // --------------------------------
 
 module.exports = {
+<<<<<<< HEAD
   multiplyArguments: multiplyArguments,
   getBiggest: getBiggest,
   greeting: greeting,
@@ -133,3 +137,13 @@ module.exports = {
   fizzBuzz: fizzBuzz,
   isPrime: isPrime,
 };
+=======
+  getBiggest,
+  greeting,
+  isTenOrFive,
+  isInRange,
+  isInteger,
+  fizzBuzz,
+  isPrime,
+};
+>>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6

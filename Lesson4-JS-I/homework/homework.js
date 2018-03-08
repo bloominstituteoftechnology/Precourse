@@ -1,7 +1,7 @@
-
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
+<<<<<<< HEAD
 let newString = 'Perry';
 
 //create a number variable, it an be any number
@@ -18,6 +18,24 @@ let newMultiply = 10 * 4 === 40;
 
 //Solve the following math problem:
 let newModulo = 21 % 5 === 1;
+=======
+const newString = null ;
+
+//create a number variable, it an be any number
+const newNum = null ;
+
+//create a boolean variable
+const newBool = null ;
+
+//solve the following math problem
+const newSubtract = 10 - null === 5;
+
+//Solve the following math problem
+const newMultiply = 10 * null === 40 ;
+
+//Solve the following math problem:
+const newModulo = 21 % 5 === null ;
+>>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6
 
 
 
@@ -170,32 +188,32 @@ function getTriangleArea(base, height) {
 // --------------------------------
 
 module.exports = {
-  newString: newString,
-  newNum: newNum,
-  newBool: newBool,
-  newSubtract: newSubtract,
-  newMultiply: newMultiply,
-  newModulo: newModulo,
-  returnString: returnString,
-  areSameLength: areSameLength,
-  areEqual: areEqual,
-  lessThanNinety: lessThanNinety,
-  greaterThanFifty: greaterThanFifty,
-  add: add,
-  subtract: subtract,
-  divide: divide,
-  multiply: multiply,
-  getRemainder: getRemainder,
-  isEven: isEven,
-  isOdd: isOdd,
-  square: square,
-  cube: cube,
-  raiseToPower: raiseToPower,
-  roundNumber: roundNumber,
-  roundUp: roundUp,
-  addExclamationPoint: addExclamationPoint,
-  combineNames: combineNames,
-  getGreeting: getGreeting,
-  getRectangleArea: getRectangleArea,
-  getTriangleArea: getTriangleArea
+  newString,
+  newNum,
+  newBool,
+  newSubtract,
+  newMultiply,
+  newModulo,
+  returnString,
+  areSameLength,
+  areEqual,
+  lessThanNinety,
+  greaterThanFifty,
+  add,
+  subtract,
+  divide,
+  multiply,
+  getRemainder,
+  isEven,
+  isOdd,
+  square,
+  cube,
+  raiseToPower,
+  roundNumber,
+  roundUp,
+  addExclamationPoint,
+  combineNames,
+  getGreeting,
+  getRectangleArea,
+  getTriangleArea,
 };
