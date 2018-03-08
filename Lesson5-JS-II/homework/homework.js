@@ -29,7 +29,7 @@ function multiplyArguments() {
 }if (x < y){
   return('y is biggest');
   
-}if(x===y){
+}if (x===y){
   return('they are the same');
 }
 }
@@ -148,13 +148,13 @@ function isPrime(num) {
     else if(num > 1){
       
       for (var i = 2;  i < num; i++) {
-  
-        if (num % i !== 0 ) {
+
+        if (num % i !== 0) {
           return true;
         }
   
         else if (num === i * i) {
-          return false
+          return false;
         }
   
         else {
