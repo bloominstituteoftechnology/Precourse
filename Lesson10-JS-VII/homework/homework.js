@@ -13,6 +13,9 @@ function counter() {
     }
   }
 }
+var c = newCounter();
+var c1 = newCounter();
+c();
 
 function cacheFunction(cb) {
   // use closure to create a cache for the cb function
