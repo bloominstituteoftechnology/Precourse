@@ -1,0 +1,11 @@
+h1 {color:crimson;}
+img {width: 400px;}
+#thirdDiv {height: 600px;
+            width: 500px;
+            background-color: blueviolet;
+            padding: 50px;
+            border-style: dotted;
+            border-color: black;
+            border-width: 25px;}
+#spanId {font-size: 18px;
+         margin: 50px;}
