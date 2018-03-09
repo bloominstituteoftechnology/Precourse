@@ -53,7 +53,7 @@ function multiplyMysteryNumberByFive(mysteryNumberObject) {
   
   return mysteryNumberObject.mysteryNumber * 5;
 
-return product;
+
 }
 
 function deleteProperty(object, property) {
@@ -106,7 +106,7 @@ function hasProperty(object, property) {
     }
   
   }
-  
+
 function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
