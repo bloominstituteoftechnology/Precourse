@@ -9,7 +9,7 @@ function counter() {
 
    arr.forEach(function(item){
 
-     console.log(item);
+     return(item);
 
    });
   }
