@@ -1,16 +1,16 @@
-var html = require('fs')
+const html = require('fs')
 .readFileSync('./Lesson8-DOM/homework/index.html')
-.toString();;
+.toString();
 
 document.documentElement.innerHTML = html;
 
-let {
+const {
   Todo,
   buildTodo,
   buildTodos,
   addTodo,
   completeTodo,
-  toDoItems
+  toDoItems,
 } = require('../DOMhomework.js');
 let desc, newTodo;
 

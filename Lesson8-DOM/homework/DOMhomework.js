@@ -3,9 +3,8 @@
            add your name to the end of the current innerHTML*/
 
 //Uncomment and add your code:
-// let created = document.querySelector(/* Your Code here */);
 
-function Todo(){
+document.getElementById('createdBy').innerHTML = 'This app was created by: Alex Martin';
 
 /* 
   STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.
@@ -13,16 +12,22 @@ function Todo(){
     this.complete which should be set to false. 
 */
 
+function Todo(description) {
+  this.description = description;
+  this.complete = false;
 }
 
 /* STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the
            Todo's complete to true*/
 
+Todo.prototype.completeTodo = function() {
+  this.complete = true;
+}
 /* STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo. */
-let toDoItems;
+let toDoItems = [];
 
 
-function buildTodo() {
+
 /*
   STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and 
           a numerical index as it's second.
@@ -39,17 +44,34 @@ function buildTodo() {
             7.) Append child todoText to todoShell
             8.) return todoShell
 */
+function buildTodo(Todo, index) {
+  let todoShell = document.createElement('div');
+  todoShell.className = 'todoShell';
+
+  let todoText = document.createElement('span');
+  todoText.innerHTML = todo.description;
+  todoText.id = index;
+
+  if (Todo.complete) {
+    todoText.className = 'completeText';
+  }
+
+  todoText.appendChild(todoShell);
+
+  return todoShell;
 }
 
-function buildTodos() {
+
   /* 
   STEP 6: This function will build and return an array of todo element. It will take an array of objects of the Todo class as it's only argument.
           Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. 
           Return the new mapped array.
   */
+function buildTodos(Todos) {
+  return Todos.map(buildTodos);
 }
 
-function displayTodos() {
+
   /* 
     STEP 7: Now that we can build an array of todo elements, we want to make these elements appear on the screen, 
             to do this we will create a 'displayTodos' function.
@@ -62,13 +84,16 @@ function displayTodos() {
 
             You can now load your html file in your broswer and see your work so far.
   */
+function displayTodos() {
+  let todoContainer = document.getElementById('todoContainer');
+  todoContainer.innerHTML = '';
+  buildTodos(toDoItems).forEach(item => todoContainer.appendChild(item));
 }
 
 
 
 
 
-function addTodo() {
                      /* 
     STEP 8: This function, 'addTodo' will add a new Todo to the array of todos.
             NOTE: We have not learned about input HTML elements yet, so we will give you a little more code to go on here.
@@ -81,8 +106,12 @@ function addTodo() {
             4.) Call displayTodos to refresh the todos displayed
   */
 
-  //UNCOMMENT THE NEXT LINE
-  // let newTodo = document.querySelector('#todoInput');
+  function addTodo() {
+
+  let newTodo = document.querySelector('#todoInput');
+  toDoItems.push(newTodo(newTodo.value));
+  newTodo.value = '';
+  displayTodos;
 }
 
 /* 
@@ -92,12 +121,12 @@ function addTodo() {
 
 */
 
-//UNCOMMENT THE NEXT LINE
-// let button;
+let button = document.querySelector('#addButton');
+button.addEventListener('click', addTodo);
 
 
 
-function completeTodo(event) {
+
   /* 
     STEP 10: Finally in this step we will define the function to run when we want to compelte a todo, and add that function to the click event
              listener on the todo element
@@ -110,8 +139,10 @@ function completeTodo(event) {
             2.) call displayTodos to refresh to items on the screen.
             3.) In the buildTodo function add a 'click' event listener to the 'todoText' element, and pass this function as the callback.
   */
-  //UNCOMMENT THE NEXT LINE
-  // let index = event.target.id;
+ function completeTodo(event) {
+    let index = event.target.id;
+    toDoItems[index].completeTodo();
+    displayTodos();
 }
 
 /* STEP 11: Make sure ALL tests pass */
@@ -132,6 +163,7 @@ function completeTodo(event) {
 
 
 // Call displayTodos here <-----
+displayTodos();
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
   module.exports = {
