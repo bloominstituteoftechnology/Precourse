@@ -1,0 +1,2 @@
+Ok kid, Arrays are like lists when it comes to coding. An Array stores a bunch of values that can be taken out, added to, moved around, etc.
+Arrays are really versatile and the easiest way to access an Array is using a 'for' loop as you can access evry value in an array using one.

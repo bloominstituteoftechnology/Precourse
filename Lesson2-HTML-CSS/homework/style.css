@@ -1,0 +1,56 @@
+                h1 {
+                    color:darkkhaki;
+                }
+                
+                img {
+                    
+                    width: 400px;
+                    
+        
+                }
+                
+                #thirdDiv {
+                     
+                    height: 600px;
+                    width: 500px;
+                    background-color: burlywood;
+                    padding: 50px;
+                    border: 2px solid;
+                    border-color: bisque;
+                    margin: auto;
+                }
+                
+                #spanID {
+                    
+                    font-size: 18px;
+                    color: burlywood;
+                    margin: 50px;
+                    border: 2px solid;
+                    border-radius: 5px;
+                    border-color: bisque;
+                  
+                }
+                        
+                .divClass { 
+                    
+                    text-align: center; 
+                    
+                    
+                }
+            
+                body, html{
+                    
+                    height: 100%;
+                }
+                
+                body {
+                    
+                    background-image: url("https://i.imgur.com/utPRH0B.jpg");
+                    background-position:left center;
+                    background-size: 100% 110%;
+                    background-attachment: scroll;
+                    background-repeat: no-repeat;
+                    
+                    
+                }
+                

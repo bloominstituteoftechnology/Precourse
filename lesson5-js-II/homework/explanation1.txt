@@ -1,0 +1,11 @@
+* So you're back again kid, ey? The 'for' loop? Ah, you want to know about that one. What it does is that it takes a value it sets up a condition the value has to reach and then it increments the value until it gets to the condition. So in:
+
+for(let i = 2; i >== 12; ! + 2){
+console.log('boi');
+}
+
+the value of 'i' is equal to 2, you want '1' to be less than our equal to 12, so you add 2 to the value of '1' until it reaches a value of 12, and it logs the word 'boi' to the console every time 'i' gains value. That's pretty much it.
+
+&& is just 2 ampersands and mean 'and', using && in a loop means that both sides have to be true for the loop to be troop, i.e.: (true&&true) = true but (true&&false) = false.
+Or(||) is the opposite, || means that either side has to be true for it to be true i.e.: (true&&false) = true, because although false is false true is still true. "!" means not and reverses the 'truthiness'
+of something. You know how 1+1 = 2? Well in Javascript !(1+1 = 2) is false because since it's true that 1 + 1 = 2 then the '!' operator reversing that makes it false.

@@ -1,40 +1,23 @@
+
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-
-let newString = 'string';
-
-//create a number variable, it an be any number
-let newNum = 6;
-
-//create a boolean variable
-let newBool = true;
-
-//solve the following math problem
-let newSubtract = 10 - 5 === 5;
-
-//Solve the following math problem
-let newMultiply = 10 * 4 === 40;
-
-//Solve the following math problem:
-let newModulo = 21 % 5 === 1;
-const newString = null ;
+let newString = null ;
 
 //create a number variable, it an be any number
-const newNum = null ;
+let newNum = null ;
 
 //create a boolean variable
-const newBool = null ;
+let newBool = null ;
 
 //solve the following math problem
-const newSubtract = 10 - null === 5;
+let newSubtract = 10 - null === 5;
 
 //Solve the following math problem
-const newMultiply = 10 * null === 40 ;
+let newMultiply = 10 * null === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === null ;
-
+let newModulo = 21 % 5 === null ;
 
 
 
@@ -45,184 +28,112 @@ const newModulo = 21 % 5 === null ;
 
 function returnString(str) {
   //simply return the string provided: str
-    return str;
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
-    const sum = x + y;
-    
-    return sum;
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-     const res = x - y;
-    
-    return res;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-    const product = x * y;
-    
-    return product;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
-    const divi = x/y;
-    
-    return divi;
 }
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
-    if(x == y){
-       
-        return true;
-    }
-    return false;
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-    const leng1 = str1.length;
-    const leng2 = str2.length;
-    
-    if(leng1 == leng2){
-        return true;
-    }
-    
-    return false;
 }
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
-    if(num<90){
-        return true;
-    }
-    
-    return false;
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
-    if(num>=50){
-        return true;
-    }
-    
-    return false;
 }
-
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
-    const rem = x%y;
-        return rem;
 }
 
 function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-    if(num % 2 == 0){
-        return true;
-    }
-    
-    return false;
-    
 }
 
-function isOdd() {
+function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-    if (num % 2 !== 0){
-        return true;
-    }
-    
-    return false;
 }
-
 
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-    const result = Math.pow(num, 2);
-        return result;
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
-    const resultB = Math.pow(num, 3);
-        return resultB;
-    
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-    const resultC = Math.pow(num, exponent);
-        return resultC;
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
-    Math.round(num);
-        return num;
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
-    Math.ceil(num);
-        return num;
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-    str = str + '!';
-    return str;
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-    const str1 = firstName;
-    const str2 = lastName;
-    const str3 = str1 + str2;
-        return str3;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-    const stringy = 'Hello';
-    const exc = "!";
-    const fullString = stringy + name + exc; 
-    return fullString;
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -231,48 +142,43 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
-    const area = length * width;
-        return area;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-    const areaT = (0.5 * base) * height;
-        return areaT;
-    
 }
 
 // Do not modify code below this line.
 // --------------------------------
 
 module.exports = {
-  newString,
-  newNum,
-  newBool,
-  newSubtract,
-  newMultiply,
-  newModulo,
-  returnString,
-  areSameLength,
-  areEqual,
-  lessThanNinety,
-  greaterThanFifty,
-  add,
-  subtract,
-  divide,
-  multiply,
-  getRemainder,
-  isEven,
-  isOdd,
-  square,
-  cube,
-  raiseToPower,
-  roundNumber,
-  roundUp,
-  addExclamationPoint,
-  combineNames,
-  getGreeting,
-  getRectangleArea,
-  getTriangleArea,
+  newString: newString,
+  newNum: newNum,
+  newBool: newBool,
+  newSubtract: newSubtract,
+  newMultiply: newMultiply,
+  newModulo: newModulo,
+  returnString: returnString,
+  areSameLength: areSameLength,
+  areEqual: areEqual,
+  lessThanNinety: lessThanNinety,
+  greaterThanFifty: greaterThanFifty,
+  add: add,
+  subtract: subtract,
+  divide: divide,
+  multiply: multiply,
+  getRemainder: getRemainder,
+  isEven: isEven,
+  isOdd: isOdd,
+  square: square,
+  cube: cube,
+  raiseToPower: raiseToPower,
+  roundNumber: roundNumber,
+  roundUp: roundUp,
+  addExclamationPoint: addExclamationPoint,
+  combineNames: combineNames,
+  getGreeting: getGreeting,
+  getRectangleArea: getRectangleArea,
+  getTriangleArea: getTriangleArea
 };
