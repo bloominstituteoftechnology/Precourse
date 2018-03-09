@@ -5,11 +5,16 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
-  var counter = 0;
-  function plus() {counter += 1;}
-  plus();    
-  return counter; 
-}
+  const arr =[1,2,3,4];
+
+   arr.forEach(function(item){
+
+     console.log(item);
+
+   });
+  }
+
+
 
 
 
