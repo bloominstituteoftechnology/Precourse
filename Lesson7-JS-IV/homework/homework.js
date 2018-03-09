@@ -23,7 +23,7 @@ function addProperty(object, property) {
   property: 'null',
 };
 
-let property = 'null';
+
 
 function invokeMethod(object, method) {
    // method is a string that contains the name of a method on the object
@@ -144,17 +144,11 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
   storeItem.calculateDiscountPrice = function() {
-
-     discount = this.discountPercentage;
-
-     saved = this.price * discount;
-
-     finalPrice = this.price - saved;
-
+    var discount = this.discountPercentage;
+    var saved = this.price * discount;
+    var finalPrice = this.price - saved;
     return finalPrice;
-
   };
-
 }
 
 // Do not modify code below this line.
