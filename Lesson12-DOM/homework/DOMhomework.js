@@ -14,20 +14,19 @@ const toDoItems = [];
 const spanNew = document.querySelector('#createdBy');
 spanNew.innerHTML += 'April Martinez';
 /* 
-  STEP 2: Create a class called 'ToDo'.  The There is a span element currently on the page with the innerHTML of 'This app was created by:',
-          Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
-          add your name to the END of the current innerHTML.should have one string parameter called description, the description of the toDo.
+  STEP 2: 
+          Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
           Add two properties to the class: 'description' which should be set equal to the description passed to the constructor, and 
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
 function ToDo () {
   // code here
-  
+  function ToDo (description){
     this.description = description;
     this.complete = false;
 
-
+  }
 
 }
 
