@@ -5,19 +5,15 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
-  const arr =[1,2,3,4];
+  let counterVariable = 0;
 
-   arr.forEach(function(item){
+  return function() {
 
-     return(item);
+    counterVariable += 1;
 
-   });
+    return counterVariable;
 
-  const mapped = arr.map(function(item){
-
-
-
-  });
+  }
 
 }
 
