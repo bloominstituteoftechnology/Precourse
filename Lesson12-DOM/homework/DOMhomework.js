@@ -22,14 +22,14 @@ spanNew.innerHTML += 'April Martinez';
 
 function ToDo () {
   // code here
-  class ToDo{
-    constructor(description){
+  var ToDo = class {
+   constructor(description, complete){
     this.description = description;
     this.complete = false;
     }
   }
-
 }
+
 
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
