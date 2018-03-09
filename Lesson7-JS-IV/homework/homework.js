@@ -54,7 +54,7 @@ delete object[property];
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
     // return the new object
-    nconst objThree = {
+    const objThree = {
 
       name: name,
     
