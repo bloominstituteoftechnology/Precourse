@@ -235,7 +235,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code 
-  return base * height; 
+  return 0.5 * base * height;
 }
 
 
