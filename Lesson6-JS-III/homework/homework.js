@@ -28,7 +28,7 @@ function returnLast(arr) {
 function getArrayLength(arr) {
   // return the length of the array
 
-     return arr(arr.length); 
+  return arr.length;
 }
 
 function incrementByOne(arr) {
