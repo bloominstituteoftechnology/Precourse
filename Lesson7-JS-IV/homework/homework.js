@@ -5,16 +5,21 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
-  const objOne = {
+  let myObject = {
+
     name: name,
+
     age: age,
-    meow: function() {
-       const catString = 'Meow!'; 
-   return catString;
-    }
+
+    meow: function() { return 'Meow!'; },
+
   };
-  return objOne;
+
+  return myObject;
+
 }
+
+
 
 
 
@@ -22,33 +27,33 @@ function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
-  object[property] = null;
+  let obj ={
 
-  return object;
+    property: 'null',
+
+  };
 
 }
+
+let property = 'null';
 
 function invokeMethod(object, method)
  {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-   object[method] ;	
+   object[method] 
 			
-  }
+  };
   
   
-    
-
-  
-
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
   
   return mysteryNumberObject.mysteryNumber * 5;
 
-
+return product;
 }
 
 function deleteProperty(object, property) {
@@ -62,19 +67,18 @@ function deleteProperty(object, property) {
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
     // return the new object
-    const objThree = {
+    newObj = {
 
       name: name,
-    
+
       email: email,
-    
-      password: password
-    
-    };
-    
-      return objThree;
-    
-    }    
+
+      password: password,
+
+     }
+
+  return newObj;
+}
 
 
 function hasEmail(user) {
@@ -91,21 +95,18 @@ function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
-  for (let key in object) {
+  if (property === object){
 
-    if (object[key] === object.hasProperty(property)) {
-
-      return true;
-
-    } else {
-
-      return false;
-
+    return true;
+  
+  } else {
+  
+  return false;
+  
+    }
+  
   }
-
-}
-
-}
+  
 function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
