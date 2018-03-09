@@ -285,42 +285,23 @@ function addCalculateDiscountPriceMethod(storeItem) {
 
 }
 
-
-
 // Do not modify code below this line.
-
 // --------------------------------
-
-
 
 module.exports = {
 
   makeCat: makeCat,
-
   addProperty: addProperty,
-
   invokeMethod: invokeMethod,
-
   multiplyMysteryNumberByFive: multiplyMysteryNumberByFive,
-
   deleteProperty: deleteProperty,
-
   newUser: newUser,
-
   hasEmail: hasEmail,
-
   hasProperty: hasProperty,
-
   verifyPassword: verifyPassword,
-
   updatePassword: updatePassword,
-
   addFriend: addFriend,
-
   setUsersToPremium: setUsersToPremium,
-
   sumUserPostLikes: sumUserPostLikes,
-
   addCalculateDiscountPriceMethod: addCalculateDiscountPriceMethod,
-
 };
