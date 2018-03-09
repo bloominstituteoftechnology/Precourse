@@ -29,10 +29,7 @@ function nFibonacci(n) {
     array.push(array[i - 1] + array[i - 2]);
 
   }
-
-
-
-  return array[9];
+  return array[n];
 
 }
 
