@@ -25,7 +25,7 @@ function addProperty(object, property) {
 
 }
 
-let property = 'null';
+
 
 
 function invokeMethod(object, method) {
