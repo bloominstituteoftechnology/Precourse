@@ -9,8 +9,18 @@ function sumArray(numbers, cb) {
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
-  var result = numbers.reduce( function(sum, num) { return sum += num; });
+  const sum = numbers.reduce(function(accumulator, currentValue) {
+
+    accumulator = accumulator + currentValue
+
+    return accumulator;
+
+  });
+
+  cb(sum);
+
 }
+
 
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
