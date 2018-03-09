@@ -8,11 +8,11 @@ function nFactorial(n) {
   // the factorial of 3 is 6 (3 * 2 * 1)
  //recursive
 
- if ( n === 1 ){ return 1; } 
-
-
-
-   return n * nFactorial( n - 1 );
+ if (n == 0) {
+   return 1;
+ }else{
+  return n * nFactorial( n - 1 );
+     }
 
    } 
 
@@ -24,16 +24,18 @@ function nFactorial(n) {
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
-  var array = [0, 1];
+  if(n <= 1){
 
-    for (var i = 2; i <= n; i++) {
-        array.push(array[i - 1] + array[i - 2]);
-    }
+    return 1;
 
-    return array[n];
+  } else {
+
+    return nFibonacci(n-1) + nFibonacci(n-2);
+
+  }
+
 }
-var n = 6;
-var ans = nFibonacci(n);
+
 
 // Do not modify code below this line.
 // --------------------------------
