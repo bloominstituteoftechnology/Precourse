@@ -24,19 +24,21 @@ function nFactorial(n) {
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
-  if(n <= 1){
-
-    return 1;
-
-  } else {
-
-    return nFibonacci(n-1) + nFibonacci(n-2);
-
+  if (n == 0 || n == 1)
+  {
+      return 1;
   }
+   a = 0;
+   b = 1;
 
+  for ( i = 0; i < n; i++)
+  {
+      n = b + a;
+      a = b;
+      b = n;
+  }
+  return c;
 }
-Fibonacci().Nth(n);
-
 // Do not modify code below this line.
 // --------------------------------
 
