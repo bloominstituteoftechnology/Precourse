@@ -6,19 +6,11 @@ function nFactorial(n) {
   // return the factorial for n
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
-  if (num < 0) {  
-    return -1;  
-}  
-// If the number is 0, its factorial is 1.  
-else if (num == 0) {  
-    return 1;  
-}  
-var tmp = num;  
-while (num-- > 2) {  
-    tmp *= num;  
-}  
-return tmp;  
-}  
+  if (n==0 || n==1){
+    return 1;
+  }
+  return factorial(n-1)*n;
+} 
 
  
 
