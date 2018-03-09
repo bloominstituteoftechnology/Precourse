@@ -160,14 +160,11 @@ document.querySelector('#addButton').onclick = addToDo;
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-   const index = event.target.id;
+  // const index = event.target.id;
   // code here
-  
-
+  const index = event.target.id;
   completeToDo (index);
-
   displayToDos();
-
 }
 
 /* STEP 10: Make sure ALL tests pass */
