@@ -11,20 +11,22 @@ img {width: 400px;}
                 border-style: double;
                 border-width: 15px;
                 border-color: blue;
-                
-}
+                    }
 
    
 #spanId {font-size: 18px; 
             margin: 50px;
+    display: inline;
         }
 
-div.centre {
-width: 100px;
-display: block;
-background-color: #eee;
-margin-left: auto;
-margin-right: auto;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-div.divclass {text-align: center}
+div.divclass {
+    text-align: center;
+
+}
