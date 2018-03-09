@@ -81,11 +81,20 @@ function hasProperty(object, property) {
  // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
-  if (object === 'property'){
- return true;
-} else {
-return false;
+  for (let key in object) {
+
+    if (object[key] === object.hasOwnProperty(property)) {
+
+      return true;
+
+    } else {
+
+      return false;
+
   }
+
+}
+
 }
 
 function verifyPassword(user, password) {
