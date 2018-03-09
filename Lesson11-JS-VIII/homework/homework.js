@@ -35,7 +35,7 @@ function nFibonacci(n) {
   }
 
 }
-
+Fibonacci().Nth(n);
 
 // Do not modify code below this line.
 // --------------------------------
