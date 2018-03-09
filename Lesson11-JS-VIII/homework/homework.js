@@ -20,8 +20,7 @@ while (num-- > 2) {
 return tmp;  
 }  
 
-var result = factorial(8);  
-document.write(result);  
+ 
 
 
 function nFibonacci(n) {
