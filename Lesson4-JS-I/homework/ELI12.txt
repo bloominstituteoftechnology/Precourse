@@ -1,0 +1,23 @@
+--What is a variable?--
+Ok, so you might be confused when you see "x = 2" and then "x = 4". Didn't we say x was 2? Why is it now 4? You liar!
+Well, computer scientists aren't always the best party dudes, but they don't joke around that much.
+Think having a box with "x" attached to it. When you say "x = 2" what you are saying is "put the value 2 inside the box with x".
+When you then say "x = 4" you mean "take out 2 from the box, and put 4 in it".
+
+Well, a variable isn't just a number holder, that'd mean nothing, but that's why we can use the box's name in operations. That way, when you say "y = x + 4" you are asking the computer to take a box with a y attached to it, take momentarily out the value from the x box, sum it to 4 and put it in y. Return x's value to the box at the end.
+
+--What is a string?--
+A string is a series of characters put together in the same variable box.
+
+--What is a function?--
+If you are writing a program, chances are you will invent or implement some sort of algorithm to do some specific thing. Unless you do that thing only once, it would be nice to have a construct that says "ok, feed me some input and I'll treat that for you".
+When you write a function, you describe what you want to be calculated using a GENERIC input and, at a certain point, you ask the function to give you the value calculated with a "return" statement.
+Then, when you call the function, you feed it an input that the function will replace the generic value with.
+
+--What is an if statement?--
+Sometimes, expecially when writing a function, you don't want all values to be treated the same way. For example, you might want to treat odd and even numbers in a different way, or you might want to check that a number is not 0 before dividing by it.
+An if statement does that: you ask the if statement to check something (like, "is num equal to zero?") and if that is true, you execute the piece of code in the if statement. If it's not, you don't.
+
+--What is a boolean value?--
+A boolean value is the simplest of the possibly type of values. It's a variable that can only hold two states: true or false.
+They are mostly used for if statements (since the if statement will execute if the condition is true or is something that evaluates to true).
