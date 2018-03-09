@@ -12,7 +12,7 @@ function nFactorial(n) {
  return 1;
 if (f[n] > 0)
  return f[n];
-return f[n] = factorial(n-1) * n;
+return f[n] = nFactorial(n-1) * n;
 } 
 
 
