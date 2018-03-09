@@ -8,17 +8,27 @@ function createUserClass() {
   // {{name}} should be the name set on each instance
   // return the constructor
   
-   function User() {
-  this.username =username;
-  this.name = name;
-  this.email = email;
- this.password = password;
- 
-   this.User.prototype. sayHi = function user(){
-        'Hello, my name is {{name}}';
-   };
+  function User (options) {
+
+    this.username = options.username;
+  
+    this.name = options.name;
+  
+    this.email = options.email;
+  
+    this.password = options.password;
+  
   }
-}
+  
+  User. prototype.sayHi = function() {
+  
+    return 'Hello, my name is' + '' + this.name;
+  
+  }
+  
+  return User;
+  
+  }
       
 
 function addPrototypeMethod(Constructor) {
