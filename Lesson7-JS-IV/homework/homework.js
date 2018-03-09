@@ -38,7 +38,7 @@ function invokeMethod(object, method) {
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
-   mysteryNumberObject.mysteryNumber * 5;
+  return mysteryNumberObject.mysteryNumber * 5;
 
  
 }
@@ -92,11 +92,16 @@ function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
-  if (user.password === password){
-  return true;
-} else {
-return false;
+  if (user.password === password) {
+
+    return true;
+
+  } else {
+
+    return false;
+
   }
+
 }
 
 function updatePassword(user, newPassword) {
