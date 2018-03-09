@@ -5,34 +5,36 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
-  let myObject = {
+  const newObj = {
     name: name,
     age: age,
-    meow: function() { return 'Meow!'; },
+    meow: function() {
+       return 'Meow!'; },
   };
-  return myObject;
+  return newObj;
 }
   
 function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
-  let obj ={
-    property: 'null',
-  };
+  object[property] = null;
+
+  return object;
+
 }
-let property = 'null';
 
 function invokeMethod(object, method) {
    // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-   object[method] 	
-  };
+   object[method]();	
+  }
   
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
+   mysteryNumberObject.mysteryNumber * 5
 
  return product;
 }
@@ -64,13 +66,13 @@ function hasEmail(user) {
 }  else {
   return false;
 }
-
+}
 function hasProperty(object, property) {
  // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
-  if (property === object){
-  return true;
+  if (object === 'property'){
+ return true;
 } else {
 return false;
   }
@@ -90,11 +92,10 @@ return false;
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
-  userObj = {
-password: ('abc123'),
-  }
-userObj.password = 'cba321';
-return userobj;
+  user.password = newPassword;
+
+  return user;
+
 }
 function addFriend(user, newFriend) {
   // user has a property called friends that is an array
@@ -110,13 +111,11 @@ function setUsersToPremium(users) {
   // set each user's isPremium property to true
   // return the users array
  
-  let newUsers = {
+  for (let i = 0; i < users.length; i++) {
 
-   isPremium: true,
+    users[i].isPremium = true;}
 
-     }
-
-  } 
+    return users;
 
 }
 function sumUserPostLikes(user) {
@@ -125,7 +124,9 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
-  for (let i = 0; i < user.posts.length; i++) {
+
+  let totalLikes = 0
+    for (let i = 0; i < user.posts.length; i++) {
     let obj = user.posts[i];
     sum += obj.likes;
   }
