@@ -6,15 +6,17 @@ function nFactorial(n) {
   // return the factorial for n
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
- 
-  if ( n === 1 ){ return 1; } 
+ //recursive
+var factorial = function(n) {
+  if(n == 0) {
+      return 1
+  } else {
+      return n * factorial(n - 1);
+  }
+}
 
-
-
-  return n * nFactorial( n - 1 );
-
-  } 
- 
+console.log(factorial(num));
+    }
 
 
 function nFibonacci(n) {
