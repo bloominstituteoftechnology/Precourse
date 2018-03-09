@@ -12,10 +12,20 @@
 }
 
 .thirdDiv{
+	
 	height:600px; 
 	width:500px; 
 	background-color:brown; 
 	padding:50px; 
 	border:20px solid gray;
 }
+
+#steak1{
+	width:400px;
+}
+
+#steak2{
+	width:400px;
+}
+
 
