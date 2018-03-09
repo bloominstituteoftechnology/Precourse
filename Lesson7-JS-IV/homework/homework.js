@@ -106,7 +106,7 @@ function addFriend(user, newFriend) {
   // add newFriend to the end of the friends array
   // return the user object
   friend.push('newFriend');
-  return friend;
+  return Friend;
 }
 
 function setUsersToPremium(users) {
