@@ -75,10 +75,11 @@ function wordsToSentence(words) {
   
   const str = words.join('');
 
-  return str;
-  
-  }
-  
+return str;
+
+}
+
+    
 
 function contains(arr, item) {
   // check to see if item is inside of arr
