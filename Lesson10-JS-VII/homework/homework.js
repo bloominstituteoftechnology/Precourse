@@ -11,9 +11,7 @@ function add() {
     counter += 1;
 }
 }
-add();
-add();
-add();
+
 
 
 
