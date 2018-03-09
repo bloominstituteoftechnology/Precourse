@@ -7,16 +7,16 @@ function nFactorial(n) {
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
  //recursive
-var factorial = function(n) {
+
   if(n == 0) {
       return 1
   } else {
-      return n * factorial(n - 1);
+      return n * factorial(n + 1);
   }
 }
 
 console.log(factorial(num));
-    }
+    
 
 
 function nFibonacci(n) {
