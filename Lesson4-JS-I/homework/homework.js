@@ -123,7 +123,7 @@ function greaterThanFifty(num) {
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
-  x % y
+ return x % y
   
 }
 
@@ -235,7 +235,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code 
-  return (base * height) 
+  return base * height; 
 }
 
 
