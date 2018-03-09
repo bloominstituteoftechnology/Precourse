@@ -131,8 +131,7 @@ function addToDo() {
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
 
-let addButton = document.querySelector('#addButton');
-addButton.onclick = addToDo();
+document.querySelector('#addButton').addEventListener('click', () => addToDo());
 
 /*
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
