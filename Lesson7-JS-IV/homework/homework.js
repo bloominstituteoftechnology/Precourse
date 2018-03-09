@@ -22,7 +22,7 @@ function addProperty(object, property) {
     property: 'null',
 
   };
-
+return obj;
 }
 
 
