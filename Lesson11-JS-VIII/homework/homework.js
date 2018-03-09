@@ -8,13 +8,15 @@ function nFactorial(n) {
   // the factorial of 3 is 6 (3 * 2 * 1)
  //recursive
 
- if (n == 0 || n == 1)
- return 1;
-if (F[n] > 0)
- return F[n];
-return F[n] = nFactorial(n-1) * n;
-} 
+ if ( n === 1 ){ return 1; } 
 
+
+
+   return n * nFactorial( n - 1 );
+
+   } 
+
+    
 
     
 
