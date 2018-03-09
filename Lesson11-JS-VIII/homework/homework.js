@@ -6,17 +6,23 @@ function nFactorial(n) {
   // return the factorial for n
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
-  if(n == 0) {
+  if (num < 0) {  
+    return -1;  
+}  
+// If the number is 0, its factorial is 1.  
+else if (num == 0) {  
+    return 1;  
+}  
+var tmp = num;  
+while (num-- > 2) {  
+    tmp *= num;  
+}  
+return tmp;  
+}  
 
-    return 1;
+var result = factorial(8);  
+document.write(result);  
 
-  } else { 
-
-    return n * nFactorial(n - 1);
-
-  }
-
-}
 
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
