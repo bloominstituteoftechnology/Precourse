@@ -31,7 +31,7 @@ function nFibonacci(n) {
     return array[n];
 }
 var n = 6;
-var ans = fibonacci(n);
+var ans = nFibonacci(n);
 
 // Do not modify code below this line.
 // --------------------------------
