@@ -5,22 +5,21 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
-  let counterVariable = 0;
+  const arr =[1,2,3,4];
 
-  return function() {
+   arr.forEach(function(item){
 
-    counterVariable += 1;
+     return(item);
 
-    return counterVariable;
+   });
 
-  }
+  const mapped = arr.map(function(item){
+
+
+
+  });
 
 }
-
-
-
-
-
 
 
 function cacheFunction(cb) {
