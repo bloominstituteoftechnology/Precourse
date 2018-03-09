@@ -105,7 +105,7 @@ function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
   // return the user object
-  friend.push('newFriend');
+  friends.push('newFriend');
   return Friend;
 }
 
@@ -129,12 +129,12 @@ function sumUserPostLikes(user) {
   // sum together the likes from all the post objects
   // return the sum
 
-  let totalLikes = 0;
+  
     for (let i = 0; i < user.posts.length; i++) {
     let obj = user.posts[i];
     sum += obj.likes;
   }
-  return sum;
+  
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
