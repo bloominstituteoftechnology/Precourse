@@ -15,7 +15,7 @@ function nFactorial(n) {
   }
 }
 
-console.log(factorial(num));
+
     
 
 
