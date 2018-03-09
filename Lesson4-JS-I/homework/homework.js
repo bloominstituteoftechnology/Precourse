@@ -99,7 +99,7 @@ function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
-  if (num > 90){
+  if (num < 90){
     return true;
   } 
     return false;
@@ -124,7 +124,7 @@ function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
   x % y
-  return getremainder;
+  
 }
 
 
@@ -233,7 +233,8 @@ function getRectangleArea(length, width) {
 
 
 function getTriangleArea(base, height) {
-here
+
+  
   // return the area of the triangle by using base and height
   // code 
   return (base * height) 
