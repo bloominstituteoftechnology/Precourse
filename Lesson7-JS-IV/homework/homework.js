@@ -35,7 +35,7 @@ function invokeMethod(object, method) {
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
-   mysteryNumberObject.mysteryNumber * 5
+   mysteryNumberObject.mysteryNumber * 5;
 
  return mysteryNumber();
 }
@@ -126,7 +126,7 @@ function sumUserPostLikes(user) {
   // sum together the likes from all the post objects
   // return the sum
 
-  let totalLikes = 0
+  let totalLikes = 0;
     for (let i = 0; i < user.posts.length; i++) {
     let obj = user.posts[i];
     sum += obj.likes;
