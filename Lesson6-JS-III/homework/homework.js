@@ -73,7 +73,7 @@ function wordsToSentence(words) {
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
   
-  var sentence = ""; //empty string
+  var sentence = ''; //empty string
   for (var i = 0; i < words.length; i++) {
      sentence += ' ' + words[i];
   }
