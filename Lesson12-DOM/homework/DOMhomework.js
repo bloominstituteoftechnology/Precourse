@@ -22,7 +22,7 @@ spanNew.innerHTML += 'April Martinez';
 
 function ToDo () {
   // code here
-  class ToDO {
+  class ToDo {
    constructor(description){
     this.description = 'description';
     this.complete = false;
