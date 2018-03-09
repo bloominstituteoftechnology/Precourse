@@ -73,16 +73,17 @@ function wordsToSentence(words) {
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
   
-  const str = words.join('');
+  return str.split("").join("");
 
-return str;
+
+ return str;
 
 }
 
     
 
 function contains(arr, item) {
-  // check to see if item is inside of arr
+   // check to see if item is inside of arr
   // return true if it is, otherwise return false
   for (let i = 0; i < arr.length; i++) {
 
