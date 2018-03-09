@@ -1,0 +1,14 @@
+1. Variables = JavaScript variables are containers that store information. 
+Just like in math, when x = a number, let's say 6, the x is the name of the variable, and 6 is the variable's output.
+This allows us to write a math problem, but substitute any number for x. 
+2. Strings = Strings are any characters, surrounded by single (or double, but prefer single) quotes. What is inside the
+quotes is the string and will be printed when the return command is given. 'all of this text is considered a string 
+along with any numbers or punctuations'.
+3. Numbers = are only numbers. No quotes. Can be positive or negative numbers.
+4. Functions = a function statement states that some variables are coming up that needs computing - to change them somehow.
+The arguments inside a function, is where the variables will be plugged in and computed. The return statement is when 
+the data will be accessible outside of the function. Once a return statement is made, the function immediately stops.
+5. if statments = allow for us to check if something is true, nd either running the code supplied if it is, 
+or moving on if it is not. 
+6. Boolean values = are only either 'true' or 'false'. It is best used in conjunction with an If statement. If the statement 
+is true, do this. If not (and it is false) then do that instead.
