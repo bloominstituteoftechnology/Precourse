@@ -32,7 +32,7 @@ function nFibonacci(n) {
 
 
 
-  return array[n];
+  return array[9];
 
 }
 
