@@ -73,8 +73,13 @@ function wordsToSentence(words) {
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
   
- words.split('').join('');
-return words;
+  const str = words.join('');
+
+  return str;
+  
+  }
+  
+  
 
  
 
