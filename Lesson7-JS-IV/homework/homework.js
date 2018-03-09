@@ -211,7 +211,7 @@ function setUsersToPremium(users) {
 
   // return the users array
 
-  let users = {
+  let newUsers = {
 
     isPremium: true,
 
