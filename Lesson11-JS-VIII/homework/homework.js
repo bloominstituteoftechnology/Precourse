@@ -38,7 +38,7 @@ var n = 9;
 
 var ans = fibonacci(n);
 
-return(ans);
+
 
 
 // Do not modify code below this line.
