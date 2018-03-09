@@ -162,9 +162,8 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
    const index = event.target.id;
   // code here
-  
-   completeToDo (event);
-  
+  completeToDo (index);
+  displayToDos();
 }
 
 /* STEP 10: Make sure ALL tests pass */
