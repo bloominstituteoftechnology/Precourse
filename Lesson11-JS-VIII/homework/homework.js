@@ -22,19 +22,13 @@ function nFibonacci(n) {
   // return the nth number in the sequence
   var array = [0, 1];
 
-
-
   for (var i = 2; i <= n; i++) {
-
     array.push(array[i - 1] + array[i - 2]);
 
   }
   return array[n];
-
 }
-
 var n = 9;
-
 var ans = fibonacci(n);
 
 // Do not modify code below this line.
