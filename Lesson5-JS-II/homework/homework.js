@@ -62,21 +62,17 @@ function multiplyArguments() {
    
    }
   
-  
-
-
-
-
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
-  if (num === 10) {
-    return( 'true!');
-}if (num === 5){
-   return(true);
-} else  {
-  return(false);
-}
+  if(num === 10 || num ===5) {
+
+    return true;
+
+  }
+
+  return false;
+
 }
  
 
