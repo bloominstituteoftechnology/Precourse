@@ -102,7 +102,7 @@ function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
   // return the user object
-  friends.push(newFriend);
+  friend.push(newFriend);
   return friend;
 }
 
@@ -153,7 +153,7 @@ function addCalculateDiscountPriceMethod(storeItem) {
 
     return finalPrice;
 
-  }
+  };
 
 }
 
