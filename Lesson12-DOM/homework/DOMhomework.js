@@ -128,7 +128,7 @@ function displayToDos() {
 function addToDo() {
   // code here
    
-    let newItem = toDoItems(document.querySelector('#toDoInput').value);
+    let newItem = toDo(document.querySelector('#toDoInput').value);
      toDoItems.push(newItem)
      document.querySelector('#toDoInput').value = '';
      displayToDos();
@@ -160,11 +160,11 @@ document.querySelector('#addButton').onclick = addToDo;
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+   const index = event.target.id;
   // code here
-  const index = event.target.id;
-  completeToDo (index);
-  displayToDos();
+  
+   completeToDo (index);
+  
 }
 
 /* STEP 10: Make sure ALL tests pass */
