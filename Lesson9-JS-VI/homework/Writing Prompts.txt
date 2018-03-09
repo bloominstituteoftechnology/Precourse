@@ -1,0 +1,9 @@
+#Callback
+
+A callback is when you give a function another function to perform as one of its arguments. 
+
+To understand this, think of a normal function as a baker who can only bake layer cakes. You can give them different ingredients ("arguments"), and he can make different kinds of cakes with those ingredients. So if you give him chocolate, he can make you chocolate layer cake, and if you give him strawberry, he can make strawberry layer cake.
+
+Now, let's say our baker can now use "callback functions". What that would mean here, is that not only can we give the baker ingredients, but we can also give him a recipe book, telling him how to make different things with those ingredients. The recipe book is a set of instructions we give to the baker, and he then uses those instructions on the other ingredients we give him. So if we give him flour, sugar, butter, eggs, chocolate and a recipe for cookies, he'll make us chocolate cookies. On the other hand, if we give him the same ingredients, but a recipe for brownies, then he'll make us chocolate brownies, even though we gave him the exact same ingredients. The difference is that in this case, one of the things we give the baker (the arguments), also includes instructions (the callback function). This is opposed to the normal function situation, where the baker only knows how to do one thing, and the only thing we can him are ingredients (non-function arguments).
+
+Obviously, this can bring a lot of versatility to our code. It's the difference between just having layer cake for the rest of your life and every baked good you can dream of.
