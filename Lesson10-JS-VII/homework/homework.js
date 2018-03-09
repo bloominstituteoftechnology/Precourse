@@ -6,10 +6,9 @@ function counter() {
   // newCounter(); // 1
   // newCounter(); // 2
   var counter = 0;
-
-function add() {
-    counter += 1;
-}
+  function plus() {counter += 1;}
+  plus();    
+  return counter; 
 }
 
 
