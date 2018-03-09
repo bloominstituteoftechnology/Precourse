@@ -37,7 +37,7 @@ function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // multiply the mysteryNumber property by 5 and return the product
    mysteryNumberObject.mysteryNumber * 5
 
- return product;
+ return mysteryNumber();
 }
 
 function deleteProperty(object, property) {
