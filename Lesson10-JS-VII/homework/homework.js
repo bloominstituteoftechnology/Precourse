@@ -5,17 +5,16 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
-  let counterVariable = 0;
+  var counter = 0;
 
-  return function() {
-
-    counterVariable += 1;
-
-    return counterVariable;
-
-  }
-
+function add() {
+    counter += 1;
 }
+}
+add();
+add();
+add();
+
 
 
 
