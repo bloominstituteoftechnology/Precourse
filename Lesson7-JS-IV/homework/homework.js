@@ -102,11 +102,13 @@ return false;
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
-  user.password = newPassword;
+  user.friends.push(newFriend);
 
   return user;
 
 }
+
+
 function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
@@ -135,13 +137,15 @@ function sumUserPostLikes(user) {
   // sum together the likes from all the post objects
   // return the sum
 
-  
-    for (let i = 0; i < user.posts.length; i++) {
-    let obj = user.posts[i];
-    sum += obj.likes;
-  }
-  
-}
+  let totalLikes = 0;
+
+  for (let i = 0; i < user.posts.length; i++) {
+
+    totalLikes = totalLikes + user.posts[i].likes;
+
+  } return totalLikes;
+
+}}
 
 function addCalculateDiscountPriceMethod(storeItem) {
   // add a method to the storeItem object called 'calculateDiscountPrice'
