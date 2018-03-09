@@ -1,0 +1,7 @@
+Variables - A way to store data that you can use muliple times.
+Strings  - Are block of texts like when you send a message on FaceBook. The message inside the string must have quotation marks or quotes.
+Functions- A type of value that stores other different types of values in it. 
+Arguments- An Argument is added to a function to start working the inside data of the function.
+Returns- Are used to return the final value of a function outside of it so the value can be used again.
+if statments - Where you can do some kind of comparison or some kind of check to see what the value is.
+Boolean values- This value only holds to values either yes & no or true & false.
