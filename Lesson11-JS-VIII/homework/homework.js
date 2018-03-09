@@ -18,26 +18,17 @@ function nFactorial(n) {
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
-  var array = [0, 1];
+  function fibonacci(n) {
+    var array = [0, 1];
 
+    for (var i = 2; i <= n; i++) {
+        array.push(array[i - 1] + array[i - 2]);
+    }
 
-
-  for (var i = 2; i <= n; i++) {
-
-    array.push(array[i - 1] + array[i - 2]);
-
-  }
-
-
-
-  return array[n];
-
+    return array[n];
 }
-
-var n = 9;
-
+var n = 6;
 var ans = fibonacci(n);
-
 
 
 
