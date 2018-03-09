@@ -27,7 +27,7 @@ function nFibonacci(n) {
 
     return array[n];
 }
-var n = 6;
+var n = 9;
 var ans = fibonacci(n);
 
 
