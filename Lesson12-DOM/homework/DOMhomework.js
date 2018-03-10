@@ -59,10 +59,10 @@ function buildToDo(todo, index) {
   const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
   const toDoText = document.createElement('span');
-  toDoText.innerHTML = toDoText.description;
+  toDoText.innerHTML = toDo.description;
   toDoText.id = index;
   toDoText.onclick = completeToDo;
-  if(toDoText.complete === true) {
+  if(toDo.complete === true) {
     toDoText.class = 'completeText'
   } toDoShell.appendChild(toDoText);
   return toDoShell;
@@ -77,7 +77,7 @@ function buildToDo(todo, index) {
           Return the new mapped array.
 */
 
-function buildToDo(toDo) {
+function buildToDos(toDos) {
   // code here
   document.getElementById('toDoText').onclick = completeToDo;
   return toDo.map(buildToDo);
@@ -96,11 +96,11 @@ function buildToDo(toDo) {
           You can now load your html file in your broswer and see your work so far.
 */
 
-function displayToDo() {
+function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
   toDoContainer.innerHTML = '';
-  const hold = buildToDos(toDosItems);
+  const hold = buildToDos(toDoItems);
   for(let i = 0; i < hold.length; i++) {
     toDoContainer.appendChild(hold[i]);
 
