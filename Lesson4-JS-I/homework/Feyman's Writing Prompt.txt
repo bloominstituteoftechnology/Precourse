@@ -1,0 +1,13 @@
+Feynman Writing Prompts:
+
+
+
+* Variables- Variables are containers they 'store the value of something to use later'. Keyword > ' ' > Name > = > Value Assigned > ;
+
+* Strings- In the words of our instructor a string is ' series of text between two '' or "".' Any character/s between parentheses is stored as as string. 
+
+* Functions (arguments, `return`)- A function contains arguments/statements that execute a task. Arguments in a function theoretically loop an infinite amount of times; a return statement ends the execution and returns a value.
+
+* `if` statements - if statements are conditional statements that return a binary value either being true or false. If takes in a rule and decides if it is true or false.
+
+* Boolean values (`true`, `false`)- Are binary values denoting if something is true or false, 1 or 0.
