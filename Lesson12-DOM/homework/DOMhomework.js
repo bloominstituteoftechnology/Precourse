@@ -124,7 +124,7 @@ function displayToDos() {
 function addToDo() {
   // code here
    
-    const newItem = toDo(document.querySelector('#toDoInput').value);
+    const newItem = newToDo(document.querySelector('#toDoInput').value);
      toDoItems.push(newItem);
      document.querySelector('#toDoInput').value = '';
      displayToDos();
