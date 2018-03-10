@@ -73,6 +73,7 @@ function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
+  return num < 90;
   
 }
 
@@ -80,34 +81,41 @@ function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
+  return > 50;
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
+  return (x % y);
 }
 
 function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
+  return num is even;
+  
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
+  return num is odd;
 }
 
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
+  return num is square;
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
+  return num is cube;
 }
 
 function raiseToPower(num, exponent) {
