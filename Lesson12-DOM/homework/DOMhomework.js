@@ -22,15 +22,10 @@ spanNew.innerHTML += 'April Martinez';
 
 function ToDo () {
   // code here
-  function ToDo (description) {
-   
-    this.description = description;
+    this.description = 'description';
     this.complete = false;
     }
-  }
-
-
-
+  
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
           It will not take any arguemnts. 
@@ -160,7 +155,7 @@ document.querySelector('#addButton').onclick = addToDo;
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-   const index = event.target.id;
+  // const index = event.target.id;
   // code here
   completeToDo (index);
   displayToDos();
