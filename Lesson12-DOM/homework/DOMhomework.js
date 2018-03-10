@@ -156,7 +156,7 @@ document.querySelector('#addButton').onclick = addToDo;
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
- let index = event.target.id;
+ //const index = event.target.id;
   // code here
   completeToDo (index);
   displayToDos();
