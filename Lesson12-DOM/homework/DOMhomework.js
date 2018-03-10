@@ -22,13 +22,13 @@ spanNew.innerHTML += 'April Martinez';
 
 function ToDo () {
   // code here
-  class ToDo {
-   constructor(description){
+  function ToDo (description) {
+   
     this.description = 'description';
     this.complete = false;
     }
   }
-}
+
 
 
 /* 
