@@ -1,0 +1,21 @@
+## Instructions
+---
+1. Feynman Writing Prompts - In a separate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+
+	* Variables
+	* Strings
+	* Functions (arguments, `return`)
+	* `if` statements
+	* Boolean values (`true`, `false`)
+
+
+// Variables
+Variables hold values. Think of them like an octopus tentacle that grasps on to something (the value). You can retrieve that something using the variable name which is shorthand for the stored value.
+
+// Strings
+Strings store a series of characters. You must include quotations on your strings.
+
+// Functions
+Functions allow you to do things with values (or variables). You can reuse functions and pass in arguments that can affect which gets returned from the function. Returning something from a function is the only way data can escape the function.
+
+// Booleans are among the primitive javascript data types. Think of booleans like yes or no, or on or off choices that can help you with your program logic.
