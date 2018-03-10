@@ -13,6 +13,7 @@ function counter() {
     }
   }
 }
+
 var c = newCounter();
 var c1 = newCounter();
 c();
