@@ -30,7 +30,7 @@ function map(arr, cb) {
   // the new array should be the same length as the array argument
   let newArr = [];
   for (let i = 0; i < arr.length; i++) {
-    newArrMapp = cb(arr[i]);
+    const newArrMapp = cb(arr[i]);
     newArr.push(newArrMapp);    
   }
   return newArr;

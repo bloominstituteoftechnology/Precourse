@@ -1,60 +1,26 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-<<<<<<< HEAD:Lesson2-Intro-to-JS/homework/homework.js
+
 let newString = 'Mohammad Ali' ;
-||||||| merged common ancestors
-let newString = null ;
-=======
-const newString = null ;
->>>>>>> upstream/master:Lesson4-JS-I/homework/homework.js
 
 //create a number variable, it an be any number
-<<<<<<< HEAD:Lesson2-Intro-to-JS/homework/homework.js
 let newNum = 57 ;
-||||||| merged common ancestors
-let newNum = null ;
-=======
-const newNum = null ;
->>>>>>> upstream/master:Lesson4-JS-I/homework/homework.js
 
 //create a boolean variable
-<<<<<<< HEAD:Lesson2-Intro-to-JS/homework/homework.js
 let newBool = true ;
-||||||| merged common ancestors
-let newBool = null ;
-=======
-const newBool = null ;
->>>>>>> upstream/master:Lesson4-JS-I/homework/homework.js
 
 //solve the following math problem
-<<<<<<< HEAD:Lesson2-Intro-to-JS/homework/homework.js
 let newSubtract = 10 - 5 === 5;
-||||||| merged common ancestors
-let newSubtract = 10 - null === 5;
-=======
-const newSubtract = 10 - null === 5;
->>>>>>> upstream/master:Lesson4-JS-I/homework/homework.js
 
 //Solve the following math problem
-<<<<<<< HEAD:Lesson2-Intro-to-JS/homework/homework.js
+
 let newMultiply = 10 * 4 === 40 ;
-||||||| merged common ancestors
-let newMultiply = 10 * null === 40 ;
-=======
-const newMultiply = 10 * null === 40 ;
->>>>>>> upstream/master:Lesson4-JS-I/homework/homework.js
+
 
 //Solve the following math problem:
-<<<<<<< HEAD:Lesson2-Intro-to-JS/homework/homework.js
+
 let newModulo = 21 % 5 === 1 ;
-||||||| merged common ancestors
-let newModulo = 21 % 5 === null ;
-=======
-const newModulo = 21 % 5 === null ;
->>>>>>> upstream/master:Lesson4-JS-I/homework/homework.js
-
-
 
 //In the next 22 problems you will compete the function. All of your code will go inside of the function braces. 
 //Make sure you use return when the prompt asks you to.
