@@ -5,7 +5,7 @@ function getBiggest(x, y) {
   // if they are the same return either one
     if(x > y){
       
-     console.log(x);
+     return (x);
     }
       else if(x < y){
 
@@ -13,38 +13,39 @@ function getBiggest(x, y) {
       }
       else if ( x===y){
 
-        console.log( x && y);
+        return( x && y);
       }
-
+  }
 function greeting(language) {
   // return a greeting for three different languages:
   // language: 'German' -> 'Guten Tag!'
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
+      var German = 'Guten Tag';
+      var Chinese = 'Ni Hao';
+      var Spanish = 'Hola';
+
       var germanLanguage = German;
-      germanLanguage = 'Guten Tag';
 
       var chineseLanguage = Chinese;
-      chineseLanguage ='Ni Hao';
 
       var spanishLanguage = Spanish;
-      spanishLanguage = 'Hola';
 
       if(language===German){
         
-        console.log(germanLanguage);
+        return (germanLanguage);
       }
         else if(language===Chinese){
 
-          console.log(chineseLanguage);
+          return (chineseLanguage);
         }
           else if(language===Spanish){
 
-            console.log(spanishLanguage);
+            return (spanishLanguage);
           }
               else{
-                console.log('Hello');
+                return ('Hello');
               }
 }
 
@@ -53,11 +54,11 @@ function isTenOrFive(num) {
   // otherwise return false
     if(num===10 || num===5){
       
-      console.log(true);
+      return (true);
      }
         else if(num!==10||5){
           
-          console.log(false);
+          return (false);
         }
 }
 
@@ -66,11 +67,11 @@ function isInRange(num) {
   // otherwise return false
   if(num< 50 && num > 20){
     
-    console.log(true);
+    return (true);
   }
     else if(!num< 50 &&!num >20){
 
-      console.log(false);
+      return (false);
     }
 }
 
@@ -83,36 +84,41 @@ function isInteger(num) {
   // hint: you can solve this using Math.floor
   if(num <=0 && num >=0){
 
-      console.log(Math.floor(num));
+      return (Math.floor(num));
   }
       else if(!Math.floor(num)){
 
-        console.log(false);
+        return (false);
       }
-  }
 }
+
 
 function fizzBuzz(num) {
   // if num is divisible by 3 return 'fizz'
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
+  const fizz = num/3;
+  const buzz = num/5;
+  const fizzbuzz = num/5 && num/3;
+
   if((num/3)===0){
 
-    console.log(fizz);
+    return (fizz);
   }
-  else if((num/5)===0){
+   else if((num/5)===0){
 
-    console.log(buzz);
-  }
+     return (buzz);
+   }
      else if((num/3)===0 && (num/5)===0){
     
-         console.log(fizzbuzz);
+       return (fizzbuzz);
      }
-      else{
-       console.log(num);
-      }
-  }
+       else{
+
+        return (num);
+       }
+}
 
 
 
@@ -124,23 +130,23 @@ function isPrime(num) {
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
 
-}// if not prime
+// if not prime
     if(num <=2){
       for(let i=2; i< num;i++){
         if(num % i===0){
-          console.log(false);
+          return (false);
         }
           else{
           
-            console.log(true);
+            return (true);
          }
-    }
-
-
+      } 
+    } 
+}
 // Do not modify code below this line.
 // --------------------------------
 
-module.exports = {
+  module.exports = { 
   getBiggest,
   greeting,
   isTenOrFive,
@@ -148,4 +154,4 @@ module.exports = {
   isInteger,
   fizzBuzz,
   isPrime,
-};
+}; 
