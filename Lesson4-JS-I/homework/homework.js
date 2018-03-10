@@ -46,7 +46,7 @@ return (x-y);
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-  return g(x*y);
+  return (x*y);
 }
 
 function divide(x, y) {
@@ -72,9 +72,9 @@ function areSameLength(str1, str2) {
   // otherwise return false
   // code here
   if(str1===str2){
-    console.log(true); 
+    return (true); 
   }
-    console.log(false);
+    return (false);
 }
 
 function lessThanNinety(num) {
