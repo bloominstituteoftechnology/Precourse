@@ -20,7 +20,7 @@ spanNew.innerHTML += 'April Martinez';
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+class ToDo () {
   // code here
   function ToDo(description) {
     this.description = description;
@@ -77,10 +77,10 @@ function buildToDo(todo, index) {
           Return the new mapped array.
 */
 
-function buildToDos(toDos) {
+function buildToDo(toDo) {
   // code here
   document.getElementById('toDoText').onclick = completeToDo;
-  return toDo.map(buildToDos);
+  return toDo.map(buildToDo);
 
 } 
   
@@ -96,11 +96,11 @@ function buildToDos(toDos) {
           You can now load your html file in your broswer and see your work so far.
 */
 
-function displayToDos() {
+function displayToDo() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
   toDoContainer.innerHTML = '';
-  const hold = buildToDos(toDOItems);
+  const hold = buildToDos(toDosItems);
   for(let i = 0; i < hold.length; i++) {
     toDoContainer.appendChild(hold[i]);
 
