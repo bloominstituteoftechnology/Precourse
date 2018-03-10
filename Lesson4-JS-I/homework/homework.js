@@ -1,41 +1,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-<<<<<<< HEAD
-let newString = 'Perry';
+const newString = 'Perry';
 
 //create a number variable, it an be any number
-let newNum = 10;
+const newNum = 12;
 
 //create a boolean variable
-let newBool = true;
+const newBool = true;
 
 //solve the following math problem
-let newSubtract = 10 - 5 === 5;
+const newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * 4 === 40;
+const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === 1;
-=======
-const newString = null ;
-
-//create a number variable, it an be any number
-const newNum = null ;
-
-//create a boolean variable
-const newBool = null ;
-
-//solve the following math problem
-const newSubtract = 10 - null === 5;
-
-//Solve the following math problem
-const newMultiply = 10 * null === 40 ;
-
-//Solve the following math problem:
-const newModulo = 21 % 5 === null ;
->>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6
+const newModulo = 21 % 5 === 1 ;
 
 
 
@@ -55,13 +36,12 @@ function add(x, y) {
 
 function subtract(x, y) {
   // subtract y from x and return the value
-  const z = x - y;
-  return z;
+  return x - y;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
- return x * y;
+  return x * y;
 }
 
 function divide(x, y) {
@@ -72,10 +52,12 @@ function divide(x, y) {
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  if(x === y) {
+  if (x === y) {
     return true;
   }
-  return false;
+  else {
+    return false;
+  }
 }
 
 function areSameLength(str1, str2) {
@@ -84,7 +66,9 @@ function areSameLength(str1, str2) {
   if (str1.length === str2.length) {
     return true;
   }
-  return false;
+  else {
+    return false;
+  }
 }
 
 function lessThanNinety(num) {
@@ -93,16 +77,20 @@ function lessThanNinety(num) {
   if(num < 90) {
     return true;
   }
-  return false;
+  else {
+    return false;
+  }
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
-  if(num > 50) {
+  if(num > 90) {
     return true;
   }
-  return false;
+  else {
+    return false;
+  }
 }
 
 function getRemainder(x, y) {
@@ -116,7 +104,9 @@ function isEven(num) {
   if(num % 2 === 0) {
     return true;
   }
-  return false;
+  else {
+    return false;
+  }
 }
 
 function isOdd(num) {
@@ -125,7 +115,9 @@ function isOdd(num) {
   if(num % 2 === 1) {
     return true;
   }
-  return false;
+  else {
+    return false;
+  }
 }
 
 function square(num) {
@@ -168,7 +160,7 @@ function combineNames(firstName, lastName) {
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  return 'Hello ' + name + '!';
+  return 'Hello ' + name;
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -176,12 +168,13 @@ function getGreeting(name) {
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
-  return length * width;
+  return width * length;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  return (base * height) / 2;
+  let getArea = base * height / 2;
+  return getArea;
 }
 
 // Do not modify code below this line.
