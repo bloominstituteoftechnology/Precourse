@@ -22,30 +22,20 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
-      var German = 'Guten Tag';
-      var Chinese = 'Ni Hao';
-      var Spanish = 'Hola';
-
-      var germanLanguage = German;
-
-      var chineseLanguage = Chinese;
-
-      var spanishLanguage = Spanish;
-
-      if(language===German){
+      if(language==='German'){
         
-        return (germanLanguage);
+        return ('Guten Tag!');
       }
-        else if(language===Chinese){
+        else if(language==='Mandarin'){
 
-          return (chineseLanguage);
+          return ('Ni Hao!');
         }
-          else if(language===Spanish){
+          else if(language==='Spanish'){
 
-            return (spanishLanguage);
+            return ('Hola!');
           }
               else{
-                return ('Hello');
+                return ('Hello!');
               }
 }
 
@@ -69,8 +59,7 @@ function isInRange(num) {
     
     return (true);
   }
-    else if(!num< 50 &&!num >20){
-
+    else {
       return (false);
     }
 }
@@ -82,11 +71,11 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  if(num <=0 && num >=0){
+  if(num <=0  || num >=0 && num % 1 === 0){
 
-      return (Math.floor(num));
+   return true;
   }
-      else if(!Math.floor(num)){
+      else { 
 
         return (false);
       }
@@ -98,27 +87,25 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
-  const fizz = num/3;
-  const buzz = num/5;
-  const fizzbuzz = num/5 && num/3;
-
-  if((num/3)===0){
-
-    return (fizz);
-  }
-   else if((num/5)===0){
-
-     return (buzz);
-   }
-     else if((num/3)===0 && (num/5)===0){
+if ((num % 3 === 0) && (num % 5 === 0)){
     
-       return (fizzbuzz);
-     }
-       else{
-
-        return (num);
-       }
+    return 'fizzbuzz';
 }
+  if(num % 3 === 0){
+      
+      return 'fizz';
+  }
+
+      else if (num % 5 === 0){
+    
+          return 'buzz';
+      }
+           else{
+ 
+                return num;
+          }
+}
+
 
 
 
@@ -130,19 +117,24 @@ function isPrime(num) {
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
 
-// if not prime
-    if(num <=2){
-      for(let i=2; i< num;i++){
-        if(num % i===0){
-          return (false);
-        }
-          else{
-          
-            return (true);
-         }
-      } 
-    } 
+// if not prime{
+  if (num < 2) 
+  {
+    return false;
+  }
+  if (num!= Math.round(num)){
+    return false;
+  }
+  var isPrime = true;
+  for (var i = 2; i <= Math.sqrt(num); i++) {
+     if (num % i == 0) {
+        isPrime = false;
+      }
+  }
+      return isPrime;
+
 }
+
 // Do not modify code below this line.
 // --------------------------------
 
