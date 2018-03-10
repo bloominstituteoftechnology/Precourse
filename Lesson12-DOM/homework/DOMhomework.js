@@ -22,8 +22,8 @@ spanNew.innerHTML += 'April Martinez';
 
 function ToDo () {
   // code here
-    this.description = 'description';
-    this.complete = false;
+    this.description = desc;
+            this.complete = false;
     }
   
 /* 
@@ -157,7 +157,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
  const index = event.target.id;
   // code here
-  completeToDo (event);
+  completeToDo (ndex);
   displayToDos();
 }
 
