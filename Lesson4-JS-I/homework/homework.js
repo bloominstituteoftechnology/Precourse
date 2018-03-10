@@ -27,32 +27,32 @@ const newModulo = 21 % 5 === 1 ;
 
 function returnString(str) {
   //simply return the string provided: str
-  console.log(str);
+  return (str);
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
- console.log(x+y);
+return (x+y);
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-  console.log(x-y);
+return (x-y);
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-  console.log(x*y);
+  return g(x*y);
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
- console.log(x/y);
+ return (x/y);
 }
 
 function areEqual(x, y) {
@@ -61,9 +61,9 @@ function areEqual(x, y) {
   // code here
     if(x===y){
    
-      console.log(true);
+     return (true);
     }
-     console.log(false);
+     return (false);
 
 }
 
@@ -82,7 +82,7 @@ function lessThanNinety(num) {
   // otherwise return false
   // code here
   if(num < lessThanNinety){
-    console.log(true);
+    return (true);
   }
     return false;
 }
@@ -92,36 +92,38 @@ function greaterThanFifty(num) {
   // otherwise return false
   // code here
   if(num > 50){
-    console.log(true);
+    return (true);
   }
-    console.log(false);
+    return (false);
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
-  remainder = x%y;
-  console.log(remainder);
+  const remainder = x%y;
+  return(remainder);
 }
 
 function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
+  const even = num/2 === 0;
   if(num===even){
-    console.log(true);
+    return(true);
   }
-   console.log(false);
+   return(false);
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
+  const odd = !(num/2 ===0);
   if(num===odd){
-    console.log(true);
+   return (true);
   }
-    console.log(false);
+    return (false);
 }
 
 function square(num) {
@@ -129,14 +131,14 @@ function square(num) {
   // hint: NOT square root!
   // code here
   Math.pow(num,num);
-  console.log(num);
+  return (num);
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
   Math.pow(num*num, num);
-  console.log(num);
+  return (num);
 }
 
 function raiseToPower(num, exponent) {
@@ -155,7 +157,7 @@ function roundUp(num) {
   // round num up and return it
   // code here
   Math.ceil(num);
-  console.log(num);
+  return (num);
 }
 
 function addExclamationPoint(str) {
@@ -163,7 +165,7 @@ function addExclamationPoint(str) {
   // 'hello world' -> 'hello world!'
   // code here
   const newString = str + 'hello world!';
-  console.log(newString);
+  return (newString);
 }
 
 function combineNames(firstName, lastName) {
@@ -171,7 +173,7 @@ function combineNames(firstName, lastName) {
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
   const concatenation = firstName +' '+ lastName ;
-  console.log(concatenation);
+  return (concatenation);
 }
 
 function getGreeting(name) {
@@ -179,6 +181,7 @@ function getGreeting(name) {
   // 'Sam' -> 'Hello Sam!'
   // code here
   const newGreeting = name + ' '+ 'Hello'+ ' '+ 'Jon Snow!';
+  return newGreeting;
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -188,14 +191,14 @@ function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
   const someRectangle = length * width;
-  console.log(someRectangle);
+  return (someRectangle);
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
   const areaOfTriangle = (base * height)/2 ;
-  console.log(areaOfTriangle);
+  return (areaOfTriangle);
 }
 
 // Do not modify code below this line.
