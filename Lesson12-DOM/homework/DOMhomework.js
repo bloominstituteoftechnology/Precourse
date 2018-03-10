@@ -63,7 +63,7 @@ function buildToDo(todo, index) {
   toDoText.id = index;
   toDoText.onclick = completeToDo;
  // if(toDo.complete === true) {
-    toDoText.class = 'completeText'
+ //   toDoText.class = 'completeText'
   } toDoShell.appendChild(toDoText);
 //  return toDoShell;
 
