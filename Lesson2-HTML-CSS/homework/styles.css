@@ -1,0 +1,55 @@
+<!--
+
+body {
+	background-image: url("https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg");
+	height: 100%;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+	color: white;
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	background-color: yellowgreen;
+	padding: 50px;
+	border: 5px double red;
+}
+
+#spanID {
+	font-size: 18px;
+	margin: 50px;
+}
+
+div {
+	color: white;
+	text-align: center
+}
+
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+img {
+    opacity: 0.6;
+}
+
+-->
