@@ -24,7 +24,7 @@ function ToDo () {
   // code here
   function ToDo (description) {
    
-    this.description = 'description';
+    this.description = description;
     this.complete = false;
     }
   }
