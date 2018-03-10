@@ -20,7 +20,7 @@ spanNew.innerHTML += 'April Martinez';
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-class ToDo () {
+function ToDo () {
   // code here
   function ToDo(description) {
     this.description = description;
