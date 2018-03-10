@@ -2,30 +2,30 @@
 
 function returnFirst(arr) {
   // return the first item from the array
-  const arr = ['Bob Ross', 'Jon Snow', 'Happy Trees'];
-  console.log(arr[0]);
+  arr = ['Bob Ross', 'Jon Snow', 'Happy Trees'];
+  return (arr[0]);
 }
 
 function returnLast(arr) {
 
-  const arr = ['Bob Ross', 'Jon Snow', 'Happy Trees'];
+  arr = ['Bob Ross', 'Jon Snow', 'Happy Trees'];
   // return the last item of the array
-  console.log(arr[3]);
+ return (arr[3]);
 }
 
 function getArrayLength(arr) {
   // return the length of the array
-  const arr = ['Bob Ross', 'Jon Snow', 'Happy Trees'];
-  console.log(arr.length);
+  arr = ['Bob Ross', 'Jon Snow', 'Happy Trees'];
+  return (arr.length);
 }
 
 function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-for(let i=0;i <arr;i++){
+  for(let i=0;i <arr;i++){
 
-  console.log(arr[i]);
+  return (arr[i]);
 }
 }
 
@@ -33,15 +33,15 @@ function addItemToArray(arr, item) {
   // add the item to the end of the array
   // return the array
   addItemToArray.push(item);
-  console.log(addItemToArray);
+  return (addItemToArray);
 }
 
 function addItemToFront(arr, item) {
   // add the item to the front of the array
   // return the array
   // hint: use the array method .unshift
-  addItemtoFront.unshift(item);
-  console.log(addItemToFront);
+  addItemToFront.unshift(item);
+  return (addItemToFront);
 }
 
 function wordsToSentence(words) {
@@ -49,8 +49,8 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  const words=['Hello','world!'];
-  console.log(words);
+  words=['Hello','world!'];
+  return (words);
   
 
 }
@@ -62,11 +62,11 @@ function contains(arr, item) {
 
   for(let i=0; i<isThisReal; i++)
     if(item[i]===item){
-    console.log(true);
-  }
+    return (true);
+    }
       else {
-      console.log(false);
-     }
+       return (false);
+      }
 }
 
 function addNumbers(numbers) {
@@ -78,7 +78,7 @@ function addNumbers(numbers) {
 
     sum = sum + numbers.length[i];
 
-    console.log(sum);
+    return (sum);
   }
 }
 
@@ -102,7 +102,7 @@ function largestNumber(numbers) {
     if(numbers[i]>max){
       maxNumber= i;
       max= numbers[i];
-      console.log(maxNumber);
+      return (maxNumber);
     }
   }
 }
@@ -112,14 +112,14 @@ function multiplyArguments(someRandomArray) {
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
   someRandomArray=[1,3,5,6];
-  const sum=1;
+  var sum=1;
   if(someRandomArray===null)
   return 0;
 
   else if(someRandomArray < 0 || someRandomArray > 0){
       for(let i=0;i<someRandomArray.length;i++){
       sum=sum+someRandomArray[i];
-      console.log(multiplyArguments(someRandomArray));
+     return (multiplyArguments(someRandomArray));
       }
   }
 

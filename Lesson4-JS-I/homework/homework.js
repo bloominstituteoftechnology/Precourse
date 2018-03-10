@@ -70,21 +70,27 @@ function areEqual(x, y) {
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  // code here
-  if(str1===str2){
-    return (true); 
-  }
-    return (false);
-}
+  // code here   
+      if(str1.length == str2.length){ 
+        return true;
+      }
+        else{
+          return false;
+        }
+ }
+
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
-  if(num < lessThanNinety){
+  if(num < 90){
     return (true);
   }
-    return false;
+    else{
+      
+      return false;
+    }
 }
 
 function greaterThanFifty(num) {
@@ -108,63 +114,70 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  const even = num/2 === 0;
-  if(num===even){
+  if(num % 2 === 0){
     return(true);
   }
-   return(false);
+    else {
+    
+      return(false);
+    }
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  const odd = !(num/2 ===0);
-  if(num===odd){
-   return (true);
+  if(num % 2){
+    return (true);
   }
-    return (false);
+    else{
+      
+      return (false);
+    }
 }
 
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-  Math.pow(num,num);
-  return (num);
+  Math.pow(num,2);
+  return (Math.pow(num,2));
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
-  Math.pow(num*num, num);
-  return (num);
+  Math.pow(num , 3);
+  return (Math.pow(num, 3));
+ 
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
   Math.pow(num, exponent);
+  return(Math.pow(num, exponent));
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
   Math.round(num);
+  return (Math.round(num));
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
   Math.ceil(num);
-  return (num);
+  return (Math.ceil(num));
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  const newString = str + 'hello world!';
+  const newString = str + '!';
   return (newString);
 }
 
@@ -180,7 +193,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  const newGreeting = name + ' '+ 'Hello'+ ' '+ 'Jon Snow!';
+  const newGreeting = 'Hello' + ' '+ name + '!';
   return newGreeting;
 }
 
