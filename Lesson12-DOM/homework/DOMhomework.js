@@ -62,12 +62,12 @@ function buildToDo(todo, index) {
  // toDoText.innerHTML = toDo.description;
   toDoText.id = index;
   toDoText.onclick = completeToDo;
-  if(toDo.complete === true) {
+ // if(toDo.complete === true) {
     toDoText.class = 'completeText'
   } toDoShell.appendChild(toDoText);
-  return toDoShell;
+//  return toDoShell;
 
-}
+
 
     
 
@@ -79,7 +79,7 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
-  document.getElementById('toDoText').onclick = completeToDo;
+//  document.getElementById('toDoText').onclick = completeToDo;
   return toDo.map(buildToDo);
 
 } 
@@ -125,7 +125,7 @@ function addToDo() {
   // code here
    
    // let newItem = toDoInput(document.querySelector('#toDoInput').value);
-     toDoItems.push(newItem);
+  //   toDoItems.push(newItem);
      document.querySelector('#toDoInput').value = '';
      displayToDos();
   
