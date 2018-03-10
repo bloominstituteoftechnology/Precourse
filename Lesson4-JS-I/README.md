@@ -1,7 +1,7 @@
 # Lesson 4: Introduction to Javascript
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
-In this lesson we will cover: 
+In this lesson we will cover:
 
 * Introduction to Javascript
 * Variables
@@ -42,7 +42,7 @@ There are three ways to declare a variable.
 
 ### console.log
 
-Another concept we will talk about right away is 
+Another concept we will talk about right away is
 
 ```javascript
     console.log();
@@ -52,18 +52,18 @@ This very simple method will allow us to print to the console anything we put be
 
 ## Strings, Numbers, and Booleans
 
-These are the most basic data types in Javascript. 
+These are the most basic data types in Javascript.
 
 ### Strings
 
-Strings are blocks of text, they will always be defined with quotation marks around them, either single or double. Any text with quotes around it is a string. 
+Strings are blocks of text, they will always be defined with quotation marks around them, either single or double. Any text with quotes around it is a string.
 
 ```javascript
     const dog = 'fido';
 ```
 ### Numbers
 
-Numbers are just that, numbers. Numbers do NOT have quotes around them. They can be negative as well. Javascript does have a limitation on the size of a number (+/- 9007199254740991), but only very rarely will that limitation come up. 
+Numbers are just that, numbers. Numbers do NOT have quotes around them. They can be negative as well. Javascript does have a limitation on the size of a number (+/- 9007199254740991), but only very rarely will that limitation come up.
 
 ```javascript
     const answer = 42;
@@ -117,7 +117,7 @@ We can use the `pow` method on `Math` to return a number risen to an exponent. I
 
 ### Math.round , Math.floor, Math.ceil
 
-`Math` also has methods that will round numbers for us. `.round` will round a number to the nearest whole number. `.floor` will always round a number down to the nearest whole number. `.ceil` will always round up to the nearest whole number. 
+`Math` also has methods that will round numbers for us. `.round` will round a number to the nearest whole number. `.floor` will always round a number down to the nearest whole number. `.ceil` will always round up to the nearest whole number.
 
 ```javascript
     Math.round(6.5) = 7;
@@ -135,7 +135,7 @@ The string data type has a built in method called `.length` . Any string we call
     console.log(cat.length); // 5
 ```
 
-We will see many other built it in methods on other data types throughout this course. 
+We will see many other built it in methods on other data types throughout this course.
 
 ## Introduction to Functions
 
@@ -147,7 +147,7 @@ Now that we have variables set we need functions to compute them, change them, d
     const yetAnother = () => {};
 ```
 
-We will be using the first way in this lesson, and talk about the other ways in future lessons. 
+We will be using the first way in this lesson, and talk about the other ways in future lessons.
 
 ### Anatomy of a Function
 
@@ -169,7 +169,7 @@ In this example we declare a function `logsHello` and we set it up to `console.l
 
 ### Arguments
 
-Now that we can run a basic function, we are going to start passing it arguments. 
+Now that we can run a basic function, we are going to start passing it arguments.
 
 ```javascript
     function logsHello(name) {
@@ -214,7 +214,7 @@ In the last example we introduced the `return` statement. We will not `console.l
     console.log(product); // undefined
 ```
 
-If we tried to `console.log` something that we declared inside of the function it would return `undefined` because we do not have access to it outside of the function. This is called scope. The only way to access something inside of the function is to return it. 
+If we tried to `console.log` something that we declared inside of the function it would return `undefined` because we do not have access to it outside of the function. This is called scope. The only way to access something inside of the function is to return it.
 
 We can also set variables to equal what a function returns.
 
@@ -224,12 +224,12 @@ We can also set variables to equal what a function returns.
       return difference;
     }
 
-    const differenceValue = subtractsTwoNumbers(10, 9); 
+    const differenceValue = subtractsTwoNumbers(10, 9);
     console.log(differenceValue); // 1
     console.log(difference); // undefined
 ```
 
-We can see that difference is set inside of the function. The variable inside the function only belongs inside the function. 
+We can see that difference is set inside of the function. The variable inside the function only belongs inside the function.
 
 ## Control Flow and Comparison Operators
 
@@ -253,7 +253,7 @@ The "Greater Than" symbol ( `>` ) you see in the last example is called a Compar
 
 ## Introduction to Node and NPM
 
-Node.js is a runtime environment developed originally for use on backend servers. We will need to install it on our machines in order to complete the exercises over the next four days. To install Node please click here: [Download and install Node.js](https://nodejs.org/en/download/). Node comes shipped with "NPM". NPM is a package manager for javascript packages and we will be using it throughout our time at Lambda School. Once you have installed Node.js, you do not need to do anything else to install NPM. 
+Node.js is a runtime environment developed originally for use on backend servers. We will need to install it on our machines in order to complete the exercises over the next four days. To install Node please click here: [Download and install Node.js](https://nodejs.org/en/download/). Node comes shipped with "NPM". NPM is a package manager for javascript packages and we will be using it throughout our time at Lambda School. Once you have installed Node.js, you do not need to do anything else to install NPM.
 
 ## Please open the homework folder and complete the assignment described in the README file
 
