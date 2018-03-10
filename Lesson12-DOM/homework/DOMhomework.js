@@ -23,7 +23,7 @@ spanNew.innerHTML += 'April Martinez';
 function ToDo () {
   // code here
   function ToDo(description) {
-    this.description === description;
+    this.description = description;
             this.complete = false;
     }
   }
@@ -124,7 +124,7 @@ function displayToDos() {
 function addToDo() {
   // code here
    
-    let newItem = toDo(document.querySelector('#toDoInput').value);
+    const newItem = toDo(document.querySelector('#toDoInput').value);
      toDoItems.push(newItem)
      document.querySelector('#toDoInput').value = '';
      displayToDos();
@@ -158,7 +158,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
  const index = event.target.id;
   // code here
-  completeToDo (ndex);
+  completeToDo (index);
   displayToDos();
 }
 
