@@ -100,7 +100,7 @@ function buildToDo(toDo) {
 
 function displayToDos() {
   // code here
- toDoContainer = document.getElementById('');
+ toDoContainer = document.getElementById('hold');
   toDoContainer.innerHTML = ToDo.description;
 }
  function buildToDos(toDoItems){}
