@@ -1,7 +1,7 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-let toDoItems = [ToDo];
+let toDoItems = [];
 // code here
 
 /* 
