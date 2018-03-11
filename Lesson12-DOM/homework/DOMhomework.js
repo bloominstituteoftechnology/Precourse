@@ -125,7 +125,7 @@ function displayToDos() {
           4.) Call displayToDos to refresh the toDos displayed
 */
 
-function addToDo(toDos) {
+function addToDo(toDo) {
   // code here
    
 
