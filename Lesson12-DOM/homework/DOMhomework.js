@@ -128,8 +128,8 @@ function displayToDos() {
 function addToDo() {
   // code here
    
-  let newItem = newToDo(document.querySelector('#NewToDo').description);
-  toDoItems.push(newItem)
+  let newItem = newToDo(document.querySelector('#ToDo').description);
+  toDoItems.push(ToDo)
   document.querySelector('#toDoInput').value = 'newToDo';
   displayToDos();
 
