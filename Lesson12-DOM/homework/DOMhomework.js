@@ -99,10 +99,10 @@ function buildToDo(toDo) {
 function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
-  
-  const hold = buildToDos(ToDoItems);
+  toDoContainer.innerHTML = '';
+  const hold = buildToDos(toDOItems);
   for(let i = 0; i < hold.length; i++) {
-    toDoContainer.appendChild(3[i]);
+  toDoContainer.appendChild(hold[i]);
   
   }
   
