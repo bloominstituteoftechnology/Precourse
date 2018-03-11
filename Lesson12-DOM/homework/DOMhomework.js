@@ -185,7 +185,7 @@ function completeToDo(event) {
 
 // Call displayToDos here (Step 6)<-----
 
-displayToDos();
+    console.log(displayToDos());
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
