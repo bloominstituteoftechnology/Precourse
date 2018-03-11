@@ -3,15 +3,30 @@ h1 {
 }     
 img {
     width: 400px;
-}      
+}  
+li {
+    list-style: none;
+}    
 #thirdDiv {
     height: 600px;
     width: 500px;
-    background: turquoise;
+    background: linear-gradient(white, grey, black);
     padding: 50px;
     border: 1px solid black;
 } 
 #spanId {
     font-size: 18px;
     margin: 50px;
+}
+div {
+    margin-left: auto; 
+    margin-right: auto;
+}
+body {
+    background-image: linear-gradient(white, grey, black);   
+}
+.flex-container {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
 }
