@@ -25,12 +25,11 @@ then run `myFunc(1,1);`
 4. `if` Statements- this goes along with something called control flow and comparison operators.
 * Control flow: if, else, elseif.
 ex.
-1.const num = 10;
-2.
-3.if(num > 10){
-    console.log('is greater than 10')
-}
-Terminal => false
+`const num = 10;`
+`if(num > 10){`
+    `console.log('is` `greater than 10')`
+`}`
+`Terminal => false`
 * Some comparison operators include: `>, >=, <, <=, ===, !==`
 ----
 5. Boolean Values- (`true`, `false`) come from low level CS. Can include true, false, on or off, 1 or 0. 
