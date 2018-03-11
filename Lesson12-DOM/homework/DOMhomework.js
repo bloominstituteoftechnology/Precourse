@@ -1,7 +1,7 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-let toDoItems = [];
+let toDoItems = [toDo];
 // code here
 
 /* 
@@ -34,7 +34,7 @@ function ToDo (description) {
 */
 
 // code here
-ToDo.prototype.completeToDo = function(toDo) {
+ToDo.prototype.completeToDo = function() {
   this.complete = true;
 
 };
@@ -58,7 +58,7 @@ function buildToDo(ToDo, index) {
   // code here
   const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
-  const toDo = document.createElement('span');
+  const toDoText = document.createElement('span');
   toDoText.innerHTML = toDoText.description;
   toDoText.id = index;
   toDoText.onclick = completeToDo;
@@ -100,10 +100,10 @@ function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
    toDoContainer.innerHTML = '';
-  const hold =  buildToDos(ToDoItems);
+  const hold = buildToDos(ToDoItems);
   for(let i = 0; i < hold.length; i++) {
     toDoContainer.appendChild(hold[i]);
-
+  
   }
   
 }
@@ -124,7 +124,7 @@ function displayToDos() {
 function addToDo() {
   // code here
    
-    const newToDo = ToDo(document.querySelector('#ToDoItems').value);
+    const newToDo = ToDoItems(document.querySelector('#ToDoItems').value);
      toDoItems.push(newItem);
      document.querySelector('#newToDo').value = '';
      displayToDos();
