@@ -22,10 +22,10 @@ spanNew.innerHTML += 'April Martinez';
 
 function ToDo () {
   // code here
-   ToDo (desciption)
+
     this.description = description;
             this.complete = false;
-    }
+  }
   
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
@@ -34,7 +34,7 @@ function ToDo () {
 */
 
 // code here
-ToDo.prototype.completeToDo = function() {
+ToDo.prototype.completeToDo = function(todos) {
   this.complete = true;
 
 };
