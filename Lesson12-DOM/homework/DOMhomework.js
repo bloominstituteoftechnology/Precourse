@@ -102,13 +102,13 @@ function displayToDos() {
   // code here
   let toDoContainer = document.getElementById('');
   toDoContainert.innerHTML = toDo.description;
- function buildToDos(toDoItems);
+ function buildToDos(toDoItems){}
   for(let i = 0; i < hold.length; i++) {
   toDoContainer.appendChild(hold[i]);
-
+    }
   }
 
-  }
+  
 
 
 /* 
@@ -162,7 +162,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
  let index = event.target.id;
   // code here
-  completeToDo ();
+  completeToDo (toDoItems);
   displayToDos();
 
 }
