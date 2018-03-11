@@ -104,12 +104,12 @@ function displayToDos() {
  toDoContainer = document.getElementById('toDoContainer');
   toDoContainer.innerHTML = ToDo.description;
 }
- function buildToDos(toDoItems){}
+ function buildToDos(toDoItems){
   for(let i = 0; i < toDoContainer.length; i++) {
   toDoContainer.appendChild(toDoContainer[i]);
     }
   
-
+  }
   
 
 
