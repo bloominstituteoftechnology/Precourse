@@ -77,7 +77,7 @@ function buildToDo(todo, index) {
           Return the new mapped array.
 */
 
-function buildToDo(toDo) {
+function buildToDo(ToDo, index) {
   // code here
   document.getElementById('#toDoText').onclick = toDo;
   return toDo.map(buildToDo);
@@ -102,7 +102,7 @@ function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
   
-  buildToDos(toDOItems);
+ buildToDos(toDoItems);
   for(let i = 0; i < hold.length; i++) {
   toDoContainer.appendChild(hold[i]);
 
