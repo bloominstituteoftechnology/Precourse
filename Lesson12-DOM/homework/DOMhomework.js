@@ -61,7 +61,7 @@ function buildToDo(ToDo, index) {
   const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
   const toDoText = document.createElement('span');
-  toDoText.innerHTML = toDo.description;
+  toDoText.innerHTML = toDo.index;
   toDoText.id = index;
   toDoText.onclick = completeToDo;
   if(toDo.complete === true) {
@@ -101,7 +101,7 @@ function buildToDo(toDo) {
 function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
-  toDoContainer.innerHTML = '';
+ const toDoContainerinnerHTML   '';
  function buildToDos(toDos){
   for(let i = 0; i < hold.length; i++) {
   toDoContainer.appendChild(hold[i]);
@@ -160,7 +160,7 @@ document.querySelector('#addButton').onclick = addToDo;
 function completeToDo(event) {
 
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+ const index = event.target.id;
   // code here
   completeToDo (index);
   displayToDos();
