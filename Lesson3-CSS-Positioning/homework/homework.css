@@ -3,41 +3,89 @@ Lesson 3: CSS positioning homwork. All of your work should be done in this file.
 in this folder, you are in the wrong place. 
 */
 
-
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+  display: block;
+  text-align: center;
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
 
-/* Place code here */
+#exerciseTwo {
+  display: none;
+}
 
 
 
 /* Exercise Three: */
 
-/* Place code here */
+#exerciseThree {
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
 
 
 
 /* Exercise Four: */
 
-/* Place code here */
+#exerciseFour {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9; /* Sorry, the fact that #exerciseSeven was going over the top of this while scrolling was starting to annoy me. */
+}
 
 
 
 /* Exercise Five */
-
-/* Place code here */
+#exerciseFive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 
 /* Exercise Six */
+#exerciseFive {
+  flex-direction: row-reverse;
+  justify-content: between;
+}
 
+
+
+/* Exercise Seven */
 #exerciseSeven {
   display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+#itemOne {
+  align-self: flex-start;
+  width: auto;
+  height: auto;
+  flex-grow: 1
+}
+#itemTwo {
+  align-self: center;
+  width: auto;
+  height: auto;
+  flex-grow: 2;
+}
+#itemThree {
+  align-self: center;
+  width: auto;
+  height: auto;
+  flex-grow: 3;
+}
+#itemFour {
+  align-self: flex-end;
+  width: auto;
+  height: auto;
+  flex-grow: 4;
 }
