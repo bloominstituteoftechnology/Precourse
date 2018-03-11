@@ -78,9 +78,9 @@ function buildToDo(toDo, index) {
           Return the new mapped array.
 */
 
-function buildToDo(toDo) {
+function buildToDo(ToDo) {
   // code here
-  document.getElementById('.toDo').onclick = toDo;
+  document.getElementById('.ToDo').onclick = ToDo;
   return toDo.map(buildToDo);
 
 } 
