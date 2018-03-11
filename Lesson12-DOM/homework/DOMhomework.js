@@ -178,7 +178,9 @@ function completeToDo(toDo) {
 // ********************************************** ----------- ********************************************** //
 
 
+// Call displayToDos here (Step 6)<-----
 
+displayToDos();
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
