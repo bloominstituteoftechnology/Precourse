@@ -100,9 +100,9 @@ function buildToDo(toDo) {
 
 function displayToDos() {
   // code here
-  const toDoContainer = document.getElementById('');
+  let toDoContainer = document.getElementById('');
 
- function buildToDos(toDos){
+ function buildToDos(toDoItems){
   for(let i = 0; i < hold.length; i++) {
   toDoContainer.appendChild(hold[i]);
 
@@ -160,9 +160,9 @@ document.querySelector('#addButton').onclick = addToDo;
 function completeToDo(event) {
 
   // UNCOMMENT THE NEXT LINE
- const index = event.target.id;
+ let index = event.target.id;
   // code here
-  completeToDo (index);
+  completeToDo ();
   displayToDos();
 
 }
@@ -185,7 +185,7 @@ function completeToDo(event) {
 
 // Call displayToDos here (Step 6)<-----
 
-    console.log(displayToDos());
+    displayToDos();
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
