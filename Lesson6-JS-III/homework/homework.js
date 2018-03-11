@@ -61,9 +61,9 @@ function contains(arr, item) {
     if (arr[i] === item) {
       return true;
     }
-
-    return false;
   }
+    return false;
+
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
 }
