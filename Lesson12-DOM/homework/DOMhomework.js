@@ -165,7 +165,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
  let index = event.target.id;
   // code here
-  completeToDo (id);
+  completeToDo (toDoItems);
   displayToDos();
 
 }
