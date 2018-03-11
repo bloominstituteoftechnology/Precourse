@@ -34,7 +34,7 @@ function ToDo (description) {
 */
 
 // code here
-ToDo.prototype.completeToDo = function(toDos) {
+ToDo.prototype.completeToDo = function(toDo) {
   this.complete = true;
 
 };
@@ -54,7 +54,7 @@ ToDo.prototype.completeToDo = function(toDos) {
             8.) return toDoShell
 */
 
-function buildToDo(todo, index) {
+function buildToDo(ToDo, index) {
   // code here
   const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
