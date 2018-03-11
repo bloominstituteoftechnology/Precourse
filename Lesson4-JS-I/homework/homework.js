@@ -26,95 +26,74 @@ const newModulo = 21 % 5 === 1;
 //Do not change any of the function names
 
 function returnString(str) {
-  //simply return the string provided: str
+ 
   return: 'str';
 }
 
 function add(x, y) {
-  // x and y are numbers
-  // add x and y together and return the value
-  // code here
+
   return x + y;
 }
 
 function subtract(x, y) {
-  // subtract y from x and return the value
-  // code here
+
   return x - y;
 }
 
 function multiply(x, y) {
-  // multiply x by y and return the value
-  // code here
+ 
   return x * y;
 }
 
 function divide(x, y) {
-  // divide x by y and return the value
-  // code here
+
   return x / y;
 }
 
 function areEqual(x, y) {
-  // return true if x and y are the same
-  // otherwise return false
-  // code here
+
   return x === y;
   
 }
 
 function areSameLength(str1, str2) {
-  // return true if the two strings have the same length
-  // otherwise return false
-  // code here
+
 }
 
 function lessThanNinety(num) {
-  // return true if the function argument: num , is less than ninety
-  // otherwise return false
-  // code here
+
   return num < 90;
   
 }
 
 function greaterThanFifty(num) {
-  // return true if num is greater than fifty
-  // otherwise return false
-  // code here
+
   return > 50;
 }
 
 function getRemainder(x, y) {
-  // return the remainder from dividing x by y
-  // code here
+
   return (x % y);
 }
 
 function isEven(num) {
-  // return true if num is even
-  // otherwise return false
-  // code here
+
   return num is even;
   
 }
 
 function isOdd(num) {
-  // return true if num is odd
-  // otherwise return false
-  // code here
+
   return num is odd;
 }
 
 function square(num) {
-  // square num and return the new value
-  // hint: NOT square root!
-  // code here
+
   return num is square;
 }
 
 function cube(num) {
-  // cube num and return the new value
-  // code here
+
   return num is cube;
 }
 
