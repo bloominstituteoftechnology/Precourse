@@ -1,9 +1,9 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-let toDoItems = [];
-// code here
 
+// code here
+let toDoItems = [];
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
@@ -20,7 +20,7 @@ spanNew.innerHTML += 'April Martinez';
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+function ToDo (description) {
   // code here
 
     this.description = description;
@@ -61,7 +61,7 @@ function buildToDo(ToDo, index) {
   const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
   const toDoText = document.createElement('span');
-  toDoText.innerHTML = toDo.index;
+  toDoText.innerHTML = toDo.description;
   toDoText.id = index;
   toDoText.onclick = completeToDo;
   if(toDo.complete === true) {
@@ -80,7 +80,7 @@ function buildToDo(ToDo, index) {
 function buildToDo(toDo) {
   // code here
   document.getElementById('#toDoText').onclick = toDo;
-  return toDo.map(buildToDo);
+  return toDo.map(buildtoDo);
 
 } 
   
