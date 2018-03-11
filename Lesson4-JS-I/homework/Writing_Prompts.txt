@@ -1,0 +1,19 @@
+3/11/2018
+
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+1.Variables
+2.Strings
+3.Functions (arguments, return)
+4.if statements
+5.Boolean values (true, false)
+
+
+1. A variable is like an alias.  It allows you to give a new name to something.  For example, if you ride in a 2006 Jeep Grand Cherokee, you can call it the Jeep, bobs car, or a broke ass ride, and it is easy to understand what you are referring to.  
+
+2. A function is a defined task.  If someone tell you do to your homework, this is a function.  And augment is a way to put information into a function.  Similar to someone saying do your (insert subject) homework. A return is the result of that function.  
+
+3. An 'if' statement is a way to add some logic to.  Go to the living room, if the front door is unlocked, lock it, if it is already locked, leave it locked.
+
+4. Boolean values are values that only have 2 possible absolute outcomes.  Yes/No, On/Off, 0/1, True/False.  A boolean value can never be 'Maybe'
+
