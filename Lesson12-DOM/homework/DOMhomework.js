@@ -54,22 +54,22 @@ ToDo.prototype.completeToDo = function() {
             8.) return toDoShell
 */
 
-function buildToDo(ToDo, index) {
+function buildToDo(todo, index) {
+
   // code here
+
   const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
   const toDoText = document.createElement('span');
-  toDoText.innerHTML = toDoText.description;
+  toDoText.innerHTML = toDo.description;
   toDoText.id = index;
   toDoText.onclick = completeToDo;
-  if(toDoText.complete === true) {
+  if(toDo.complete === true) {
     toDoText.class = 'completeText'
-  } toDoText.appendChild(toDoShell);
+ } toDoShell.appendChild(toDoText);
   return toDoShell;
 
 }
-
-    
 
 /* 
   STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
@@ -101,12 +101,13 @@ function buildToDo(toDo) {
 function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
-  buildToDos(toDoItems);
+  toDoContainer.innerHTML = '';
+  const hold = buildToDos(toDOItems);
   for(let i = 0; i < hold.length; i++) {
   toDoContainer.appendChild(hold[i]);
-  
+
   }
-  
+
 }
 
 
@@ -125,12 +126,13 @@ function displayToDos() {
 function addToDo() {
   // code here
    
-    const newToDo = toDoItems(document.querySelector('#toDoItems').value);
-     toDoItems.push(newItem);
-     document.querySelector('#newToDo').value = '';
-     displayToDos();
-  
-  }
+  let newItem = newToDo(document.querySelector('#toDoInput').value);
+  toDoItems.push(newItem)
+  document.querySelector('#toDoInput').value = '';
+  displayToDos();
+
+}
+
 
 /* 
   STEP 8: In this step we will fire addToDo everytime the 'ADD' button is clicked.
@@ -155,12 +157,14 @@ document.querySelector('#addButton').onclick = addToDo;
           3.) In the 'buildToDo' function add a 'click' event listener to the 'toDoText' element, and pass this function as the callback.
 */
 
-function completeToDo(toDo) {
+function completeToDo(event) {
+
   // UNCOMMENT THE NEXT LINE
- toDoItems = event.target.id;
+  // const index = event.target.id;
   // code here
-  completeToDo (toDoItems);
+  completeToDo (index);
   displayToDos();
+
 }
 
 /* STEP 10: Make sure ALL tests pass */
