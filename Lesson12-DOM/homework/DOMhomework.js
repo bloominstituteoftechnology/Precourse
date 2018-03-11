@@ -20,7 +20,7 @@ spanNew.innerHTML += 'April Martinez';
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+function ToDo (description) {
   // code here
 
     this.description = description;
@@ -59,7 +59,7 @@ function buildToDo(todo, index) {
   const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
   const toDo = document.createElement('span');
-  toDoText.innerHTML = toDoText.description;
+  toDot.innerHTML = toDoText.description;
   toDoText.id = index;
   toDoText.onclick = completeToDo;
   if(toDo.complete === true) {
