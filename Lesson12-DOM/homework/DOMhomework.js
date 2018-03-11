@@ -156,7 +156,7 @@ document.querySelector('#addButton').onclick = addToDo;
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
- const toDoItems = event.target.id;
+ toDoItems = event.target.id;
   // code here
   completeToDo (toDoItems);
   displayToDos();
