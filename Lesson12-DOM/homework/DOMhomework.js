@@ -78,7 +78,7 @@ function buildToDo(toDo, index) {
           Return the new mapped array.
 */
 
-function buildToDos([toDos]) {
+function buildToDos([toDo]) {
   // code here
   document.getElementById('.ToDo').onclick = 'ToDo';
   return ToDo.map(buildToDos);
@@ -125,7 +125,7 @@ function displayToDos() {
           4.) Call displayToDos to refresh the toDos displayed
 */
 
-function addToDo(toDo) {
+function addToDo() {
   // code here
    
 
