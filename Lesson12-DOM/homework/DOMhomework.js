@@ -79,7 +79,7 @@ function buildToDo(ToDo, index) {
 
 function buildToDo(toDo) {
   // code here
-  document.getElementById('#toDoText').onclick = ToDo;
+  document.getElementById('#toDoText').onclick = toDo;
   return toDo.map(buildToDo);
 
 } 
@@ -99,7 +99,7 @@ function buildToDo(toDo) {
 function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
-  toDoContainer.innerHTML = 'toDoContainer' ;
+  toDoContainer.innerHTML = "" ;
   const hold = buildToDos(toDOItems);
   for(let i = 0; i < hold.length; i++) {
   toDoContainer.appendChild(hold[i]);
@@ -124,7 +124,7 @@ function displayToDos() {
 function addToDo() {
   // code here
    
-    const newToDo = ToDoItems(document.querySelector('#ToDoItems').value);
+    const newToDo = toDoItems(document.querySelector('#toDoItems').value);
      toDoItems.push(newItem);
      document.querySelector('#newToDo').value = '';
      displayToDos();
