@@ -129,7 +129,7 @@ function addToDo(toDo) {
   // code here
    
 
-  let ToDo = newToDo(document.querySelector('#toDoInput').value);
+  let ToDo = ToDo(document.querySelector('#toDoInput').value);
   toDoItems.push(ToDo)
   document.querySelector('#toDoItems').value = '[ToDo]';
   displayToDos();
@@ -165,7 +165,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
  let index = event.target.id;
   // code here
-  completeToDo ();
+  completeToDo (id);
   displayToDos();
 
 }
