@@ -20,5 +20,18 @@ ex.
 `function myFunc(firstNum,secondNum) { console.log(firstNum + secondNum); }`
 then run `myFunc(1,1);`
 * If you want something to come out of your function and actually use it you have to use something called __return__. ^^in the case above the output will return 2.
+* **NOTE** Function Scope says any variables created within the `{}` is untouchable unless you return it, the return statement is also the final line in the function.
 ----
-4. `if` Statements- this goes along with something called control flow and comparison operators. control flow
+4. `if` Statements- this goes along with something called control flow and comparison operators.
+* Control flow: if, else, elseif.
+ex.
+1.const num = 10;
+2.
+3.if(num > 10){
+    console.log('is greater than 10')
+}
+Terminal => false
+* Some comparison operators include: `>, >=, <, <=, ===, !==`
+----
+5. Boolean Values- (`true`, `false`) come from low level CS. Can include true, false, on or off, 1 or 0. 
+ex. `const lovesJavascript = true;` / `const hatesJavascript = false;`
