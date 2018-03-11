@@ -58,7 +58,7 @@ function buildToDo(todo, index) {
   // code here
   const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
-  const toDoText = document.createElement('span');
+  const toDo = document.createElement('span');
   toDoText.innerHTML = toDo.description;
   toDoText.id = index;
   toDoText.onclick = completeToDo;
@@ -124,7 +124,7 @@ function displayToDos() {
 function addToDo() {
   // code here
    
-    let newToDO = ToDo(document.querySelector('#ToDo').value);
+    let newToDO = toDo(document.querySelector('#toDo').value);
      toDoItems.push(newItem);
      document.querySelector('#toDoInput').value = '';
      displayToDos();
@@ -158,7 +158,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
  const index = event.target.id;
   // code here
-  completeToDo (index);
+  completetoDo (index);
   displayToDos();
 }
 
