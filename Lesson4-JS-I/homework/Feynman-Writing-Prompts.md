@@ -20,3 +20,5 @@ ex.
 `function myFunc(firstNum,secondNum) { console.log(firstNum + secondNum); }`
 then run `myFunc(1,1);`
 * If you want something to come out of your function and actually use it you have to use something called __return__. ^^in the case above the output will return 2.
+----
+4. `if` Statements- this goes along with something called control flow and comparison operators. control flow
