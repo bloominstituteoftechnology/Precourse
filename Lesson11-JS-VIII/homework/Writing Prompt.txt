@@ -1,0 +1,7 @@
+#Recursion
+
+Recursion means calling the same function within itself. If you do this, the function will keep calling itself, creating a series of pending calls. If there is no place to stop, the function will just keep calling itself forever, and never stop. So there needs to be some base case, that once the program gets to it, it can start feeding that result into the chain of pending function calls. You'll need to define that in the function.
+
+Once the base case is hit, each function will perform whatever calculation it needs to, moving backwards from the base case, repeating until you get to the original call. This will give you your answer. 
+
+This can be a difficult process to imagine, but it is sometimes the only way to solve the problem, and other times can make it easier. If there is a problem that involves a series of repeated operations, and you're having trouble figuring out how to solve it, a recursive process with a function calling itself may be best.

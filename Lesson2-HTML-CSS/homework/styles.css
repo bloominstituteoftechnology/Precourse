@@ -1,0 +1,35 @@
+
+            body {
+                background: url('https://c.photoshelter.com/img-get/I0000FkOxskgFZjc/s/880/880/desert-sand-dunes-123.jpg') no-repeat center center fixed;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            h1 {
+                color: midnightblue;
+            }
+
+            img {
+                width: 400px;
+            }
+
+            .divClass {
+                text-align: center;
+            }
+
+            #thirdDiv {
+                height: 600px;
+                width: 500px;
+                background-color:royalblue;
+                padding: 50px;
+                border: 5mm ridge beige;
+                position: relative;
+                top: 5%;
+            }
+
+            #spanId {
+                font-size: 18px;
+                margin: 50px;
+            }

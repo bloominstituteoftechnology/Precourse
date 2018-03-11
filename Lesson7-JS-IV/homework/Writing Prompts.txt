@@ -1,0 +1,21 @@
+*Objects
+
+An object in javascript is a collection of saved information and saved actions. The saved information is called a property, and the saved action is called a method. Each piece of saved information or action can be accessed with a its own key word or "key." If you tell the object the "key word", the object will tell you whatever information or perform whatever action is saved under it. The saved information can be all kinds of things, including numbers, strings, variables, and objects in general. When you get right down to it, everything in javascript is an object, since all anything does in javascript is give you information or perform functions.
+
+*Properties
+Properties hold the saved information of an object. They can hold all basic types of information that the program can understand. The saved information can even be that there is no information (known as null). Each property will have a key word, or "key," which is the name of the property essentially, and then it will have a value, which is the saved information. You can ask the program to get you the saved information from the object by naming the properties "key". You can also tell the object to replace the saved information, by telling it what property you want to change, and giving it the new information.
+
+*Methods
+A method is an action that an object can perform for you. They are just like functions in javascript, but they are connected to an object. The method will have a name, and you can always run the method by naming the object, and then naming the method you want it to use. Other than that, they are the same as functions, except you can tell an object to access its own properties, by using the "this" command instead of naming the object. That way you can write methods for objects that refer to other methods and properties of that object, without having to worry about what that object is named. This will end up being very useful in complex programs.
+
+*for in loop
+A for in loop is a way to find out what all the properties of an object are. The loop will pull out each property, and give you its "key," or keyword (basically the name of that property.) Then you can use those keys to pull up the saved information held by each property, or you can do anything else with the names of the key that you want. The for in loop will keep going through all the properties of your object unless you tell it to stop within the loop.
+
+Dot notation vs bracket notation
+There are two ways to get at the saved information (properties) and actions (methods) of an object. The first is to write the object's name, and then a period, and then the key name of the object. So it would for example look like this: "object.info". This would bring you whatever saved information is held in the object's property named "info."
+
+Bracket notation is an alternative approach. In this case, you name the object, then you have an open bracket "[", then you give the property name IN QUOTES, and then you use a closed bracket "]". So the prior example would end up looking like this: object["info"].
+
+Both approaches work in most situations, but you would usually use dot notation when you know the name of the property you want when you're writing the code. However, if you don't know the property you'll want immediately, and it's something the program itself will determine later, then you would want to use bracket notation. That allows you to just put a variable in the brackets. Then later the program can generate a key name as a string, and save it as that variable. Then the program will pull out whatever string is saved and use it to pull out the property you want. This can give you a lot of flexibility and is an important feature. 
+
+
