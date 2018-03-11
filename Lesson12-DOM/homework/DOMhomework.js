@@ -124,7 +124,7 @@ function displayToDos() {
 function addToDo() {
   // code here
    
-    let newToDo = ToDo(document.querySelector('#ToDo').description);
+    let newToDo = ToDo(document.querySelector('#ToDoItems').value);
      toDoItems.push(newItem);
      document.querySelector('#newToDo').value = '';
      displayToDos();
@@ -154,7 +154,7 @@ document.querySelector('#addButton').onclick = addToDo;
           3.) In the 'buildToDo' function add a 'click' event listener to the 'toDoText' element, and pass this function as the callback.
 */
 
-function completeToDo(event) {
+function completeToDo(toDo) {
   // UNCOMMENT THE NEXT LINE
  toDoItems = event.target.id;
   // code here
