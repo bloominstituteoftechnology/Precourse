@@ -94,7 +94,9 @@ function buildToDo(toDo) {
           5.) at the very end of this file, the line before the comment "DO NOT CHANGE ANY CODE BELOW THIS LINE", call this function.
 
           You can now load your html file in your broswer and see your work so far.
+          
 */
+
 
 function displayToDos() {
   // code here
