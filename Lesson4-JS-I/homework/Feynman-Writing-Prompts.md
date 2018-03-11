@@ -10,10 +10,10 @@ ex. `var x = 1;`
 * `1` is the value, in this case a number
 * `;` is the closer 
 There are newer variables instead of `var`, to name a few there is the newer `let` and `const` variables. In the updated form `let` usually now replaces the older `var` and `const` is more for when something is set and constant such as storing passwords or usernames etc. 
-
+----
 2. Strings- These are really just a series of text between two quotation marks, be it single quotes or double quotes. 
 ex. `const favoriteFood = 'taco';`
-
+----
 3. Functions- These are basically a block of code designed to perform a particular task. A JS function is executed when "something" invokes it (calls it). The syntax for it is defined with the __function__ keyword, followed by a __name__, follwed by parentheses __()__. 
 * Function names can contain letters, digits, underscores, and dollar signs (same rules as variables). The parentheses may include multiple __argument__ names separated by commas: (argument1,argument2,...)
 ex. 
