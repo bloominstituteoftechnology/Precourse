@@ -81,7 +81,7 @@ function buildToDo(toDo, index) {
 function buildToDo(ToDo) {
   // code here
   document.getElementById('.ToDo').onclick = ToDo;
-  return toDo.map(buildToDo);
+  return ToDo.map(buildToDo);
 
 } 
   
@@ -125,7 +125,7 @@ function displayToDos() {
           4.) Call displayToDos to refresh the toDos displayed
 */
 
-function addToDo() {
+function addToDo(toDos) {
   // code here
    
   let ToDos = newToDo(document.querySelector('#ToDo').description);
