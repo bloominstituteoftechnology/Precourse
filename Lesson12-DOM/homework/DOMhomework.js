@@ -81,7 +81,7 @@ function buildToDo(toDo, index) {
 function buildToDo(toDo) {
   // code here
   document.getElementById('#toDo').onclick = toDo;
-  return toDo.map(buildtoDo);
+  return toDo.map(buildToDo);
 
 } 
   
@@ -164,7 +164,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
  let index = event.target.id;
   // code here
-  completeToDo (event);
+  completeToDo ();
   displayToDos();
 
 }
