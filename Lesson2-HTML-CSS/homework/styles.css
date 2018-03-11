@@ -2,8 +2,9 @@
     #scrollyBit {
         color: black;
         font-weight: bolder;
-        font-family: cursive;
+        font-family: 'Luminari', fantasy;
         font-variant: small-caps;
+        font-size: 20px;
         background-color: red;
         background: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
         border-color: black;
@@ -13,11 +14,17 @@
         right: 0;
         left: 0;
     }
-    h3 {
-        margin-top: 25px;
-    }
     h2 {
-        font-family: cursive;
+        font-size: 20px;
+        font-family: 'Helvetica', sans-serif;
+    }
+    h3 {
+        font-family: 'Luminari', fantasy;
+        font-size: 40px;
+    }
+    h4 {
+        margin-top: 25px;
+        font-family: serif;
     }
     img {
         width: 400px;
@@ -31,24 +38,21 @@
         padding: 50px;
         border: 5px, black;
         border-style: groove;
-        text-align: center;
-        justify-content: center;
-        font-size: 20px;
         font-weight: bold;
-        font-variant: small-caps;
+        color: white;
         
+    }
+    span {
+        background-color: black;
     }
     #spanId {
         font-size: 18px;
         font-weight: bold;
         margin: 50px;
-        background-color: black;
     }
     .divClass {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
-        font-style: fantasy;
-        font-variant: small-caps;
-        text-align: center;
     }
     body {
         background-image: url("https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?h=350&dpr=2&auto=compress&cs=tinysrgb");
@@ -58,6 +62,7 @@
         background-size: cover;
         margin-top: 100px;
         display: flex;
+        font-variant: small-caps;
     }
     * {
         flex-direction: column;
@@ -67,22 +72,20 @@
         align-items: center;
     } 
     ol {
+        list-style-type: square;
         font-size: 20px;
-        justify-content: center;
-    }
-    a:link {
-        color: goldenrod;
-        font-weight: bolder;
-    }
-    a:visited {
-        color: hotpink;
-        font-weight: bolder;
     }
     a {
         text-decoration: none;
-    }
-    span {
-        text-align: center;
         background-color: black;
+        font-family: 'Comic Sans', cursive;
+        font-size: 20px;
+        font-weight: bolder;
+    }    
+    a:link {
+        color: goldenrod;
+    }
+    a:visited {
+        color: hotpink;
     }
         -->
