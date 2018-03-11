@@ -54,7 +54,7 @@ ToDo.prototype.completeToDo = function(toDo) {
             8.) return toDoShell
 */
 
-function buildToDoS(ToDo, index) {
+function buildToDo(ToDo, index) {
   // code here
   const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
@@ -100,12 +100,12 @@ function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
    toDoContainer.innerHTML = '';
-  const hold = buildToDos(ToDoItems);
+  const   buildToDos(ToDoItems)
   for(let i = 0; i < hold.length; i++) {
     toDoContainer.appendChild(hold[i]);
 
   }
-
+  
 }
 
 
