@@ -101,7 +101,7 @@ function buildToDo(toDo) {
 function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
-  toDoContainer.innerHTML = '';
+  toDoContainer.innerHTML = 'string';
  function buildToDos(toDos){
   for(let i = 0; i < hold.length; i++) {
   toDoContainer.appendChild(hold[i]);
