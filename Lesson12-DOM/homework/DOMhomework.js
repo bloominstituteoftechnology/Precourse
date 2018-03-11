@@ -20,12 +20,13 @@ spanNew.innerHTML += 'April Martinez';
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo (description) {
+function ToDo () {
   // code here
-
+let description =
     this.description = description;
             this.complete = false;
   }
+
   
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
@@ -161,7 +162,7 @@ document.querySelector('#addButton').onclick = addToDo;
 function completeToDo(event) {
 
   // UNCOMMENT THE NEXT LINE
- const index = event.target.id;
+ let index = event.target.id;
   // code here
   completeToDo (toDoItems);
   displayToDos();
