@@ -1,6 +1,6 @@
-/* 
-Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files 
-in this folder, you are in the wrong place. 
+/*
+Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files
+in this folder, you are in the wrong place.
 */
 
 
@@ -8,35 +8,53 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+ display:block;
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
 
-/* Place code here */
+#exerciseTwo {
+  display: none;
+  text-align: center;
+}
 
 
 
 /* Exercise Three: */
 
-/* Place code here */
+#exerciseThree {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
 
 
 
 /* Exercise Four: */
 
-/* Place code here */
+#exerciseFour {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
 
 
 
 /* Exercise Five */
 
-/* Place code here */
+#exerciseFive {
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
 
 
 
 /* Exercise Six */
+#exerciseFive {
+   text-align: inherit;
+}
 
 #exerciseSeven {
   display: flex;
