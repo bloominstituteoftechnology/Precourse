@@ -146,7 +146,7 @@ function addToDo() {
 */
 
 // code here
-document.querySelector('#addButton').onclick = addToDo;
+document.querySelector('#addButton').onclick = Index;
 
 
 /* 
