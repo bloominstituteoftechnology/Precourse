@@ -124,7 +124,6 @@ function isPrime(num) {
 // --------------------------------
 
 module.exports = {
-<<<<<<< HEAD
   multiplyArguments: multiplyArguments,
   getBiggest: getBiggest,
   greeting: greeting,
@@ -134,13 +133,3 @@ module.exports = {
   fizzBuzz: fizzBuzz,
   isPrime: isPrime,
 };
-=======
-  getBiggest,
-  greeting,
-  isTenOrFive,
-  isInRange,
-  isInteger,
-  fizzBuzz,
-  isPrime,
-};
->>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6
