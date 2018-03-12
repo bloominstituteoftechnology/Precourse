@@ -18,7 +18,7 @@ function nFactorial(n) {
   return array[n];
 }
 
-    
+}   
 
     
 
