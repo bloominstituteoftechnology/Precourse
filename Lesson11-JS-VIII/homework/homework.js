@@ -27,11 +27,12 @@ function nFibonacci(n) {
 
     var array = [1,2,3,5,8,13];
   
-    for (var i = 2; i <= n; i++) {
-        array.push(array[i - 1] + array[i - 2]);
-    }
+    if (num <= 1) return 1;
+
+
+
+    return nFibonacci(num - 1) + nFibonacci(num - 2);
   
-    return array[n];
   }
   
    
