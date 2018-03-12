@@ -25,7 +25,7 @@ function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
 
-    var array = [1,2,3,5,8,13];
+    
   
     if (num <= 1) return 1;
 
