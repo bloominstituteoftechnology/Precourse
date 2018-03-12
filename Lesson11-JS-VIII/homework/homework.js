@@ -27,7 +27,7 @@ function nFibonacci(n) {
   var a = 1;
   var b = 0;
   var c = null;
-  while (n > 0) {
+  while (n > 1) {
     c = a;
     a = b + a;
     b = c;
