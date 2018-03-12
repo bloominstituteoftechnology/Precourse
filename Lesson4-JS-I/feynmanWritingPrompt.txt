@@ -1,0 +1,36 @@
+Hey, what's up!
+
+I'm going to tell you about Javascript so you can do cool things and make some money!
+
+Javascript is a way you can tell your computer to do things for you. It's way better than a calculator because you use words.
+
+
+Variables are words that tell the computer what something is. For example you could make a variable called myfavoriteFood and you could type in something so the computer understands what you're saying when you type in myfavoriteFood.
+
+
+Foods you like could be burgers, pizza, etc. For Javascript to understand that you're using a normal word, you put quotes around your food. So to say pizza, you'd type in 'pizza'. In Javascript, we call words strings. When you tell Javascript that 'you like ice cream', it understands you are saying words 'you like ice cream' and it will display them.
+
+
+Put a variable and a string together and cool things can happen.
+
+If you type myfavoriteFood = 'pizza', Javascript will understand that myfavoriteFood is pizza. 
+
+Javascript is full of little functions that you can train to do things based on what you type. You can have it do math, answer questions, and more.
+
+You can type return (2 + 2); and it will give you the answer 4.
+
+
+You can also tell Javascript to return an answer based on info you put in. 
+
+We know 2 + 2 = four, but you can tell Javascript to check.
+
+You could type in something like 
+
+if (2+2 == 4) return true;
+else return false;
+
+This tells Javascript that if 2 + 2 = 4, tell the user (you) that it is true.
+
+This also tells Javascript that if 2 + 2 does not = 4, to tell you that it is false. It is obviously true, so you'll see the true message.
+
+
