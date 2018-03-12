@@ -134,6 +134,7 @@ function addToDo() {
   toDoItems.push(ToDo)
   document.querySelector('#toDoItems').value =[ToDo];
   displayToDos();
+  addToDo();
 
 }
 
