@@ -78,7 +78,7 @@ function buildToDo(toDo, index) {
           Return the new mapped array.
 */
 
-function buildToDo([toDo]) {
+function buildToDo([ToDo]) {
   // code here
  
   document.getElementById(['ToDoText']).onclick = completeToDo;
@@ -130,7 +130,7 @@ function addToDo() {
   // code here
    
 
-  let newToDo = ToDo(document.querySelector('#toDoItems').value);
+  let addToDo = ToDo(document.querySelector('#').value);
   toDoItems.push(newItem);
   document.querySelector('#toDoItems').value =[newToDo];
   displayToDos();
