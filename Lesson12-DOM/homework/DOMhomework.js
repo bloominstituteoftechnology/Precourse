@@ -103,7 +103,7 @@ function buildToDo([toDo]) {
 function displayToDos() {
   // code here
  const toDoContainer = document.getElementById('#toDoContainer');
- toDoContainer.innerHTML = toDoContainer('');
+ toDoContainer.innerHTML = toDoContainer =  '';
 }
  function buildToDos([toDoItems]){
   for(let i = 0; i < buildToDos.length; i++) {
@@ -111,7 +111,7 @@ function displayToDos() {
     }
   
   }
-  
+
 
 
 /* 
