@@ -1,0 +1,25 @@
+* Variables
+     A way to store the value of something to use later.
+        var firstName = 'John';
+        let lastName = 'Smith';
+        const favoriteFood = 'Taco';
+
+* Strings
+    Strings are blocks of text, they will always be defined with quotation marks around them, either single or double.
+
+* Functions (arguments, `return`)
+    To use varianbles we set functions to compute them, change them, do something with them. There are three ways we can build a function.
+    function myFunc() {}
+    const anotherFunc = function () {};
+    const yetAnother = () => {};
+
+    We pass arguments to functions, in between the parenthesis.We can add multiple arguments by placing a comma in between them.
+
+    Think of the return statement as the only way for data to escape a function. Nothing other than what is returned can be accessed outside of the function. Also note, that when a function hits a return statement, the function immediately stops what it is doing and returns.
+    
+* `if` statements
+     is a way for our function to check to see if something is `true`, and either running the code supplied if it is, or moving on if it is not. 
+
+* Boolean values (`true`, `false`)
+    In Javascript we use Booleans to mean true or false.
+
