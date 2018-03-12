@@ -1,6 +1,7 @@
 // Do not change any of the function names
 
 // solve these recursively
+var f = [];
 
 function nFactorial(n) {
   // return the factorial for n
@@ -12,7 +13,7 @@ function nFactorial(n) {
     return 1;
   if (f[n] > 0)
     return f[n];
-  return f[n] = factorial(n-1) * n;
+  return f[n] = nFactorial(n-1) * n;
 } 
 
   
@@ -23,7 +24,7 @@ function nFactorial(n) {
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
-  function fibonacci(n) {
+
     var array = [1,2,3,5,8,13];
   
     for (var i = 2; i <= n; i++) {
@@ -33,7 +34,7 @@ function nFibonacci(n) {
     return array[n];
   }
   
-  }   
+   
 // Do not modify code below this line.
 // --------------------------------
 
