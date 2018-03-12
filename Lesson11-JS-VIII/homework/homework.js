@@ -24,28 +24,13 @@ function nFactorial(n) {
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
-
-  var a = 1, b = 0, temp;
-
-
-
-  while (num >= 0){
-
-    temp = a;
-
-    a = a + b;
-
-    b = temp;
-
-    num--;
-
+  if (n < 2) {
+    return 1;
+  } else {
+    return nFibonacci(n - 2) + nFibonacci(n - 1);
   }
-
-
-
-  return b;
-
 }
+
   
    
 // Do not modify code below this line.
