@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6
 /* eslint-disable no-undef */
 const {
   nFactorial,
@@ -20,4 +24,8 @@ describe('nFibonacci(n)', function() {
 		expect(fib2).toBe(3);
 		expect(fib3).toBe(1);
 	});
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6

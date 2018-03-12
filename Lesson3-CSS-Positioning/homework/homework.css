@@ -3,36 +3,55 @@ Lesson 3: CSS positioning homwork. All of your work should be done in this file.
 in this folder, you are in the wrong place. 
 */
 
+html {
+	letter-spacing: 0.02em;
+}
 
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+	text-align: center;
+	display: inline-block;
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
 
-/* Place code here */
+#exerciseTwo {
+	display: none;
+}
 
 
 
 /* Exercise Three: */
 
-/* Place code here */
+#exerciseThree {
+	position: relative;
+	top: 100px;
+	left: 200px;
+}
 
 
 
 /* Exercise Four: */
 
-/* Place code here */
+#exerciseFour {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
 
 
 
 /* Exercise Five */
 
-/* Place code here */
+#exerciseFive {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: row-reverse;
+}
 
 
 
@@ -40,4 +59,39 @@ in this folder, you are in the wrong place.
 
 #exerciseSeven {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
 }
+
+#itemOne,
+#itemTwo,
+#itemThree,
+#itemFour {
+	flex-grow: 1;
+	box-sizing: border-box;
+	width: 50%;
+	height: 50%;
+	padding: 1em;
+	letter-spacing: 0.03em;
+}
+
+#itemOne {
+	background-color: gray;
+	color: white;
+}
+#itemTwo {
+	background-color: lightgray;
+	color: white;
+}
+#itemThree {
+	background-color: darkgray;
+	color: white;
+}
+#itemFour {
+	background-color: darkblue;
+	color: white;
+}
+
+

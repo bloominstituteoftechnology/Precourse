@@ -1,0 +1,1 @@
+- Recursion = Recursion in JavaScript is the ability to invoke a function from within itself. Similar to a `for` loop, recursion offers another way to iterate a function based on an iterative variable until a conditional statement using that variable returns false.

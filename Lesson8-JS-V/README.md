@@ -31,7 +31,7 @@ In this example we will be creating a `Cat` class. Convention for classes is to 
     console.log(sam.meows()); // 'My name is Sam ...Meow!'
     console.log(kitty.meows()); // 'My name is Kitty ...Meow!'
 
-``` 
+```
 
 ### `this` in Classes
 
@@ -57,7 +57,7 @@ Creating functions are expensive (in a computer memory way) and each time we cre
     console.log(dan.introduction()); // My name is Dan, my github handle is tetondan.
     console.log(riley.introduction()); // My name is Riley, my github handle is rileyriley.
 
-``` 
+```
 Protoype methods DO have access to the `this` keyword, and just as before, it will always point to the object (left of the dot) that is calling it. 
 
 ## Please open the homework folder and complete the assignment described in the README file
@@ -66,3 +66,4 @@ Protoype methods DO have access to the `this` keyword, and just as before, it wi
 
 * [MDN: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 * [MDN: Prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)
+

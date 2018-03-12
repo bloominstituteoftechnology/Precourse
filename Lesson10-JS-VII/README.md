@@ -100,3 +100,4 @@ In the example above the `x` and the `y` are both set by their respective functi
 * [Eloquent Javascript: Higher Order Functions](https://eloquentjavascript.net/05_higher_order.html)
 * [Understand Closures with Ease](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 * [MDN: Closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+
