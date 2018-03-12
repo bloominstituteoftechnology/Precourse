@@ -168,7 +168,7 @@ function completeToDo(event) {
  const index = event.target.id;
   // code here
   completeToDo ();
-  displayToDos(index);
+  displayToDos();
   toDoItems();
   index();
 }
