@@ -24,6 +24,6 @@ function nFibonacci(n) {
 // --------------------------------
 
 module.exports = {
-  nFactorial: nFactorial,
-  nFibonacci: nFibonacci,
+  nFactorial,
+  nFibonacci,
 };

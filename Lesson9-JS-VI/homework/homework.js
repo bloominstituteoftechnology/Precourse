@@ -40,8 +40,8 @@ function map(arr, cb) {
 // --------------------------------
 
 module.exports = {
-  invokeCallback: invokeCallback,
-  sumArray: sumArray,
-  forEach: forEach,
-  map: map,
+  invokeCallback,
+  sumArray,
+  forEach,
+  map,
 };

@@ -1,5 +1,6 @@
 // Do not change any of the function names
 
+<<<<<<< HEAD
 function multiplyArguments() {
 // use the arguments keyword to multiply all of the arguments together and return the product
 // if no arguments are passed in return 0
@@ -15,6 +16,8 @@ for (let i = 0; i < arguments.length; i++) {
 return sum;
 }
 
+=======
+>>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6
 function getBiggest(x, y) {
 // x and y are integers.Return the larger integer
 // if they are the same return either one
@@ -28,6 +31,7 @@ if (x > y) {
 }
 
 function greeting(language) {
+<<<<<<< HEAD
 // return a greeting for three different languages:
 // language: 'German' -> 'Guten Tag!'
 // language: 'English' -> 'Hello!'
@@ -42,6 +46,13 @@ if (language === 'German') {
 } else {
 	return 'Hello!';
 }
+=======
+  // return a greeting for three different languages:
+  // language: 'German' -> 'Guten Tag!'
+  // language: 'Mandarin' -> 'Ni Hao!'
+  // language: 'Spanish' -> 'Hola!'
+  // if language is undefined return 'Hello!'
+>>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6
 }
 
 function isTenOrFive(num) {
@@ -119,6 +130,7 @@ for (let i = 2; i < num; i++) {
 // --------------------------------
 
 module.exports = {
+<<<<<<< HEAD
 	multiplyArguments: multiplyArguments,
 	getBiggest: getBiggest,
 	greeting: greeting,
@@ -127,4 +139,13 @@ module.exports = {
 	isInteger: isInteger,
 	fizzBuzz: fizzBuzz,
 	isPrime: isPrime,
+=======
+  getBiggest,
+  greeting,
+  isTenOrFive,
+  isInRange,
+  isInteger,
+  fizzBuzz,
+  isPrime,
+>>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6
 };

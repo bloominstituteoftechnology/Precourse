@@ -37,6 +37,6 @@ function cacheFunction(cb) {
 // --------------------------------
 
 module.exports = {
-  counter: counter,
-  cacheFunction: cacheFunction,
+  counter,
+  cacheFunction,
 };
