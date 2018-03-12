@@ -130,7 +130,7 @@ function addToDo() {
   // code here
    
 
-  let newToDo = newToDo(document.querySelector('#ToDo').value);
+  let newToDo = toDoItems(document.querySelector('#ToDo').value);
   toDoItems.push(newItem);
   document.querySelector('#newToDo').value = "";
   displayToDos();
