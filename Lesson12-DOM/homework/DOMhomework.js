@@ -169,7 +169,8 @@ function completeToDo(event) {
   // code here
   completeToDo (index);
   displayToDos();
-toDoItems(index);
+  toDoItems(index);
+  index();
 }
 
 /* STEP 10: Make sure ALL tests pass */
