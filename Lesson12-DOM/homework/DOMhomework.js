@@ -103,16 +103,16 @@ function buildToDo([toDo]) {
 function displayToDos() {
   // code here
  const toDoContainer = document.getElementById('#toDoContainer').innerHTML;
- if(document.getElementById("status") != null){
-  var idPost=document.getElementById("toDoComtainer").innerHTML;
+ document.getElementById("toDoContainer").innerHTML = x;
 }
+
 
  let hold = buildToDos([toDoItems]);
   for(let i = 0; i < hold.length; i++) {
   toDoContainer.appendChild(hold[i]);
     }
   
-  }
+  
 
 
 
