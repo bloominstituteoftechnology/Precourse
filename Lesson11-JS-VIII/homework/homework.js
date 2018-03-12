@@ -8,13 +8,15 @@ function nFactorial(n) {
   // the factorial of 3 is 6 (3 * 2 * 1)
  //recursive
 
- if (n == 0) {
-   return 1;
- }else{
-  return n * nFactorial( n - 1 );
-     }
+ function fibonacci(n) {
+  var array = [0, 1];
 
-   } 
+  for (var i = 2; i <= n; i++) {
+      array.push(array[i - 1] + array[i - 2]);
+  }
+
+  return array[n];
+}
 
     
 
