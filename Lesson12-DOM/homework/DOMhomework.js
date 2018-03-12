@@ -130,8 +130,8 @@ function addToDo() {
   // code here
    
 
-  let toDo = ToDo(document.querySelector('#toDoItems').value);
-  toDoItems.push(ToDo)
+  let newItem = newToDo(document.querySelector('#toDoItems').value);
+  toDoItems.push(newItem);
   document.querySelector('#toDoItems').value =[ToDo];
   displayToDos();
   addToDo();
@@ -146,7 +146,7 @@ function addToDo() {
 */
 
 // code here
-document.querySelector('#addButton').onclick = Index;
+document.querySelector('#addButton').onclick = addToDo;
 
 
 /* 
