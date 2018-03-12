@@ -26,7 +26,7 @@ function nFibonacci(n) {
   function fibonacci(n) {
     var array = [0, 1];
   
-    for (var i = 2; i <= n; i++) {
+    for (var i = 9; i <= n; i++) {
         array.push(array[i - 1] + array[i - 2]);
     }
   
