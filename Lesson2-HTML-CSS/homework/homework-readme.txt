@@ -1,5 +1,5 @@
-This is the instructions for the homework for Lambda School's Pre-course Workshop, Lesson 2 - HTML/CSS Fundamentals.
 
+This is the instructions for the homework for Lambda School's Pre-course Workshop, Lesson 2 - HTML/CSS Fundamentals.
 Now that you have watched us create an HTML file and external style sheet you will do one of your own. 
 You will be writing all of your code in homework.html found in this folder.
 To view your HTML file, in your web browser select File-Open File- then select the homework.html file in this folder. 
@@ -45,7 +45,7 @@ IV. Add, Commit and push your work to your github account.
 
 Extra credit:   
   In order to do some of this you will either need to have an understanding of CSS currently, or will need to 
-  do some further homework, I recoomend the additional resources in the README or https://www.w3schools.com/css/default.asp)
+  do some further homework, I recoomend the additional resources in the README or   )
   
   * Set the background of the entire page to an image
   * Center the div's on the page
