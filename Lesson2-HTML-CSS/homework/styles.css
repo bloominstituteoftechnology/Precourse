@@ -1,3 +1,9 @@
+body {
+	background-image: url("L.jpeg");
+	text-align: center;
+	margin: auto;
+	}
+div {text-align: center;}
 h1 {color: blue;}
 img {width: 400px;}
 #thirdDiv {
@@ -5,7 +11,8 @@ img {width: 400px;}
         width: 500px;
         background: blue;
         padding: 50px;
-        border: 5px solid yellow;
+        border: 10px solid yellow;
+	margin: auto;
 	}
 #spanId {
        	font: 18px;
