@@ -1,0 +1,55 @@
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: cornsilk;
+    padding: 50px;
+    border: thick solid #775500;
+    margin: auto;
+}
+
+#thirdDiv ul {
+    list-style-type: none;
+}
+
+.divClass {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    color: wheat;
+}
+
+a:link, a:visited {
+    color: tomato;
+}
+
+a:hover, a:active {
+    color: indianred;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h3 {
+    color: #FFE3B2
+}
+
+h4 {
+    color: rgb(220, 228, 171)
+}
+
+img {
+    width: 400px;
+}
+
+body {
+    background-image: url(http://bit.ly/2p2dpdj) ;
+    background-size: cover;
+}
+
