@@ -104,7 +104,7 @@ function displayToDos() {
   // code here
  const toDoContainer = document.getElementById('#toDoContainer').innerHTML;
  if(document.getElementById("status") != null){
-  var toDoContainer=document.getElementById("toDoComtainer").innerHTML;
+  var idPost=document.getElementById("toDoComtainer").innerHTML;
 }
 
  let hold = buildToDos([toDoItems]);
