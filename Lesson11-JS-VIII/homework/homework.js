@@ -25,15 +25,25 @@ function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
 
-  if(n == 0) {
+  var a = 1, b = 0, temp;
 
-    return 1;
 
-  } else { 
 
-    return n * nFactorial(n - 1);
+  while (num >= 0){
+
+    temp = a;
+
+    a = a + b;
+
+    b = temp;
+
+    num--;
 
   }
+
+
+
+  return b;
 
 }
   
