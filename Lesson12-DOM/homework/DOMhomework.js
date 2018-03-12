@@ -63,7 +63,7 @@ function buildToDo(toDo, index) {
   toDoShell.className = 'toDoShell';
   const toDoText = document.createElement('span');
   toDoText.innerHTML = toDo.description;
-  toDoText.id = index;
+  toDo.id = index;
   toDoText.onclick = completeToDo;
   if(toDo.complete === true) {
     toDoText.class = 'completeText'
@@ -167,7 +167,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
  const index = event.target.id;
   // code here
-  completeToDo (id);
+  completeToDo ();
   displayToDos(index);
   toDoItems();
   index();
