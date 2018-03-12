@@ -103,7 +103,7 @@ function buildToDo([toDo]) {
 function displayToDos() {
   // code here
  const toDoContainer = document.getElementById('#toDoContainer');
-const todo =[];
+const todos =[];
 
  let hold = buildToDos(toDoItems);
   for(let i = 0; i < hold.length; i++) {
