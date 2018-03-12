@@ -78,11 +78,11 @@ function buildToDo(toDo, index) {
           Return the new mapped array.
 */
 
-function buildToDo(ToDo) {
+function buildToDo(toDo) {
   // code here
  
   document.getElementById('ToDo').onclick = toDoText;
-  return ToDo.map(buildToDo);
+  return toDo.map(buildToDo);
 
 } 
   
@@ -170,9 +170,8 @@ function completeToDo(event) {
   
   completeToDo (toDoText);
   displayToDos();
-  toDoItems();
-  index();
-}
+  
+  }
 
 /* STEP 10: Make sure ALL tests pass */
 
