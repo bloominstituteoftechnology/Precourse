@@ -1,0 +1,20 @@
+body {
+	background-image: url("L.jpeg");
+	text-align: center;
+	margin: auto;
+	}
+div {text-align: center;}
+h1 {color: blue;}
+img {width: 400px;}
+#thirdDiv {
+	height: 600px;
+        width: 500px;
+        background: blue;
+        padding: 50px;
+        border: 10px solid yellow;
+	margin: auto;
+	}
+#spanId {
+       	font: 18px;
+        margin: 50px; 
+        }
