@@ -83,7 +83,7 @@ function buildToDos(ToDos) {
  
   document.getElementById('ToDos').onclick = toDoText;
   return ToDos.map(buildToDo);
- return buildToDos();
+ 
 } 
   
 /* 
@@ -105,9 +105,9 @@ function displayToDos() {
  const ToDoContainer = document.getElementById('#ToDoContainer');
 }
 
- function buildToDos(toDoItems) {
+ function buildToDo(toDoItems) {
   for(let i = 0; i < buildToDos.length; i++) 
-  toDoContainer.appendChild(buildToDos[i]);
+  toDoContainer.appendChild(buildToDo[i]);
     }
   
   
