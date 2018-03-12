@@ -108,7 +108,7 @@ function displayToDos() {
 
  function buildToDos(toDoItems) {
   for(let i = 0; i < buildToDos.length; i++) 
-  toDoContainer.appendChild(ToDos[i]);
+  toDoContainer.appendChild(BuildToDos[i]);
   return buildToDos();
     }
   
