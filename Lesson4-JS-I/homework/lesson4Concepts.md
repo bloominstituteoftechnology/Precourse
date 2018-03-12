@@ -1,7 +1,7 @@
 # lesson4Concepts: write out explanations of the following concepts like you are explaining it to a 12 year old.
 
 * Variables
-    Variables are a way to store the value of something in order to use in some way later on (manipulate it, display it, store it, etc.). In some programming languages you need to declare the type of data (Number, String, etc.) you are storing in inside a variable ahead of time but not in Javascript.
+    Variables are a way to store the value of something in order to use in some way later on (manipulate it, display it, store it, etc.). In some programming languages you need to declare the type of data (Number, String, etc.) you are storing inside a variable ahead of time but not in Javascript.
 
 * Strings
     Strings are considered primitive data, which are the basic building blocks of data in programs, that is basically made up of symbols or characters "strung" together. We normally use single quotes for our strings in Javascript 'like this'. 
