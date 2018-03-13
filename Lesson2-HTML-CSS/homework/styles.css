@@ -1,0 +1,38 @@
+html {
+    background: url(http://atlantablackstar.com/wp-content/uploads/2012/07/3644304184_baec87eb19.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color: crimson;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    margin: auto;
+    background-color: cornsilk;
+    border: 1px solid black;
+}
+
+img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+
+ul li {
+    list-style-type: none;
+}
+
