@@ -1,0 +1,11 @@
+h1 {color: #FF69B4;}
+img {width: 400px; }
+#thirdDiv {height: 600px; width: 500px; background-color: #eee; padding:50px; border: 2px #FF69B4 solid;}
+#spanId {font-size: 18px; margin: 50px;}
+
+/** EXTRA CREDIT **/
+html {background-image: url('https://image.freepik.com/free-vector/abstract-geometric-halftone-octagram-star-pattern-background_1164-1621.jpg'); background-attachment: fixed; background-repeat: repeat-x; }
+body {display:flex; align-items: center;}
+div {margin:0 auto;}
+.divClass {text-align:center; flex-grow:1;}
+.divClass:first-child {position: fixed; top: 20px;}
