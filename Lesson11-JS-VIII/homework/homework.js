@@ -12,10 +12,10 @@ function nFactorial(n) {
     return 1;
   }
     
-  return n * nfactorial(n - 1);
+  return n * nFactorial(n - 1);
 }
 
- nfactorial();
+ nFactorial(3);
 
   
 
