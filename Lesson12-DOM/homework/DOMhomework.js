@@ -82,9 +82,11 @@ function buildToDo(ToDo, index) {
 function buildToDos(toDos) {
   // code here
  
-  document.getElementById('toDoText').onclick = completeToDo;
+  document.getElementById('#toDoText').onclick = ToDo;
 
-  return toDo.map(buildToDos);
+  return toDo.map(buildToDo);
+
+
 
 
  
@@ -108,19 +110,16 @@ function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
 
-}
+   toDoContainer.innerHTML = '';
 
-  let  buildToDos = [toDoItems];
+  let = buildToDos[ToDoItems];
 
-  for(let i = 0; i < toDoItems.length; i++) {
+  for(let i = 0; i < hold.length; i++) {
 
-    buildToDos.appendChild(toDoContainer[i]);
+    toDoContainer.appendChild(hold[i]);
+
   }
-
-
-
-  
-  
+}
 
 
 
@@ -143,7 +142,7 @@ function addToDo() {
   toDoItems.push(ToDo);
   document.querySelector('.newToDo');
   displayToDos(toDos);
-  addToDo();
+  
 
 }
 
