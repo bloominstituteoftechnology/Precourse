@@ -1,7 +1,7 @@
 # Lesson 5: Javascript II (Control Flow, Comparison Operators, `for` Loops)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
-In this lesson we will cover: 
+In this lesson we will cover:
 
 * Undefined and Null
 * Comparison Operators (continued)
@@ -12,7 +12,7 @@ In this lesson we will cover:
 
 ## Undefined and Null
 
-There are a couple of Javascript objects that don't really fit into any type. Those are the values `undefined` and `null`. You will get `undefined` when you are looking for something that does not exist like a variable that does not have a value yet. `undefined` simply means what you are asking for does not exist. 
+There are a couple of Javascript objects that don't really fit into any type. Those are the values `undefined` and `null`. You will get `undefined` when you are looking for something that does not exist like a variable that does not have a value yet. `undefined` simply means what you are asking for does not exist.
 
 ```javascript
     console.log(unkownVar); // undefined
@@ -35,7 +35,7 @@ In these lessons we have talked a lot about the boolean values, `true` and `fals
 
 ```javascript
     // items that are coerced to true
-    true 
+    true
     1
     ' '
     [] // an array, you'll learn more about this later
@@ -54,10 +54,10 @@ In these lessons we have talked a lot about the boolean values, `true` and `fals
 
 In the last lesson we touched on Comparison Operators, we will go a little more in depth as to how they work and then introduce a close relative of Comparison Operators, Logical Operators.
 
-In the last lesson we introduced our comparison operators, (`>` `>=` `<` `<=` `===` `!==`). These operators work just as they would in a math class, greater than, less than, etc. We use these operators to evaluate two expressions. As the computer runs the code the operator will return either a `true` (if the statement is true) or a `false`. 
+In the last lesson we introduced our comparison operators, (`>` `>=` `<` `<=` `===` `!==`). These operators work just as they would in a math class, greater than, less than, etc. We use these operators to evaluate two expressions. As the computer runs the code the operator will return either a `true` (if the statement is true) or a `false`.
 
 ```javascript
-    1 > 2;     // alse
+    1 > 2;     // false
     2 < 3;     // true
     10 >= 10;  // true
     100 <= 1;  // false
@@ -73,7 +73,7 @@ The "triple equals" ( `===` ) must not be confused with a single equal sign (whi
     'cat' === 'Cat';  // false
 ```
 
-The last comparison operator we would like to introduce you to has two parts to it. 
+The last comparison operator we would like to introduce you to has two parts to it.
 
 First is the "NOT" (`!`) when you see this it will mean that we are asking the opposite of the expression (we will revisit the NOT operator later in this lesson).
 
@@ -88,7 +88,7 @@ With that in mind, we can introduce the "not equals" ( `!==` ). This will return
 
 ## Control Flow (continued)
 
-In the last lesson we learned about the `if` operator. We can use `if` to check and see if an expression is `true`, if it is, run some code. If it is not, skip the code and keep running the program. 
+In the last lesson we learned about the `if` operator. We can use `if` to check and see if an expression is `true`, if it is, run some code. If it is not, skip the code and keep running the program.
 
 ```javascript
     if (1 + 1 === 2) {
@@ -132,10 +132,10 @@ The first logical operator we will look at is the "AND" operator. It is written 
     if (100 > 10 && 10 === 10) {
         console.log('Both statements are true, so this code will be run');
     }
-    
+
     if (10 === 9 && 10 > 9) {
         console.log('One of the statements is false, so the && will return false, this code will not be run');
-    } 
+    }
 ```
 
 ### ||
@@ -146,14 +146,14 @@ The next is the "OR" operator. It is written with two vertical bars (`||`). It w
     if (100 > 10 || 10 === 10) {
         console.log('Both statements are true, so this code will be run');
     }
-    
+
     if (10 === 9 || 10 > 9) {
         console.log('One of the statements is true so the || will return true, this code will be run');
-    } 
+    }
 
     if (10 === 9 || 1 > 9) {
         console.log('Both of the statements are false, so the || will return false. This code will not be run.');
-    } 
+    }
 ```
 
 ### !
@@ -176,12 +176,12 @@ A couple things to note about logical operators.
 
 * The expressions are evaluated in order, and the computer will skip any redundant expressions. In an `&&` statement, if the first expression is `false`, the second expression will not be evaluated because BOTH expressions need to be `true`. Same for the `||` statement. If the first expression is `true`, the second will not be evaluated because there only needs to be one `true` statement to fulfill the requirements of the operator.
 
-* Use parentheses. As we saw in the second `!` operator example, we used parentheses to evaluate what was inside of the parentheses FIRST, then applied the `!` operator. We can wrap ANY expression in parentheses and it will be evaluated before evaluating the expression as a whole. 
+* Use parentheses. As we saw in the second `!` operator example, we used parentheses to evaluate what was inside of the parentheses FIRST, then applied the `!` operator. We can wrap ANY expression in parentheses and it will be evaluated before evaluating the expression as a whole.
 
 
 ## for Loops
 
-Most software runs on loops, evaluating expressions over and over again until it either returns what we are looking for, or stops after a certain time. Javascript has two looping expressions built in to it and today we will look at the first one, the "for" loop. 
+Most software runs on loops, evaluating expressions over and over again until it either returns what we are looking for, or stops after a certain time. Javascript has two looping expressions built in to it and today we will look at the first one, the "for" loop.
 
 `for` loops have a unique syntax, similar to the `if` statement, but slightly more complex. First we have the `for` keyword, followed by parentheses and then open and close braces. Within the parentheses we will need three things. First, we must declare a variable, this is what the loop will be looping over. Then we will have a conditional expression, the loop will continue happening until this statement is `false`. Third, we will increment our variable. All three of these statements are separated by a semi-colon.
 
@@ -198,7 +198,7 @@ In this example we see that we initially set our `counter` variable to 0, the lo
 
 We saw in the last two examples the `++` operator. This is Javascript shorthand for "Set the value of the variable to it's current value plus one". There are a few more of these variable math/assignment shorthand expressions, we will visit them in upcoming lessons.
 
-### Infinite Loops. 
+### Infinite Loops.
 
 It is possible to get your loop stuck in what we call an "Infinite Loop". You must make sure there is a way for the loop to end, take for example this loop:
 
