@@ -110,7 +110,7 @@ function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
 
-   toDoContainer.innerHTML = index;
+   toDoContainer.innerHTML =q;
 
   let hold = buildToDos[ToDoItems];
 
@@ -155,7 +155,7 @@ function addToDo() {
 
 // code here
 document.querySelector('#addButton').onclick = addToDo;
-
+addToDo();
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
