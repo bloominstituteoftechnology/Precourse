@@ -30,10 +30,13 @@ II. Add some style
   F. Add a style rule to the img element giving it a width of 400px;
   G. Add a style rule to 'thirdDiv' changing the height to 600px and the width to 500px.
   H. Add a style rule to 'thirdDiv' changing the background color.
+
   I. Change the size of the font for 'spanId' to 18px.
   J. Give the id 'spanId' a margin of 50px.
   K. Give the id 'thirdDiv' a padding of 50px.
   L. Give the id 'thirdDiv' a border, any width color and style you choose.
+
+
 
 III. Create an external style sheet and move all of our previous style rules into the new stylesheet.
   A. Create a file called styles.css in this folder.
