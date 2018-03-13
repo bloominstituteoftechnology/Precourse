@@ -107,7 +107,7 @@ function displayToDos() {
 
   
 
-  const hold = buildToDos(toDOItems);
+  const hold = buildToDos(toDoItems);
 
   for(let i = 0; i < hold.length; i++) {
 
