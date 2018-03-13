@@ -15,7 +15,7 @@ function nFactorial(n) {
   return n * nFactorial(n - 1);
 }
 
- nFactorial();
+ nFactorial(10);
 
   
 
