@@ -114,7 +114,7 @@ function displayToDos() {
 
   for(let i = 0; i < buildToDos.length; i++) {
 
-    toDoContainer.appendChild(buildToDos[i]);
+    buildToDos.appendChild(toDoContainer[i]);
   }
 }
 
