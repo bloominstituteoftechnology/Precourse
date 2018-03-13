@@ -91,9 +91,9 @@ function buildToDo(ToDo, index) {
 function buildToDo(toDo) {
   // code here
 
-  const array = toDos.map(buildToDo);
+  const buildToDo = toDo.map(buildToDo);
 
-  return array;
+  return buildToDo();
 
 };
 
