@@ -95,7 +95,7 @@ function buildToDos(ToDos) {
           to do this we will create a 'displayToDos' function.
           1.) Select the element with the id 'toDoContainer'.  Save this to a variable: 'toDoContainer'.
           2.) Set the innerHTML of 'toDoContainer' to an empty string. (This will let us refresh the elements, and display the new toDos)
-          3.) Using the buildToDos function pass it the array toDoItems as it's only argument.
+          3.) Using the buildTo Dos function pass it the array toDoItems as it's only argument.
           4.) Using the result of (3), loop over the array appending each element to 'toDoContainer'.
           5.) at the very end of this file, the line before the comment "DO NOT CHANGE ANY CODE BELOW THIS LINE", call this function.
 
@@ -107,7 +107,7 @@ function buildToDos(ToDos) {
 function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
-
+toDoContainer.innerHTML = " ";
 }
 
   function buildToDos(toDoItems){
