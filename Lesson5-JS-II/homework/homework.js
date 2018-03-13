@@ -1,9 +1,9 @@
 // Do not change any of the function names
 
 function getBiggest(x, y) {
-	if(x > y) {
+	if (x > y){
 		return x;
-	} else if (x === y) {
+	} if (x === y) {
 		return x || y;
 	} else {
 		return y;
@@ -17,19 +17,20 @@ function greeting(language) {
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
   var languages = {
-	  'German': 'Guten Tag!',
-	  'English': 'Hello!',
-	  'Spanish': 'Hola',
+    'German': 'Guten Tag!',
+	'Mandarin': 'Ni Hao!',
+    'English': 'Hello!',
+    'Spanish': 'Hola!',
   };
-	if (language === undefined){
-		return 'Hello!'
-	}
-	else if (!(language in languages)){
-		return 'Hello!';
-	}
-	else {
-		return languages [language];
-	}
+  if (language === undefined){
+    return 'Hello!';
+  }
+  else if (!(language in languages)){
+    return 'Hello!';
+  }
+  else {
+    return languages[language];
+  }
 }
 
 function isTenOrFive(num) {
