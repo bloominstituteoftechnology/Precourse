@@ -170,9 +170,9 @@ document.getElementById('addButton').addEventListener('click', addToDo());
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
 
-  const index = event.target.id;
+  // const index = event.target.id;
 
-  toDoItems[index].completeToDo();
+  // toDoItems[index].completeToDo();
 
   displayToDos();
 }
