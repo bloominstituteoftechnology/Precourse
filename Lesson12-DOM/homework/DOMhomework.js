@@ -20,14 +20,14 @@ spanNew.innerHTML += 'April Martinez';
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-  function ToDo (description){
+function ToDo(description) {
   // code here
 
-    this.description = 'description';
-            this.complete = false;
-  
-  }
-  
+  this.description = 'description';
+  this.complete = false;
+
+}
+
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
           It will not take any arguemnts. 
@@ -35,7 +35,7 @@ spanNew.innerHTML += 'April Martinez';
 */
 
 // code here
-ToDo.prototype.completeToDo = function() {
+ToDo.prototype.completeToDo = function () {
   this.complete = true;
 
 };
@@ -65,12 +65,12 @@ function buildToDo(ToDo, index) {
   toDoText.innerHTML = toDoText.description;
   toDoText.id = index;
   toDoText.onclick = completeToDo;
-  if(toDoText.complete === true) {
+  if (toDoText.complete === true) {
     toDoText.class = 'completeText';
   }
-     toDoShell.appendChild(toDoText);
+  toDoShell.appendChild(toDoText);
   return toDoShell;
-  
+
 }
 
 /* 
@@ -81,7 +81,7 @@ function buildToDo(ToDo, index) {
 
 function buildToDos(toDos) {
   // code here
- 
+
   document.getElementById('#toDoText').onclick = ToDo;
 
   return toDo.map(buildToDos);
@@ -89,9 +89,9 @@ function buildToDos(toDos) {
 
 
 
- 
-} 
-  
+
+}
+
 /* 
   STEP 6: Now that we can build an array of toDo elements, we want to make these elements appear on the screen, 
           to do this we will create a 'displayToDos' function.
@@ -110,16 +110,16 @@ function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
 
-   toDoContainer.innerHTML =q;
+  toDoContainer.innerHTML = q;
 
-function buildToDos(ToDoItems){
+  function buildToDos(ToDoItems) {
 
-  for(let i = 0; i < hold.length; i++) {
+    for (let i = 0; i < hold.length; i++) {
 
-    toDoContainer.appendChild(hold[i]);
+      toDoContainer.appendChild(hold[i]);
 
+    }
   }
-}
 
 }
 
@@ -137,12 +137,11 @@ function buildToDos(ToDoItems){
 
 function addToDo() {
   // code here
-   
-  let newToDo = ToDo(document.querySelector(ToDo).nodeValue);
+  let newToDo = ToDo(document.querySelector('#ToDoItems').value);
   toDoItems.push(ToDo);
   document.querySelector('.newToDo');
   displayToDos();
-  
+
 
 }
 
@@ -173,13 +172,13 @@ addToDo();
 function completeToDo(event) {
 
   // UNCOMMENT THE NEXT LINE
- const index = event.target.id;
+  const index = event.target.id;
   // code here
-  
-  completeToDo (index);
+
+  completeToDo(index);
   displayToDos();
-  
-  }
+
+}
 
 /* STEP 10: Make sure ALL tests pass */
 
@@ -199,7 +198,7 @@ function completeToDo(event) {
 
 // Call displayToDos here (Step 6)<-----
 
-    displayToDos();
+displayToDos();
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
