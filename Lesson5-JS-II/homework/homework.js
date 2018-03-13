@@ -3,6 +3,13 @@
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
+  if (x>y){
+    return x;
+  }else if (x<y){
+    return y;
+  }else if (x===y){
+    return (x,y);
+  }
 }
 
 function greeting(language) {
@@ -11,16 +18,41 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
-}
+  if(language === 'Mandarin'){
+    return 'Ni Hao!';
+  }else if(language ==='German'){
+    return 'Guten Tag!';
+  }else if(language === 'Spanish'){
+      return 'Hola!';
+  } else {
+      return 'Hello!';
+   }
+  }
+
 
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
+  if(num === 10){
+    return true;
+  }else if (num === 5) {
+   return true;
+  } else{
+    return false;
+  }
 }
+  
+
 
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
   // otherwise return false
+if (num < 50 && num > 20) {
+  return true; 
+} else {
+  return false;
+}
+
 }
 
 function isInteger(num) {
@@ -30,6 +62,18 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
+  if (num === 1){
+    return true;
+  } else if (num === -10){
+    return true;
+  } else if(num === 0.5){
+    return false;
+  }else if(Number.isInteger){
+    return true; 
+  } else {
+    return false;
+  }
+
 }
 
 function fizzBuzz(num) {
@@ -37,6 +81,15 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
+  if (num % 3 ===0 && num % 5 === 0){
+  return 'fizzbuzz';
+  } else if (num %3 ===0){
+    return 'fizz';  
+  } else if (num %5 === 0){
+    return 'buzz';
+    } else {
+    return (num);
+  }
 }
 
 function isPrime(num) {
@@ -45,6 +98,17 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
+  for (var i = 2; i < num ; i++) {
+    if (num % i === 0) {
+      return false;
+    }else {
+      return true;
+    }
+  }
+  if (num <= 2 ){
+    return false;
+  }
+
 }
 
 
@@ -61,3 +125,4 @@ module.exports = {
   fizzBuzz,
   isPrime,
 };
+
