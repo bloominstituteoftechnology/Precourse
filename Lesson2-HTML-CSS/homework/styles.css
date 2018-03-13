@@ -1,0 +1,50 @@
+h1 {
+  color: blue;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: Darkred;
+  padding: 50px;
+  border: 5px solid black;
+  position: relative;
+  top: 20px;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html {
+  background-image: url("https://simonwebdesign.com/wp-content/uploads/5-cool-backgrounds_0002_bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-bacground-size: cover;
+}
+
+ body {
+    text-align: center;
+}
+
+div {
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

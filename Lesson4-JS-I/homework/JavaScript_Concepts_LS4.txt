@@ -1,0 +1,15 @@
+JavaScript Concepts
+
+1. Variables - are containers for storing data values. The values of variables can be changed at any time throughout a program.
+
+2. Strings - is text that appear within quotes. Single or double quotes can be used to create a string.
+
+3. Functions - is a block of code designed to perform a particular task. Some of the main advantages of using functions include code reuse (e.g. Define the code once, and use it many times) and using the same code many times with different arguments, to produce different results.
+
+4. Function arguments - are values passed to and received by the function.
+
+5. Function return statement - it is used to return a value. Think of the return statement as the only way for data to escape a function. Nothing other than what is returned can be accessed outside of the function. Also note, that when a function hits a return statement, the function immediately stops what it is doing and returns a value.
+
+6. if statement - is to specify a block of code that will be executed if a specified condition is true.
+
+7. Boolean values (true, false) - is a data type that specifies one two values, either true and false.
