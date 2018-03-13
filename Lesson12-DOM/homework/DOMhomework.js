@@ -69,18 +69,16 @@ function buildToDo(ToDo, index) {
 
   // code here
 
-  function buildToDo(todo, index) {
 
-    const toDoShell = document.createElement('div');
-    toDoShell.className = 'toDoSheell';
-    const toDoText = document.createElement('span');
-    toDoText.innerHTML = todo.description;
+    const toDoShell = document.createElement('div')
+    toDoShell.classList.add('toDoShell');
+    const toDoText = document.createElement('span')
+    toDoText.innerHTML = todo.description
     toDoText.id = index;
-    if (todo.complete) toDoText.class = 'completeText';
+    if (todo.complete === true) { toDoText.classList.add('completeText'); } 
+    toDoText.onclick=completeToDo
     toDoShell.appendChild(toDoText);
-    toDoText.addEventListener('click', completeToDo());
     return toDoShell;
-  }
 
 /* 
   STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
@@ -124,7 +122,7 @@ function displayToDos() {
    
    // Call displayToDos here (Step 6)<-----
 
-displayToDos();
+
 
 
  }
