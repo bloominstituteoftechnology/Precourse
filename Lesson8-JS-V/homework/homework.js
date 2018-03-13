@@ -19,8 +19,6 @@ function createUserClass() {
     return User;
   }
 
-
-
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
