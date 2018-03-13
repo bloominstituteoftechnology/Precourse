@@ -110,13 +110,13 @@ function displayToDos() {
 
 }
 
-  function buildToDos(toDoItems){
+  let  buildToDos = [toDoItems];
 
   for(let i = 0; i < toDoItems.length; i++) {
 
     buildToDos.appendChild(toDoContainer[i]);
   }
-}
+
 
 
   
