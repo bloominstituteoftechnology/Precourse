@@ -109,7 +109,7 @@ function displayToDos() {
 
 }
 
-  function buildToDos(toDoItems){
+  function buildToDos(toDoItems, ToD0){
 
   for(let i = 0; i < buildToDos.length; i++) {
 
