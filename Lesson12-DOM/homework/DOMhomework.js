@@ -122,7 +122,9 @@ function displayToDos() {
     for(let i = 0; i < myVar.length; i++) {
       toDoContainer.appendChild(myVar[i]);
    
-   
+   // Call displayToDos here (Step 6)<-----
+
+displayToDos();
 
 
  }
