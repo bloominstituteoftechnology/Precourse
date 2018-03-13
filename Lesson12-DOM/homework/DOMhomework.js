@@ -23,7 +23,7 @@ spanNew.innerHTML += 'April Martinez';
   function ToDo (description){
   // code here
 
-    this.description = description;
+    this.description = "description";
             this.complete = false;
   
   }
