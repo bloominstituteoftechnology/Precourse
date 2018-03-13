@@ -117,17 +117,17 @@ function setUsersToPremium(users) {
   return users;
 }
 
-function sumUserPostLikes(user) {
+function sumUserPostLikes(user){
   // user has an array property called 'posts'
   // posts is an array of post objects
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
-     var sum = 0;
-     for (var i in user.posts) {
-     sum += user.posts[i].likes;
-     } 
-     return sum;
+      var total = 0;
+      for (let i = 0; i < user.posts.length; i++) {
+      total += user.posts[i].likes;
+      }
+        return total;
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
