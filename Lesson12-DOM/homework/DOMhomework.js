@@ -55,7 +55,7 @@ ToDo.prototype.completeToDo = function() {
             8.) return toDoShell
 */
 
-function buildToDo(toDo, index) {
+function buildToDo(ToDo, index) {
 
   // code here
 
