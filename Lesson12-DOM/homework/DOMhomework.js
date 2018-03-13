@@ -112,7 +112,7 @@ function displayToDos() {
 
   function buildToDos(toDoItems){
 
-  for(let i = 0; i < buildToDos.length; i++) {
+  for(let i = 0; i < toDoItems.length; i++) {
 
     buildToDos.appendChild(toDoContainer[i]);
   }
