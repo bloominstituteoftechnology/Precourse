@@ -21,11 +21,22 @@ spanNew.innerHTML += 'April Martinez';
 
 function ToDo(description) {
   // code here
+  class ToDo {
+    constructor(description, complete){
 
-  this.description = 'description';
-  this.complete = false;
+      this.description = description;
+      this.complete = false;
+
+
+
+    }
+
+  };
 
 }
+
+
+
 
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
@@ -58,16 +69,18 @@ function buildToDo(ToDo, index) {
 
   // code here
 
-  const toDoShell = document.createElement('div');
-  toDoShell.className = 'toDoShell';
-  const toDoText = document.createElement('span');
-  toDoText.innerHTML = toDoText.description;
-  toDoText.id = index;
-  toDoText.onclick = completeToDo;
-  if (todo.complete) toDoText.class = 'completeText';
-   toDoShell.appendChild(toDoText);
-  return toDoShell;
-}
+  function buildToDo(todo, index) {
+
+    const toDoShell = document.createElement('div');
+    toDoShell.className = 'toDoSheell';
+    const toDoText = document.createElement('span');
+    toDoText.innerHTML = todo.description;
+    toDoText.id = index;
+    if(todo.complete) toDoText.class = 'completeText';
+    toDoShell.appendChild(toDoText);
+    toDoText.addEventListener('click', completeToDo());
+    return toDoShell;
+  }
 
 /* 
   STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
@@ -75,16 +88,14 @@ function buildToDo(ToDo, index) {
           Return the new mapped array.
 */
 
-function buildToDos(toDos) {
+function buildToDo(toDo) {
   // code here
 
-  document.getElementById('#toDoText').onclick = ToDo;
+  const array = toDos.map(buildToDo);
 
-  return toDo.map(buildToDos);
+  return array;
 
-
-
-
+};
 
 }
 
@@ -104,18 +115,12 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
-  const toDoContainer = document.getElementById('#toDoContainer');
-
-  toDoContainer.innerHTML = q;
-
-  function buildToDos(ToDoItems) {
-
-    for (let i = 0; i < hold.length; i++) {
-
-      toDoContainer.appendChild(hold[i]);
-
-    }
-  }
+  const toDoContainer = document.getElementById('toDoContainer');
+  toDoContainer.innerHTML = '';
+  const array = buildToDos(toDoItems);
+  for(i = 0; i < array.length; i++){
+  toDoContainer.appendChild(array[i]);
+  };
 
 }
 
@@ -134,12 +139,11 @@ function displayToDos() {
 function addToDo() {
   // code here
   
-    var toDoInput = new ToDo(document.querySelector('#toDoInput').value);
-    toDoItems.push(toDoInput);
-    document.querySelector('#toDoInput').value = '';
-    displayToDos();
-
-}
+  let newToDo = new ToDo(document.getElementById('toDoInput').value);
+   toDoItems.push(newToDo);
+  document.getElementById('toDoInput').value = '';
+  displayToDos();
+ }
 
 
 /* 
@@ -149,8 +153,8 @@ function addToDo() {
 */
 
 // code here
-document.querySelector('#addButton').onclick = addToDo;
-addToDo();
+document.getElementById('addButton').addEventListener('click', addToDo());
+
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
@@ -170,8 +174,8 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   const index = event.target.id;
   // code here
-toDoItems[idex].completeToDo();
-  completeToDo(index);
+  toDoItems[idex].completeToDo();  
+  
   displayToDos();
 
 }
