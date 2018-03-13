@@ -115,14 +115,14 @@ function buildToDo(toDo) {
 
 function displayToDos() {
   // code here
-  const toDoContainer = document.getElementById('#toDoContainer');
-  toDoContainer.innerHTML = '';
 
- const buildToDos=[toDoItems];
- for(let i = 0; i < buildToDos.length; i++) {
-
-   toDoContainer.appendChild(buildToDos[i]);
-
+    const toDoContainer = document.getElementById('toDoContainer');
+    toDoContainer.innerHTML = '';
+    const myVar = buildToDos(toDoItems);
+    for(let i = 0; i < myVar.length; i++) {
+      toDoContainer.appendChild(myVar[i]);
+   
+   
 
 
  }
