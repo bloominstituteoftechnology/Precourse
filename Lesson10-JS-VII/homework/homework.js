@@ -1,6 +1,10 @@
 // Do not change any of the function names
 
 function counter() {
+  const newCounter() = counter(){
+    
+  }
+
   // Return a function that when invoked increments and returns a counter variable.
   // Example: const newCounter = counter();
   // newCounter(); // 1
