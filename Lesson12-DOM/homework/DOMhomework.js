@@ -117,12 +117,22 @@ function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
   toDoContainer.innerHTML = '';
-  const array = buildToDos(toDoItems);
-  for(i = 0; i < array.length; i++){
-  toDoContainer.appendChild(array[i]);
-  };
+
+ const buildToDos=[ToDoItems];
+ for(let i = 0; i < hold.length; i++) {
+
+   toDoContainer.appendChild(hold[i]);
+
+
+
+ }
+
+ 
 
 }
+
+
+
 
 /* 
   STEP 7: This function, 'addToDo' will add a new ToDo to the 'toDoItems' array.
