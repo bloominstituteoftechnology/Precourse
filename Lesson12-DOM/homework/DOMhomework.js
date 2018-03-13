@@ -23,7 +23,7 @@ spanNew.innerHTML += 'April Martinez';
   function ToDo (description){
   // code here
 
-    this.description = "description";
+    this.description = 'description';
             this.complete = false;
   
   }
@@ -84,7 +84,7 @@ function buildToDos(toDos) {
  
   document.getElementById('#toDoText').onclick = ToDo;
 
-  return toDo.map(buildToDo);
+  return toDo.map(buildToDos);
 
 
 
@@ -112,7 +112,7 @@ function displayToDos() {
 
    toDoContainer.innerHTML =q;
 
-  let hold = buildToDos[ToDoItems];
+function buildToDos(ToDoItems){
 
   for(let i = 0; i < hold.length; i++) {
 
@@ -121,7 +121,7 @@ function displayToDos() {
   }
 }
 
-
+}
 
 /* 
   STEP 7: This function, 'addToDo' will add a new ToDo to the 'toDoItems' array.
