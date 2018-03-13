@@ -1,0 +1,19 @@
+* Variables
+
+A variable is like a container that you put something in so that you can get it out and use it later.
+	
+* Strings
+
+A string is a piece of text made of characters.
+
+* Functions (arguments, `return`)
+
+A function is a set of repeatable instructions like in a cooking recipe. 
+
+* `if` statements
+
+The if statement just means that you will do the following instructions if a certain condition is met. You will not do them if the condition is not met.
+
+* Boolean values (`true`, `false`)
+
+A boolean value is one of the types of values in JavaScript, but it can only be true or false.
