@@ -5,11 +5,12 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
-  return {
-    name,
-    age,
-    meow: () => 'Meow!',
+  var cat = {
+    name: name,
+    age: age,
+    meow: function () {return 'Meow!';}
   };
+  return cat;
 }
 
 function addProperty(object, property) {
@@ -53,14 +54,14 @@ function newUser(name, email, password) {
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
-  return (user.email ? true : false);
+  return Boolean(user.email);
 }
 
 function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
-  return (object[property] ? true : false);
+  return property in object;
 }
 
 function verifyPassword(user, password) {
@@ -90,8 +91,7 @@ function setUsersToPremium(users) {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
-  for (let i = 0; i < users.length; i++)
-    users[i].isPremium = true;
+  users.forEach((user) => {user.isPremium = true;});
   return users;
 }
 
@@ -101,12 +101,7 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
-  // user.posts[].likes
-  let s = 0;
-  const posts = user.posts;
-  for (let i = 0; i < posts.length; i++)
-    s += posts[i].likes;
-  return s;  
+  return user.posts.reduce((a, b) => a + b.likes, 0);
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
