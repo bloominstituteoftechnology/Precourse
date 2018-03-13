@@ -76,7 +76,7 @@ function buildToDo(ToDo, index) {
     const toDoText = document.createElement('span');
     toDoText.innerHTML = todo.description;
     toDoText.id = index;
-    if(todo.complete) toDoText.class = 'completeText';
+    if (todo.complete) toDoText.class = 'completeText';
     toDoShell.appendChild(toDoText);
     toDoText.addEventListener('click', completeToDo());
     return toDoShell;
