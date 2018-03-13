@@ -35,7 +35,7 @@ function ToDo (description) {
 */
 
 // code here
-ToDo.prototype.completeToDo = function() {
+ToDo.prototype.completeToDo = function(ToDo) {
   this.complete = true;
 
 };
