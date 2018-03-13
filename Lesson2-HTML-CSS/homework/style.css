@@ -1,0 +1,39 @@
+*
+{
+text-align: center;
+margin: auto;
+}
+
+body {
+    background-image: url("https://oceanservice.noaa.gov/facts/ocean-human-health.jpg");
+}
+h1 {
+    color: rgb(255, 0, 200);
+}
+
+img {
+    width: 400px;
+}
+
+div {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.divClass {
+    position: relative;
+}
+#thirdDiv {
+    height: 600px;
+    background: red;
+    padding: 50px;
+    border: 10px dashed yellow;
+    position: absolute;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
