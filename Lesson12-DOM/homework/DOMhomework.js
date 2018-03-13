@@ -1,7 +1,6 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-
 // code here
 let toDoItems = [];
 /* 
@@ -65,12 +64,9 @@ function buildToDo(ToDo, index) {
   toDoText.innerHTML = toDoText.description;
   toDoText.id = index;
   toDoText.onclick = completeToDo;
-  if (toDoText.complete === true) {
-    toDoText.class = 'completeText';
-  }
-  toDoShell.appendChild(toDoText);
+  if (todo.complete) toDoText.class = 'completeText';
+   toDoShell.appendChild(toDoText);
   return toDoShell;
-
 }
 
 /* 
@@ -174,7 +170,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   const index = event.target.id;
   // code here
-
+toDoItems[idex].completeToDo();
   completeToDo(index);
   displayToDos();
 
