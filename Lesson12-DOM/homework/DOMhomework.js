@@ -20,7 +20,7 @@ spanNew.innerHTML += 'April Martinez';
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-className = ToDo (description) 
+  const ToDo = document.getElementsByClassName(description, complete);
   // code here
 
     this.description = description;
