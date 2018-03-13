@@ -1,0 +1,38 @@
+#exerciseOne {
+   text-align: center;
+   display: inline-block;
+}
+
+#exerciseThree {
+
+	width: 100px;
+	height: 200px;
+	border: 5px solid red;
+
+}
+
+#exerciseFour {
+
+	position: relative;
+	top:0px;
+	left: 0px;
+}
+
+
+#exerciseFive {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: row-reverse;
+}
+
+#exerciseSeven {
+
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 200px;
+	width: 1600px;
+	border: 5px dashed purple;
+
+}
