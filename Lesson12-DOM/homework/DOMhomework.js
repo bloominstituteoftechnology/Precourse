@@ -2,7 +2,7 @@
   STEP 0: Create an empty array called 'toDoItems'.
 */
 
-toDoItems = [];
+const toDoItems = [];
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -76,9 +76,7 @@ function buildToDo(todo, index) {
 
   toDoText.id = index;
 
-  if(toDo.complete === true){
-    toDo.classname = 'completeText';
-  }
+  if(todo.complete) toDoText.class = 'completeText';
 
   toDoShell.appendChild(toDoText);
 
@@ -171,7 +169,7 @@ document.getElementById('addButton').addEventListener('click', addToDo());
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  
+
   const index = event.target.id;
 
   toDoItems[index].completeToDo();
