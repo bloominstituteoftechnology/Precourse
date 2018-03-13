@@ -1,0 +1,20 @@
+
+
+
+Variables are like labeled boxes on a toy shelf. All toy boats are placed in the box labeled "boats". 
+All the police cars are placed in the box labled "police cars".
+All the firetrucks are placed in the box labled "fireturcks". All the balls are placed in he box labled "balls".
+It makes it much easier when your toys are sorted so that when you want to play rescue team, 
+you just pull the boxes labled "police cars" and "firetrucks" off the shelf, and you are ready to go.
+
+Strings are like containers used to store alphabet letter toys. The letters, punctuations, spaces, symbols, etc. stored in this type of container are to be read as just text.
+They cannot be used to represent anything other than what they actually are. You know it is a string if the letters, punctuations, spaces, symbols, etc. are enclosed in 
+single or double quotation marks.
+
+Functions
+
+
+
+	* Functions (arguments, `return`)
+	* `if` statements
+	* Boolean values (`true`, `false`)
