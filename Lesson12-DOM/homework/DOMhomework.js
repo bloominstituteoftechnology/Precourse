@@ -3,7 +3,7 @@
 */
 
 // code here
-let toDoItems = [];
+let toDoItems = [ToDo];
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
