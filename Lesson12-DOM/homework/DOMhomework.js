@@ -109,7 +109,7 @@ function displayToDos() {
 
 }
 
-  function buildToDos(toDoItems, ToDos){
+  function buildToDos(toDoItems){
 
   for(let i = 0; i < buildToDos.length; i++) {
 
@@ -139,7 +139,7 @@ function addToDo() {
   // code here
    
 
-  let newToDo = toDoItems(document.querySelector('#ToDo').value);
+  let toDoItems = newToDo(document.querySelector('#ToDo').value);
   toDoItems.push(ToDo);
   document.querySelector('#newToDo').value = "";
   displayToDos();
