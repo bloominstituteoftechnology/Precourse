@@ -110,7 +110,7 @@ function displayToDos() {
   // code here
   const toDoContainer = document.getElementById('#toDoContainer');
 
-   toDoContainer.innerHTML = '';
+   toDoContainer.innerHTML = [];
 
   let hold = buildToDos[ToDoItems];
 
