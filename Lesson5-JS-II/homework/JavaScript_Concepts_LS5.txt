@@ -1,0 +1,9 @@
+JavaScript Concepts Lesson 5
+
+1. for - is a type of loop that enables the program to execute a block of code a number of times. The for loop has three components, or statements. Statement 1 is executed before the loop (the code block) starts. Statement 2 defines the condition for running the loop (the code block). Statement 3 is executed each time after the loop (the code block) has been executed.
+
+2. && - is a logical operator that returns true if both operands are true.
+
+3. || - is a logical operator that returns true if one of the operands is true.
+
+4. ! - is a logical operator that returns that opposite or negates the result of the expression (e.g. !false === true or !true === false).
