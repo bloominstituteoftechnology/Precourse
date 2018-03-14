@@ -76,7 +76,8 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos){
   // code here
-   return buildToDo(toDos);
+  const arr = toDos.map(buildToDo);
+  return arr;
  
 }
 
