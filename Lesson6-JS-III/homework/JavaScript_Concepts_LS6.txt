@@ -1,0 +1,3 @@
+JavaScript Concepts Lesson 6
+
+1. Arrays - are a data structure that is used to store multiple values in a single variable.
