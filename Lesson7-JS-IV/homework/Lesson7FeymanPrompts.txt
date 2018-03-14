@@ -1,0 +1,22 @@
+# Homework #JSIV
+
+## Instructions
+---
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Objects
+		Objects are created by using braces {} and are a container of data. The data are called properties which is specified by a name or key and a value.
+
+	* Properties
+		Properties are the values specified in an object. To specify the different values, we follow the syntax "key: value". Key is the name of the property and value is the value of the property. Values can be string, number, boolean, array, function or even another object.  
+
+	* Methods
+		Methods are functions which are set as a property's value of an object.  
+
+	* for in loop
+		We use the for in loop to iterate over each key:value pair in an object. In other words, it loops through the properties of an object. We cannot use the standard loop because objects do not have indexes unlike arrays.   		
+
+	* Dot notation vs bracket notation
+		There are two ways to access the values of an object. We use dot notation by calling the object name, a dot, then the key. 
+
+		With bracket notation, we call the name of the object and then the key which is wrapped in brackets.   
