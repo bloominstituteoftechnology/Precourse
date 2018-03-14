@@ -21,19 +21,16 @@ spanNew.innerHTML += 'April Martinez';
 
 function ToDo(description) {
   // code here
-  class ToDo {
-    constructor(description, complete){
-
-      this.description = description;
-      this.complete = false;
+  
+    this.description = description;
+    this.complete = false;}
 
 
+    
 
-    }
+  
 
-  };
 
-}
 
 
 
@@ -86,10 +83,10 @@ function buildToDo(ToDo, index) {
           Return the new mapped array.
 */
 
-function buildToDo(toDo) {
+function buildToDo(toDo){
   // code here
 
-  const buildToDo = toDo.map(buildToDo);
+  return toDos.map(buildToDo);
 
   return buildToDo();
 
@@ -114,11 +111,12 @@ function buildToDo(toDo) {
 function displayToDos() {
   // code here
 
+  
     const toDoContainer = document.getElementById('toDoContainer');
     toDoContainer.innerHTML = '';
     const myVar = buildToDos(toDoItems);
     for(let i = 0; i < myVar.length; i++) {
-      toDoContainer.appendChild(myVar[i]);
+      toDoContainer.appendChild(myVar[i])
    
    // Call displayToDos here (Step 6)<-----
 
