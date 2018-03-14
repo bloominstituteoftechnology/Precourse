@@ -1,7 +1,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = "My Name" ;
+const newString = 'My Name' ;
 
 //create a number variable, it an be any number
 const newNum = 48 ;
@@ -66,7 +66,7 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  return str1.length === str2.length
+  return str1.length === str2.length;
 }
 
 function lessThanNinety(num) {
@@ -145,7 +145,7 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  return firstName + " " + lastName;
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
