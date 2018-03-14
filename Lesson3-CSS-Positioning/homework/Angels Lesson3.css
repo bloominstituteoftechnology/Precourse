@@ -16,7 +16,7 @@ in this folder, you are in the wrong place.
 /* Exercise Two: Positioning a Header Bar*/
 
 #exerciseTwo {
-<span id="exerciseTwo">
+<id="exerciseTwo"> {
     display: none
   
 }
@@ -24,7 +24,7 @@ in this folder, you are in the wrong place.
 
 /* Exercise Three: */
 
-<span id="exerciseThree"> {
+<id="exerciseThree"> {
     position: relative;
     top: 100px;
     left: 200px;
