@@ -1,0 +1,3 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Arrays- Arrays are containers that store values and data inside of brackets and are seperated by commas, The data inside an array is indexed starting at 0 and continuing onward. 'If objects are icecubes and each have their own shapes, ints are triangles / strings are stars then an ice tray is an array, it contains they and assigns a index to the value.
