@@ -106,6 +106,9 @@ function setUsersToPremium(users) {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
+  for (let key in users){
+    users[key].isPremium = true;
+  } return users;
 }
 
 function sumUserPostLikes(user) {
@@ -114,6 +117,11 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
+  let idSum = 0;
+  user.posts.forEach(function(element) {
+    idSum = idSum + element.likes;
+  });
+  return idSum;
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
