@@ -1,0 +1,17 @@
+Explanation of the following concepts
+
+Variables - variable is like a container where you can put in values to store, imagine a container and
+you put fruits into it, now you have a container of fruits or anytime you grab the container, there will
+be fruits inside.
+
+Strings - strings are characters stored in between single or double quotations, it's a type of data 
+that helps the computer understand what you're storing in the variable.
+
+Function(arguments, return) - function are small computer programs, it's like an action you tell the 
+computer to do and sometimes you will put in different arguments and the function will respond 
+accordingly and return a certain way, depending on what you tell it to do.
+
+if statements - if statements are similar to small programs, it tells the program what to do if a 
+criteria is met, if not, it will do something else.
+
+Boolean values(true, false) - Boolean is a data type, that can be either be True or False. 
