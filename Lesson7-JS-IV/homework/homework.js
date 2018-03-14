@@ -27,56 +27,93 @@ function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-}
+  object[method]();
+}    
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
-}
+  const mysteryObject = mysteryNumberObject.mysteryNumber * 5;
+  return mysteryObject; 
+ }  
 
-function deleteProperty(object, property) {
+ function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
-}
+  delete object[property];
+  return object;
+ }
 
-function newUser(name, email, password) {
+ function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
-}
+  const newUser = {
+    name: name,
+    email: email,
+    password: password,
+  };
+  return newUser;
+ }
 
-function hasEmail(user) {
+ function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
-}
+  if (user.email !== undefined && user.email.length > 0) {
+    return true;
+  } else {
+    return false;
+  }
+ }
 
-function hasProperty(object, property) {
+ function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
-}
+  if (object[property] !== undefined && object[property] === true) {
+    return true;
+  } else {
+    return false;
+  }
+ }
 
-function verifyPassword(user, password) {
+ function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
-}
+  if (password === user.password) {
+    return true;
+  } else {
+    return false;
+  }
+ }
 
-function updatePassword(user, newPassword) {
+ function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
-}
+  user.password = newPassword;
+  return user;
+ }
 
-function addFriend(user, newFriend) {
+ function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
   // return the user object
-}
+  user.friends.push(newFriend);
+  return user;
+ }
 
 function setUsersToPremium(users) {
   // users is an array of user objects.
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
+  for(let i = 0; i < users.length; i++){
+
+    users[i].isPremium = true;
+
+}
+
+return users;
 }
 
 function sumUserPostLikes(user) {
@@ -85,6 +122,12 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
+ let sum = 0;
+ for (let i = 0; i < user.posts.length; i++) {
+   let obj = user.posts[i];
+   sum += obj.likes;
+ }
+ return sum;
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
@@ -92,11 +135,16 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
   // the method then subtracts the discount from the price and returns the discounted price
   // return storeItem at the end of the function
-  // example: 
+  // example:
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
-}
+  storeItem.calculateDiscountPrice = function() {
+    let discountPrice = storeItem.price - (storeItem.price * storeItem.discountPercentage);
+    return discountPrice;
+  };
+    return storeItem;
+ }
 
 // Do not modify code below this line.
 // --------------------------------
