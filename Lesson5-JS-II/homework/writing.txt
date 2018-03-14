@@ -1,0 +1,10 @@
+Feynman Writing Prompts - Write out explanations of the following concepts 
+like you are explaining it to a 12 year old. Doing this will help you quickly 
+discover any holes in your understanding. Ask your questions on Slack.
+
+for- for loops, it runs through a action/behavior until it's complete. For example,
+listing the alphabets from A-Z, the loop will stop at Z
+
+&&- the && suggest that both statements are correct.
+|| - OR operator, it will determine if one of the expression is true.
+! - NOT operator, will return the opposite value of what is passed to.
