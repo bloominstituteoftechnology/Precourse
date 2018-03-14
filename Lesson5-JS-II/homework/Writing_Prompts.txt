@@ -1,0 +1,7 @@
+for` is a loop.  it allows you to run a section of code multiple times for a defined number of times.
+
+`&&` is simial to =and() formula in excel. everything in an `&&` needs to be true in order for the overall statement to be true.
+
+'||` is similar to or.  `||` only needs one statement to be true in order for the overall statement to be true
+
+`!` is equal to saying 'not' in a true of a false statement.  (!"A low paying data entry job is fun") 
