@@ -1,0 +1,5 @@
+Arrays are a way to include more than one type of data in an organized fashion. You can add as many
+different types of data you wish to store to an array. Using the positions of each variable stored
+with indexes we can easily access and manipulate data at their position. With a pre-existing array 
+there is the capability of adding and removing data from the beginning or the end of the array. Array 
+contains all different kinds of functions that are native to them.
