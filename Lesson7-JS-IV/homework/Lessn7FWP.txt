@@ -1,0 +1,21 @@
+
+	* Objects:
+    An object is very similar to an array. It is like a jar that can hold different types of values.
+    It's different from an array because an array can only hold one value type (a string, number, or boolean), whereas
+    an object can hold all 3 if need be. Everything in JavaScript is an object. And objects can be put inside of arrays.
+
+	* Properties:
+    Properties are also known as key value pairs. These are what go inside of your
+    objects. You always want to put a trailing comma at the end of your value pairs.
+	
+    * Methods: 
+    A method is a function that is perform on an object. You can use mathmatical methods or string methods. A method must
+    be called upon using dot notation. Methods are essentially shorthand for functions assigned to a methods name. The
+    object name is the first part. Then it is followed by a " . " and then the method name.
+
+
+	* for in loop:
+
+
+    
+	* Dot notation vs bracket notation:
