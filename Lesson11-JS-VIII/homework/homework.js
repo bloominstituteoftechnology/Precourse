@@ -8,15 +8,11 @@ function nFactorial(n) {
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
  //recursive
-   if (n === 0) {
+ 
+  if (n === 0) 
     return 1;
-  }
-    
-  return n * nFactorial(n - 1);
-}
-
- nFactorial(10);
-
+    return n * nFactorial(n - 1);
+ }
   
 
 
