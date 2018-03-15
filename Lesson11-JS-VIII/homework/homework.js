@@ -25,7 +25,7 @@ function nFibonacci(n) {
     if (n == 2) {
     	return 2;
     }
-    return nFibonacci(n - 1) += nFibonacci(n - 2);
+    return (nFibonacci(n - 1) + nFibonacci(n - 2));
   
   }  
 // Do not modify code below this line.
