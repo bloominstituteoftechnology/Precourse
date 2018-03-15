@@ -1,0 +1,7 @@
+for - Is a loop that repeats code that is true until it is false. In a for loop, we have to declare a variable, make a conditional expression, and a incrementing variable.
+
+&& - A logical operator that requires both expressions that you create to be true, or the operator will return false.
+
+|| - A logical operator that requires only one of your expressionss to be true. If both of your expressions are false, then the operator will return false.
+
+! - The "NOT" operator. If you use this, it will return the opposite boolean value of the condition you set.
