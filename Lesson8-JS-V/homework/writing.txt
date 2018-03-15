@@ -1,0 +1,12 @@
+Feynman Writing Prompts - Write out explanations of the following concepts 
+like you are explaining it to a 12 year old. Doing this will help you 
+quickly discover any holes in your understanding. Ask your questions on Slack.
+
+prototype - Because creating function are expensive in memory terms, prototype allows
+us to build methods outside of the class object. This gives every object of that
+class access to those methods.
+
+
+Constructors/Class - Classes share much of the functionality as an object. The difference
+is that classes allows you to create many objects that share some of the same
+properties and methods. 

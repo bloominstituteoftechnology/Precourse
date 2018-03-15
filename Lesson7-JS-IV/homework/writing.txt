@@ -4,11 +4,15 @@ quickly discover any holes in your understanding. Ask your questions on
 Slack.
 
 Objects - Objects are a type of data, where you can store property and value
-another way of saying is, key value pairs to an object.
+another way of saying is, key value:pairs to an object. Keys are unique to
+objects and there can only be one key of that name. Multiple keys can 
+have the same value. Value can be any javascript type, string, number, boolean,
+array, function and even another object.
 
 Properties - properties are a unique characteristing describing the value.
 
-Methods - similar to a function, it acts as a small program.
+Methods - similar to a function, it acts as a small program and values in 
+an object can be set to functions.
 
 for in loop - similar to a loop, meant for looping throught object.
 
