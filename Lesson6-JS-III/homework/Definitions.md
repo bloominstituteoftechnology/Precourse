@@ -1,0 +1,1 @@
+Arrays are special variables that can store multiple values in a single variable.  It's important to remember that when it is passed as an argument, an array only counts as a single argument (that is, don't use arguments.length or arguments[i] with an array).
