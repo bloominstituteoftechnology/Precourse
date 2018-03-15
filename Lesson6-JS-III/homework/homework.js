@@ -86,14 +86,12 @@ function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
   let i =0;
-  let largest = 0;
-  for (i = 0; i < numbers.length; i++) {
-    if (numbers[i] > largest)
-		}
-	{ largest = numbers[i];
-    } 
-	  return largest;
-  }
+	let largest = 0;
+	for (i = 0; i < numbers.length; i++) {
+		if (numbers[i] > largest){
+			largest = numbers[i]; } 
+	} return largest;
+}
 
 
 function multiplyArguments() {
@@ -101,13 +99,14 @@ function multiplyArguments() {
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
 	if (arguments.length === 0) {
-    return 0;
-  } else {
-    let i, product = 1;
-    for (i = 0; i < arguments.length; i++) {
-    product *= arguments[i];
-}
-return product;
+		return 0;
+	} else {
+		let i, product = 1;
+		for (i = 0; i < arguments.length; i++) {
+			product *= arguments[i];
+			return product;
+		}
+	}
 }
 
 // Do not modify code below this line.
