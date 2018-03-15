@@ -1,0 +1,26 @@
+h1{
+    color: burlywood; 
+}
+img{
+    width: 400px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px; 
+    background-color: lawngreen; 
+    padding: 50px;
+    border: 8px solid maroon; 
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/bd/fa/11/bdfa111308ba048b5454599d2ced0463.jpg"); 
+}
+div{
+    margin: auto; 
+}
