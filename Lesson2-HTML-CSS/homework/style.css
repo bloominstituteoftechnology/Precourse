@@ -1,0 +1,28 @@
+<!-- 
+
+body {
+	background:url('http://www.sonoquilibrium.com/wp-content/uploads/2014/11/3134971.jpg');
+	}
+
+h1 {color: blueviolet;
+	}
+
+img { width: 400px;
+	}
+
+.container {text-align: center;
+			display: flex;
+			align-items: center;
+			flex-direction: column;}
+
+#thirdDiv {	height: 600px;
+			width: 500px;
+			background-color: lightgrey;
+			padding: 50px;
+			border: solid 3px darkgrey;
+		}
+
+#spanId { 	font-size: 18px;
+			margin:50px;}
+
+-->
