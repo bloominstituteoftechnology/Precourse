@@ -1,0 +1,27 @@
+h1 {
+    color: midnightblue;
+}
+img {
+    width: 400px; 
+}
+
+div {
+    text-align: center;
+    margin: auto;
+}
+
+#spanId {
+    font: 18px;
+    margin: 50px;
+}
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfv0WDf7hYJzOCPknoawB0LPb9kkd7i52zwlYYn2M0ReXtDdzA9g");    
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: midnightblue;
+    padding: 50px;
+    border: thick double #32a1ce;
+}

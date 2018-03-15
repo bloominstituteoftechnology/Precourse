@@ -1,0 +1,29 @@
+* `for`
+	This operator is to evaluating expressions over and over again until it either returns what we are looking for, or stops after a certain time.
+```javascript
+    for (let i = 0     ; i < 10                 ; i++          ) {
+    // | declare a var | conditional expression | increment var|
+        console.log(i);
+    }
+```
+*******Be Careful********
+It is possible to get your loop stuck in what we call an "Infinite Loop". You must make sure there is a way for the loop to end, take for example this loop:
+
+```javascript
+    for (let i = 0; i >= 0; i++) {
+        console.log(i);
+    }
+```
+Because our conditional expression will ALWAS be `true` (`i` will never be less than 0) this loop will essentially run forever. This will break your program, and may crash your web browser, or computer.
+*************************
+
+
+* `&&`, `||`, `!`
+
+(`&&`). The AND will evaluate both expressions and will return true if BOTH expressions are true. If one (or both) of them is false this operator will return false:
+
+(`||`). The OR will determine if one of the expressions is `true`. It will return `true` if one (or both) of the expressions is `true`. It will return `false` if BOTH expressions are `false`:
+
+(`!`). The NOT operator will return the opposite boolean value of what is passed to it.
+
+In an `&&` statement, if the first expression is `false`, the second expression will not be evaluated because BOTH expressions need to be `true`. Same for the `||` statement. If the first expression is `true`, the second will not be evaluated because there only needs to be one `true` statement to fulfill the requirements of the operator.  As we saw in the second `!` operator example, we used parentheses to evaluate what was inside of the parentheses FIRST, then applied the `!` operator. We can wrap ANY expression in parentheses and it will be evaluated before evaluating the expression as a whole. 

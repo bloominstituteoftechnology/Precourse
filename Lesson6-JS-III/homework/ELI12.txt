@@ -1,0 +1,8 @@
+Arrays are like an organized train, where each wagon is added to the end of the current train. It's easy to access the first and last wagon. 
+
+We have commands to add/remove the first wagon '.unshift' / '.shift'
+We also have ones that add/remove the last one '.push'    / '.pop'
+
+Much like trains, in Javascript don't have any requirements as to what each compartment can hold, an array can have multiple data types within it.
+
+A good way to iterate through each wagon sequentially is to use of a for loop.
