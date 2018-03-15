@@ -81,6 +81,9 @@ function buildToDos(toDos) {
     newArr.push(mappedItem);
   }
   return newArr;
+  toDoText.onclick = function(){
+    completeToDo(event);
+  }
   // code here
 }
 
@@ -119,10 +122,10 @@ function displayToDos() {
 */
 
 function addToDo() {
-  // var addNewToDo = ToDo(newToDo)
-  // toDoItems.push(addNewToDo);
-  // addNewToDo = '';
-  // displayToDos();
+  var addNewToDo = ToDo(newToDo);
+  toDoItems.push(addNewToDo);
+  addNewToDo = '';
+  displayToDos();
   // code here
 }
 
@@ -152,7 +155,10 @@ addButtonVar.addEventListener = ('click', function(){
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+  const index = event.target.id;
+  toDoItems[index].completeToDo
+  displayToDos();
+
   // code here
   
 }
