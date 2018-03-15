@@ -2,7 +2,7 @@
 
 function returnFirst(arr) {
   // return the first item from the array
-	return arr[0];
+ return arr[0];
 }
 
 function returnLast(arr) {
@@ -20,7 +20,7 @@ function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-	for (let i = 0; i < arr.length; i++){
+	for (let i = 0; i < arr.length; i++) {
 		arr[i] += 1;
 	}
 	return arr;
@@ -53,8 +53,8 @@ function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
 	let itemFound = false;
-	for (let i = 0; i < arr.length; i++){
-		if (arr[i] === item){
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i]=== item) {
 			itemFound = true;
 			break;
 		}
@@ -66,7 +66,7 @@ function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
 	let sum = 0;
-	for (let i = 0; i < numbers.length; i++){
+	for (let i = 0; i < numbers.length; i++) {
 		sum += numbers[i];
 	}
 	return sum;
@@ -75,7 +75,7 @@ function addNumbers(numbers) {
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
-	let average = 0;
+  let average = 0;
   for (let i = 0; i < testScores.length; i++) {
     average += (testScores[i]/testScores.length);
   }
@@ -85,8 +85,16 @@ function averageTestScore(testScores) {
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
-	return Math.max(...numbers);
-}
+  let i =0;
+  let largest = 0;
+  for (i = 0; i < numbers.length; i++) {
+    if (numbers[i] > largest)
+		}
+	{ largest = numbers[i];
+    } 
+	  return largest;
+  }
+
 
 function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
@@ -94,14 +102,12 @@ function multiplyArguments() {
   // if one argument is passed in just return it
 	if (arguments.length === 0) {
     return 0;
-  } else if (arguments.length === 1) {
-    return arguments[0];
   } else {
-    let total  = 1;
-    for (let i = 0; i < arguments.length; i++) {
-      total *= arguments[i];      
-    }
-    return total;
+    let i, product = 1;
+    for (i = 0; i < arguments.length; i++) {
+    product *= arguments[i];
+}
+return product;
 }
 
 // Do not modify code below this line.
