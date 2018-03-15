@@ -1,0 +1,22 @@
+Objects are another different type of data structure that is used in JavaScript. An object is different from
+an array in that it is a more organized manner in which to store different kinds of data. You can assign
+specific data in an object with names that will allow you to access specific data by using the specific
+tag that you used.
+
+The tags you use for the data that is stored are called Properties and you can consider them as properties
+of the object. Examples of properties are "color", "size", "location"..etc.
+
+Methods work in the same way as a function does but it works only specifically for that object. The object
+can have a unique set of methods you want it to allow it to perform.
+
+Since a for loop using an i variable couldnt work for an object as it does with an array, we use a different
+method to go through the different data of an object. This method is called a for in loop that is accessed
+by using the inherent "key" value of an object. You can loop through all the property key values you gave 
+to an object and it the data you assigned to each property.
+
+Dot notation and bracket notation are two different ways to access the property of an object. Using the 
+bracket notation works similiar to an array in that you put the information you seek in between brackets
+next to the object such as, object['specificProperty'] or object[specificVariable]. Dot notation
+works in a different manner in that you don't use quotations and look up the property straight up with the
+syntax of (object).(property). Ex. object.specificProperty. Bracket notation can use variables from
+arguments where as dot notation cannot.
