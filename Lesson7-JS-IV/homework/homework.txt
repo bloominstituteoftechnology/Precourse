@@ -1,0 +1,23 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Objects
+
+Objects are similar with arrays, both can store information but arrays is a collection of related items and objects are for the same thing.
+
+Properties
+
+Since a object identifies one thing, we can describe them with properties.
+
+Methods
+
+Methods are like functions but the are related to the object.
+
+for in loop
+
+The for in loop is similar with the regular for, but can't be uses with objects. Objects must use for in loop.
+
+Dot notation vs bracket notation
+
+Both are used to access the properties in a object but sometimes is necesary to use bracket when we use a variable and can be a string or number.
+
+Notation is only to access with the property name.
