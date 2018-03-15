@@ -1,7 +1,7 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-
+toDoItems = [];
 // code here
 
 /* 
@@ -9,7 +9,8 @@
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
           add your name to the END of the current innerHTML.
 */
-
+spanElement = document.querySelector('#createdBy');
+spanElement.innerHTML = spanElement.innerHTML + ' Shannon Healy';
 // code here
 
 /* 
@@ -19,7 +20,12 @@
 */
 
 function ToDo () {
-  // code here
+  class ToDo {
+    constructor(description) {
+      this.description = description;
+      this.complete = false;
+    }
+  }
 }
 
 /* 
@@ -27,7 +33,9 @@ function ToDo () {
           It will not take any arguemnts. 
           Inside the function set the ToDo's 'complete' property to true.
 */
-
+ToDo.prototype.completeToDo = function(){
+  this.complete = true;
+}
 // code here
 
 /*
@@ -47,6 +55,7 @@ function ToDo () {
 */
 
 function buildToDo(todo, index) {
+  
   // code here
 }
 
