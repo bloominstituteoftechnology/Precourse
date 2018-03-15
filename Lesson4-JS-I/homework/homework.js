@@ -85,7 +85,7 @@ function lessThanNinety(num) {
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
-  if(num > 90) {
+  if(num > 50) {
     return true;
   }
   else {
@@ -160,7 +160,7 @@ function combineNames(firstName, lastName) {
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  return 'Hello ' + name;
+  return 'Hello ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas. 

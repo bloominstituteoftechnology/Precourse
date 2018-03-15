@@ -1,29 +1,17 @@
 // Do not change any of the function names
 
-function multiplyArguments() {
-  
-	let product = 1;
-  
-	for (let i = 0; i < arguments.length; i++) {
-    product = product * arguments[i];
-  }
-  
-  if(arguments.length === 0) {
-	return 0;
-  } else {
-  return product;
-  }
-}
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
-  if(x > y) {
-    return x;
-} else if (y > x) {
-    return y;
-  } else if (x === y) {
+  if(x === y) {
     return x || y;
+  }
+  else if(x > y) {
+    return x;
+  }
+  else if(y > x) {
+    return y;
   }
 }
 
@@ -37,8 +25,8 @@ function greeting(language) {
   if (language === 'German') {
     return 'Guten Tag!';
   }
-  else if (language === 'English') {
-    return 'Hello!';
+  else if (language === 'Mandarin') {
+    return 'Ni Hao!';
   }
   else if (language === 'Spanish') {
     return 'Hola!';
@@ -52,7 +40,7 @@ function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
   if(num === 10 || num === 5) {
-    return true; 
+    return true;
   }
   else {
     return false;
@@ -77,7 +65,7 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  if (num === Math.floor(num)) {
+  if(num === Math.floor(num)) {
     return true;
   }
   else {
@@ -90,13 +78,13 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
-  if (num % 3 === 0 && num % 5 === 0) {
+  if(num % 3 === 0 && num % 5 === 0) {
     return 'fizzbuzz';
   }
-  else if (num % 3 === 0) {
+  else if(num % 3 === 0) {
     return 'fizz';
   }
-  else if (num % 5 === 0) {
+  else if(num % 5 === 0) {
     return 'buzz';
   }
   else {
@@ -110,21 +98,20 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
- if (num === 1 || num === 0) {
-   return false;
- }
- for (let i = 2; i < num; i++) {
-  if(num % i === 0){
+  if(num === 1 || num === 0) {
     return false;
   }
- }
- return true;
+  for(let i = 2; i < num; i++) {
+    if(num % i === 0) {
+      return false;
+    }
+  }
+  return true;
 }
 // Do not modify code below this line.
 // --------------------------------
 
 module.exports = {
-  multiplyArguments: multiplyArguments,
   getBiggest: getBiggest,
   greeting: greeting,
   isTenOrFive: isTenOrFive,

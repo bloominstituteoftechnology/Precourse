@@ -19,7 +19,7 @@ function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-  for(let i = 0; i < arr.length; i++){
+  for(let i = 0; i < arr.length; i++) {
     arr[i]++;
   }
   return arr;
@@ -51,47 +51,64 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-  return arr.includes(item);
+  if(arr.includes(item)) {
+    return true;
+  }
+  else {
+    return false;
+  }
 }
 
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
-  let sum = 0;
-  for(let i = 0; i < numbers.length; i++) {
-    sum = sum + numbers[i];
+  let getSumOfIntegers = 0;
+  for(let i = 0; i < numbers.length; i ++) {
+    getSumOfIntegers = getSumOfIntegers + numbers[i];
   }
-  return sum;
+  return getSumOfIntegers;
 }
 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
-  let scores = 0;
-  
-  for(let i = 0; i < testScores.length; i++) {
-    scores = scores + testScores[i];
+  let getAverage = 0;
+  for(let i = 0; i < testScores.length; i ++) {
+    getAverage = getAverage + testScores[i];
   }
-  return scores / testScores.length;
+  getAverage = getAverage / testScores.length;
+  return getAverage;
 }
 
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
-  let num = 0;
-
-  for(let i = 1; i < numbers[i]; i ++) {
-    if(num < numbers[i]) {
-      num = numbers[i];
+  let getLargestInteger = 0;
+  for(let i = 0; i < numbers.length; i++) {
+    if(numbers[i] > getLargestInteger) {
+      getLargestInteger = numbers[i];
     }
   }
-  return num;
+  return getLargestInteger;
 }
 
 function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+	let product = 1;
+  // loop starts at 0. if i is less than the length of arguments, increase i by 1.
+	for (let i = 0; i < arguments.length; i++) {
+	// multiply with the value of product is and reassign the new value to the variable product
+    product = product * arguments[i];
+  }
+  // if length of argument is equal to 0, then return 0.
+  if(arguments.length === 0) {
+    return 0;
+  //return product if argument is equal to 1.
+  } else {
+    return product;
+  }
 }
 
 // Do not modify code below this line.
