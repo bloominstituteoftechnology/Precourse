@@ -14,7 +14,7 @@ let toDoItems = [];
 // code here
 (function () {
   let spanElement = document.querySelector("#createdBy")
-  spanElement.innerHTML = spanElement.innerHTML + ' Kamry Bowman';
+  spanElement.innerHTML = spanElement.innerHTML + ' Smile Rodnez';
 })();
 
 /* 
