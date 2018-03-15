@@ -181,7 +181,7 @@ Congratulations! You just pushed your first git commit!
   In this exercise, we will submit a pull request through github.com
 
 
-  ## Further reading and tutorials:
+  ## Further reading and tutorials:git
 
   * [Git: official site](https://git-scm.com/)
   * [Github: official tutorial](https://try.github.io/levels/1/challenges/1)
