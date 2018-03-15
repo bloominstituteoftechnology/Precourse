@@ -29,7 +29,7 @@ function cacheFunction(cb) {
       return cache[a] = cb(a);
   };
   */
-  return (a) => (a in cache ? cache[a]: cache[a] = cb(a));
+  return (a) => (a in cache ? cache[a] : cache[a] = cb(a));
 }
 
 // Do not modify code below this line.
