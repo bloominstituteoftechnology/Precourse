@@ -111,7 +111,7 @@ function sumUserPostLikes(user) {
   // return the sum
 	var postLikeSum = 0;
 	user.posts.forEach(function(post){
-					   postLikeSum += post.likes;
+		postLikeSum += post.likes;
 	});
 	return postLikeSum;
 }
