@@ -1,0 +1,40 @@
+Feynman Writing Prompts
+
+	* `for`
+	* `&&`, `||`, `!`
+
+'for'
+Oftentimes, we would like to perform the same action or series of actions on something. Say mailing out Christmas Cards... We write the name and then lookup the person's address. Or consider the teacher who adds up the marks for each section in the testpaper for the final score. This same series of actions will be performed on each student's test paper. 
+
+In Javascript, this useful observation can be done using a 'for' expression
+ie. for(let i = 0; i < Terminator; i++){
+    action 1;
+    action 2;
+    etc;
+}
+
+Notes:
+- The above expression details the number of times the whole series of actions will be done or looped.
+- It is important that the changes made to the counter i, eventually results in the loop ending, else we would have an infinite loop.
+
+* `&&`, `||`, `!`
+
+This are like "Tales of Truths" ;)
+
+Oftentimes it is useful to combine Truths. Consider a number which is greater than zero, and when divided by 2 leaves no remainder. This gives us the ability to have a function which can tells us whether it is true that a number is even and positive. We can use && (and for this). Both must be true.
+
+True && True -> True
+True && False -> False
+False && True -> False
+False && False -> False
+
+
+Othertimes, the situation is as such that we just need at least one to be true. Consider a casual game of tennis. As long as one person is committed to play, we can start a game ;) We can use || (OR) to express such situations.
+
+True || True -> True
+True || False -> True
+False || True -> True
+False || False -> False 
+
+! is just like a flip switch. It is known as NOT...
+So ! True means Not True and thus False. Likewise !False means Not False and thus True 
