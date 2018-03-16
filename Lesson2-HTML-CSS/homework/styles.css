@@ -1,0 +1,47 @@
+body {
+  font-family: Helvetica, sans-serif;
+  letter-spacing: -0.5px;
+  background-image: url(http://www.v3wall.com/wallpaper/1600_1200/1009/1600_1200_20100923125950153276.jpg);
+  /* text-align: center; */
+}
+h1 {
+  color: firebrick;
+}
+
+h3 {
+  position: relative;
+  top: -25px;
+}
+
+h4 {
+  position: relative;
+  top: -45px;
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: lightpink;
+  padding: 50px;
+  border: 3px solid crimson;
+  /* margin: 15px auto; */
+}
+
+#spanId {
+  font-size: 18px;
+  position: relative;
+  top: -35px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.flex-item {
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+}
