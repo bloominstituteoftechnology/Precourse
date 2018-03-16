@@ -10,13 +10,13 @@ const newNum = 69;
 const newBool = true;
 
 //solve the following math problem
-const newSubtract = 10 - 5 === 5;
+const newSubtract = 10 - 5 === 5; // true
 
 //Solve the following math problem
-const newMultiply = 10 * 4 === 40 ;
+const newMultiply = 10 * 4 === 40;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === 1;
+const newModulo = 21 % 5 === 1; 
 
 
 
@@ -62,7 +62,7 @@ divide(9, 3);
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  if ( x === y) {
+  if (x === y) {
     return true;
   }
     return false; 
@@ -72,7 +72,7 @@ areEqual(3, 3);
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  if ( str1.length === str2.length) {
+  if (str1.length === str2.length) {
     return true;
   }
     return false;
@@ -164,23 +164,20 @@ roundUp(8.3);
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  return 'hello world' + str;
+  return str + '!';
 }
-addExclamationPoint('!');
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  return firstName + lastName;
+  return firstName + ' ' + lastName;
 }
-combineNames('hello', ' world');
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  return 'Hello' + name + '!';
+  return 'Hello' + ' ' + name + '!';
 }
-getGreeting(' Sam');
 
 // The next three questions will have you implement math area formulas. 
 // If you can't remember these area formulas then head over to Google.
