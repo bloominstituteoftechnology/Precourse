@@ -1,7 +1,9 @@
+// npm run test DOM.test.js
+
 # Lesson 12: DOM
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
-In this lesson we will cover: 
+In this lesson we will cover:
 
 * Introduction to the `DOM`
 * The `script` Element
@@ -12,11 +14,11 @@ In this lesson we will cover:
 
 ## Introduction to the `DOM`
 
-The `DOM` (as you will repeatedly hear it called) refers to 'Document Object Model'. When a browser loads a webpage, it takes all of the HTML and creates a model from it. Using Javascript we can access and manipulate that model. Adding and removing elements, changing attributes of elements, and changing styling of elements. 
+The `DOM` (as you will repeatedly hear it called) refers to 'Document Object Model'. When a browser loads a webpage, it takes all of the HTML and creates a model from it. Using Javascript we can access and manipulate that model. Adding and removing elements, changing attributes of elements, and changing styling of elements.
 
 ## The `script` Element
 
-We can inject our Javascript code into an HTML page by using the `script` element. We can do this two ways. 
+We can inject our Javascript code into an HTML page by using the `script` element. We can do this two ways.
 
 First is to insert opening and closing script tags in the `head` element, the same way we would use the `title` or `style` elements. We then insert our Javascript code directly on the HTML page inline.
 
@@ -43,7 +45,7 @@ The second way is to use the script tag to retrieve our external Javascript file
 
 ## `document`
 
-The first thing to note about Javascript running on a webpage is it's access to a global object called `document`. Remember that DOM stands for `Document Object Model`, the `document` object contains our DOM and prototype methods that allow us to access elements on the DOM and manipulate them. 
+The first thing to note about Javascript running on a webpage is it's access to a global object called `document`. Remember that DOM stands for `Document Object Model`, the `document` object contains our DOM and prototype methods that allow us to access elements on the DOM and manipulate them.
 
 ## `document` Selectors
 
@@ -51,7 +53,7 @@ The first thing to note about Javascript running on a webpage is it's access to 
 
 ### `document.getElementsByClassName`
 
-`getElementsByClassName` will find elements based on their class names. It will return an array-like object that we can use to iterate through. The class name supplied will be a string with the class name. 
+`getElementsByClassName` will find elements based on their class names. It will return an array-like object that we can use to iterate through. The class name supplied will be a string with the class name.
 
 ```javascript
     const divs = document.getElementsByClassName('divClass');
@@ -67,7 +69,7 @@ The first thing to note about Javascript running on a webpage is it's access to 
 
 ### `document.querySelector`
 
-`querySelector` (and `querySelectorAll`) is a new method that takes a CSS style selector as it's argument. Remember that we can ask for classes in CSS using the `.`, ids using the `#`, and elements by using the element name (eg: `'body'`). These selectors will use the same format. It is best to only use ids with `querySelector` because it will only return the first item matching that selector. 
+`querySelector` (and `querySelectorAll`) is a new method that takes a CSS style selector as it's argument. Remember that we can ask for classes in CSS using the `.`, ids using the `#`, and elements by using the element name (eg: `'body'`). These selectors will use the same format. It is best to only use ids with `querySelector` because it will only return the first item matching that selector.
 
 ```javascript
     const div = document.querySelector('#divId');
@@ -120,7 +122,7 @@ We can call `.setAttribute` on an element to either add an attribute to the elem
 
 ### .style
 
-Calling the `.style` property on an element gives us access to the styles associated with the element. Note, this does not give us access to the CSS styles, only the inline styles written in HTML. We chain the style we want to read, or affect, on to the end of the `.style` .We can use this to set certain styles on the element. 
+Calling the `.style` property on an element gives us access to the styles associated with the element. Note, this does not give us access to the CSS styles, only the inline styles written in HTML. We chain the style we want to read, or affect, on to the end of the `.style` .We can use this to set certain styles on the element.
 
 ```javascript
     const div = document.querySelector('#divId');
@@ -179,7 +181,7 @@ The most common event listener to assign to an element is the 'click handler' in
 
 You can find a list of all events here: [MDN: Events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
-Using these document methods coupled with the knowledge we have of Javascript, HTML, and CSS, we now how the tools to build a fully functional front end web application. 
+Using these document methods coupled with the knowledge we have of Javascript, HTML, and CSS, we now how the tools to build a fully functional front end web application.
 
 ## Additional Resources
 
@@ -187,6 +189,3 @@ Using these document methods coupled with the knowledge we have of Javascript, H
 * [MDN: script Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 * [MDN: Document](https://developer.mozilla.org/en-US/docs/Web/API/Document)
 * [MDN: Events](https://developer.mozilla.org/en-US/docs/Web/Events)
-
-
-
