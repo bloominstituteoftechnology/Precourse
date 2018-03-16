@@ -1,0 +1,14 @@
+prototype is a useful concept in Javascript. It is kind of like a base object which allows our user created object to link to. We can use existing prototypes in Javascript such as String.prototype which will then give us useful methods/functions such length for free. We can also create our own user defined prototype. This will allow the objects we code to have an object which can have access to shared code like functions instead of multiple copies of it.
+
+constructor
+In Javascript this is a function which allows us to setup a blueprint for objects and it's connection to the prototype. This relationship to the prototype enables us to then define functions on the prototype which can then be shared with the objects. 
+
+function User (name, hobby){
+    this.name = name,
+    this.favourite = hobby,
+};
+
+// We can then setup the function at the prototype level
+User.prototype.sayHi = function(){
+    return 'I am ' + this.name + ' and I like ' + this.hobby;
+};
