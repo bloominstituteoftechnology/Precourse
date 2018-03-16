@@ -1,0 +1,2 @@
+Arrays are basically containers for data.  They have the ability to store multiple different data types. A thing to remember with arrays is
+that you start counting from zero, so your first data entry counts as zero and your second entry counts as one and so on.
