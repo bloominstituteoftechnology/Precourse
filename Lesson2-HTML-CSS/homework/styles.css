@@ -1,0 +1,38 @@
+/*
+ * CSS styles for homework.html
+ */
+body {
+	background-image: url(https://png.pngtree.com/element_origin_min_pic/17/03/24/f9210d5ef6084b7bf7bd6f475d2e4b62.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+div {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: navy;
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	position: relative;
+	top: 100px;
+	height: 600px;
+	width: 500px;
+	padding: 50px;
+	border: 5px lime dashed;
+	background-color: maroon;
+}
+
+#spanId {
+	margin: 50px;
+	font-size: 18px;
+}

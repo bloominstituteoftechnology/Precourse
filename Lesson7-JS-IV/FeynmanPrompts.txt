@@ -1,0 +1,9 @@
+1. Objects - Objects are everything. Seriously. In JavaScript, everything is an object. Arrays are objects. Functions are objects. Objects are... well, that one's pretty obvious. An object is basically... a thing. A complex thing, not a simple thing. An object has things (properties) and does things (methods), both of which I'll talk about here in a minute. Let's use a car as our example object. A car... is a thing. It has things, and it does things. Maybe it also drinks and it knows things.
+
+2. Properties - A property is a thing an object has. It's like a variable, but it's owned by the object instead of just existing out in the big, wide world. If we go to our example object, a car, properties would be things like the make, model, color, and so on.
+
+3. Methods - A method is a thing an object does. It's like a function, but it's owned by the object instead of just existing out in the big, wide world. If we go to our example object, a car, properties would be things like honking its horn or revving its engine. I could have just copied and pasted the description of properties and substituted the appropriate changes for methods, but I didn't.
+
+4. for in loop - a for in loop is a way to look inside an object and get everything out of it to see what it is. The loop goes over all an object's properties and methods unless you tell it to only go over some of them.
+
+5. Dot notation and bracket notation - These are two different ways to reference an object's properties/methods. The Dot method simply means putting a dot between the object and its property, whereas the bracket method means putting it in brackets. With brackets you can put a string in quotes or you can use a variable name that points to a string that is the name of a property.
