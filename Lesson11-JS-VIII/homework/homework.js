@@ -12,27 +12,19 @@ function nFactorial(n) {
   else
     return n * nFactorial(n-1);
   */
-  return (n === 1 ? 1 : n * nFactorial(n - 1));
+  return n === 1 ? 1 : n * nFactorial(n - 1);
 }
 
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
-  if(n === 1)
+  /*
+  if(n < 2)
     return 1;
-  else if(n === 2)
-    return 2;
   else
     return nFibonacci(n-1) + nFibonacci(n-2);
-  
-  // return (n === 1 ? 1 : (n === 2 ? 2 : nFibonacci(n-1) + nFibonacci(n-2)));
-  
-  /*
-  if(n === 1)
-    return 1;
-  else
-    return (n === 2 ? 2 : nFibonacci(n-2) + nFibonacci(n-1));
-  */
+*/
+  return n < 2 ? 1 : nFibonacci(n-1) + nFibonacci(n-2);
 }
 
 // Do not modify code below this line.
