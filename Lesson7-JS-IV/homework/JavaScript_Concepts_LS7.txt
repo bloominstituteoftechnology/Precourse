@@ -1,0 +1,11 @@
+JavaScript Concepts Lesson 7
+
+1. Object - are containers for data values that are written as name:values pairs, with the names and values separated by colons. Objects will hold a lot of information about one thing. Objects are instantiated by using braces {}.
+
+2. Properties - are the keys or names of an object.
+
+3. Methods - are properties of an object that contain a function definition.
+
+4. for in loop - is a type of loop that enables a program to iterate over each key in an object and finish when all the keys have been iterated over.
+
+5. Dot notation vs. bracket notation - with dot notation a programmer can just call the object name, a dot, and a key name to access or assign a value. Bracket notation is just like calling an item on an array, although with brackets a programmer must use a string or number, or a variable pointing to a string or number. Each key can be called by wrapping it with quotes.
