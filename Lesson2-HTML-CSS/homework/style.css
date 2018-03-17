@@ -1,0 +1,25 @@
+<style>
+.divClass {
+
+}
+#spanID {
+  font-size: 18px;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: #eee;
+  border-color: #000;
+  border-width: 1px;
+  border-radius: 15px;
+}
+
+.strawImg {
+  height: 100px;
+  width: 150px;
+}
+
+.protImg {
+  height:100px;
+}
+</style>
