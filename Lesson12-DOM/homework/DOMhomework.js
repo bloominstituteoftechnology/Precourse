@@ -30,7 +30,11 @@ function ToDo (description) {
           Inside the function set the ToDo's 'complete' property to true.
 */
 ToDo.prototype.completeToDo = function(){
-  this.complete = true};
+  // if (checkbox.checked){
+  //   this.complete = false;
+  //     };
+  this.complete = true;
+};
 // code here
 
 /*
@@ -50,21 +54,44 @@ ToDo.prototype.completeToDo = function(){
 */
 
 function buildToDo(todo, index) {
+  var checkbox = document.createElement('input');
+  checkbox.type = "checkbox";
+  checkbox.id = index;
+  checkbox.onclick = completeToDo;
+  checkbox.className = 'completeCheckbox';
+
   var toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
   var toDoText = document.createElement('span');
   toDoText.innerHTML = todo.description;
-  toDoText.id = index;
 
-  toDoText.onclick = completeToDo;
+  if(todo.complete===true){
+    toDoText.className = 'completeText';
+    checkbox.checked = true;
+  };
+  toDoShell.appendChild(checkbox);
+  toDoShell.appendChild(toDoText);
 
-  if(todo.complete){
+
+  //toDoText.id = index;
+  //toDoText.onclick = completeToDo;
+  /*if(todo.complete){
     toDoText.className = 'completeText'
   };
-  toDoShell.appendChild(toDoText);
+  toDoShell.appendChild(toDoText); */
+
+
   return toDoShell;
   // code here
 }
+/*    1.) Research 'checkbox' input types. And apply that research to the buildToDo function:
+        a.) Create a checkbox in the buildToDo function. A
+        b.) Give the checkbox the id of the index, and remove the id of the index from toDoText
+        c.) Give the checkbox the 'click' event listener of completeToDo, and remove the event listener from toDoText
+        d.) Give the checkbox the class of 'completeCheckbox'
+        e.) Inside of the current 'if' statement in the buildToDo function, if true, set the attribute, 'checked' to true on the checkbox.
+        f.) Append this checkbox on the toDoShell element.
+*/
 
 /* 
   STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
