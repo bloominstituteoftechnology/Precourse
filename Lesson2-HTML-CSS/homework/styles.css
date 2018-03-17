@@ -1,0 +1,25 @@
+body {
+	background-image: url("https://static.pexels.com/photos/845263/pexels-photo-845263.jpeg");
+	background-position: center;
+}
+
+h1 {
+	color: cadetblue;
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: ghostwhite;
+	padding: 50px;
+	border: 5px solid cadetblue;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
