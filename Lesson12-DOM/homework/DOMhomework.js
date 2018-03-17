@@ -19,13 +19,10 @@ spanElement.innerHTML = spanElement.innerHTML + ' Shannon Healy';
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
-  class ToDo {
-    constructor(description) {
+function ToDo (description) {
       this.description = description;
       this.complete = false;
-    }
-  }
+    
 }
 
 /* 
@@ -121,8 +118,8 @@ function displayToDos() {
           4.) Call displayToDos to refresh the toDos displayed
 */
 
-function addToDo() {
-  var addNewToDo = ToDo(newToDo);
+function addToDo(newToDo, ToDo) {
+  var addNewToDo = Object.create(ToDo(newToDo));
   toDoItems.push(addNewToDo);
   addNewToDo = '';
   displayToDos();
