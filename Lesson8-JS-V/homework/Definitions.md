@@ -1,0 +1,3 @@
+A prototype is the way in which a class can set a method and have it be accessible to every object in the class.  This saves memory so that a function doesn't have to be run for every object in the same way as it would have to be if it was written out for every instance of its use.
+
+Constructors are like classes, which is like a template for how to create similar objects.  Classes are created by using 'new' and then naming the class with an uppercase variable name.

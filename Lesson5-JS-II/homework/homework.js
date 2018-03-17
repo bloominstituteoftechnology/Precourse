@@ -63,9 +63,7 @@
   // hint: you can solve this using Math.floor
   
   function isInteger(num) {
-      if (num % Math.floor(num) === 0) {
-        return true;
-      } else if (num === 0) {
+      if (num === Math.floor(num)) {
         return true;
       } else {
         return false;
