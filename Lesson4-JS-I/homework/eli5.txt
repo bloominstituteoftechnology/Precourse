@@ -1,0 +1,21 @@
+variables - variables are containers for storing data. This is very useful because as we have lots of data that we use often,
+instead of rewriting the data each time, we just store the data once in the variable and call upon the variable each time 
+we wish to use that data.
+
+strings - A string is data that is in the form of text. To make something a string we surround it by '' or "".
+
+functions-  A function is a set of statements that performs a task. Instead of writing out these statments for the computer to 
+perform each time, we call upon the function each time instead saving us time and space.
+
+function arguement - A crucial part of a function is the ability to perform the same task on different sets of data. The data that we 
+want to manipulate is called the arguement of the function. 
+function return - the return statement stops the function from further executing code inside of the function . 
+
+if statements- When one wants to execute code, only in certain instances, he has the option to use an if statement. The if statement, 
+will only execute the code it contains if the statement provided is true.
+
+boolean values- When determining if a data type is correct or not we have boolean values that determine the veracity.
+For example 5>3 produces true while 5<3 produces false . boolean values can be used with any type of logic that can be true or false.
+
+
+
