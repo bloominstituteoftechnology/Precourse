@@ -1,8 +1,20 @@
+  html{  background: url(http://www.earwolf.com/wp-content/uploads/2016/02/EAR_HFTMT_Cover_1600x1600_Final-1024x1024.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+  }
 h1{
-    color: midnightblue
+    color: crimson;
 }
 img {
-    width: 400px            
+    width: 400px;                 
 }
 #thirdDiv{
     height: 600px;
