@@ -1,0 +1,20 @@
+h1 {
+    color: darksalmon;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: dodgerblue;
+    padding: 50px;
+    border: darksalmon 1px solid;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}

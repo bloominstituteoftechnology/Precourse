@@ -16,7 +16,7 @@ I. Create a basic HTML page.
       * a span element containing text describing your favorite food.
       * an 'a' element linking to your favorite restaurant.
     3. In the third div create:
-      * an an unordered list with two list items
+      * an unordered list with two list items
       * an img tag in each list item linking to your favorite food. (Use Google image search to find a photo, if you can't 
         use this address: "http://http://lorempixel.com/400/200/food/").
 
