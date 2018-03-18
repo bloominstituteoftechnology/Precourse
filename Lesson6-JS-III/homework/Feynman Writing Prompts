@@ -1,0 +1,13 @@
+* Arrays
+    Arrays are a collection of items, usually thought of as a list of objects, like strings, numbers, or maybe other arrays. A string is represented as a list of
+    comma seperated items in brackets.
+
+        const numbers = [1, 2, 3];
+        const letters = ['A', 'B', 'C'];
+
+    We could mix and match, but it's best practice to keep together items of same type like numbers or strings in an array, even though there may be times when We
+    put different types in one array.
+
+        const employee = ['John Kelly', 45, 'Manager'];
+
+    where 45 could be his age or some other status.
