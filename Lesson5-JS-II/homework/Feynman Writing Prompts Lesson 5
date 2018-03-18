@@ -1,0 +1,13 @@
+If you remmeber in the last lession we talked about comparison operators like greater than (2 > 1), less than or equal to ( 3 <= 6),
+etc. Well we also have an interesting comparison operator called the "NOT" (!) and basically it stands for the opposite of something.
+For example (!==) means not equal to, and when we write 1 !== 1; this is a false statement because one is equal to 1. Another example
+is 1 !== '1'; this turns out to be true because when we use '' it indicates a word or string and not a number.
+
+Now that we know what a comparison operator is we can move onto the logical operators &&, ||, and !. All the && means is that when 
+we have two expressions they both have to be true in order for the operator to return true. If one expression is not true then 
+the operator will return false. For example if ( 100 > 10 && 10 === 10) and this is true then the operator will return true. The next
+operator is the "OR" (||) and this indicates that if one expression is true then the operator will return true, and it will only return
+false if both expressions are false.
+
+Lastly we will talk about "for" loops, all a for loop is the evaluation of an expression over and over again in a until we determine
+when it stops or not in the case of an infinite loop.

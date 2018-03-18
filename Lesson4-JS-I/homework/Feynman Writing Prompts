@@ -1,0 +1,26 @@
+Have you ever wanted to tell your computer to do your math homework
+for you and a bunch of other stuff too? Well, if you have then you have 
+to let me tell you about Javascript.
+
+Lets begin with what is a variable? Well variables can be words or
+numbers that tell the computer what something is and to store it. 
+For example you could make a variable called myFavoritegame 
+then you could type in the name of your favorite game so the computer 
+understands what your are saying when you type myFavoritegame.
+
+Games you like could monopoly, supermario, etc. For javascript to
+understand what a word is it needs 'quotes'. For example 'monopoly'
+'supermario'. In javascript words are called strings, so if you say
+'I like to play supermario' javascript knows how to display the words
+because of the quotes around them.
+
+Javascript also has these things called functions that you can tell
+them what to do like solving math problems.
+You can type return (3 + 5); and it will give you the answer 8.
+
+We know that 3 + 5 = 8, but you can also tell javascript to check 
+if that is true or false with something called an if statement.
+For example if (4 + 5 < 11) return true; else return false;. This 
+tells javascript that if 4 + 5 is less than 11 to tell you the user 
+that it's true. Conversly if 4 + 5 is not less than 11 it will tell
+you that it is false.
