@@ -2,31 +2,38 @@
 
 function returnFirst(arr) {
   // return the first item from the array
+  console.log(arr1);
 }
 
 function returnLast(arr) {
   // return the last item of the array
+  console.log(arr[arr.length -1]);
 }
 
 function getArrayLength(arr) {
   // return the length of the array
+  console.log(arr.length);
 }
 
 function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
+  
 }
 
 function addItemToArray(arr, item) {
   // add the item to the end of the array
   // return the array
+  var newLength = arr.push('item')
+  return addItemToArray;
 }
 
 function addItemToFront(arr, item) {
   // add the item to the front of the array
   // return the array
   // hint: use the array method .unshift
+  var newLength = arr.unshift('item')
 }
 
 function wordsToSentence(words) {
@@ -34,6 +41,7 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
+  string:arrayname[] = {}
 }
 
 function contains(arr, item) {
@@ -44,22 +52,31 @@ function contains(arr, item) {
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
+  const addNumbers = [numbers]
 }
 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
+  const average = a + b + c + d;
+  return average
+
 }
 
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
+  var length = numbers;
+  return length
+
 }
 
 function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  var arguments = a * b;
+  return arguments
 }
 
 // Do not modify code below this line.
