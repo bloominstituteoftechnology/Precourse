@@ -10,10 +10,10 @@ function makeCat(name, age) {
     age: age,
     meow: function() {
       return 'Meow!';
-    }
+    },
   };
   return getCat;
-}
+} 
 
 function addProperty(object, property) {
   // add the property to the object with a value of null
@@ -33,8 +33,8 @@ function invokeMethod(object, method) {
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
-  let product = mysteryNumberObject.mysteryNumber * 5;
-  return product;
+  return mysteryNumberObject.mysteryNumber * 5;
+  
 }
 
 function deleteProperty(object, property) {
@@ -47,12 +47,12 @@ function deleteProperty(object, property) {
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
-  const user = {
+  let newObject = {
     name: name,
     email: email,
     password: password,
   };
-  return user;
+  return newObject;
 }
 
 function hasEmail(user) {
@@ -61,8 +61,9 @@ function hasEmail(user) {
   if(user.email) {
     return true;
   }
-  else 
-  return false;
+  else {
+    return false;
+  }
 }
 
 function hasProperty(object, property) {
@@ -109,7 +110,9 @@ function setUsersToPremium(users) {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
+
   for(let i = 0; i < users.length; i++) {
+    // set array of users objects with property isPremium to true;
     users[i].isPremium = true;
   }
   return users;
@@ -121,11 +124,11 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
-  let getTotalLikes = 0;
+  let totalNumberOfLikes = 0;
   for(let i = 0; i < user.posts.length; i++) {
-    getTotalLikes = getTotalLikes + user.posts[i].likes;
+    totalNumberOfLikes = totalNumberOfLikes + user.posts[i].likes;
   }
-  return getTotalLikes;
+  return totalNumberOfLikes;
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
@@ -137,6 +140,12 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
+  storeItem.calculateDiscountPrice = function () {
+    let getDiscount = this.price * this.discountPercentage; 
+    getDiscount = this.price - getDiscount;
+    return getDiscount;
+  };
+  return storeItem;
 }
 
 // Do not modify code below this line.
