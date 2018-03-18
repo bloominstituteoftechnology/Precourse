@@ -6,38 +6,54 @@ in this folder, you are in the wrong place.
 
 /* Exercise One: Centering the text in a span */
 
-/* We will start this one off for you: */
 #exerciseOne {
-
+  display: block;
+  text-align: center;
 }
 
+#exerciseTwo {
+  display: none;
+}
 
-/* Exercise Two: Positioning a Header Bar*/
+#exerciseThree {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
 
-/* Place code here */
+#exerciseFour {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  
+}
 
-
-
-/* Exercise Three: */
-
-/* Place code here */
-
-
-
-/* Exercise Four: */
-
-/* Place code here */
-
-
-
-/* Exercise Five */
-
-/* Place code here */
-
-
-
-/* Exercise Six */
+#exerciseFive {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;  
+}
 
 #exerciseSeven {
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#itemOne {
+  align-self: center;
+  
+}
+
+#itemTwo {
+    align-self: flex-end;
+}
+
+#itemThree {
+    align-self: center;
+}
+
+#itemFour {
+    align-self: flex-start;
 }
