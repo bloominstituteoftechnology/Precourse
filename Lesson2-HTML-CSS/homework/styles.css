@@ -1,0 +1,17 @@
+h1 {
+    color: lightsalmon; 
+ }
+ img {
+     width: 400px;
+ } 
+ #thirdDiv {
+     border: 20px solid bisque;
+     height: 600px;
+     width: 500px;
+     background: lightcoral;
+     padding: 50px;  
+ }   
+ #spanID {
+     font-size: 18px;
+     margin: 50px;
+ }
