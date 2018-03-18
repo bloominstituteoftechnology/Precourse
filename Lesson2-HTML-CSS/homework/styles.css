@@ -1,0 +1,26 @@
+h1 {
+    color: maroon;
+} 
+h3 {
+		color: lime;
+	} 
+
+body {
+	background-image:url("wine.jpg");
+}
+
+div.relative {
+    position: relative;
+  
+}
+
+div, #thirdDiv {
+	width: 400px;
+	height: 600px;
+	background-color: bisque;
+	margin: 650px;
+}
+
+img {
+		width: 400px;
+}
