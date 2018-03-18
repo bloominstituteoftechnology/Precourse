@@ -1,0 +1,2 @@
+1. A prototype is kinda like a template for a function.  It allows multiple objects created using a constructor to access this function.
+2. A Constructor is a way to create a template in javascript.  This is similar to the function of a class in other languages. 
