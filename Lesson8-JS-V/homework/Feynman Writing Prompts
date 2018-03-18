@@ -1,0 +1,8 @@
+* `prototype`
+    The prototype for a class is created when we write the class and this is the place where we put all the functions that are common among the instances of 
+    an object. This is used so that we don't occupy extra memory by creating copies of common functionality among the instances of an object.
+
+* Constructors
+    Constructors are functions that we call when we create a new instance of an object, and where we can initialize the properties of the instance. We create the 
+    instance using the word 'new' before we call the constructor, which resembles a common JavaScript function with parameters that we pass to the constructor to
+    initialize its properties.
