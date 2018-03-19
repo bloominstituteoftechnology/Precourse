@@ -1,0 +1,4 @@
+Feynman Writing Prompts:
+
+1. 'prototype' - is a method inside a class. Each class has one unique prototype that each object in that class can access and use.
+2. Constructors - is just an alternative name for classes.
