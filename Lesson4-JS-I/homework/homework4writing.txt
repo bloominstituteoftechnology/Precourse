@@ -1,0 +1,18 @@
+# variables 
+Variables are stored values in programming. We can store words, phrases, numbers, or even math equations in variables. 
+We can then recall those variables to perform certain operations at a later time. For instance, we may store the number "5" in a variable called "x" and the number "3" in a variable called "y".
+We can then create a new variable called "z" that stores the result of x (5) times y (3), which is 15. 
+
+# strings 
+A string is a set of characters, such as words or phrases, and can be assigned to a variable. Examples of strings include the letter "a", the word "beehive", and the phrase "What's up, Doc?"
+
+# functions
+A function is generally a simple program that can be recalled to execute a certain command. For instance, let's say we need to multiple 10 numbers by the value pi. 
+Instead of writing 10 differnet math equations, we could create a function that allows us to input each number inside and the function automatically returns the result of the number times pi.
+
+# if statements
+An if statement allows us to test whether something is true or false. For instance, we could test whether two multipled numbers (for example 3 and 4) were greater than the square root of 77. 
+If 3 times 4 were greater than the square root of 77, the if statement could return true, and otherwise return false.
+
+# Boolean values
+A Boolean value is either True or False. You can also use these two values to represent two different states (such as "on" and "off"). 
