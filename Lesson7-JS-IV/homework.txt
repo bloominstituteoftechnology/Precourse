@@ -1,0 +1,31 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 
+12 year old. Doing this will help you quickly discover any holes in your understanding. 
+Ask your questions on Slack.
+
+Objects
+--Objects are like arrays in that they have a collection of data. Unlike arrays, this data is about one thing. 
+
+Properties
+--Properties are characteristics that are associated with the object we are identifying. They are KEY to finding 
+out information about our object.
+
+Methods
+--Methods are basically functions (blocks of code that execute a statement or statements) that are used 
+as a property in an object. 
+
+for in loop
+-- the for in loop is a type of loop that can be used when going over each key:value pair in an object. This
+is used when we don't have numerical indices (like we do in arrays)
+
+Dot notation vs bracket notation
+--Dot notation allows us to recall or assign new values to keys. The syntax is as follows:
+
+Object.KeyIdentification;
+
+Bracket notation is very similar to dot notation but uses brackets instead. The only difference is that 
+we must use strings or numbers to ID the key that has to be wrapped in quotes. The syntax is as follows:
+
+Object['KeyIdentification'];
+
+That being said, we can use a variable that points to the property that is in quotes. If the KeyIdentification
+in brackets is a variable, quotes are not necessary.

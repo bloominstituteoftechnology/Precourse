@@ -95,22 +95,24 @@ function isInteger(num) {
 function fizzBuzz(num) {
 for (let num = 1; num <= 100;num +=1) {
   for (let num=1;num <=100 ; num=num+1){
-    if (num%3===0){
-    console.log 'fizz';
-      continue;
+    if (num%5 || num%3){
+      return ('fizzbuzz');
+    }
+    else if (num%3===0){
+    return ('fizz');
+   
   }
-  	else if (num%5===0){
-    console.log "buzz";
-      continue;
+  else if (num%5===0){
+    return ('buzz');
+     
   }
-  	else if (num%5 || num%3){
-    console.log "fizzbuzz";
-      continue;
+  
+  else {
+    return num;
   }
-  	else {
-    console.log num;
-      
-  }
+}
+}
+}
 //   // if num is divisible by 3 return 'fizz'
 //   // if num is divisible by 5 return 'buzz'
 //   // if num is divisible by 3 & 5 return 'fizzbuzz'

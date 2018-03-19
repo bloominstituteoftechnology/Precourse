@@ -1,0 +1,11 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 
+year old. Doing this will help you quickly discover any holes in your understanding. 
+Ask your questions on Slack.
+
+prototype
+prototyping attaches a method to an object after it's been defined
+
+
+Constructors are ways of creating methods over a large amount of data without having to use up memory. 
+We write the method once and then it can be invoked across all the objects we need it to. 
+

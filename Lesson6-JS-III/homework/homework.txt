@@ -1,0 +1,7 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 
+12 year old. Doing this will help you quickly discover any holes in your understanding. 
+Ask your questions on Slack.
+
+Arrays
+--Arrays is a collection of data that stores multiple items of information. They are enclosed in a set of 
+brackets and separated by a comma. These items could be numbers, strings or any combination thereof. 

@@ -1,0 +1,8 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 
+year old. Doing this will help you quickly discover any holes in your understanding. 
+Ask your questions on Slack.
+
+Closure
+--Closure is a function first and foremost. The idea with closure is that you can take this function and 
+be able to access variables from outside its lines of code. This inner function can access variables from the
+outer function before going to look for variables in the global (everywhere) scope. 

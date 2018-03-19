@@ -1,0 +1,22 @@
+Feynman Writing Prompts - In a separate text file that you create, write out explanations of the following 
+concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes 
+in your understanding. Ask your questions on Slack.
+
+Variables
+ -- Variables are placeholders for complicated pieces of code so that you don't have to write the same thing
+ over and over. It lends to less errors in code so you won't have to go fishing for a bug later if your code 
+ doesn't work.
+Strings
+-- Strings are pieces of code that are made up of letters, spaces, special characters or numbers. 
+They are enclosed in single or double quotes. 
+Functions (arguments, return)
+-- a Function is a block of code that performs a certain task. That function contains paramaters that can be 
+later invoked to pass as arguments. These parameters are a type of variable that is defined only within the
+function. 
+if statements
+-- if statements are blocks of code that perform one statement or another depending on the outcome of the initial
+line of code. For instance:  if 1<5 ===true, it will perform the line of code that is associated with being true.
+If it happened to be false, it would jump to the line associated with the statement being false. 
+
+Boolean values (true, false)
+--Boolean values are like basic light switches - there are two options: true or false. 
