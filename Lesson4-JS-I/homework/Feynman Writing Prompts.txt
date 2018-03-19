@@ -1,0 +1,19 @@
+Variables - is a way to store the value of something to use later.  The anatomy of 
+a variable is first the keyword, a space, the name we are giving the variable, an 
+equal sign, the value we are assigning the variable and then the  semi-colon.  A 
+vaiable can be declared using var, let, const.
+
+Strings - Strings are blocks of text, they will always be defined with quotation 
+marks around them, either single or double. Any text with quotes around it is a
+string. 
+
+Functions (arguments, return) - Functions computer variables.  
+
+if statements - Checks to see if somethings is true and return a but if not true 
+than return b.
+
+Boolean values (true , false) - Booleans come from low level computer science.
+It is a concept that powers binary code and the very core of computers. You may 
+have seen binary code in the past (0001 0110...), this is boolean logic. It 
+essentially means you have two choices, on or off, 0 or 1, true of false. In 
+Javascript we use Booleans to mean true or false. 
