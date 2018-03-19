@@ -1,0 +1,5 @@
+JavaScript Concepts Lesson 8
+
+1. prototype - is a feature in JavaScript that sets a method in a class once and gives every object of that class access to those methods in order to save memory resources.
+
+2. Constructors - in JavaScript it is a class that provides a template of prototypes and methods for other objects to use. 
