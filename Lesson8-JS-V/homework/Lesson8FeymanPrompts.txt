@@ -1,0 +1,11 @@
+# Homework #JSV
+
+## Instructions
+---
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `prototype`
+        Prototype is creating a method and giving all the objects in a class access to it. This is especially useful for anything that is meant to be shared by all the objects like a method or a function. 
+
+	* Constructors
+        Constructors are also called Classes. A Class is similar to creating a template for objects that have the same properties and objects. This greatly saves us time and memory because we do not have to repeat things over and over again for every object.     
