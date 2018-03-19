@@ -1,0 +1,47 @@
+1. Variables
+
+Variables are containers that you can tell to hold information, or data.
+They let you label pieces of information so you can easily call on them or reuse them later.
+They can be declared (created) in one of three ways: the keywords var, let or const
+like so:
+
+  let juiceBox = "blackcurrant";
+
+After the variable has been declared, the data they've been assigned to can change.
+So later, if you decide you're tired of blackcurrant juice, you can use Javascript
+to change what juiceBox contains!
+
+  juiceBox = "orange"
+
+2. Strings
+
+A string is any piece of text surrounded by quotation marks, either single '' or double "".
+It's one of the three main primitives in JavaScript. Both "burritos" and "I love burritos"
+are strings, even "asdlfkja;lskgdj19023" is a string, though a fairly incomprehensible one.
+
+
+3. Functions, Arguments and Return
+
+A short recipe for the computer to cook up, each function is a block of code that provides
+a set of instructions for the computer to carry out.
+
+Like the special ingredients that you want to make a particular recipe with,
+arguments are variables that are passed through to the function for it to work on.
+
+
+Return statements are what end functions and return a value.
+
+4. if statements
+
+IF statements are like signposts that tell the program which way to run.
+The if block checks if a condition is true, then runs the code the block contains.
+
+if (this is true) {
+  run this code
+} else {
+  run this code instead
+}
+
+5. Boolean values
+
+Boolean values are like on/off switches, with true/false replacing the power.

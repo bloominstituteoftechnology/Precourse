@@ -1,0 +1,42 @@
+body {
+  font-family: Helvetica, sans-serif;
+  letter-spacing: -0.5px;
+  /* text-align: center; */
+}
+h1 {
+  color: firebrick;
+}
+
+h3 {
+  position: relative;
+  top: -25px;
+}
+
+h4 {
+  position: relative;
+  top: -45px;
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: lightpink;
+  padding: 50px;
+  border: 3px solid crimson;
+  /* margin: 15px auto; */
+}
+
+#spanId {
+  font-size: 18px;
+  position: relative;
+  top: -35px;
+}
+
+.parent{
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+}

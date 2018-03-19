@@ -1,0 +1,12 @@
+Like a list, arrays bundle multiple items into one variable.
+Arrays are declared like variables,
+followed by list of items contained surrounded by hard brackets [] and separated by commas.
+
+const pencilCase = ['pencil', 'eraser', 'sharpener']
+
+They help group like items and make explicit meaningful relationships between data.
+
+You can call on specific items by calling on their index. pencilCase[0] === 'pencil'
+
+In computer data structures, the order generally starts from zero.
+So the thing humans call the third item in the array is pencilCase[2].
