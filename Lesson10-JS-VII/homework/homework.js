@@ -5,6 +5,12 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
+  let count = 0;
+  const newCounter = function counter() {
+    count = count + 1;
+    return count;
+  }
+  return newCounter;
 }
 
 function cacheFunction(cb) {
@@ -18,6 +24,17 @@ function cacheFunction(cb) {
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
+  let cache = {};
+  const cf = function(item) {
+    if(cb(item) in cache ){
+      return count.item;
+    }
+    else {
+      count.item = cb(item);
+      return count.item;
+    }
+  }
+  return cf;
 }
 
 // Do not modify code below this line.
