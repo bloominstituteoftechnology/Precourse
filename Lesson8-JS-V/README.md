@@ -1,7 +1,7 @@
 # Lesson 8: Javascript V (Classes and Prototype)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
-In this lesson we will cover: 
+In this lesson we will cover:
 
 * Classes
 * `prototype`
@@ -12,7 +12,7 @@ Often times when we create an object, we are creating a template. Rather than co
 
 ### Class and Pseudo Classical Instantiation
 
-If you have experience in an Object Oriented language (such as Java or C#) you are probably familiar with the concept of classes. While Javascript does not provide a 'true' class system, there is something very familiar. For the sake of argument we will call our class objects 'classes'. It is instantiated in a Pseudo Classical way, using the `new` keyword, and can take arguments. 
+If you have experience in an Object Oriented language (such as Java or C#) you are probably familiar with the concept of classes. While Javascript does not provide a 'true' class system, there is something very familiar. For the sake of argument we will call our class objects 'classes'. It is instantiated in a Pseudo Classical way, using the `new` keyword, and can take arguments.
 
 In this example we will be creating a `Cat` class. Convention for classes is to give the name of anything that can be instantiated with the `new` keyword an uppercase name. When we use the `new` keyword, Javascript does some great behind the scenes work for us and creates and returns an object automatically.
 
@@ -31,11 +31,11 @@ In this example we will be creating a `Cat` class. Convention for classes is to 
     console.log(sam.meows()); // 'My name is Sam ...Meow!'
     console.log(kitty.meows()); // 'My name is Kitty ...Meow!'
 
-``` 
+```
 
 ### `this` in Classes
 
-The `this` keyword can start to become very confusing when we start using it in classes. In the last example we use it in the meows method. A good rule of thumb if you are not certain what `this` is referring to, is to look at where the method is called, and the object to the left of the 'dot'. That is the object `this` refers to. 
+The `this` keyword can start to become very confusing when we start using it in classes. In the last example we use it in the meows method. A good rule of thumb if you are not certain what `this` is referring to, is to look at where the method is called, and the object to the left of the 'dot'. That is the object `this` refers to.
 
 ## Prototype
 
@@ -52,13 +52,13 @@ Creating functions are expensive (in a computer memory way) and each time we cre
     }
 
     let dan = new User('Dan', 'tetondan');
-    let riley = new Cat('Riley', 'rileyriley');
-    
+    let riley = new User('Riley', 'rileyriley');
+
     console.log(dan.introduction()); // My name is Dan, my github handle is tetondan.
     console.log(riley.introduction()); // My name is Riley, my github handle is rileyriley.
 
-``` 
-Protoype methods DO have access to the `this` keyword, and just as before, it will always point to the object (left of the dot) that is calling it. 
+```
+Protoype methods DO have access to the `this` keyword, and just as before, it will always point to the object (left of the dot) that is calling it.
 
 ## Please open the homework folder and complete the assignment described in the README file
 
