@@ -1,0 +1,26 @@
+# for statement
+A for loop allows us to test something until a certain condition is reached. 
+For instance, if we wanted to know all the numbers that 100 is divisible by ...
+We could write a for loop that runs from 0 to 100 and sees which numbers return a remainder of 0
+
+
+# &&
+The double ampersand symbol is used to test whether two statements are both true. 
+For instance, if we want to test whether a value is greater than 100, but less than 200 ...
+We could use the && symbol
+if x > 100 && x < 200 {return true;}
+Both statements must be true to return true in this case. For example, 205 is greater than 100 (true), but not less than 200 (false).
+The result of testing 205 would then be false since only one of the statements was true.
+
+# ||
+The two bar symbol stands for "or" and tests whether one of two statements is true. 
+Using the example above:
+if x > 100 || x < 200 {return true;}
+In this case, the number 205 would evaluate to true, since while it's not less than 200 (false), it is greater than 100 (true) ...
+And only one statement needs to be true
+
+
+# !
+The exclamation point is a very simple operator in JavaScript. It simply means "not" or "the opposite of"
+So "!true" is false and "!false" is true. 
+"!===" means "not equal to.
