@@ -1,0 +1,9 @@
+1. For Loops
+
+For loops repeat a block of code over and over again until a certain condition is met.
+
+2. logical operators
+
+'&&' === AND, will only return true when both statements evaluate as true.
+'||' === OR, will return true if either of statements evaluate as true.
+'!'  === NOT, will return the opposite boolean value of what is evaluated
