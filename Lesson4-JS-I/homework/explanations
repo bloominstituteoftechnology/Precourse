@@ -1,0 +1,13 @@
+Variables are like containers you can use to store something that you don't need right this very second, but expect to use later on. Like your school locker. You can put your coat in there when you arrive at school and then when you need it for walking home, you can go back to your locker to retrieve it. In programming, you might use a variable to hold someone's name or the number of cats they have, and then later on ask the program to display the name or use the number in a calculation.
+
+A string is a block of text - a group of letter or words that should be taken as one whole unit. In programming, single or double quotes are used to define the boundaries of the string. Whatever is inside the quotes constitutes the string. 
+
+Functions - a function is like a recipe. It consists of instructions that tell the computer what you want it to do.
+
+You can include arguments in a function if you want. They are like variables that you pre-set in the code so that you don't have to do anything repetitious yourself - you can make the computer do that for you. For example, if you wanted to print a list of different fruits, instead of naming all the fruits inside the function, you could create a new function that prints a list, and then add an argument called fruit. Then, later on, you can tell it which fruits you want it to print.
+
+A function is kind of a closed space where the computer can execute your instructions behind the scenes, sort of like the man behind the curtain in the Wizard of Oz. If you want to take data out of a function and use it somewhere else, you have to tell it to "return" the information you want. Otherwise, it'll just stay behind the curtain.
+
+if statements are used when your instructions for the computer depend on whether or not something is true. It's like IFTTT - if this, then that. If you post something to Twitter, also post it to Facebook. If not, do nothing. If someone is age 21 or over, they can legally purchase marijuana in Oregon. If not, they cannot. You can ask the cumputer to tell you whether someone can buy marijuana from a dispensary here in Portland by using an if statement.
+
+Boolean values are always either true or false. They are very simple - either the light switch is on, or it's off. There is no dimmer. They are like the answer the lawyer is looking for during cross examination in all those crime dramas - did you take the money, or did you not? Yes or no? Don't justify, don't go into a long explanation, just yes or no. True or false. If you know about computers, at their most basic level, all computer functions are boolean, either 0 or 1.
