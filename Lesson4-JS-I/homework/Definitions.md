@@ -1,13 +1,13 @@
-A variable is a label used to store data.
+A variable is a label used to store information.
 
-A string is text that can contain words or numbers and that is contained using quotes.
+Strings are letters and numbers that live inside quotation marks.  They can be whatever they want to be and can even include spaces!
 
-Functions are programs that run code.
+Functions are instructions for a computer to follow.
 
 An argument is a value that is passed into a function.
 
-Return statements end functions and return a value from the function.
+Return statements are a way of escaping a function and returning the results of the computer following the set of instructions given to it in a function.
 
-If statements are used to check if something is true or false.  If true, the code works.  If false, the code does not.  If statements can be more complicated by allowing a person to write an if else statement such that if the condition is false, a different thing happens, etc.
+If statements are tests that arguments take.  If the argument passes the test, the instructions that follow the test are carried out.  If it fails the test, the instructions are not followed.  There is no reward for a failed test.
 
-Boolean values are either true or false and nothing else.
+Boolean values are the answers true and false.  However, arguments are tricky and can sometimes trick a test into passing or failing them!

@@ -1,0 +1,1 @@
+Callback functions are sets of instructions that can be used at any time and can be used by other functions as an argument, acting like a set of instructions inside of another set of instructions to create something.
