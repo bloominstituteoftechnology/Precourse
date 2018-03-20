@@ -13,10 +13,10 @@ const newBool = true ;
 const newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-const newMultiply = 10 * 4 === 40;
+const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === 1;
+const newModulo = 21 % 5 === 1 ;
 
 
 
@@ -26,34 +26,36 @@ const newModulo = 21 % 5 === 1;
 //Do not change any of the function names
 
 function returnString(str) {
-  //simply return the string provided: str
     return(str);
+  //simply return the string provided: str
 }
 
 function add(x, y) {
+    return(x + y);
   // x and y are numbers
   // add x and y together and return the value
-  return(x + y);
+  // code here
 }
 
 function subtract(x, y) {
+    return(x - y);
   // subtract y from x and return the value
-  return(x - y);
+  // code here
 }
 
 function multiply(x, y) {
+    return(x * y);
   // multiply x by y and return the value
-  return(x * y);
+  // code here
 }
 
 function divide(x, y) {
-  // divide x by y and return the value
-  return(x / y);
+    return(x / y);
 }
 divide(10/5);
+  // divide x by y and return the value
 
-function areEqual(x, y) {
-  if(x === y ){
+function areEqual(x, y) { if(x === y ){
     return true;
   }
   return false;
@@ -75,7 +77,7 @@ areSameLength('hello', 'world');
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
-if (num < 90) {
+  if (num < 90) {
     return true;
 }
      return false; 
@@ -85,12 +87,13 @@ lessThanNinety(13);
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
-if (num > 50) {
-  return true;
-}
-return false;
-}
-greaterThanFifty(51);
+  if (num > 50) {
+    return true;
+  }
+  return false;
+  }
+  greaterThanFifty(51);
+
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
@@ -100,11 +103,11 @@ function getRemainder(x, y) {
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-if (num%2 === 0) {
-  return true;
-}
-return false;
-}
+  if (num%2 === 0) {
+    return true;
+  }
+  return false;
+  }
 
 function isOdd(num) {
   // return true if num is odd
@@ -115,11 +118,10 @@ function isOdd(num) {
   return false;
   }
 
-
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
-return Math.pow(num, 2);
+  return Math.pow(num, 2);
 }
 
 function cube(num) {
@@ -130,38 +132,38 @@ function cube(num) {
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   return Math.pow(num,exponent);
- }
- raiseToPower(5, 2);
+}
+raiseToPower(5, 2);
 
 function roundNumber(num) {
   // round num and return it
   return Math.round(num);
- }
- roundNumber(6.6);
+}
+roundNumber(6.6);
 
 function roundUp(num) {
   // round num up and return it
-  Math.ceil(num);
-    return(num);
+ return Math.ceil(num);
 }
+roundUp(7.3);
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  return str + "!";
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  return firstName + " " + lastName;
+  return firstName + ' ' + lastName;
 }
-
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  return "Hello " + name;
+  return 'Hello ' + name + '!';
+}
 
 // The next three questions will have you implement math area formulas. 
 // If you can't remember these area formulas then head over to Google.
@@ -173,7 +175,7 @@ function getRectangleArea(length, width) {
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
- return((base/2)*height);
+  return((base/2)*height);
 }
 
 // Do not modify code below this line.
