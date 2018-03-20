@@ -1,0 +1,3 @@
+Feynman Writing Prompt:
+
+1. Callback functions -- Callback functions are regular functions, as opposed to higher order functions. They typically have one parameter or argument inside their parentheses. They are invoked inside higher order functions. So, in other words, callback functions are just regular functions that are passed as arguments into higher order functions.
