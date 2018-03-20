@@ -1,0 +1,22 @@
+h1{
+    color: firebrick;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background: grey;
+    padding: 50px;
+    border: 2px solid black;
+    font-family: avenir;
+    text-align: center
+}
+#spanID{
+    font-size: 18px;
+    margin: 50px;
+}
+.divClass{
+    font-family: Avenir;
+}
