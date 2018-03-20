@@ -1,0 +1,38 @@
+
+h1{
+    color: palevioletred;
+    }
+
+img{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#thirdDiv{ 
+    width: 500px;
+    height: 600px;
+    background: palegreen;
+    padding: 50px;
+    border: 8px dashed darkolivegreen;
+    }
+
+#spanID{
+    font-size: 18px;
+    margin: 50px;
+    }
+
+body, html {height: 100%;}
+
+.bg {background-image: url("https://data.whicdn.com/images/48906937/large.jpg");
+    height: 100%;
+ }
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
