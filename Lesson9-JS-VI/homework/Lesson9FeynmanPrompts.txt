@@ -1,0 +1,8 @@
+# Homework #JSVI
+
+## Instructions
+---
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Callback Functions
+        We are able to pass or declare functions as an argument in a function. We call this function by using the variable cb. This function is very useful because it saves us time and memory. It is worth noting that all the callbacks should have the same form otherwise we will have a compatibility issue.  
