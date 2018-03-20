@@ -1,0 +1,38 @@
+* Objects
+	* Properties
+	* Methods
+	* for in loop
+	* Dot notation vs bracket notation
+
+
+Feynman says ;)
+
+Objects are important in Javascript. They provide a means of grouping data together with labels. This is also known as key:value pairs. An example would be like
+
+email: hello@email.com...
+
+We call this keys:value pairs in objects Properties. If the value is a function, then this special case is referred to as a Method.
+
+As the characteristics of an object is the key:value pairs, we have use a for loop which takes advantage of this... The syntax is
+
+for (let key in object){
+    statements...
+} 
+
+We can refer to the values contained in an object in 3 ways. 
+
+Using bracket notation
+
+Way 1
+object['propertyname']
+
+and 
+
+Way 2
+object[variable] (This is useful as it allows us flexibility and power of the concept of variables and are not hardcoding the name)
+
+Using dotnotation
+
+Way 3
+This is the preferred compared to Way 1.
+object.propertyname (notice that no quotes are needed)

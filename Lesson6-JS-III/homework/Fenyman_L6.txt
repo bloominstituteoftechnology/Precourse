@@ -1,0 +1,18 @@
+Feynman Writing Prompts
+
+Arrays..
+
+Oftentimes we can observe that there are information/values which are similar or related in a meaningful way. For example the names of students in a class. A list of favourite ice creams etc...
+
+An array is a way to structure this data. For example 
+const icecreamFlavours = ['Green Tea', 'Belgium Chocolate', 'Rum and Raisin'];
+
+So instead of this information being only in our head, this is now made obvious or explicit both to the computer as well as to other people.
+
+Here are some benefits we get as a result:
+1) this array can also be meaningfully ordered if desired. For example, by virtue of being the first item, 'Green Tea' is our favourite followed by 'Belgium Chocolate'. 
+2) Arrays are can be accessed via their position (index) and this starts from 0 (as a matter of the historical convention in computer lore)
+  so first flavour is
+   icecreamFlavours[0]; // gives us 'Green Tea'
+3) As this is such a common data strucutre, we get useful functions such as shift & unshift, push & pop. This allows us to add and remove values from the beginning and end of the array.
+4) The presence of an array index, makes if convenient for us to write code snippets, which repeat for each item of the array. A useful way is to use a for loop. The counter in the loop can nicely dovetail with the index of the array. e.g. 0,1,2,3,4 until the (length of the array - 1) The minus one accounts for the fact that the index of the array starts from 0.

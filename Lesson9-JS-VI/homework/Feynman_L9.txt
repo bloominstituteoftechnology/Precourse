@@ -1,0 +1,9 @@
+Feynman Says 
+
+Callback functions...
+
+Let's consider the array. Arrays are useful and as we use arrays we may start to observe that oftentimes, we may want to perform the same operations on each item of the array. For examples if the array is an array of numbers we may want to sum up the individual items in the array.
+
+So let's say that looping through the array is function 1 and the operation we perform on each array item is function 2. We can observe that function 2 is kinda of inside function 1. This leads naturally to the notion of callback function... which is a function passed as an argument to a function. (Technically this is possible as function is considered as a data just like any other data which can be passed around as an argument to functions)
+
+With the above motivation in mind, it is easier to understand the built in functions provided by javascript; map, reduce and foreach. 

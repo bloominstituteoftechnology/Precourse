@@ -1,0 +1,16 @@
+Feynman Talks JS
+
+* Variables
+Variables are like a place where one use to take note or keep track of information/values for example numbers. As this information can vary in time, hence the name variables !
+
+* Strings
+An example of strings would be like the words and sentences in the language. We can identify them as they are placed in quotes. (single quotes)
+
+* Functions (arguments, `return`)
+This is like meaningful code chunks or little program snippets. Consider a simple function which adds 2 numbers. We can name the function 'Add' and the 2 numbers we give/input to the functions are called arguments. To obtain the answer (output) from the Add function... we can simply tell the function to "return" the answer.
+
+* `if` statements
+'If' statements allows us to make decisions and take different actions. For example, if is is raining, bring an umbrella, if it is very sunny, bring out your cool shades.
+
+* Boolean values (`true`, `false`)
+This are information/ or values which allows us to say/express whether something is true or false. This is handy when used to make decisions or conditional actions such as the IF statments above.
