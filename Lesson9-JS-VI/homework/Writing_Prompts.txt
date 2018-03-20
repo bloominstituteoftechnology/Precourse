@@ -1,0 +1,1 @@
+Callbacks are a way to use one function as an argument in another function.  This allows you to use the results from one function as an argument to another function.
