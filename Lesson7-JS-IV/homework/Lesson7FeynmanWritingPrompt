@@ -1,0 +1,13 @@
+Objects - hold information about one subject. They can contain many values.
+
+Properties -  Unlike arrays which have indexed values, objects have key values. In key values, the key is the identifier and
+              the value is the value you assign to the key. They can be called properties.
+
+Methods - are functions saved on objects. By setting a key to a name and the value to a function, you can create a function in the object.
+
+for in loop - while arrays have the for loop for indexed variables, the for in loop is for objects. The for in loop will loop over each key until all the keys have been iterated over.
+
+Dot notation vs Bracket Notation - for dot notation we first call the object name, then a dot, and finally the key name. Ex: user.favoriteColor;
+                                   for bracket notation we first call the object name, then brackets, then inside the brackets a pair of single quotes or a variable, and inside the 
+                                   single quotes the key name. With bracket notation though, the keyname has to use a string or number, or a variable pointing to a string or number. 
+                                   Ex: user['favoriteNumber'];
