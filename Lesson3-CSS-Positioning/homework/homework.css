@@ -7,7 +7,7 @@ in this folder, you are in the wrong place.
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
-#exerciseOne {
+#exerciseOne {display: block; text-align: center; 
 
 }
 
