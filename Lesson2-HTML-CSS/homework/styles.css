@@ -4,11 +4,14 @@
 }
 
 h1 {
-    color: darkorange;
+    color: darkred;
+    border: 1px solid green;
+    clear: both;
 }
 
 img {
     width: 400px;
+    height: auto;
 }
 #thirdDiv {
     height: 600px;
