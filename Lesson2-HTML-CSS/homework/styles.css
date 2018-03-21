@@ -1,0 +1,21 @@
+/*notes*/
+body {
+    background: url('http://210.211.97.114:84/appimages/images/contents/b/e/beautiful-cartoon-landscapes-vector-set-09-free0.jpg');
+    background-size: 100%; 
+}
+h1 {color: firebrick; text-align: center;}
+h3 {text-align: center}
+h4 {text-align: center}
+img {width: 400px; }
+#thirdDiv {
+    margin: auto;
+    height: 600px; 
+    width: 500px; 
+    background: rgba(76, 175, 80, 0.6); padding: 40px; 
+    border: 10px solid black; 
+
+}
+#spanID {font-size: 18px; margin: 50px; }
+.divclass {text-align: center;}
+.divClass1 {height: 40px;}
+
