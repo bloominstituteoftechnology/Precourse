@@ -1,0 +1,9 @@
+# arrays
+In JavaScript, an array allows us to store many values of the same type. 
+For instance, if we wanted to store a list of all the basketball players at the school, we might use an array.
+let players = ['James', 'Cynthia', 'Jim', 'Dan', 'Amelia', 'Larry', 'Michael']
+Each item in the array has a value starting with 0. In the example above, James is in the 0 spot. Cynthia is in the 1 spot. 
+Jim is in the 2 spot. Etc. 
+We can access Jim in the above array like this:
+players[2]
+The name of the array is "players" and Jim is in the 2 spot (the 3rd item). 
