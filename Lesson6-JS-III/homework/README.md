@@ -11,4 +11,4 @@
 
 For more information about Lambda School's six month CS program visit: https://lambdaschool.com
 
-Arrays are objects that hold collections of values. f
+Arrays are objects that hold collections of values. 
