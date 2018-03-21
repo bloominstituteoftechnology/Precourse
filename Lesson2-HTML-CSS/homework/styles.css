@@ -1,0 +1,34 @@
+
+          
+          body{
+			  background-image: url("http://1.bp.blogspot.com/-e8LR_vBaqws/TmocgD48oYI/AAAAAAAAFBw/5iviiq7611A/s1600/K-Sharpe-Pink-Flowers.jpg");
+			  background-repeat: repeat;
+			 
+			  }
+          .divClass {
+			text-align:center;  
+			
+           } 
+
+           h1{
+              color: crimson;
+             }
+           img{ 
+                width: 400px;
+             }
+          #thirdDiv{ 
+                    height: 600px;
+                    width: 500px;
+                    background-color: pink; 
+                    padding: 50px;
+                    border: 5px solid red; 
+					margin: auto; 
+					       
+              }
+            #spanID
+             {
+             font-size: 18px;
+             margin: 50px;
+            
+             }
+<>
