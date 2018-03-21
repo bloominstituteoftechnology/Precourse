@@ -1,0 +1,18 @@
+        #thirdDiv {
+            height: 600px;
+            width: 500px;
+            padding: 50px;
+            border: 1px solid red; 
+            width: 600px;
+            background: yellow; 
+        }
+        h1 {
+            color: deeppink;
+        }
+        img {
+            width: 400px;
+        }
+        #spanId {
+            font-size: 18px;
+            margin: 50px;
+        }
