@@ -1,0 +1,45 @@
+# objects
+Objects can store multiple items of different types. 
+You can think of an object like a shelf at a grocery store that holds different types of food.
+Objects are created with curly braces. Using our grocery store example, an object might look like this.
+const groceries = {
+    milk1 = 'whole milk', 
+    milk2 = 'skim milk', 
+    eggs = 'grade A', 
+    yogurt1 = 'whole', 
+    yogurt2 = 'nonfat',
+    cheese1 = 'mozarella',
+    cheese2 = 'cheddar',
+    };
+
+
+# properties
+Objects in JavaScript have properties. Each property in an object has a key and a value pair. 
+In the example above, 'cheese1' is an example of a key, and 'mozarella' is the value associated with it. 
+
+
+
+# methods
+A method in JavaScript is an action that can performed on an object. To perform an action, we use a function. 
+Inside an object, these functions are called methods. 
+
+
+# for in loop
+For in loops are used in objects to perform functions on the key and value pairs. 
+For instance, if we wanted to print a list of all the keys in an object, we would create a for in loop:
+for(let key in user) {
+    console.log(key)
+}
+This would then show us all the keys in the object. For our groceries object, the keys would be:
+milk1, milk2, eggs, yogurt1, yogurt2, cheese1, and cheese2. 
+
+
+# dot notation vs bracket notation
+The key value pairs in an object can be access by calling the name. There are two ways to do this: dot notation and bracket notation.
+In dot notation, we can call the name using the object name, a dot, and the key name. 
+For instance, with our grocery example, we could call the value for cheese 1 like this:
+groceries.cheese1;
+This would give us the value of 'mozarella'. 
+Bracket notation works similar but with a slightly differnet format. We could perform the same action using bracket notation like this:
+groceries['cheese1']
+This would also give us the value of 'mozarella'
