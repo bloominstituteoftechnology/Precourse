@@ -1,0 +1,3 @@
+JavaScript Concepts Lesson 9
+
+1. Callback Functions - are functions that are used as an argument and is called upon in a higher order function. Also, a callback function can use any additional arguments passed on to the higher order function when it is invoked.
