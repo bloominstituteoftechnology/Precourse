@@ -1,7 +1,7 @@
 # Lesson 10: Javascript VII (Closure)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
-In this lesson we will cover: 
+In this lesson we will cover:
 
 * Closure
 
@@ -85,7 +85,7 @@ This also applies to the function's parameters:
     const multiplyByFive = makeMultiplier(5);
     const product1 = multiplyByFive(10);
 
-    const multiplyByTwo = makeMultiplier(5);
+    const multiplyByTwo = makeMultiplier(2);
     const product2 = multiplyByTwo(7);
 
     console.log(product1); // logs 50
