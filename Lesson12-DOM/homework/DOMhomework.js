@@ -3,6 +3,7 @@
 */
 
 // code here
+const toDoItems = [];
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -11,6 +12,9 @@
 */
 
 // code here
+const x = document.querySelector('#createdBy');
+x.innerHTML += ' Lavell Burton';
+
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -18,8 +22,9 @@
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
-  // code here
+function ToDo (description) {
+  this.description = description;
+  this.complete = false;
 }
 
 /* 
@@ -29,6 +34,9 @@ function ToDo () {
 */
 
 // code here
+ToDo.prototype.completeToDo = function(){
+  this.complete = true;
+}
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -48,7 +56,19 @@ function ToDo () {
 
 function buildToDo(todo, index) {
   // code here
-}
+  let toDoShell = document.createElement('div');
+  toDoShell.classList.add('toDoShell');
+  let toDoText = document.createElement('span');
+  toDoText.innerHTML += todo.description;
+  document.querySelector('#toDoText');
+  toDoText.setAttribute('toDoText', index);
+  if (todo.complete){
+     toDoText.classList.add('.completeText');
+  } else {
+     toDoText.appendChild(toDoShell);
+  }
+  return toDoShell;
+} 
 
 /* 
   STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
@@ -58,6 +78,9 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
+  console.log('todos is', toDos)
+  const buildToDo = toDos.map(x => buildToDo(todo, index));
+  return buildToDos.toDo;
 }
 
 /* 
