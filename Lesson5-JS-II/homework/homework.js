@@ -94,7 +94,7 @@
   // note: 0 and 1 are NOT considered prime numbers
   
   function isPrime(num) {
-    if (num === 0 || num === 1) {
+    if (num < 2 || Math.floor(num) != num) {
       return false;
     }
       for (let i = 2; i < num; i++) {
