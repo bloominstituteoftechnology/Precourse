@@ -61,6 +61,9 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
+	if (arr.length === 0) {
+		return false;
+	}
 	for (var i=0; i < arr.length; i++) {
 		if (arr[i] === item) {
 			return true;
@@ -108,16 +111,14 @@ function multiplyArguments() {
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
 	var multiply = 1;
+	if (arguments.length === 0) {
+		multiply = 0;
+	}
+	if (arguments.length === 1) {
+		multiply = arguments[0];
+	}
 	for (var i=0; i < arguments.length; i++) {
-		if (arguments.length === 0 ) {
-			multiply = 0;
-		}
-		if (arguments.length === 1) {
-			multiply = arguments;
-		}
-		else {
-			multiply = multiply * arguments[i];
-		}
+		multiply = multiply * arguments[i];
 	}
 	return multiply;
 }
