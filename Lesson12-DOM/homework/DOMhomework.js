@@ -60,11 +60,17 @@ function buildToDo(todo, index) {
   toDoShell.className = 'toDoShell';
   const toDoText = document.createElement('span');
   toDoText.innerHTML = todo.description;
-  toDoText.id = index;
-  // (Step 9.3)
-  // Add a 'click' event listener to the 'toDoText' element, and pass the 'completeToDo' function as the callback.
-  toDoText.addEventListener('click', completeToDo);
-  if(todo.complete) toDoText.className = 'completeText';
+  // EXTRA CREDIT
+  const checkBox = document.createElement('input');
+  checkBox.type = 'checkbox';
+  checkBox.id = index;
+  checkBox.addEventListener('click', completeToDo);
+  checkBox.className = 'completeCheckbox';
+  if(todo.complete){
+    toDoText.className = 'completeText';
+    checkBox.checked = true;
+  }
+  toDoShell.appendChild(checkBox);
   toDoShell.appendChild(toDoText);
   return toDoShell;
 }
