@@ -3,41 +3,58 @@ Lesson 3: CSS positioning homwork. All of your work should be done in this file.
 in this folder, you are in the wrong place. 
 */
 
-
 /* Exercise One: Centering the text in a span */
-
 /* We will start this one off for you: */
-#exerciseOne {
-
+#exerciseOne{
+  display:block;
+  text-align:center;
 }
-
-
 /* Exercise Two: Positioning a Header Bar*/
-
 /* Place code here */
-
-
-
-/* Exercise Three: */
-
-/* Place code here */
-
-
-
-/* Exercise Four: */
-
-/* Place code here */
-
-
-
-/* Exercise Five */
-
-/* Place code here */
-
-
-
-/* Exercise Six */
-
-#exerciseSeven {
-  display: flex;
+#exerciseTwo{
+  visibility:hidden;
 }
+/* Exercise Three: */
+/* Place code here */
+#exerciseThree{
+  position:relative;
+  top:100px;
+  left:200px;
+}
+/* Exercise Four: */
+/* Place code here */
+#exerciseFour{
+  position:relative;
+  top:0px;
+  left:0px;
+}
+/* Exercise Five */
+/* Place code here */
+#exerciseFive{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+/* Exercise Six */
+/* Place code here */
+#exerciseFive{
+  display:flex;
+  flex-direction:row-reverse;
+}
+/* Exercise Seven */
+/* Place code here */
+#exerciseSeven{
+  display: flex;
+  position:relative;
+  justify-content:space-between;
+  flex-flow:column wrap;
+  align-content:space-between;
+}
+#itemFour{
+  position:absolute;
+  top:150px;
+  left:200px;
+}
+
+/*Did the froggy exercise except for level 24: got really confused. It seems that I can't specify for each individual frog - which to me is necessary since how else you can move the yellow frogs after column wrap them?*/
+/*Will read CSS-Grid after submitting this HW*/
