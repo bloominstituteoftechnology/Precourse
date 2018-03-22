@@ -97,6 +97,12 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
+  let build = document.querySelector('#toDoContainer');
+  build.innerHTML = "";
+  arr = buildToDos(toDoItems);
+  for (let i = 0; i < arr.length; i++) {
+    build.appendChild(arr[i]);
+  }
 }
 
 /* 
@@ -113,6 +119,11 @@ function displayToDos() {
 
 function addToDo() {
   // code here
+  let newToDo = document.querySelector('#toDoInput');
+  let myToDo = new ToDo(newToDo.value);
+  toDoItems.push(myToDo);
+  newToDo.value = "";
+  displayToDos();
 }
 
 /* 
@@ -159,7 +170,7 @@ function completeToDo(event) {
 
 
 // Call displayToDos here (Step 6)<-----
-
+ displayToDos();
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
