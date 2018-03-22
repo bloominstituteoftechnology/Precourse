@@ -1,0 +1,7 @@
+Arrays - an array is like a variable that can hold a whole collection of things. With variables, each variable corresponds to a single item (string, number, true, false, etc.). So if you had a whole list of names, each one would get its own variable. Or you could make an array to collect all of the names in one giant container.
+
+If you want to pull out a single item from an array, you need to address it by the order in which it is listed. So if you had 3 cats named Moxie, Starbuck, and Mandy, you could make an array for them like this:
+const catNames = ['Moxie', 'Starbuck', "Mandy'];
+And then if you later want to pull Moxie's name, you would call for catNames[0] (people start counting with 1 but apparently, machines start counting with 0).
+
+Arrays are easy to edit - you can change a name entirely, and add one or remove one from either end.  
