@@ -1,0 +1,3 @@
+JavaScript Concepts Lesson 10
+
+1. Closure - is when an inner function inside a higher order function looks for variables that it needs to retrieve within the scope of the outer function. If those variables are not found within the scope of the outer function the inner function will look for those same variables that it needs to retrieve within the global scope of the program.
