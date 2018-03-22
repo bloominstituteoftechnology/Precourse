@@ -1,0 +1,1 @@
+A closure is when a function inside of another function can take information from the function it's hosted by and use it to solve problems.  If you want to store the closure for reference later, you can assign it a variable outside of the function.

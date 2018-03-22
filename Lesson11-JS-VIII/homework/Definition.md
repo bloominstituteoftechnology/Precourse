@@ -1,0 +1,1 @@
+Recursion is when you have a function that invokes itself.  In the interest of not breaking your computer, it's in your best interest to tell it when to stop.
