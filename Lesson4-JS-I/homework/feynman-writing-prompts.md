@@ -8,25 +8,84 @@ You give variables a name, and the computer recalls it whenever you tell it the 
 
 Variables can be used to remember lots of things, like numbers, names, sentences, list of phone numbers, or even math problems. 
 
-You can tell the computer your variable other ways too, like with `var` and with `const`. We usually like to use `let` and `const`. 
-
-With `let`, the computer is a little more careful about what to remember:
-
-```js
-function nightInVegas() {
-	let whatHappensInVegas = 'Stays in Vegas';
-	console.log(whatHappensInVegas);
-}
-
-whatHappensInVegas;
-// -> not defined
-```
-
-The memory of `whatHappensInVegas` can only be remembered when it's doing the action, that is, function, `nightInVegas()`. If you ask the computer, "`whatHappensInVegas`?", when it's not doing anything or doing something els, it won't know what you're talking about.
-
-
 ## What are strings?
 
-Strings are 
+A string is simply a bunch of characters, surrounded by marks like `""` or `''`. The bunch of characters can be names (*'Ronald'*), phone numbers (*'310-555-1256'*), or a mixture of letters, numbers, or other characters you so desire. 
+
+If you take a real piece of string and try to cut it in half, or pry apart the threads that hold the string together, you end up a pile of useless threads of fabric. In a similar way, you cannot break or change computer strings like that. For example, "4" - "2" won't yield much of anything, because the computer treats "4" and "2" as strings, and the computer will generally not try to fray these strings apart. "Ronald" - "Ron" is similar; it won't try to unravel the string. 
+
+With that said, you can:
+
+```js
+str = 'Tie ' + 'strings' + ' together'; // 'Tie strings together'
+strNum = '4' + '2'; // '42' You're not adding, you're tying strings together
+```
+
+But:
+
+```js
+strBond = 'You ' * 'cannot ' - 'break ' / 'apart'; // NaN (Not a Number)
+```
 
 ## What are functions?
+
+Functions are actions the computer performs; they tell the computer to do something. For example, if I go `console.log('Hello');`, I ask the computer to do an action, which is to spit out (*log*, like *to log an entry*) `'Hello'` in the console.
+
+If there is an action that the computer does not know how to do, you can teach it.
+
+```js
+function cheerMeUp(name) {
+	console.log('Hello, ' + name + '. You are doing well, so do not sweat it. Have a nice day! :)');
+}
+```
+
+You give the function a name, like `cheerMeUp`. You tell the computer what it needs to know to do the function, like a `(name)` (*a parameter*) in my function. If it doesn't need to know anything to do it, `()` works just fine. You can also put more than one thing it needs to know, and separate them with `,`. Then in the `{}`, you instruct the steps the computer needs to take to do the function, like `console.log()`.
+
+When you want the computer to do the function, you tell the computer the function name and what it needs to know (*an argument*):
+
+```js
+cheerMeUp('Amy');
+// -> 'Hello, Amy. You are doing well, so do not sweat it. Have a nice day! :)'
+```
+
+If you want your function to give you an answer, like the answer to two numbers multiplied together, you ask the computer to `return` it in the function.
+
+```js
+function timesTogether(number1, number2) {
+	return number1 * number2;
+}
+
+timesTogether(5, 10);
+// -> 50
+```
+
+Instead of doing an big ol' action, it will give you answer, which you can use to do other things, if you'd like. Once the function does a `return`, the computer is done with the function until you tell it to do it again.
+
+## What are `if` statements?
+
+`if` statements are "What if?" questions which you can ask your computer, and depending on the answer, you can tell it to do one thing or another.
+
+```js
+function compareNum(num1, num2) {
+	if (num1 > num2) {
+		return num1 + ' is more than ' + num2;
+	} else if (num1 < num2) {
+		return num1 + ' is less than ' + num2;
+	} else {
+		return num1 + ' and ' + num2 + ' are equal';
+	}
+}
+
+console.log(compareNum(10, 20));
+// -> 10 is less than 20 (in the console)
+```
+
+The function takes two numbers and asks itself 2 questions. First, "Is the num1 (the first number) greater than num2 (the second number)?". If yes, then it `return`s num1, whatever it is, is more than num2. Since I `return`ed it, the function stops and is done.
+
+But if the answer is no, it asks the second question, "Is num1 less than num2"? If yes, it does what I ask in the `return` then is done. If still no, it skips all that finally does the last `else` statement. 
+
+## What are boolean values `true` & `false`?
+
+Boolean values are like "on/off", as in it can only be one of two values: on or off. In JS, we often interpret on to be `true`, and off to be `false`, but in the language computers speak, on is like `1`, and off is like `0`. While many people have worked hard to make sure that we don't have to tell computers how to do things entirely in ON's and OFF's, it is helpful to sometimes phrase instructions this way so the computer can better understand it.
+
+Often, we use booleans with `if` statements; that is, if something is `true`, we tell the computer to do something, and it it's `false`, we tell it to do something else (if anything at all).
