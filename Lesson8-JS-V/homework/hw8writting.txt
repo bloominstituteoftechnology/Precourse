@@ -1,0 +1,16 @@
+# prototype
+
+In JavaScript, a prototype is a special type of method. It can be called when needed, but isn't accessed automatically.
+Let's compare a class to an automobile factory. The factory has thousands of workers, many divided into teams. Let's say each team has 1 engineer, 1 manager, 1 piece of machinery, and 5 employees to run the machinery.
+There are hundreds of teams like this in the factory. What happens if the machinery breaks, though? Then, we might need a repair person, but we wouldn't need a repair person on every team.
+We'd only need to call the repair person when something broke. 
+In this example, the repair person is like the prototype. We don't need a repair person for every team. We only need him when something breaks. We call him in when this happens.
+Similarly, we call the prototype when needed, but it saves memory to not have to call every time. 
+
+
+
+# constructors
+
+A constructor in JavaScript is similar to a class in many programming languages. When we create an object, we are creating a blueprint of sorts. If we need that blueprint many times (say 1,000 times), 
+we don't want to have to create the same object with slightly different values repeatedly. Instead we can use a constructor or class.
+This allows us to create many objects that share the same methods and properties. 
