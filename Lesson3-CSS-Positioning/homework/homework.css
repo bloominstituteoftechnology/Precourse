@@ -47,8 +47,10 @@ in this folder, you are in the wrong place.
   /* Place code here */
   #exerciseFive{
     display: flex;
+    flex-direction : column-reverse;
     justify-content: space-around;
     align-items: center;
+  
     
   }
 
@@ -56,7 +58,7 @@ in this folder, you are in the wrong place.
   
   /* Exercise Six */
   /*stuck with it right now*/
-  
+ 
   #exerciseSeven {
     display: flex;
   }
