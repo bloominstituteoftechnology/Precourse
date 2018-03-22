@@ -31,8 +31,8 @@ function greeting(language) {
     return 'Guten Tag!';
   }
 
-  if (language === 'English') {
-    return 'Hello!';
+  if (language === 'Mandarin') {
+    return 'Ni Hao!';
   }
 
   if (language === 'Spanish') {
