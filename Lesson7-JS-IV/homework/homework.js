@@ -107,7 +107,11 @@ function addFriend(user, newFriend) {
 }
 
 function setUsersToPremium(users) {
+  for(let i = 0; i < users.length; i++){
+    users[i] = { isPremium: true};
+  }
 
+  return users;
   // users is an array of user objects.
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
@@ -115,6 +119,13 @@ function setUsersToPremium(users) {
 }
 
 function sumUserPostLikes(user) {
+  let sum = 0;
+
+  for (let i = 0; i < user.posts.length; i++) {
+    sum = sum + user.posts[i].likes;
+    }
+
+  return sum;
 
   // user has an array property called 'posts'
   // posts is an array of post objects
@@ -124,10 +135,11 @@ function sumUserPostLikes(user) {
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
-  storeItem.calculateDiscountPrice = {
-    myDiscount: function(){
-      storeItem.price = (storeItem.price - (storeItem.price * storeItem.discountPercentage));
-    }
+
+  storeItem.calculateDiscountPrice = function() {
+    let myDiscount = this.price * this.discountPercentage;
+    myDiscount = this.price - myDiscount;
+    return myDiscount;
   };
   return storeItem;
   // add a method to the storeItem object called 'calculateDiscountPrice'
