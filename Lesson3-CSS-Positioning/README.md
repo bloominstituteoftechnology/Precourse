@@ -116,7 +116,7 @@ As we mentioned in the display property section, one of our display types can be
 
 ### justify-content and align-items
 
-Now that our container(element) is a flex box. We can imagine it as a grid, columns going from left to right and rows going from top to bottom. We can use the justify-contet and align-items properties to tell the flex box where we want our items to be on the grid. Initially "justify-content" will apply to the movement from left to right(row), and "align-items" will apply to the movement from top to bottom (column). We have a number of rules we can place on each of these properties:
+Now that our container(element) is a flex box. We can imagine it as a grid, columns going from left to right and rows going from top to bottom. We can use the justify-content and align-items properties to tell the flex box where we want our items to be on the grid. Initially "justify-content" will apply to the movement from left to right(row), and "align-items" will apply to the movement from top to bottom (column). We have a number of rules we can place on each of these properties:
 
 * center: will center an item (or group of items) along the axis in which you apply this rule.
 * flex-start: This is what each flex box is set to initially, it will display all of the items in a group at the very beginning of the row or column.

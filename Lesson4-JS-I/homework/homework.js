@@ -1,23 +1,22 @@
-
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-let newString = 'potato';
+const newString = null ;
 
 //create a number variable, it an be any number
-let newNum = 99 ;
+const newNum = null ;
 
 //create a boolean variable
-let newBool = true ;
+const newBool = null ;
 
 //solve the following math problem
-let newSubtract = 10 - 5 === 5;
+const newSubtract = 10 - null === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * 4 === 40 ;
+const newMultiply = 10 * null === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === 1 ;
+const newModulo = 21 % 5 === null ;
 
 
 
@@ -211,32 +210,32 @@ function getTriangleArea(base, height) {
 // --------------------------------
 
 module.exports = {
-  newString: newString,
-  newNum: newNum,
-  newBool: newBool,
-  newSubtract: newSubtract,
-  newMultiply: newMultiply,
-  newModulo: newModulo,
-  returnString: returnString,
-  areSameLength: areSameLength,
-  areEqual: areEqual,
-  lessThanNinety: lessThanNinety,
-  greaterThanFifty: greaterThanFifty,
-  add: add,
-  subtract: subtract,
-  divide: divide,
-  multiply: multiply,
-  getRemainder: getRemainder,
-  isEven: isEven,
-  isOdd: isOdd,
-  square: square,
-  cube: cube,
-  raiseToPower: raiseToPower,
-  roundNumber: roundNumber,
-  roundUp: roundUp,
-  addExclamationPoint: addExclamationPoint,
-  combineNames: combineNames,
-  getGreeting: getGreeting,
-  getRectangleArea: getRectangleArea,
-  getTriangleArea: getTriangleArea
+  newString,
+  newNum,
+  newBool,
+  newSubtract,
+  newMultiply,
+  newModulo,
+  returnString,
+  areSameLength,
+  areEqual,
+  lessThanNinety,
+  greaterThanFifty,
+  add,
+  subtract,
+  divide,
+  multiply,
+  getRemainder,
+  isEven,
+  isOdd,
+  square,
+  cube,
+  raiseToPower,
+  roundNumber,
+  roundUp,
+  addExclamationPoint,
+  combineNames,
+  getGreeting,
+  getRectangleArea,
+  getTriangleArea,
 };

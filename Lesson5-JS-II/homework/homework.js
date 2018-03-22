@@ -1,24 +1,5 @@
 // Do not change any of the function names
 
-function multiplyArguments() {
-  // use the arguments keyword to multiply all of the arguments together and return the product
-  // if no arguments are passed in return 0
-  // if one argument is passed in just return it
-  let product = 1;
-
-  // returns to 0 if no arguments are passed
-  if (arguments.length === 0) {
-      return 0;
-  }
-
-  for (let i = 0; i < arguments.length; i++) {
-    product = product * arguments[i];
-  }
-
-  return product;
-}
-
-
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
@@ -41,7 +22,7 @@ function getBiggest(x, y) {
 function greeting(language) {
   // return a greeting for three different languages:
   // language: 'German' -> 'Guten Tag!'
-  // language: 'English' -> 'Hello!'
+  // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
 
@@ -169,12 +150,11 @@ function isPrime(num) {
 // --------------------------------
 
 module.exports = {
-  multiplyArguments: multiplyArguments,
-  getBiggest: getBiggest,
-  greeting: greeting,
-  isTenOrFive: isTenOrFive,
-  isInRange: isInRange,
-  isInteger: isInteger,
-  fizzBuzz: fizzBuzz,
-  isPrime: isPrime,
+  getBiggest,
+  greeting,
+  isTenOrFive,
+  isInRange,
+  isInteger,
+  fizzBuzz,
+  isPrime,
 };
