@@ -2,10 +2,10 @@
 
 A `for` loop tells the computer to do one thing a bunch of times. Like, you can say the computer to count to 10 and `console.log()` it, or multiply a number several times to find the exponent.
 
-There are actually different types of loops, but the `for` loop is notable for being particular. When you do a `for` loop, you have to describe how many times the computer will loop it for, but the `for` loop allows you to tell the computer where to start counting, when to stop counting, and even how to count.
+There are actually different types of loops, but the `for` loop is notable for being particular. When you do a `for` loop, you have to describe how many times the computer will loop the instructions within for, but the `for` loop allows you to tell the computer where to start counting, when to stop counting, and even how to count.
 
 ```js 
-for (count = 0, count <= 10, count += 2) {
+for (count = 0; count <= 10; count += 2) {
     console.log(count);
 }
 ```
