@@ -10,7 +10,7 @@ Variables can be used to remember lots of things, like numbers, names, sentences
 
 ## What are strings?
 
-A string is simply a bunch of characters, surrounded by marks like `""` or `''`. The bunch of characters can be names (*'Ronald'*), phone numbers (*'310-555-1256'*), or a mixture of letters, numbers, or other characters you so desire. 
+A string is simply a bunch of characters, surrounded by marks like `""` or `''`. The bunch of characters can be names (*'Ronald'*), phone numbers (*'310-555-1256'*), or a mixture of letters, numbers, and other characters you so desire. 
 
 If you take a real piece of string and try to cut it in half, or pry apart the threads that hold the string together, you end up with a pile of useless threads of fabric. In a similar way, you cannot break or change computer strings like that. For example, "4" - "2" won't yield much of anything, because the computer treats "4" and "2" as strings, and the computer will generally not try to fray these strings apart. "Ronald" - "Ron" is similar; it won't try to unravel the string. 
 
