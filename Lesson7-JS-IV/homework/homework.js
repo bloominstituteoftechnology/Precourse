@@ -127,7 +127,7 @@ function sumUserPostLikes(user) {
   // sum together the likes from all the post objects
   // return the sum
 	var sum = 0;
-	for (var i=0; i < user.posts.length; i++); {
+	for (var i=0; i < user.posts.length; i++) {
 		sum = sum + user.posts[i].likes;
 	}
 	return sum;	
