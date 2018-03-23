@@ -1,0 +1,7 @@
+(Attention: These are the class notes for the Lambda School pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
+
+In this lesson we will cover:
+
+Recursion
+
+Recursion is another way to call funtions inside another funtions but in this case is calling itself, we use recursive funtions like loops.

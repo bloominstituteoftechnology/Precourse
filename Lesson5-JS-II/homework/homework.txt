@@ -1,0 +1,10 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+for
+
+We use for when you want some code to be repeated more than one time,
+
+
+&&, ||, !
+
+They are logical operators to evaualuate more than one condition.

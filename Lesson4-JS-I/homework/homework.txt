@@ -1,0 +1,21 @@
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables
+
+Variable Is where a program store information.
+
+Strings
+
+Strings are equal to a text in English.
+
+Functions (arguments, return)
+
+Function is a piece of code that programs can use often to resolve little calculations or problems.
+
+if statements
+
+They are a fundamental part in the programs, they control the flow.
+
+Boolean values (true, false)
+
+This is how computers understand the instruction, is the low level and basic concept in Computer Science, computers just undestand two values true (1)  or false (0).
