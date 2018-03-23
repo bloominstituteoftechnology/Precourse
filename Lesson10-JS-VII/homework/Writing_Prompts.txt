@@ -1,0 +1,4 @@
+If you are nesting a function, the outer function is not able to access the arguments of the inner function, this is a closure.  
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36

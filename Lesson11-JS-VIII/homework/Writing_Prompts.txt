@@ -1,0 +1,1 @@
+Recursion is basically the same idea as a loop.  You are calling a function inside of the same function.  The example of the matryoshka doll really helped me understand how recursion works. It is important to have an exit strategy in your recursion otherwise you will have a stack overflow. 
