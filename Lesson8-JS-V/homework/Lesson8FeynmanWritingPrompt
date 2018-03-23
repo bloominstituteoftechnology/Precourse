@@ -1,0 +1,5 @@
+'prototype' - A prototype is a property that is included in every class. The prototype lets the user set a method and gives every object in the class access to the method.
+
+Constructors - Also called 'class', constructors are used to create many objects that share the same properties and methods. Constructors use the '.this' to assign properties and methods.
+               By setting a variable using the 'new' keyword, users can create many objects without having to type their code separately.
+               Ex: function Car(name) {this.name = name;} const ford = new Car('Ford');

@@ -1,0 +1,12 @@
+Variables are a way of setting values to a name of your choosing. You can do this in javascript by using a keyword(var, let, or const), setting a name and assignment operator, and the value
+ended by a semicolon.
+For example, let dogName = 'Rocky';. let is the keyword, dogName is the name, = is the assignment operator, and Rocky is the value.
+
+Strings are text values set between two quotes. For example: 'one'
+
+Functions (arguments, 'return') are ways to run code. You can receive another value after plugging in other values (arguments). Return gives you the result of the function or whatever
+values you plug in.
+
+'if' statements check if something is true. If the statement is true, it runs the code given. If not it returns the other code given from false.
+
+Boolean values ('true', 'false') have two options. You can describe these options as true or false. They run different code depending on the result.

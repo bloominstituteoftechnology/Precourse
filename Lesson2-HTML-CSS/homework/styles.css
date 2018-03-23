@@ -1,0 +1,19 @@
+        h1{color: goldenrod;}
+        img{width: 400px;}
+        #thirdDiv{height: 600px; 
+                width: 500px; 
+                background: darksalmon; 
+                padding: 50px; 
+                border: 250px ridge lightcoral;}
+        #spanID{font-size: 18px; 
+                margin: 50px;}
+        body{background-image: url("https://www.roughguides.com/wp-content/uploads/2012/11/SIM-452542-1680x1050.jpg");
+             background-repeat: no-repeat; 
+             background-size: cover;
+             background-position: center;
+        }
+        .center{text-align: center;}
+        .centerImage{display: block; 
+                margin-left: auto; 
+                margin-right: auto; 
+                width: 50%;}
