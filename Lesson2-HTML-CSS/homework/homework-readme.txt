@@ -53,21 +53,3 @@ Extra credit:
   * Center all of the elements on the page
   * Read about positioning and use the position rule in your styles
   * Read about flexbox and use flexbox to center all of the items on the page
-<html>
-<head>
-<title>Rikki's HTML homework</title>
-</head>
-<body>
-<div>
-<h1>Rikki</h1>
-</div>
-<h3>Lambda School</h3>
-<div>
-<h4>HTML/CSS Homework</h4>
-<span>Healthy food is my <a href="Ivie.com">favorite</a>
-</span>
-</div>
-<div>
-</div>
-</body>
-</html>
