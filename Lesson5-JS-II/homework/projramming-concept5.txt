@@ -1,7 +1,0 @@
-For loops excute a code block everytime the condition is still true.  You can print "Hello" 100 times, but that is not effeicent so it's best to loop and have the computer print "Hello" 100 times.
-
-&& operator just means both conditions have to be true in order to be true.  One example will be you have to be 18 years or older and you have be at least 4 feet ll inches to do sky diving for safety measures.
-
-|| operator means one or both conditions are true.  One example will be you if are 4 or 5 years old you can go to preschool.  If you are older than 5 and younger than 4 years of age you won't be able to go to preschool.
-
-! just means the opposite.  If something is true then it will be false.  If something is false it will be true.
