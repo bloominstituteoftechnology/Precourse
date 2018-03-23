@@ -1,4 +1,4 @@
-This is the instructions for the homework for Lambda School's Pre-course Workshop, Lesson 2 - HTML/CSS Fundamentals.
+These are the instructions for the homework for Lesson 2 - HTML/CSS Fundamentals.
 
 Now that you have watched us create an HTML file and external style sheet you will do one of your own. 
 You will be writing all of your code in homework.html found in this folder.
