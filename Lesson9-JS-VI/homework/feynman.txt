@@ -1,0 +1,7 @@
+Callback functions are a part of javascript that allows a function to have a function inside of its arguments.
+It is more importantly used so you can use a function that can refer to another function within its arguments.
+Such as asking for a greeting and then in the callback argument referring to which specific greeting you want
+to use that you previously established. Ex. The intial function would be created with something like
+greetingFunction(name, cb) and then invoked later with greetingFunction(kevin, happyGreeting) or 
+greetingFunction(kevin, rudeGreeting) depending on which callback you wanted to use in conjuction
+with your original function.
