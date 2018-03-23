@@ -17,17 +17,16 @@ function returnLast(arr) {
 }
 
 //(Q#3) Test Passed 
-function getArrayLength(arr) {
-  //const length = arr.length; 
+function getArrayLength(arr) { 
   return arr.length; 
-
+  //const length = arr.length; 
   // return the length of the array
 }
 
 //(Q#4)
 function incrementByOne(arr) {
-      for (let i = 0; i < arr.length; i++) {
-     if ( arr[i] === arr[i] + 1);
+      for (let i=0; i<arr.length; i++) {
+        arr[i] +=1;
      }
 return arr;
   // arr is an array of integers  
@@ -68,19 +67,20 @@ function contains(arr, item) {
 }
 
 function addNumbers(numbers) {
-  for (var i = 0; i < numbers.length; i++) {
-       addNumbers[i] += numbers;
-       return value;
-    }
+  let sum = 0;
+  for (let i=0; i<numbers.length; i++){
+  sum+=numbers[i];
+} 
+rerurn sum;
   // numbers is an array of integers.
   // add all of the integers and return the value
 }
 
 function averageTestScore(testScores) {
-  for (var i = 0; i < testScores.length; i++) {
-           averageTestScore[i] += testScores;
-         return averageTestScore; 
-  
+  let sum=0 
+  for(let i=0; i<testScores.length; i++) {
+          sum += testScores[i];
+  }    return (sum / testScores.length); 
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
 } 
