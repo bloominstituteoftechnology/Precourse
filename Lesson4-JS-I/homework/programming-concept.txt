@@ -1,0 +1,9 @@
+Variables are just memory location.  They can also change.  You see instead of saying come to my address which is "123 myhouse st. Fremont, CA USA", you can instead create a variable and say "just come to my house" to your friends or family which my house is the variable holding my address.  It varies too see if I move to "567 ellen ave. San Jose, CA USA" then the variable will be pointing to "567 ellen ave. San Jose, CA USA" and not "123 myhouse st. Fremont, CA USA" and more.
+
+Strings is a sequence of characters.  They can contain letters, numbers, and symbols.
+
+Functions perform a specific task.  They will perform an operation base on the users input.  Sometimes they will return a value and sometimes they will not depending on what the function does.  In Javascripts, I believe functions always return undefined if you don't explicitly tell a function to return anything.
+
+If statements will perform a task if a condition is true.  You see if you are 21 years or older you can buy alcohol.
+
+Boolean values are just true or false.  In an if statement if you are 21 years old older then the if statement will run.  If not the if statement code block will not run at all.
