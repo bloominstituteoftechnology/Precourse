@@ -1,6 +1,15 @@
 // Do not change any of the function names
 
 function counter() {
+  var increment = (function(n) {
+    return function() {
+      n += 1;
+      return n;
+    };
+  }(0));
+
+  return increment;
+  
   // Return a function that when invoked increments and returns a counter variable.
   // Example: const newCounter = counter();
   // newCounter(); // 1
@@ -8,6 +17,16 @@ function counter() {
 }
 
 function cacheFunction(cb) {
+
+  var cache = {};
+  return function(arg) {
+      if (cache.hasOwnProperty(arg)) {
+          return cache[arg];
+      } else {
+          return cache[arg] = cb(arg);
+      }
+  
+  };
   // use closure to create a cache for the cb function
   // the function that you return should accept a single argument and invoke cb with that argument
   // when the function you return is invoked with an argument it should save that argument and its result
