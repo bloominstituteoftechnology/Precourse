@@ -1,0 +1,3 @@
+callback functions
+	A callback function is another way we can avoid repeating ourselves by establishing a pattern. You can set up a callback function that is then used as a parameter to another function so that it can be executed by that other function. It's like a function nested inside another function.
+	Callbacks are also a way to make sure that javascript executes your functions in the order you want them to be executed. Javascript is kind of impatient so if it doesn't get a response to function 1 immediately, it'll just move on to function 2. A callback function will allow you to make sure that function 2 does not get executed until function 1 is finished.
