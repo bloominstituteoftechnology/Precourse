@@ -81,6 +81,7 @@ function buildToDo(ToDo, index) {
 function buildToDos(toDoItems) {
   let newToDoItems = toDoItems.map(buildToDo);
   return newToDoItems;
+  
 }
 
 /* 
