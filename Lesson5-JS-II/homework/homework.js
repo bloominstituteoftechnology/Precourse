@@ -20,7 +20,7 @@ function multiplyArguments() {
 
 
 
-    function getBiggest(x, y) {
+function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
   if (x == y) {
