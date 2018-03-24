@@ -16,30 +16,59 @@ in this folder, you are in the wrong place.
 
 /* Exercise Two: Positioning a Header Bar*/
 
-/* Place code here */
+#exerciseTwo{
+  display:none;
+  
+}
 
 
 
 /* Exercise Three: */
 
-/* Place code here */
+#exerciseThree{
+  position:relative;
+  top:100px;
+  left:200px;
+}
 
 
 
 /* Exercise Four: */
 
-/* Place code here */
+#exerciseFour{
+  position:fixed;
+  top:0;
+  right:0;
+
+}
 
 
 
 /* Exercise Five */
 
-/* Place code here */
+#exerciseFive{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
 
 
-
-/* Exercise Six */
+#exerciseFive{
+  flex-direction:row-reverse;
+}
 
 #exerciseSeven {
   display: flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-direction:column;
+  flex-direction:column-reverse;
+  position:relative;
 }
+
+#itemFour{
+align-items: flex-start;
+}
+
+
