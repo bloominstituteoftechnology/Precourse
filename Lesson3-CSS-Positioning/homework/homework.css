@@ -4,40 +4,55 @@ in this folder, you are in the wrong place.
 */
 
 
-/* Exercise One: Centering the text in a span */
 
-/* We will start this one off for you: */
 #exerciseOne {
+  display:flex;
+  text-align:center;
 
 }
 
 
-/* Exercise Two: Positioning a Header Bar*/
-
-/* Place code here */
-
-
-
-/* Exercise Three: */
-
-/* Place code here */
+#exerciseTwo{
+  display:none;
+  
+}
 
 
-
-/* Exercise Four: */
-
-/* Place code here */
-
-
-
-/* Exercise Five */
-
-/* Place code here */
+#exerciseThree{
+  position:relative;
+  top:100px;
+  left:200px;
+}
 
 
+#exerciseFour{
+  position:fixed;
+  top:0;
+  right:0;
 
-/* Exercise Six */
+}
+
+
+#exerciseFive{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+#exerciseFive{
+  flex-direction:row-reverse;
+}
 
 #exerciseSeven {
   display: flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-direction:column;
+  flex-direction:column-reverse;
+  position:relative;
 }
+
+
+
