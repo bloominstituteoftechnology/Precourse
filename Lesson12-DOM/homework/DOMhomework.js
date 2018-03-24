@@ -150,7 +150,7 @@ ab.onclick = addToDo();
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+  //const index = event.target.id;
   // code here
 }
 
