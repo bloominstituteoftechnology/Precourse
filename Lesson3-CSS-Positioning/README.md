@@ -26,7 +26,7 @@ There are two types of display elements already built into HTML. Block and Inlin
 
 ### Block Elements
 
-As a rule of thumb, a block element will always start on a new line, and will always take up the maximum width of the container it is in. Remember how in the last lesson we learned that the \<p> element will always start on a new line? It is a block element, as is div and \<h1-6>
+As a rule of thumb, a block element will always start on a new line, and will always take up the maximum width of the container it is in. Remember how in the last lesson we learned that the \<p> element will always start on a new line? It is a block element, as is div and \<h1-6>.
 
 ### Inline elements
 
