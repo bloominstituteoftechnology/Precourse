@@ -2,6 +2,9 @@
 
 function invokeCallback(cb) {
   // invoke cb
+function callbackExample(cb) {
+  cb();
+};
 }
 
 function sumArray(numbers, cb) {
