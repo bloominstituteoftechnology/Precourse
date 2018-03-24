@@ -1,0 +1,26 @@
+        body {
+            background-image: url(https://pre00.deviantart.net/a22b/th/pre/i/2015/109/c/e/blue_eye_3b_saved_as_png_to_preserve_transparency_by_shadowprince14-d8qbizi.png)
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        #thirdDiv {
+            height: 600px;
+            width: 500px;
+            padding: 50px;
+            border: 1px solid red; 
+            background: yellow; 
+        }
+        h1 {
+            color: deeppink;
+        }
+        img {
+            width: 400px;
+        }
+        #spanId {
+            font-size: 18px;
+            margin: 50px;
+        }
