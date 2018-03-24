@@ -1,0 +1,1 @@
+Closures are when you have a function inside of another function and the inner function has access to the outer function's variables and the global variables, but anything out of that function does not have access to the inner function variables.
