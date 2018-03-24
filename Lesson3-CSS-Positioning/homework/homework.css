@@ -4,9 +4,7 @@ in this folder, you are in the wrong place.
 */
 
 
-/* Exercise One: Centering the text in a span */
 
-/* We will start this one off for you: */
 #exerciseOne {
   display:flex;
   text-align:center;
@@ -14,16 +12,11 @@ in this folder, you are in the wrong place.
 }
 
 
-/* Exercise Two: Positioning a Header Bar*/
-
 #exerciseTwo{
   display:none;
   
 }
 
-
-
-/* Exercise Three: */
 
 #exerciseThree{
   position:relative;
@@ -32,9 +25,6 @@ in this folder, you are in the wrong place.
 }
 
 
-
-/* Exercise Four: */
-
 #exerciseFour{
   position:fixed;
   top:0;
@@ -42,9 +32,6 @@ in this folder, you are in the wrong place.
 
 }
 
-
-
-/* Exercise Five */
 
 #exerciseFive{
   display:flex;
@@ -67,8 +54,5 @@ in this folder, you are in the wrong place.
   position:relative;
 }
 
-#itemFour{
-align-items: flex-start;
-}
 
 
