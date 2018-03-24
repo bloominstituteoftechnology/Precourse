@@ -1,6 +1,5 @@
 // Do not change any of the function names
 
-
 function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
@@ -16,9 +15,6 @@ function multiplyArguments() {
     } 
   
  
-
-
-
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
