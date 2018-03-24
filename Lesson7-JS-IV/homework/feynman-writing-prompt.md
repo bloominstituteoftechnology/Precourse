@@ -64,7 +64,7 @@ for (let key in meObj) {
 }
 ```
 
-The line `let key in meObj` means let this variable `key` be a property in the object `meObj`. Then the computer will do the action, the function, on *each* property in the object. In this case, the action is logging to the console `key`, the property's name, and `meObj[key]`, the value paired with that property in `meObj`.
+The line `let key in meObj` means let this variable `key` be a property in the object `meObj`. Then the computer will do the action inside the loop on *each* property in the object. In this case, the action is logging to the console `key`, the property's name, and `meObj[key]`, the value paired with that property in `meObj`.
 
 The `For ... In` loop can work with other data types (*because everything is a bloody object*), but it's generally not a good idea to do it with other types.
 
