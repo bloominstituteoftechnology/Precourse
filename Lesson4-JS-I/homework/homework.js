@@ -1,13 +1,13 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = 'Camille' ;
+const newString = Cam ;
 
 //create a number variable, it an be any number
 const newNum = 10 ;
 
 //create a boolean variable
-const newBool =true ;
+const newBool = true ;
 
 //solve the following math problem
 const newSubtract = 10 - 5 === 5;
@@ -33,22 +33,30 @@ function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
-return x + y;}
+var  z = x + y ;
+return z;
+}
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-return x - y;}
+var z = x - y;
+return z ;
+}
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-return x * y;}
+var z = x * y;
+return z;
+}
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
-return x / y;}
+var z = x / y;
+return z;
+}
 
 function areEqual(x, y) {
   // return true if x and y are the same
@@ -131,9 +139,11 @@ return firstName + ' ; ' + lastName;}
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
-  // 'Sam' -> 'Hello Sam!'
+  // 'Sam' -> 
   // code here
-return name + 'Hello Sam!'}
+  function greeting (Sam)
+console.log (Sam + 'Hello Sam!');
+}
 
 // The next three questions will have you implement math area formulas. 
 // If you can't remember these area formulas then head over to Google.
@@ -141,12 +151,14 @@ return name + 'Hello Sam!'}
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
-return length * width;}
+const  Rectangle = (length * width);
+return Rectangle}
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-return base * height / 2;}
+const Triangle = (base * height / 2);
+return Triangle;}
 
 // Do not modify code below this line.
 // --------------------------------
