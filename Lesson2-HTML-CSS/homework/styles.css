@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    background-color: blue;
+    padding: 50px;
+    border: 50px red dashed;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+body {
+    background-image: url('http://www.petragroup.com.au/wp-content/uploads/2016/03/pizza-shop-ideas-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
