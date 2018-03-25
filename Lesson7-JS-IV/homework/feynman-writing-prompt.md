@@ -8,7 +8,7 @@ Feynman Writing Prompts - Write out explanations of the following concepts like 
 
 ## What are objects?
 
-Objects are of another data type. When making one of your own in Javascript, they're  similar to arrays with a few distinguishing features:
+Objects are of another data type. When making one of your own in Javascript, they're similar to arrays with a few distinguishing features:
 
 * You denote them with curly brackets, `{}`.
 * When putting info into an object, you'd have to pair each piece of information with a name that describes it. This name is called a "property" or a "key".
