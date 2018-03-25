@@ -1,0 +1,3 @@
+A prototype is basically like a shared pool of properties. It includes everything that all instances of our class will need. For example a function that will be present in all instances, should go here.
+
+Constructors or classes are like blueprints for instances. We use them to avoid repetition when defining objects!
