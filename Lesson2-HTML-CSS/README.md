@@ -13,11 +13,13 @@ In this lesson we will cover:
 
 ## Introduction to HTML
 
-HTML is a core building block of the internet. Every single webpage on the internet is made up of HTML in it's most basic form. HTML stands for Hyper Text Markup Language. It is not a programming language, but a markup language meant to be interpreted by web browsers and the data presented in a graphical form. We will be learning about the basic HTML makeup of a webpage.
+HTML is a core building block of the internet. Every single webpage on the internet is made up of HTML in it's most basic form. HTML stands for Hyper Text Markup Language. It is not a programming 
+language, but a markup language meant to be interpreted by web browsers and the data presented in a graphical form. We will be learning about the basic HTML makeup of a webpage.
 
 ## Basic HTML elements
 
-HTML is a series of "elements" with information in between them. Each element is contained in <> brackets (we will refer to these as "tags") with information either presented inside of them or in between two bookend brackets. HTML tags MUST close by including a "/" at the beginning of the closing element (\</elementName>),  or before the close of the first element (\<elementName />):
+HTML is a series of "elements" with information in between them. Each element is contained in <> brackets (we will refer to these as "tags") with information either presented inside of them 
+or in between two bookend brackets. HTML tags MUST close by including a "/" at the beginning of the closing element (\</elementName>),  or before the close of the first element (\<elementName />):
 
 ```html
   <span>Information to be displayed</span>
@@ -26,11 +28,13 @@ HTML is a series of "elements" with information in between them. Each element is
 
 ### \<html>
 
-The building block of the entire page, all of the other elements will be contained within the html tags. This tells the browser to interpret the page using HTML. Consider this the outermost container, and within it live the head and body elements.
+The building block of the entire page, all of the other elements will be contained within the html tags. This tells the browser to interpret the page using HTML. Consider this the outermost container, 
+and within it live the head and body elements.
 
 ### \<head>
 
-Data or elements within these tags will not render to the page but tells the browser what data it should load before rendering items to the page. Most notably it will contain the title of the page and any external javascript or CSS dependencies.
+Data or elements within these tags will not render to the page but tells the browser what data it should load before rendering items to the page. Most notably it will contain the title of the page 
+and any external javascript or CSS dependencies.
 
 ### \<title>
 
@@ -73,7 +77,8 @@ The div element is a generic container. It is used primarily for styling, imagin
 
 ### \<a>
 
-The a ("anchor") element, allows us to create links to other webpages (or even to other areas within our own webpage). You will always see the a element used with the href flag to tell the browser what address you want the link to point to.
+The a ("anchor") element, allows us to create links to other webpages (or even to other areas within our own webpage). You will always see the a element used with the href flag to tell the browser what 
+address you want the link to point to.
 
 ```html
   <a href="http://www.lambdaschool.com">Here is a link!</a>
@@ -91,7 +96,8 @@ These are header tags, there are intended to be used as a way to present the sub
 
 ### \<img>
 
-This element will display an image on the screen. It will always have an 'src' flag which points to the address of the image (kind of like the "href" flag in the "a" element). NOTE: img tags can be self closing, as in they do not need two tags. Simply put the / before the closing bracket in the first tag:
+This element will display an image on the screen. It will always have an 'src' flag which points to the address of the image (kind of like the "href" flag in the "a" element). NOTE: img tags can be self closing, 
+as in they do not need two tags. Simply put the / before the closing bracket in the first tag:
 
 ```html
   <img src="http://www.lambdaschool.com/imageurl.jpg" />
@@ -121,7 +127,8 @@ These are our list items. Within these tags we can place any other element, thes
 
 ## Introduction to CSS
 
-HTML is great, but HTML alone is plain and boring. This was the early days of the internet, very basic text only webpages. Then came along CSS (Cascading Style Sheets); a way to put some color and style into our webpages! It's like the difference between black & white, and color TV. 
+HTML is great, but HTML alone is plain and boring. This was the early days of the internet, very basic text only webpages. Then came along CSS (Cascading Style Sheets); a way to put some color and style into 
+our webpages! It's like the difference between black & white, and color TV. 
 
 ## CSS selectors and the \<style> element
 
@@ -130,7 +137,8 @@ We can do this a few different ways. The two most popular are using the HTML \<s
 
 ### \<style>
 
-Remember when we said that data we wanted the browser to consume before the page loaded should go between the head tags? That is where the \<style> tags will go. In between these tags, we will give the browser a set of style rules to abide by. 
+Remember when we said that data we wanted the browser to consume before the page loaded should go between the head tags? That is where the \<style> tags will go. In between these tags, we will give the 
+browser a set of style rules to abide by. 
 
 ```html
   <html>
@@ -162,7 +170,8 @@ We do not need to add anything to use every element of a certain type as a selec
 
 ### Anatomy of styling rules
 
-Now that we have our selectors in place we need to tell the browser what to do with those selectors. Inside of our style tags, we will insert the rules. Classes will always begin with ".", and Ids will always begin with "#", elements will begin with neither and just have the element name. After the name of the selector we will use braces ("{}") to hold our rules to that one selector.
+Now that we have our selectors in place we need to tell the browser what to do with those selectors. Inside of our style tags, we will insert the rules. Classes will always begin with ".", and Ids 
+will always begin with "#", elements will begin with neither and just have the element name. After the name of the selector we will use braces ("{}") to hold our rules to that one selector.
 
 ```html
   <style>
@@ -176,10 +185,12 @@ Now that we have our selectors in place we need to tell the browser what to do w
 
 ## Basic CSS styling
 
-Now that we have some HTML elements selected we can begin to add styling. There are a LOT of different ways you can style an object, you can control how big or small it is, what color it is, where it is placed on the screen, or even if it is visible or not. We will go over some of the most common styling properties and how to use them.
+Now that we have some HTML elements selected we can begin to add styling. There are a LOT of different ways you can style an object, you can control how big or small it is, what color it is, 
+where it is placed on the screen, or even if it is visible or not. We will go over some of the most common styling properties and how to use them.
 
 ### Styling rules rules
-Styling rules will need to adhere to a certain syntax in our CSS so that the browser knows how to read them properly. Within the braces, we will then have the name of the property, a colon(":") and the value of the rule, this will be followed by a semicolon(";")
+Styling rules will need to adhere to a certain syntax in our CSS so that the browser knows how to read them properly. Within the braces, we will then have the name of the property, a colon(":") 
+and the value of the rule, this will be followed by a semicolon(";")
 
 ```css
   div {
@@ -196,7 +207,8 @@ We can consider all html elements to be boxes, the make up of each box is the co
 
 ### height and width
 
-We can tell the browser exactly how wide and how tall we want our element(content) to be, this is used in divs, imgs, and other height based elements( in order to determine the size of text, we will need to use a different styling property ). Size values can be in lots of different measures, but the most common is the pixel "px".
+We can tell the browser exactly how wide and how tall we want our element(content) to be, this is used in divs, imgs, and other height based elements( in order to determine the size of text, 
+we will need to use a different styling property ). Size values can be in lots of different measures, but the most common is the pixel "px".
 
 ```css
   div {
@@ -211,7 +223,8 @@ The margin is the transparent area around the element that you want to leave ope
 
 ### border
 
-Border will set a border around your element, you can determine the size color and style of the border. It will be set up in this order: width style color (a list of border styles can be found here: https://developer.mozilla.org/en-US/docs/Web/CSS/border). The border is outside the padding, but inside the margin.
+Border will set a border around your element, you can determine the size color and style of the border. It will be set up in this order: width style color (a list of border styles can be found 
+here: https://developer.mozilla.org/en-US/docs/Web/CSS/border). The border is outside the padding, but inside the margin.
 
 ```css
   div {
@@ -265,11 +278,15 @@ We cant use width or height for text, but we can determine the size of the font 
 
 ## External Stylesheets and the \<link> element
 
-We have gone over how to use the \<style> html element. This is fine if you have a very small webpage and minimal styling, but most pages would start to feel cluttered very quickly if we included all of our CSS in the HTML. Thankfully we have a solution for that, external stylesheets and the \<link> element.
+We have gone over how to use the \<style> html element. This is fine if you have a very small webpage and minimal styling, but most pages would start to feel cluttered very quickly if we included
+all of our CSS in the HTML. Thankfully we have a solution for that, external stylesheets and the \<link> element.
 
-An External style sheet is simply another file with the .css filetype on it. Conventionally this file is named something along the lines of "style.css". We can take all of the styling rules we wrote between the \<style> tags and transfer them directly to the css file. We do not need to include anything else, just the styling rules. 
+An External style sheet is simply another file with the .css filetype on it. Conventionally this file is named something along the lines of "style.css". We can take all of the styling rules we 
+wrote between the \<style> tags and transfer them directly to the css file. We do not need to include anything else, just the styling rules. 
 
-Once we have an external stylesheet created we will need to make sure the browser reads that file and applies the rules to our page. We tell the browser to look for that file by using the \<link> element. We can remove the \<style> tags and in their place add the \<link> element. Within the link element, we will need to supply the location and type of file we are linking. We will use two flags, the "rel" flag and the "href" flag. 
+Once we have an external stylesheet created we will need to make sure the browser reads that file and applies the rules to our page. We tell the browser to look for that file by using the \<link> element. 
+We can remove the \<style> tags and in their place add the \<link> element. Within the link element, we will need to supply the location and type of file we are linking. We will use two flags, the "rel" 
+flag and the "href" flag. 
 
 The rel flag will just tell the browser what type of file it is and how to process it. In our case we will set that to "stylesheet"
 
