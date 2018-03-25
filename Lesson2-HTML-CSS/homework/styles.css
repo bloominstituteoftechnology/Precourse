@@ -1,0 +1,28 @@
+body {
+  align-items: center;
+  background-image: url("./halftone-yellow.png");
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h1 {
+  color: black;
+}
+img {
+  width: 400px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+#thirdDiv {
+  background-color: gray;
+  border: 1px solid black;
+  height: 600px;
+  padding: 50px;
+  width: 500px;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
