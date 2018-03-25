@@ -1,0 +1,5 @@
+* Callback Functions
+    Callback Functions are functions that we can use as parameters to other functions. Callback functions need to be of the same and to accept the same number
+    of parameters for them to be used in addition to others. Using callback functions, we get to create better and cleaner code because we can write them once
+    and call them when needed by importing them for example in a project.
+
