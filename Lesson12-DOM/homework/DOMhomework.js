@@ -103,7 +103,6 @@ function displayToDos() {
   for(let i = 0; i < itemsIn.length; i++) {
     toDoContainer.appendChild(itemsIn[i]);
   };  
-
 }
 
 /* 
