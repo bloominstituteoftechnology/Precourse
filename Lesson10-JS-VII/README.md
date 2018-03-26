@@ -3,7 +3,67 @@
 
 In this lesson we will cover: 
 
+* Functional Programming
 * Closure
+
+## Functional Programming
+
+As mentioned before, Javascript treats everything deep down as an object. This approach is called **object-oriented programming**. In contrast, there is another approach that treats everything like a function: **functional programming**.
+
+*While Javascript is not a true functional language, it can be treated functionally*.
+
+```js
+function addNumbers (x, y) {
+    return x + y;
+};
+
+const startValue = 4;
+const startValue2 = 6;
+
+addNumbers(startValue, startValue2);
+```
+
+The above example is not considered to be "functional programming" because we have variables sitting around in the root scope. One of the tenets of functional programming is that everything is a function or is in a function.
+
+We can modify it to this:
+
+```js
+function addNumbers (x, y) {
+    return x + y;
+};
+
+function doMoreMath() {
+    const startValue = 4;
+    const startValue2 = 6;
+
+    addNumbers(startValue, startValue2);
+}
+```
+
+This is still not quite functional because while we don't have variables swimming around in the root scope, we see that `doMoreMath` needs to come out and look for `addNumbers` in order to do the function. In cases like that, functions should be passed through as arguments and called back.
+
+```js
+function addNumbers (x, y) {
+    return x + y;
+};
+
+function doMoreMath(callback) {
+    const startValue = 4;
+    const startValue2 = 6;
+
+    callback(startValue, startValue2);
+}
+
+doMoreMath(addNumbers);
+```
+
+I feel like this "component-alizes" the code, as in having elemental functions that can be called back in higher order functions to do work, rather than blurting out the entire logic of the program in a TLDR; block. It also seems we can more easily modify operations by simply declaring more elemental functions and changing the callback to directly change how a bigger function operates.
+
+Two tenets of functional programming so far:
+* No variables floating in the aether.
+* Logic is declared discretely in elemental functions, which are passed through parameters to functions that need them (i.e. *logic is declared within a function or passed through as an argument*).
+
+Javascript, while again object-oriented...ish, is great for functional programming because functions are first-class objects.
 
 ## Closure
 
@@ -12,6 +72,8 @@ In JavaScript functions are first-class objects.  What this means is that we can
 ```javascript
     const foo = function() {};
 ```
+
+(*Be aware that assigning functions to variables is totally NOT a thing in lots of object-oriented languages.*)
 
 We can put functions on objects:
 
@@ -93,6 +155,8 @@ This also applies to the function's parameters:
 ```
 
 In the example above the `x` and the `y` are both set by their respective function calls.  This can be used in many interesting ways.  You can make cache functions, private variables, and you can customize a function's behavior as we did in the example above.  We are able to produce a custom multiplication function.
+
+(*The above process is called "currying". It is common in functional programming.*)
 
 
 ## Additional Resources:
