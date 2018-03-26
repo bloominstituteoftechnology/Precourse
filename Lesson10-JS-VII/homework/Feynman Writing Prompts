@@ -1,0 +1,5 @@
+* Closure
+    Closure is a way to store values, so we can use them even when they're away. We use it with currying, which is when a function returns a function.
+    So even there maybe logic in the parent function, when we return the child function, the variables that were created within the parent function are
+    still accessible through the child function.
+

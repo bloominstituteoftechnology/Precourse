@@ -1,0 +1,30 @@
+* Variables
+
+    Variables are placeholders for values. Where you would use a value, you use a name thats describes that value. This name happens to refer
+    to a place in a computer memory where the value is stored. So, instead of using the value 5 you can use a word that refers to that value.
+    It's like the equations at school. When you say x = 1, x is the variable and 1 is the value.
+
+* Strings
+
+    Strings are a number of characters within single or double quotes. You can put any character you can find in a keyboard in a string and you
+    use it in a program for non-numeric values, like a name for example.
+
+* Functions (arguments, `return`)
+
+    Functions are blocks of code. We write functions or use other people's functions to logically connect statements in a program. For example, 
+    when you need to calculate you GPA, you could write a function that does exactly that. Your arguments will be your distinct grades and the 
+    function will calculate and return that value to you. In math for example you use |x| that returns the absolte value of x. That is a function
+    that you can code in a programming language.
+
+* `if` statements
+
+    Sometimes, we don't want to run every single statement in a program. For example, in math, when you divide numbers, you can't divide 5 by 0.
+    In that case you would say that if 5 is divided by a number only make the division if that number is not 0. This is how we control the flow 
+    of a program and execute commands that don't break our code and follow our logic.
+
+* Boolean values (`true`, `false`)
+
+    They are called like that from the great mathematician Boole. A boolean value can be either one of two states. True or False, 1 or 0. That 
+    is the way our computers are built, so it's essential to understand that for everything that is stored in a computer, it is stored in 0s or 1s.
+    We use them very often in programming when we want to make decisions, as explained above. If an expression is true, we execute a block of code,
+    while if it is false, we usually execute another block of code.

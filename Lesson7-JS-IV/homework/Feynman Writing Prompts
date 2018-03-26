@@ -1,0 +1,28 @@
+* Objects
+    We use objects when we want to represent the actual world or a business logic. For example, a human is an object, or a customer or a student. All these could be
+    represented as objects in a programming language.
+
+* Properties
+    Objects have properties. These are values that represent the state of the object. For example, the name or weight, or height of a human being, or the salary of
+    an employee are properties of that object.
+
+* Methods
+    An object has also methods that can act upon the object. For example an account object could have a deposit method that when applied to a specific instance of
+    an account object could increase the property balance by an ammount we pass to the method.
+
+* for in loop
+    While we use for loops for arrays, objects are a bit different and even though we could use for loops with objects, things like an array length are not applicable
+    to objects, so it's more natural to use a structure like for in loop, where pretty much we tell the language to apply our block of code to every propery in the
+    object.
+
+* Dot notation vs bracket notation
+    We learned when talking about arrays that we can refer to a value in an array using the bracket notation, like a[0], which returns the first value in an array.
+    Objects can also be accessed in the same way, but they also offer as the ability to access a property in an object using the dot notation. A simple example would
+    be :
+
+        const name = {
+            first: 'George',
+            last: 'Java',
+        };
+
+        name.first or name['first'] would both return the value 'George'. We see that sometimes using one or the other has its benefits.

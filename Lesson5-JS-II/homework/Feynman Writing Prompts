@@ -1,0 +1,30 @@
+* For
+    We use the 'for' loop when we want to execute a block of code once or more times. The 'for' loop has an intial value, like a counter, a comparison expression
+    that compares that counter to a value and a step that changes the counter so that the comparison will eventually be false, so the loop will end. So, if we want
+    to print out the number from 1 to 10, we could write :
+
+            for (let i = 1; i <= 10; i++) {
+                console.log(i);
+            }
+    
+    That means that we compare the value of 1 with 10 and as long as it is less than 10, we print out its value. Everyitme we add 1 to the value of i, so that it
+    will eventually become bigger than 10 and the loop will end.
+
+* &&, ||, !
+    These are the 3 logical operators in JavaScript and we use them when we want to check multiple expressions that evaluate to true or false. So, we use '&&' when
+    we want 2 or more logical expressions to be true for the whole expression to evaluate to true. For example, when you want to take a car for a ride, you need
+    to have a valid driver's license and money for gas. If one of those cases is false, then the whole expression is false. Now, if only one expression needs to 
+    be true for the whole initial expression to be true, we use '||', the 'OR' operator. The '!' or 'NOT' operator is used when we want to evaluate the opposite
+    of a logical expression. So, we could say if you are over 16, but we could also put it as if you are not under or equal to 16, which we write as:
+
+            if(age > 16) {
+
+            }
+
+            or
+            
+            if (!(age <= 15)) {
+
+            }
+
+    they both return the same value, which is true of false depending on your age.

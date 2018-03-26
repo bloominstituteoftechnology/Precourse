@@ -1,0 +1,6 @@
+* Recursion
+    Recursion is when a function calls itself within the body of the function. It is a very helpful technique to do loops, it is effective when loops are not
+    the best choice, like tree data structures and it's also important to remember that when we call the function within the parent function, we actually create
+    a new function with different parameters, so we should make sure that this process ends at a point so we don't overflow the stack and we crash the computer
+    or browser.
+
