@@ -9,13 +9,20 @@
         p{font-size: 24px}
            #thirdDiv{
                height:600px;
+               margin: auto; 
                width:500px;
                background:lightgray;
                padding: 50px;
-               border: 3px lightpink solid
+               border: 3px lightpink solid;
            }
            #spanId{
                font-size: 18px;
                margin: 50px
+           }
+           .divClass{
+               margin: auto;
+           }
+           body{
+            background: url("http://c7.alamy.com/comp/BPKPPP/a-kraft-macaroni-and-cheese-kraft-dinner-BPKPPP.jpg");
            }
     </style> -->
