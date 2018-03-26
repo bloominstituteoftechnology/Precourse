@@ -27,7 +27,8 @@ function cacheFunction(cb) {
     if (arg in cache) {
       return cache[arg];
     } else {
-      return cb(arg);
+      cache[arg] = cb(arg);
+      return cache[arg];
     }
   }; 
 }
