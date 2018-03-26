@@ -1,7 +1,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = Cam ;
+const newString = 'Hello World!';
 
 //create a number variable, it an be any number
 const newNum = 10 ;
@@ -33,15 +33,17 @@ function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
-var  z = x + y ;
-return z;
+
+return x + y;
+
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-var z = x - y;
-return z ;
+
+return x - y;
+ 
 }
 
 function multiply(x, y) {
@@ -54,8 +56,7 @@ return z;
 function divide(x, y) {
   // divide x by y and return the value
   // code here
-var z = x / y;
-return z;
+return x / y;
 }
 
 function areEqual(x, y) {
@@ -113,7 +114,7 @@ return num + cube;}
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-return Math.pow (num);}
+return Math.pow (num, exponent);}
 
 function roundNumber(num) {
   // round num and return it
@@ -135,14 +136,13 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-return firstName + ' ; ' + lastName;}
+return firstName + ' ' + lastName;}
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 
   // code here
-  function greeting (Sam)
-console.log (Sam + 'Hello Sam!');
+  
 }
 
 // The next three questions will have you implement math area formulas. 
