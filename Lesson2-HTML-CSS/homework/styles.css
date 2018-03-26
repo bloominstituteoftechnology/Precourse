@@ -1,0 +1,31 @@
+h1 {
+
+	color: darkslategray;
+
+}
+
+img  {
+
+width: 400px;
+
+}
+
+#thirdDiv {
+
+border: 10px seagreen;
+
+height: 600px;
+
+width: 500px;
+
+padding: 50px;
+
+background-color: firebrick;
+
+}
+
+#spanID {
+
+margin: 50px;
+
+}
