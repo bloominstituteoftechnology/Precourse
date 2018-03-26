@@ -1,0 +1,5 @@
+Recursion
+
+	Recursion is an alternative to iteration that is simpler to write, but is also more likely to result in an infinite loop if you make an error. It's basically a function that calls itself.
+
+	I think this will become more important later as we try to learn how to balance elegant code vs. code that runs faster. Regular iterating loops run faster. Recursion looks prettier.

@@ -1,0 +1,2 @@
+closure
+	A closure is a function nested inside another function that has access to its outer function's scope, even after the outer function has returned. This helps to keep the data within the function private and local.
