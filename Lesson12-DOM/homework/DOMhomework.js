@@ -62,7 +62,7 @@ function buildToDo(todo, index) {
   toDoText.innerHTML += todo.description;
   toDoText.id = index;
   if (todo.complete){
-     toDoText.classList.add('.completeText');
+     toDoText.classList.add('completeText');
   } else {
      toDoText.appendChild(toDoShell);
   }
