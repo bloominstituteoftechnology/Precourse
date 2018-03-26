@@ -61,9 +61,6 @@ function buildToDo(todo, index) {
   let toDoText = document.createElement('span');
   toDoText.innerHTML += todo.description;
   toDoText.id = index;
-  toDoText.addEventListener('click', completeToDo);
-  document.querySelector('#toDoText');
-  toDoText.setAttribute('toDoText', index);
   if (todo.complete){
      toDoText.classList.add('.completeText');
   } else {
@@ -99,11 +96,11 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
-  let build = document.querySelector('#toDoContainer');
-  build.innerHTML = "";
-  arr = buildToDos(toDoItems);
+  let toDoContainer = document.querySelector('#toDoContainer');
+  toDoContainer.innerHTML = "";
+  let arr = buildToDos(toDoItems);
   for (let i = 0; i < arr.length; i++) {
-    build.appendChild(arr[i]);
+    toDoContainer.appendChild(arr[i]);
   }
 }
 
@@ -122,8 +119,8 @@ function displayToDos() {
 function addToDo() {
   // code here
   let newToDo = document.querySelector('#toDoInput');
-  let myToDo = new ToDo(newToDo.value);
-  toDoItems.push(myToDo);
+  newToDo = new ToDo(newToDo.value);
+  toDoItems.push(newToDo);
   newToDo.value = "";
   displayToDos();
 }
