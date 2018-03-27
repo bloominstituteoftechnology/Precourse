@@ -1,0 +1,2 @@
+Recursion:
+Recursion is when we invoke a function from inside itself. 
