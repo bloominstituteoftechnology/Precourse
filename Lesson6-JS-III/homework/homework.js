@@ -40,10 +40,12 @@ function incrementByOne(arr) {
 function addItemToArray(arr, item) {
   // add the item to the end of the array
   // return the array
-  
+  const arrTemp = [];
   arr.push(item);
-  
-  return arr[arr.length-1];
+  for(let i =0; i<arr.length; i++){
+    arrTemp[i] = arr[i];
+  }
+  return arrTemp;
 }
 
 
@@ -65,11 +67,14 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  var loaclSentence =''; //using a string to store the array so it can be at the same base with space between.
+  var loaclSentence =words.join(' '); //using a string to store the array so it can be at the same base with space between.
   
-  for(let i = 0; i<words.length; i++){
-    loaclSentence += words[i]+' ';
-  }
+  // for(let i = 0; i<words.length; i++){
+ 
+  //     loaclSentence = words[i].join(' ');
+    
+    
+  // }
   return loaclSentence;
 }
 
