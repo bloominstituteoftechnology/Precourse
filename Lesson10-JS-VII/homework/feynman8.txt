@@ -1,0 +1,3 @@
+closure
+a variable created inside a function is not acessible outside the braces of the function
+the function has to be returned and equated to another variable,inoder to acess it,outside the function.
