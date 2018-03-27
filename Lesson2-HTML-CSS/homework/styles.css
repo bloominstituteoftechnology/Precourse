@@ -1,4 +1,16 @@
 <!--
+body {
+    background-image:url("DSC01554.JPG");
+    background-size:contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
 h1 {
     color: lightsalmon;
 }
