@@ -8,7 +8,7 @@ function counter() {
   let count = 0;
   return function counted(){
     return ++count;
-  }
+  };
 }
 const increase = counter();
 increase();
@@ -37,9 +37,8 @@ function cacheFunction(cb) {
     }
     //("RETURNING INNER FUCNTION");
     return cache[arg];
-  }
+  };
   //("RETURN THE EMPTY OBJECT: " EVEN THOUGH CODE RUNS WITHOUT IT);
-  return cache;
 }
 
 
