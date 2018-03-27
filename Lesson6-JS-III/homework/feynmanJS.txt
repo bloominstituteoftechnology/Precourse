@@ -1,0 +1,1 @@
+arrays = similar to a shopping list. Can contain numbers, words, bools (true or false).
