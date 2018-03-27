@@ -20,6 +20,8 @@
 
 function ToDo () {
   // code here
+  this.description = description;
+  this.complete = false
 }
 
 /* 

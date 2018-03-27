@@ -1,4 +1,4 @@
-/* 
+﻿/* 
 Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files 
 in this folder, you are in the wrong place. 
 */
@@ -7,12 +7,47 @@ in this folder, you are in the wrong place.
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
-#exerciseOne {
+#exerciseOne 
+<html> 
+  <head>
+     <body>
+        <span id="exerciseOne"> exercise one</span> 
 
-}
+     </body>
+          <style>
+            <div> { display: block;
+                }
+            </div>
+            #exerciseOne {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            }     
+
+          </style>
+       
+     
+   </head>
+</html>
+
 
 
 /* Exercise Two: Positioning a Header Bar*/
+<html>
+  <head>
+    <body>
+      <h1 id="exerciseTwo">This is where the title of the lesson will go. Remove This.</h1>
+
+        <style>
+          #exerciseTwo{
+          display: none;
+          }
+       </style>
+    </body>
+  </head>
+
+ </html>
+
 
 /* Place code here */
 
@@ -20,24 +55,116 @@ in this folder, you are in the wrong place.
 
 /* Exercise Three: */
 
+<div id="moveBoxContainer">
+        <div id="targetContainer"></div>
+        <img id="exerciseThree" src="./assets/tiger.jpeg" />
+        <div id="descSpan">
+          <style>
+            #exerciseThree {
+              justify-content: center;
+            }
+          </style>
+
+        </div>
+      </div>
+    </div>
+    <div class="exerciseContainer">
+
 /* Place code here */
 
 
 
 /* Exercise Four: */
 
+<div id="exerciseFour">
+      <div id="exerciseFive">
+        <span>Pre-Course Lessons</span>
+        <img src="./assets/lambdawhite.png" />
+        <span>Lambda School</span>
+      </div>
+    </div>
+      <style>
+        #exerciseFour {
+          align-items: flex-start;
+          position: fixed;
+          top: 0;
+          left: 0;
+        }
+      </style>
+
+
 /* Place code here */
 
 
 
 /* Exercise Five */
-
 /* Place code here */
+ <div id="exerciseFive">
+        <span>Pre-Course Lessons</span>
+        <img src="./assets/lambdawhite.png" />
+        <span>Lambda School</span>
+      </div>
+    </div>
+    <div class="exerciseContainer">
+
+    <style>
+        #exerciseFive{
+            display: flex;
+            flex direction: column;
+            justify-content: space-around;
+            align-items: center:
+        }
+    
+    </style>
 
 
 
 /* Exercise Six */
+<div id="exerciseFive">
+        <span id= exerciseSix>Pre-Course Lessons</span>
+        <img src="./assets/lambdawhite.png" />
+        <span class= exerciseSix>Lambda School</span>
+      </div>
+    </div>
+    <div class="exerciseContainer">
+    <style>
+      #exerciseSix{
+        display: flex;
+        align-items: flex-end;
+  
+      }
+      .exerciseSix{
+        display:flex;
+        align-items: flex-start;
+        
+      }
+    </style>
 
-#exerciseSeven {
-  display: flex;
-}
+    /* Exercise Seven */
+
+    <div id="exerciseSeven">
+      <div id="itemOne" class="items"><span class="itemSpan">This element's id is "itemOne"</span></div>
+      <div id="itemTwo" class="items"><span class="itemSpan">This element's id is "itemTwo"</span></div>
+      <div id="itemThree" class="items"><span class="itemSpan">This element's id is "itemThree"</span></div>
+      <div id="itemFour" class="items"><span class="itemSpan">This element's id is "itemFour"</span></div>      
+    </div>
+    <div class="exerciseContainer">
+
+    <style>
+      #exerciseSeven {
+        border: 3px solid blue;
+        height: 100px;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+
+      }
+    
+      .items {
+        width: 60px;
+        height: 60px;
+        background-color:mediumspringgreen;
+        border: 1px solid red:
+
+      }
+    </style>
