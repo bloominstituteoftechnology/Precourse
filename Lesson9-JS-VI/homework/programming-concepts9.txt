@@ -1,0 +1,1 @@
+Callback Functions are just functions that you pass in as an argument to another function.  Functions are objects in Javascripts so you can pass functions as an argument just like strings and objects.  What happen is you invoke a function and then that function will invoke your callback function.  You only pass in the function's definition when pass in as a callback function.

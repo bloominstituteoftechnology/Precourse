@@ -1,0 +1,1 @@
+Arrays are like containers that can hold multiple items.  Lets say you have a book shelf.  The books are the items.  You can even have smaller book shelves in the book shelf, that is arrays inside of another array.  Arrays are index by numbers.

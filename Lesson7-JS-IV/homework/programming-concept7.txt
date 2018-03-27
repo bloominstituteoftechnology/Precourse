@@ -1,0 +1,9 @@
+Objects are property value pairs.  They can have methods as values also.  One example is a person object.  You see a person has properties of name and age.  The values are the name of the person and the name of the age.  A person can also have methods.  One example will be run method.  A person can run.
+
+Properties are the collections in an Object.  They are like variables that belong to an object.  A person has a name property and an age property.
+
+Methods are functions that belong to an object.  A person object can have a greet method which can take in arguments and perform a task.
+
+For in loops are just a way to iterate through and object's properties.
+
+Dot notation is a way to get the values of a property or a method.  Bracket notation is another way of getting values of a property or a method.  One difference is that dot notation can't have a - in the property name because it will be minus.  Another is that a number can't be the first character of the property name but both will work in bracket notation.
