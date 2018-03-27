@@ -1,0 +1,18 @@
+
+
+  h1 {color: purple;
+  }
+  img {width: 400px;
+  }
+
+   #thirdDiv {height: 600;
+    width: 500; padding: 50px;
+    background-color: red;
+    border-top: 2px solid black;
+  }
+
+  #spanId {
+    font-size: 18px;
+    margin: 50px;
+  }
+  
