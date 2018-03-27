@@ -1,0 +1,31 @@
+#main-content {
+    background-image: url('https://wallpapertag.com/wallpaper/full/8/f/a/265513-pure-black-wallpaper-1920x1080-for-full-hd.jpg');
+    background-repeat: repeat-x;
+}
+
+h1 {
+    color: purple;
+    border: 1px solid green;
+    clear: both;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: blanchedalmond;
+    padding: 50px;
+    border: 2px solid red;
+    margin: auto;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
