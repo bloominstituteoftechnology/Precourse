@@ -1,13 +1,13 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = "bloodhound" ;
+const newString = "bloodhound";
 
 //create a number variable, it an be any number
-const newNum = 45 ;
+const newNum = 45;
 
 //create a boolean variable
-const newBool lovesBloodhounds = true;
+const newBool = "lovesBloodhounds" = true;
 
 //solve the following math problem
 const newSubtract = 10 - 5 == 5;
@@ -26,34 +26,34 @@ const newModulo = 21 % 5 == 1 ;
 //Do not change any of the function names
 
 function returnString(str);{
-  const = str;
-  return str;
+  const strng = str;
+  return strng;
 }
   //simply return the string provided: str
 
 
 
 function add(x, y) { const sum = x + y;
-  return (x + y);
+  return sum;
   // x and y are numbers
   // add x and y together and return the value
   // code here
 }
 
 function subtract(x, y) { const difference = x-y;
-  return (x - y);
+  return difference;
   // subtract y from x and return the value
   // code here
 }
 
-function multiply(x, y) { const product = x 8 y;
-  return (x * y);
+function multiply(x, y) { const product = x * y;
+  return product;
   // multiply x by y and return the value
   // code here
 }
 
 function divide(x, y){ const solution = x / y;
-   return (x / y);
+   return solution;
   // divide x by y and return the value
   // code here
 }
@@ -68,7 +68,7 @@ function areEqual(x, y){ if (x = y){
   // return true if x and y are the same
   // otherwise return false
   // code here
-}
+
 
 function areSameLength(str1, str2) {
   if (str1.length == str2.length)
@@ -78,7 +78,7 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
 // code here
-}
+
 
 function lessThanNinety(num) { if (num < 90 )
   return true;
@@ -215,4 +215,5 @@ module.exports = {
   getGreeting,
   getRectangleArea,
   getTriangleArea,
-};
+}
+}
