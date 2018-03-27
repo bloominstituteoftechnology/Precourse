@@ -36,7 +36,7 @@ function ToDo (description) {
 // code here
 ToDo.prototype.completeToDo = function(){
   this.complete = true;
-}
+};
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -79,7 +79,7 @@ function buildToDos(toDos) {
   // code here
   let index = 0;
   const mapped = toDos.map((todo, index) => (buildToDo(todo, index)));
-  return mapped;
+  return mapped[index];
 }
 
 /* 
@@ -97,7 +97,7 @@ function buildToDos(toDos) {
 function displayToDos() {
   // code here
   let toDoContainer = document.querySelector('#toDoContainer');
-  toDoContainer.innerHTML = "";
+  toDoContainer.innerHTML = '';
   let arr = buildToDos(toDoItems);
   for (let i = 0; i < arr.length; i++) {
     toDoContainer.appendChild(arr[i]);
@@ -121,7 +121,7 @@ function addToDo() {
   let newToDo = document.querySelector('#toDoInput');
   newToDo = new ToDo(newToDo.value);
   toDoItems.push(newToDo);
-  newToDo.value = "";
+  newToDo.value = '';
   displayToDos();
 }
 
