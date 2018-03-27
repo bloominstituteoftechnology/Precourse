@@ -1,0 +1,14 @@
+For loops:
+In Javascript, code often runs on a loop, meaning it will go on indefinitely until something else tells it to stop. For is a way to define how many times a loop will run before it stops
+
+Logical Operators:
+There are a few ways to ask our code if what we have written is true or not, and these are called Logical Operators.
+
+&&:
+The double ampersand stands for "and" and it means that both statements on either side of && are true and the code will work. 
+
+||:
+Two vertical bars between two statements is a way to determine "or", meaning one or the other statement is true. When the code is run, it will check if one or both is true, and only one needs to be true to run the code. 
+
+!:
+An exclamation point is indicative of "not", meaning the two statements are not equal, and it will be false.

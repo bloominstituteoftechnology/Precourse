@@ -1,0 +1,2 @@
+Closure:
+Functions can exist within other functions, and a closure is one of those inner functions, which can access a variable from an outder function. 

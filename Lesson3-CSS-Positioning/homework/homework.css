@@ -7,37 +7,242 @@ in this folder, you are in the wrong place.
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
-#exerciseOne {
+<html>
+  <head>
+    <body>
+      <span id="exerciseOne">Exercise One</span>
+        <style>
+          div{
+            position: center;
+          }
 
-}
-
+          #exerciseOne{
+            display: block;
+            text-align: center;
+          }
+    </body>
+  </head>
+</html>
 
 /* Exercise Two: Positioning a Header Bar*/
 
-/* Place code here */
+<html>
+  <head>
+    <body>
+      <span id="exerciseTwo">This is where the title of the lesson will go. Remove This.</span>
+        <style>
+          div{
+            display: hidden;
+          }
+
+          #exerciseTwo{
+            display: none;
+          }
+        </style>
+    </body>
+  </head>
+</html>
 
 
 
 /* Exercise Three: */
 
-/* Place code here */
+<html>
+  <head>
+    <body>
+    <div id="moveBoxContainer">
+    <div id="targetContainer"></div>
+    <img id="exerciseThree" src="./assets/tiger.jpeg" />
+    <div id="descSpan">
+      <span>This is an image of an animal, you can see the animal here. There are lot of animals in the world, and this is one of them. I hope you enjoy this image of an animal!</span>
+        <style>
+        #moveBoxContainer {
+          width: 1000px;
+          height: 500px;
+          border: 5px solid #1970fc;
+          background-color: #bdd6fc;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 20px;
+          position: relative;
+        }
+        
+        #targetContainer {
+          width: 400px;
+          height: 300px;
+          border: 5px dashed red;
+          position: absolute;
+          top: 95px;
+          left: 195px;
+        }
+        
+        #descSpan {
+          position: absolute;
+          top: 100px;
+          left: 615px;
+          padding-right: 20px;
+          
+        }
+
+        #exerciseThree{
+          position: relative;
+          top: 100px;
+          left: 200px;
+        }
+        </style>
+     </div>
+     </div>
+    </body>
+  </head>
+</html>
 
 
 
 /* Exercise Four: */
 
-/* Place code here */
+<html>
+  <head>
+    <body>
+    <div id="exerciseFour">
+      <div id="exerciseFive">
+        <span>Pre-Course Lessons</span>
+        <img src="./assets/lambdawhite.png" />
+        <span>Lambda School</span>
+          <style>
+          #exerciseFour {
+            display: block;
+            width: 100vw;
+            height: 70px;
+            background-color: #1970fc;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+          }
+
+          #exerciseFive span {
+            font-size: 20px;
+            color: white;
+          }
+          
+          #exerciseFive {
+            height: 100%;
+            padding: 0 10px;
+          }
+          
+          </style>
+      </div>
+    </div>
+    </body>
+  </head>
+</html>
 
 
 
 /* Exercise Five */
 
-/* Place code here */
+<html>
+  <head>
+    <body>
+    <div id="exerciseFour">
+      <div id="exerciseFive">
+        <span>Pre-Course Lessons</span>
+        <img src="./assets/lambdawhite.png" />
+        <span>Lambda School</span>
+          <style>
+          #exerciseFour {
+            display: block;
+            width: 100vw;
+            height: 70px;
+            background-color: #1970fc;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+          }
+
+          #exerciseFive span {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+            color: white;
+            height: 100%;
+            padding: 0 10px;
+          }
+          
+          </style>
+      </div>
+    </div>
+    </body>
+  </head>
+</html>
 
 
 
 /* Exercise Six */
 
-#exerciseSeven {
-  display: flex;
-}
+<html>
+  <head>
+    <body>
+    <div id="exerciseFour">
+      <div id="exerciseFive">
+        <span>Lambda School</span>
+        <img src="./assets/lambdawhite.png" />
+        <span>Pre-Course Lessons</span>
+          <style>
+          #exerciseFour {
+            display: block;
+            width: 100vw;
+            height: 70px;
+            background-color: #1970fc;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+          }
+
+          #exerciseFive span {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+            color: white;
+            height: 100%;
+            padding: 0 10px;
+          }
+          
+          </style>
+      </div>
+    </div>
+    </body>
+  </head>
+</html>
+
+
+/* Exercise Seven */
+
+<html>
+  <head>
+    <body>
+      <div>
+        <div id="exerciseSeven">
+        <div id="itemOne" class="items"><span class="itemSpan">This element's id is "itemOne"</span></div>
+        <div id="itemTwo" class="items"><span class="itemSpan">This element's id is "itemTwo"</span></div>
+        <div id="itemThree" class="items"><span class="itemSpan">This element's id is "itemThree"</span></div>
+        <div id="itemFour" class="items"><span class="itemSpan">This element's id is "itemFour"</span></div>      
+          <style>
+
+            #exerciseSeven {
+              display: flex;
+              border: 3px grey;
+          
+            }
+      
+          </style>
+      </div>
+    </body>
+  </head>
+</html>
+
+
+

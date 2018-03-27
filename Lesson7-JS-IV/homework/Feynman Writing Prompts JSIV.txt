@@ -1,0 +1,14 @@
+Objects:
+Objects in Javascript are containers of different types of information that all relate back to what the Object is, for example, if we have an Object like me, Andrew, I can make the object contain information about myself, such as my age, height, or favorite anything! 
+
+Properties:
+Properties are the information, or values, that are contained inside of an Object, and they are what make an Object whole. Think of an Object like the Human body. What is it? Flesh, blood, organs...these are the properties of the Body that make up the Object. 
+
+Methods:
+Methods are Functions that exist within an Object, and therefor allow us to do something within the object, instead of just simply existing. 
+
+for in loop:
+A for in loop allows us to go over, or loop all of the Properties within an Object to help simplify code. 
+
+Dot Notation vs Bracket Notation:
+Dot notation is an incredibly useful way to access Properties within an object. Bracket Notation is a little more specific, it is used for strings and numbers. 

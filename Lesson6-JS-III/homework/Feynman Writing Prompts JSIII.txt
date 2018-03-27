@@ -1,0 +1,2 @@
+Arrays:
+An array is a list of values for use in a function. Arrays can be a little weird because the list starts with a 0, then 1,2,3,etc. This is called the index. 

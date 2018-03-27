@@ -1,0 +1,14 @@
+Variables:
+In Javascript, a variable could be anything, but it is narrow and specific enough that it can be defined. The point of a variable is to provide boundaries for something you would like to define, for example, the name of a city, or your favorite type of food. 
+
+Strings:
+A string is any line of code that exists within quotation marks, and acts as the answer to what your variable is. 
+
+Functions(Arguments, return):
+A function is code that takes what you write inside of it, and processes it, in order to produce an outcome. A function acts a lot like a math equation, and in fact it could very well be a math equation. An argument is a value that will be used in the way the function defines in order to "return" a result. 
+
+If statements:
+In functions, an if statement is something that says 'if this is true, then ___'. For example, you could write some code that asks what your age is in order to determine if you are old enough to buy alcohol. The code will be written to define 21 as the age where you can buy alcohol, and IF you input '21' or a larger number, then the function will successfully run. 
+
+Boolean values:
+Booleans are parts of code that are defined to be 'true' or 'false'. 
