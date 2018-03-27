@@ -1,0 +1,14 @@
+	* Objects
+Objects are collections of key value pairs.  In the real world, you might point at an object, and that object's name would be like the key.  The value then would be a way of describing what the object is or does.  So the key is like a noun, and the values are like  adjectives or verbs.
+
+	* Properties
+Properties are another way of referring to the individual key value pairs.  We use properties to describe the world around us all the time.  My car has the color of green. It currently has a speed of zero.  It's manufacturer name is "Ford."
+	* Methods
+Methods are the functions an object contains.  Behind the scenes, Javascript adds some methods to all the objects you work with, such as the toUpperCase method for strings which turns the characters into a string to upper case.  You can also add your own methods to your objects. A real world example might be that my car has a method of "start" which causes the engine to turn on, and a method called "brake" which slows the car.
+
+	* for in loop
+The for in loop is what you use when you want to do something to every item in an object. You need to use this rather than the regular for loop because the regular for loop is assuming that the list of items is organized by number, like an array. But an object isn't really structured like that.  Instead of numbers it has keys. So the loop takes each key in turn and performs a specified function on the key value pair.  When you set up the for in loop, the second word you type in the opening syntax (usually people just use key) represents the name of the key that the loop is presently working with.  You can use that to your advantage by using the word "key" in your function to refer to each specific item without typing out their full names.  "Key" takes the place of all of them.
+
+	* Dot notation vs bracket notation
+
+Dot notation is most useful for when you know the name of the key you want to access. You put the name of the object, then a dot, then the name of the key.  When you don't know the name, or you know the name of a variable of function which will evaluate to the key name, you use bracket notation. For example, in a for in loop, you might write object[key], with object being the name of the object and key changing on each iteration of the loop. If you used dot notation here, the computer would get confused because it would be looking for a key literally named "key."
