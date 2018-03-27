@@ -1,0 +1,2 @@
+array is a collection of data items of similar type.an array can be used to store a list of names,phone numbers,height of all people in a class,id numbers of people.data stored in the arrays can be manipulated,operations such as add,multiply etc can be performed on the data stored in an array,user defined operations can also be performed on the data.
+example:const studentsNames = ['Dan', 'Maria', 'Sara', 'Raj'];
