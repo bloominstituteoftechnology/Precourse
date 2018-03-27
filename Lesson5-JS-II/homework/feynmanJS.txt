@@ -1,0 +1,2 @@
+'for' = a loop, similar to a racetrack. You can go around the track a certain number of times completing the same action.
+'&&', '||', '!' = compare multiple things (conditions) to test whether they are true or false. If '&&' is used, all conditions must be true in order for the entire expression to be true, otherwise it will be false. If '||' is used, the entire expression will be true unless each condition is false. '!' tests whether a condition is 'not' something. It can also be used to flip a value, such as !true === false.
