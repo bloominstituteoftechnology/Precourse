@@ -1,0 +1,7 @@
+Writing Prompt Homework Lesson 5
+
+	* `for`
+A for loop is a way to do the same thing over and over a certain number of times.  We have to keep track of how many times we have already done something, and how many times we want to do it before we stop.  We write the for loop with three things.  The first is a counting variable, like a friend counting how many jumping jacks you've done. It usually starts at zero, but doesn't have to. The second is when we want to stop.  So if I told you to do 20 jumping jacks, this would be your stop condition. Finally we tell Javascript how much to count up by each time. If you were doing jumping jacks, you would want to count up by one after each one.
+	* `&&`, `||`, `!`
+
+	Sometimes we only want something to happen if two or more things are true.  We use && to link the things we want to be true before something happens.  || means "or", and only one of the things needs to be true to proceed.  ! means "not", and it means we don't want whatever comes after to be true.  For example, I might say I only want to say "hello" if the user has not entered a number.
