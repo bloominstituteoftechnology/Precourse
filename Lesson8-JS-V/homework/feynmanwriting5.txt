@@ -1,0 +1,6 @@
+constructor-
+consider an object describing a triangle, a unique id assigned to the triangle and its attributes-area,length of sides,angles.if there are hundreds of triangles,we have to create separate objects for each triangle.the process becomes time consuming and memory intensive.
+we can create a class of triangles and we can use constructors to create objects representing each triangle instead.the class contains the general attributes of a triangle.these attributes are keys,the values to the keys are assigned when a new constructor is created.
+prototype
+if we have to calculate area of each triangle,we have to write a function for each triangle separately.this is a memory intensive process.
+using prototype we can write a function to calculate area once and the function can be applied to all triangles to calculate the area.

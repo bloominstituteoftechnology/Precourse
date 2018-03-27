@@ -1,0 +1,5 @@
+callback function
+is a function which acts as a parameter to another function.consider a function which calculates volume of cuboid.
+volume of a cuboid depenends on the area of the base and height.in other words,volume is function of area of base and height.
+if lenght,width and height of cuboid are known. a function for calculating the  area of base can be written and this fuction can be used as a callback function for the volume function.
+volume of a pyramid with the same base area can be calculated by using the area function as callback function in the function used for calculating the volume of the pyramid.

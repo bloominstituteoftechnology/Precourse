@@ -1,0 +1,11 @@
+for loop-
+consider this example. Imagine you are climbing a building using a staircase. Floor numbers are mentioned in each floor.
+Everytime you arrive on a new floor, you check the floor number and if it's not fifty you continue climbing and you stop only after arriving at the fiftieth floor.
+similarly in a for loop, an end condition is mentioned and a certain operation is specified which has to be performed till the end condition is reached. The operation can be addition, multiplication or user defined. for loop can be applied for any operation.
+
+And condition-
+consider a water pipe, if two valves are added to a pipe Between the inlet and outlet , both the valves have to be open  for the water to flow.
+this condition is known as and condition.&&
+if the pipe splits into two smaller pipes between the inlet and outlet,and valves are added to the smaller pipes, only one of the two valves has to be open for the water to flow.
+this condition is known as OR condition.
+! Not condition -! Operator reverses the Boolean value, not operation is said to be performed when water flow is stopped by turning off the valve or when water flow resumes when the valve is turned on.not operation reverses the value of input or output.

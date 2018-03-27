@@ -1,0 +1,17 @@
+VARIABLES-a quantity/attribute/property which can change is known as a variable.for example,the amount of water in a overhead tank decreases when we open a tap connected to the tank and the amount of water in the tank increases when a pump is operated.hence,the amount of water in a tank is a variable.
+
+STRING-any sequence of characters is known as string.the charecters can be numbers,alphabets and special characters.example-"ascfmcvrk123@##"
+
+FUNCTION- is A section of a programme which performs a specific task such as
+adding numbers,calculating area of a rectangle.
+all functions have an inputs and an output.the inputs are known as parameters and are written in the brackets().
+example- consider a function which calculates the area of a rectangle.
+the lengths of any two adjacent sides of the rectangle are the inputs and the area is obtained by muliplying the lengths of the adjacent sides and is the output. 
+
+IF STATEMENT- is used in a programme to make  decisions.consider a hypothetical situation where jimmy wants to eat fruits,lets say 1 kg of apple costs 2$ and i kg of orange costs 1$.jimmy likes apples more than oranges.if jimmy has less than 2$ ,he buy oranges and if he has 2 $ or more,he buys apples.
+similarly in a computer programme a different output can be obtained for different conditions using the if statement
+ 
+BOOLEAN VALUES-
+imagine a planet where people have only 2 fingers instead of 10 and they cannot speak.they communicate by waving their appendages,waving of right appendages means yes and waving of left appendage is no.it is possible to translate english into this alien language by using a series of yes/no,true/false,1/0.
+consider an other situation,a person is paralysed and is unable to talk or move his body,he can only move his index finger.he has witnessed a murder and the police have to get his statement.the police can use the following method to find the murderer,
+the police point at an alphabet,the witness has to press a yes or no button.the police repeat the procedure till they get all the information that is needed.thus a series of yes/no can be translated into human language and vice-versa.the yes/no,true/false,1/0 are known as boolean values
