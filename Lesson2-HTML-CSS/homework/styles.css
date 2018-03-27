@@ -1,0 +1,29 @@
+
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+   
+}
+
+h1 {
+color:maroon;
+}
+
+img {
+    width:400px;
+}
+
+#thirdDiv{
+    height:600;
+    width:500;
+    background-color:beige;
+    padding:50px;
+    border:4px solid black;
+}
+
+#spanId {
+    font-size:18px;
+    margin:50px;
+}
