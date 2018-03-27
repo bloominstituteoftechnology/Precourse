@@ -60,7 +60,7 @@ function buildToDo(todo, index) {
   toDoText.id = index;
   toDoText.onclick = completeToDo;
   if(todo.complete === true){
-    toDoText.className = completeText;
+    toDoText.className = 'completeText';
   }
   toDoShell.appendChild(toDoText);
 
@@ -144,12 +144,12 @@ button.onclick = addToDo
           3.) In the 'buildToDo' function add a 'click' event listener to the 'toDoText' element, and pass this function as the callback.
 */
 
-function completeToDo(event) {
-  // UNCOMMENT THE NEXT LINE
+ function completeToDo(event) {
+  
    const index = event.target.id;
-  toDoItems[index].completeToDo;
-  displayTodos();
-}
+   toDoItems[index].completeToDo();
+    displayToDos();
+ }
 
 /* STEP 10: Make sure ALL tests pass */
 
