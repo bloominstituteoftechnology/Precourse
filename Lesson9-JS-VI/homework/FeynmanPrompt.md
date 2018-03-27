@@ -1,0 +1,1 @@
+- Callback Functions = Callback Functions in JavaScript are when you use one function as an argument for another function, which is very useful for manipulating data.
