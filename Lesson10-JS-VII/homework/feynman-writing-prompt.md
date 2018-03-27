@@ -1,10 +1,10 @@
-## Feynman Writing Prompts 
+# Feynman Writing Prompts 
 
 Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* Closure
 
-### What is Closure?
+## What is Closure?
 
 In order to talk about closure, we have to talk about scope first. Scope refers to the area where variables have meaning. Let's try to explain it this way:
 
@@ -40,7 +40,7 @@ To summarize this long-winded example, variables have an area which they are rel
 
 This behavior might seem unintuitive and weird at first, but it's actually a good thing, because truant variables can do bad things. They might end up in the wrong classroom and muck up the activities there. Or they might hang with a bad crowd, and peer pressured to do bad things like "count to infinity" or something. In other words, limiting the scope, which is the area in which they can be defined and accessed, reduces the possibility that variables might be inadvertently changed or reassigned somewhere else and break the whole program. 
 
-### Can we talk about Closure now?
+## Can we talk about Closure now?
 
 Yes, we can. Closure is just another discussion about scope, though now we forget the hallways of root scope and focus on the function itself.
 
