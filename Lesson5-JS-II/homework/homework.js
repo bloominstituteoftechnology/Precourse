@@ -14,6 +14,7 @@ function multiplyArguments() {
     }
     return product;
     } 
+  multiplyArguments();
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
