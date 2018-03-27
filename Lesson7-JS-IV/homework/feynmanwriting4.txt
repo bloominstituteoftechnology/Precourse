@@ -1,0 +1,18 @@
+objects are similar to arrays ,but the data is stored in key:value format. For example consider an object describing a triangle. Attributes of triangle are the keys and each triangle is unique and has unique values assigned to the keys.
+
+Keys of a triangle can be it's area, length of each side, each angle, etc.
+Const triangle = {
+area:'25';side1:' 7cm';angle1:'45';}
+;
+
+properties and attributes are the same. They are similar to variables.
+Methods- functions can be created within an object, these functions are known as methods.
+
+For in loop
+Dot notation versus bracket notation
+Data stored in an array can be manipulated by using a for loop. This cannot be done for the data stored in an object.
+For in loop is used for this purpose.
+
+Once we have key:value pairs we can access those values by calling the object name and the key. There are two different ways to do this, dot notation and bracket notation.
+
+With dot notation we can just call the object name, a dot, and the key name. Just as we call the .length property on an array (hint: the length property is a key:value pair):
