@@ -106,4 +106,6 @@ describe('isPrime(num)', function() {
     expect(isPrime(0)).toBe(false);
     expect(isPrime(1)).toBe(false);
   });
+
 });
+
