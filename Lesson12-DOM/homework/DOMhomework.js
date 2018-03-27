@@ -1,8 +1,7 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-
-// code here
+const toDoItems = [];
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -10,7 +9,8 @@
           add your name to the END of the current innerHTML.
 */
 
-// code here
+const dostuff = document.querySelector('createdBy');
+dostuff.append(' Max Washington');
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -19,7 +19,10 @@
 */
 
 function ToDo () {
-  // code here
+  function ToDo (discription){
+    this.discription = discription;
+    this.complete = false;
+}
 }
 
 /* 
@@ -28,8 +31,9 @@ function ToDo () {
           Inside the function set the ToDo's 'complete' property to true.
 */
 
-// code here
-
+ToDo.prototype.completeToDo = function(){
+  this.completeToDo = true;
+};
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
           the second is a numerical index.
@@ -46,8 +50,16 @@ function ToDo () {
             8.) return toDoShell
 */
 
-function buildToDo(todo, index) {
-  // code here
+function buildToDo(Todo, index) {
+  const toDoShell = document.createElement('div');
+  toDoShell.className = 'toDoShell';
+  const toDoText = document.createElement('span');
+  toDoText.className = 'toDoText';
+  if (ToDo.complete === true){
+    toDoText.className = 'completeText'
++   toDoShell.appendChild(toDoText);
+  }
+  return toDoShell;
 }
 
 /* 
@@ -57,7 +69,8 @@ function buildToDo(todo, index) {
 */
 
 function buildToDos(toDos) {
-  // code here
+const makeToDos = toDos.map(buildToDo);
+return makeToDos;
 }
 
 /* 
@@ -73,7 +86,11 @@ function buildToDos(toDos) {
 */
 
 function displayToDos() {
-  // code here
+  const toDoContainer = document.querySelector('#toDoContainer');
+  toDoContainer.innerHTML = '';
+  const arg = buildToDo(toDoItems)
+  arg.forEach(function(element){
+      toDoContainer.append(element)
 }
 
 /* 
@@ -90,6 +107,7 @@ function displayToDos() {
 
 function addToDo() {
   // code here
+  const add =
 }
 
 /* 
