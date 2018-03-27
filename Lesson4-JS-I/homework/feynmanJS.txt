@@ -1,0 +1,5 @@
+variables = similar to a box. you can put something inside the box to store it for later use.
+strings = any number of letters or characters written in between quote marks.
+functions (arguments, 'return') = reusable blocks of code. similar to a grammatical verb, or an action that can be taken. arguments are pieces of info from a user that can be used INSIDE the function. 'return' allows the function's value to be used or stored for future use instead of simply disappearing.
+'if' statements = checks a condition. if something is true, then do something else. if that thing is instead false, don't do anything further.
+boolean values ('true', 'false') = yes or no. 0 or 1. good or bad.
