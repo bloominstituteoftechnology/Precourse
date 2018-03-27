@@ -3,13 +3,15 @@
 */
 
 // code here
-
+let todoItems = []; 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
           add your name to the END of the current innerHTML.
 */
-
+let appText = document.querySelector('#createdBy').innerHTML;
+appText = appText + 'Dil';
+document.querySelector('#createdBy').innerHTML = appText;
 // code here
 
 /* 
@@ -18,8 +20,10 @@
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+function ToDo (description, complete) {
   // code here
+    this.description = description;
+  this.complete = false;
 }
 
 /* 
@@ -27,6 +31,9 @@ function ToDo () {
           It will not take any arguemnts. 
           Inside the function set the ToDo's 'complete' property to true.
 */
+ToDo.prototype.completeToDo = function(){
+  this.complete = true;
+};
 
 // code here
 
@@ -47,6 +54,17 @@ function ToDo () {
 */
 
 function buildToDo(todo, index) {
+  let toDoShell = document.createElement('div');
+  toDoShell.setAttribute('class', 'toDoShell');
+  let toDoText = document.createElement('span');
+  toDoText.setAttribute('id', index);
+  toDoText.innerHTML = todo.description;
+  if(todo.complete === true){
+    toDoText.setAttribute('class', 'completeText');
+  }
+  toDoShell.appendChild(toDoText);
+  return toDoShell;
+  
   // code here
 }
 
@@ -58,6 +76,8 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
+  const array = toDos.map(buildToDo);
+  return array;
 }
 
 /* 
@@ -74,6 +94,12 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
+  let toDoContainer = document.querySelector('#toDoContainer');
+  toDoContainer.innerHTML = '';
+  let newArray = buildToDos(todoItems);
+  newArray.forEach(function(item){
+    toDoContainer.appendChild(item);
+  });
 }
 
 /* 
@@ -90,6 +116,7 @@ function displayToDos() {
 
 function addToDo() {
   // code here
+  newToDo.value
 }
 
 /* 
@@ -99,7 +126,8 @@ function addToDo() {
 */
 
 // cod here
-
+let button = document.getElementById('addButton');
+button.addEventListener('click', addToDo());
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
             listener on the toDo element
