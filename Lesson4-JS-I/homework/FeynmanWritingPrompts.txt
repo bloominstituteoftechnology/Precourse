@@ -1,0 +1,40 @@
+A variable is a word that refers to a particular value.
+
+	var name = 'Pip';
+
+	name is the variable, so where ever the variable (name) is written, 'Pip' will be entered into that space.
+
+A Javascript string stores a series of characters like 'Sally Mae'.  A string can be any text inside a double or a single quote.
+
+A Javascript function is defined with the function keyword, folowed by a name, followed by parentheses ().  
+Functions names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+The code to executed by the function is placed in side curly brackets, {}.
+	
+	function name(parameter1, parameter2) {
+		code to be executed
+	}
+
+Function arguments are the real values passed to (and received by) the function.
+	
+	function logsHello(name) {
+		console.log('Hello, ' + name);
+	}
+	
+	logsHello('Dan');	'Dan' would be the argument.
+
+The return statement ends function execution and specifies a value to be returned to the function caller.
+	
+	function square (x) {
+		return x*x;
+	}
+	var demo = square (3);
+	//demo will equal 9
+
+The if statement is the fundamental control statement that allows Javascript to make decisions and execute statements conditonally.  
+
+If the resulting value is true, the given statement is executed.
+
+A Javascript Boolean represents one of two values: true or false.
+	Boolean (10>9) //return true
+	Boolean (1>9) //return false
+	
