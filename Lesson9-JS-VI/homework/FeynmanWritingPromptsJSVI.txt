@@ -1,0 +1,2 @@
+Callback Functions:
+Callbacks are a way to access previous functions so we have DRY(Don't Repeat Yourself) code. 

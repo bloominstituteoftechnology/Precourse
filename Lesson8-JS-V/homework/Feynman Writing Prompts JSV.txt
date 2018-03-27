@@ -1,0 +1,5 @@
+'prototype':
+.prototype is a way to access methods in a class without having to rewrite the code over and over again. 
+
+Constructors:
+Constructors are a special kind of function used to create objects inside of a class. 
