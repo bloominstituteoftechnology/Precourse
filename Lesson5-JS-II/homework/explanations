@@ -1,0 +1,6 @@
+You use "for" in javascript when you want the computer to run the same expression repeatedly. The computer will keep repeating your expression over and over until some condition is met. Like, for as long as a variable is less than 100, keep adding 1 to it. Either your initial number is 100 or over and it will never run, or your initial number is less than 100, and it will keep running over and over, adding 1 each time until it reaches 100. You can also create a for loop that runs infinitely by setting a condition that will always be true, like 1 > 0.
+
+&& and || are used when comparing two expressions. You use && when you want to determine whether both statements are true. This operator will return true if and only if BOTH statements are true. If one or the other is false, it will return false. You use || when you want to determine whether either of the two expressions are true. If either expression is true, it will return true. If BOTH expressions are false, it will return false.
+
+! means not. It does the opposite of whatever comes after it. So !false would mean not false. !== would mean not equal to.
+

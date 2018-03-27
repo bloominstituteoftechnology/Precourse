@@ -1,0 +1,5 @@
+prototype
+	A prototype is a scalable way to let every object contained in a class to run the same method. Otherwise, you'd have to write the method for each object, which might be ok if you only had 1 or 2 objects, but not if you had 100,000. Every class can have a prototype, and then you can use that prototype to run your method on every object in your class.
+
+constructors
+	A constructor is a blueprint for creating many objects that are related to one another. For example, if you wanted to gather information about your family, you could create a constructor called Family, and use it to collect the same information about everyone in your family, like their name, age, favorite color, etc. This way you only have to code it once, and then if you want to add someone to your Family class, you only need to add a line rather than a whole class function.
