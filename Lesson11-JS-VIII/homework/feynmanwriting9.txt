@@ -1,0 +1,2 @@
+recursion
+a function can be invoked inside another function.if the function is invoked within itself,the phenomenon is known as recursion.
