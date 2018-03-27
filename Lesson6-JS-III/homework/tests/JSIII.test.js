@@ -11,6 +11,8 @@ const {
   addNumbers,
   averageTestScore,
   largestNumber,
+  multiplyArguments
+
 } = require('../homework');
 
 describe('returnFirst(arr)', function() {
@@ -95,5 +97,20 @@ describe('largestNumber(numbers)', function() {
     expect(largestNumber([10, 10, 16, 12])).toBe(16);
     expect(largestNumber([97, 100, 80, 55, 72, 94])).toBe(100);
     expect(largestNumber([97, 10000, 80, 55, 7.2, -94])).toBe(10000);
+  });
+});
+
+describe('multiplyArguments()', function () {
+  it('should return the product of all the arguments', function () {
+    const product = multiplyArguments(5, 5);
+    const product2 = multiplyArguments();
+    const product3 = multiplyArguments(3, 3, 3, 3);
+    const product4 = multiplyArguments(1);
+    const product5 = multiplyArguments(10, 0, 10);
+    expect(product).toBe(25);
+    expect(product2).toBe(0);
+    expect(product3).toBe(81);
+    expect(product4).toBe(1);
+    expect(product5).toBe(0);
   });
 });
