@@ -1,0 +1,44 @@
+<!--
+body {
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 1em;
+}
+
+p, span {
+	margin: 2em;
+}
+
+div {
+	margin: 2em auto;
+}
+
+h1 {
+	color: teal;
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: gray;
+	padding: 50px;
+	border: 3px solid darkgray;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+-->
