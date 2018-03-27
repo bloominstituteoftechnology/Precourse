@@ -29,7 +29,7 @@ function addPrototypeMethod(Constructor) {
   {
     return 'Hello World!';
 
-  }
+  };
 
 }
 
@@ -42,7 +42,7 @@ function addReverseString() {
   String.prototype.reverse = function ()
   {
     return this.split('').reverse().join('');
-  }
+  };
 }
 
 // Do not modify code below this line.

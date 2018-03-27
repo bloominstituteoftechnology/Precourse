@@ -29,7 +29,7 @@ let newModulo = 21 % 5 === 1;
 function returnString(str) {
   //simply return the string provided: str
   return str;
-};
+}
 
 function add(x, y) {
   // x and y are numbers
@@ -172,7 +172,7 @@ function addExclamationPoint(str) {
   // 'hello world' -> 'hello world!'
   // code here
   return (str + '!');
-};
+}
   
 
 function combineNames(firstName, lastName) {
