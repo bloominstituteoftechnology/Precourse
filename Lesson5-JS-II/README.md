@@ -1,4 +1,4 @@
-# Lesson 5: Javascript II (Control Flow, Comparison Operators, `for` Loops)
+# Lesson 5: JavaScript II (Control Flow, Comparison Operators, `for` Loops)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
@@ -12,26 +12,26 @@ In this lesson we will cover:
 
 ## Undefined and Null
 
-There are a couple of Javascript objects that don't really fit into any type. Those are the values `undefined` and `null`. You will get `undefined` when you are looking for something that does not exist like a variable that does not have a value yet. `undefined` simply means what you are asking for does not exist. 
+There are a couple of JavaScript properties that don't really fit into any type. Those are the values `undefined` and `null`. You will get `undefined` when you are looking for something that does not exist, like a variable that does not have a value yet. `undefined` simply means what you are asking for does not exist. 
 
 ```javascript
-    console.log(unkownVar); // undefined
+    console.log(unknownVar); // undefined
 ```
 
-`null` is an object that we, the developers, set when we want to tell other developers that the item they are looking for exists, but there is no value associated with it. While `undefined` is set by the Javascript language, `null` is set by a developer. If you ever receive `null`, know that another developer set that value to `null`
+`null` is an property that we, the developers, set when we want to tell other developers that the item they are looking for exists, but there is no value associated with it. While `undefined` is set by the JavaScript language, `null` is set by a developer. If you ever receive `null`, know that another developer set that value to `null`
 
 ```javascript
     let phoneNumber = '123-456-7890';
     phoneNumber = null;
 
-    phoneNumer; // null
+    phoneNumber; // null
 ```
 
 One last thing to note, neither `undefined` nor `null` are strings, they are written just as they are with no quotes around them, like a boolean.
 
 ## Truthiness
 
-In these lessons we have talked a lot about the boolean values, `true` and `false`. When using an `if` statement or another statement that expects a boolean value (such as the `!`, NOT), and the expression given is not a boolean value, Javascript will do something called type coercion and transform whatever it is given to a boolean value. This is known as truthy and falsey. Every data type has a truthiness to it. Here are some examples:
+In these lessons we have talked a lot about the boolean values, `true` and `false`. When using an `if` statement or another statement that expects a boolean value (such as the `!`, NOT), and the expression given is not a boolean value, JavaScript will do something called type coercion and transform whatever it is given to a boolean value. This is known as truthy and falsey. Every data type has a truthiness to it. Here are some examples:
 
 ```javascript
     // items that are coerced to true
@@ -54,10 +54,10 @@ In these lessons we have talked a lot about the boolean values, `true` and `fals
 
 In the last lesson we touched on Comparison Operators, we will go a little more in depth as to how they work and then introduce a close relative of Comparison Operators, Logical Operators.
 
-In the last lesson we introduced our comparison operators, (`>` `>=` `<` `<=` `===` `!==`). These operators work just as they would in a math class, greater than, less than, etc. We use these operators to evaluate two expressions. As the computer runs the code the operator will return either a `true` (if the statement is true) or a `false`. 
+In the last lesson we introduced our Comparison Operators, (`>` `>=` `<` `<=` `===` `!==`). These operators work just as they would in a math class, greater than, less than, etc. We use these operators to evaluate two expressions. As the computer runs the code the operator will return either a `true` (if the statement is true) or a `false`. 
 
 ```javascript
-    1 > 2;     // alse
+    1 > 2;     // false
     2 < 3;     // true
     10 >= 10;  // true
     100 <= 1;  // false
@@ -108,7 +108,7 @@ To add on to `if`, we can also use the `else if` and `else` statements. These st
     }
 ```
 
-The `else` statement will always come at the end of an if-else `if` chain, and will act as a default. If none of the expressions returned `true`, the `else` code block will be run no matter what. If any of the previous `if` or `else if` expressions are `true`, the `else` statement code block will not be run.
+The `else` statement will always come at the end of an `if/else if` chain, and will act as a default. If none of the expressions returned `true`, the `else` code block will be run no matter what. If any of the previous `if` or `else if` expressions are `true`, the `else` statement code block will not be run.
 
 ```javascript
     if (false) {
@@ -122,7 +122,7 @@ The `else` statement will always come at the end of an if-else `if` chain, and w
 
 ## Logical Operators
 
-We can also combine two equality expressions and ask if either of the are true, both of them are true, or neither of them are true. To do this we will use Logical Operators.
+We can also combine two equality expressions and ask if either of them are true, both of them are true, or neither of them are true. To do this we will use Logical Operators.
 
 ### &&
 
@@ -140,7 +140,7 @@ The first logical operator we will look at is the "AND" operator. It is written 
 
 ### ||
 
-The next is the "OR" operator. It is written with two vertical bars (`||`). It will determine if one of the expressions is `true`. It will return `true` if one (or both) of the expressions is `true`. It will return `false` if BOTH expressions are `false`:
+The next logical operator is the "OR" operator. It is written with two vertical bars (`||`). It will determine if one of the expressions is `true`. It will return `true` if one (or both) of the expressions is `true`. It will return `false` if BOTH expressions are `false`:
 
 ```javascript
     if (100 > 10 || 10 === 10) {
@@ -181,9 +181,9 @@ A couple things to note about logical operators.
 
 ## for Loops
 
-Most software runs on loops, evaluating expressions over and over again until it either returns what we are looking for, or stops after a certain time. Javascript has two looping expressions built in to it and today we will look at the first one, the "for" loop. 
+Most software runs on loops, evaluating expressions over and over again until it either returns what we are looking for, or stops after a certain time. JavaScript has two looping expressions built into it and today we will look at the first one, the `for` loop. 
 
-`for` loops have a unique syntax, similar to the `if` statement, but slightly more complex. First we have the `for` keyword, followed by parentheses and then open and close braces. Within the parentheses we will need three things. First, we must declare a variable, this is what the loop will be looping over. Then we will have a conditional expression, the loop will continue happening until this statement is `false`. Third, we will increment our variable. All three of these statements are separated by a semi-colon.
+`for` loops have a unique syntax, similar to the `if` statement, but slightly more complex. First we have the `for` keyword, followed by parentheses and then open and close braces. Within the parentheses we will need three things. First, we must declare a `counter` variable, this is what keeps track of the number of times a loop is run. Then we will have a conditional expression, the loop will continue happening until this statement is `false`. Third, we will increment our variable. All three of these statements are separated by a semi-colon.
 
 ```javascript
     for (let i = 0     ; i < 10                 ; i++          ) {
@@ -196,18 +196,18 @@ In this example we see that we initially set our `counter` variable to 0, the lo
 
 ### The ++ operator
 
-We saw in the last two examples the `++` operator. This is Javascript shorthand for "Set the value of the variable to it's current value plus one". There are a few more of these variable math/assignment shorthand expressions, we will visit them in upcoming lessons.
+We saw in the last two examples the `++` operator. This is JavaScript shorthand for "Set the value of the variable to its current value plus one". There are a few more of these variable math/assignment shorthand expressions, we will visit them in upcoming lessons.
 
 ### Infinite Loops. 
 
-It is possible to get your loop stuck in what we call an "Infinite Loop". You must make sure there is a way for the loop to end, take for example this loop:
+It is possible to get your loop stuck in what we call an "Infinite Loop". You must make sure there is a way for the loop to end.  Take for example this loop:
 
 ```javascript
     for (let i = 0; i >= 0; i++) {
         console.log(i);
     }
 ```
-Because our conditional expression will ALWAS be `true` (`i` will never be less than 0) this loop will essentially run forever. This will break your program, and may crash your web browser, or computer.
+Because our conditional expression will ALWAYS be `true` (`i` will never be less than 0) this loop will essentially run forever. This will break your program, and may crash your web browser, or computer.
 
 ## Please open the homework folder and complete the assignment described in the README file
 

@@ -13,11 +13,11 @@ In this lesson we will cover:
 
 ## Introduction to HTML
 
-HTML is a core building block of the internet. Every single webpage on the internet is made up of HTML in it's most basic form. HTML stands for Hyper Text Markup Language. It is not a programming language, but a markup language meant to be interpreted by web browsers and the data presented in a graphical form. We will be learning about the basic HTML makeup of a webpage.
+HTML is a core building block of the internet. Every single webpage on the internet is made up of HTML in its most basic form. HTML stands for Hyper Text Markup Language. It is not a programming language, but a markup language meant to be interpreted by web browsers and the data presented in a graphical form. We will be learning about the basic HTML makeup of a webpage.
 
 ## Basic HTML elements
 
-HTML is a series of "elements" with information in between them. Each element is contained in <> brackets (we will refer to these as "tags") with information either presented inside of them or in between two bookend brackets. HTML tags MUST close by including a "/" at the beginning of the closing element (\</elementName>),  or before the close of the first element (\<elementName />):
+HTML is a series of "elements" with information in between them. Each element is contained in <> brackets (we will refer to these as "tags") with information either presented inside of them or in between two bookend tags. HTML tags MUST close by including a "/" at the beginning of the closing element (\</elementName>),  or before the close of the first element (\<elementName />):
 
 ```html
   <span>Information to be displayed</span>
@@ -30,7 +30,7 @@ The building block of the entire page, all of the other elements will be contain
 
 ### \<head>
 
-Data or elements within these tags will not render to the page but tells the browser what data it should load before rendering items to the page. Most notably it will contain the title of the page and any external javascript or CSS dependencies.
+Data or elements within these tags will not render to the page but tells the browser what data it should load before rendering items to the page. Most notably it will contain the title of the page and any external JavaScript or CSS dependencies.
 
 ### \<title>
 
@@ -57,7 +57,7 @@ As you can see when we add tags inside of other tags, best practice is to indent
 
 ### \<p>
 
-The p ("paragraph") element. Will render text to the screen on a new line.
+The p ("paragraph") element will render text to the screen on a new line.
 
 ```html
   <p>Here is a new Paragraph</p>
@@ -81,7 +81,7 @@ The a ("anchor") element, allows us to create links to other webpages (or even t
 
 ### \<h1> ... \<h6>
 
-These are header tags, there are intended to be used as a way to present the subject matter of the page. Like a newspaper headline. the larger numbers will represent smaller text. Imagine 1 is most important and 6 is least.
+These are header tags, there are intended to be used as a way to present the subject matter of the page. Like a newspaper headline. The larger numbers will represent smaller text. Imagine 1 is most important and 6 is least.
 
 ```html
   <h1>Most Important Headline!</h1>
@@ -99,7 +99,7 @@ This element will display an image on the screen. It will always have an 'src' f
 
 ### \<ul>
 
-This element represents an "unordered list" this is the parent element and will contain list items. There is also an ordered list, but is hardly ever used in modern web development.
+This element represents an "unordered list" - this is the parent element and will contain list items. There is also an ordered list, but is hardly ever used in modern web development.
 
 ### \<li>
 
@@ -146,15 +146,14 @@ Remember when we said that data we wanted the browser to consume before the page
 
 ### selectors
 
-In order for us to apply styling rules to html elements, we have to know which elements to apply the rules to, in come selectors. 
-You can select all elements of a certain type: p, div, body, etc. or you can apply a class or id to each individual element. We apply these selectors to the HTML tags themselves in the form of a flag:
+In order for us to apply styling rules to html elements, we have to know which elements to apply the rules to - in come selectors. You can select all elements of a certain type: p, div, body, etc., or you can apply a class or id to each individual element. We apply these selectors to the HTML tags themselves in the form of a flag:
 
 ```html
   <div id="divId"></div>
   <div class="divClass"></div>
 ```
 
-Ids: are titles that can only appear on a single element, think of it as you would your drivers license number ONLY you have that one number. 
+Ids: are titles that can only appear on a single element.  Think of it as you would your driver's license number; ONLY you have that one number. 
 
 Classes: on the other hand can apply to multiple elements. Think of it like a class room, usually you aren't the only person in a class, although you might be, the class is big enough for lots of people.
 
@@ -162,7 +161,7 @@ We do not need to add anything to use every element of a certain type as a selec
 
 ### Anatomy of styling rules
 
-Now that we have our selectors in place we need to tell the browser what to do with those selectors. Inside of our style tags, we will insert the rules. Classes will always begin with ".", and Ids will always begin with "#", elements will begin with neither and just have the element name. After the name of the selector we will use braces ("{}") to hold our rules to that one selector.
+Now that we have our selectors in place we need to tell the browser what to do with those selectors. Inside of our style tags, we will insert the rules. Classes will always begin with ".", and Ids will always begin with "#", elements will begin with neither and just have the element name. After the name of the selector we will use braces ("{}") to hold our rules for that one selector.
 
 ```html
   <style>
@@ -176,7 +175,7 @@ Now that we have our selectors in place we need to tell the browser what to do w
 
 ## Basic CSS styling
 
-Now that we have some HTML elements selected we can begin to add styling. There are a LOT of different ways you can style an object, you can control how big or small it is, what color it is, where it is placed on the screen, or even if it is visible or not. We will go over some of the most common styling properties and how to use them.
+Now that we have some HTML elements selected we can begin to add styling. There are a LOT of different ways you can style an object: you can control how big or small it is, what color it is, where it is placed on the screen, or even if it is visible or not. We will go over some of the most common styling properties and how to use them.
 
 ### Styling rules rules
 Styling rules will need to adhere to a certain syntax in our CSS so that the browser knows how to read them properly. Within the braces, we will then have the name of the property, a colon(":") and the value of the rule, this will be followed by a semicolon(";")
@@ -196,7 +195,7 @@ We can consider all html elements to be boxes, the make up of each box is the co
 
 ### height and width
 
-We can tell the browser exactly how wide and how tall we want our element(content) to be, this is used in divs, imgs, and other height based elements( in order to determine the size of text, we will need to use a different styling property ). Size values can be in lots of different measures, but the most common is the pixel "px".
+We can tell the browser exactly how wide and how tall we want our element(content) to be, this is used in divs, imgs, and other height-based elements (in order to determine the size of text, we will need to use a different styling property). Size values can be in lots of different measures, but the most common is the pixel "px".
 
 ```css
   div {
@@ -211,7 +210,7 @@ The margin is the transparent area around the element that you want to leave ope
 
 ### border
 
-Border will set a border around your element, you can determine the size color and style of the border. It will be set up in this order: width style color (a list of border styles can be found here: https://developer.mozilla.org/en-US/docs/Web/CSS/border). The border is outside the padding, but inside the margin.
+Border will set a border around your element.  You can determine the size, color, and style of the border. It will be set up in this order: width, style, color (a list of border styles can be found here: https://developer.mozilla.org/en-US/docs/Web/CSS/border). The border is outside the padding, but inside the margin.
 
 ```css
   div {
@@ -242,7 +241,7 @@ Knowing this will help us size and position our elements correctly.
 
 ### background
 
-Background can be set to a variety of rules, most common would be setting the background to a color or an image. Both are displayed below.
+Background can be set to a variety of rules, the most common being setting the background to a color or image. Both are displayed below.
 
 ```css
   .divClass {
@@ -259,7 +258,7 @@ Color is used for text only. It will set the color of your text
 
 ### font-size
 
-We cant use width or height for text, but we can determine the size of the font used. You can use any size unit here that you would use with a font in a word processor (px, em, in, etc) most popular is px
+We can't use width or height for text, but we can determine the size of the font used. You can use any size unit here that you would use with a font in a word processor (px, em, in, etc), most popular is px
 
 
 

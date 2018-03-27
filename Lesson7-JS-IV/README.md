@@ -1,4 +1,4 @@
-# Lesson 7: Javascript IV (Objects)
+# Lesson 7: JavaScript IV (Objects)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
@@ -7,7 +7,7 @@ In this lesson we will cover:
 * Methods
 * for...in Loops
 * The `this` Keyword
-* Objects in Javascript
+* Objects in JavaScript
 
 ## Introduction to Objects
 
@@ -19,13 +19,13 @@ In the last lesson we introduced Arrays. Arrays are containers that hold collect
 
 ### Key:Value pairs
 
-Unlike arrays that have index valued items, objects use a concept called key:value pairs. The key is the identifier and the value is the value we want to save to that key. The syntax is "key: value". Objects can hold many key:value pairs, they must be separated by a comma (no semi-colons inside of an object!). Keys are unique in an object, there can be only one key of that name. Although, multiple keys can have the same value. Values can be any Javascript type, string, number, boolean, array, function or even another object. In this demo we will create a user object.
+Unlike arrays that have index valued items, objects use a concept called key:value pairs. The key is the identifier and the value is the value we want to save to that key. The syntax is "key: value". Objects can hold many key:value pairs, but they must be separated by a comma (no semi-colons inside of an object!). Keys are unique in an object - there can be only one key of that name. Although, multiple keys can have the same value. Values can be any JavaScript type: string, number, boolean, array, function or even another object. In this demo we will create a user object.
 
 ```javascript
     const user = {
         username: 'dan.frehner',
         password: 'abc123',
-        lovesJavascript: true,
+        lovesJavaScript: true,
         favoriteNumber: 42,
     };
 ```
@@ -34,18 +34,18 @@ Unlike arrays that have index valued items, objects use a concept called key:val
 
 Once we have key:value pairs we can access those values by calling the object name and the key. There are two different ways to do this, dot notation and bracket notation. 
 
-With dot notation we can just call the object name, a dot, and the key name. Just as we call the `.length` property on an array (hint: the length property is a key:value pair):
+With dot notation we can just call the object name, a dot, and the key name. We have already seen this when accessing the `.length` property on an array (hint: the length property is part of a key:value pair):
 
 ```javascript
-    user.lovesJavascript; // true
+    user.lovesJavaScript; // true
     user.username;        // dan.frehner
 ```
 
-Bracket notation is just like calling an item on an array, although with brackets we MUST use a string or number, or variable pointing to a string or number. Each key can be called by wrapping it with quotes:
+Bracket notation is just like calling an item on an array, although with brackets we MUST use a string, number, or a variable pointing to a string or number. Each key can be called by wrapping it with quotes:
 
 ```javascript
     const passString = 'password';
-    user['lovesJavascript']; // true
+    user['lovesJavaScript']; // true
     user['username'];        // dan.frehner
     user[passString];        // abc123
 ```
@@ -61,7 +61,7 @@ Assigning values works just like accessing them. We can assign them, when we cre
         isNew: true,
     }
 
-    const loveJSString = 'lovesJavascript';
+    const loveJSString = 'lovesJavaScript';
 
     newUser.username = 'new.username';
     newUser['password'] = '12345';
@@ -84,7 +84,7 @@ It is rare we will see the use of the `delete` keyword, many find best practice 
 
 ## Methods
 
-In objects, values can be set to functions. Functions saved on an object are called methods. We have used plenty of methods so far throughout this course. `.length`, `.push`, `.pop`, etc, are all methods. We can set a key to a name, and the value to a function. Just like other times we call methods, we will call this method using dot notation and trailing parentheses (note: we can call a method with arguments just as we would a normal function):
+In objects, values can be set to functions. Functions saved on an object are called methods. We have used plenty of methods so far in this course. `.length`, `.push`, `.pop`, etc, are all methods. We can set a key to a name, and the value to a function. Just like other times we call methods, we will call this method using dot notation and trailing parentheses (note: we can call a method with arguments just as we would a normal function):
 
 ```javascript
     const newObject = {
@@ -98,13 +98,13 @@ In objects, values can be set to functions. Functions saved on an object are cal
 
 ## for...in Loops
 
-Sometimes we want to iterate over each key:value pair in our object. With arrays we used a standard for loop and an index number variable. Objects do not contain numerical indexes so the standard loop will not work for objects. Javascript has a second type of for loop built in called the "for...in" loop. It is slightly different syntax, it starts the same but in the parentheses we will declare a variable, the keyword `in`, and the name of the object. This will loop over each key in the object and finish when all of the keys have been iterated over. We can use this key, and bracket notation, in our for loop to access the value associated with that key.
+Sometimes we want to iterate over each key:value pair in our object. With arrays we used a standard for loop and an index number variable. Objects do not contain numerical indexes so the standard loop will not work for objects. JavaScript has a second type of for loop built in called the "for...in" loop. It is slightly different syntax, it starts the same but in the parentheses we will declare a variable, the keyword `in`, and the name of the object. This will loop over each key in the object and finish when all of the keys have been iterated over. We can use this key, and bracket notation, in our for loop to access the value associated with that key.
 
 ```javascript
     const user = {
         username: 'dan.frehner',
         password: 'abc123',
-        lovesJavascript: true,
+        lovesJavaScript: true,
         favoriteNumber: 42,
     };
 
@@ -117,7 +117,7 @@ Sometimes we want to iterate over each key:value pair in our object. With arrays
     // 'dan.frehner'
     // password
     // 'abc123'
-    // lovesJavascript
+    // lovesJavaScript
     // true
     // favoriteNumber
     // 42
@@ -131,21 +131,21 @@ Objects have a self referential keyword that may be applied in each object calle
     const user = {
         username: 'dan.frehner',
         password: 'abc123',
-        lovesJavascript: true,
+        lovesJavaScript: true,
         favoriteNumber: 42,
         userSaysHi: function(){
             console.log( this.username + ' says hi!');
         },
     };
 
-    user.usersaysHi(); // 'dan.frehner says hi!'
+    user.userSaysHi(); // 'dan.frehner says hi!'
 ```
 
-Note: the `this` keyword can sometimes be one of the more difficult topics in Javascript. We are using it very basically here, but the topic gets much more complex very soon. 
+Note: the `this` keyword can sometimes be one of the more difficult topics in JavaScript. We are using it very basically here, but the topic gets much more complex very soon. 
 
-## Objects in Javascript
+## Objects in JavaScript
 
-In this lesson we learned what Objects are and the many ways to access values, call methods, and assign values. Many of these techniques looked very familiar, as if we had used them in virtually every aspect of our learnings so far. There is a pattern here, that is because EVERYTHING in Javascript is an Object. Arrays are just objects with numerical keys, Strings are objects under the hood with built in methods, functions are actually objects with their own special properties, the entire Javascript runtime is an object (`window` in a browser, or `global` in Node.js). The more you work with Javascript the more this will start to make sense to you. Just remember, everything is an object. 
+In this lesson we learned what Objects are and the many ways to access values, call methods, and assign values. Many of these techniques looked very familiar, as if we had used them in virtually every aspect of our learnings so far. There is a pattern here, that is because EVERYTHING in JavaScript is an Object. Arrays are just objects with numerical keys, Strings are objects under the hood with built in methods, functions are actually objects with their own special properties.  The entire JavaScript runtime is an object (`window` in a browser, or `global` in Node.js). The more you work with JavaScript the more this will start to make sense to you. Just remember, everything is an object. 
 
 ## Please open the homework folder and complete the assignment described in the README file
 

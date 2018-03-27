@@ -1,4 +1,4 @@
-# Lesson 10: Javascript VII (Closure)
+# Lesson 10: JavaScript VII (Closure)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
@@ -37,7 +37,7 @@ We can pass functions into other functions (these are called callback functions)
     }
 
     foo(function() {
-        console.log('I am a callback function!');
+        console.log('I am a callback function!'); // 'I am a callback function!'
     });
 ```
 
@@ -54,9 +54,9 @@ And finally, we can return a function definition from a function:
     inner(); // logs 'hi'
 ```
 
-The function that retuns the new function is called a "Higher Order Function" or HOF.  The idea of closure is simply that `inner` that's defined up above is able to look back into `outer` for variables that it needs.  It's scope chain is going to look inside of `outer` before it looks at the global scope.
+The function that retuns the new function is called a "Higher Order Function" or HOF.  The idea of closure is simply that `inner` that's defined up above is able to look back into `outer` for variables that it needs.  Its scope chain is going to look inside of `outer` before it looks at the global scope.
 
-Here's another example:
+Here are another example:
 
 ```javascript
     function outer() {
@@ -85,7 +85,7 @@ This also applies to the function's parameters:
     const multiplyByFive = makeMultiplier(5);
     const product1 = multiplyByFive(10);
 
-    const multiplyByTwo = makeMultiplier(5);
+    const multiplyByTwo = makeMultiplier(2);
     const product2 = multiplyByTwo(7);
 
     console.log(product1); // logs 50
@@ -97,6 +97,6 @@ In the example above the `x` and the `y` are both set by their respective functi
 
 ## Additional Resources:
 
-* [Eloquent Javascript: Higher Order Functions](https://eloquentjavascript.net/05_higher_order.html)
+* [Eloquent JavaScript: Higher Order Functions](https://eloquentjavascript.net/05_higher_order.html)
 * [Understand Closures with Ease](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 * [MDN: Closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)

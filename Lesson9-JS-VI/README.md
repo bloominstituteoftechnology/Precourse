@@ -1,4 +1,4 @@
-# Lesson 9: Javascript VI (Callbacks)
+# Lesson 9: JavaScript VI (Callbacks)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
 In this lesson we will cover: 
@@ -8,7 +8,7 @@ In this lesson we will cover:
 
 ## Callbacks
 
-A very important concept in Javascript is the ability to pass a function as an arguments to another function. These functions are called `callbacks`. These functions can be called anytime and passed arguments within the function. We will soon discover why callbacks are so important to Javascript. Convention is to use the `cb` argument variable as your callback.
+A very important concept in JavaScript is the ability to pass a function as an arguments to another function. These functions are called `callbacks`. These functions can be called any time and passed arguments within the function. We will soon discover why callbacks are so important to JavaScript. Convention is to use the `cb` argument variable for your callback.
 
 ```javascript
     function saysHelloToUser(user) {
@@ -33,15 +33,20 @@ We already know about and use array methods, `.push`, `.pop`, `.shift`, `.unshif
 
 ### .forEach
 
-`.forEach` is a built in for loop on every array. `.forEach` takes a callback as its only argument, and iterates over every item in the array and calls the callback on it. The callback can take two arguments, the first is the item itself, the second is the index of the item, this argument is optional. 
+`.forEach` is a built-in for loop on every array. `.forEach` takes a callback as its only argument, iterates over every item in the array, and calls the callback on it. The callback can take two arguments - the first is the item itself and the second is the index of the item; this second argument is optional. 
 
 ```javascript
     const cars = ['Ford', 'Chevrolet', 'Toyota', 'Tesla'];
 
-    // We can write the callback function itself in the parentheses as an anonymous function
+    // We can write the callback function itself in the parentheses as an anonymous function.  An anonymous function is a function without a variable assigned to it.
     cars.forEach(function(item, index) {
-        console.log(item);
+        console.log(item); 
     });
+
+    // Ford
+    // Chevrolet
+    // Toyota
+    // Tesla
 
     // Or we can instantiate a function to be used as a callback.
     // Also, we do not need to use the index argument, if you don’t need it, feel free to leave it out.
@@ -49,13 +54,23 @@ We already know about and use array methods, `.push`, `.pop`, `.shift`, `.unshif
         console.log(item);
     }
 
+    // Ford
+    // Chevrolet
+    // Toyota
+    // Tesla
+
     // And call that function in the forEach parentheses
     cars.forEach(printNames);
+
+    // Ford
+    // Chevrolet
+    // Toyota
+    // Tesla
 ```
 
 ### .reduce
 
-`.reduce` will run a loop on our array with the intention of reducing each item into one item that is returned. As it's first argument it takes a callback that takes two arguments, first an 'accumulator' (the result of the reduce method until now), and the second is the item it is currently on. The callback must ALWAYS contain a return statement. Reduce also takes an optional second argument, which would be the starting accumulator. If the starting accumulator is not supplied reduce will start at the first item of the array. `.reduce` will always return the accumulator when it is done iterating through the items.
+`.reduce` will run a loop on our array with the intention of reducing each item into one item that is returned. As its first argument it takes a callback that takes two arguments, first an 'accumulator' (the result of the reduce method until now), and the second is the item it is currently on. The callback must ALWAYS contain a return statement. Reduce also takes an optional second argument, which would be the starting accumulator. If the starting accumulator is not supplied reduce will start at the first item of the array. `.reduce` will always return the accumulator when it is done iterating through the items.
 
 ```javascript
     const nums = [ 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -110,6 +125,6 @@ We already know about and use array methods, `.push`, `.pop`, `.shift`, `.unshif
 ## Additional Resources:
 
 * [Understanding Callback Functions and How to Use Them](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
-* [Eloquent Javascript: Higher Order Functions](https://eloquentjavascript.net/05_higher_order.html)
+* [Eloquent JavaScript: Higher Order Functions](https://eloquentjavascript.net/05_higher_order.html)
 * [MDN: Callback function](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 * [MDN: Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
