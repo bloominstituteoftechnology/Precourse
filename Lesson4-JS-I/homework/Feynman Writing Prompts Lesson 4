@@ -1,0 +1,19 @@
+
+
+
+Variables - variables simply hold data, similar to how a vault will hold items inside it. In order to be able to hold data inside a variable, you need to tell the computer that you are going to do just that. The way you let the computer know is by using one of 3 special keywords. var, let, const are the 3 keywords(special words) you use to let the computer know you are about to store something. For example, var = 'hello' .. in this example you are storing the string hello by first telling the computer you are going to store something with the keyword var, then storing the piece of data with an =(assignment operator), and finally writing the data you want it to hold. The var keyword is an old way of telling the computer you are going to store something. let and const are the newer and prefered ways of telling the computer. The difference of let and const is that const has more rules. When it comes to the old way var and the newer way let, you can change data once data has been stored, this is known as reasigning variables. You cannot do that with const. that is one of a few differences between them.
+
+
+Strings - strings are simply characters enclosed with quotes, the quotes can be 'single', "double", or even `back ticks` .. whatever is inside the quotes will be considered a string. It can be numbers, characters, symbols, etc.
+
+
+
+Functions (arguments, return) - functions are blocks of code, the blocks of code are surrounded by curley brackets{} .. same as variables, you first need to tell the computer you are about to write a block of code. you do that with the keyword function, once you write the keyword, you are going to follow that by paranthesis() and finally the curley braces{} where the block of code will go into. It will look like this function (placeholders) {code} .. the paranthesis will contain just that, placeholders, they are also special keywords that go inside the paranthesis and act as placeholders, so you can use those to do cool stuff when you run the block of code. They are also known as parameters, and whatever they get replaced by are called arguments. with functions, you cannot really get things directly out of it, to be able to get things out of it, you will need to use a special keyword called return. return will let you peek inside the function and extract what you want from it. 
+
+
+
+if statements - this is also known as control flow, it is basically saying, if this then that, if not something else. the way you write it is similar to a function, you first let the computer know that you are going to write a if statement with the keyword if, that is then followed by paranthesis(), and finally curley braces{}. insde the paranthesis you are going to have the first 'if this', then inside the curley braces you are going to the the 'then this', this will only happen if whatever you check is true. if it is not true, then it will move on to the 'then that'. you can keep going with this , like forks on the road, until something you check is true
+
+
+
+Boolean values (true, false) - this simply means what it says. true means true, and false means false. this is how you change the fork in the road, if something is true, then you will go one way, if something is false then you will go another way
