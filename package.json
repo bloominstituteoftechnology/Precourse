@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lambdaschool/precourse#readme",
   "devDependencies": {
+    "babel-eslint": "^8.2.2",
     "eslint": "^4.13.1",
     "jest": "^22.0.3"
   }
