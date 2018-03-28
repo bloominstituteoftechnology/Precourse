@@ -57,23 +57,15 @@ function buildToDo(todo, index) {
   // New 'div' element
   const toDoShell = document.createElement('div');
   toDoShell.setAttribute('class', 'toDoShell');
-  // New 'input' element
-  const toDoCheck = document.createElement('input');
-  toDoCheck.setAttribute('type', 'checkbox');
-  toDoCheck.setAttribute('id', index);
   // New 'span' element
   const toDoText = document.createElement('span');
   toDoText.innerHTML = todo.description;
-  // Mark complete styling
-  if (todo.complete === true) {
-    toDoCheck.setAttribute('checked', 'true');
-    toDoText.setAttribute('class', 'completeText');
-  }
-  // Append children `toDoCheck` & `toDoText' to 'toDoShell'
-  toDoShell.appendChild(toDoCheck);
+  toDoText.setAttribute('id', index);
+  if (todo.complete === true) {toDoText.setAttribute('class', 'completeText');}
+  // Append child `toDoText' to 'toDoShell'
   toDoShell.appendChild(toDoText);
   // Add event listener to mark item as done when clicked
-  toDoCheck.addEventListener('click', completeToDo);
+  toDoText.addEventListener('click', completeToDo);
   // return
   return toDoShell;
 }
@@ -122,10 +114,10 @@ function displayToDos() {
           4.) Call displayToDos to refresh the toDos displayed
 */
 
-const newToDo = document.querySelector('#toDoInput');
 
 function addToDo() {
   // code here
+  const newToDo = document.querySelector('#toDoInput');
   const itemToDo = new ToDo(newToDo.value);
   toDoItems.push(itemToDo);
   newToDo.value = '';
@@ -141,10 +133,6 @@ function addToDo() {
 // cod here
 const addButton = document.querySelector('#addButton');
 addButton.addEventListener('click', addToDo);
-// Clicking buttons are for suckahs. Pressing 'enter' is for winners.
-newToDo.addEventListener('keypress', (event) => {
-  if (event.keyCode === 13) {addToDo(event);}
-})
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
