@@ -1,0 +1,5 @@
+Objects -- allow us to give several characteristics about one object, like giving a cat a name, a color, and an age
+Properties -- the characteristics that we give to the object
+Methods -- a job that the object can do, like teaching a cat to meow when we tell it to
+for in loop -- allows us to go through every characteristic about an object
+Dot notation vs bracket notation -- dot notation is used when we know the name of a property, while bracket notation is used when we know have a variable instead of the key of a property
