@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #main-content {
     background-image: url('https://wallpapertag.com/wallpaper/full/8/f/a/265513-pure-black-wallpaper-1920x1080-for-full-hd.jpg');
     background-repeat: repeat-x;
@@ -29,3 +30,22 @@ img {
     display: flex;
     justify-content: center;
 }
+=======
+<!-- 
+    h1 {color:#40e0d0;}
+    img {width: 400px;}
+    .thirdDiv {
+        width: 500px;
+        height: 600px; 
+        background-color: red;
+        padding: 50px;
+        border: purple;
+        border-width: 100px;
+        
+    }
+    .spanId {
+        margin: 50px;
+
+    }
+     -->
+>>>>>>> 90ee89a2a70afd11bbbebf7b98d469585922df76
