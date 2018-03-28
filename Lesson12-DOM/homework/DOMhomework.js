@@ -77,7 +77,7 @@ function buildToDo(toDo, index) {
 
 toDoText.appendChild(toDoShell);
 
-//toDoText.onclick = completeToDo();
+toDoText.onclick = completeToDo();
 
 return toDoShell; 
 
@@ -178,7 +178,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   //const index = event.target.id;
   // code here
-  //toDoItems[index].completedToDo();
+  //toDoItems[index].completeToDo();
   //displayToDos(); 
   
 
