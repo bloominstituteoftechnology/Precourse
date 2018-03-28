@@ -1,43 +1,56 @@
-/* 
-Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files 
-in this folder, you are in the wrong place. 
+/*
+Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files
+in this folder, you are in the wrong place.
 */
 
 
 /* Exercise One: Centering the text in a span */
-
 /* We will start this one off for you: */
 #exerciseOne {
-
+ display: block;
+ text-align: center;
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
-
 /* Place code here */
-
+#exerciseTwo {
+ display: none;
+}
 
 
 /* Exercise Three: */
-
 /* Place code here */
-
+#exerciseThree {
+ position: absolute;
+ top: 100px;
+ left: 200px;
+}
 
 
 /* Exercise Four: */
-
 /* Place code here */
-
+#exerciseFour {
+ position: fixed;
+ top: 0px;
+ left: 0px;
+}
 
 
 /* Exercise Five */
-
 /* Place code here */
-
+#exerciseFive {
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: space-between;
+ align-items: center;
+}
 
 
 /* Exercise Six */
-
 #exerciseSeven {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
 }
