@@ -1,0 +1,11 @@
+1. Objects - Holds a lot of information about one thing. It is a container for named values called properties and methods.
+
+2. Properties - the key:values pairs in Javascript objects are called properties.
+
+3. Methods - Actions that can be performed on objects. (ex. .length, .push, .pop, etc.)
+
+4. "for...in" loop - Allows you to loop through the properties of an object.
+
+5. Dot notation vs bracket notation - Two different ways to access the values of the key:value pairs that are held in the object. 
+Dot notation uses the order of object name + "dot" + key name, while bracket notation uses object [ 'key' ]. 
+Major difference is that with bracket notation we must use a string, number, or variable pointing to a string or number. Keys must be wrapped in quote marks.
