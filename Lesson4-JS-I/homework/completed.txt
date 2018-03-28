@@ -1,0 +1,12 @@
+Variables: a container to hold whatever you want - words (strings), numbers, and even complex formulas.
+
+Strings: any number of letters and numbers - essentially, a short sentence
+
+Functions: a set of instructions that can use user-specified values (arguments) to make calculations and other repetitious 
+tasks simpler. You can also have the function return/display the result of the function and arguments that you gave it.
+
+'if' statements: this will check an argument to see if it is true or not, and will follow the instructions that you give
+depending on if the statements are true or not.
+
+Boolean values: these can either be true or false; you can use this to check math formulas that you write, and can also be 
+used to compare user-provided text to stored information.
