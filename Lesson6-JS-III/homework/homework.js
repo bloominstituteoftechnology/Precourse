@@ -1,60 +1,24 @@
 // Do not change any of the function names
 
-function returnFirst(arr) {
-  // return the first item from the array
-}
-
-function returnLast(arr) {
-  // return the last item of the array
-}
-
-function getArrayLength(arr) {
-  // return the length of the array
-}
-
-function incrementByOne(arr) {
-  // arr is an array of integers  
-  // increase each integer by one
-  // return the array
-}
-
-function addItemToArray(arr, item) {
-  // add the item to the end of the array
-  // return the array
-}
-
-function addItemToFront(arr, item) {
-  // add the item to the front of the array
-  // return the array
-  // hint: use the array method .unshift
-}
-
-function wordsToSentence(words) {
-  // words is an array of strings
-  // return a string that is all of the words concatenated together
-  // spaces need to be between each word
-  // example: ['Hello', 'world!'] -> 'Hello world!'
-}
-
-function contains(arr, item) {
-  // check to see if item is inside of arr
-  // return true if it is, otherwise return false
-}
-
-function addNumbers(numbers) {
-  // numbers is an array of integers.
-  // add all of the integers and return the value
-}
-
-function averageTestScore(testScores) {
-  // testScores is an array.  Iterate over testScores and compute the average.
-  // return the average
-}
-
-function largestNumber(numbers) {
-  // numbers is an array of integers
-  // return the largest integer
-}
+const returnFirst = (arr) => arr[0];
+const returnLast = (arr) => arr[arr.length - 1];
+const getArrayLength = (arr) => arr.length;
+const incrementByOne = (arr) => arr.map(x => ++x);
+const addItemToArray = (arr, item) => {
+  arr.push(item);
+  return arr;
+};
+const addItemToFront = (arr, item) => {
+  arr.unshift(item);
+  return arr;
+};
+const wordsToSentence = (words) => words.join(' ');
+const contains = (arr, item) => arr.includes(item);
+const addNumbers = (nums) => nums.reduce((a, b) => a + b);
+const averageTestScore = (testScores) => testScores.reduce((a, b) => a + b) / testScores.length;
+// const largestNumber = (nums) => nums.reduce((a, b) => a > b ? a : a = b);
+// const largestNumber = (nums) => nums.sort((a, b) => b - a)[0];
+const largestNumber = (nums) => Math.max(...nums);
 
 // Do not modify code below this line.
 // --------------------------------
