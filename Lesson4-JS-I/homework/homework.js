@@ -16,7 +16,7 @@ const newSubtract = 10 - 5 === 5;
 const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === 4 ;
+const newModulo = 21 % 5 === 1 ;
 
 
 
@@ -34,29 +34,25 @@ function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
-  num = x + y;
-  return num;
+  return x + y;
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-  num = x - y;
-  return num;
+  return x - y;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-  num = x * y;
-  return num;
+  return  x * y;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
-  num = x / y;
-  return num;
+  return x / y;
 }
 
 function areEqual(x, y) {
@@ -64,7 +60,7 @@ function areEqual(x, y) {
   // otherwise return false
   // code here
   if(x === y){
-    num = true;
+    return true;
   }
   return false;
 }
@@ -109,7 +105,7 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  if(num % num === 0) {
+  if(num % 2 === 0) {
   return true;
   }
   return false;
@@ -119,7 +115,7 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if(num % num === 1) {
+  if(num % 2 === 1) {
   return true;
   }
   return false;
@@ -174,7 +170,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return 'Hello ' + name + ' !';
+  return 'Hello ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas. 
