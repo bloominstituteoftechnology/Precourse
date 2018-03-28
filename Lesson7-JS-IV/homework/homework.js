@@ -44,7 +44,7 @@ function invokeMethod(object, method) {
 
 
 function multiplyMysteryNumberByFive(mysteryNumberObject){
-  mysteryNumberObject['mysteryNumber'] *= 5;
+  mysteryNumberObject.mysteryNumber *= 5;
   return mysteryNumberObject.mysteryNumber;
    }
 
@@ -88,13 +88,12 @@ function hasProperty(object, property) {
 //   // return true if the object has the value of the property argument
 //   // property is a string
 //   // otherwise return false
-return (object.hasOwnProperty(property));
-
+  if (object.hasOwnProperty(property)===property){
+    return true;
 }
-
-  //HEEEEELLLLPPPP!
-
-
+  else {
+    return false;
+}
 
 function verifyPassword(user, password) {
 //   // check to see if the provided password matches the password property on the user object
