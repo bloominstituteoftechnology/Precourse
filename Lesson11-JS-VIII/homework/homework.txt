@@ -1,0 +1,2 @@
+When recursing a function we are basically calling a function in itself using a limiter to not have an infinite loop.
+note that while interesting recursion is pretty expensive when it comes to ressources, so we should use it, if other loops don't suffice! (f.e. in decision trees or other tree-like structures)
