@@ -35,6 +35,19 @@ function nFibonacci(n) {
   return recurseFibonacci(n);
 }
 
+// A much better solution is this:
+
+// https://stackoverflow.com/questions/8845154/how-does-the-the-fibonacci-recursive-function-work
+// function nFibonacci(n) {
+//   // fibonacci sequence: 1 2 3 5 8 13 ...
+//   // return the nth number in the sequence
+//   if (n < 2) {
+//     return 1;
+//   } else {
+//     return nFibonacci(n - 1) + nFibonacci(n - 2);
+//   }
+//   }
+  
 // Do not modify code below this line.
 // --------------------------------
 

@@ -1,6 +1,6 @@
 ## What are arrays?
 
-Generally, we assign one 'thing', or value, to a variable, like a name, or a number, or simple operation. This is good a lot of the time, but sometimes we might have a list of names, or a bunch of numbers we want to add together. Typing all that every time you want a function to do operations on these values would be a bit too much. But even putting each value into a variable would be tiresome too:
+Generally, we assign one 'thing' to a variable, like a name, or a number, or simple operation. This is good a lot of the time, but sometimes we might have a list of names, or a bunch of numbers we want to add together. Typing all that every time you want a function to do operations on these values would be a bit too much. But even putting each value into a variable would be tiresome too:
 
 ```js
 let strA = "No";
