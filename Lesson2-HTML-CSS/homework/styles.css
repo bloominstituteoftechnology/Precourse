@@ -1,0 +1,13 @@
+body {}
+		h1 {color: tomato;}
+		img {width: 400px}
+		#thirdDiv {
+					height: 600px;
+					width: 500px;
+					background: gray;
+					padding: 50px;
+					border: 10px solid darkorchid;
+		}
+		#spanID {font-size: 18px;
+				margin: 50px;
+		}
