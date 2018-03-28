@@ -152,7 +152,7 @@ document.getElementById('addButton').addEventListener('click', addToDo());
 
 
 function completeToDo(event) {
-  // UNCOMMENT THE NEXT LINE
+ 
   const index = event.target.id;
   displayToDos();}
 
