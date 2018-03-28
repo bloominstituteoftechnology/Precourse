@@ -1,0 +1,32 @@
+<!--
+body {
+    background-image:url("DSC01554.JPG");
+    background-size:contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+h1 {
+    color: lightsalmon;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height:600px;
+    width:500px;
+    background:blueviolet;
+    padding:50px;
+    border-width:10px;
+    border-color: chartreuse;
+    border-style: double;
+}
+#spanID{
+    margin:18px;
+}
+-->
