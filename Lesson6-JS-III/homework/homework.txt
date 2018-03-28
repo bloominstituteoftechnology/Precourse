@@ -1,0 +1,2 @@
+Arrays are similar to variables. they are boxes in which we can put whatever we want. But, arrays are "bigger"! We can fit more than one thing into them. 
+And because we have to keep track, everything we put in there has a number, starting with number 0 for the first thing, 1 for the second etc.

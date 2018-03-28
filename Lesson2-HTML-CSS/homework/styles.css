@@ -1,0 +1,24 @@
+	body {
+		background: url(https://dzrlz2ysbzk1i.cloudfront.net/directblinds/media/direct-blinds/product%20images%20-%20lifestyles%20closeups%20swatches/vertical%20blinds/vertical%20swatches/ex-lite_light-grey.jpg?ext=.jpg);
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	#thirdDiv {
+		border: 5px solid fuchsia;
+		height: 700px;
+		width: 500px;
+		background: grey;
+		padding: 50px;
+	}
+	#spanId {
+		font-size: 18px;
+
+	}
+
+	h1{
+		color: red;
+	}
+	img {
+		width: 400px;
+	}

@@ -1,0 +1,9 @@
+Almost everything in java script is an object. Objects can be filled with so called keys that are paired with a value! For example you can have the key "name" and pair it with your name.
+
+Properties - or so called keys - are the first part of an entry in an object. Often it gives context to the value. 
+
+Methods are little "programs" within objects. In this case the key is the name of the program and the value dictates what the "program" does.
+
+A for in loop goes through an object key by key.
+
+Square bracket notation should always be used if a) the key name has a space or hyphen in it OR starts with a number or b) if the property name is determined dynamically (for example passed into a function)

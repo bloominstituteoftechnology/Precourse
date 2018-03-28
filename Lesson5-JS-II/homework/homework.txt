@@ -1,0 +1,5 @@
+A for loop is like a little helper that repeats a step as long as we tell it to. For example we could tell a for loop to repeat a given step 15 times, that is so we do not have to do it ourselves!
+
+We use && to tell the computer we want two things to be true. For example you like chocolate && you eat chocolate. That way we can define certain things to happen only if two things are happening instead of one. 
+Same goes for the ||, but in this case it is fine if only one of the two things is true. || stands for 'or'!
+The '!' on the other hand is used as 'not'. So it only does something if the things are not true!

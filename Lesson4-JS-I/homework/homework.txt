@@ -1,0 +1,11 @@
+Variables are like little boxes. First we have to tell the computer they are there but once we have done that we can have it fill them with whatever we want to put in. 
+The best thing about them, is that we can later change what is in it and - as long as we want to - the computer will remember what is in it!
+
+Strings are like normale sentences we use to speak. Except that they also can contain jibberish. The computer can't really understand them, so if we want to alter them or reuse them we have to help it with telling it how to do so.
+
+A function is always the part of something bigger. It is like power button on your gameboy. You give it a signal - or an input in case of a function - and it will in turn give you an output. 
+In case of your gameboy, the power button tells the rest of the gameboy to start.
+
+if statements are a lot like your mom. If you are allowed to eat chocolate, she will let you. If not she will prevent you from doing so. So if statements take care that something only happens, if a certain  condition is met!
+
+boolean values can only be one or the other. Either they are true, or they are false. They are often used to answer questions for our programs, so they know how to behave!

@@ -1,0 +1,4 @@
+A closure is created when we use a technique called "currying". Basically it is a meta-function creating other functions. 
+The closure contains the information passed into the meta-function and any other logic we define in it. It makes sure the generated function can still access that information even after the meta-function has run out. 
+
+Which is usually not possible - accessing something within the scope of a function after it has run.

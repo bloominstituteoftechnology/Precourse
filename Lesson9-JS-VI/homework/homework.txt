@@ -1,0 +1,3 @@
+Callback functions are an easy way to streamline the functions you set up. Instead of having to write the functions over and over again you simply define them once and then call them when you need them. 
+
+it is a bit like the functions we define to use with a callback function are just shells that will only be functional if used by our cb function (not really, but kind of)
