@@ -1,0 +1,34 @@
+
+h1 {
+  color: blue;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv  {
+  height:  500px;
+  width:   500px;
+  background:  grey;
+  padding:  50px;
+  border:  5px dotted black;
+}
+
+#spanId   {
+  font-size:  18px;
+  margin:     50px;
+}
+
+.flex-container  {
+  background-image:  url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/jPLiQ-9/mountains-background-for-titles-intro-projects-and-etc_ew22rur3l__F0000.png");
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#lastDiv  {
+  height:  100px;
+}
