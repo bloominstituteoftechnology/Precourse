@@ -156,7 +156,7 @@ function completeToDo(event) {
   const index = event.target.id;
   displayToDos();}
 
-/* STEP 10: Make sure ALL tests pass */
+/* STEP 10: Make sure ALL tests pass */ 
 
 
 // **********************************************EXTRA CREDIT:********************************************** //

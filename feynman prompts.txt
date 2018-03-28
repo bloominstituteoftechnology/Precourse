@@ -1,0 +1,32 @@
+//Feynman Prompts:
+Variables- Are something you are going to give a name to,
+to identify it for a later use.  Basically it means that 
+that a variable is going to represent something for later use.
+
+Strings- Are a set of characters or words in between quotations like " " or ' '
+
+Functions- are sort of equations, in which you put in variables and then 
+it runs that equation to get an output in the form of an action.
+
+if statements-are conditional statements that will execute a block of code if the statement is true.
+
+Boolean values- are a set of binary options, such as yes or no, true or false, and 1 or 0.
+
+for- since most software runs loops, we want them to keep running the function until we find the answer we need or make it
+stop when after a number of times. 
+
+&&, ||, !- && means that in order for a statement two be true, both arguments have to be true. || means all a it the program
+requires for the statement to be true is to fulfill one or the other argument. ! means the opposite is true. 
+
+Arrays- are a set of data. can be numbers or single strings. 
+
+classes- classes are objects that allow us to share similar properties with each other. 
+
+prototype- is a way for methods to be distributed to every object within a class
+
+callbacks- are functions that are passed into another function as an argument.
+
+closure- is an inner function that has access to the outer (enclosing) function’s variables and parameter. 
+
+recursion- Recursion is just like for or while loops, except the function calls on itself creating a loop, until we say to stop.
+to stop...this case being a false statement instead of a true statement like for loops.  
