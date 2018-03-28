@@ -1,0 +1,55 @@
+body {
+    /* Positioning */
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Fluffy Things */
+    font-family: 'Shrikhand', cursive;
+    background-image: url(./circles-light.png);
+    text-align: center;
+
+}
+
+h1 {
+    color: hotpink;
+}
+
+h4 {
+    color: #FF200F;
+    font-family: 'Faster One', cursive;
+    font-size: 2.5rem; 
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    /* Box Fluffing */
+    /* height: 600px; // Images spill forth */
+    height: auto;
+    width: 500px;
+    padding: 50px;
+    /* Fluffy Stuff */
+    border: 4px dotted skyblue;
+    background: lightsalmon;
+}
+
+#spanId {
+    
+    /* Box Fluffing */
+    margin: 50px;
+    padding: 1rem;
+    border-radius: 1rem;
+    /* Text Orientation & Style */
+    display: block;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Arial, SansSerif;
+    /* Fluffy Things */
+    color: #D40070;
+    background-color: rgba(151, 255, 169, 0.75);
+    
+}

@@ -1,3 +1,5 @@
+# 2 - HTML & CSS
+
 # Lesson 2: HTML/CSS fundamentals
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
@@ -14,6 +16,9 @@ In this lesson we will cover:
 ## Introduction to HTML
 
 HTML is a core building block of the internet. Every single webpage on the internet is made up of HTML in it's most basic form. HTML stands for Hyper Text Markup Language. It is not a programming language, but a markup language meant to be interpreted by web browsers and the data presented in a graphical form. We will be learning about the basic HTML makeup of a webpage.
+
+* You absolutely need to have HTML to have a web page. CSS & JS is not necessary.
+* When HTML was first conceived and developed, they envisioned web pages to have layouts similar to newspapers. So you have tags like `<p>` for paragraphs and `<h1>`
 
 ## Basic HTML elements
 
@@ -66,6 +71,7 @@ The p ("paragraph") element. Will render text to the screen on a new line.
 ### \<span>
 
 The span element is a generic text container. It does not create a new line like the p element does. This is primarily used for styling text.
+* Particularly, if text within another element needs to be styled differently, you can `<span>` it, and apply an ID, classes, or CSS styles directly to it.
 
 ### \<div>
 
@@ -79,16 +85,19 @@ The a ("anchor") element, allows us to create links to other webpages (or even t
   <a href="http://www.lambdaschool.com">Here is a link!</a>
 ```
 
+* The `href` is an attribute that has a value of the URL of the website the `<a>` tag will link to.
+
 ### \<h1> ... \<h6>
 
-These are header tags, there are intended to be used as a way to present the subject matter of the page. Like a newspaper headline. the larger numbers will represent smaller text. Imagine 1 is most important and 6 is least.
+These are header tags, there are intended to be used as a way to present the subject matter of the page. Like a newspaper headline, the larger numbers will represent smaller text. Imagine 1 is most important and 6 is least.
 
 ```html
   <h1>Most Important Headline!</h1>
   <h3>Sort of important headline.</h3>
   <h6>Least important headline.</h6>
 ```
-
+* They are important for something called SEO. They're not normally used for font size and emphasis, which is rather done in CSS.
+* 
 ### \<img>
 
 This element will display an image on the screen. It will always have an 'src' flag which points to the address of the image (kind of like the "href" flag in the "a" element). NOTE: img tags can be self closing, as in they do not need two tags. Simply put the / before the closing bracket in the first tag:
@@ -96,6 +105,8 @@ This element will display an image on the screen. It will always have an 'src' f
 ```html
   <img src="http://www.lambdaschool.com/imageurl.jpg" />
 ```
+
+* It is good practice to use the `alt` attribute and write a short description of the image, in case the image doesn't load or for screen readers.
 
 ### \<ul>
 
@@ -152,11 +163,26 @@ You can select all elements of a certain type: p, div, body, etc. or you can app
 ```html
   <div id="divId"></div>
   <div class="divClass"></div>
+  
+  // Remember you can declare multiple classes in the class attribute
+  <div class="divClass divClass2 divClass3"></div>
 ```
 
 Ids: are titles that can only appear on a single element, think of it as you would your drivers license number ONLY you have that one number. 
+* Select IDs in CSS with `#`
+```css
+#divID {
+  color: black;
+}
+```
 
 Classes: on the other hand can apply to multiple elements. Think of it like a class room, usually you aren't the only person in a class, although you might be, the class is big enough for lots of people.
+* Select classes with `.`
+```css
+.divClass {
+  background-color: white;
+}
+```
 
 We do not need to add anything to use every element of a certain type as a selector, CSS does that for us already. 
 
@@ -193,6 +219,7 @@ Styling rules will need to adhere to a certain syntax in our CSS so that the bro
 We can consider all html elements to be boxes, the make up of each box is the content, padding, border and margin. This is known as the Box Model.
 
 ![Image](./boxModel.gif)
+![boxModel.gif](\:storage\0.uakb6g5q5r.gif)
 
 ### height and width
 
@@ -266,6 +293,8 @@ We cant use width or height for text, but we can determine the size of the font 
 ## External Stylesheets and the \<link> element
 
 We have gone over how to use the \<style> html element. This is fine if you have a very small webpage and minimal styling, but most pages would start to feel cluttered very quickly if we included all of our CSS in the HTML. Thankfully we have a solution for that, external stylesheets and the \<link> element.
+
+* Discrete files for CSS (and JS) also enforces *separation of concerns*.
 
 An External style sheet is simply another file with the .css filetype on it. Conventionally this file is named something along the lines of "style.css". We can take all of the styling rules we wrote between the \<style> tags and transfer them directly to the css file. We do not need to include anything else, just the styling rules. 
 

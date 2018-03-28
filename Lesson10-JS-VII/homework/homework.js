@@ -5,6 +5,8 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
+  let counterVar = 1;
+  return () => { return counterVar++; };
 }
 
 function cacheFunction(cb) {
@@ -18,6 +20,18 @@ function cacheFunction(cb) {
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
+  let cacheObj = { 
+    func: undefined, 
+    argument: 0,
+    answer: 0, 
+  };
+  return function(number) {
+    if (cacheObj.func === cb && cacheObj.argument === number) {
+      return cacheObj.answer;
+    }
+    cacheObj = {func: cb, argument: number, answer: cb(number),};
+    return cacheObj.answer;
+  };
 }
 
 // Do not modify code below this line.

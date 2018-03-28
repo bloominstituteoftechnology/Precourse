@@ -6,7 +6,15 @@ In this lesson we will cover:
 * Callbacks
 * More Array Methods
 
+======
+
+When dealing with functions, the most important question you ask yourself is, "What are the inputs and outputs of this function?"
+
+======
+
 ## Callbacks
+
+(*You are well aware you can put a bunch of data types as arguments to a function, but you can also put functions as arguments to functions. See below.*)
 
 A very important concept in Javascript is the ability to pass a function as an arguments to another function. These functions are called `callbacks`. These functions can be called anytime and passed arguments within the function. We will soon discover why callbacks are so important to Javascript. Convention is to use the `cb` argument variable as your callback.
 
@@ -26,6 +34,10 @@ A very important concept in Javascript is the ability to pass a function as an a
     createGreeting('Dan', saysHelloToUser); // 'Hello Dan!'
     createGreeting('Dan', saysGoodbyeToUser); // 'Goodbye Dan!'
 ```
+
+(*Using callback functions can make your code 'DRY'er, as functionality from a few functions can be used repeatedly throughout the codebase. It's extensible, as it allows the use of combinations of functions to do work. It's crucial for asynchronous programming. It's also a tool used extensively in functional programming.*)
+
+(*They're also used in array methods described below.*)
 
 ## More Array Methods
 
