@@ -20,7 +20,7 @@ function cacheFunction(cb) {
   let cache = {};
 
   return function(arg) {
-    cb(arg);
+
 
     if (arg in cache) {
       return cache[arg];
@@ -28,8 +28,10 @@ function cacheFunction(cb) {
 
     else {
       cache[arg] = cb(arg);
-      return cb(arg);
+      return cache[arg];
     }
+
+     return cb(arg);
   };
   // use closure to create a cache for the cb function
   // the function that you return should accept a single argument and invoke cb with that argument
