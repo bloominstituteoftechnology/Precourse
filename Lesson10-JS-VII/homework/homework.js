@@ -18,7 +18,7 @@ function cacheFunction(cb) {
     }
     cache[input] = cb(input);
     return cache[input];
-  }
+  };
   // use closure to create a cache for the cb function
   // the function that you return should accept a single argument and invoke cb with that argument
   // when the function you return is invoked with an argument it should save that argument and its result

@@ -8,7 +8,7 @@ function createUserClass() {
     this.name = options.name;
   }
   User.prototype.sayHi = function() {
-    return "Hello, my name is " + this.name;
+    return 'Hello, my name is ' + this.name;
   };
 
   return User;
@@ -21,10 +21,10 @@ function createUserClass() {
 }
 
 function addPrototypeMethod(Constructor) {
-  	Constructor.prototype.sayHi = function() {
-  		return 'Hello World!';
-  	};
-    }	 
+  Constructor.prototype.sayHi = function() {
+  	return 'Hello World!';
+  };
+  }	 
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
 
