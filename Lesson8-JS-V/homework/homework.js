@@ -22,12 +22,11 @@ function createUserClass() {
 
 function addPrototypeMethod(Constructor) {
   Constructor.prototype.sayHi = function() {
-  	return 'Hello World!';
+    return 'Hello World!';
   };
-  }	 
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
-
+}
 
 function addReverseString() {
   String.prototype.reverse = function() {
