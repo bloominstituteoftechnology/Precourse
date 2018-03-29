@@ -1,0 +1,45 @@
+
+		body{
+    			background-image: url("https://www.pixeden.com/media/k2/galleries/165/001-subtle-light-pattern-background-texture-vol5.jpg");
+    			display: flex;
+    			flex-flow: column;
+			}
+
+		div {
+			margin: 10px auto;
+			}
+
+		h1  {
+				color: royalblue;
+			}
+
+		img {
+				width: 400px;
+				height: 50%;
+			}
+
+		#thirdDiv {
+				height: 600px;
+				width: 500px;
+				background-color: orange;
+				padding: 50px;
+				border-style: solid;
+				border-width: 40px;
+				border-color: gray;
+			}
+
+		#spanId {
+				font-size: 18px;
+				margin: 50px;
+			}
+
+		#myName {
+  				position: sticky;
+  				top: 0px;
+  				padding: 5px;
+  				background-color: lightgray;
+  				border: 3px dotted yellow;
+  				height: auto;
+  				width: 100%;
+  				text-align: center;
+		}
