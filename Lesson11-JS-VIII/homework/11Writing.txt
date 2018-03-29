@@ -1,0 +1,1 @@
+Recursion is a bit tricky but it is when a functions calls itself. 
