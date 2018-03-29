@@ -1,0 +1,31 @@
+h1 {
+    color: forestgreen;
+}
+img {
+    width: 400px;
+}
+#ThirdDiv {
+    height: 600px;
+    width: 500px;
+   background-color: red;
+   padding: 50px;
+   border: 10px solid green;
+   display: flex;
+   justify-content: center;
+}
+#spanID {
+    font-size: 18px;
+    margin: 50px;            
+}
+
+/* div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
