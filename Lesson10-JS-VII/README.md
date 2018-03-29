@@ -3,7 +3,7 @@
 
 In this lesson we will cover: 
 
-* Closure
+* Closure - Closures can access any of the variables or functions.
 
 ## Closure
 

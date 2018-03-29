@@ -3,7 +3,7 @@
 
 In this lesson we will cover: 
 
-* Recursion
+* Recursion - Recursion is another way to calculate a value without a loop.
 
 ## Recursion
 

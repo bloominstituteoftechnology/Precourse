@@ -1,0 +1,30 @@
+<!--
+    h1 {
+        color: rgb(139, 11, 11);
+		display: flex;
+		align-content: center;
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+    #thirdDiv {
+        height: 1800px;
+        width: 1500px;
+        padding: 50px;
+        border: 100px black;
+		background-color: green;
+    }
+    #spanId {
+        font-size: 18px;
+        margin: auto;
+    }
+    #divClass {
+        height: auto;
+        width: auto
+    }
+    #body {
+        background-size: auto;
+    }
+
+-->    
