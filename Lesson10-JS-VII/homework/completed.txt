@@ -1,0 +1,2 @@
+* Closure --- is where the function can use variables that aren't declared within the function; closely related to scope.
+The 'copy' of the function can be used outside the actual function as if it were a part of the function itself.
