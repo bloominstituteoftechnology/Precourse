@@ -2,18 +2,15 @@
 
 // solve these recursively
 
-let fact = 1;
-
 function nFactorial(n) {
   // return the factorial for n
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
   
   if (n < 1){
-    return fact;
+    return 1;
   }
-  fact = fact * n;
-  return nFactorial(n - 1);
+  return n * nFactorial(n-1);
 }
 
 function nFibonacci(n) {
