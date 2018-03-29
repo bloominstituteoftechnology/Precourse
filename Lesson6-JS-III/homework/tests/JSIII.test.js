@@ -12,6 +12,7 @@ const {
   averageTestScore,
   largestNumber,
   multiplyArguments
+
 } = require('../homework');
 
 describe('returnFirst(arr)', function() {
@@ -113,4 +114,3 @@ describe('multiplyArguments()', function () {
     expect(product5).toBe(0);
   });
 });
-
