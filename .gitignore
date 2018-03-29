@@ -60,4 +60,5 @@ typings/
 .DS_Store
 
 package-lock.json
-
+.vscode
+.gitignore
