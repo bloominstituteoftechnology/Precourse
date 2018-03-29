@@ -1,0 +1,1 @@
+Callback Functions -- these let us use functions (or jobs) as variables so that we can tell the program to do a different job depending on which job we want, without having to write out repeating code.
