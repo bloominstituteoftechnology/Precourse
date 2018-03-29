@@ -1,0 +1,1 @@
+Recursion -- when something refers to itself, it will create a loop called recursion. If I jump up every time I touch the ground, I will jump forever because I will always touch the ground after I jump.
