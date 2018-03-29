@@ -1,0 +1,3 @@
+* Callback Functions
+
+A callback function is a function that is passed to another function. The best analogy I can think of would be to think of a restaurant.  The head chef is like the top level function.  He gives the directions for each dish.  But the sous chef does the chopping on each dish. So the chef is performing a function, which depends on the sous chef also performing a function. So it is with callback functions.

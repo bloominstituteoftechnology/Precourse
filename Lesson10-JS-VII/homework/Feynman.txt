@@ -1,0 +1,3 @@
+*Closure
+
+Think of closure as the way Javascript makes little self contained worlds within functions.  Everything within a parent function can access the information in the parent function, but the parent function can't access information in its children.  It's like a Russian nesting doll, where each new doll uncovered can see the previous dolls, but doesn't know what the next doll is going to be or what the dolls in another nesting doll are.
