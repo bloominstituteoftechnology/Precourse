@@ -59,11 +59,12 @@ function buildToDo(todo, index) {
   let toDoText = document.createElement('span');
      toDoText.innerHTML = todo.description;
   toDoText.id = index;
- 
-    toDoText.onlclick = completeToDo;
   if(todo.complete === true){
     toDoText.setAttribute('class', 'completeText');
   }
+    
+ 
+    toDoText.onlclick = completeToDo;
   toDoShell.appendChild(toDoText);
   return toDoShell;
   
