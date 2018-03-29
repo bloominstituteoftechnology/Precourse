@@ -1,0 +1,6 @@
+1. 'for' -  Loops evaluate expressions over and over until it is meets criteria to stop. A 'for' loop is a particular type of loop. In parantheses, after the for keyword, you declare a variable, conditional expression that will stop the loop when no longer true, and a way to increment the variable.
+
+2. '&&', '||', '!' - These are all examples of Logical Operators. They allow us to combine two equality expressions to see if neither, either, or both of them are true.
+                        Specifically '&&' is the AND operator and as the name implies evaluates if expression 1 AND expression 2 are true in which case it will return true.
+                        '||' is the OR operator and will return true if expression 1 OR expression 2 (or both) are true.
+                        '!' is the NOT operator. It will return the opposite boolean value (true or false) of what is passed to it. So if the expression is true, the NOT operator will return false and vice-versa.

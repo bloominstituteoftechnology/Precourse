@@ -1,0 +1,9 @@
+1. Variable - A keyword that you can assign a certain value to.
+
+2. Strings - Characters/text with defined quotes around them.
+
+3. Functions - Functions allow you to compute and/or change the variables.
+
+4. 'if' statements - This is the process of setting values to return a true or false value if certain criteria are met. (ex. if 1 is greater than 0 return true, if not false).
+
+5. Boolean values - One of two choices. In Javascript booleans are used to mean true or false.

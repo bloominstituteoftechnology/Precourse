@@ -1,0 +1,1 @@
+1. Arrays -  They can be thought of as containers that can hold collections of data for when you want a variable to point to a collection of data rather than a single data point. 

@@ -1,0 +1,1 @@
+1. Recursion - A function that calls itself. Helps to solve certain problems that may  be easier to solve with recursion than for loops. These may be problems that need you to process several branches or repeat a particular task (ie. multiplication in a factorial or calculating a fibonacci sequence.)

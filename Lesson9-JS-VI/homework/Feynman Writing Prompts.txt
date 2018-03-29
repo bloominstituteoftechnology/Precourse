@@ -1,0 +1,2 @@
+1. Callback Functions -In Javascript these are the ability to pass a function as an argument to another function. Callback functions are generally prompted by a particular event or criteria. The callback also allows for multiple orders to be taken in parallell or at the same time.
+
