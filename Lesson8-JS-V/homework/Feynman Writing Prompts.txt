@@ -1,0 +1,3 @@
+1. 'prototype' - This allows you to add new properties and methods to constructors. It is the unique way of setting up a method once and giving every object of that class access to those methods. 
+
+2. Constructors - When creating a single object is limited, constructors let you create a template of many objects of the same "type". The objects may share some of the same properties and/or methods. Constructors can also be thought of classes.
