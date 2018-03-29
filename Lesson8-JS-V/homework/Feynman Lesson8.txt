@@ -1,0 +1,2 @@
+prototype -- this is like having one instruction manual that many people can look at to do a job, rather than printing out new instructions for every person hired
+Constructors -- constructors are like an outline for what properties a new object will have. All cats have a color, age, and weight, so their constructor would as well

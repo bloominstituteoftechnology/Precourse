@@ -1,0 +1,1 @@
+Arrays -- one word that contains a list of things, like how a bunch of food could be part of one grocery list.

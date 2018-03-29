@@ -1,0 +1,1 @@
+Closure -- when one function is contained inside of another function, the innermost function can access the variables and data of the outermost function, and remember those values when the inner function is called.

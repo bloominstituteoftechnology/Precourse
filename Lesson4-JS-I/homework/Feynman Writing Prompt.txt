@@ -1,0 +1,5 @@
+Variables -- These allow us to name an object that will have changing words, numbers, or other attributes
+Strings -- a bunch of combinbed letters or numbers to make up a word or sentence.
+Functions (arguments, return) -- allow us to tell a variable how to change 
+if statements -- allow us to choose how to change a variable based on what we are given in the function
+Boolean values (true, false) -- tell us if a statement is correct or incorrect

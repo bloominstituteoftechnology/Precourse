@@ -1,0 +1,4 @@
+for -- does something over and over until it is stopped
+&& -- checks to make sure two things are true
+|| -- checks to make sure one of two things are true
+! -- makes something that is true false, and something that is false true.
