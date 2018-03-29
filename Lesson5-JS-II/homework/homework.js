@@ -1,23 +1,4 @@
 // Do not change any of the function names
-
-function multiplyArguments() {
-  var p = 1;
-	if (arguments.length === 0) {
-		return 0;
-	} else if (arguments.length === 1) {
-		return arguments[0];
-	}
-
-	for (var i = 0; i < arguments.length; i++) {
-	p *= arguments[i];
-	}
-	return p;
-
-  // use the arguments keyword to multiply all of the arguments together and return the product
-  // if no arguments are passed in return 0
-  // if one argument is passed in just return it
-}
-
 function getBiggest(x, y) {
   if (x === y) {
     return x;
@@ -130,7 +111,6 @@ function isPrime(num) {
 // --------------------------------
 
 module.exports = {
-  multiplyArguments,
   getBiggest,
   greeting,
   isTenOrFive,
