@@ -1,0 +1,8 @@
+Writing Prompt Lesson 6
+
+Arrays are containers used to display multiple items. 
+If we wanted to list the funniest kids in class we would use an Arrays
+Let Kids = ['Johnny', 'Linda', 'Brian', 'Jacob']
+The starting values for the items in the array start at 0
+If we wanted to refer to Brian, he would be #2
+The name of the array is 'Kids' and Brian is in the 3rd spot but he is the 2nd item.
