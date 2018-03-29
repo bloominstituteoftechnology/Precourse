@@ -97,18 +97,14 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  if (num === 0 || num === 1) {
-    return false;
-  }
-
-  for (let i = 2; i <= num; i++) {
-    if (num % i === 0 && i !== num) {
-      return false;
-    } else {
-      return true;
+  for(var i = 2; i < value; i++) {
+    if(value % i === 0) {
+        return false;
     }
-  }
 }
+return value > 1;
+}
+isPrime(5)
 
 
 
