@@ -1,0 +1,32 @@
+
+        
+            
+            h1 {
+
+                color: darkcyan;
+            }
+            
+            img {
+
+                width: 400px;
+                }
+
+            #thirdDiv {
+
+                height: 700px;
+                width: 500px;
+                background: rgb(70, 29, 29);
+                padding: 50px; 
+                border: 10px solid rgb(160, 2, 2);
+
+            }
+
+            #spanId  {
+
+                font-size: 18px;
+                margin: 50px;
+            }
+            
+            
+        
+       
