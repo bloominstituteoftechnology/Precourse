@@ -1,0 +1,9 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	`for`: for keyword allows us to do a loop until certain conditions are met to make the statement false. With the for statement we can run a line of code again and again while evaluating as we go and stopping at a given point. 
+
+	`&&`: this is an AND operator which means that both statements have to be true and valid for the code to run. 
+    
+    `||`: this is an OR operator which means that only one statement needs to be tru to run the code. In this way you can have a true statement and a false statement and still run the code. If both statements are false then a different code will run. 
+    
+    `!`: this is a NOT operator which means that you are looking for the opposite of whatever follows. !=1 means not equal to 1. 
