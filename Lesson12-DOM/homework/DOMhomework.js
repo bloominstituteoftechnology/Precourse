@@ -59,12 +59,13 @@ function buildToDo(todo, index) {
   let toDoShell = document.createElement('div');
   toDoShell.classList.add('toDoShell');
   let toDoText = document.createElement('span');
-  toDoText.innerHTML += todo.description;
+  toDoText.innerHTML = todo.description;
   toDoText.id = index;
+  toDoText.addEventListener('click', completeToDo);
   if (todo.complete){
      toDoText.classList.add('completeText');
   } else {
-     toDoText.appendChild(toDoShell);
+     toDoShell.appendChild(toDoText);
   }
   return toDoShell;
 } 
@@ -152,7 +153,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   const index = event.target.id;
   // // code here
-  toDoItems[index].completeToDo();
+  toDoItems[index].event;
    displayToDos();
 }
 
