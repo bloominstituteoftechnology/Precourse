@@ -13,7 +13,8 @@ const toDoItems = [];
 // code here
 
 
-document.querySelector('#createdBy').innerHTML += ' Diego';
+ document.querySelector('#createdBy').innerHTML += ' Diego';
+
 
 
 
@@ -60,24 +61,25 @@ function buildToDo(toDo, index) {
   // code here
  const toDoShell = document.createElement('div');
   
- toDoShell.className = 'toDoShell';
+ toDoShell.setAttribute('class', 'toDoShell');
 
  const toDoText = document.createElement('span');
 
 
  toDoText.innerHTML = toDo.description; 
 
- toDoText.id = index; 
+ toDoText.setAttribute('id', index);
 
  
+ toDoText.addEventListener('click', completeToDo);
 
- if (toDo.complete === true){
+ if (toDo.complete){
    toDoText.class = 'completeText'
  }
 
-toDoText.appendChild(toDoShell);
+toDoShell.appendChild(toDoText);
 
-toDoText.onclick = completeToDo();
+
 
 return toDoShell; 
 
@@ -114,11 +116,12 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
-var toDoContainer = document.getElementById('toDoContainer');
+const toDoContainer = document.getElementById('toDoContainer');
 toDoContainer.innerHTML = ''; 
 
+const btdArray = buildToDos(toDoItems);
 
-for (let i = 0; i < buildToDos(toDoItems).length; i++){
+for (let i = 0; i < toDoItems.length; i++){
     toDoContainer.appendChild(btdArray[i]); 
 }
 
@@ -140,13 +143,13 @@ for (let i = 0; i < buildToDos(toDoItems).length; i++){
 function addToDo() {
   // code here
 
- let newToDo = ToDo(document.getElementById('toDoInput'.value));
+ let newToDo = new ToDo(document.getElementById('toDoInput').value);
 
  toDoItems.push(newToDo); 
 
- newToDo = ''; 
+ document.getElementById('toDoInput').value = ''; 
 
- displayToDos; 
+ displayToDos(); 
 
 
 }
@@ -158,7 +161,7 @@ function addToDo() {
 */
 
 // code here
-document.getElementById('addButton').onclick = addToDo;
+document.getElementById('addButton').addEventListener('click', addToDo);
 
 
 /* 
@@ -176,10 +179,10 @@ document.getElementById('addButton').onclick = addToDo;
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  //const index = event.target.id;
+  const index = event.target.id;
   // code here
-  //toDoItems[index].completeToDo();
-  //displayToDos(); 
+  toDoItems[index].completeToDo();
+  displayToDos(); 
   
 
 }
