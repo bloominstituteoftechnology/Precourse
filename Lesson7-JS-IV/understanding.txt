@@ -1,0 +1,26 @@
+==> Objects: 
+    Are a collection of properties. Properties Are
+    associations between keys and values. A name can be a 
+    referred to as a key. the value of the properties can be
+    a function and when a function is used as the value of the 
+    property then it is called a method.
+
+==> Properties: 
+    Are attributes of objects and they define the characteristics of that 
+    object and to change the characteristics you just change the values 
+    of it's properties.
+
+==> Methods:
+    Are actions that can be performed on objects and are properties with 
+    a fuction definition.
+
+==> for in loop: 
+    Is a statement looping through properties of an object, basically going 
+    through all the properties seeing if the condition set is present 
+    and is executed for each property.
+
+==> Dot notation vs bracket notation:
+    Dot notation is faster to write and clearer to read.
+    
+    Square bracket notation allows accessto properties containing special 
+    characters and selection of properties using variables.

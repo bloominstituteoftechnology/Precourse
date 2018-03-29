@@ -1,0 +1,67 @@
+body { 
+	background-image: 
+    	linear-gradient(
+      	rgba(0, 0, 0, 0.5),
+      	rgba(0, 0, 0, 0.5)
+    ),
+    url("http://cognitive-edge.com/wp-content/uploads/2017/01/londonA6.jpg"); 
+}
+
+h1 { 
+	color: aquamarine; 
+}
+
+.divClass { 
+	text-align: center; 
+	color: white;
+}
+
+#thirdDiv { 
+		height: 600px; 
+		width: 478px; 
+		padding: 51px; 
+		background-color: white; 
+		margin-left: 390px; 
+		margin-top: 15px;
+}
+
+li { 
+	list-style-type: none; 
+	color: black; 
+	font-size: 25px;
+}
+
+img { 
+	width: 400px; 
+}
+a { 
+	color: white; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	color: yellow; 
+}
+
+#spanId { 
+	margin: 50px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

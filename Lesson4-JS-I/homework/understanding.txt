@@ -1,0 +1,61 @@
+Feyman Writing Prompts
+
+Variables: A container for storing data values.
+
+	   Variables:
+	   ==> the way a variables works Is that you use a letter or a word 
+	   ==> to name it and set it equal to a value. So what you do is say 
+	   ==> var, let or, const then the letter or word and then equal sign
+	   ==> and, after the equal sign you put its value, like a string which is some words
+	   ==> inside of these (" ") or you can use boolean values after the equal 
+	   ==> sign and just say true or false which are boolean values, and also numbers
+	   ==> can be placed after the equal sign. These are the most common that I have seen 
+	   ==> although there is undefined & null. So bascially a Variable is where you store the 
+	   ==> value you give it after the equal sign and whenever you want to grab that value all
+	   ==> you have to do is say the variable inside this ==> console.log() yes inside the brackets.
+
+
+	   Strings: 
+	   ==> A string stores a series of characters and it can be any text inside single or double quotes.
+	   ==> They are also zero indexed which means at the beginning it starts with zero(0) instead of
+	   ==> One(1). And in JavaScript primitive values meaning a simple "hello world" for example
+	   ==> are treated as objects when executing methods and properties. Also I would like to mention that
+	   ==> all sting methods retrun a new value. They do not change the original variable.
+
+
+	   Functions: 
+	   Now Functions are one of the building blocks of JavaScript. Functions are a Procedure
+	   or a set of statements that performs a task or calculates a value. There are two types of Functions
+	   1. A function declaration (also known as function statements);
+	   ==> function declaration consist of the function keyword followed by the name of the function
+	   ==> A list of parameters to the function, enclosed in parentheses and seperated by commas.
+	   ==> The statements that define the function are enclosed in the curly brackets like this 
+	   ==> 
+	   function myFuction() { // <== inside the parentheses goes the name of the function and the word myFunction is the keyword you use to call the function.
+		   // inside here goes the statements
+	   }		
+
+	   2. A function expression
+	   ==> A function expression is very similar to and has almost the same syntax as a function statement
+	   ==> The main difference between a function expression and a function statement is the function 
+	   ==> name, which can be omitted in function expressions to create anonymous functions A function 
+	   ==> expression can be used as a IIFE (Immediately Invoked Function Expression) which runs as soon 
+	   ==> as it is defined. Function expressions are not hoisted(moved to the top of your code).
+	   ==> Unlike function declarations you can't use function expressions before you define them.
+	   ==> So in essence there are similarities and depending on how you want to use your function will
+	   ==> determine which function you use.
+
+
+	   'if' statements:
+	   ==> If statements are simply conditional statements saying if this is true then do this
+	   ==> and if its not true do this.
+
+
+	   Boolean Values:
+	   ==> These values are another simple way of saying this is true or this is false. You set something 
+	   ==> to true or false depending on the result you are after.
+
+
+
+
+	   	   

@@ -5,7 +5,15 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
+  let count = 0;
+  return function counted(){
+    return ++count;
+  };
 }
+const increase = counter();
+increase();
+
+
 
 function cacheFunction(cb) {
   // use closure to create a cache for the cb function
@@ -18,7 +26,21 @@ function cacheFunction(cb) {
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
+  let cache = {};
+  return function(arg){
+//("INNER FUNCTION: " + arg);
+    //("CACHE ARG: " + arg)
+    if (!cache.hasOwnProperty(arg)) { 
+      //("NO CACHE");
+      cache[arg] = cb(arg);
+      //("CACHE NOW: " + arg)
+    }
+    //("RETURNING INNER FUCNTION");
+    return cache[arg];
+  };
+  //("RETURN THE EMPTY OBJECT: " EVEN THOUGH CODE RUNS WITHOUT IT);
 }
+
 
 // Do not modify code below this line.
 // --------------------------------
