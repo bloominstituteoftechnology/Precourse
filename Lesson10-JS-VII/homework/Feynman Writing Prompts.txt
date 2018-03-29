@@ -1,0 +1,2 @@
+1. Closure - You create a closure whenever you define a function. 
+Then when you execute functions, their closures enable them to access data in their scopes (inner being able to look inside of outer scope but not vice versa).
