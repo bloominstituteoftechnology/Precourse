@@ -10,21 +10,18 @@ const toDoItems = [];
 
 myName = 'Chris Honda';
 firstText = 'This app was created by:' + myName;
-document.querySelector('#createdBy').innerHTML = firstText;
-
+document.querySelector('#createdBy').innerHTML += ' Chris Honda';
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
           Add two properties to the class: 'description' which should be set equal to the description passed to the constructor, and 
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
-    ToDo = (description) => { 
+function ToDo(description) { 
     this.description = description;
     this.complete = false;
-  }
-}
-
+  };
+  
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
           It will not take any arguemnts. 
@@ -61,7 +58,7 @@ function buildToDo(todo, index) {
   toDoShell.appendChild(toDoText);
   toDoText.addEventListener('click', completeToDo());
   return toDoShell;
-  toDoText.addEventListener('click', completeToDo);
+
 }
 
 /* 
@@ -137,7 +134,9 @@ document.getElementById('addButton').addEventListener('click', addToDo());
 */
 
 function completeToDo(event) {
+  
   // UNCOMMENT THE NEXT LINE
+
   const index = event.target.id;
   toDoItems[index].completeToDo();
   displayToDos();
