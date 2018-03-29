@@ -1,0 +1,2 @@
+Prototype will allow you add new properties to object constructors.
+The object constructor serves as a blueprint for adding many objects of the same type.

@@ -1,0 +1,5 @@
+Objects are similar to variables, but are allowed to contain multiple values
+Properties are when the object is paired to name:value
+Methods are actions that can be performed on Objects
+For in loops are loops through the properties of an object
+Dot notation is faster and clearer to write. Bracket notation allows us the use of characters that cannot be used with dot notation. It also allows us to work with property names which vary in a predictable way.

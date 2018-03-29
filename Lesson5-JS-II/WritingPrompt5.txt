@@ -1,0 +1,6 @@
+For creates a loop with 3 optional expressions inside parenthesis followed by a statement that is to be executed inside the loop.
+
+&& and || are operators that usually return a boolean value. 
+&& = and
+|| = OR 
+! = NOT 
