@@ -1,0 +1,41 @@
+
+h1 {
+  color:red;
+  position: static;
+}
+
+
+img {
+  width: 500px;
+  position: static;
+}
+
+
+#thirdDiv {
+  border: 3px solid red;
+  height: 600px;
+  width: 500px;
+  background-color: cyan;
+  padding: 50px;
+  position: static;
+}
+
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+  position: static;
+}
+
+body {
+  background-image: url("https://fs.nwstatic.co.uk/monthly_2017_11/snow-lane-sacra.jpg.e43c7ed1a033b93281108579b9c357f8.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin: center;
+  position: static;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
