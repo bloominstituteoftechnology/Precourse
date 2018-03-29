@@ -1,0 +1,10 @@
+Variables are containers used for storing value that you will refer to for later use. These are good so you don't have to rewrite the data everytime, instead you may just call upon the variable.
+
+Strings are text-based data. To declare something a string we surround it with '' or ""
+
+Functions are a set of statements that perform a task. A function argument is the data that we seek to manipulate inside a function. The return statement stops the function from executing any further code
+
+If Statements are used to execute code only when specific conditions are met.
+
+Boolean values are used to determine whether functions can be true or false depending on the circumstances created.
+
