@@ -9,9 +9,6 @@ function getBiggest(x, y) {
   if (y > x) {
     	return y;
      }
-  if (x === y) {
-    	return x || y;
-    }
 }
 
 function greeting(language) {
