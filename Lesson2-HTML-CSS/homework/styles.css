@@ -1,0 +1,28 @@
+body {
+    background-image: url(http://www.zingerbug.com/Backgrounds/background_images/lime_green_tie_dye_seamless.jpg);
+    text-align: center;
+}
+h1 {
+    color: #106700;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: yellowgreen;
+    padding: 50px;
+    border: 2px solid gray;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}

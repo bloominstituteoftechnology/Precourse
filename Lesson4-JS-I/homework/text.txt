@@ -1,0 +1,7 @@
+Variables - containers to store some kind of data
+Strings - text literal with quotes around it
+Functions - block of code that we can reuse, call when an event occurs
+Arguments - variables that serve as placeholder for passing values
+Return - to let data to be accessed outside of the function
+`if` statements - function that check if something is true
+Boolean  - data type that takes two values only : True of False
