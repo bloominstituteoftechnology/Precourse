@@ -1,0 +1,23 @@
+1. Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Variables
+	* Strings
+	* Functions (arguments, `return`)
+	* `if` statements
+	* Boolean values (`true`, `false`)
+
+    Variables: 
+    Variables are a place to store data so that you can use it later. Variables can contain a lot of different types of information. You give them names so that you can call on the data stored in them more easily. 
+
+    Strings: 
+    Strings are a type of data. A string is a sequence of characters. 
+
+    Functions: 
+    Functions are smaller sets of code instructions that perform a specified task. They take specified inputs (arguments) when they are called, perform the task they are written for, provide it in whatever output is specified, and return back to the next instruction in the code after where they were called. 
+
+    'if' statements: 
+    'if' statements are a way to branch the flow of a program depending on certain conditions. You can set up your program so that if a specified statement is true you get one result and if it is false you get a different result. For example, you can write a function that takes a number representing your age as the input and returns 'You've gotten older!' if it is higher than a set number, or returns 'You're the same age" if it is not. You are not limited to only two options with if statements, though. 
+
+    Boolean values: 
+    There are two boolean values: true and false. Like a light being on or off. They are used in boolean expressions, which is a defined statement that evaluates to a boolean value. You can use them to control how your program moves forward with 'if' statements. 
+
