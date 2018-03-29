@@ -1,0 +1,2 @@
+Arrays: a container that can hold several different points of information that you can select as individuals or feed 
+into a function.
