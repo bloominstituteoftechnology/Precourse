@@ -27,7 +27,7 @@ function map(arr, cb) {
   // the new array should be the same length as the array argument
   let newArr = [];
   for (let i = 0; i < arr.length; i++) {
-    newwArr.push(cb(arr[i]));
+    newArr.push(cb(arr[i]));
   }
   return newArr;
 }

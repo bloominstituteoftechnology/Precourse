@@ -7,7 +7,7 @@ function counter() {
   // newCounter(); // 2
   let count = 0;
   return function newCounter() {
-    return += 1;
+    return count += 1;
   }
 }
 

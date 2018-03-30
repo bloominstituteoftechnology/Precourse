@@ -14,7 +14,7 @@ function createUserClass() {
     this.password = options.password;
     this.sayHi = function() {
       return ('Hello, my name is ${this.name}');
-    }
+    };
   }
   return User;
 }
@@ -24,7 +24,7 @@ function addPrototypeMethod(Constructor) {
   // the method should be called 'sayHi' and should return the string 'Hello World!'
   Constructor.prototype.sayHi = function() {
     return 'Hello World!';
-  }
+  };
 }
 
 function addReverseString() {
@@ -34,7 +34,7 @@ function addReverseString() {
   // you will need to use 'this' inside of reverse
   String.prototype.reverse = function() {
     return this.split('').reverse().join('');
-  }
+  };
 }
 
 // Do not modify code below this line.

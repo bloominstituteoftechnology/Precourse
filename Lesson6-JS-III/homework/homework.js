@@ -22,7 +22,7 @@ function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-  Let newArr = [];
+  let newArr = [];
   for (var i = 0; i < arr.length; i++) {
     newArr.push(arr[i] + 1);
   }

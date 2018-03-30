@@ -33,7 +33,7 @@ function returnString(str) {
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
-  return (x + Y);
+  return (x + y);
 }
 
 function subtract(x, y) {
