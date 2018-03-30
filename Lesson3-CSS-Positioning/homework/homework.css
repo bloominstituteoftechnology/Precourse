@@ -35,9 +35,9 @@ in this folder, you are in the wrong place.
 
 /* Place code here */
 
-exerciseFour {
+#exerciseFour {
   position: fixed;
-
+  top: 0;
 }
 
 /* Exercise Five */
