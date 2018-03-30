@@ -1,0 +1,1 @@
+* Recursion --- Like a loop, but it calls itself. Basically, it's a function in a function that calls itself.

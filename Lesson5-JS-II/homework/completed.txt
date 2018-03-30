@@ -1,0 +1,9 @@
+'for' statements: also known as a loop, this allows you to test things over and
+over again until you get the result you want.
+
+&&: means 'and'; both tests need to pass in order for the 'if' statement to be true
+
+||: means 'or'; if either test passes, the 'if' statement will return true.
+
+!: means 'not'; if the compared statements are not equal/greater/less than the 
+other half of the statement, the statement is true.

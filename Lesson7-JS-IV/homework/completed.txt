@@ -1,0 +1,10 @@
+* Objects --- have many properties that can be changed when desired.
+
+* Properties --- the relationship between a name in an object and its value.
+
+* Methods --- actions that you can do to an object.
+
+* for in loop --- like a for loop, except it goes through each property in the object
+
+* Dot notation vs bracket notation --- Bracket notation is a bit more helpful in for/in loops, but both are effective 
+means of accessing keys in objects.

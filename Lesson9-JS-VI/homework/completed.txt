@@ -1,0 +1,3 @@
+* Callback Functions --- is essentially a function that calls another function;
+this is very useful when you just want to change  one (variable) function but 
+keep the same structure: think of a calculator or MadLibs as an example.

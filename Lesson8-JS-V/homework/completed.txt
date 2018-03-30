@@ -1,0 +1,2 @@
+* `prototype` --- A piece of metadata (hidden stuff) that stores methods for objects we create for a class
+* Constructors --- 'New' and 'This' keywords that help refer to key points in classes we make
