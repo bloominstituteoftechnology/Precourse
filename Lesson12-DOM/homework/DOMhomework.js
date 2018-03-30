@@ -52,11 +52,11 @@ function buildToDo(todo, index) {
   const toDoText = document.createElement('span');
   toDoText.innerHTML = todo.description;
   toDoText.id = index;
-  if (todo.complete) {
+  if (todo.complete === true) {
     toDoText.class = 'completeText';
   }
   toDoShell.appendChild(toDoText);
-  toDoText.addEventListener('click', completeToDo());
+  toDoText.addEventListener('click', completeToDo);
   return toDoShell;
 
 }
@@ -118,7 +118,7 @@ function addToDo() {
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
 
-document.getElementById('addButton').addEventListener('click', addToDo());
+document.getElementById('addButton').addEventListener('click', addToDo);
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
