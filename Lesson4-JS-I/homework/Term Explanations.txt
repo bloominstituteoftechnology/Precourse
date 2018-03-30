@@ -1,0 +1,4 @@
+Variable - a variable is like a storage bin that holds a specific item.
+String - anything that contains letters.
+Function - is like a little machine that you put supplies in and on the other it creates a new item based on the supplies you put in the machine.
+If Statement - Is like a fork in the road. If one set of conditions is true, you take one path, otherwise, you take another path.
