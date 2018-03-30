@@ -1,7 +1,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = 'Hello World!';
+let newString = 'Hello World!';
 
 //create a number variable, it an be any number
 const newNum = 10 ;
@@ -75,7 +75,10 @@ function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
-return num < 90;}
+if (num < 90){
+  return true;
+}
+}
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
@@ -104,12 +107,13 @@ function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-return Math.pow (num);}
+return Math.pow (num,2);}
 
 function cube(num) {
   // cube num and return the new value
   // code here
-return num + cube;}
+return Math.pow (num,3);}
+  
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
@@ -124,7 +128,7 @@ return Math.round(num);}
 function roundUp(num) {
   // round num up and return it
   // code here
-return Math.ceil;}
+return Math.ceil(num);}
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
@@ -142,7 +146,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 
   // code here
-  
+  return 'Hello ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -151,14 +155,16 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
-const  Rectangle = (length * width);
-return Rectangle}
+return (length * width);
+}
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-const Triangle = (base * height / 2);
-return Triangle;}
+const area = (base * height) / 2;
+ return area;
+}
+
 
 // Do not modify code below this line.
 // --------------------------------

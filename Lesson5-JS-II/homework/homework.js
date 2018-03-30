@@ -16,14 +16,14 @@ function multiplyArguments() {
   }
   return product;
   }
-
+}
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
 if (x > y) {
   return x;
 }else {return y;}
-
+}
 function greeting(language) {
   // return a greeting for three different languages:
   // language: 'German' -> 'Guten Tag!'
@@ -39,7 +39,7 @@ return 'Hola!';
 } else {
   return 'Hello!';
 }
-
+}
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
@@ -66,7 +66,7 @@ function isInteger(num) {
 if (Math.floor(num % 1 ===0))
 {return true;
 }else{ 
-return false}}
+return false;}}
 
 function fizzBuzz(num) {
   // if num is divisible by 3 return 'fizz'

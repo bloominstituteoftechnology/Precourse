@@ -3,7 +3,7 @@
 */
 
 // code here
-
+const toDoItems =[]
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
@@ -11,16 +11,21 @@
 */
 
 // code here
-
+const createdBy = document.querySelector('#createdBy');
+createdBy.innerHTML = createdBy.innerHTML + ' Camille Sconfitto';
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
           Add two properties to the class: 'description' which should be set equal to the description passed to the constructor, and 
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+
   // code here
-}
+
+  function ToDo (description){
+
+  this.description = description;
+  this.complete = false};
 
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
@@ -29,7 +34,9 @@ function ToDo () {
 */
 
 // code here
-
+ToDo.prototype.completeToDo = function(){
+  this.complete = true;
+}
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
           the second is a numerical index.
@@ -46,9 +53,14 @@ function ToDo () {
             8.) return toDoShell
 */
 
-function buildToDo(todo, index) {
+
   // code here
-}
+  function buildToDo(todo, index) {
+   div> let toToShell; document.createElement;
+    toDoShell.classlist.add('toDoShell');
+
+
+  }
 
 /* 
   STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
