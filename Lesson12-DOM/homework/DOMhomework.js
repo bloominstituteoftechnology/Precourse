@@ -24,12 +24,15 @@ span.innerHTML = writtenBy;
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo (description) {
-  // code here
-      this.description = description;
-      this.complete = false;
-    }
-
+class ToDo {
+  constructor(description) {
+    this.description = description;
+    this.complete = false;
+  }
+  completeToDo() {
+    this.complete = true;
+  }
+}
 
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
@@ -38,9 +41,6 @@ function ToDo (description) {
 */
 
 // code here
-ToDo.prototype.completeToDo = function() {
-  this.complete = true;
-}
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -66,7 +66,7 @@ function buildToDo(todo, index) {
   const toDoText = document.createElement('span');
   toDoText.innerHTML = todo.description;
   toDoText.id = index;
-  toDoText.onclick = buildToDo();
+  toDoText.addEventListener('click', () => completeToDo(toDoText.id));
 
   if (todo.complete === true) {
     toDoText.className = 'completeText';
@@ -82,12 +82,7 @@ function buildToDo(todo, index) {
           Using the map method on the array passed in, use the 'buildToDo' function you wrote above as the callback passed to map. 
           Return the new mapped array.
 */
-
-function buildToDos(toDos) {
-  // code here
-  const arr = toDos.map(buildToDo);
-  return arr;
-}
+const buildToDos = toDos => toDos.map((toDo, i) => buildToDo(toDo, i));
 
 /* 
   STEP 6: Now that we can build an array of toDo elements, we want to make these elements appear on the screen, 
@@ -140,7 +135,8 @@ function addToDo() {
 
 // code here
 const addButton = document.querySelector('#addButton');
-addButton.onclick = addToDo();
+addButton.addEventListener('click', () => addToDo())
+// addButton.onclick = addToDo();
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
             listener on the toDo element
@@ -156,7 +152,7 @@ addButton.onclick = addToDo();
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  const index = event.target.id;
+  const index = event.target.id || event;
   // code here
   toDoItems[index].completeToDo();
 }
