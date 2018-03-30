@@ -1,0 +1,17 @@
+        #h1id{
+            color:red;
+        }
+        #thirdDiv{
+            border: 20px solid blue;
+            height:600px;
+            width:500px;
+            padding: 50px;
+            background: red;
+        }
+        #spanId{
+            font-size: 18px;
+            margin:50px;
+        }
+        body {
+    background-image: url("https://hdbackgroundspot.com//storage/upload/abstract-white-background/abstract-white-background-3.png");
+       }
