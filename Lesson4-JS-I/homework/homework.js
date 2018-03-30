@@ -77,6 +77,8 @@ function lessThanNinety(num) {
   // code here
 if (num < 90){
   return true;
+}else{
+  return false;
 }
 }
 
