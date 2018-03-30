@@ -3,11 +3,12 @@
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
-  var biggest = Math.max(x, y);
   if (x === y) {
-    return x || y;
+    return x;
+  } else if (x > y) {
+    return x;
   } else {
-    return biggest;
+    return y;
   }
 
   function greeting(language) {
@@ -54,7 +55,7 @@ function getBiggest(x, y) {
     // -10 -> true
     // otherwise return false
     // hint: you can solve this using Math.floor
-    if (Number.isInteger(num)) {
+    if (Math.floor(num) === num) {
       return true;
     } else {
       return false;
@@ -68,9 +69,9 @@ function getBiggest(x, y) {
     // otherwise return num
     if (num % 3 === 0 && num % 5 === 0) {
       return 'fizzbuzz';
-    } else if (num % 3 === 0 && num % 5 !== 0) {
+    } else if (num % 3 === 0) {
       return 'fizz';
-    } else if (num % 5 === 0 && num % 3 !== 0) {
+    } else if (num % 5 === 0) {
       return 'buzz';
     } else {
       return num;
@@ -83,10 +84,22 @@ function getBiggest(x, y) {
     // hint: a prime number is only evenly divisible by itself and 1
     // hint2: you can solve this using a for loop
     // note: 0 and 1 are NOT considered prime numbers
-    for (var i = 2; i < num; i++)
-      if (num % i === 0) return false;
-    return num !== 1;
-  }
+    var x = 2;
+    if (num < 2) {
+      return false;
+    } else if (num ===2 || num ===3) {
+      return true;
+    } else {
+      while (x < num / 2 + 1) {
+        if (num % x === 0) {
+          return false;
+        } else {
+          x += 1;
+        }
+        return true;
+      } 
+    }
+}
 }
 
 

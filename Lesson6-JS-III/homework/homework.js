@@ -4,14 +4,13 @@
 
 function returnFirst(arr) {
   // return the first item from the array
-  var first = [arr];
   return first[0];
 }
 
 function returnLast(arr) {
   // return the last item of the array
-  var items = [arr];
-  return items[items.length - 1];
+  let last = arr.length- 1;
+  return arr[last];
 }
 
 function getArrayLength(arr) {
@@ -23,19 +22,18 @@ function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-  var numbers = [arr];
-  for (var i = 0; i < numbers.length; i++) {
-    numbers[i]++;
+  Let newArr = [];
+  for (var i = 0; i < arr.length; i++) {
+    newArr.push(arr[i] + 1);
   }
-  return numbers;
+  return newArr;
 }
 
 
 function addItemToArray(arr, item) {
   // add the item to the end of the array
   // return the array
-  var newarr = [arr];
-  newarr.push(items);
+  arr.push(item);
   return arr;
 }
 
@@ -43,8 +41,7 @@ function addItemToFront(arr, item) {
   // add the item to the front of the array
   // return the array
   // hint: use the array method .unshift
-  var empty = [arr];
-  empty.unshift(item);
+  arr.unshift(item);
   return arr;
 }
 
@@ -59,45 +56,36 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   // check to see if item is inside of arr 
   // return true if it is, otherwise return false
-  var included = arr.length;
-  for (var i = 0; i < included; i++) {
-    if (arr[i] === item) {
-      return true;
-    } else {
-      return false;
-    }
+  return arr.includes(item)
   }
 
   function addNumbers(numbers) {
     // numbers i an array of integers.
     // add all of the integers and return the value
-    var arr = []; // sums to 100
-    var sum = 0;
-    for (var i = 0; i < numbers.length; i++) {
-      sum += numbers[i];
-    }
+   let total = 0;
+   for (let i = 0; i < numbers.length; i++) {
+     total += numbers[i];
+   }
+   return sum;
   }
 
   function averageTestScore(testScores) {
     // testScores is an array.  Iterate over testScores and compute the average.
     // return the average
-    var total = 0;
-    var arr = [];
-    for (var i = 0; i < arr.length; i++) {
-      total += arr[i];
-    }
-    var avg = total / arr.length;
-    return avg;
-  }
+    let avgTestScore = 0;
+    let total = 0;
+    let tests = testScores.length;
+    for (let i = 0; i < testScores.length; i++) {
+      total += testScores[i];
+    } 
+    avgTestScore = total / tests;
+    return avgTestScore;
 }
 
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
-  var arr = [];
-  var maxNumber = arr.reduce(function (a, b) {
-    return Math.max(a, b);
-  });
+  return (Math.max.apply(null, numbers));
 }
 
 function multiplyArguments() {

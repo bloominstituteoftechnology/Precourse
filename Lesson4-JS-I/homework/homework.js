@@ -7,7 +7,7 @@ const newString = 'Hi' ;
 const newNum = 27 ;
 
 //create a boolean variable
-const newBool = 27 > 5 ;
+const newBool = true ;
 
 //solve the following math problem
 const newSubtract = 10 - 5 === 5;
@@ -33,27 +33,23 @@ function returnString(str) {
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
-  var sum = x + y;
-  return sum;
+  return (x + Y);
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
-  var diff = x - y;
-  return diff;
+return (x - y);
 
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
-  var product = x * y;
-  return product;
+  return (x*y);
 }
 
 function divide(x, y) {
   // divide x by y and return the value
-  var divided = x / y;
-  return divided;
+  return (x/y);
 }
 
 function areEqual(x, y) {
@@ -98,8 +94,7 @@ function greaterThanFifty(num) {
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
-  var remainder = x % y;
-  return remainder;
+  return (x % y);
 }
 
 function isEven(num) {
@@ -125,57 +120,45 @@ function isOdd(num) {
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
-  const squaredNumber = Math.pow(num, 2);
-  return squaredNumber;
+  return Math.pow(num, 2);
 }
 
 function cube(num) {
   // cube num and return the new value
-  const cubedNumber = Math.pow(num, 3);
-  return cubedNumber;
+  return Math.pow(num, 3)
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
-  const raisedNumber = Math.pow(num, exponent);
-  return raisedNumber;
+  return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
   // round num and return it
-  const roundedNum = Math.round(num);
-  return roundedNum;
+  return Math.round(num);
 }
 
 function roundUp(num) {
   // round num up and return it
-  const roundedup = Math.ceil(num);
-  return roundedup;
+  return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  var str1 = str;
-  var str2 = "!";
-  var exclamated = str1.concat(str2);
-  return exclamated;
+  return (str+"!");
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  var first = firstName;
-  var last = lastName;
-  var full = first + '' + last;
-  return full;
+  return (firstName+" "+lastName);
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  var hi = "Hello";
-  return hi.concat(name)+"!";
+  return ("Hello"+" "+name+"!");
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -183,14 +166,12 @@ function getGreeting(name) {
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
-  var area = length * width;
-  return area;
+  return length * width;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  var triangleArea = (1/2) * (base * height);
-  return triangleArea;
+  return (base * height / 2);
 }
 
 // Do not modify code below this line.
