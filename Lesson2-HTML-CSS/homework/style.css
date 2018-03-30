@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/15/11/05/background-2068283_1280.jpg")
+}
+
+h1 {
+    color: goldenrod;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: fuchsia;
+    padding: 50px;
+    border: 15px solid orchid;
+}
+
+#spanId {
+    margin: 50px;
+}
