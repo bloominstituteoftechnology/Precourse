@@ -1,0 +1,1 @@
+array - An array is like a storage unit that contains all of your various boxes of stuff.

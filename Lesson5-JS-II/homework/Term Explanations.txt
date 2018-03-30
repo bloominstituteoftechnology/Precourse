@@ -1,0 +1,4 @@
+for - a for loop is like getting a pair of super shoes that let you run a bunch of laps around a track until they run out of juice (the loop breaks).
+&& - So let's say two of your friends are telling you about something that happened in school. If both of your friends' versions of the story are the same, then you believe the story is true. If their versions are different, then you believe the story is not true.
+|| - So let's say your friends invite you out to eat. You decide that you will go out only if they are going to a sushi restaurant OR a taco stand, otherwise you will decline the invitation.
+! - inverts the truth. So if I say something is true, I'm lying. If I say something is not true, I'm telling the truth.

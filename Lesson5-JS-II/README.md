@@ -28,8 +28,8 @@ There are a couple of Javascript objects that don't really fit into any type. Th
 ```
 
 One last thing to note, neither `undefined` nor `null` are strings, they are written just as they are with no quotes around them, like a boolean.
-
 ## Truthiness
+
 
 In these lessons we have talked a lot about the boolean values, `true` and `false`. When using an `if` statement or another statement that expects a boolean value (such as the `!`, NOT), and the expression given is not a boolean value, Javascript will do something called type coercion and transform whatever it is given to a boolean value. This is known as truthy and falsey. Every data type has a truthiness to it. Here are some examples:
 
