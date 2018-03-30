@@ -52,7 +52,7 @@ function multiply(x, y) {
 function divide(x, y) {
   // divide x by y and return the value
   // code here
-  return x/y;;
+  return x/y;
 }
 
 function areEqual(x, y) {
