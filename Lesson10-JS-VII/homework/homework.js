@@ -8,7 +8,7 @@ function counter() {
   let count = 0;
   return function newCounter() {
     return count += 1;
-  }
+  };
 }
 
 function cacheFunction(cb) {
@@ -31,7 +31,7 @@ function cacheFunction(cb) {
     } else {
       return newOb[arg];
     }
-  }
+  };
 }
 
 // Do not modify code below this line.

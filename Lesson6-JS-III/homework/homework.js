@@ -4,7 +4,7 @@
 
 function returnFirst(arr) {
   // return the first item from the array
-  return first[0];
+  return arr[0];
 }
 
 function returnLast(arr) {
@@ -56,15 +56,15 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   // check to see if item is inside of arr 
   // return true if it is, otherwise return false
-  return arr.includes(item)
+  return arr.includes(item);
   }
 
   function addNumbers(numbers) {
     // numbers i an array of integers.
     // add all of the integers and return the value
-   let total = 0;
+   let sum = 0;
    for (let i = 0; i < numbers.length; i++) {
-     total += numbers[i];
+     sum += numbers[i];
    }
    return sum;
   }
