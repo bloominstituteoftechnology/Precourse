@@ -68,13 +68,7 @@ function wordsToSentence(words) {
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
   var loaclSentence =words.join(' '); //using a string to store the array so it can be at the same base with space between.
-  
-  // for(let i = 0; i<words.length; i++){
- 
-  //     loaclSentence = words[i].join(' ');
-    
-    
-  // }
+
   return loaclSentence;
 }
 
