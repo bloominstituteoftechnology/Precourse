@@ -5,12 +5,28 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
+  
+  const Cat = {
+    name: name,
+    age : age,
+    meow: function(){
+      return 'Meow!';
+    }
+  };
+  Cat.name;
+  Cat.age;
+  return Cat;
 }
 
 function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
+  
+  
+  object.property = 'property';
+
+  return object;
 }
 
 function invokeMethod(object, method) {
