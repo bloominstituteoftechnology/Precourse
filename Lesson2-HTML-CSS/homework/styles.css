@@ -1,0 +1,33 @@
+h1 {
+    color: rgb(14, 90, 33);
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+
+}
+#thirdDiv {
+    height: 600;
+    width: 500;
+    padding: 50px;
+    margin: 50px;
+    background-color: white;
+    border: 6px forestgreen
+}
+.divClass {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+
+}
+img {
+    width: 400px
+
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1521540333410-bbd58042e2b4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9fdb14ae636746c80089a865bade9c41&auto=format&fit=crop&w=1600&q=60");
+    
+}
