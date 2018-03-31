@@ -23,8 +23,9 @@ function addProperty(object, property) {
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
   
+ 
+  object[property] = null;
   
-  object.property = 'property';
 
   return object;
 }
@@ -33,11 +34,26 @@ function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
+
+
+  // //object.method();
+  // object['method'];
+
+  // object ={
+  //   method: function(){
+      
+  //   }
+  // };
+
+  object[method]();
+ 
+  
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
+  
 }
 
 function deleteProperty(object, property) {
