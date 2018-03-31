@@ -1,0 +1,48 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMxCQv7f6EakkJY6Vp1bdEVoYQ_AEUYbcU3UWmVHwlmHtMvYtDeA");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+.flex-container{
+	display: flex;           
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;        
+}
+/*
+div {
+	position: relative;
+	 margin: auto;
+    width: 50%;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+}
+*/
+h1 {
+	color: brown;
+}
+
+img {
+	position: sticky;
+	width: 400px;
+}
+
+#thirdDiv{
+	height: 600px;
+	width: 500px;
+	background: saddlebrown;
+	padding: 50px;
+	border: 8px double olivedrab;
+}
+
+#spanId{
+	font-size: 18px;
+	margin: 50px;
+}
