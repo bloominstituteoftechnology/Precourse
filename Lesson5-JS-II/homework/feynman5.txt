@@ -1,0 +1,14 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `for`
+	* `&&`, `||`, `!`
+
+'for': 
+A 'for' loop runs the block of code in the loop a number of times. The loop is constructed as: 
+for (statement 1; statement 2; statement 3) {
+	code block; 
+}
+where statement 1 is a variable that is set before the code block is executed the first time, statement 2 is a conditional expression that controls how many times the code block is executed (it will execute until the expression evaluates to false), and statement 3 increments the initial variable for the next execution of the code block. 
+
+'&&', '||', '!':
+All three of these are logical operators that allow you to expand your use of conditional expressions. '&&' means 'and', thus allowing you to specify at least two conditional expressions that must both be true in order for a specified result. '||' means 'or', allowing you to provide multiple options any one of which evaluating to true will obtain the specified result. '!' means 'not', and lets you change the outcome.
