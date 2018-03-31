@@ -1,0 +1,60 @@
+Feynman Writing Prompts - Javascript II
+
+for
+    The keyword "for" starts a "for loop". This allows us to run a statement repeatedly until certain conditions are met.
+    There are several steps to building a for loop:
+
+    First, we begin with the keyword "for".
+    Second, follow with an open and close parentheses. These will hold the variable, boundaries, and increment for our loop.
+    Third, inside the parentheses, declare your variable and give it a value (e.g. "let i = 1;").
+    Fourth, set the condition which must be true in order to continue running your loop, aka the bounds of your loop (e.g. "i < 100;").
+    Fifth, add the increment or decrement for your variable (e.g. "i++").
+
+        Note: the variable declaration, condition, and increment must be separated by semi-colons.
+
+
+    Example:
+        for (let i = 1; i < 100; i++) {
+            //statement goes here
+        }
+ 
+    In the above example, the loop begins with the variable "i" set to 1. 
+    As long as "i" is less than "100", the statement will run, and "i" will be incremented by 1.
+    Once "i" has been incremented enough times that it is equal to "100", the loop will stop.
+
+---
+
+&& (and)
+    A double ampersand is used for the "and" operator. 
+    In tests, both conditions on either side of the "and" operator must be true.
+
+    Example:
+        if (num > 0 && num < 11) {
+            //statement goes here
+        }
+
+    The above example will run the if statement only if "num" is greater than 0 AND less than 11.
+
+---
+
+|| (or)
+    Double vertical lines are used for the "or" operator. 
+    In tests, at least one condition on either side of the "or" operator must be true
+
+    Example:
+        if (age < 12 || age > 54) {
+            //statement goes here
+        }
+
+    The above example will run the if statement if "age" is less than 12 OR if "age" is greater than 54.
+
+---
+
+! (not)
+    An exclamation point is used for the "not" operator, which requests the opposite of a given expression.
+    This is often used for "not equals" which is written "!==".
+
+    Example:
+        num !== 3
+
+    The above example will return true only if "num" is NOT equal to 3.

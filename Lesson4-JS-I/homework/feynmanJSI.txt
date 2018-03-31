@@ -1,0 +1,84 @@
+    Feynman Writing Prompts - Javascript I
+    
+    Variables
+        Variables are like containers where we can store data or values to use in our program.
+
+        First, declare a variable with a keyword (e.g. "var").
+        Second, after a space, add the name for the variable (e.g. "bestSherlock").
+        Third, type an equal sign (=) to tell the computer to assign the desired value to the variable.
+        Fourth, type the desired variable after the equal sign, and finish the statement with a semicolon.
+
+        Example:
+            var bestSherlock = 'Jeremy Brett';
+
+    ---
+
+    Strings
+        In the previous example, the value assigned to the variable was a string. 
+        A string is a line or block of text surrounded by quotation marks. Unlike numerical values, for example, strings must always be surrounded by quotation marks.
+
+    ---
+
+    Functions
+        Functions are used to compute and work with variables and the information stored with them.
+
+        First, like variables, you must declare your function with the keyword ("function").
+        Second, after a space, add the name of the function. It's a good idea to choose a name which describes what the function does.
+        Third, with no spaces, add an open and close parentheses ().
+        Fourth, after a space, add open and close curly braces {}.
+        Fifth, add your function's code (what you want it to do) between the curly braces.
+
+        To run the function, type its name, followed by the open and close parentheses, and finish with a semicolon.
+
+        Example:
+            function logsGoodbye() {
+                console.log('Goodbye');
+            }
+
+            logsGoodbye();
+
+        This is a very simple function, but more complex functions make use of arguments.
+        Arguments appear in those open and close parentheses, and can be utilized with variables.
+
+        Example:
+            function logsGreeting(country) {
+                console.log('Good Morning, ${country}')
+            }
+
+            const myCountry = 'Vietnam';
+            logsGreeting(myCountry);
+
+        Multiple arguments can be added at once, separated with commas.
+
+        Finally, although we can declare variables inside functions, the scope of a function doesn't let us access said variables outside of the function.
+        However, we can use the return statement to give ourselves access to the variable.
+        Once a return statement is used, the function returns and ends. All statements after the return statement are ignored.
+
+    ---
+
+    If statements
+        If statements allow us to pick and choose when our functions run, or what information they return, depending on variables.
+
+        First, to declare an if statement, we use the keyword ("if").
+        Second, choose a test to run on the function's argument inside an open and close parentheses (e.g. "size < 10").
+        Third, between open and close curly braces, add the statements you want to run if your test is true.
+        Fourth, between the inner and outer close parentheses, add the statements you want to run if your test is false.
+
+        Example:
+            function greetFriend(size) {
+                    const greet = 'Hello to my little friend';
+                    if (size < 10) {
+                        return greet;
+                    }
+
+                    return 0;
+                }
+        
+            greetFriend(3);
+
+    ---
+
+    Boolean values
+        Boolean is a data type like strings and numbers. 
+        However, a boolean can only ever be one of two values; in JavaScript, a boolean is either true or false.
+        Booleans can be useful for tests in if statements.
