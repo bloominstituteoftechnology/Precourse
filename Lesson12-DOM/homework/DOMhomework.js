@@ -18,7 +18,7 @@ const buildToDo = (todo, index) => {
   const toDoText = document.createElement('span');
   toDoText.innerHTML = todo.description;
   toDoText.id = index;
-  toDoText.addEventListener('click', () => completeToDo(toDoText.id));
+  toDoText.addEventListener('click', completeToDo);
   if (todo.complete) toDoText.class = 'completeText';
   toDoShell.appendChild(toDoText);
   return toDoShell;
@@ -40,13 +40,14 @@ const addToDo = () => {
   displayToDos();
 };
 
-document.querySelector('#addButton').addEventListener('click', () => addToDo());
+document.querySelector('#addButton').addEventListener('click', addToDo);
 
-const completeToDo = (index) => {
-  // toDoItems[index].complete = true;
-  displayToDos();
+const completeToDo = (event) => {
+  const index = event.target.id;
+  toDoItems[index].completeToDo();
 };
 
+displayToDos();
 
 // **********************************************EXTRA CREDIT:********************************************** //
 
@@ -60,7 +61,6 @@ const completeToDo = (index) => {
 */
 // ********************************************** ----------- ********************************************** //
 
-displayToDos();
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
