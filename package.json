@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/lambdaschool/precourse#readme",
   "devDependencies": {
-    "eslint": "^4.13.1",
-    "jest": "^22.0.3"
+    "eslint": "^4.18.2",
+    "jest": "^22.4.2"
+  },
+  "dependencies": {
+    "npm": "^5.7.1"
   }
 }
