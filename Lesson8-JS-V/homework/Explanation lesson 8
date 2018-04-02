@@ -1,0 +1,5 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `prototype`: allows you to add new methods and properties to objects. This allows you to reduce memory space
+
+	* Constructors aka Classes: creates a template to pull from when created multiple objects with similar properties. You can use the template and add the different properties by putting in an argument in the class 

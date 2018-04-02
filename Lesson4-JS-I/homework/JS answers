@@ -1,0 +1,11 @@
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables = variables help to name data you wish to store to retrieve more easily later. Variable has a format in JavaScript such that: var firstName = 'Jess'; In this the variable name is firstName and the data stored within that variable is the string Jess. To set variables you can use the tag var let or const. The tags var and let can be changed later in the code but the tag const can't be changed once it's set. 
+
+Strings = Lines of text surrounded by "" or ''. Anything defined between the quotation marks will be incorporated into that string even if it's not a letter. 
+
+Functions (arguments, return) = Arguments are entered into a function for the function to run. Return return's the outcome of the argument in such a way that the returned data can be used outside of that particular funciton. In other words it allows the data to escape the function and allowed to be used. 
+
+if statements = Allows the function or computer to determine if something is true or false. If the function or argument is true then it will run one code and if it's false it'll run a completely different code. In this way you will receieve one code that changes based on if the argument is true or false. 
+
+Boolean values (true, false) = With Boolean values you only get the options of true or false. So your logic needs to be in such a way that the answer can be true or false. 
