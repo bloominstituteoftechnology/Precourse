@@ -47,9 +47,9 @@ in this folder, you are in the wrong place.
   /* Place code here */
   #exerciseFive{
     display: flex;
-    flex-direction : column-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
   
     
   }
@@ -58,7 +58,7 @@ in this folder, you are in the wrong place.
   
   /* Exercise Six */
   /*stuck with it right now*/
- 
+ /*
   #exerciseSeven {
     display: flex;
   }
