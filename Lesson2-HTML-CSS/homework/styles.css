@@ -1,10 +1,4 @@
-<!-- In this file you will complete the homework found in the homework-readme.md file -->
-<html>
-<head>
-    <title>Peter's HTML Homework</title>
-    <link rel="stylesheet" type="text/css" href= "./styles.css">
-    <!--<style>
-                body {
+        body {
             background-image:url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2F68W2NAO.jpg&f=1");
             background-position: center center;
             background-size: cover;
@@ -49,26 +43,3 @@
             margin: 50px;
             position: relative;
         }
-        </style>-->
-</head>
-<body>
-<div class="flex-container">
-    <div class="divClass">
-        <h1>Peter Bell</h1>
-        <h3>Lambda School</h3>
-        <h4>HTML/CSS Homework</h4>
-    </div>
-    <div id="thirdDiv">
-        <img src="https://cdn.ruthschris.com/~/media/images/menu/dinner/filet-steak.jpg">
-        <ul>
-            <li>Thick and juicy!</li>
-            <li>Seasoned to perfection!</li>
-        </ul>
-    </div>
-    <div class="divClass">
-            <span id="spanId">My favorite food is steak. I don't really have a favorite steak restaurant, 
-            but I hear that <a href="http://www.ruthschris.com" target="_blank">Ruth's Chris Steakhouse</a> is very good.</span>
-    </div>
-</div>
-</body>
-</html>
