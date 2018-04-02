@@ -1,0 +1,19 @@
+ h1 {
+                color: aqua;
+            }
+            
+            img {
+                width: 400px;
+            }
+            
+            #thirdDiv {
+                height: 600px;
+                width: 500px;
+                background-color: burlywood;
+                padding: 50px;
+                border: 4px solid brown;
+            }
+            #spanId {
+                font-size: 18px;
+                margin: 50px;
+            }
