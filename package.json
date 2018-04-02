@@ -4,7 +4,7 @@
   "description": "This repo contains the instruction material and assignments for Lambda School's pre-course workshop.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint Lesson12-DOM/homework/homework.js Lesson11-JS-VIII/homework/homework.js Lesson10-JS-VII/homework/homework.js Lesson9-JS-VI/homework/homework.js Lesson8-JS-V/homework/homework.js Lesson7-JS-IV/homework/homework.js Lesson6-JS-III/homework/homework.js  Lesson5-JS-II/homework/homework.js Lesson4-JS-I/homework/homework.js && jest"
+    "test": "eslint Lesson9-JS-VI/homework/homework.js Lesson8-JS-V/homework/homework.js Lesson7-JS-IV/homework/homework.js Lesson6-JS-III/homework/homework.js  Lesson5-JS-II/homework/homework.js Lesson4-JS-I/homework/homework.js && jest"
   },
   "repository": {
     "type": "git",
