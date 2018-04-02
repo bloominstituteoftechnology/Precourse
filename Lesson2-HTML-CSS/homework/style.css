@@ -1,0 +1,38 @@
+<!--
+body{
+    background-image:url("https://media1.tenor.com/images/5998dc6b4576b29ba1d61a084f3d79d0/tenor.gif?itemid=5772115");
+}
+#thirdDiv{
+  border:3px solid lightcoral;
+  padding:50px;
+  height:600px;
+  width:500px;
+  background:greenyellow;
+}
+#spanId{
+  font:20px;
+}
+.flex-container > div {
+    margin:10px;
+    padding:10px;
+  }
+.flex-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.relative {
+  position:relative;
+}
+.absolute {
+  position:absolute;
+  bottom:200px;
+  right:100px;
+}
+.center {
+  position:absolute;
+  left:37%;
+  top:25%;
+  text-align:center;
+}
+-->
