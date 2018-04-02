@@ -60,6 +60,7 @@ function buildToDo(todo, index) {
   const toDoText = document.createElement("span");
   toDoText.innerHTML = this.description;
   toDoText.id = index;
+  toDoText.addEventListener("click", completeToDo);
   if (this.complete === true) {
     toDoText.className = "completeText";
   }
@@ -75,9 +76,7 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
-  const newArr = toDos.map(buildToDo);
-  return newArr;
-  document.querySelector(".completeText").addEventListener("click", completeToDo);
+  return toDos.map(buildToDo);
 }
 
 /* 
@@ -96,9 +95,10 @@ function displayToDos() {
   // code here
   const toDoContainer = document.getElementById("toDoContainer");
   toDoContainer.innerHTML = "";
-  function toDoItems (toDoItems) {
-    toDoContainer.appendChild(toDoItems);
-  }
+  let newArray = buildToDos(toDoItems);
+  for (let i = 0; i < toDoItems.length; i++){
+    toDoContainer.appendChild(newArray[i]);
+   }
 }
 
 /* 
@@ -115,8 +115,8 @@ function displayToDos() {
 
 function addToDo() {
   // code here
-  const newToDo = document.getElementById("toDoInput");
-  const newToDoObj = new ToDo(newToDo.value);
+  const newToDo = document.getElementById("toDoInput").value;
+  const newToDoObj = new ToDo(newToDo);
   toDoItems.push(newToDoObj);
   newToDo.value = '';
   displayToDos();
@@ -148,11 +148,12 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   const index = event.target.id;
   // code here
+  toDoItems[index].completeToDo();
   displayToDos();
 }
 
 /* STEP 10: Make sure ALL tests pass */
-
+displayToDos();
 
 // **********************************************EXTRA CREDIT:********************************************** //
 
