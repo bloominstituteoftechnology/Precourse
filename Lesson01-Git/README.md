@@ -111,7 +111,7 @@ In your terminal, cd into the LambdaSchool/Precourse folder
 
 Then enter the following in your terminal:
 ```bash
-  $ touch Lesson1-Git/newFile.js
+  $ touch Lesson01-Git/newFile.js
 ```
 
 This will add a new file your your project titled "newFile.js"
@@ -129,12 +129,12 @@ You should see something along these lines:
     (use "git add <file>..." to update what will be committed)
     (use "git checkout -- <file>..." to discard changes in working directory)
 
-    modified:   Lesson1-Git/README.md
+    modified:   Lesson01-Git/README.md
 
   Untracked files:
     (use "git add <file>..." to include in what will be committed)
 
-    Lesson1-Git/newFile.js
+    Lesson01-Git/newFile.js
   
   no changes added to commit (use "git add" and/or "git commit -a")
 ```
@@ -144,7 +144,7 @@ This tells us that we have a file that has been changed, but is not saved into t
 To do this we will use the 'add' command:
 
 ```bash
-  git add Lesson1-Git/newFile.js
+  git add Lesson01-Git/newFile.js
 ```
 
 This has added our changes to the history, now to save that history, we will use "commit". Commit will take all of our added changes and save it to git history. For future reference you will be able to leave a message about the changes, this will make it easier to go back and find the changes you(or anyone) are looking for in the future ,if you should need to. It is always a good idea to leave a concise description of the changes in your commit. A shorthand way of leaving an inline message is using the '-m' flag and writing your message directly after, in quotes.
