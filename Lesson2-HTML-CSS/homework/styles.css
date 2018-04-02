@@ -8,8 +8,8 @@ img {
 }
 
 #thirdDiv  {
-  height:  500px;
-  width:   500px;
+  max-height:  500px;
+  max-width:   500px;
   background:  grey;
   padding:  50px;
   border:  5px dotted black;
@@ -26,6 +26,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
 }
 
