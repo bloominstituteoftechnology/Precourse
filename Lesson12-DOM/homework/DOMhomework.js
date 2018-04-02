@@ -55,13 +55,13 @@ ToDo.prototype.completeToDo = function () {
 
 function buildToDo(todo, index) {
   // code here
-  const toDoShell = document.createElement("div");
+  let toDoShell = document.createElement("div");
   toDoShell.className = "toDoShell";
-  const toDoText = document.createElement("span");
+  let toDoText = document.createElement("span");
   toDoText.innerHTML = this.description;
   toDoText.id = index;
   toDoText.addEventListener("click", completeToDo);
-  if (this.complete === true) {
+  if (todo.complete === true) {
     toDoText.className = "completeText";
   }
   toDoShell.appendChild(toDoText);
@@ -76,7 +76,8 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
-  return toDos.map(buildToDo);
+  const newArr = toDos.map(buildToDo);
+  return newArr;
 }
 
 /* 
@@ -118,7 +119,7 @@ function addToDo() {
   const newToDo = document.getElementById("toDoInput").value;
   const newToDoObj = new ToDo(newToDo);
   toDoItems.push(newToDoObj);
-  newToDo.value = '';
+  document.getElementById("toDoInput").value = '';
   displayToDos();
 }
 
@@ -153,7 +154,7 @@ function completeToDo(event) {
 }
 
 /* STEP 10: Make sure ALL tests pass */
-displayToDos();
+
 
 // **********************************************EXTRA CREDIT:********************************************** //
 
@@ -169,7 +170,7 @@ displayToDos();
 
 
 // Call displayToDos here (Step 6)<-----
-
+displayToDos();
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
