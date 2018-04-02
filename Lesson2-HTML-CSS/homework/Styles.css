@@ -1,7 +1,13 @@
-<!-------------
-            .divClass{}
-            .divClass{}
-            #thirdDiv{
+
+            #divClass{
+                width:1px;
+
+            }
+            #divClass{
+                width:1px;
+
+            }
+            .thirdDiv{
                 height:600px;
                 width:500px;
                 background:black;
@@ -16,4 +22,4 @@
 
             }
         
-       ------------->
+    
