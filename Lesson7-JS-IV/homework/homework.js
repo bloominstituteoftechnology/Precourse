@@ -53,45 +53,85 @@ function invokeMethod(object, method) {
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
-  
+ let total = mysteryNumberObject.mysteryNumber;//dot notation: number not string
+
+
+  total *= 5;
+
+  return total;
+
 }
 
 function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
+  delete object[property];
+  return object;
 }
 
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
+
+  const newObject = {
+    name,
+    email,
+    password
+  };
+
+  return newObject;
 }
 
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
+  if(user['email']){ // brackets since it's referecning to a string
+    return true;
+  }else{
+    return false;
+  }
 }
 
 function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
+  if(object.hasOwnProperty(property)){ // to check if an object has
+    // a property
+    return true;
+  }else{
+    return false;
+  }
 }
 
 function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
+  if(user.password === password){ //
+    return true;
+  }
+
+  return false;
 }
 
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
+
+  user.password = newPassword; 
+  return user;
 }
 
 function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
   // return the user object
+
+  user['friends'].push(newFriend); // adding the property called newFriend
+  //to the end of the friends array.
+
+  return user;
 }
 
 function setUsersToPremium(users) {
