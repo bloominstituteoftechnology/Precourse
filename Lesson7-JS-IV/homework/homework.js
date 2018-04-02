@@ -5,12 +5,21 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
+  const cat = {
+  name: this.name,
+  age: this.age,
+  }; 
+  function meow () {
+  return ('Meow!');
+}
+return cat, meow;
 }
 
 function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
+
 }
 
 function invokeMethod(object, method) {
@@ -32,6 +41,12 @@ function deleteProperty(object, property) {
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
+  const user  = {
+    name: this.name,
+    email: this.email,
+    password: this.password,
+  };
+  return user;
 }
 
 function hasEmail(user) {
