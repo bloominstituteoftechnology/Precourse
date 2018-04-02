@@ -1,5 +1,6 @@
 These are the instructions for the homework for Lesson 2 - HTML/CSS Fundamentals.
 
+
 Now that you have watched us create an HTML file and external style sheet you will do one of your own. 
 You will be writing all of your code in homework.html found in this folder.
 To view your HTML file, in your web browser select File-Open File- then select the homework.html file in this folder. 
