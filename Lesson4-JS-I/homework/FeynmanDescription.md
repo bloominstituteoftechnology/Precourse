@@ -1,4 +1,5 @@
 Feynman Writing Prompts.
+Lambda School Mini-bootcamp, Lesson 4 Homework
 Alex McEvoy
 04/02/18
 
@@ -12,4 +13,4 @@ The following are simple descriptions of several concepts.
 
 4.) 'if' statements - Sometimes in our code we need to make a decision. If we want our programs to be able to do more than one thing every time, we need to find a way to tell it "see how things are going, if things are going one way, do this, but if things aren't going that way, do that". We check up on the status of our program using variables, like we talked about earlier, and if statements. For example, if we have a user enter the number 1 if they are happy, the computer can say "Great, I'm glad your happy!". If the user enters 2 however, we can say "That's too bad, I hope you feel better". An if statement is how our computer program looks at the number the person typed, lets call it x, and see if its 1 (output the "Great!" message) or it it's 2 (output the "too bad" message).
 
-5.) Boolean Values - In programming, we often need to decide whether or not to do something one way, or another, just like we described with if statements. Another way to describe the above situation is, "If the person is happy, output message 1, if not, output message 2". Instead of using an if statement to check whether or not the person entered 1 or 2, we can use what we call Boolean values to see if the statement is true or false. A boolean value is a type of variable, so an empty box where we can put a value, but the only value we can put in the box is either true, or false. 
+5.) Boolean Values - In programming, we often need to decide whether or not to do something one way, or another, just like we described with if statements. Another way to describe the above situation is, "If the person is happy, output message 1, if not, output message 2". Instead of using an if statement to check whether or not the person entered 1 or 2, we can use what we call Boolean values to see if the statement is true or false. A boolean value is a type of variable, so an empty box where we can put a value, but the only value we can put in the box is either true, or false.
