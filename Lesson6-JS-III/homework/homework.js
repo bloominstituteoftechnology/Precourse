@@ -21,7 +21,6 @@ function incrementByOne(arr) {
     return arr;
 }
 
-
 function addItemToArray(arr, item) {
   arr.push(item);
   return arr;
@@ -32,29 +31,21 @@ function addItemToFront(arr, item) {
   return arr;
 }
 
-//ZLE
 function wordsToSentence(words) {
-  // words is an array of strings
-  // return a string that is all of the words concatenated together
-  // spaces need to be between each word
-  // example: ['Hello', 'world!'] -> 'Hello world!'
-  let sentence = words.toString();
+  let sentence = words.join(' ');
   return sentence;
 }
 
-//ZLE
 function contains(arr, item) {
-  // check to see if item is inside of arr
-  // return true if it is, otherwise return false
-  if (arr.find(item)) {
-      return true;
+  if (arr.find(k=> k==item)){
+    return true;
     } else {
-        return false;
-      }
+      return false;
     }
+  }
 
 function addNumbers(numbers) {
-  let all = numbers.reduce(function (acc, currV, currI, arr) { 
+  let all = numbers.reduce(function (acc, currV) { 
       return acc + currV; 
   }, 0);
     return all;
@@ -64,7 +55,7 @@ function averageTestScore(testScores) {
   let all = testScores.reduce(function (acc, current) {
     return acc + current;
   }, 0);
-  let average = (all / testScores.length-1);
+  let average = (all / testScores.length);
   return average;
 }
 
@@ -73,21 +64,22 @@ function largestNumber(numbers) {
   return largest;
 }
 
-//ZLE
-function multiplyArguments() {
-  // use the arguments keyword to multiply all of the arguments together and return the product
+// use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
-    for (let i = 0; i < arguments.length; i++) {
-        if (arguments === null) {
-            return 0;
-        } else if (arguments.length === 1) {
-            return arguments[0];
-        } else {
-            return (arguments[i]=arguments[i]*i++);
-        }
-        }
-    }
+function multiplyArguments() {
+  let args = Array.from(arguments);
+  if (args.length > 1) {
+    return args.reduce((previous, current) => {
+      return previous * current;
+    });
+  } else if (args.length === 0) {
+    return 0;
+  } else if (args.length <= 1) {
+    return args[0];
+  }
+}
+
 
 // Do not modify code below this line.
 // --------------------------------
