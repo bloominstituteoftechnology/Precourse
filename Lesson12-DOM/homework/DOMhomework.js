@@ -1,7 +1,7 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-const toDoItems = [''];
+// const toDoItems = [''];
 // code here
 
 /* 
@@ -20,8 +20,8 @@ const toDoItems = [''];
 
 function ToDo (description) {
   // code here
-  this.description: [description]; 
-  this. complete: false; 
+  // this.description: [description]; 
+  // this. complete: false; 
 }
 
 /* 
