@@ -1,0 +1,81 @@
+1) Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+
+Variables
+
+-A variable is an object (collection of letters/symbols) that is assigned a value; the variable stores the value so that it can be recalled later. A variable can be reassigned a value. 
+
+For example, 
+	let "x" be a variable, and assign it a value of 17. 
+		x=17; 
+	then x+1=18, 
+	     x+3=20,
+	     2*x=34. 
+
+Now let's reassign a different value to the variable x. 
+	let x=3;
+	 
+	then x+1=4;
+             x+3=6;
+	     2*x=6. 
+
+
+
+Strings
+
+-A string is a set of text (a string of letters/numbers/symbols) that is to be interpreted strictly as text. Strings are marked by single quotation marks. 
+
+For example, 
+	let "x" be a variable, and assign to it the string 'apple'.
+		x='apple';
+
+	"I ate the x." Can then be interpreted as "I at the apple."
+
+
+Note that numerical values that are stored to variables as strings do not act like the numbers used in arithmetic. They are to be interpreted strictly as text. 
+
+	
+
+
+
+Functions (arguments, return)
+
+-A function is an object (with an input and an output) that acts as a set of instructions that are applied to an input value. The argument of a function is the variable placeholder for the input(s). 
+
+For example, define "Triple()" to be a function that multiplies an input number by three,
+
+ Triple (number) {number*3}
+ Function Name (argument) {set of instructions to apply to argument}
+
+where Triple is the name of the function, number is the argument of the function, and the stuff in the curly brackets are the instructions to apply to the input. Having defined the function, the function Triple() can then be used to triple any input value.  
+
+ Triple(5) = 15;
+ Triple(10)= 30.
+
+In js functions are self-contained in that the instructions and the variables used to represent arguments have no bearing on anything outside the function. The command "return" is used inside functions to output the function output to outside the function and its definition. 
+
+
+
+
+if statements
+
+-if statements are a type of instructions used in functions that are carried out only if the stuff in the if statement is true. The following, for example, can be used inside a function to return the positive quality of a number if the condition is satisfied
+	
+	if b>0, 
+
+	return 'positive'	
+
+
+
+Boolean values (true, false)
+
+-boolean values are values that can take one of two values (i.e. on/off, 0/1, true/false) that are used in different combinations to represent different things. If we had two boolean values to work with, they can be combined in different combinations to stand for different things. For example, 
+	00 = no
+	10 = probably yes
+	01 = probably no
+	11 = yes
+	
+
+
+
+
