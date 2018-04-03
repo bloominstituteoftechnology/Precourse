@@ -1,0 +1,10 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `prototype`
+	* Constructors
+	
+	prototype: 
+	Objects in javascript inherit properties from a prototype. All of them do, even though you don't see them beyond the ones that you create when you're looking at your code. There's a chain of inheritance. You can use the prototype property to add methods to already-created constructors. 
+	
+	Constructors: 
+	A constructor is what you use to build (or construct!) an object. If you want to add properties or methods to it later, you need to add them in the constructor function. 

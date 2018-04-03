@@ -1,7 +1,7 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-
+const toDoItems = [''];
 // code here
 
 /* 
@@ -18,8 +18,10 @@
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+function ToDo (description) {
   // code here
+  this.description: [description]; 
+  this. complete: false; 
 }
 
 /* 

@@ -1,0 +1,22 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Objects
+	* Properties
+	* Methods
+	* for in loop
+	* Dot notation vs bracket notation
+	
+	Objects: 
+	Objects let you store multiple pieces of data in one place. There are several things that are true about you as a person - you have a name, and an age, and probably a favorite food. Objects let you store all of those pieces of data in one place in a way that makes more sense than a list would. You can store that data in an object using key: value pairs like name: 'Anna', age: 12, food: 'Mac and Cheese'
+	
+	Properties: 
+	The key: value pairs in objects are known as properties. 
+	
+	Methods: 
+	Methods are functions that exist inside of an object. 
+	
+	for in loop: 
+	a for in loop will loop through your object and the code block will be executed once on each property. 
+	
+	Dot notation vs bracket notation: 
+	You can access properties in an object with either dot or bracket notation. Dot notation is nameOfObject.nameOfProperty and bracket notation is nameOfObject[nameOfProperty] If you're using a variable to look for something in the properties, you need to use bracket notation (but this will only work if your variable resolves to a string!)
