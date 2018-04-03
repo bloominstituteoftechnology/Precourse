@@ -1,28 +1,24 @@
 body{
   background-image:url("https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/3293/s300/lambda400full.png");
   background-repeat: repeat;
-  /* margin:auto;
-  width:50%; */
-  display:flex;
-  flex-direction: column;
-  align-items: center;
 }
 h1{
   color:deeppink;
-  /* display:block;
-  margin:auto;
-  width:50%; */
-  display:flex;
-  flex-direction: column;
-  align-items: center;
 }
+
 img{
   width:400px;
-  /* display:block;
-  margin:auto; */
-  display:flex;
-  flex-direction: column;
-  align-items: center;
+  opacity:1;
+  transition:0.5s;
+  display:block;
+  margin:auto;
+
+}
+  img:hover{
+    width:400px;
+    opacity:0.5;
+}
+
 }
 #thirdDiv {
   height:600px;
@@ -30,28 +26,25 @@ img{
   background-color:cadetblue;
   padding:50px;
   border:3px black dotted;
-  /* margin:auto;
-  display:block; */
-  display:flex;
-  flex-direction: column;
-  align-items: center;
+
 }
 
   #spanId{
   font-size: 18px;
   margin:50px;
-  display:flex;
-  /* flex-direction: column; */
-  /* align-items: center; */
+  display:block;
 }
 
 
-h2, h3, a, li{
-  /* margin:auto;
-  display:block;
-  width:50%; */
+.flex-container > .divClass{
   display:flex;
   flex-direction: column;
-  align-items: center;
   /* justify-content: center; */
+  align-items: center;
+}
+
+ul {
+  width:5%;
+  margin:auto;
+  padding:10px;
 }
