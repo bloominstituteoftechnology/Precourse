@@ -1,3 +1,9 @@
+body {
+	background-color: lightgray;
+	margin: auto;
+	width: 500px;
+}
+
 h1 {
 	color: blue;
 }
@@ -12,6 +18,7 @@ img {
 	background-color: lightgray;
 	padding: 50px;
 	border: 25px solid darkblue;
+	margin: auto;
 }
 
 #spanId {
