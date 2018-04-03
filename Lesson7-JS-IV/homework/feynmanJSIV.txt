@@ -1,0 +1,45 @@
+Objects
+    An object is a container which holds data. At its core, everything in Javascript is an object.
+    However, the term "object" is more casually used to describe objects without the dressings of things like arrays, strings, etc.
+
+    In this sense, objects are used to contain multple types of information about one thing.
+
+    Instead of numerical indexing, objects allow us to label information using key:value pairs, where the key serves as an identifier for the value set to it.
+
+    The key:value pairs are set when they are entered into the object, inside curly braces and separated by commas.
+    Key:value pairs can be strings, numbers, or booleans.
+
+    Example:
+        const hero = {
+            name: 'Steven Grant Rogers',
+            age: 100,
+            dob: '7/4/1918',
+            hometown: 'Brooklyn',
+            team: 'Avengers',
+            superStrength: true
+        };
+
+
+Dot notation vs. Bracket notation
+    The object name and key can be used to access values. Either dot notation or bracket notation can be used.
+        However, bracket notation must ONLY be used with strings and numbers. They are the most common for variables as well.
+
+    Example:
+        return hero.superStrength; // will return boolean value true
+
+        return hero['hometown']; // will return string 'Brooklyn'
+
+
+
+Methods
+    Object values can also be set to functions, which allows us to create our own methods.
+        The key is set to a name, and value is set to a function.
+        Syntax is the same as other methods, using dot notation followed by open and closed parentheses.
+
+ 
+
+
+for...in loop
+    The for loop doesn't work for objects as it does for arrays since there is no numerical index.
+    
+    However, we can iterate through key:value pairs in our object using a for...in loop.
