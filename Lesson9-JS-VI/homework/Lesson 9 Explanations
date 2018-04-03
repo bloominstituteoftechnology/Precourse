@@ -1,0 +1,3 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Callback Functions: Allows a user to run one function into another as an argument. You just need to make sure that the functions being run through the callback function are compatible with the same number of arguments
