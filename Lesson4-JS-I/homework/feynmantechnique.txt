@@ -1,0 +1,17 @@
+Variables - javascript variables are containers for storing data values, much like algebra. They can also be
+used in expressions. They must be identified with unique names.
+
+Strings - a string is a variable containing text values and is always written within single or double quotes.
+A string may contain any number, letter, or character you wish. As long as they are within quotes they will
+be treated as a string.
+
+Functions - a javascript function is a block of code designed to perform a particular task. A function is
+executed when something invokes it or calls it. When JS reaches a return statement the function will stop
+executing. Functions often compute a return value. This allows you to reuse code. You can use the same code
+many times with different arguments to produce different results.
+
+If statements - if is a conditional statement to specify a block of JS code to be executed if a condition is
+true
+
+Boolean values - Boolean values refer to binary code which is a base-2 system. 1 and 0 are the only values,
+also representing true and false, or on and off. this logic is the foundation of low-level computer science
