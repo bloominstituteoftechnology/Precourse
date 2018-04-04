@@ -3,9 +3,10 @@ h1{
 }
 img{
 	width: 400px;
+	height: 200px;
 }
 #thirdDiv{
-	height: 600px;
+	min-height: 400px;
 	width: 500px;
 	background-color: #eee;
 	padding:50px;

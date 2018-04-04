@@ -18,7 +18,8 @@ I. Create a basic HTML page.
     3. In the third div create:
       * an an unordered list with two list items
       * an img tag in each list item linking to your favorite food. (Use Google image search to find a photo, if you can't 
-        use this address: "http://http://lorempixel.com/400/200/food/").
+        use this address: "http://lorempixel.com/400/200/food/"). 
+      * Width/Height of an image:400px/200px
 
 II. Add some style
   A. Add style tags to your HTML document.
@@ -27,7 +28,7 @@ II. Add some style
   D. Give the span in your second div the id "spanId".
   E. Add a style rule to your h1 element changing the color of the text (pick from 
      here: https://www.crockford.com/wrrrld/color.html).
-  F. Add a style rule to the img element giving it a width of 400px;
+  F. Add a style rule to the img element giving it a width of 400px and width of 200px.
   G. Add a style rule to 'thirdDiv' changing the height to 600px and the width to 500px.
   H. Add a style rule to 'thirdDiv' changing the background color.
   I. Change the size of the font for 'spanId' to 18px.
