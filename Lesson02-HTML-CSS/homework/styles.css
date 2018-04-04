@@ -1,18 +1,32 @@
-h1{
-	color: #ff3333;
+/*Including extras*/
+
+body {
+    text-align: center;
+    background-image: url("https://i.imgur.com/FJaFjs2.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-img{
-	width: 400px;
-	height: 200px;
+
+h1 {
+    color: #8300d4;
 }
-#thirdDiv{
-	min-height: 400px;
-	width: 500px;
-	background-color: #eee;
-	padding:50px;
-	border:thick dashed #ff3333;
+
+img {
+    width: 400px;
+    height: 200px;
 }
-#spanId{
-	font-size: 18px;
-	margin:50px;
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: #eee;
+    padding: 50px;
+    border: thick dashed #ff3333;
 }
