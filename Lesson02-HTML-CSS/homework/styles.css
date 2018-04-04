@@ -1,0 +1,37 @@
+h1 {
+	color: whitesmoke;
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	padding: 50px;
+	border: 3px solid whitesmoke;
+	background-color: cyan;
+	color: slategray;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+
+body {
+	background-image: url('https://orig00.deviantart.net/fe11/f/2015/043/7/d/hard_candy_gradient_purple_grapefruit_by_charlie_henson-d8hs08x.png');
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: monospace;
+    color: cyan;
+}
+
+a {
+	color: whitesmoke;
+}
