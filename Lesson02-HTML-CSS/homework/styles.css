@@ -1,7 +1,21 @@
+html,body{
+    height: 100%
+}
+
 body {
-    background-color: pink}
+    background-image: url("https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?cs=srgb&dl=air-atmosphere-beautiful-531767.jpg&fm=jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
 h1 {
-    color:rebeccapurple}
+    color:rebeccapurple;
+    positon:fixed;
+    top:0px;
+    left:20px;
+}
 h3 {
     font-family: 'IBM Plex Sans Condensed', sans-serif}
 
@@ -11,11 +25,37 @@ h3 {
 #spanIdRamen{
     size:18px; 
     margin:50px}
+img{
+  width: 400px;
+}
 
-.thirdDiv{
+#divClass{
+  margin:0 auto;
+}
+#thirdDiv{
     height: 600px; 
     width: 400px; 
-    background-color:orangered;
+    background-color:red;
     padding:50px;
     border-style:outset;
-    border: width 7px;}
+    border: width 7px;
+    margin: 0 auto;
+    }
+div.relative{
+  position: relative;
+  left:80px;
+  
+}
+
+content{
+  margin: 0 auto;
+  max-width:800px;
+}
+
+.center{
+  display:block;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
