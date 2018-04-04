@@ -1,0 +1,10 @@
+ Volume in drive D is DANE
+ Volume Serial Number is 4E72-9AB5
+
+ Directory of D:\git\Precourse\Lesson13-destroy-everything
+
+2018-04-04  08:48    <DIR>          .
+2018-04-04  08:48    <DIR>          ..
+2018-04-04  08:48                 0 destroy.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  158ÿ771ÿ073ÿ024 bytes free
