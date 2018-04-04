@@ -34,7 +34,7 @@ in this folder, you are in the wrong place.
 /* Exercise Four: */
 
 /* Place code here */
-#exerciseFour: {
+#exerciseFour {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -46,15 +46,32 @@ in this folder, you are in the wrong place.
 /* Place code here */
 #exerciseFive {
 	display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
-
 /* Exercise Six */
+#exerciseFive {
+	flex-direction: row-reverse;
+}
+
+
 
 #exerciseSeven {
   display: flex;
+  flex-flow: wrap-reverse column-reverse;
+  align-self: flex-end;
+  #itemOne {
+    order: 1;
+  #itemTwo {
+  	order: 3;
+  #itemThree {
+  	order: -1;
+  #itemFour {
+    order: 2;
+  }
+  }
+  }
+  }
 }
