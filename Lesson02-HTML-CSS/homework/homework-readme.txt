@@ -28,7 +28,7 @@ II. Add some style
   D. Give the span in your second div the id "spanId".
   E. Add a style rule to your h1 element changing the color of the text (pick from 
      here: https://www.crockford.com/wrrrld/color.html).
-  F. Add a style rule to the img element giving it a width of 400px and width of 200px.
+  F. Add a style rule to the img element giving it a width of 400px and height of 200px.
   G. Add a style rule to 'thirdDiv' changing the height to 600px and the width to 500px.
   H. Add a style rule to 'thirdDiv' changing the background color.
   I. Change the size of the font for 'spanId' to 18px.
