@@ -25,59 +25,79 @@ const newModulo = 21 % 5 == 1 ;
 //hint: console.log() will NOT work.
 //Do not change any of the function names
 
-function returnString(str);{
-  const strng = str;
-  return strng;
+let str = (0);
+function returnString(str){
+ return str;
 }
+console.log(str);
+
   //simply return the string provided: str
 
 
 
-function add(x, y) { const sum = x + y;
-  return sum;
-  // x and y are numbers
-  // add x and y together and return the value
-  // code here
-}
+  let x = 1;
+  let y = 2;
+  const sum = (x + y);
+  function add(x, y) { 
+    // x and y are numbers
+    // add x and y together and return the value
+   
+    return sum;// code here
+  }
+  console.log(sum);
 
-function subtract(x, y) { const difference = x-y;
+
+let x =1;
+let y = 0
+const difference = x-y;
+function subtract(x, y) { 
   return difference;
   // subtract y from x and return the value
   // code here
 }
+console.log(difference);
 
-function multiply(x, y) { const product = x * y;
+
+let x = 2;
+let y = 3;
+const product = x * y;
+function multiply(x, y) { 
   return product;
   // multiply x by y and return the value
   // code here
 }
+console.log(product);
 
-function divide(x, y){ const solution = x / y;
+let x = 4;
+let y = 2;
+const solution = x / y;
+
+function divide(x, y){ 
    return solution;
   // divide x by y and return the value
   // code here
 }
+console.log (solution);
 
 
-function areEqual(x, y){ if (x = y){
-  return true;
-}
-  return false;
-}
-
+function areEqual(x, y){
+  if (x === y);{ 
   // return true if x and y are the same
   // otherwise return false
-  // code here
+  }
+   return false;
+  }// code here
 
 
 function areSameLength(str1, str2) {
-  if (str1.length == str2.length)
-  return true;
-  return false;
-}
   // return true if the two strings have the same length
   // otherwise return false
-// code here
+  
+  if (str1.length === str2.length)
+    return true;{
+      
+    }
+    return false; // code here
 
 
 function lessThanNinety(num) { if (num < 90 )
@@ -89,13 +109,16 @@ function lessThanNinety(num) { if (num < 90 )
   // otherwise return false
 
 
-function greaterThanFifty(num) {
-  // return true if num is greater than fifty
-  // otherwise return false
-  if (num > 50) { return true;
-  return false;// code here
-
-}
+  function greaterThanFifty(num) {
+    // return true if num is greater than fifty
+    // otherwise return false
+   if (num > 50);{
+    return true;
+  }
+  return false;
+   // code here
+  
+  }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
@@ -121,12 +144,17 @@ function isOdd(num) {
 
 }
 
-function square(num) { return num.pow;
+const num = Math.pow;
+function square(num) {
+  
+return num;
 
   // square num and return the new value
   // hint: NOT square root!
 
 }
+console.log(num.pow);
+
 
 function cube(num) { return (num.pow * num);
   // cube num and return the new value
