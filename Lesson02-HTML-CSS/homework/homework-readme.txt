@@ -35,7 +35,7 @@ II. Add some style
   K. Give the id 'thirdDiv' a padding of 50px.
   L. Give the id 'thirdDiv' a border, any width color and style you choose.
 
-III. Create an external style sheet and move all of our previous style rules into the new stylesheet.
+III. Create an external style sheet and copy all of our previous style rules into the new stylesheet.
   A. Create a file called styles.css in this folder.
   B. COPY all of your style rules to this new file. (Do not include the style tags!)
   C. Place: <!-- in front of your first style tag.
