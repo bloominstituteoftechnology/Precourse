@@ -1,0 +1,34 @@
+body, html {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Jon_Voight_2012.jpg/1200px-Jon_Voight_2012.jpg");
+    margin: auto;
+    height: 100%;
+	display: grid;
+	position: static;
+}
+h1 {
+	color: darkolivegreen;
+}
+img {
+	width: 400px;
+}
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: crimson;
+	padding: 50px;
+	border-width: 30px;
+	border-style: dotted;
+}
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+.center-div {
+     margin: 0 auto;
+     width: 100px; 
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
