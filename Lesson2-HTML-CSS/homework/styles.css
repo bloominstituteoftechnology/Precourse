@@ -1,0 +1,40 @@
+/* h1 {
+    color: red;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background: teal;
+    padding: 50px;
+    border: 3px solid yellow;
+} 
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    
+}
+
+img {
+    width: 400px;
+} */
+
+h1 {
+    color: royalblue;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background: gray;
+    padding: 50px;
+    border: 3px solid black;
+}
+
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+}
