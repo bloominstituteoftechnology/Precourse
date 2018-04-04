@@ -1,0 +1,21 @@
+body {
+    background-color: pink}
+h1 {
+    color:rebeccapurple}
+h3 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif}
+
+#spanIdLasagna{
+    size:18px; 
+    margin:50px}
+#spanIdRamen{
+    size:18px; 
+    margin:50px}
+
+.thirdDiv{
+    height: 600px; 
+    width: 400px; 
+    background-color:orangered;
+    padding:50px;
+    border-style:outset;
+    border: width 7px;}
