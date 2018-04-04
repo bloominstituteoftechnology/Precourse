@@ -1,0 +1,57 @@
+
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+for
+
+&&, ||, !
+
+***************************************************************************
+
+
+for
+
+
+-for is a function that, before executing the algorithm/insructions part of the function, checks if a certain condition is satisfied. If the condition is satisfied the function executes the function, takes the output of the function and changes it by a prescribed amount, and then checks to see if the condition is also satisfied for this new value. The for function keeps doing this until the condition is false. After that, it stops carrying out the function. If the condition is never false, the for loop never stops running. 
+
+-the for function requires three things that you input in the paranthesis (shown below  
+
+	for(thing1,thing2, thing3) {
+  	algorithm
+	}
+
+-thing1 is where you enter a variable (only defined within the scope of the function) and assign it a value.
+-thing 2 is where you enter the conditional statement that is checked.  
+-thing 3 is where you enter how you want the output of the function changed as it keeps checking whether the condition is still satisified. 
+------------------------------------------------------------------------------
+
+
+&&
+
+-the && is used to compare two statements
+
+	statement1 && statement2
+
+-if both statements are true, then the statement that is "statement1 && statement2" is true. if one or both are the statements are false, then the statement that is "statement1 && statement2" is false. && is referred to as the AND operator because it checks whether statement 1 AND statement 2 are both true
+------------------------------------------------------------------------------
+
+
+||
+
+-the || operator is similar to the && operator. It's referred to as the OR operator. If statement 1 OR statement 2 is true, then the statement that is "statement1 || statement2" comes out to be true. If the statements are both false, then the statement that is "statement1 || statement2" is false. 
+------------------------------------------------------------------------------
+
+
+!
+
+-the exclamation mark symbol is referred to as the NOT operator. When you use it infront of something, i.e.
+	
+	!something
+
+the statement is to be interpreted to mean the statement that is "NOT something". for example, 
+
+	let i = !1
+
+means, let i NOT be the number 1. 
+
+-when used in front of boolean operators, the expression "!BooleanOperator1" takes the opposite value of BooleanOperator1. "!true" and "false" mean the same thing, for example. 
+	
