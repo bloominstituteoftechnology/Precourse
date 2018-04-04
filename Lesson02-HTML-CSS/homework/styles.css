@@ -1,0 +1,25 @@
+      body{
+        background: url(http://www.themesltd.com/headers2/cute_bacon_rashers.png)
+        }
+           div{
+        text-align:center;      
+        position: center;
+        margin: auto;
+      }
+      h1 {
+        color: forestgreen;
+      }
+      img {
+        width: 400px;
+      }
+      #thirdDiv{
+        height: 600px;
+        width: 500px;
+        background-color: forestgreen;
+        padding: 50px;
+        border: 2px solid deeppink;
+      }
+      #spanId{
+        font-size: 18px;
+        margin: 50px;
+      }
