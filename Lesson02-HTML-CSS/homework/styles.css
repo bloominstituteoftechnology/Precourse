@@ -1,0 +1,21 @@
+<!--
+h1 {
+	color: lightseagreen;
+
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background: pink; 
+	padding: 50px;
+	border: 5px dotted pink;
+}
+
+#spanId {
+	margin: 50px;
+}
