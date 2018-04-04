@@ -1,0 +1,32 @@
+h1 {
+	color:orangered;
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+h4 {
+	text-align: center;
+}
+img {	
+	width: 400px;
+	position:sticky;
+	top:30px;
+}
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: aqua;
+	padding: 50px;
+	border: 5px solid gray;
+}
+#spanId {
+	font-size: 18px;
+	margin:50px;
+	text-align: center
+
+}
+div{
+	margin:auto;
+	text-align: center;
+}
