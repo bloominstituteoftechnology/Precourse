@@ -5,50 +5,84 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
+      const makeCat = {
+          name: name,
+            age: age,
+          };
+
+              makeCat.meow = function() {
+                    return ('Meow!');
+                    };
+
+            return makeCat;
 }
+
 
 function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
+      object[property] = null;
+        return object;
 }
 
 function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
+object[method]();
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
+  return mysteryNumberObject['mysteryNumber']*5;
+
 }
 
 function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
+      delete object[property];
+      return object;
 }
 
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
+      const newUser = {
+        name: name,
+        email: email,
+        password: password,
+      };
+      return newUser;
 }
 
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
+    return !!user['email'];
+
 }
 
 function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
+  return !!object[property];
 }
 
 function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
+
+
+
+  if ((user, password) === (user['password'])) {
+   return true;
+ }
+ else return false;
 }
 
 function updatePassword(user, newPassword) {
@@ -82,7 +116,7 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
   // the method then subtracts the discount from the price and returns the discounted price
   // return storeItem at the end of the function
-  // example: 
+  // example:
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
