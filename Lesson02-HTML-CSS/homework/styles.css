@@ -1,0 +1,25 @@
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: khaki;
+  padding: 50px;
+  border: 2px solid lightslategray;
+  }
+
+.divClass {
+  
+  }
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+  }
+
+h1 {
+  color: coral;
+  }
+
+img {
+  width: 400px
+  }
+
