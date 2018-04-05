@@ -5,6 +5,7 @@
     }
     img {
         width: 400px;
+        height: 250px; 
     }
     .divClass {
         margin: auto;
@@ -16,6 +17,7 @@
         padding: 50px;
         border: 2px solid black;
         margin: auto;
+      
     }
     #spanId {
         margin: 50px;
@@ -23,6 +25,11 @@
     }
     html {
         background-image: url("https://images.pexels.com/photos/616404/pexels-photo-616404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350")
+    }
+    body {
+        display: flex; 
+       justify-content: center;
+       align-items: center;
     }
 </style>
  -->
