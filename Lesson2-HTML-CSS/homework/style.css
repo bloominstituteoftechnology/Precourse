@@ -1,8 +1,3 @@
-<!-- In this file you will complete the homework found in the homework-readme.md file -->
-<html>
-    <head>
-        <title>Sabrina's HTML homework</title>
-        <style>
             ul{
                 list-style: none;
                 text-align: center;
@@ -45,23 +40,3 @@
             -o-background-size: cover;
             background-size: cover;
 }
-        </style>
-    </head>
-    <body> 
-        <div class="divClass">
-            <h1>Sabrina Mezo</h1>
-            <h3>Lambda School</h3>
-            <h4>HTML/CSS homework</h4>
-        </div>
-        <div class="divClass">
-            <span id="spanId">My favorite type of food is Japanese food. In particular, I enjoy sushi. However there aren't many good Japanese Restaurants nearby, so I will share my second favorite Japanese food Ramen.<a href="http://ramenbannai.com/">Click here to see my favorite Ramen shop!</a></a></span>
-        </div>
-        <div id="thirdDiv">
-            <ul>
-                <li><img src="https://img.grouponcdn.com/deal/fmPws6o2uTweCftZu7yj/p4-2048x1229/v1/c700x420.jpg"></li>
-                <li><img src="http://40aprons.com/wp-content/uploads/2016/01/bacon-ramen-6.jpg"></li>
-            </ul>
-
-        </div>
-    </body>
-</html>
