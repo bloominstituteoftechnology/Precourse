@@ -1,0 +1,35 @@
+Variables: 
+ -a way to store the value of something to use later
+ -anamtomy of a variable is the first keyword, a space, given name of variable, assigned value of variable and a semi colon
+ -three ways to declare a variable
+  ex. 
+   var firstName = 'Nathan';
+   let lastName = 'Guingab';
+   const favoriteFood = 'salad';
+
+definition
+==> var - generic variable keyword
+==> let - similar to var, but differs by creating "block level scope"
+==> const - short for constant, is a variable that cannot be changed
+
+// Most basic data types in JS
+
+Strings:
+ -blocks of text always defined with qoutations. Text with quotes is a string.
+  ex.
+   const dog = 'chase';
+
+Numbers:
+ -numbers do not have quotes around them - can be both postive & negative numbers. JS has a limitation, but rarely comes up.
+  ex.
+   const = 22;
+   const = -22;
+
+Boolean:
+ -simply means true or false with no quotes;
+  ex.
+   const iLoveJavascript = true;
+   const iHateJavascript - false;
+
+
+
