@@ -1,0 +1,21 @@
+.divClass{
+
+}
+h1{
+    color:blue;
+}
+img{
+    width:400px;
+}
+#ThirdDiv{
+    height: 600px;
+    width:500px;
+    background-color:darkgreen;
+    padding:50px;
+    border-width:10px;
+    border-color:darkgoldenrod;
+}
+#spanId{
+    font-size:18px;
+    margin:50px;
+}
