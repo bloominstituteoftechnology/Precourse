@@ -6,6 +6,8 @@
 		
 	* Arrays
 
+	Arrays are ordered lists you can use to group together different elements including other arrays.  
+
 2. 3. From the top level of your `Precourse` folder, run `npm test JSIII.test.js` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
 
 
