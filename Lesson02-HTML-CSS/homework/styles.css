@@ -1,3 +1,15 @@
+body{
+  background: url('http://lorempixel.com/400/200/food/');
+  color:white;
+  margin: 0 auto;
+  text-align: center;
+  width: 550px;
+}
+
+div{
+  position: relative;
+}
+
 h1{
   color:darkgray;
 }
@@ -16,5 +28,8 @@ img{
 
 #spanId{
   font-size: 18px;
+  left:0;
   margin: 50px;
+  top:0;
+  position: absolute;
 }
