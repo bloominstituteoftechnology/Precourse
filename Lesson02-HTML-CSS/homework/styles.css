@@ -1,0 +1,20 @@
+h1 {
+	color: indianred;
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: lavenderblush;
+	padding: 50px;
+	border: 5px dashed saddlebrown;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
