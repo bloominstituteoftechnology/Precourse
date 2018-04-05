@@ -1,0 +1,45 @@
+body {
+        height: 100%;
+        align-items: center;
+}
+
+.bg {
+    display:flex;
+    justify-content: space-between;
+    background-image: url(https://picjumbo.com/wp-content/uploads/raspberries-with-blue-background-space-for-text_free_stock_photos_picjumbo_DSC07252-2210x1473.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+h1 { 
+    color:coral;
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+
+.divClass {
+    margin:auto;
+    width:50%;
+}
+
+
+img { 
+    width: 400px;
+    height: 300px;
+ }
+ 
+#thirdDiv {
+    margin:auto;
+     height: 600px;
+     width: 500px;
+     background-color: deeppink;
+     padding: 50px;
+     border: 5px darkmagenta solid;
+ }
+ #spanId {
+     font-size: 18px;
+     margin: 50px;
+}
