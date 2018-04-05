@@ -1,0 +1,57 @@
+h1 {
+    color:Red;
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.imgsize {
+    width:400px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+#thirdDiv {
+    height:800px;
+    width:500px;
+    background-color:green;
+    padding:50px;
+    border: 2px dashed blue;
+}
+
+#spanId {
+    font-size:18px;
+    margin:50px;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDjawfXX3xvwJHeSx0bfJfRVZL2JwjpglwNnqZk7HMn_lSNjUlA)
+}
+
+div {
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+}
+
+li {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+}
