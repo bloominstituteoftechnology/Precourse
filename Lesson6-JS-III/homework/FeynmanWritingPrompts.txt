@@ -1,0 +1,11 @@
+
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Arrays
+
+*******************************************************************************
+*******************************************************************************
+
+Arrays
+
+-An array can be thought of as a list. Just like a list, an array has a number of items inside it. Each item in the array has a number associated with it, e.g. [Item1 Item2 Item3 Item4], except in arrays, the number associated with the first item starts at zero, not one Just like a list, you can add items to the array and delete items from the array. You can pick out and choose a specific item. 
