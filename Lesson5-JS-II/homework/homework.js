@@ -75,14 +75,12 @@ function isPrime(num) {
   // note: 0 and 1 are NOT considered prime numbers
   if (num === 0 || num === 1) {
     return false;
-  } else if (num === 2) {
-    return true;
-  } else  {
-     for (let x = 2; x < num; x++) {
-       if (num % x === 0) {
-         return false;
-       }
-     }
+  } else {
+    for (let x = 2; x < num; x++) {
+      if (num % x === 0){
+        return false;
+      }
+    }
   } return true;
 }
 
