@@ -1,0 +1,43 @@
+<!--
+
+body {
+	background-image: url("https://www.bypeople.com/wp-content/uploads/2014/05/light-live-background-css.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1 {
+	color:dodgerblue;
+}
+
+img {
+	width:400px;
+}
+
+div {
+	margin:auto;
+	text-align:center;
+}
+
+#stickyDiv {
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: bisque;
+    border: 2px solid #4CAF50;
+}
+
+#spanId {
+	font-size:18px;
+	margin:50px;
+}
+
+#thirdDiv {
+	padding:50px; 
+	border-style:ridge; 
+	border-width:5px; 
+	border-color:darkred;
+}
+
+-->
