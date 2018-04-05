@@ -1,117 +1,109 @@
 // Do not change any of the function names
 
-function getBiggest(x, y) { return Math.max(x, y); {
-  if (x = y) console.log(x || y);
+const arr = ['Brynne','Lily', 'Whimsy'];
+function returnFirst(arr){ return arr[0];
 }
-  // x and y are integers.  Return the larger integer
-  // if they are the same return either one
-}
+// return the first item from the array
+ console.log (returnFirst(arr)) ;
 
-function greeting(language); {
-  if (language === 'German') {
-    return ('Guten Tag!');
-  } else if (language === 'Mandarin') {
-    return ('Ni Hao!');
-  } else if (language === 'Spanish') {
-    return ('Hola!');
-  } else 
-    return ('Hello!');
+
+ const arr =['Brynne','Lily','Whimsy'];
+  function returnLast(arr){ return arr[arr.length -1];
+// return the last item of the array
+
+console.log (returnLast(arr));
   }
 
 
- 
+const arr = ['Brynnne', 'Lily', 'Whimsy'];
+function getArrayLength(arr) { return arr.length;
+    
+  }
+console.log(arr.length);
+  // return the length of the array
 
-  // return a greeting for three different languages:
-  // language: 'German' -> 'Guten Tag!'
-  // language: 'Mandarin' -> 'Ni Hao!'
-  // language: 'Spanish' -> 'Hola!'
-  // if language is undefined return 'Hello!'
 
-
-function isTenOrFive(num) { const moreFives = (10,5); { if (num = moreFives) return true;
-  else return false;
-}
-  // return true if num is 10 or 5
-  // otherwise return false
-}
-
-function isInRange(num) { 
-  // return true if num is less than 50 and greater than 20
-  // otherwise return false
-  if (num > 20  && num < 50)
-  return true;
-else return false;
-}
-
-function isInteger(num) { 
-  // return true if num is an integer
-  // 0.8 -> false
-  // 1 -> true
-  // -10 -> true
-  // otherwise return false
-  // hint: you can solve this using Math.floor
-  if (Math.floor = num)
-  return true;
-  else return false;
-}
-
-function fizzBuzz(num){ 
-  // if num is divisible by 3 return 'fizz'
-  // if num is divisible by 5 return 'buzz'
-  // if num is divisible by 3 & 5 return 'fizzbuzz'
-  // otherwise return num
-  if (num % 3 === 0 && 5 === 0 ){
-
-    return 'fizzbuzz';
-
-  } else if (num % 3 === 0){
+function incrementByOne(arr) {
+  // arr is an array of integers  
+  // increase each integer by one
+  // return the array
+ for (let i = 0; i < arr.length; i++){
+    arr[i] = arr[i] +1;
+  }
+   return arr;
+  }
   
-    return 'fizz';
-  
- } else if (num % 5 === 0){ 
+  const arr = ['Lily','EV','Emmy'];
+  var item = 'Simka';
+  arr.push(item);
+  function addItemToArray(arr, item) {
+    return arr; 
+  }  
+  console.log(arr);
+  // add the item to the end of the array
+  // return the array
 
-    return 'buzz';
-  }
-   else return num;
+const arr =['Bloodhound','BT Coonhound','Great Dane'];
+var item = 'Chihuahua';
+arr.unshift(item);
+function addItemToFront(arr, item) {
+  return arr;
+  // add the item to the front of the array
+  // return the array
+  // hint: use the array method .unshift
+} console.log(arr);
+
+
+const words =['Hello', 'world'];
+let newWords = words.concat(['it', 'is', 'a', 'beautiful', 'day.']);
+
+function wordsToSentence(words) { return newWords;
+  // words is an array of strings
+  // return a string that is all of the words concatenated together
+  // spaces need to be between each word
+  // example: ['Hello', 'world!'] -> 'Hello world!'
+}console.log(newWords);
+
+function contains(arr, item) {
+  // check to see if item is inside of arr
+  // return true if it is, otherwise return false
 }
 
+function addNumbers(numbers) {
+  // numbers is an array of integers.
+  // add all of the integers and return the value
+}
 
+function averageTestScore(testScores) {
+  // testScores is an array.  Iterate over testScores and compute the average.
+  // return the average
+}
 
-function isPrime(num) { 
+function largestNumber(numbers) {
+  // numbers is an array of integers
+  // return the largest integer
+}
 
-  // return true if num is prime.
-  // otherwise return false
-  // hint: a prime number is only evenly divisible by itself and 1
-  // hint2: you can solve this using a for loop
-  // note: 0 and 1 are NOT considered prime numbers
-if (num === 0 || 1)
-  { return false;
-  }
-    else if (num === 2)
-  {
-    return true;
-
-  } else 
-  { for (let i = 2; i < num; x++)
-    { if (num % i ===0) 
-      return false;
-    }
-  }
-    return true;
-} 
-
-
+function multiplyArguments() {
+  // use the arguments keyword to multiply all of the arguments together and return the product
+  // if no arguments are passed in return 0
+  // if one argument is passed in just return it
+}
 
 // Do not modify code below this line.
 // --------------------------------
 
 module.exports = {
-  getBiggest,
-  greeting,
-  isTenOrFive,
-  isInRange,
-  isInteger,
-  fizzBuzz,
-  isPrime,
-}
-
+  returnFirst,
+  returnLast,
+  getArrayLength,
+  incrementByOne,
+  addItemToArray,
+  addItemToFront,
+  wordsToSentence,
+  contains,
+  addNumbers,
+  averageTestScore,
+  largestNumber,
+  multiplyArguments,
+};
