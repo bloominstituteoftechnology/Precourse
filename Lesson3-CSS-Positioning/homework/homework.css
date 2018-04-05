@@ -1,43 +1,73 @@
-/* 
-Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files 
-in this folder, you are in the wrong place. 
-*/
 
-
-/* Exercise One: Centering the text in a span */
-
-/* We will start this one off for you: */
+/* Begin exercise one*/
 #exerciseOne {
-
+  text-align: center;
+  display: block;
 }
 
 
-/* Exercise Two: Positioning a Header Bar*/
-
-/* Place code here */
-
-
-
-/* Exercise Three: */
-
-/* Place code here */
+/* Begin exercise two*/
+#exerciseTwo {
+  display:none;
+}
 
 
+/* Begin exercise three */
+#moveBoxContainer {
+  position: relative;
+}
+#targetContainer {
+  postion: relative;
+}
+#exerciseThree {
+  src= .assets/tiger.jpeg;
+  position: absolute;
+  top: 100px;
+  left: 200px; 
+}
+#descSpan { 
+}
 
-/* Exercise Four: */
 
-/* Place code here */
-
-
-
-/* Exercise Five */
-
-/* Place code here */
-
+/* Begin exercise four: */
+#exerciseFour {
+position: fixed;
+top: 0;
+height: 70px;
+width: 550px;
+}
 
 
-/* Exercise Six */
+/*Begin exercise five*/
+#exerciseFive {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+  
 
+/* Begin exercise six using the same id*/
+ #exerciseFive {
+   flex-direction: row-reverse;
+ }
+
+ /*Begin exercise seven css playground*/ 
 #exerciseSeven {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  /*align-items: center;*/
+  /*align-self: auto;*/
+}
+#itemOne {
+  align-items: center;
+}
+*#itemTwo {
+  align-items: 
+}
+#itemThree {
+  align-self: auto;
+}
+#itemfour {
+  flex-direction:
 }
