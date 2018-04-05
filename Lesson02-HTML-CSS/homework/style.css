@@ -1,4 +1,12 @@
+html{
+    background-image: url("http://dribbble.s3.amazonaws.com/users/6615/screenshots/181236/fllogo.png")
+}
 .divClass{
+    background-color:rgb(88, 150, 88);
+    border:1px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
 
 }
 h1{
@@ -11,6 +19,7 @@ img{
     height: 600px;
     width:500px;
     background-color:darkgreen;
+    border:1px solid red;
     padding:50px;
     border-width:10px;
     border-color:darkgoldenrod;
