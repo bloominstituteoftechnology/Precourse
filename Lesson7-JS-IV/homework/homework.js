@@ -139,6 +139,17 @@ function setUsersToPremium(users) {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
+  
+
+  let items=[]; //created a local array
+  for(let values in users)
+  {
+    items = users[values]; // assign users[values] to local var items
+    items = items['isPremium']=true; //assign items['isPremium'] to true
+
+  }
+
+  return users; //but don't get this one here!
 }
 
 function sumUserPostLikes(user) {
@@ -147,6 +158,17 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
+
+
+    let sum=[];
+  for (let elements in user ){
+    sum = user[elements];
+    sum = user['posts'] = user['likes'];
+    sum += user['likes'];
+  }
+
+  return sum;
+
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
