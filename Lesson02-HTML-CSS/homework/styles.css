@@ -1,0 +1,40 @@
+h1, h3, h4 {
+	text-align: center;
+}
+
+h1 {
+	color: crimson;
+
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: paleturquoise;
+	padding: 50px;
+	border: 5px dashed darkcyan;
+	opacity: 1;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+
+body {
+	background-image: url("vanillaTransparent.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	margin-right: 20px;
+  	margin-top: 20px;
+}
+
+.parent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
