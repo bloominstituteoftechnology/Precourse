@@ -1,13 +1,13 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = 'Andrew' ;
+const newString = 'Andrew';
 
 //create a number variable, it an be any number
-const newNum = 3 ;
+const newNum = 3;
 
 //create a boolean variable
-const newBool = true ;
+const newBool = true;
 
 //solve the following math problem
 const newSubtract = 10 - 5 === 5;
@@ -93,7 +93,7 @@ function greaterThanFifty(num) {
       return true;
   }
   else
-  return false
+  return false;
 }
 
 function getRemainder(x, y) {
@@ -108,9 +108,8 @@ function isEven(num) {
     return true;
   }
   else
-  {
   return false;
-  }
+  
 }
 
 function isOdd(num) {
@@ -119,8 +118,7 @@ function isOdd(num) {
   if((num % 2) == 1){
     return true;
   }
-  else
-  {
+  else{
     return false;
   }
 }
@@ -160,13 +158,13 @@ function addExclamationPoint(str) {
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  return firstName + lastName;
+  return firstName + " " + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
- return 'Hello ' + name;
+ return "Hello " + name;
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -174,12 +172,16 @@ function getGreeting(name) {
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
-  // code here
+  const num = 0;
+  num = length * width;
+  return num;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  // code here
+  const num = 0;
+  num = (base * height * 0.5);
+  return num;
 }
 
 // Do not modify code below this line.
