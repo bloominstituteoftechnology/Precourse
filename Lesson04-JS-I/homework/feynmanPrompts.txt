@@ -1,0 +1,20 @@
+<!-- 1. Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Variables
+	* Strings
+	* Functions (arguments, `return`)
+	* `if` statements
+	* Boolean values (`true`, `false`) -->
+
+1) Variables are containers that hold a piece of data so it can be accessed later in the code.
+
+2) Strings are groups of characters surrounded by quotes " ". It is used to store plain text.
+
+3) Functions are a way of storing a chunk of code to be run at a later point, possibly over and over,
+	in the code. Arguments are data we can pass in to the function when we call it to run. The return
+	statement is what will output from the block of code after we run it.
+
+4) 'if' statements use a conditional statement to decide whether to execute the block of code attached.
+
+5) Boolean values are simple bianary values. They can be only 'true' or 'false'. They can be the result
+	of a conditional statement, and be stored in a variable for later use in the code.
