@@ -1,7 +1,7 @@
 <!-- 
 <style>
-    h1 {
-        color: blueviolet;
+    .title {
+        color: aqua;
     }
     img {
         width: 400px;
@@ -30,6 +30,8 @@
         display: flex; 
        justify-content: center;
        align-items: center;
+       flex-direction: column;
+
     }
 </style>
  -->
