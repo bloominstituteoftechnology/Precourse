@@ -2,13 +2,16 @@
     body {
         background-image: url(http://www.chantillygoods.com/data3/images/icecreamshoplaundromatweissportlehightonjimthorpepoconospa3.jpg);
         background-repeat: no-repeat;
-        position: absolute;
+        align-items: center;
     }
     h1 {
-         color: aqua
+         color: aqua;
+         text-align: center;
+         border: 2px black ;
         }    
     img {
         width: 400px;
+        align-items: center;
         }   
     #thirdDiv {
         width: 500px;
