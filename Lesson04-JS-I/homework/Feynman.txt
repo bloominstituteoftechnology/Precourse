@@ -1,0 +1,56 @@
+Write explanations of the following concepts as if you are explaining them to a 12 year old:
+
+
+VARIABLES
+Variables in programming languages are similar to variables used in algebra. A variable is a letter or word that represents something else.
+In the most recent versions of Javascript, there are several ways to create (or "declare") a variable. Each way does something slightly different.
+The old way of declaring variables is to use the keyword "var". For some reason, it has fallen out of style.
+There are two new ways, with a key difference between them. Using the keyword "const" creates a variable that is immutable, which means it cannot
+be edited once created. Using the keyword "let" creates a mutable variable, which can be edited after it has been created.
+
+Examples:
+const favoriteFood = 'Bread';
+let sliceCount = 12;
+
+
+STRINGS
+A string is a type of data in Javascript. A string is text and is surrounded by quotation marks, either the single (') or double (") marks.
+A string can contain numbers and letters.
+
+Examples:
+'My name is Clark.'
+"It is quite nice 2 meet you."
+
+
+FUNCTIONS
+Functions are the neat part of Javascript because they allow the programmer to create pages with dynamic content.
+Typically, a function takes inputs (called "arguments"), manipulates them according to the rules of the function, then returns a result.
+If a function has an argument, the function must be "passed" an argument when the function is called, otherwise you'll get an error.
+The argument acts as a variable that can be used within the function.
+
+Example:
+function addOne(number) {
+    sum = number + 1;
+    return sum;
+}
+addOne(10) // 11
+
+
+IF STATEMENTS
+If statements allow programmers to use something called "conditionality," which is a fancy word for something you're already familiar with.
+The basic idea of If Statements is "if THIS is true, do THAT." You can also stack If Statements to create something like
+"if X is true, do Y; otherwise, do Z."
+
+Example:
+function canDrink(age) {
+    if (age >= 21) {
+            return "Yes. Please drink responsibly.";
+        }
+
+    return "No alcohol for you. Please wait until the Earth circles the Sun a bit more.";
+}
+canDrink(23) // "Yes. Please drink resonsibly."
+
+
+BOOLEAN VALUES
+The word "boolean" refers to two opposing options, as in "0 or 1" and "Yes or No" and "True or False." It's either one or the other.
