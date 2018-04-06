@@ -1,0 +1,29 @@
+
+
+Feynman writing prompt:
+
+Variables:
+Containers that can be filled with any value such as Boolean (true, false), numerals or strings.
+Variables can be set to change or not change (constant).
+EX: Boolean: true, false;   Numbers: 123456,010101   Strings: 'fwcjbdj', 'Sam'
+
+Strings:
+Groups of characters wrapped by quotation marks to be used as a data set.
+EX: 'hffbrufhqleruf', 'Sam', 'Sam'+' '+'Kirkpatrick'
+
+Functions:
+Operations that engineers have computers perform using datasets, called 'arguments',
+which are passed into operation (function) to be 'returned' after the
+function (operation, evaluation) is complete.
+EX: function(2,2); x=2, y=2; z=x*y; return z
+
+'If' statements:
+A conditional evaluation of the truth or falsehood of arguments passed in.
+Part of control flow operators, 'if' frequently works with 'else', 'else if' and 'switch'
+to determine the the truth or falsehood of arguments for further evaluation and return.
+EX: if, 2*2=4, return true; else return false - return=true 
+
+Boolean values:
+Values that control flow operators use to 'test' arguments passed into functions
+for return or further testing; such as 'if, else, swittch statements'. These are
+true, false evaluations of arguments.
