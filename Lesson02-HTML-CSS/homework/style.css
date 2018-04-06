@@ -1,17 +1,52 @@
 h1 {
     color: maroon;
 }
+
 img {
     width: 400px;
+    margin-top: 25px;
 }
+
 #thirdDiv{
     height: 600px;
     width: 500px;
     background-color: lightsalmon;
     padding: 50px;
     border: 5px solid green; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
 }
-.spanID {
+
+#spanID {
     font-size: 18px;
     margin: 50px;
+    display: block;
+}
+html {
+    background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/20597388_1601530609898058_986875780135330917_n.jpg?_nc_cat=0&oh=82d4de9bdafc384c71fccaaecdc5f510&oe=5B6DD902");
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.divCLass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
 }
