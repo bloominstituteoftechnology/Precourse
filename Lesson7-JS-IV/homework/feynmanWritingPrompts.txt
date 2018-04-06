@@ -1,0 +1,70 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Objects
+Properties
+Methods
+for in loop
+Dot notation vs bracket notation
+
+********************************************************************************
+********************************************************************************
+
+Objects 
+
+-objects are containers that contain a type of item that has two parts to it. The first part of the item is called the property, and the second part of the item is called the value. The syntax for these items contained in objects is as follows, 
+	property: value 
+where property is a string and value can be any number of things including strings, numbers, booleans, arrays, and even another object. The property part of the item can be thought of the name of the associated value part of the item. When you want to access the value associated with a certaian property of an object you use the following syntax, 
+	objectName.propertyName 
+or, 
+	objectName[propertyName]
+.
+
+Unlike arrays, the items in objects do not have a number associated with them, so you have to call the item you want, not by the order in which it is listed in the object, but by the name of the specific property you're interested in. 
+
+
+
+---------------------------------------------------------------
+Properties
+
+-see explanation for objects
+
+
+
+---------------------------------------------------------------------
+Methods
+
+-methods are a special type of item contained in objects. With methods, the property part of the item pair serves the same function as normal, but the value part of the item pair is a function. To call a method inside an object, you call it just as you would in the explanation for objects above, but you put a pair of parenthesis at the end.  
+	objectName.methodName()
+or, 
+	objectName[methodName]()
+.
+
+
+
+---------------------------------
+for in loop
+
+-the "for in loop" serves a similar function for objects as the for loop serves for arrays: it allows you to perform a set of intructions on each property: value pair in the object. The syntax is as follows, 
+	for (let key in objectName),
+
+where the "key" variable name serves the same function as the "i" variable in arrays (i.e. for each loop, "key" is replaced by the name of the property), and "objectName" is the name of the object for which you would like to loop through its items. 
+
+
+
+----------------------------------------
+Dot notation vs bracket notation
+
+-in the explanation for object above, it was noted that you can access the value part of the property:value pair as follows, 
+	objectName.propertyName
+or, 
+	objectName[propertyName]
+. 
+
+In the first one, dot notation is used to access the value associated with the property, and in the second one, bracket notation is used to access the value associated with the property. With dot notation, the "propertyName" cannot contain any spaces, start with a number, or variables. With bracket notation, you can include spaces, start with a number, or use a variable (the variable has to equal a string or a number). 
+
+
+
+
+
+	
+
