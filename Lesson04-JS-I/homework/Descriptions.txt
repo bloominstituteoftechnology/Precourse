@@ -1,0 +1,14 @@
+Variable
+If something is a variable is a container of information.  You can specify what type of information can be put in a variable like a number or a string.
+
+String
+If something is a a string that means the computer expects it to be text, like text in a book. 
+
+Function
+A function is a calculation that takes an input, calculation logic on that input and returns a result.
+
+If
+In computer programing an if means that
+
+Boolean
+If something is boolean that means the computer expects it to be True of False
