@@ -1,0 +1,48 @@
+h1 {
+    color: dodgerblue;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    /* height: 600px; */
+    /* Changed div height to Contain img's within, beyond instructions*/
+    height: contain;
+    width: 500px;
+    background-color: red;
+    padding: 50px;
+    border: 5px dotted blue;
+}
+#spanId {
+   font-size: 18px;
+   margin: 50px; 
+}
+/* EXTRA CREDIT */
+body {
+    background-image: url("./pics/pizza.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    background-size: 100%; 
+}
+#firstDiv {
+    background-color: lightgrey;
+    width: 250px;   
+}
+#secondDiv {
+    background-color: white;
+    width: fit-content;
+}
+/* Below is centering Div's */
+div {
+    margin: auto;
+} 
+/* This ' * ' selects ALL Elements! */
+* {
+    text-align: center;
+}
+#firstDiv {
+    position: absolute;
+    left: 10px;
+}
+/* LEARN FLEXBOX, NEXT!!! */
