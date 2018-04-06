@@ -172,15 +172,13 @@ function getGreeting(name) {
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
-  const num = 0;
-  num = length * width;
+  const num = length * width;
   return num;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  const num = 0;
-  num = (base * height * 0.5);
+  const num = (base * height * 0.5);
   return num;
 }
 
