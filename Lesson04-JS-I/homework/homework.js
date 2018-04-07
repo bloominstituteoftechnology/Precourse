@@ -38,8 +38,20 @@ function add(x, y) {
 
 function subtract(x, y) {
   // subtract y from x and return the value
-  return y - x;
-  
+ 
+     if (x > 0 && y > 0){
+     return y-x;
+     }
+    if (x < 0 && y > 0){
+      return x - y;
+    }
+    if (x > 0 && y < 0)
+    {
+      return x + (y *= -1);
+    }
+    if (x == 0 && y == 0){
+      return 0;
+    }
 }
 
 function multiply(x, y) {
@@ -48,25 +60,27 @@ function multiply(x, y) {
 }
 
 function divide(x, y) {
-  // divide x by y and return the value
-  return x / y;
+ return x / y;
+
 }
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  if (x = y)
+  if (x === y)
   {
   return true;
   }
-  else
+  if (x !== y)
+  {
   return false;
+  }
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  if (str1.length = str2.length)
+  if (str1.length == str2.length)
   {
     return true;
   }
@@ -152,19 +166,19 @@ function roundUp(num) {
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  return str + "!";
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  return firstName + " " + lastName;
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
- return "Hello " + name;
+ return 'Hello ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas. 
