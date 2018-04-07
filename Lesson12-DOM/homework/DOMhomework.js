@@ -71,13 +71,13 @@ function buildToDo(todo, index) {
 
   const toDoText = document.createElement('span');
 
-  toDoText.innerHTML = ToDo.description;
+  toDoText.innerHTML = todo.description;
 
   toDoText.id = index;
 
   toDoText.onclick = completeToDo;
 
-  if (ToDo.complete) {
+  if (todo.complete) {
 
     toDoText.className = 'completeText';
 
@@ -123,11 +123,11 @@ function displayToDos() {
 
   const itemsArray = buildToDos(toDoItems);
 
-  for (let i = 0; i < toDoItems.length; i++){
+  itemsArray.forEach(function(element) {
+
+    toDoContainer.appendChild(element);
     
-    toDoContainer.appendChild(itemsArray[i]);
-   
-  }
+  });
 
 }
 
