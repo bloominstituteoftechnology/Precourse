@@ -20,3 +20,10 @@ img {
 body {
   background: url(https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2011/1/6/0/CCEV103_Margherita-Pizza_s4x3.jpg.rend.hgtvcom.966.725.suffix/1416867304309.jpeg);
 }
+div {
+  margin: 0px auto;
+}
+* {
+  margin-left: auto;
+  margin-right: auto;
+}
