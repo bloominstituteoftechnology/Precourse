@@ -1,0 +1,26 @@
+
+Feynman Writing Prompts:
+		
+	* `for` Statement:
+    Loop that iterates over a variable until it finds a false statement and then it
+    will stop the loop (iterations). The syntax and function are divided intothree parts. First a
+    variable is declared and a counter iterates over the variable, comparing a conditional
+    statement and iterating through the variable until it finds a false evaluation.
+
+	* Logical Operators `&&`, `||`, `!` :
+    Logical operators evaluate expressions for Boolean return. The Double Ampersand '&&',
+    and the Double Verticle '||', are similar in that the two expressions inside the operators are
+    evaluated from left to right.
+
+    Inside the '&&', both expressions inside the operator must be true. Therefore, if the first
+    expression is false, the second expression will not be evaluated because both expressions must
+    be true for the operator to return true.
+
+    Inside the '||', one, not both of the expressions inside the operator, must be true. Therefore,
+    if the first expression inside the operator is true the second expression will not be evaluated
+    because only one of the expressions inside the operator must be true for the operator to
+    return true.
+
+    The exclamation point '!' is the 'not' operator. When placed in front of an expression, 
+    it flips the value of the return to the opposite value. EX: !(true)=false 
+
