@@ -16,7 +16,7 @@ const newSubtract = 10 - 5 === 5;
 const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === 1 
+const newModulo = 21 % 5 === 1 ;
 
 
 
@@ -39,7 +39,7 @@ function add(x, y) {
 
 function subtract(x, y) {
   // subtract y from x and return the value
-  const difference = y - x ;
+  const difference = x - y ;
   return difference ;
 }
 
@@ -68,7 +68,7 @@ function areEqual(x, y) {
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  if (str1 === str2) {
+  if (str1.length === str2.length) {
     return true;
   } else {
     return false;
