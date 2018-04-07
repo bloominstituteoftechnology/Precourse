@@ -29,31 +29,34 @@ function getBiggest(x, y) {
 
 
 
-  function greeting(language) {
   
-    if (language === 'German') {
-      return 'Guten Tag!';
-     } else if (language === 'Mandarin') {
-       return 'Ni Hao!';
-     } else if (language === 'Ni Hao') {
-       return 'Mandarin!'; 
-     } else if (language === 'Spanish') {
-       return 'Hola!';
-     } else if (language === 'Hola') {
-       return 'Spanish!'; 
-     } else if (language === 'French') {
-       return 'Bonjour!';
-     } else if (language === 'Bonjour') {
-       return 'French'; 
-     } else if (language === 'Italian') {
-       return 'Bonjourno!';
-     } else if (language === 'Bonjourno') {
-       return 'Italian'; 
-     } else {
-       return 'Hello!';
-     }
-     }
-       greeting('Italian');
+function greeting(language) {
+  
+  if (language === 'German') {
+    return 'Guten Tag!';
+   } else if (language === 'Mandarin') {
+     return 'Ni Hao!';
+   } else if (language === 'Ni Hao') {
+     return 'Mandarin!'; 
+   } else if (language === 'Spanish') {
+     return 'Hola!';
+   } else if (language === 'Hola') {
+     return 'Spanish!'; 
+   } else if (language === 'French') {
+     return 'Bonjour!';
+   } else if (language === 'Bonjour') {
+     return 'French'; 
+   } else if (language === 'Italian') {
+     return 'Bonjourno!';
+   } else if (language === 'Bonjourno') {
+     return 'Italian';
+   } else if (language === 'Hello') {
+     return 'English';
+   } else {
+     return 'Hello!';
+   }
+   }
+     greeting('Spanish');
        
        //THIS ALSO WORKS IF THE GREETING IS INPUT...IT RETURNS THE LANGUAGE USED IN THE GREETING//
        //ITALIAN AND FRENCH TOO//
