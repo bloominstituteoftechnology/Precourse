@@ -44,7 +44,7 @@ span{
 /* Place code here */
 #exerciseFive{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row-reverse;
 }
@@ -53,7 +53,7 @@ span{
 
 #exerciseSeven {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row-reverse;
 }
