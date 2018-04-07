@@ -1,0 +1,19 @@
+h1 {
+  color: blue;
+}
+img {
+  width: 400px;
+}
+.divClass {
+  height: 600px;
+  width: 500px;
+  background-color: grey; 
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+#thirdDiv {
+  padding: 50px;
+  border: 2px blue solid;
+}
