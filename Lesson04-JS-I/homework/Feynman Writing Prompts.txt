@@ -1,0 +1,11 @@
+Variables are locations in memory where a specific value is stored, and can be recalled for as long as they are alive and in scope. For that latter purpose, they are named. It can help to think of them as containers which may hold any one piece of data.
+
+Strings are variables, but these particular containers hold data in the form of text, even if that data happens to include numbers. Strings often contain words, and are can be synonymous with "text data" while talking to other programmers.
+
+Functions are exactly as they sound, which is to say that they can be thought of as "capabilities" or "actions". As functions are generally written for serial processing, they perform a number of steps (or just one, in some cases) in order. For some functions, the function performs its task(s) and ends quietly, but for others, there is a specific conclusion that they report back to whoever it was that called the function to begin with.
+
+Functions are written so that they already know the concept of what they are doing before being called, but they do not necessarily know the specifics. What numbers are they adding, and for who? Arguments are pieces of information (but not necessarily variables) that are provided to the function to understand some of the specifics of what it is supposed to be doing.
+
+If-statements are simply logical statements, sometimes called conditional statements. In some disciplines, they are specified as "If-Then statements", which gives a pretty good idea of how they are used. "If" the conditions are comprehensively met, "then" the rest of the statement will execute. But if the conditions are not met, then the statement will not execute.
+
+Boolean are abstractions for the conceptual basis of logic (and necessarily if-statements). The conditions that if-statements use ultimately evaluate to a single "yes" or "no", which is what a boolean is. They represent one of two possible states, and are used for determining the flow of control--that is to say that they are used by the program to make decisions.
