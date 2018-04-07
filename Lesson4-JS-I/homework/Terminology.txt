@@ -1,0 +1,16 @@
+Terminology
+* Variables
+A variable is a place to store a piece of information such as a letter, a number, a word, or even an answer to a question, such as true or false. A variable can be a letter, a word, or a phrase written all together as one word, such as myNewVariable. The format I used to write the variable myNewVariable is called "camel case," with the capital "N" and capital "V" serving as the camel's humps.
+* Strings
+A string is a character or series of characters in either single or double quotation marks, like "Fred", 'boot', 'nuMber', "RibboN", "4j59fn382h", or 'R2uD0c0gd'.
+
+* Functions (arguments, `return`)
+A function is a piece of code that does something when you tell it to by calling its name as such: function name() {};. Inside the {} brackets you enter the commands to tell the computer what you want it to do.
+
+An argument is a value that you pass to a function to help it do something different.
+The 'return' command tells the computer to produce an output.
+* `if` statements
+	`If` statements allow you to tell the computer to do something based on the way some variables relate to a value, so if a number is greater than a certain other number, for example, the computer will do something. If the number is not greater than that other number, the computer may do something else, or nothing at all.
+
+* Boolean values (`true`, `false`) 
+A Boolean value is a binary value that can be only one of two possibilities: true or false, on or off, or 0 or 1, for example.
