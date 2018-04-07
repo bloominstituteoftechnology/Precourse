@@ -1,13 +1,13 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = "bloodhound";
+const newString = 'bloodhound';
 
 //create a number variable, it an be any number
 const newNum = 45;
 
 //create a boolean variable
-const newBool = "lovesBloodhounds" = true;
+const newBool = 'lovesBloodhounds' == true;
 
 //solve the following math problem
 const newSubtract = 10 - 5 == 5;
@@ -25,18 +25,16 @@ const newModulo = 21 % 5 == 1 ;
 //hint: console.log() will NOT work.
 //Do not change any of the function names
 
-let str = (0);
-function returnString(str){
+
+function returnString(str){ 
+  var str = 'mine';
  return str;
 }
-console.log(str);
-
-  //simply return the string provided: str
+//simply return the string provided: str
 
 
 
-  let x = 1;
-  let y = 2;
+ 
   const sum = (x + y);
   function add(x, y) { 
     // x and y are numbers
@@ -44,32 +42,30 @@ console.log(str);
    
     return sum;// code here
   }
-  console.log(sum);
 
 
-let x =1;
-let y = 0
-const difference = x-y;
+
+
+var difference = (x-y);
 function subtract(x, y) { 
+
   return difference;
   // subtract y from x and return the value
   // code here
 }
-console.log(difference);
 
 
-let x = 2;
-let y = 3;
+
+
 const product = x * y;
 function multiply(x, y) { 
   return product;
   // multiply x by y and return the value
   // code here
 }
-console.log(product);
 
-let x = 4;
-let y = 2;
+
+
 const solution = x / y;
 
 function divide(x, y){ 
@@ -77,11 +73,12 @@ function divide(x, y){
   // divide x by y and return the value
   // code here
 }
-console.log (solution);
+
 
 
 function areEqual(x, y){
   if (x === y);{ 
+    return true;
   // return true if x and y are the same
   // otherwise return false
   }
@@ -244,4 +241,4 @@ module.exports = {
   getRectangleArea,
   getTriangleArea,
 }
-}
+
