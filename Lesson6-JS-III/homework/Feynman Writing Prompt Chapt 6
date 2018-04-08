@@ -9,4 +9,4 @@ They are accessible by functions and have properties such as 'push', 'pull', 'po
 that allow engineers to manipulate the elements within the array and make returns.
 
 The array data structure allows the use of 'for loops' that iterate through the elements in
-the array conducting tests to return information about the array.
+the array conducting tests to return information about the elements in the array.
