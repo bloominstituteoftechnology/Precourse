@@ -63,10 +63,10 @@ function greeting(language) {
   }
   }   greeting('Ni Hao');
        
-//THIS ALSO WORKS IF THE GREETING IS INPUT, THE RETURN IDENTIFIES THE LANGUAGE USED IN THE GREETING//
+//THIS ALSO WORKS IF THE GREETING IS INPUT. THE RETURN IDENTIFIES THE LANGUAGE USED IN THE GREETING//
     //ITALIAN, PORTUGUESE AND FRENCH TOO//
     // this module also functions as a language identifier..
-    // returns a greeting for five different languages:
+    // returns a greeting for 7 different languages:
     // language: 'German' -> 'Guten Tag!'
     // language: 'Mandarin' -> 'Ni Hao!'
     // language: 'Spanish' -> 'Hola!'
