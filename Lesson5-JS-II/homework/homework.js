@@ -32,35 +32,36 @@ function getBiggest(x, y) {
   
 function greeting(language) {
   
-  if (language === 'German') {
+    if (language === 'German') {
     return 'Guten Tag!';
-   } else if (language === 'Mandarin') {
-     return 'Ni Hao!';
-   } else if (language === 'Ni Hao') {
-     return 'Mandarin!'; 
-   } else if (language === 'Spanish') {
-     return 'Hola!';
-   } else if (language === 'Hola') {
-     return 'Spanish!'; 
-   } else if (language === 'French') {
-     return 'Bonjour!';
-   } else if (language === 'Bonjour') {
-     return 'French'; 
-   } else if (language === 'Italian') {
-     return 'Bonjourno!';
-   } else if (language === 'Bonjourno') {
-     return 'Italian';
-   } else if (language === 'Portuguese') {
-     return 'Bom Gia!';
-   } else if (language === 'Bom Gia') {
-     return 'Portuguese';
-   } else if (language === 'Hello') {
-     return 'English';
-   } else {
-     return 'Hello!';
-   }
-   }
-     greeting('Spanish');
+  } else if (language === 'Guten Tag') {
+    return 'German';
+  } else if (language === 'Mandarin') {
+    return 'Ni Hao!';
+  } else if (language === 'Ni Hao') {
+    return 'Mandarin'; 
+  } else if (language === 'Spanish') {
+    return 'Hola!';
+  } else if (language === 'Hola') {
+    return 'Spanish'; 
+  } else if (language === 'French') {
+    return 'Bonjour!';
+  } else if (language === 'Bonjour') {
+    return 'French'; 
+  } else if (language === 'Italian') {
+    return 'Bonjourno!';
+  } else if (language === 'Bonjourno') {
+    return 'Italian';
+  } else if (language === 'Portuguese') {
+    return 'Bom Gia!';
+  } else if (language === 'Bom Gia') {
+    return 'Portuguese';
+  } else if (language === 'Hello') {
+    return 'English';
+  } else {
+    return 'Hello!';
+  }
+  }   greeting('Ni Hao');
        
 //THIS ALSO WORKS IF THE GREETING IS INPUT, THE RETURN IDENTIFIES THE LANGUAGE USED IN THE GREETING//
     //ITALIAN, PORTUGUESE AND FRENCH TOO//
