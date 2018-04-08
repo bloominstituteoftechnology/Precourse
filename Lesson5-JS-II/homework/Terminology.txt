@@ -1,0 +1,24 @@
+Explaining terms to a 12-year-old
+* `for`
+A `for` loop allows you to repeat a block of code as long as a condition or a set of conditions 
+has been met. `for i = 200; i >= 10; i=i-5;` is an example of such a loop that counts down from 200 to 10 by multiples of 5.
+
+* `&&`, `||`, `!`
+The above symbols are called logical operators. They allow you to evaluate two or more expressions to determine whether they are true or false.
+
+The `&&` operator is called the `AND` operator. When you use the `&&` operator: 
+the computer will answer true if all expressions are true; 
+the computer will answer false if one or all of the expressions are false;
+the computer will also answer false if all expressions are false.
+
+The `||` operator is called the `OR` operator. When you use the `||` operator: 
+the computer will answer true if one or all of the expressions are true;
+the computer will answer false if all expressions are false.
+
+The `!` operator is called the `NOT` operator. When you use the `NOT` operator 
+in front of a comparison operator such as ===, >, <, >=, or <=, the computer 
+will answer in the opposite way than if the operator were left alone.
+The expressions would look like this with the NOT operator in front of them: 
+!==, !>, !<, !>=, and !<=. Note that with `===` the NOT version is `!==` and 
+not `!===`.
+
