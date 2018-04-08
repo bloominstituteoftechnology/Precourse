@@ -1,0 +1,12 @@
+Feynman Writing Prompt for Chapter 6:
+Array:
+
+Arrays are data structures used in javascript to assign single variables that are used to
+store multiple elements. Arrays are a type of object where the elements are organized in
+numerical order and are accessible by using that numerical order.
+
+They are accessible by functions and have properties such as 'push', 'pull', 'pop' and .length
+that allow engineers to manipulate the elements within the array and make returns.
+
+The array data structure allows the use of 'for loops' that iterate through the elements in
+the array conducting tests to return information about the array.
