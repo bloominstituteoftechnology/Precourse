@@ -50,6 +50,10 @@ function greeting(language) {
      return 'Bonjourno!';
    } else if (language === 'Bonjourno') {
      return 'Italian';
+   } else if (language === 'Portuguese') {
+     return 'Bom Gia!';
+   } else if (language === 'Bom Gia') {
+     return 'Portuguese';
    } else if (language === 'Hello') {
      return 'English';
    } else {
@@ -58,13 +62,16 @@ function greeting(language) {
    }
      greeting('Spanish');
        
-       //THIS ALSO WORKS IF THE GREETING IS INPUT...IT RETURNS THE LANGUAGE USED IN THE GREETING//
-       //ITALIAN AND FRENCH TOO//
-    
-    // return a greeting for three different languages:
+//THIS ALSO WORKS IF THE GREETING IS INPUT, THE RETURN IDENTIFIES THE LANGUAGE USED IN THE GREETING//
+    //ITALIAN, PORTUGUESE AND FRENCH TOO//
+    // this module also functions as a language identifier..
+    // returns a greeting for five different languages:
     // language: 'German' -> 'Guten Tag!'
     // language: 'Mandarin' -> 'Ni Hao!'
     // language: 'Spanish' -> 'Hola!'
+    // language: 'Italian' -> 'Bonjourno!'
+    // language: 'French' -> 'Bonjour!'
+    // language: 'Portuguese' -> 'Bom Gia!'
     // if language is undefined return 'Hello!'
 
 
