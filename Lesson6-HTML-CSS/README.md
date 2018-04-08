@@ -264,7 +264,7 @@ We cant use width or height for text, but we can determine the size of the font 
 
 
 ## External Stylesheets and the \<link> element
-
+0
 We have gone over how to use the \<style> html element. This is fine if you have a very small webpage and minimal styling, but most pages would start to feel cluttered very quickly if we included all of our CSS in the HTML. Thankfully we have a solution for that, external stylesheets and the \<link> element.
 
 An External style sheet is simply another file with the .css filetype on it. Conventionally this file is named something along the lines of "style.css". We can take all of the styling rules we wrote between the \<style> tags and transfer them directly to the css file. We do not need to include anything else, just the styling rules. 

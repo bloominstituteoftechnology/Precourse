@@ -23,7 +23,7 @@ I. Create a basic HTML page.
 II. Add some style
   A. Add style tags to you HTML document.
   B. Give your third div the id "thirdDiv".
-  C. Give your other divs the class "divClass".
+  C. Give your other divs the class "divClass".0
   D. Give the span in your seond div the id "spanId".
   E. Add a style rule to your h1 element changing the color of the text (pick from 
      here: https://www.crockford.com/wrrrld/color.html).
