@@ -1,10 +1,10 @@
 {
   "name": "lambdaschoolprecourse",
   "version": "1.0.0",
-  "description": "This repo contains the instruction material and assignments for Lambda School's pre-course workshop.",
+  "description": "This repo contains the instruction material and assignments for Lambda School's `Web Dev 101 Mini Bootcamp`.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint Lesson12-DOM/homework/homework.js Lesson11-JS-VIII/homework/homework.js Lesson10-JS-VII/homework/homework.js Lesson9-JS-VI/homework/homework.js Lesson8-JS-V/homework/homework.js Lesson7-JS-IV/homework/homework.js Lesson6-JS-III/homework/homework.js  Lesson5-JS-II/homework/homework.js Lesson4-JS-I/homework/homework.js && jest"
+    "test": "eslint Lesson09-JS-VI/homework/homework.js Lesson08-JS-V/homework/homework.js Lesson07-JS-IV/homework/homework.js Lesson06-JS-III/homework/homework.js  Lesson05-JS-II/homework/homework.js Lesson04-JS-I/homework/homework.js && jest"
   },
   "repository": {
     "type": "git",
@@ -17,13 +17,10 @@
   },
   "homepage": "https://github.com/lambdaschool/precourse#readme",
   "devDependencies": {
-    "babel-eslint": "^8.2.2",
-    "eslint": "^4.19.1",
-    "eslint-plugin-babel": "^5.0.0",
-    "jest": "^22.0.3",
-    "jslint": "^0.12.0"
+    "eslint": "^4.13.1",
+    "jest": "^22.0.3"
   },
   "dependencies": {
-    "jshint": "^2.9.5"
+    "npm": "^5.8.0"
   }
 }
