@@ -1,0 +1,27 @@
+1. Feynman Writing Prompts:
+* Variables:
+Think of this as boxes that store values that we will use in the future.
+They may be empty, have a number or a word, or even a function.
+We have 3 different boxes.
+VAR is one that can be emptied and
+can be filled with stuff from another box, it
+also is aware of what everyone else is carrying inside.
+CONST is a box that can't be emptied.
+LET is a box that knows only what very close boxes around it has.
+
+* Strings
+Think of strings as a string of letters and spaces that makes either
+a sentence or a work. Simple, no?
+
+* Functions (arguments, `return`)
+Think of functions as a set of instructions that this box will do
+using some other boxes inside. It has empty spots where you could
+put Strings or Variable for the function to run, and those are arguments.
+The result of the set of instructions is whatever it returns.
+
+* `if` statements
+Think of if statements as a condition the box needs to pass
+in order for it to use its instructions and return us the value.
+
+* Boolean values (`true`, `false`)
+Think of Booleans as a light switch. On or off. True or false.
