@@ -1,41 +1,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-<<<<<<< HEAD:Lesson2-Intro-to-JS/homework/homework.js
-let newString = 'Bebo' ;
+const newString = 'Bebo' ;
 
 //create a number variable, it an be any number
-let newNum = 22 ;
+const newNum = 7 ;
 
 //create a boolean variable
-let newBool = true ;
+const newBool = true ;
 
 //solve the following math problem
-let newSubtract = 10 - 5 === 5;
+const newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * 4 === 40 ;
+const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === 1 ;
-=======
-const newString = null ;
-
-//create a number variable, it an be any number
-const newNum = null ;
-
-//create a boolean variable
-const newBool = null ;
-
-//solve the following math problem
-const newSubtract = 10 - null === 5;
-
-//Solve the following math problem
-const newMultiply = 10 * null === 40 ;
-
-//Solve the following math problem:
-const newModulo = 21 % 5 === null ;
->>>>>>> 5038ffe789eff7e383a2454c436b121f99992bb6:Lesson4-JS-I/homework/homework.js
+const newModulo = 21 % 5 === 1 ;
 
 
 
