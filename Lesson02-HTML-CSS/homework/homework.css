@@ -1,0 +1,35 @@
+body {
+  background-image: url("http://lorempixel.com/400/200/");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+h1 {
+  color: olive;
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 500px;
+  background-color: oldlace;
+  padding: 50px;
+  border: 2px solid orchid;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+div.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
