@@ -1,0 +1,29 @@
+Explain the following concepts like you are explaining them to a 12 year old:
+
+FOR
+For is a Javascript keyword that begins what is called a loop. A loop is a
+set of instructions the programmer tells the computer to repeat. That is a neat
+ability because it allows the programmer to perform repetitive tasks over and
+over.
+
+Programmers should give for loops limits when they write them, otherwise a loop
+can continue on and on and on forever, and that would be bad for the computer!
+
+
+OPERATORS && , || , !
+The above are called logical operators. Think of each one as a keyword for
+words you already know. Think of && as "and", think of || as "or", and think of
+! as "not".
+
+&& is "and". We use it to tell the computer to evaluate two expressions and
+return "true" if and only if both expressions are true. If one expression is
+false, the entire && statement is false.
+
+|| is "or". We use it to tell the computer to evaluate two expressions and to
+return "true" if at least one of the expressions is true.
+
+! is "not". Think of it as the negative sign in math. If you have four, and then
+put "-" in front of it, you now have -4. Now, if you put another negative sign
+in front of -4, you get --4 and that's equal to 4. ! behaves the same way in
+Javascript. It returns the opposite boolean result, so true becomes false and
+false becomes true.
