@@ -1,0 +1,24 @@
+h1 {
+  color: firebrick;
+}
+
+p {
+  color: red;
+}
+
+img {
+	width: 400px
+}
+
+#thirdDiv {
+	height: 600px
+	width: 500px
+	background: white
+	padding: 50px
+	border: dashed black
+}
+
+#spanId {
+	font: 18px
+	margin: 50px
+}
