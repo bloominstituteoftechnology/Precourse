@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<style>
+			h1 {
+				color: slateblue;
+			}
+			img {
+				width: 400px;
+			}
+			#thirdDiv {
+				height: 600px; 
+				width: 500px; 
+				background-color: goldenrod;
+				padding: 50px;
+				border-style: groove;
+				border-width: 2px 10px 4px 20px;
+				border-color: plum;
+			}
+			#spanID {
+				font-size: 18px;
+				margin: 50px;
+			}
+
+		</style>
+	</head>
+
+	<title>Courtney's HTML homework</title>
+
+	<body>
+		<div class="divClass">
+			<h1>Courtney Buratto<h1>
+			<h3>Lambda School</h3>
+			<h4>HTML/CSS homework</h4>
+		</div>
+		<div class="divClass">
+			<span id="spanId">Food is my favorite food</span>
+			<a href='https://www.pambiche.com/'>One of my favorite restaurants!</a>
+		</div>
+		<div id="thirdDiv">
+			<ul>
+				<li>
+					<span>tostones</span>
+					<img src='https://cdn.pinchofyum.com/wp-content/uploads/Fried-Plantains-Tostones.jpg'/>
+				</li>
+				<li>
+					<span>empanadas</span>
+					<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi9TIzlXxccB9_nSrO_Cx86EKytaHHrpfJTGM4dUqpvoseOgC_'/>
+				</li>	
+			</ul>
+		</div>
+	</body>
+</html>	

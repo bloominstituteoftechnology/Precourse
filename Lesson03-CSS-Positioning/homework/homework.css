@@ -1,43 +1,25 @@
-/* 
-Lesson 3: CSS positioning homwork. All of your work should be done in this file. If you find yourself altering any of the other files 
-in this folder, you are in the wrong place. 
-*/
 
-
-/* Exercise One: Centering the text in a span */
-
-/* We will start this one off for you: */
-#exerciseOne {
-
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKIZud0uPlMGRZXxWznK7aPvUKrTizCyUhKdCbe11R5bq-O-g2")
 }
 
+h1 {
+	color: slateblue;
+}
+img {
+	width: 400px;
+}
 
-/* Exercise Two: Positioning a Header Bar*/
-
-/* Place code here */
-
-
-
-/* Exercise Three: */
-
-/* Place code here */
-
-
-
-/* Exercise Four: */
-
-/* Place code here */
-
-
-
-/* Exercise Five */
-
-/* Place code here */
-
-
-
-/* Exercise Six */
-
-#exerciseSeven {
-  display: flex;
+#thirdDiv {
+	height: 600px; 
+	width: 500px; 
+	background-color: goldenrod;
+	padding: 100px;
+	border-style: groove;
+	border-width: 20px;
+	border-color: plum;
+}
+#spanID {
+	font-size: 18px;
+	margin: 50px;
 }
