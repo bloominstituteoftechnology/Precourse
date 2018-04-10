@@ -10,7 +10,7 @@
          
 * Functions (arguments, `return`)
 - Functions are the building-block of statements which are use to perform specific tasks.
-    eg. If you are going to play football, where your 'legs' will act as a pararmeter for a function named as 'kick'.
+    eg. If you are going to play football, where your 'legs' will act as a pararmeter for a function named as 'kick'. And your goal will count as `return` value.
 
 * `if` statements
 - This statement checks whether a condition is matched or not. It can also be in nested form.
