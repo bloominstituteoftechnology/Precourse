@@ -7,7 +7,7 @@ const newString = 'Hello world!' ;
 const newNum = 2 ;
 
 //create a boolean variable
-const newBool = True ;
+const newBool = true ;
 
 //solve the following math problem
 const newSubtract = 10 - 5 === 5;
@@ -65,9 +65,9 @@ function areEqual(x, y) {
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  var str1 = str1.length;
-  var str2 = str2.length;
-  if (str1 == str2) {
+  const string1 = str1.length;
+  const string2 = str2.length;
+  if (string1 == string2) {
     return true;
   }
   else {
@@ -83,7 +83,7 @@ function lessThanNinety(num) {
     return true;
   }
   else {
-    return false
+    return false;
   }
 }
 
@@ -94,7 +94,7 @@ function greaterThanFifty(num) {
     return true;
   }
   else {
-    return false
+    return false;
   }
 }
 
@@ -171,14 +171,14 @@ function getGreeting(name) {
   // 'Sam' -> 'Hello Sam!'
   return 'Hello '+name+'!';
 }
-}
+
 
 // The next three questions will have you implement math area formulas. 
 // If you can't remember these area formulas then head over to Google.
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
-  // code here
+  return (length*width);
 }
 
 function getTriangleArea(base, height) {
