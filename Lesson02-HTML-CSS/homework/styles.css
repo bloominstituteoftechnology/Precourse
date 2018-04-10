@@ -1,0 +1,22 @@
+h1 {
+    color: seagreen;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: dimgray;
+    padding: 50px;
+    border-width: 80px;
+    border-color: blue;
+    border-style: groove;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+body {
+    background-image: url("http://ww1.prweb.com/prfiles/2013/05/31/10791478/pinocchiosbrighton3.jpg");
+}
