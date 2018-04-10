@@ -1,0 +1,3 @@
+The "for" reserved word is used to construct a loop. For loops check to see if the conditions are met before running, and as a result might not run at all.
+
+The && operator is equivalent to the logical AND, which means that it will be true if all compared arguments are true, and false otherwise. The || operator is the logical OR, which will be true as long as at least one of the compared arguments is true, and alse otherwise. The ! operator is the logical complement, and can be thought of as the negation of whatever follows it. So if boolean 'example' is true, it will fail to meet the condition of '!example'.
