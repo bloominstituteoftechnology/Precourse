@@ -35,7 +35,10 @@ in this folder, you are in the wrong place.
 
 /* Place code here */
 #exerciseFour {
-  position: sticky;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  
 }
 
 
