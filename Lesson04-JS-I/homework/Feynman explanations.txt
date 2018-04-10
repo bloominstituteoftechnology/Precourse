@@ -20,4 +20,3 @@
 * Boolean values (`true`, `false`)
 - Boolean is like the electricity switch, having two states to be performed simultaneously. 
     eg. If you're going to buy an Xbox One at shop, which would be out of stock. Then you'll come back to home instead of buying PS4. Perhaps, 'do it now or not'.
-    Boolean values are also called as 'truthy falsy'. 
