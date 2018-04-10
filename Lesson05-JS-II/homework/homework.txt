@@ -1,0 +1,8 @@
+1. Feynman Writing Prompts:
+
+* `for`
+Think of this as the direction to include or repeat the instructions.
+
+* `&&`, `||`, `!`
+Think of this as literal meanings of and or and not. We can use this to
+compare the values and decide if we will follow the instructions or not.
