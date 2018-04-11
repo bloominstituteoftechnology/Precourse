@@ -1,4 +1,9 @@
 
+	html { background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYmhCWWQDMpt8NSH8RqVxFy0F3DvzzxVrqqqupx9kb49K6kCl1) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   
 h1 {
 	color: slateblue;
@@ -21,3 +26,4 @@ img {
 	font-size: 18px;
 	margin: 50px;
 }
+		
