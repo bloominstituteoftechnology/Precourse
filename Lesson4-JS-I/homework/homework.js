@@ -61,7 +61,9 @@ function areEqual(x, y) {
      if (x === y) {
     return true; // code here
   } 
-    else return false;
+    else {
+       return false;
+    }
 }
   function areSameLength(str1, str2) {
     // return true if the two strings have the same length
@@ -89,7 +91,9 @@ function greaterThanFifty(num) {
   
     return true;
 }
-  else return false;
+  else {
+    return false;
+}
 }
 
 function getRemainder(x, y) {
@@ -97,14 +101,17 @@ function getRemainder(x, y) {
   return (x % y);// code here
 }
 
-let evenNum = (num % 2);
+
 function isEven(num) {
+  let evenNum = (num % 2);
     if (evenNum === 0) {
     return true;
     }  // return true if num is even
  		 // otherwise return false
-  else return false; // code here
+  else {
+    return false; // code here
  } 
+}
 
  function isOdd(num) {
   
@@ -115,45 +122,45 @@ function isEven(num) {
     return true; // code here
    }
     
-   return false;
+   else {
+     return false;
   }
-  
-let squareNum = (Math.pow(num));
-function square(num) { 
-
-return squareNum;
-
-  // square num and return the new value
-  // hint: NOT square root!
 }
 
-let numCube = (num.pow * num);
-function cube(num) { 
 
-  return numCube;
+function square(num) {
+ 
+return Math.pow(num,2);
+
+  // square num and return the new value
+} // hint: NOT square root!
+
+
+
+function cube(num) { 
+  
+
+  return Math.pow(num,3);
   // cube num and return the new value
   // code here
 }
 
 
-let exponent = Math.pow(num,expo);
+
 function raiseToPower(num, expo) {
- 
-  return exponent;
+  return Math.pow(num, expo);
    // raise num to whatever power is passed in as exponent
   // code here
 }
 
-let numRound = Math.round(num);
+
 function roundNumber(num) {
   // round num and return it
-
-  return numRound; // code here
+ return Math.round(num); // code here
 }
 
 function roundUp(num) { 
-
-  return (Math.ceil(num));
+ return (Math.ceil(num));
   // round num up and return it
   // code here
 }
@@ -167,15 +174,16 @@ function addExclamationPoint(str) {
 
 
 function combineNames(firstName, lastName) { 
-  return (firstName + lastName);  // return firstName and lastName combined as one string and separated by a space.
+  
+  return firstName + ' ' + lastName;  // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
 }
 
 function getGreeting(name) { 
-  let greet = ('Hello ' +  name) 
-  
-  return greet;
+  let firstGreet = 'Hello';
+  return firstGreet + ' ' + name +'!';
+
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
@@ -185,17 +193,13 @@ function getGreeting(name) {
 // If you can't remember these area formulas then head over to Google.
 
 function getRectangleArea(length, width) { 
-  let area = (length * width); 
-  
-  return area;
+  return (length * width);
   // return the area of the rectangle by using length and width
   // code here
 }
 
 function getTriangleArea(base, height) { 
-  let area = (base * height); 
-  
-  return area;
+   return (base * height) /2 ;
   // return the area of the triangle by using base and height
   // code here
 }
