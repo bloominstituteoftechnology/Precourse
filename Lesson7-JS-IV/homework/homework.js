@@ -102,8 +102,6 @@ const object = {
   // return the new object
 
 
-
-
   user1 = {
     username: 'SunJieMing',
     email: 'ben@lambdaschool.com',
@@ -158,9 +156,9 @@ const object = {
 
 
 
- const user = {
-      password: 'I love js!',
-    }; 
+const user = {
+    password: 'I love js!',
+  }; 
 function verifyPassword() {
   if(user.password==='I love js!'){
     return true;
