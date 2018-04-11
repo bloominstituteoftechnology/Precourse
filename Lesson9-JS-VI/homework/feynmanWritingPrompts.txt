@@ -1,0 +1,17 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Callback Functions
+
+
+*******************************************************************************
+
+Callback Functions
+
+
+-callback functions are functions that are used as arguments in other functions. the syntaxt used for using a callback function is as follows,
+
+
+function functionNAme(item, cb) {};
+
+
+where the function functionName is instantiated as a function with two arguments. The first argument is a placeholder for the item to be acted upon or manipulated. The second argument cb is a placeholder for the name of the function that you want to act on the first argument. 
