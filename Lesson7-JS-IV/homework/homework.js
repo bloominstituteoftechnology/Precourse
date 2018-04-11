@@ -130,18 +130,49 @@ const object = {
    // otherwise return false
 
 
+   const obj = {
+    x: true,
+  };
+  function hasProperty() {
+    const prop = obj.x;
+    if (prop) {
+      return true;
+    } else 
+      return false;
+  }
+     
+  
+  const obj = {
+    x: true,
+  };
+  function hasProperty() {
+    if (obj.x) {
+      return true;
+   } else 
+      return false;
+  }
+   hasProperty(obj, 'x');
+   //return true if the object has the value of the property argument
+  //property is a string
+ // otherwise return false
 
-function hasProperty(object, property) {
-  // return true if the object has the value of the property argument
-  // property is a string
-  // otherwise return false
-}
 
-function verifyPassword(user, password) {
-  // check to see if the provided password matches the password property on the user object
-  // return true if they match
-  // otherwise return false
-}
+
+ const user = {
+      password: 'I love js!',
+    }; 
+function verifyPassword() {
+  if(user.password==='I love js!'){
+    return true;
+  } else 
+    return false;
+} 
+    verifyPassword(user, 'password');
+  // check to see if the provided password matches the password property on the 
+ //user object, return true if they match
+//otherwise return false
+
+
 
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
@@ -149,18 +180,18 @@ function updatePassword(user, newPassword) {
 }
 
 
-function addFriend(user, newFriend) {
-  const user = { 
+const user = { 
     friends: ['Ben', 'Austen', 'Ryan', 'Mike', 'Young'], 
   }; 
-  console.log(user);
-         newFriend = user.push('Shay');
- 
-     return user;
-   }  
-  // user has a property called friends that is an array
+function addFriend(user, newFriend) {
+    newFriend = user.friends;
+    newFriend.push('Shay');
+  return user.friends;
+  }
+    addFriend(user, 'Shay');
+   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
-  // return the user object
+ // return the user object
 
 
 function setUsersToPremium(users) {
