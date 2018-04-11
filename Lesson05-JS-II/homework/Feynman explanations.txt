@@ -1,0 +1,18 @@
+
+* `for`
+- for loop consist of three statements, first one starting the loop, second one is when to stop the loop & the third one is how to take next step.
+	eg. for(var a=1; a<=6; a++) 
+	{ ...code block... }
+	
+	this loop is starts from 1 and compare with 6 which var `a` to code block. Then it came back to third statment and value increases to 2. Now the value of var `a` is 2. So on, the code block runs until the condition will going false.
+
+* `&&`, `||`, `!`
+ `&&`, `||` are the logical operators known as AND, OR respectively. These are used in Truth Tables for getting all possible combinations of inputs in logical expressions. The result values are in Boolean format (`true` or `false`). 
+
+	eg. A && B -> If both A and B value are true then the result would be true, where in case of '||' logical operator, you need to state one value true to get the result as true value. 
+
+ `!` known as NOT operator, which works opposite to the resulted value. If you'll actually get true value, then NOT operator will turn it into false and vice versa.
+
+ 	eg. a = 1, b=1
+ 		a == b //true
+ 		a != b //false
