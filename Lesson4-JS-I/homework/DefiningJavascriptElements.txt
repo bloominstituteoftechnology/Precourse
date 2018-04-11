@@ -1,0 +1,24 @@
+Feynman Writing Prompts - In a seprate text file that you create, 
+write out explanations of the following concepts like you are explaining 
+it to a 12 year old. Doing this will help you quickly discover any holes in
+ your understanding. Ask your questions on Slack.
+
+Variables are values that we tell the computer to remember for future use. 
+    We use var (This is the old way of writing a variable so we won't be using
+     this much. Here, values can be changed later on.), let(This is used when 
+     we want to change something later on.), and const(Constant creates a variable
+      that can't be changed, just like a science experiment constant is not changed.)
+       to define our variables. Variables can represent numbers or words.
+Strings are simply words and sentences. They can't be manipulated like numbers can.
+     We use quotes to designate a string.
+Functions are like math equations. We are manipulating what is 
+    there and ending with something different. Arguments are what we plug into the math 
+    equation (function). For example the function would be a+b=c. The values we put in for
+     a and b (lets set them as 1 and 5) are the arguments. Our return value will be our answer
+      (c which is 6 in this example).
+If statements are ways we exclude possible answers to our functions. For example, if the person's
+     age is greater than 18, the person is considered an adult. So if you ask if a 17 year old is an adult, then
+      an adult, the answer would be false or no. If you ask about a 23 year old, the answer would be true or yes.
+Boolean values (true, false) are true/false decisions. You can ask the computer if the
+    statement "2 is an odd number" is true or false and it will decide it is a False statement.
+
