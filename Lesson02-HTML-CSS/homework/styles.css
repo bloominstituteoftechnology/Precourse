@@ -1,0 +1,20 @@
+h1 {
+			color: springgreen;
+		}
+
+		img {
+			width: 400px;
+		}
+
+		#thirdDiv {
+			height: 600px;
+			width: 500px;
+			background-color: dodgerblue;
+			padding: 10px;
+			border: 10px dashed red;
+		}
+
+		#spanId {
+			font-size: 18px;
+			margin: 50px;
+		}
