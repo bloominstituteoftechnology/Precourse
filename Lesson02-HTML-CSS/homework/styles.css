@@ -1,0 +1,23 @@
+
+  
+h1 {
+	color: slateblue;
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px; 
+	width: 500px; 
+	background-color: goldenrod;
+	padding: 50px;
+	border-style: groove;
+	border-width: 20px;
+	border-color: plum;
+}
+#spanID {
+	font-size: 18px;
+	margin: 50px;
+}
