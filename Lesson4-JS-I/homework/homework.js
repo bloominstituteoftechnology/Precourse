@@ -7,16 +7,16 @@ const newString = 'Perry';
 const newNum = 12;
 
 //create a boolean variable
-const newBool = true;
+const newBool = false;
 
 //solve the following math problem
 const newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-const newMultiply = 10 * 4 === 40 ;
+const newMultiply = 10 * 4 === 40;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === 1 ;
+const newModulo = 21 % 5 === 1;
 
 
 
@@ -52,22 +52,22 @@ function divide(x, y) {
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  if (x === y) {
+  if(x === y) {
     return true;
   }
   else {
     return false;
-  }
+  } 
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   if (str1.length === str2.length) {
-    return true;
+  return true;
   }
   else {
-    return false;
+   return false;
   }
 }
 
@@ -168,15 +168,13 @@ function getGreeting(name) {
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
-  return width * length;
+  return length * width;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  let getArea = base * height / 2;
-  return getArea;
+  return base * height / 2;
 }
-
 // Do not modify code below this line.
 // --------------------------------
 
