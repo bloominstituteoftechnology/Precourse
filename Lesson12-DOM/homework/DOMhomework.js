@@ -3,7 +3,7 @@
 */
 
 // code here
-let toDoItems = [];
+// let toDoItems = [];
 
 /*
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -12,8 +12,8 @@ let toDoItems = [];
 */
 
 // code here
-let eve = document.querySelector(#createdBy);
-eve.innerHTML = 'Amazing Em';
+// let eve = document.querySelector(#createdBy);
+// eve.innerHTML = 'Amazing Em';
 
 /*
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
