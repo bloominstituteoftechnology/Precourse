@@ -1,0 +1,75 @@
+1.Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+prototype
+Constructors
+
+*****************************************************************
+
+Constructors
+
+-Constructors serve as templates of objects that can be used when creating several objects that have similar properties but different property values. For example, let's say that we have a personal library of textbooks and that we want to create an object for each textbook with key:value pairs for the textbook's title, the textbook author's last name, and the year the book was published. Without constructors, we would have to type out the following syntax for creating a new object for each book: 
+
+const book1 = {
+  title: 'bookTitle1',
+  authorLastName: 'authorLastName1',
+  publishingYear: publishingYear1,
+}; 
+
+const book2 = {
+  title: 'book2',
+  authorLastName: 'authorLastName2',
+  publishingYear: 'publishingYear2',
+}; 
+
+const book3 = {
+  title: 'book3',
+  authorLastName: 'authorLastName3',
+  publishingYear: 'publishingYear3',
+}; 
+
+and so on. 
+
+-Instead of creating each object one by one as shown above, we can call a constructor that allows you to create new objects in a more concise manner. The syntax below creates a constructor that will serve as a template for all the books in our personal library: 
+
+function Textbook(title, authorLastName, publishingYear) {
+  this.title = title; 
+  this.authorLastName = authorLastName; 
+  this.publishingYear = publishingYear; 
+}
+
+This "Textbook" function is a constructor that allows you to create new objects for each book as follows: 
+
+var book1 = new Textbook('bookTitle1', 'authorLastName1', publishingYear1); 
+var book2 = new Textbook('bookTitle2', 'authorLastName2', publishingYear2); 
+var book3 = new Textbook('bookTitle3', 'authorLastName3', publishingYear3);
+
+and so on, 
+
+where "new" instantiates each new object.  
+
+------------------------------------------------------------------------------
+
+
+prototype
+
+-The prototype of a specific constructor is the list of properties and methods that are associated with that class of objects (where class refers to the group of objects that can be made by using a specific constructor). We add the "giveInfo" method to the Textbook prototype:
+
+Textbook.prototype.giveInfo = function() {
+  return this.title + " by " + this.authorLastName + " was published in " + this.publishingYear
+
+
+-adding the giveInfo method to the Textbook class of objects allows us to use it on any object of the created via the Textbook constructor. For example, 
+
+  book1.giveInfo 
+
+will return the following string: 
+
+ 'bookTitle1 by authorLastName1 was published in publishingYear1'
+
+
+
+
+
+
+
+
