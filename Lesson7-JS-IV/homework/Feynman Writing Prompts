@@ -1,4 +1,4 @@
-Feynman Writing Prompts
+Feynman Writing Prompts Lesson7
 
 Objects:
 Objects, like arrays, are data structures; containers for information that an engineer may need to
@@ -13,6 +13,10 @@ Properties:
 In objects, information is organized by 'key:value' pairs. The word 'properties' is interchangeable
 with the word 'key' in 'key:value'. Each property has a value, which is called upon by the key.
 
-Methods
-for in loop
-Dot notation vs bracket notation
+Methods:
+Functions that are contained within objects as 'key:value' pairs are referred to as methods. They
+give the software engineer a way to access and manipulate the information therein.
+
+for in loop:
+
+Dot notation vs bracket notation:
