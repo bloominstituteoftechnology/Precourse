@@ -18,5 +18,12 @@ Functions that are contained within objects as 'key:value' pairs are referred to
 give the software engineer a way to access and manipulate the information therein.
 
 for in loop:
+Iterates (loops) through the properties inside an object. As it loops through the keys in the
+object it displays the values associated with the keys (properties). It is a function that
+allows engineers access to the 'key:value' pairs in an object to manipulate the information
+in the object.
 
 Dot notation vs bracket notation:
+These are syntax that allow an engineer to access, add, change, re-assign or otherwise manipulate
+'key:value' pairs within an object. Dot notation is the preferred syntax but bracket notation can
+be used to access a 'key:value' pair when an engineer does not know the key.

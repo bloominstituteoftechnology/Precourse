@@ -172,10 +172,16 @@ function verifyPassword() {
 
 
 
-function updatePassword(user, newPassword) {
-  // replace the existing password on the user object with the value of newPassword
-  // return the object
+const user = {
+  password: 'I love js!',
+};
+  function updatePassword() {
+    user.password = 'I love js even more!';
+    return user;
 }
+ updatePassword(user, 'I love js even more!');
+// replace the existing password on the user object with the value of newPassword
+// return the object
 
 
 const user = { 
