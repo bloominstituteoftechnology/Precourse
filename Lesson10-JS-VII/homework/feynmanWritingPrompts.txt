@@ -1,0 +1,14 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Closure
+
+***************************************************************************
+
+Closure
+
+-the idea of closure has to do with the scope of functions nested within functions
+
+-recall that the idea of scope tells us that, if within the {} of a function you declare new variables that are to be assigned values within the {}, these variables and the values that were assigned to them are not accessible by functions outside the function. The only way to make those values accessible is to return those values. 
+
+-the idea of closure tells us that, the nested function that's within a parent function can access variables that were declared/defined outside the nested function but within the parent function. Like stated above, the opposite is not true. Any variables declared/defined in the nested function aren't accessible by the parent function
+
