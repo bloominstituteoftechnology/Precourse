@@ -2,43 +2,59 @@
 
 
 
-function getBiggest(x, y){ if (x === y){
-  return (x || y);
+function getBiggest(x, y){ 
+  if (x === y) {
+    
+    return (x || y);
   }
-  {  if (x !== y);
-   return Math.max(x,y);
+  if (x !== y) {
+     
+    return Math.max(x,y);
       // x and y are integers.  Return the larger integer
   } // if they are the same return either one
   
-
+}
 
 function greeting(language) {
-  if (language === 'German') {
-    return ('Guten Tag!');
+   
+  if(language === 'German'){
+  
+    return ('Guten Tag!'); 
+        
   } else if (language === 'Mandarin') {
+    
     return ('Ni Hao!');
-  } else if (language === 'Spanish') {
+    
+  } if (language === 'Spanish') {
+    
     return ('Hola!');
-  } else 
-    return ('Hello!');
+    
   }
-
-  // return a greeting for three different languages:
+    return ('Hello!');
+  }// return a greeting for three different languages:
   // language: 'German' -> 'Guten Tag!'
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
 
-  const fiveOrTen = (5,10);
+  const five = 5;
+  const ten = 10;
   function isTenOrFive(num){ 
-    if (num === fiveOrTen){
+    
+    if (num === five) {
+      
         return true;
   }
-        return false;
+    if (num === ten) {
+      
+        return true;
+    }
+      else return false;
+    }
     // return true if num is 10 or 5
     // otherwise return false
-  }
-   
+  
+
 
 function isInRange(num) { 
   // return true if num is less than 50 and greater than 20
@@ -49,17 +65,21 @@ function isInRange(num) {
 else return false;
 }
 
+
 function isInteger(num) { 
-  // return true if num is an integer
+ if(num == Math.floor(num)){
+  return true;
+ }
+ if (num !== Math.floor(num)){
+    // return true if num is an integer
   // 0.8 -> false
   // 1 -> true
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  if (Math.floor === num){
-  return true;
-}
-  else return false;
+  return false; 
+   }
+ 
 }
 
 
@@ -68,7 +88,7 @@ function fizzBuzz(num){
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
-  if (num % 3 === 0 && 5 === 0 ){
+  if (num % 3 === 0 && num % 5 === 0 ){
 
     return 'fizzbuzz';
 
@@ -81,26 +101,33 @@ function fizzBuzz(num){
     return 'buzz';
   }
    else return num;
-  }
+}
 
-  function isPrime(num) { for (let i = 2; i < num; i++);{
-    if (num % i === 0){
-      return false;
+function isPrime(num) { 
+
+  if (num <= 1) {
+
+    return false;
+  }
+  const limit = Math.floor(Math.sqrt(num));
+
+  for(let i = 2; i <= limit; i++) {
+
+    if(num % i === 0) {  
+     
+    return false;
     }
-     if (num === 0 || 1){
-       return false;
-    }   
-       if (num === 2);
-      return true;
-        
-    }
-        return true;
+    return true;
+  }
+} 
+  
+    
     // return true if num is prime.
     // otherwise return false
     // hint: a prime number is only evenly divisible by itself and 1
     // hint2: you can solve this using a for loop
     // note: 0 and 1 are NOT considered prime numbers
-    }
+    
   
 
 
@@ -117,4 +144,3 @@ module.exports = {
   fizzBuzz,
   isPrime,
 }
-
