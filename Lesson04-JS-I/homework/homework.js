@@ -1,7 +1,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = "This is a string variable" ;
+const newString = 'This is a string variable' ;
 
 //create a number variable, it an be any number
 const newNum = 24 ;
@@ -137,14 +137,14 @@ function roundUp(num) {
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  const newStr = str + "!" ;
+  const newStr = str + '!' ;
   return newStr ;
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  const fullname = firstName + " " + lastName ;
+  const fullname = firstName + ' ' + lastName ;
   return fullname ;
 }
 
@@ -167,7 +167,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   const TriArea = .5 * base * height ;
-  return TriArea
+  return TriArea ;
 }
 
 // Do not modify code below this line.
