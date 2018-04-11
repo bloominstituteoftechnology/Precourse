@@ -35,7 +35,7 @@ function returnString(str) {
 
 function subtract(x, y) {
   // subtract y from x and return the value
-  8 - 2;
+  // code here
 }
 
 function multiply(x, y) {
