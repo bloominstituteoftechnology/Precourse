@@ -2,18 +2,18 @@
 
 function invokeCallback(cb) {
   // invoke cb
-  cb();
+  // cb();
 }
 
 function sumArray(numbers, cb) {
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
-  var sum = 0;
-  for (let i = 0; i < numbers.length; i++) {
-    sum =+ numbers[i];
-  }
-  cb[sum];
+  // var sum = 0;
+  // for (let i = 0; i < numbers.length; i++) {
+  //   sum =+ numbers[i];
+  // }
+  // cb[sum];
 }
 
 function forEach(arr, cb) {
