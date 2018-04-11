@@ -1,22 +1,22 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = null ;
+const newString = 'java' ;
 
 //create a number variable, it an be any number
-const newNum = null ;
+const newNum = 8 ;
 
 //create a boolean variable
-const newBool = null ;
+const newBool = true ;
 
 //solve the following math problem
-const newSubtract = 10 - null === 5;
+const newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-const newMultiply = 10 * null === 40 ;
+const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === null ;
+const newModulo = 21 % 5 === 1 ;
 
 
 
@@ -26,18 +26,16 @@ const newModulo = 21 % 5 === null ;
 //Do not change any of the function names
 
 function returnString(str) {
-  //simply return the string provided: str
-}
-
-function add(x, y) {
+  return 'str';
   // x and y are numbers
   // add x and y together and return the value
   // code here
+  
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
-  // code here
+  8 - 2;
 }
 
 function multiply(x, y) {
