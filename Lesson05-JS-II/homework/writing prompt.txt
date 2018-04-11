@@ -1,0 +1,10 @@
+a for loop is iterating over a range we define and does what is written in the for loop in every iteration.
+
+&& logical and:
+if and only if both expressions are true will this return true.
+
+|| logical or:
+if one or both are true will this return true.
+
+!, not:
+negates a boolean expression, so !true will be the same as false.
