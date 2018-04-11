@@ -62,14 +62,22 @@ function areEqual(x, y) {
   if(x == y){
     return true;
   }
+
+  else{
+   return false;
+  }
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  if(str1.lenght == str2.lenght){
+  if(str1.length == str2.length){
     return true;
+  }
+  else{
+
+    return false;
   }
   
 }
@@ -81,6 +89,9 @@ function lessThanNinety(num) {
   if(num < 90){
     return true;
   }
+  else{
+    return false;
+  }
 }
 
 function greaterThanFifty(num) {
@@ -89,6 +100,9 @@ function greaterThanFifty(num) {
   // code here
   if(num > 50){
     return true;
+  }
+  else{
+    return false;
   }
 }
 
@@ -126,13 +140,13 @@ function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-  return(num ** 2);
+  return(num*num);
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
-  return(num ** 3)
+  return(num * num * num);
 }
 
 function raiseToPower(num, exponent) {
@@ -171,9 +185,8 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  var str0 = 'Hello';
-  var str =  "name!"
-  return(str0.concat(str));
+  
+  return(('Hello').concat(' ' + name + '!'));
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -182,13 +195,13 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
-  return(lenght * width);
+  return(length * width);
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  return(0.5 * base + height);
+  return((1/2) * base * height);
 }
 
 // Do not modify code below this line.
