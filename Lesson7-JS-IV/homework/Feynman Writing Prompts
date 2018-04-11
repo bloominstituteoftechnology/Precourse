@@ -1,5 +1,18 @@
-Objects
-Properties
+Feynman Writing Prompts
+
+Objects:
+Objects, like arrays, are data structures; containers for information that an engineer may need to
+access, add-to, count, or otherwise manipulate. Within objects the information is stored
+in 'key:value' pairs and the items are 'somewhat' related, but in arrays the information contained
+therein is organized with 'zero' referencing and the items are more closely related. Each item
+is assigned a number by which it is referenced when manipulated by an engineer, starting with the
+first item assigned to zero. The items in objects are not referenced by numbers unless an engineer
+uses 'key:value' pairs to assigned the numbers.
+
+Properties:
+In objects, information is organized by 'key:value' pairs. The word 'properties' is interchangeable
+with the word 'key' in 'key:value'. Each property has a value, which is called upon by the key.
+
 Methods
 for in loop
 Dot notation vs bracket notation
