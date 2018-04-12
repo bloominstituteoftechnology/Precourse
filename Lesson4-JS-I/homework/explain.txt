@@ -1,0 +1,13 @@
+Variable= a variable holds a value.  Picture it as a storage container that we use to hold information.  
+We can open these storage containers at a later time to recall something whether it be a number or 'string' which can be something like 'goodbye'.  
+
+String= a string can be 0 or more letters, numbers or characters and these are written inside of quotes.  For example: "Joe Stanfield". 
+
+Functions= function is a lot like a formula.  At 12 years old, you are likely in the seventh grade.  Therefore, you are somewhat familiar with formulas
+used in mathematics.  Functions work a lot like a formula in math except the data inside the functions don't change.  
+
+if statement= an if statement runs a block of code and gives a specified return statement.  For example, your mother asks IF you have cleaned your room,
+you would return information you set in the if statement. This could be a simple yes or no or it could be more complicated.    
+
+Boolean values= this data type will ONLY return one of two values (true or false).  For example, your teacher asks you if 11 is equal to 8.  
+You would say no (false).  Or is 10 less than 22, you would say yes (true). 
