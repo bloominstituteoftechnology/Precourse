@@ -58,7 +58,7 @@ function divide(x, y) {
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  if x == y {
+  if x === y {
     return true;
   }
   
