@@ -1,0 +1,20 @@
+for= for an example, lets say you had to complete a homework assignment for your English class. 
+    Your teacher tells you that afer writing your assignment, you must proof read that assignment 
+    10 times or until you find a mistake, whichever comes first.  With a for loop, the loop will 
+    run a designated amount of times or until it finds what we are looking for, which in your case, 
+    would be a mistake in your assignment.  
+
+&&= this operator is used when we are setting parameters for something.  For example, your parents 
+    tell you that you need to go through your room and get rid of some of your toys as you have too many.
+    Your parents tell you that you can keep any toy that you have gotten in the past year AND (&&) that you 
+    have actually used in that past year.  This means you can't keep a toy just because you have received it 
+    in the past year.  It has to meet both requirements.
+
+||= This operator can be explained using the same scenario as before.  Your parents tell you to throw out 
+    some of your toys.  Their rules are that you have to have recieved the toy in the past year OR (|| notice 
+    that it's OR not AND) that you have used in the past year.  We would use this in javascript to return a statement 
+    when defining the parameters of an if statement. 
+
+!= This operator stands for not equal.  You would use this when you are trying to state that something is not equal to another.  
+    This operator will compare apples to oranges where an operator like !== will compare only apples to other apples.  In this 
+    example, apples and oranges represent numbers and strings.  
