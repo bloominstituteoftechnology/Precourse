@@ -93,14 +93,14 @@ function greaterThanFifty(num) {
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
-  const remainder x % y;
+  const remainder = x % y;
   return remainder;
 }
 
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-  if (num % 2 == 0) {
+  if (num % 2 === 0) {
     return true;
   }
   return false;
@@ -109,7 +109,7 @@ function isEven(num) {
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
-  if (num % 2 == 1) {
+  if (num % 2 === 1) {
     return true;
   }
   return false;
