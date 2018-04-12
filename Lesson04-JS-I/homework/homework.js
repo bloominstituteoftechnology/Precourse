@@ -58,7 +58,7 @@ function divide(x, y) {
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  if x === y {
+  if(x === y) {
     return true;
   }
   
@@ -68,7 +68,7 @@ function areEqual(x, y) {
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  if (str1.length === str2.length) {
+  if(str1.length === str2.length) {
     return true;
   }
   return false;
@@ -77,7 +77,7 @@ function areSameLength(str1, str2) {
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
-  if (num < 90) {
+  if(num < 90) {
     return true;
   }
   return false;
@@ -86,7 +86,7 @@ function lessThanNinety(num) {
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
-  if (num > 50) {
+  if(num > 50) {
     return true;
   }
   return false;
@@ -175,7 +175,7 @@ function getRectangleArea(length, width) {
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  const area = .5 * base * height;
+  const area = 1/2 * base * height;
   return area;
 }
 
