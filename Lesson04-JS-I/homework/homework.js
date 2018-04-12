@@ -67,7 +67,7 @@ function areEqual(x, y) {
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  if (str.length(str1) == str.length(str2)) {
+  if (str1.length() === str2.length()) {
     return true;
   }
   return false;
@@ -165,14 +165,14 @@ function getGreeting(name) {
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
-  const area = length * width
-  return area
+  const area = length * width;
+  return area;
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   const area = .5 * base * height;
-  return area
+  return area;
 }
 
 // Do not modify code below this line.
