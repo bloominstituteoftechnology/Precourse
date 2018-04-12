@@ -1,0 +1,23 @@
+Explain the following concepts as though you are explaining them to a 12-year-old
+person:
+
+ARRAYS
+An array is a group of data, such as strings, integers or booleans. For example,
+we might want to store the names of the kids in your class in a single variable.
+To do that, we'd create an array, and it might look something like this:
+
+const namesOfStudents = ['Susan', 'Sophie', 'Sarah']
+
+With that variable, we can access all of the names of the students in your
+class. If you want to retrieve a single name, we can tell the computer to give
+us an item in the array by using its index. The index is just the position of
+the item in the array, just like counting. We start counting at zero ('Susan'),
+then one ('Sophie'), and onward. So if we want to retrieve, say, 'Sophie' from
+the array, in this instance we'd enter namesOfStudents[1].
+
+If there is a new kid in your class, we can add their name by using the .push()
+or .unshift() functions. If a kid leaves the class because they move away, we
+can remove their names from the array by using the .pop() or .shift() methods.
+
+For loops are handy for arrays because they allow us to do a repetitive action
+over each of the items in the array.
