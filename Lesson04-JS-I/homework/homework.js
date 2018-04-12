@@ -16,7 +16,7 @@ const newSubtract = 10 - 5 === 5;
 const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === null ;
+const newModulo = 21 % 5 === 1 ;
 
 
 
@@ -60,8 +60,7 @@ function multiply(x, y) {
 }
 
 function divide(x, y) {
- return x / y;
-
+   return x / y;
 }
 
 function areEqual(x, y) {
@@ -71,7 +70,7 @@ function areEqual(x, y) {
   {
   return true;
   }
-  if (x !== y)
+  else 
   {
   return false;
   }
