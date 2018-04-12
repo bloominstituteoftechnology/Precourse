@@ -1,0 +1,4 @@
+Explain the following concepts as you would to a 12 year old:
+
+OBJECTS
+That's the secret, Cap, EVERYTHING is an object.
