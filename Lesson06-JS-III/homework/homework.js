@@ -45,23 +45,19 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  /*for (let i = 0; i < words.length-1; i++) {
-    var myString += (words[i] + ' ');
-  }
-  myString += words[i];
-  return myString;  */
   return words.join(' ');
 }
 
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-  if (arr.includes(item)) {
+  /*if (arr.includes(item)) {
     return true;
   }
   else {
     return false;
-  }
+  } */
+  return arr.includes(item);
 }
 
 function addNumbers(numbers) {
@@ -87,8 +83,8 @@ function averageTestScore(testScores) {
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
-  numbers.sort();
-  return numbers.pop;
+  numbers.sort(function (a, b) {return a-b;});
+  return numbers.pop();
 }
 
 function multiplyArguments() {
@@ -102,7 +98,7 @@ function multiplyArguments() {
     return arguments[0];
   }
   else {
-    let product = 0;
+    let product = 1;
     for (let i = 0; i < arguments.length; i++) {
       product *= arguments[i];
     }
