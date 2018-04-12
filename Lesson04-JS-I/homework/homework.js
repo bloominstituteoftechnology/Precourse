@@ -156,7 +156,7 @@ function combineNames(firstName, lastName) {
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  return ('Hello ' + name + '!';
+  return 'Hello ' + name + '!';
  
 }
 
