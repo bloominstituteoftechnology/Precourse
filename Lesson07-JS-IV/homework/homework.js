@@ -23,7 +23,6 @@ function addProperty(object, property) {
         object[property] = null;
         return object;
 
-
 }
 
 
@@ -33,7 +32,7 @@ function invokeMethod(object, method) {
   // invoke this method
   // nothing needs to be returned
 
-  object.method();
+             object[method]();
 
 }
 
@@ -52,7 +51,7 @@ function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
 
-delete object.property;
+delete object[property];
 return object;
 
 }
@@ -75,7 +74,11 @@ function newUser(name, email, password) {
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
-  return 'email' in user;
+  if (user.email !== null && user.email !== undefined) {
+    return true;
+  }  else {
+    return false;
+  }
 
 }
 
@@ -114,8 +117,8 @@ function setUsersToPremium(users) {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
-  for (let key in users) {
-    key.isPremium = true;
+  for (let i in users) {
+    users[i].isPremium = true;
   }
   return users;
 }
@@ -126,9 +129,9 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
-  let a = 0;
+let a = 0;
 for (let i in user.posts){
-  a += Number(i.likes);
+    a += user.posts[i].likes;
 }
 return a;
 
