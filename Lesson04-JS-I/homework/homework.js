@@ -118,14 +118,12 @@ function isOdd(num) {
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
-  const squared = Math.pow(num, 2);
-  return squared;
+  return Math.pow(num, 2);
 }
 
 function cube(num) {
   // cube num and return the new value
-  const cubed = Math.pow(num, 3);
-  return cubed;
+  return Math.pow(num, 3);
 }
 
 function raiseToPower(num, exponent) {
@@ -146,22 +144,20 @@ function roundUp(num) {
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  const ex = 'str' + '!';
-  return ex;
+  return (str + '!');
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  const name = ('firstName' + ' ' + 'lastName');
-  return name;
+  return (firstName + ' ' + lastName);
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  const greeting = 'Hello ' + 'name' + '!';
-  return greeting;
+  return ('Hello ' + name + '!';
+ 
 }
 
 // The next three questions will have you implement math area formulas. 
