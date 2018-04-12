@@ -49,7 +49,7 @@ function newUser(name, email, password) {
   let newObject = {
     name: name,
     email: email,
-    password: password
+    password: password,
   };
   return newObject;
 }
@@ -57,8 +57,11 @@ function newUser(name, email, password) {
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
-  if(user['email']){return true;} else{return false;} //doesnt work
-  //return !user['email']==''; //solution from Lambda School
+  if(user['email']){
+    return true;
+  } else{
+    return false;
+  } 
   
 }
 
@@ -118,6 +121,7 @@ function sumUserPostLikes(user) {
     sum = sum + user.posts[i].likes;
   }
   return sum;
+  
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
@@ -129,8 +133,12 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
-  
-    return storeItem;
+  let discountPrice; 
+  storeItem.calculateDiscountPrice = function() {
+    discountPrice = this.price - (this.price * this.discountPercentage);
+    return discountPrice;
+  };
+  return storeItem;
 }
 
 /*Feynman Writing Prompts:
