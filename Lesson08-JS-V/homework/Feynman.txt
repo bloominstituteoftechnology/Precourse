@@ -1,0 +1,8 @@
+PROTOTYPE
+You can add a function to a prototype of a class so that you only have to create and store the method for
+many objects in one place. Every object of that class will have access to that method while not having to
+duplicate memory to store it.
+
+CONSTRUCTORS
+Object constructors are like a blueprint telling js some of the properties and methods each object of a
+class should have.
