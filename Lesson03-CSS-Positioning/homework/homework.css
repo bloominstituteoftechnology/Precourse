@@ -63,5 +63,11 @@ in this folder, you are in the wrong place.
   align-items: center;
   flex-direction: row-reverse;
   flex-direction: column-reverse;
-  align-self: auto;
+}
+
+#itemone{
+  align-self: flex-end;
+}
+#itemfour{
+  align-self: flex-start;
 }
