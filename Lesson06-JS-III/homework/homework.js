@@ -48,6 +48,9 @@ function wordsToSentence(words) {
   let result = '';
   for (let i = 0; i < words.length; i++) {
     result += words[i];
+    if (i != (words.length - 1)) {
+      result += ' ';
+    }
   }
   return result;
 }
@@ -60,16 +63,17 @@ function contains(arr, item) {
       return true;
     }
   }
-  return false
+  return false;
 }
 
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
   let sum = 0;
-  for (let i = 0; i < numbers.lengths; i++) {
+  for (let i = 0; i < numbers.length; i++) {
     sum = sum + numbers[i];
   }
+  return sum;
 }
 
 function averageTestScore(testScores) {
@@ -86,9 +90,9 @@ function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
   let largest = numbers[0];
-  for (let i = 1; i < testScores.length; i++) {
-    if (testScores[i] > largest) {
-      largest = testScores[i];
+  for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] > largest) {
+      largest = numbers[i];
     }
   }
   return largest;
