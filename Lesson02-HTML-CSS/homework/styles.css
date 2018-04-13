@@ -19,3 +19,13 @@ h1 {
 			font-size: 18px;
 			margin: 50px;
 		}
+
+		div {
+			position: relative;
+			left: 350px;
+			top: 100px;
+		}
+		.flexcontainer {
+			display: flex;
+			flex-direction: column;
+		}
