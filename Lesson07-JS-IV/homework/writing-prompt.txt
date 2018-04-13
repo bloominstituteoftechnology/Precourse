@@ -1,0 +1,10 @@
+everything in js is an object. we can add properties and methods to them.
+
+properties are values that objects can hold. 
+
+methods are functions that objects can hold.
+
+a for in loop iterates over all key:value pairs in an object.
+
+dot notation is the prefered way to access properties of object, but we can also use bracket notation. 
+if we want to use bracket notation like we do an arrays, we have to use numbers or strings, we use bracket notation mostly when we access properties with variables.
