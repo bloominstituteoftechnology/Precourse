@@ -16,7 +16,7 @@ const newSubtract = 10 - 5 === 5;
 const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === 4.2 ;
+const newModulo = 21 % 5 === 1 ;
 
 
 
@@ -128,13 +128,13 @@ function addExclamationPoint(str) {
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  return firstName +  lastName;
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  return 'Hello' +  name + '!';
+  return 'Hello ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas.
