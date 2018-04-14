@@ -1,0 +1,9 @@
+Feynman Writing Prompts:
+
+	* `prototype`
+  Think of this as a list of mini programs that each type has
+
+	* Constructors
+  Think of this as a way of you create a template of your own boxes
+  with customs instructions and other boxes and is a way to replicate many
+  similar boxes.
