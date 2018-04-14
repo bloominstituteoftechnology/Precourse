@@ -60,7 +60,7 @@ function areEqual(x, y) {
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  return string.length(str1) === string.length(str2);
+  return str1.length === str2.length;
 }
 
 function lessThanNinety(num) {
@@ -83,14 +83,14 @@ function getRemainder(x, y) {
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-  return num % 2 === 0
+  return num % 2 === 0;
 
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
-  return num % 2 > 0
+  return num % 2 > 0;
 }
 
 function square(num) {
@@ -106,17 +106,17 @@ function cube(num) {
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
-  return math.pow(num, exponent);
+  return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
   // round num and return it
-  return math.round(num);
+  return Math.round(num);
 }
 
 function roundUp(num) {
   // round num up and return it
-  return math.ceil(num);
+  return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
@@ -147,7 +147,7 @@ function getRectangleArea(length, width) {
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  return length * width / 2
+  return base * height / 2;
 }
 
 // Do not modify code below this line.
