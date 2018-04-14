@@ -36,18 +36,20 @@ function cacheFunction(cb) {
       }
   };
   return cache;
+}
 
-//   var cellar = {};
+//   const cellar = {};
 
-//   return (i) => {
-//       if (i in cellar) {
+//   const cache = function(arg) {
+//       if (cellar[arg] === undefined) {
+//           cellar[arg] = cb(arg);
+//           return cellar[arg];
 //       } else {
-//           cellar[i] = cb(i);
-//           return cellar[i];
+//           return cellar[arg];
 //       }
 //   };
-
-}
+//   return cache;
+// }
 
 // Do not modify code below this line.
 // --------------------------------
