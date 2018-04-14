@@ -1,0 +1,2 @@
+Callback Functions - These are functions that are used as arguments for other functions. There are higher order methods for arrays that use callback functions, and they are: '.forEach'; 
+                     '.reduce'; and '.map'.
