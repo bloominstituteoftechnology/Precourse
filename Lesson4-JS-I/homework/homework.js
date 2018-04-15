@@ -129,7 +129,7 @@ function isEven(num) {
     return false;
   }
 }
-isEven(num);
+isEven();
 
 function isOdd(num) {
   // return true if num is odd
@@ -193,7 +193,7 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  var newString = str+"!";
+  var newString = str+'!';
   return newString;
 }
 addExclamationPoint();
@@ -203,7 +203,7 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  var fullName = firstName+ " " + lastName;
+  var fullName = firstName+ ' ' + lastName;
   return fullName;
 }
 combineNames();
@@ -213,7 +213,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  var greeting = "Hello " + name + "!";
+  var greeting = 'Hello ' + name + '!';
   return greeting;
 }
 getGreeting();
