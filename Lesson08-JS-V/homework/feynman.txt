@@ -1,0 +1,3 @@
+`prototype`: A `prototype` is the means by which a class can set a method once and give every object of that class access to that method. Each class has a prototype property, which one can then set methods on.
+
+Constructors: A `Constructor` is a special method for creating and initializing an object within a class.
