@@ -151,7 +151,7 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // discountPrice = 20 - (20 * .2)
  return storeItem;
 }
-storeItem2[calculateDiscountPrice]();
+storeItem[calculateDiscountPrice]();
 }
   
 // Do not modify code below this line.
