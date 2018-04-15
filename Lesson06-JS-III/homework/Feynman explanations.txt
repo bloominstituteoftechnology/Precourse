@@ -1,0 +1,5 @@
+Arrays : Arrays are the data-structure which store number of values(element) in a single variable. It is also a type of object.
+    eg: If you want to make a list of your favourite toys, books &  foods. Then you can use an array to store all of it in a single object.
+    It also provide an feature to declare nested objects. ie: Store your favourites in a group.
+
+    `var favourite = [[RC Car, Othello, Chess], [Oliver's Twist, Mickey Mouse Adventures, Arabian Nights],[Ice Cream, Candies]];`
