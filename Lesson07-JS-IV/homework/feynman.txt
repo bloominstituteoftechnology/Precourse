@@ -1,0 +1,9 @@
+Objects: An `Object` is a data structure containing data and instructions for working with the data.
+
+Properties: A `property` is a characteristic of an `Object`. A property has a name ( a string) and a value (primitive, method, or object reference).
+
+Methods: A `method` is a function which is a property of an object.
+
+`for in loop`: The 'for in loop' iterates over the properties of an object. For each distinct property, statements can be executed.
+
+Dot notation vs. bracket notation: To access an object's property using `dot` notation, you must use the actual property name. To access an object's property using `bracket` notation, you can use either the actual property name, or a variable that refers to the actual name.
