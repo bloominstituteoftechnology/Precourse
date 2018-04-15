@@ -56,7 +56,7 @@ As shown above, going `sayHello()` doesn't work, because `sayHello()` is a metho
 
 ## What's a `For ... In` loop?
 
-It's a specific type of loop that's best to use with objects. This kind of loop was made because it was difficult for other loops to work with objects. For example, the `for` loop is great for arrays, partly because the variable used to count and limit the loops can also be used to grab values from each index every time it loops. But remember, *properties* (*names*), not *indices* (*numbers*) link data in objects, so doing a `for` loop with objects is harder.
+It's a specific type of loop that's best to use with objects. This kind of loop was made because it was difficult for other loops to work with objects. For example, the `for` loop is great for arrays, partly because the variable used to count and limit the loops can also be used to grab values from each index every time it loops. But remember, *properties* (*names*), not *indices* (*numbers*) pair with values in objects, so doing a `for` loop with objects is harder.
 
 Fortunately, that's where the `For ... In` loop comes in.
 

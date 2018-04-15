@@ -9,7 +9,7 @@ Like with CSS, you can directly write JS in the element itself, but we'd rather 
 
 If you remember, it was taught that you should put the `<script>` tag near the end of the page (before the closing `</body>` tag), so that the rest of the page does not need to wait for the JS to load before rendering the page.
 
-However, you can put the `<script>` in the `<head>`, or anywhere really, and still have not the rest of the web page contingent on it loading by adding the `async` keyword.
+However, you can put the `<script>` in the `<head>`, or anywhere really, and still have not the rest of the web page contingent on it loading by adding the `async` keyword as an attribute.
 
 ```html
 <script type="text/javascript" src="./index.js" async></script>

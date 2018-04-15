@@ -1,3 +1,5 @@
+const newToDo = document.querySelector('#toDoInput');
+
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
@@ -121,8 +123,6 @@ function displayToDos() {
           3.) Set the value of newToDo to an empty string (this will clear the text in the box allowing the user to enter another item).
           4.) Call displayToDos to refresh the toDos displayed
 */
-
-const newToDo = document.querySelector('#toDoInput');
 
 function addToDo() {
   // code here

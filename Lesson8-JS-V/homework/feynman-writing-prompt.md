@@ -9,7 +9,7 @@ In Javascript, you can set up "Classes", which are like templates for objects. F
 
 In each of those objects, you can also add a method, like perhaps an `avgTestScore()` method. You can define this method in the `Student` class, and all objects born out of this class will have this method as part of the object. The problem arises if this method is exactly the same across all `Student` objects; every `Student` object will have the same exact method in it, and the computer's memory will fill up with duplicate instructions to do one thing. This is kind of wasteful.
 
-This is what `prototype` addresses. `prototype` is a shared resource that all objects of a class have access to. If we add the `avgTestScore()` method to the `prototype`, we only tell the computer once, and the computer will have one instruction set for `avgTestScore()`, but all objects from `Student` can use it.
+This is what `prototype` addresses. `prototype` is a shared resource that all objects of a class have access to. If we add the `avgTestScore()` method to the `Student`'s `prototype`, we only tell the computer once, and the computer will have one instruction set for `avgTestScore()`, but all objects from `Student` can use it.
 
 ### What are constructors?
 
