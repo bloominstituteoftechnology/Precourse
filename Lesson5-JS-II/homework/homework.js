@@ -2,18 +2,11 @@
 
 function multiplyArguments() {
   let result = 1;
-//  if(arguments.length === 1)
- // return arguments;
-
-  //let  multiply = 1;{
   if(arguments.length === 0)
   return 0;
-//}
-  for(let i = 1; i < arguments.length; i++)
+
+  for(let i = 0; i < arguments.length; i++)
   result = result * arguments[i];
-  //for(let i = 1; i < arguments.length; i++ ){
-  //multiply = multiply * arguments.length[i];
-//}
   return result;
 }
 
