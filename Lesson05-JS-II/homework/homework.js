@@ -19,7 +19,7 @@ function greeting(language) {
   //if language is undefined return 'Hello!'
   const languages = {
     'German': 'Guten Tag!',
-    'English': 'Hello!',
+    'Mandarin': 'Ni Hao!',
     'Spanish': 'Hola!',
   };
   if (language === undefined){
