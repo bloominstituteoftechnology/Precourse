@@ -1,7 +1,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = 5 ;
+const newString = 'new string' ;
 
 //create a number variable, it an be any number
 const newNum = 7 ;
@@ -26,10 +26,7 @@ const newModulo = 21 % 5 === 1 ;
 //Do not change any of the function names
 
 function returnString(str) {
-  const strString = str
-  return strString;
-
-returnString('str');
+  return str;
 }
 
 function add(x, y) {
@@ -61,15 +58,7 @@ function areEqual(x, y) {
 }
 
 function areSameLength(str1, str2) {
-  if (str1 === str2) {
-    var str1 = 'Hello';
-    var n = str1.length;
-    var str2 = 'Heros';
-    var n = str2.length;
-  return true;
-  }
-  if (str1 !== str2) 
-  return false;
+  return str1.length === str2.length;
 }
 
 function lessThanNinety(num) {
@@ -100,11 +89,10 @@ function isOdd(num) {
 }
 
 function square(num) {
-  return Math.abs(num * num) 
+  return num * num;
 }
-
 function cube(num) {
-  return Math.pow(num, 2);
+  return Math.pow(num,3);
 }
 
 function raiseToPower(num, exponent) {
@@ -120,37 +108,26 @@ function roundUp(num) {
 }
 
 function addExclamationPoint(str) {
-  const Exclamation = str + '!'
-  return Exclamation;
+  return str + '!';
 }
-const ExclamationString = addExclamationPoint('Hello World');
 
 function combineNames(firstName, lastName) {
-  const LambdaString = firstName + ' ' + lastName
-  return LambdaString;
+  return `${firstName} ${lastName}`;
 }
-
-const lsString = combineNames('Lambda', 'School');
 
 function getGreeting(name) {
-  const nameString = 'Hello' + ' ' + name + '!'
-  return nameString;
+  return `Hello ${name}!`;
 }
-
-const SamString = getGreeting('Sam');
-
 
 // The next three questions will have you implement math area formulas. 
 // If you can't remember these area formulas then head over to Google.
  
 function getRectangleArea(length, width) {
-  const RectangleArea = length * width
-  return RectangleArea;
+  return length * width;
 }
 
 function getTriangleArea(base, height) {
-  const TriangleArea = base * height / 2
-  return TriangleArea;
+  return .5 * base * height;
 }
 
 // Do not modify code below this line.
