@@ -1,35 +1,40 @@
 // Do not change any of the function names
 
 function returnFirst(arr) {
-  // return the first item from the array
+  return arr[0];
 }
 
 function returnLast(arr) {
-  // return the last item of the array
+  arr = arr[arr.length - 1];
+  return arr;
+
 }
 
 function getArrayLength(arr) {
-  // return the length of the array
+  return arr.length;
 }
 
 function incrementByOne(arr) {
+  for(let i = 0; i < arr.length; i++)
+  arr = arr + arr[i];
+  return arr;
   // arr is an array of integers  
   // increase each integer by one
   // return the array
 }
 
 function addItemToArray(arr, item) {
-  // add the item to the end of the array
-  // return the array
+  arr.push(item);
+  return arr;
 }
 
 function addItemToFront(arr, item) {
-  // add the item to the front of the array
-  // return the array
-  // hint: use the array method .unshift
+  arr.unshift(item);
+  return arr;
 }
 
 function wordsToSentence(words) {
+  
   // words is an array of strings
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
