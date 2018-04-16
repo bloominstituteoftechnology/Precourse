@@ -1,0 +1,13 @@
+Feynman Writing Prompts Lesson8
+
+Constructors:
+Classes (abstract objects) are used like templates and allow engineers to build
+specific objects with similar properties and methods without repeating modules of code
+unnecessarily. Lines of specific arguments (data specific to objects) are then able
+to be passed into classes to complete specific objects with minimal use of computer
+memory.  
+
+'prototypes':
+Prototypes allow engineers to build 'template - like' methods that can be used by
+specific objects and provide specific returns. Classes have prototypes built into them.
+The goal is to use as little server memory as possible.
