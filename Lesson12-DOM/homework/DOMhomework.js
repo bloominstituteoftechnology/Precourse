@@ -18,7 +18,7 @@ document.querySelector('#createdBy').innerHTML += ' Simon Davis';
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo (description) {
+function ToDo(description) {
   // code here
   this.description = description;
   this.complete = false;
@@ -31,7 +31,7 @@ function ToDo (description) {
 */
 
 // code here
-ToDo.prototype.completeToDo = function() {
+ToDo.prototype.completeToDo = function () {
   this.complete = true;
 };
 
@@ -59,11 +59,19 @@ function buildToDo(todo, index) {
   const toDoText = document.createElement('span');
   toDoText.innerHTML = todo.description;
   toDoText.setAttribute('id', index);
-  toDoText.addEventListener('click', completeToDo);
-  if(todo.complete === true) {
+
+  const checkBox = document.createElement('input');
+  checkBox.setAttribute('type', 'checkbox');
+  checkBox.id = index;
+  checkBox.classList.add('completeCheckbox');
+  checkBox.addEventListener('click', completeToDo);
+
+  if (todo.complete === true) {
+    checkBox.setAttribute('checked', true);
     toDoText.classList.add('completeText');
   }
   toDoShell.appendChild(toDoText);
+  toDoShell.appendChild(checkBox);
   return toDoShell;
 }
 
@@ -75,7 +83,7 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   return toDos.map((task, i) => {
-    return buildToDo(task, i);   
+    return buildToDo(task, i);
   });
 }
 
