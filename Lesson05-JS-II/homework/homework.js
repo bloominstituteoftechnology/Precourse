@@ -4,11 +4,11 @@ function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
   if (x > y) {
-  return x};
+    return x}
   else if (y > x) {
-  return y};
+    return y}
   else if (x == y) {
-  return x || y};
+    return x || y}
 }
 
 function greeting(language) {
