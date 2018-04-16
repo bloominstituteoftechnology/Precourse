@@ -4,7 +4,7 @@ function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
   if (x > y) {
-    return x}
+  return x}
   else if (y > x) {
   return y}
   else if (x == y) {
@@ -74,8 +74,8 @@ function fizzBuzz(num) {
     return 'buzz'}
   else if (num % 3 === 0) {
     return 'fizz'}
-  else {
-    return num}
+  else {return num}
+}
 
 function isPrime(num) {
   // return true if num is prime.
@@ -84,10 +84,9 @@ function isPrime(num) {
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
   for (i = 2 ; i <= num / 2 ; i++) {
-    if (num % i == 0) 
+    if (num % i === 0) 
       return false}
-      else {
-      return true}
+    return true
 }
 
 // Do not modify code below this line.
