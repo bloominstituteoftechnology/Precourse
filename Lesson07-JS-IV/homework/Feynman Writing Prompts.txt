@@ -1,0 +1,5 @@
+Objects are...objects. Much like the non-digital world, objects are defined by their characteristics (properties) and how they are used (functions). The properties of an object contain the data that they store, and can be accessed or modified at will. An objects functions are the same as other functions, and must be called from the object.
+
+The for...in loop structure is used to interate through the properties in an object without numerical indicies, and resembles the for each loop.
+
+Dot notation and bracket notation are ways to access object properties. They are fairly straightforward, but it is helpful to remember that bracket notation uses data type just as it does for the numerical indicies in arrays. So while person.name is fine for dot notation, name is not a data type, but a string. Therefore, person["name"] would be used.
