@@ -2,7 +2,7 @@
 
 //create a string variable, it can contain anything
 const newString = null ;
-const newString = 'Cats';
+const meowString = 'Cats';
 
 //create a number variable, it an be any number
 const newNum = null ;
