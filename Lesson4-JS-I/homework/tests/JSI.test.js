@@ -30,11 +30,12 @@ const {
   getTriangleArea,
 } = require('../homework');
 
-describe('newString', function() {
-  it('should be a string', function() {
-    expect(typeof newString).toBe('string');
-  });
-});
+
+function newString(string) {
+  return string;
+  }
+  newString('string');
+
 
 describe('newNum', function() {
   it('should be a number', function() {
