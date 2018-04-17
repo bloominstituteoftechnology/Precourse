@@ -1,0 +1,3 @@
+Arrays are a type of data structure in JavaScript. An array has a similar function to variables, which can store a value.
+They have the ability to store more than one value at any time. They are ordered by index, which starts at zero. 
+There are many built in array methods for manipulating the array and accessing the values. 
