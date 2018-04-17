@@ -90,8 +90,8 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   const toDoContainer = document.getElementById('toDoContainer');
-  toDoContainer.innerHTML = '';
   buildToDos(toDoItems).map(toDoItem => toDoContainer.appendChild(toDoItem));
+  toDoContainer.innerHTML = '';
 //   let appendArray = buildToDos(toDoItems);
 //   let appender = appendArray.map(toDoContainer.appendChild(item));
 //   append(toDoContainer);
