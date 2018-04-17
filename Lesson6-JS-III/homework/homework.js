@@ -15,8 +15,9 @@ function getArrayLength(arr) {
 }
 
 function incrementByOne(arr) {
-  for(let i = 0; i < arr.length; i++)
+  for(let i = 0; i < arr.length; i++){
   arr = arr + arr[i];
+}
   return arr;
   // arr is an array of integers  
   // increase each integer by one
@@ -34,7 +35,8 @@ function addItemToFront(arr, item) {
 }
 
 function wordsToSentence(words) {
-  
+  words.join(' ');
+  return words;
   // words is an array of strings
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
@@ -42,6 +44,8 @@ function wordsToSentence(words) {
 }
 
 function contains(arr, item) {
+  
+  
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
 }
