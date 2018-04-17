@@ -1,13 +1,13 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = "string" ;
+const newString = 'string' ;
 
 //create a number variable, it an be any number
 const newNum = 42 ;
 
 //create a boolean variable
-const newBool = bananas ;
+const newBool = true;
 
 //solve the following math problem
 const newSubtract = 10 - 5 === 5;
@@ -16,7 +16,7 @@ const newSubtract = 10 - 5 === 5;
 const newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === 2 ;
+const newModulo = 21 % 5 === 1 ;
 
 
 
@@ -26,8 +26,8 @@ const newModulo = 21 % 5 === 2 ;
 //Do not change any of the function names
 
 function returnString(str) {
-  const returnString = "str"
-  return returnString
+  const returnString = 'str';
+  return returnString;
 }
 
 
@@ -99,12 +99,12 @@ function isOdd(num) {
   return false;
 }
 function square(num) {
-  const product = num ** 2;
+  const product = num * num;
   return product;
 }
 
 function cube(num) {
-  const product = num ** 3;
+  const product = num * num * num;
   return product;
 }
 
@@ -114,18 +114,18 @@ function raiseToPower(num, exponent) {
 }
 
 function roundNumber(num) {
-  const product = Math.round(num)
-  return product
+  const product = Math.round(num);
+  return product;
 }
 
 function roundUp(num) {
-  const product = Math.ceil(num)
-  return product
+  const product = Math.ceil(num);
+  return product;
 }
 
 function addExclamationPoint(str) {
-  const returnString = "str" + "!"
-  return returnString
+  const returnString = 'str' + '!';
+  return returnString;
 }
 
 function combineNames(firstName, lastName) {
@@ -145,11 +145,6 @@ function getRectangleArea(length, width) {
 
 function getTriangleArea(base, height) {
   return (base * height) / 2;
-}
-
-function getCircleArea(radius) {
-  var area = Math.PI * (radius * radius);
-  return Math.round(area);
 }
 
 // Do not modify code below this line.
