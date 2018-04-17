@@ -69,7 +69,7 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  if (str1 === str2) {
+  if (str1.length === str2.length) {
     return true;
   }
   return false;
