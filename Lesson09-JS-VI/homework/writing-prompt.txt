@@ -1,1 +1,1 @@
-a callback function is  function that we can pass as an argument to another function, the so called Higher Order Function.
+a callback function is a function that we can pass as an argument to another function, the so called Higher Order Function.
