@@ -2,26 +2,24 @@
 
 function invokeCallback(cb) {
   // invoke cb
-  return cb();
+  cb();
 }
 
 function sumArray(numbers, cb) {
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
-  let total = 0;
-  for(let i = 0; i < numbers.length; i++){
-    total = total + numbers[i];
-  }
-  cb(total);
+  cb(numbers.reduce(function(accum, arrayItem){
+    return accum + arrayItem;
+  }));
 }
 
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
-  for(const i in arr){
-    cb(arr[i]);
-  }
+  arr.forEach(function(arrayItem){
+    cb(arr[arrayItem - 1]);
+  });
 }
 
 function map(arr, cb) {
