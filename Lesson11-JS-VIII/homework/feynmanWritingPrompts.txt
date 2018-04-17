@@ -1,0 +1,14 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Recursion
+***************************************************************************
+
+Recursion
+
+-Recursion is a tricky topic. Recursion refers to the practice of calling a function within the body of the same function. It's similar to the for loop in that there's a base case that is first checked. If the base case is satisfied the associated instructions will be carried out. 
+
+-If the base case is not satisfied, the program goes to the next condition.
+
+-Let's assume that the next condition is when recursion is brought into the fold. The function calls upon the same function it is nested under. The function that is called upon will then manipulate the previously used argument(s) (e.g. adding/subtracting/etc.) and use this manipulated argument(s) as the argument(s) to the same function that was initially executed for the original argument.
+
+-The function will return a value; with this new value, the base condition is checked and if it's satisfied the program stops and returns the desired output. If the base condition is not satisfied, the function goes to the next step and executes the function with new manipulated arguments. This goes on and on until the base condition is satisfied. This is the heart of recursion - that is, continuing to call a function within the same function if the base case isn't satisfied.
