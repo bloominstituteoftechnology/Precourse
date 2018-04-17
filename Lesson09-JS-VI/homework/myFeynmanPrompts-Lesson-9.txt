@@ -1,0 +1,2 @@
+* Callback Functions
+Are like stages in an assembly line. Something that happens before and that affects the next thing that happens down the pipeline.
