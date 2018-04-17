@@ -150,7 +150,7 @@ function roundNumber(num) {
 function roundUp(num) {
   // round num up and return it
   // code here
-  return Math.ceil(num)
+  return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
@@ -180,7 +180,7 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
-  return lenght * width;
+  return length * width;
 }
 
 function getTriangleArea(base, height) {
