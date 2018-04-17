@@ -1,26 +1,25 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = null ;
-const meowString = 'Cats';
+const newString = 'meow';
 
 //create a number variable, it an be any number
-const newNum = null ;
 const newNum = 9;
+
 //create a boolean variable
-const newBool = null ;
+//const newBool = null ;
 const newBool = true;
 
 //solve the following math problem
-const newSubtract = 10 - null === 5;
+//const newSubtract = 10 - null === 5;
 const newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-const newMultiply = 10 * null === 40 ;
+//const newMultiply = 10 * null === 40 ;
 const newMultiply = 10 * 4 === 40;
 
 //Solve the following math problem:
-const newModulo = 21 % 5 === null ;
+//const newModulo = 21 % 5 === null ;
 const newModulo = 21 % 5 === 1;
 
 
@@ -180,7 +179,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return 'Hello ${name}!'
+  return 'Hello ${name}!';
 }
 
 // The next three questions will have you implement math area formulas. 
