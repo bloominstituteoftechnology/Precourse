@@ -40,17 +40,17 @@ describe('Test suite runs', () => {
 // 		expect(cachedFunction(5)).toBe(10);
 // 	});
 // 	it('should cache function results', function() {
-// 		const cb = jest.fn();
+// 		const cb = jest.fn(x => x * 2);
 // 		const cachedFunction = cacheFunction(cb);
-// 		cachedFunction(true);
-// 		cachedFunction(true);
-// 		cachedFunction(true);
-// 		cachedFunction(true);
-// 		cachedFunction(true);
-// 		cachedFunction(10);
-// 		cachedFunction(10);
-// 		cachedFunction(10);
-// 		cachedFunction(10);
+// 		expect(cachedFunction(0)).toBe(0);
+// 		expect(cachedFunction(0)).toBe(0);
+// 		expect(cachedFunction(0)).toBe(0);
+// 		expect(cachedFunction(0)).toBe(0);
+// 		expect(cachedFunction(10)).toBe(20);
+// 		expect(cachedFunction(10)).toBe(20);
+// 		expect(cachedFunction(10)).toBe(20);
+// 		expect(cachedFunction(10)).toBe(20);
+// 		expect(cachedFunction(10)).toBe(20);
 // 		expect(cb).toHaveBeenCalledTimes(2);
 // 	});
 // });
