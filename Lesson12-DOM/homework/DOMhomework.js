@@ -10,8 +10,8 @@ let toDoItems = [];
           add your name to the END of the current innerHTML.
 */
 
-const createdBy = document.getElementById('createdBy')
-let currentBy = createdBy.innerHTML
+const createdBy = document.getElementById('createdBy');
+const currentBy = createdBy.innerHTML;
 createdBy.innerHTML = currentBy + ' Clark';
 
 /*
@@ -52,13 +52,13 @@ ToDo.prototype.completeToDo = function() {
 */
 
 function buildToDo(todo, index) {
-  let toDoShell = document.createElement('div');
+  const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
-  let toDoText = document.createElement('span');
+  const toDoText = document.createElement('span');
   toDoText.innerHTML = todo.description;
-  toDoText.id = index
+  toDoText.id = index;
   toDoText.addEventListener('click', completeToDo);
-  if (todo['complete'] === true) {
+  if (todo.complete === true) {
       toDoText.className = 'completeText';
   }
   toDoShell.appendChild(toDoText);
@@ -107,10 +107,10 @@ function displayToDos() {
 */
 
 function addToDo() {
-  const newToDoInput = document.getElementById('toDoInput');
-  const newToDoObject = new ToDo(newToDoInput.value);
+  const input = document.getElementById('toDoInput');
+  const newToDoObject = new ToDo(input.value);
   toDoItems.unshift(newToDoObject);
-  newToDoInput.value = '';
+  input.value = '';
   displayToDos();
 }
 
