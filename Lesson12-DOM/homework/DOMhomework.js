@@ -57,10 +57,10 @@ function buildToDo(todo, index) {
   let toDoText = document.createElement('span');
   toDoText.innerHTML = todo.description;
   toDoText.id = index
+  toDoText.addEventListener('click', completeToDo);
   if (todo['complete'] === true) {
       toDoText.className = 'completeText';
   }
-//   toDoText.addEventListener('onclick', completeToDo());
   toDoShell.appendChild(toDoText);
   return toDoShell;
 }
@@ -92,9 +92,6 @@ function displayToDos() {
   const toDoContainer = document.getElementById('toDoContainer');
   buildToDos(toDoItems).map(toDoItem => toDoContainer.appendChild(toDoItem));
   toDoContainer.innerHTML = '';
-//   let appendArray = buildToDos(toDoItems);
-//   let appender = appendArray.map(toDoContainer.appendChild(item));
-//   append(toDoContainer);
 }
 
 /*
@@ -111,9 +108,8 @@ function displayToDos() {
 
 function addToDo() {
   const newToDoInput = document.getElementById('toDoInput');
-  const newToDoObject = new ToDo(newToDoInput.value); //
+  const newToDoObject = new ToDo(newToDoInput.value);
   toDoItems.unshift(newToDoObject);
-//   toDoItems.push(ToDo(document.getElementById('NewToDo').value));
   newToDoInput.value = '';
   displayToDos();
 }
@@ -125,7 +121,7 @@ function addToDo() {
 */
 
 const addButton = document.getElementById('addButton');
-addButton.addEventListener('onclick', addToDo());
+addButton.addEventListener('click', addToDo);
 
 /*
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
@@ -143,15 +139,7 @@ addButton.addEventListener('onclick', addToDo());
 function completeToDo(event) {
   const index = event.target.id; // || event
   toDoItems[index].completeToDo();
-
-//   const markedComplete = document.getElementById(String(index));
-//   const descriptionOfComplete = markedComplete.innerHTML;
-//   toDoItems.forEach(function(item) {
-//       if (item['description'] === descriptionOfComplete) {
-//           item.completeToDo();
-//           return;
-//       }
-//   });
+  displayToDos();
 }
 
 /* STEP 10: Make sure ALL tests pass */
@@ -171,7 +159,7 @@ function completeToDo(event) {
 
 
 // Call displayToDos here (Step 6)<-----
-displayToDos()
+displayToDos();
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
