@@ -1,0 +1,5 @@
+Arrays
+An array is a container where you put stuff, like your toy box holds toys.
+There are many different types of data that can be stored in an array, such as strings, numbers, or boolean values.
+Arrays are used to access different pieces of information, such as one or more names of products from a product list, or names from a roster.
+

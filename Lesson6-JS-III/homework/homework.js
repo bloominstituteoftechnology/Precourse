@@ -2,7 +2,7 @@
 
 function returnFirst(arr) {
   // return the first item from the array
-arr = [1,2,3,4,5,6,7,8];
+
   return arr[0];
 }
 
@@ -10,7 +10,7 @@ arr = [1,2,3,4,5,6,7,8];
 
 function returnLast(arr) {
   // return the last item of the array
-arr = [1,2,3,4,5,6,7,8];
+
   return arr[arr.length - 1];
 }
 
@@ -18,7 +18,7 @@ arr = [1,2,3,4,5,6,7,8];
 
 function getArrayLength(arr) {
   // return the length of the array
-arr = [1,2,3,4,5,6,7,8];
+
   return arr.length;
 }
 
@@ -29,7 +29,7 @@ function incrementByOne(arr) {
   // return the array
   
   for (let i=0; i < arr.length; ++i) {
-   arr[i]+-1;
+   arr[i]+=1;
   }
  return(arr);
 }
@@ -40,7 +40,7 @@ function addItemToArray(arr, item) {
   // add the item to the end of the array
   // return the array
 
-arr = [1,2,3,4,5,6,7,8];
+
   arr.push(9);
 
 return(arr);
@@ -52,7 +52,7 @@ function addItemToFront(arr, item) {
   // add the item to the front of the array
   // return the array
   // hint: use the array method .unshift
-  arr = [2,3,4,5,6,7,8];
+  
   arr.unshift(1);
 
 return(arr);
@@ -70,7 +70,7 @@ function wordsToSentence(words) {
   let string1, string2, string3, stringConcatenated;
   string1='LambdaSchool ';
   string2='JavaScript ';
-  string3='Class ';
+  string3='Class';
   
   stringConcatenated = string1 + string2 + string3;
   document.write (stringConcatenated);
@@ -86,7 +86,7 @@ function wordsToSentence(words) {
 function contains(arr, item) {
  // check to see if item is inside of arr
  // return true if it is, otherwise return false
-[1,2,3,4,5,6,7,8];
+
  for (let i=0; i<arr.length; i++) {
   if (arr[i]===item) {
     return true;
