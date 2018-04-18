@@ -69,7 +69,7 @@ function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
   let sum = 0;
-    for(i = 0; i < testScores.length; i++){
+    for(let i = 0; i < testScores.length; i++){
       sum += testScores[i];
     }
     let average = sum/testScores.length;
