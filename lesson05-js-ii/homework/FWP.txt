@@ -1,3 +1,0 @@
-for: A process that will keep going until one of multiple desired true or false results has been reached.
-
-&&, ||, !: && is when both things have to be true. || is when only one has to be true. ! is when you want the opposite of something in terms of true or false.
