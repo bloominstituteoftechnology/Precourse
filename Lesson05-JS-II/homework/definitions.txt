@@ -1,0 +1,3 @@
+for - Used for looping a set number of times. A counting variable is set up,a test to see if the loop should continue and an expression to change the counting variable
+
+&&, ||, ! - Operators used to combine conditional expressions. With && both statement must be true for the operator to return true. With || both expressions must be false or the operator returns true. The ! operator flips the result of the expression, true is evaluated false and false is evaluated true.
