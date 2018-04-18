@@ -78,7 +78,6 @@ function verifyPassword(user, password) {
   // otherwise return false
 
 
-
   if ((user, password) === (user['password'])) {
    return true;
  }
@@ -88,12 +87,17 @@ function verifyPassword(user, password) {
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
+
+  user.password = newPassword;
+  return user;
 }
 
 function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
   // return the user object
+  user.friends.push(newFriend);
+  return user;
 }
 
 function setUsersToPremium(users) {
@@ -101,7 +105,16 @@ function setUsersToPremium(users) {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
+
+  //how to affect multiple objects inside multiple arrays; do I do a for loop on the array or a for in loop on the objects?
+
+for (let i = 0; i <users.length; i++) {
+
+    users[i]['isPremium'] = true;
+  }
+  return users;
 }
+
 
 function sumUserPostLikes(user) {
   // user has an array property called 'posts'
@@ -109,6 +122,15 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
+
+let sum = 0;
+
+for(let i = 0; i<user.posts.length;i++) {
+
+  sum += (user.posts[i].likes);
+  }
+return sum;
+
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
@@ -120,8 +142,12 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
-}
+  storeItem.calculateDiscountPrice = function() {
+     return this.price - (this.price*this.discountPercentage);
+   };
+return storeItem;
 
+}
 // Do not modify code below this line.
 // --------------------------------
 
