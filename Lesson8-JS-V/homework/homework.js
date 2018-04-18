@@ -1,22 +1,24 @@
 // Do not change any of the function names
 
 function createUserClass() {
-  function user(options) {
-    this.username = options.username;
-    this.name = options.name;
-    this.email = options.email;
-    this.password = options.password;
-  }  
-
-  User.prototype.sayHiMethod = function() {
+  class User {
+    constructor(options) {
+      this.username = options.username;
+      this.name = options.name;
+      this.email = options.email;
+      this.password = options.password;
+    }
+    sayHiMethod() {
       return this.username + ' Hello, my name is {{name}}';
-    } // create an ES6 class or a constructor function called User
+    }
+  }
+
   // it should accept an options object with username, name, email, and password properties
   // in the constructor set the username, name, email, and password properties
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the class
-  return user; 
+  return User; 
 }
 
 function addPrototypeMethod(Constructor) {
