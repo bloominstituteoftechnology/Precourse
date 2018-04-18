@@ -1,0 +1,8 @@
+Feynman Prompt JSII
+'for', '&&', '||', '!'
+
+I. 'for' -
+for is a keyword that is used in order to tell the computer that we are about to write a for loop, something that can pick through items in an object to either find a particular one or do something to each one.
+
+II. '&&', '||', '!' -
+These are and, or, and not logical operators. They can be used to dictate how expressions should be read and treated by the computer in an 'if' statement.
