@@ -1,0 +1,5 @@
+array= array is a special variable that can hold more than one value at a time.  The simplest way I 
+know how to explain is to compare it to a bookshelf.  The bookshelf will be our array.  We will name the 
+array "bookshelf".  Inside of our array "bookshelf" we have books with all different values or names.  
+These value/books can be in any order you would like for them to be in and we can always add more books 
+or take away more books.  An array is similar to this as it holds values that can be added, deleted or grabbed at anytime.  
