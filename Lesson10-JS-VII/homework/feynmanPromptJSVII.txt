@@ -1,0 +1,5 @@
+Feynman Prompt JSVII
+Closure
+
+I. Closure -
+This is when we are able to pass variable from the scope of one function into another. A 'higher order function' is created when a function returns itself into a new function. This creates an 'inner' and 'outer' function. The 'inner' function is able to look into the scope of the 'outer' function before looking into the global scope.
