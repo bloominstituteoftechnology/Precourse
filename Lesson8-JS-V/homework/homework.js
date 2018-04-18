@@ -1,7 +1,7 @@
 // Do not change any of the function names
 
 function createUserClass() {
-  function User(options) {
+  function user(options) {
     this.username = options.username;
     this.name = options.name;
     this.email = options.email;
@@ -16,7 +16,7 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the class
-  return User; 
+  return user; 
 }
 
 function addPrototypeMethod(Constructor) {
