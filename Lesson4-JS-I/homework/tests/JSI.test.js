@@ -30,7 +30,6 @@ const {
   getTriangleArea,
 } = require('../homework');
 
-
 function newString(string) {
   return string;
   }

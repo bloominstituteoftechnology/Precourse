@@ -66,7 +66,7 @@ mysteryNumberObject.multiplyMysteryNumberByFive();
 
 
 
-const object = {
+object = {
   x: 1,
   y: 2,
   z: null,
@@ -140,7 +140,7 @@ const object = {
   }
      
   
-  const obj = {
+  obj = {
     x: true,
   };
   function hasProperty() {
@@ -156,7 +156,7 @@ const object = {
 
 
 
-const user = {
+user = {
     password: 'I love js!',
   }; 
 function verifyPassword() {
@@ -172,7 +172,7 @@ function verifyPassword() {
 
 
 
-const user = {
+user = {
   password: 'I love js!',
 };
   function updatePassword() {
@@ -184,7 +184,7 @@ const user = {
 // return the object
 
 
-const user = { 
+user = { 
     friends: ['Ben', 'Austen', 'Ryan', 'Mike', 'Young'], 
   }; 
 function addFriend(user, newFriend) {
@@ -218,7 +218,7 @@ setUsersToPremium(users, true);
 
 
 
-const user = {
+let user = {
   username: 'SunJieMing',
   password: 'JavaScript is awesome!',
   posts: [
