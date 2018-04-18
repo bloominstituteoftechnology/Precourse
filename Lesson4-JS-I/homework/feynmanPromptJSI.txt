@@ -1,0 +1,17 @@
+Feynman Writing Prompt - JSI
+Variable, Strings, Functions, 'if' statements, Boolean Values
+
+I. Variables -
+Data can be stored in variables and variables given nicknames so that they can be easily changed or called upon later. This can be any type of data, whether it be something as simple as 'true' or 'false' or something more complex like instructions on how to perform a task (a function).
+
+II. Strings -
+Strings are text wrapped in ' '. They are the text that would actually display on the screen on a web page or app when asked to.
+
+III. Functions (arguments, 'return') -
+Functions are instructions on how to perform a task. It may be passed input, known as arguments, for the funtion to use in solving a problem or performing a task. It then must give output in the form of a 'return' statement.
+
+IV. 'if' statements -
+If statements are a conditional statement that tells the computer to execute the given code if the conditions provided are evaluate to true.
+
+V. Boolean Values ('true, false') -
+JavaScript evaluates certain statements to be either true or false. Certain values also carry truthiness or falsiness implicitly. These values can also be directly assigned.
