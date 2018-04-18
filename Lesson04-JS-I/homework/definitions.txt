@@ -1,0 +1,9 @@
+Variables - Containers used to store data
+
+Strings - A line of characters
+
+Functions(arguments, return) - Block of code wrapped in a name. Arguments can be passed in to the function. The only thing from the function that can be used outside the function is the value that it returns.
+
+if statement - A statment used to control the flow of the program
+
+Boolean values(true, false) - A value that can be in one of two states, either true or false.
