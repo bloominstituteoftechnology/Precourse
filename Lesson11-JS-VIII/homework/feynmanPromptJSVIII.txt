@@ -1,0 +1,5 @@
+Feynman Prompt JSVIII
+Recursion
+
+I. Recursion - 
+Recursion is when we call a function from inside itself. This creates a loop, much a like a for loop. Just like in a for loop, it is important to establish a base case that tells the function when to stop running. However, in recursion the loop will run until the base case evaluates to true, where a for loop will run until the base case evaluates to false.
