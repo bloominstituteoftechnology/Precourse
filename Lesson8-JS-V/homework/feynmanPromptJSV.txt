@@ -1,0 +1,8 @@
+Feynman Prompt JSV
+'prototype', Constructors
+
+I. 'prototype' -
+Prototype is something that every object class has. Methods can be attached to it so that every object created from the object class can share that method without need to hard code that method onto each individual object.
+
+II. Constructors -
+Constructors are like a blue print for creating objects. Rather than typing out each object individually, a constructor can define properties whose values are passed in later on to create an object.
