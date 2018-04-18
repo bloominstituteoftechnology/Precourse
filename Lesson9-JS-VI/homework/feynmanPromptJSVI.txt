@@ -1,0 +1,5 @@
+Feynman Prompt JSVI
+Callback Functions
+
+I. Callback Functions -
+This is when we use another funtion inside of a function. This is done by passing another function in as an argument, generally denoted as 'cb'. This is helpful in creating flexibility in what the function does.
