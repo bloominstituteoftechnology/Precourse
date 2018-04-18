@@ -1,2 +1,3 @@
 a closure is a function inside another functions body, and it has access to the outer functions variables.
 we can then return the inner funtion from the outer function.
+the inner function has access to all the outer functions variables, even after the outer function exits.
