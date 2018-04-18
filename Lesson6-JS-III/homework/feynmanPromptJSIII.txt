@@ -1,0 +1,5 @@
+Feynman Prompt JSIII
+Arrays
+
+I. Arrays-
+Arrays are a way to store multiple points of data inside a single object. They are stored inside variables. They are a great way of storing a lot of like objects, like students in a class. They can store any type of data, including functions, and other arrays.
