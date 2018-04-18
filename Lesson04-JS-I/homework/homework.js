@@ -26,10 +26,8 @@ const newModulo = 21 % 5 === 1 ;
 //Do not change any of the function names
 
 function returnString(str) {
-  const returnString = 'str';
-  return returnString;
+  return str;
 }
-
 
 function add(x, y) {
     const sum = x + y;
@@ -124,8 +122,7 @@ function roundUp(num) {
 }
 
 function addExclamationPoint(str) {
-  const returnString = 'str' + '!';
-  return returnString;
+  return(str + '!');
 }
 
 function combineNames(firstName, lastName) {
