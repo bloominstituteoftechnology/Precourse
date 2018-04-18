@@ -1,0 +1,2 @@
+a closure is a function inside another functions body, and it has access to the outer functions variables.
+we can then return the inner funtion from the outer function.
