@@ -41,7 +41,7 @@ function addItemToArray(arr, item) {
   // return the array
 
 
-  arr.push(9);
+  arr.push(item);
 
 return(arr);
 
@@ -53,7 +53,7 @@ function addItemToFront(arr, item) {
   // return the array
   // hint: use the array method .unshift
   
-  arr.unshift(1);
+  arr.unshift(item);
 
 return(arr);
 
@@ -66,20 +66,13 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  
-  let string1, string2, string3, stringConcatenated;
-  string1='LambdaSchool ';
-  string2='JavaScript ';
-  string3='Class';
-  
-  stringConcatenated = string1 + string2 + string3;
-  document.write (stringConcatenated);
-     /*
-     let string=[0];
-     for (let i=0; i<string.length; i++);
-     */
+
+
+for (let i =0; i<words.length; i++) {
+  let sentence = words.join(' ');
+  return sentence;
+} 
     
-    return stringConcatenated;
 }
 
 
@@ -91,11 +84,13 @@ function contains(arr, item) {
   if (arr[i]===item) {
     return true;
   }
-  else {
-    return false;
+
+
   }
+return false;
 } 
-}
+
+
 
 
 function addNumbers(array) {
@@ -145,7 +140,7 @@ function largestNumber(numbers) {
 
 
 
-function multiplyArguments() {
+ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
@@ -159,7 +154,7 @@ let product = 1;
   }
   //if only one argument is passed in, return that argument
   if(arguments.length === 1) {
-    return arguments;
+    return 1;
   }
   //if no arguments are passed in, return 0
   else if(arguments.length === 0) {
