@@ -58,7 +58,7 @@ function buildToDo(todo, index) {
   let toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
   let toDoText = document.createElement('span');
-  toDoText.innerHTML = ToDo.description;
+  toDoText.innerHTML = todo.description;
   toDoText.id = index;
   if (todo.complete === true) {
     toDoText.className = 'completeText';
