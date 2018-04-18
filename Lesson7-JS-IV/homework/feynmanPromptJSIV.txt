@@ -1,0 +1,17 @@
+Feynman Prompt JSIV
+Objects, Properties, Methods, for in loop, Dot notation vs bracket notation
+
+I. Objects -
+Objects hold information about a particular thing. Each item in the object is given a key:value pair, in place of a numerical index as found in an array. Each key's value can hold any type of data, including other objects.
+
+II. Properties -
+An interchangeable term for key. A property stores a value within an object and is how we can call on that value from outside the object.
+
+III. Methods -
+Methods are what we call a property when it's value is a function.
+
+IV. for in loop -
+A for in loop is a type of loop we use to access items in an object. Since objects do not use numerical indexing, a standard for loop does not work.
+
+V Dot notation vs bracket notation -
+Dot notation is used to access the property of an object when the name of the property is known. Bracket notation is used to access the property of an object when the identity of the property is stored in a variable and the name of it is not known.
