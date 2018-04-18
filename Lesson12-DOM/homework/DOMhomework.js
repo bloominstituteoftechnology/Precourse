@@ -91,7 +91,9 @@ function buildToDos(toDos) {
 function displayToDos() {
   const toDoContainer = document.getElementById('toDoContainer');
   toDoContainer.innerHTML = '';
-  buildToDos(toDoItems).map(toDoItem => toDoContainer.appendChild(toDoItem));
+  buildToDos(toDoItems).forEach(element => {
+    toDoContainer.appendChild(element);
+  });
   const newArray = buildToDos(toDoItems);
 }
 
