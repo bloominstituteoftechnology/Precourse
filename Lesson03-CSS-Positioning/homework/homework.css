@@ -40,10 +40,11 @@ in this folder, you are in the wrong place.
 
 /* Exercise Four: */
 
+
 /* Place code here */
 
 #exerciseFour {
-  display: fixed;
+  position: fixed;
   top: 0%;
   left: 0%;
   width: 100%;
@@ -67,17 +68,16 @@ in this folder, you are in the wrong place.
 
 #exerciseFive {
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-around;
-  align-items: center;
-
+  flex-direction: row-reverse;
 }
+
+
 #itemThree {
   order: -3;
 
 }
 #itemFour {
-  align-self: center;
+  align-self: flex-start;
 }
 
 #itemOne {
@@ -85,6 +85,9 @@ in this folder, you are in the wrong place.
 }
 #exerciseSeven {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
   
 
 }
