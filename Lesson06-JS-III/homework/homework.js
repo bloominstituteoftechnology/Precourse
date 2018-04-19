@@ -66,8 +66,8 @@ function addItemToFront(arr, item) {
 }
 
 function contains(arr, item) {
-  i = 0, count = arr.length, matchFound = false;
-
+   i = 0, count = arr.length, matchFound = false; {
+  
  for(; i < count; i++) {
      if (arr[i] === item) {
          matchFound = true;
@@ -75,7 +75,7 @@ function contains(arr, item) {
  }
  return matchFound;
 }
-
+}
 
 
 function addNumbers(numbers){

@@ -10,16 +10,12 @@ function makeCat(name, age) {
     age:  age,
     meow: function(){
       return 'Meow!';
-      }
-     };
-    {
+    } 
+     
+  };
       return cat;
-    }
-    {
-      cat.meow();
-    }
 }
-  
+ 
 
 function addProperty(object, property) {
   // add the property to the object with a value of null

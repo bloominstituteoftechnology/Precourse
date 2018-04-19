@@ -37,9 +37,10 @@ function greeting(language) {
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
 
-  const five = 5;
-  const ten = 10;
+  
   function isTenOrFive(num){ 
+    const five = 5;
+    const ten = 10;
     
     if (num === five) {
       
@@ -143,4 +144,4 @@ module.exports = {
   isInteger,
   fizzBuzz,
   isPrime,
-}
+};
