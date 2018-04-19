@@ -9,9 +9,9 @@ img {
 #thirdDiv {
     height: 600px;
     widows: 500px;
-    background-color: rgb(223, 183, 96);
+    background-color: rgb(150, 40, 177);
     padding: 50px;
-    border: burlywood 5px dashed;
+    border: rgb(40, 71, 92) dashed 5px;
     margin: auto
 }
 
@@ -24,7 +24,7 @@ a, #spanId {
 .divClass {
     color: rgb(255, 0, 212);
     margin: auto;
-    width: 50%
+    
 }
 
 body {
