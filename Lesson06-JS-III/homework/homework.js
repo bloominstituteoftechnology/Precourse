@@ -66,15 +66,12 @@ function addItemToFront(arr, item) {
 }
 
 function contains(arr, item) {
-   i = 0, count = arr.length, matchFound = false; {
-  
- for(; i < count; i++) {
-     if (arr[i] === item) {
-         matchFound = true;
-     }
+ if (arr.includes(item)) {
+   return true;
  }
- return matchFound;
-}
+   return false;
+  // check to see if item is inside of arr
+  // return true if it is, otherwise return false
 }
 
 
