@@ -1,1 +1,40 @@
-Example:```var vehicle = {	'type':'car',	'color': 'red',	'hasSunroof': true,	'price':500000,	'discountPercentage':15,	'discountPrice':function(){		return this.price - (this.discountPercentage/100);		},};```* Objects - In Javascript, Objects are organised data structure to store the data about a particular thing & keep track of that data by defining custom key(represents property or method name) for each object element (known as object literal). It often used to store real-world data. Unlike array you can fetch the data easily with objects.	eg: From given example, you can see the object `vehicle` declared in curly braces.* Properties - It's like the label of an on value. If I tell you the word `true`, then you'll not get of what I asked about. If I tell you this car has sunroof, then you'll get that I was asked about vehicle's sunroof. 	Likewise, every object need a property which describe the characteristics of an object. It's like a 'key' to the object value. Each property is differentiate using comma(,).	eg: From given example, you can check that it has properties (`type, color, hasSunroof, price, discountPrice`) .* Methods - Methods are the pre-defined set of operations (also known as pre-defined functions). You'll always have to declare the function as key's value.	eg: From given example, you know the discount percentage of your car which is 15, but you are in haste to calculate it. Then you only need to use property method `discountPrice`, which have already done calculations for you. 	In that way, you can declare methods in objects.	- vehicle.discountPrice() // shows the discounted price of vehicle* for in loop - used to show enumerable properties of an object in a for loop way. Precisely, it will show the output until it gets the property of an object.		eg: for (let properties in vehicle)		console.log(properties+" : "+vehicle[properties]); // keys : key_value* Dot notation vs bracket notation - Both dot & bracket notation are used to access the object's properties which are also known as 'property accessors'. But their syntax makes it distinct to show the output.	eg: vehicle.color; // returns the red		vehicle.['color']; // red
+Example:
+```var vehicle = {
+    type:'car',
+    color: 'red',
+    hasSunroof: true,
+    price:500000,
+    discountPercentage:15,
+    discountPrice:function(){
+		return this.price - (this.discountPercentage/100);
+		},
+};
+```
+
+* Objects - In Javascript, Objects are organised data structure to store the data about a particular thing & keep track of that data by defining custom key(represents property or method name) for each object element (known as object literal). 
+It often used to store real-world data. Unlike array you can fetch the data easily with objects.
+
+	eg: From given example, you can see the object `vehicle` declared in curly braces.
+
+* Properties - It's like the label of an on value. If I tell you the word `true`, then you'll not get of what I asked about. If I tell you this car has sunroof, then you'll get that I was asked about vehicle's sunroof. 
+
+	Likewise, every object need a property which describe the characteristics of an object. It's like a 'key' to the object value. Each property is differentiate using comma(,).
+
+	eg: From given example, you can check that it has properties (`type, color, hasSunroof, price, discountPrice`) .
+
+* Methods - Methods are the pre-defined set of operations (also known as pre-defined functions). You'll always have to declare the function as key's value.
+
+	eg: From given example, you know the discount percentage of your car which is 15, but you are in haste to calculate it. Then you only need to use property method `discountPrice`, which have already done calculations for you. 
+	In that way, you can declare methods in objects.
+
+	- vehicle.discountPrice() // shows the discounted price of vehicle
+
+* for in loop - used to show enumerable properties of an object in a for loop way. Precisely, it will show the output until it gets the property of an object.
+	
+	eg: for (let properties in vehicle)
+		console.log(properties+" : "+vehicle[properties]); // keys : key_value
+
+* Dot notation vs bracket notation - Both dot & bracket notation are used to access the object's properties which are also known as 'property accessors'. But their syntax makes it distinct to show the output.
+
+	eg: vehicle.color; // returns the red
+		vehicle.['color']; // red
