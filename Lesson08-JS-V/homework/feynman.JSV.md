@@ -1,0 +1,5 @@
+Prototypes
+	are a good way of saving space and memory while writing code. They're minimalists. With a prototype, you can set a method one time and every class can have those methods too. For example, you probably have a science class, right? Imagine you go to a big Jr. High and there are multiple science classes for your grade. Most likely each class is learning the same material and doing the same experiments. The teacher probably also gives each class the same book to study with. In other words, each class uses the same method of learning science. 
+	
+Constructors
+	are used to set values of the properties of an object. You could say that it creates an object, or gives it value. For example a constructor can creat a person, giving us their first and last names, their eye color, height, age, and so on.
