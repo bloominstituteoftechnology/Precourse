@@ -6,38 +6,74 @@ in this folder, you are in the wrong place.
 
 /* Exercise One: Centering the text in a span */
 
-/* We will start this one off for you: */
 #exerciseOne {
-
+    display: block;
+    text-align: center;
 }
 
 
-/* Exercise Two: Positioning a Header Bar*/
+/* Exercise Two: Positioning a Header Bar */
 
-/* Place code here */
-
-
-
-/* Exercise Three: */
-
-/* Place code here */
+#exerciseTwo {
+    display: none;
+}
 
 
+/* Exercise Three: Positioning an image */
 
-/* Exercise Four: */
-
-/* Place code here */
-
-
-
-/* Exercise Five */
-
-/* Place code here */
+#exerciseThree {
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
 
 
+/* Exercise Four: Move the real header bar to the top and fix it there */
 
-/* Exercise Six */
+#exerciseFour {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+
+/* Exercise Five: Make container a flex box and distribute list items evenly */
+
+#exerciseFive {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+/* Exercise Six:  Change list item order using the #exerciseFive ID above */
+
+
+/* Exercise Seven: Play around with flexbox or grid */
 
 #exerciseSeven {
-  display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#itemOne {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#itemTwo {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#itemThree {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#itemFour {
+    grid-column: 1;
+    grid-row: 1;
 }
