@@ -1,0 +1,2 @@
+Callback functions
+	are a way to pass functions to other functions. If the callback functon is not immediately executed, it is 'called back'. Does this sound like a game of baseball? If a ball is hit into the field, the ball is passed from player to player to execute the function of eliminating the player. If the function is not immediately executed, the ball is thrown back to home base.
