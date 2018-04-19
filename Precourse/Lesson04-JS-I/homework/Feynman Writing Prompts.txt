@@ -1,0 +1,5 @@
+Variables - Center of Javascript. Values we can store for later use.
+Strings - block of data text.
+Functions - compute, change, or do something to variables.
+'if' Statements - Check to see if something is true.
+Boolean values - Determine if values are 'true or false, 'yes or no, ' 1 or 0'.
