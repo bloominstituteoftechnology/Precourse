@@ -9,6 +9,7 @@ const newNum = 45;
 //create a boolean variable
 const newBool = 'lovesBloodhounds' === true;
 
+
 //solve the following math problem
 const newSubtract = 10 - 5 === 5;
 
@@ -106,8 +107,8 @@ function isEven(num) {
   let evenNum = (num % 2);
     if (evenNum === 0) {
     return true;
-    }  // return true if num is even
- 		 // otherwise return false
+    }// return true if num is even
+ // otherwise return false
   else {
     return false; // code here
  } 

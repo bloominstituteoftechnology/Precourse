@@ -1,7 +1,7 @@
 // Do not change any of the function names
 
 
-function returnFirst(arr){ 
+function returnFirst(arr) { 
   return arr[0];
 }
 // return the first item from the array
