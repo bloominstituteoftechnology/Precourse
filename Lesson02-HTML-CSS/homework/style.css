@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+html {
+    background: url(background-image.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color: whitesmoke;
+    text-shadow: black 1px 1px;
+}
+
+img {
+    width: 400px;
+}
+
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+}
+
+#thirdDiv {
+    background-color: sandybrown;
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    border: 2px solid red;
+}
