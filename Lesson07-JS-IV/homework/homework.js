@@ -49,9 +49,9 @@ function newUser(name, email, password) {
     // create a new object with properties matching the arguments passed in.
     // return the new object
     const newObj = {
-        'name': name,
-        'email': email,
-        'password': password,
+        name: name,
+        email: email,
+        password: password,
     };
     return newObj;
 }
