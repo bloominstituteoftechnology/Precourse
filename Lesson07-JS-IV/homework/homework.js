@@ -9,8 +9,8 @@ function makeCat(name, age) {
     name: name,
     age: age,
     meow: 'Meow!',
-  } return Obj
-    }
+  } return Obj;
+  }
 
 function addProperty(object, property) {
   // add the property to the object with a value of null
