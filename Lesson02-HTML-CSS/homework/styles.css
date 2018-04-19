@@ -1,0 +1,58 @@
+<!--
+body {
+	background-image: url(https://festivalmatematicavalpo.files.wordpress.com/2016/10/curiosidades-fractales.jpg);
+}
+
+}
+
+#thirdDiv {
+			background-color: green;
+			height: 600px;
+			width: 500px;
+			border: 5px dotted red;
+			padding: 50px;
+			 position: absolute;
+    top:700px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+		}
+h1 {
+	color: #F0F8FF;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	height: 100px
+}
+
+h3 {
+	color: #F0F8FF;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+h4 {
+	color: #F0F8FF;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;	
+}
+
+img {
+	width: 400px
+}
+
+#spanId {
+	color: #F0F8FF;
+	font-size: 18px;
+	margin: 50px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	
+
+}
+-->
