@@ -6,15 +6,31 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-align: center;
+}
+
+body {
+    max-width: 600px;
+    margin: 0 auto 0;
 }
 
 h1 {
-    color: whitesmoke;
-    text-shadow: black 1px 1px;
+    color: lemonchiffon;
+    text-shadow: 0 0 0.2em black,
+                 0 0 0.2em black,
+                 0 0 0.2em black;
 }
 
 img {
     width: 400px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li :first-of-type {
+    padding: 0 0 50px;
 }
 
 #spanID {
@@ -27,5 +43,6 @@ img {
     height: 600px;
     width: 500px;
     padding: 50px;
-    border: 2px solid red;
+    border: 5px solid white;
+    margin-top: 25px;
 }
