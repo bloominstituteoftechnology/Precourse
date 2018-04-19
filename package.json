@@ -18,7 +18,7 @@
   "homepage": "https://github.com/lambdaschool/precourse#readme",
   "devDependencies": {
     "eslint": "^4.19.1",
-    "jest": "^22.0.3"
+    "jest": "^22.4.3"
   },
   "dependencies": {
     "jest-cli": "^22.4.3"
