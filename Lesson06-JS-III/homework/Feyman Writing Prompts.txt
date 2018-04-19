@@ -1,0 +1,1 @@
+Array is a way to store data as a list in javascript. An array can store values of different data type. Array uses 0-index, which means the first item is at index 0.
