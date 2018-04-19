@@ -45,7 +45,12 @@ img {
 
 .flexBox {
   display: flex;
-  flex-direction: column; /*align contents in column*/
+  flex-direction: column; /*align contents in vertically*/
   justify-content: center;
   align-items: center;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
 }
