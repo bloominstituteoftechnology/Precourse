@@ -1,0 +1,9 @@
+Lesson 05 Writing Prompt
+
+For: This is the prompt to tell your machine you want it to create a loop or go in a circle with certain rules to follow. The rules can tell it to go forever, or just to a certain place and stop like a certain number. You will typically see three "rules" in the loops. 1: where to start 2: where to end or go until this thing reads false 3: which way you want the circle to go(up or down, forward or reverse). Rules 2 and 3 will help the code decide whether it is infinite or not.
+
+&&: this is used when you are writing a true-false statement (if/else) with additional detail. So for instance you want to have both A AND B as letters of the alphabet - that returns true. If you were to run the same code with A AND $ it would come back false. These symbols require what's on either side of the && to be true.
+
+||: is the same as saying OR. In the same instance of the letters you could write A OR B are letters of the alphabet, it would be true. Likewise if you wrote A OR $ - this is also true... you want the detail included but only factor has to be true. If you had $ OR # it would return false.
+
+!: is shorthand for NOT. So you can say 1 !== 16. Or (!(1===1)) returns false. The last part is a math problem. You always start with the innermost parentheses. In this case 1 is exactly equal to 1. That's true BUT because the next step is to add ! which means NOT. It becomes NOT true or false.
