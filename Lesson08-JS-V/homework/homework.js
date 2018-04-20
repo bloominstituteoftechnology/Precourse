@@ -1,6 +1,6 @@
 // Do not change any of the function names
 
-function createUserClass(User) {
+function createUserClass() {
   // create an ES6 class or a constructor function called User
   // it should accept an options object with username, name, email, and password properties
   // in the constructor set the username, name, email, and password properties
