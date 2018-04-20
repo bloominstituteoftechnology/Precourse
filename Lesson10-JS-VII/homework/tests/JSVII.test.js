@@ -9,7 +9,7 @@ describe('Test suite runs', () => {
 //   counter,
 //   cacheFunction,
 // } = require('../homework');
-
+//
 // describe('counter', () => {
 // 	it('should return a function', () => {
 // 		expect(typeof counter()).toBe('function');
@@ -26,7 +26,7 @@ describe('Test suite runs', () => {
 // 		expect(counterFunction()).toBe(5);
 // 	});
 // });
-
+//
 // describe('cacheFunction(cb)', function() {
 // 	it('should return the callback function', function() {
 // 		const cb = function() {};
