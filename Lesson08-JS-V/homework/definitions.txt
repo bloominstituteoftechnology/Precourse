@@ -1,0 +1,3 @@
+prototype - An object that every class has, created automatically in Javascript, used to store functions that all object instantiated from the class share
+
+Constuctors - Function used to create an instance of a class
