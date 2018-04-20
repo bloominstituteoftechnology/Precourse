@@ -1,0 +1,16 @@
+h1 {color: red; }
+
+/* Add a style rule to the img element giving it a width of 400px; */
+div img { width: 400px; }
+
+#thirdDiv  { 
+  height: 600px; 
+  width: 500px; 
+  background-color: grey; 
+  padding: 50px; 
+  border: 10px solid orange;
+  width: 500px;
+
+}
+
+#spanId { font-size: 18px; margin: 50px; }

@@ -1,0 +1,11 @@
+#pId {
+  color: red;
+  border: 1px solid red;
+  display: inline;
+}
+
+.spanClass {
+  color: green;
+  border: 1px solid green;
+  display: none;
+}

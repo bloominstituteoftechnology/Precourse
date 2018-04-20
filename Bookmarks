@@ -1,0 +1,1079 @@
+{
+   "checksum": "1e38c7ab0286887188f37b43fae304b4",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13164097652589053",
+            "id": "1751",
+            "meta_info": {
+               "last_visited_desktop": "13167721666483551"
+            },
+            "name": "My Drive",
+            "sync_transaction_version": "65135",
+            "type": "url",
+            "url": "https://drive.google.com/drive/u/0/my-drive"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13164857146119121",
+                  "id": "1770",
+                  "meta_info": {
+                     "last_visited_desktop": "13165283954728733"
+                  },
+                  "name": "GitHub - LambdaSchool/Lambda-Challenge",
+                  "sync_transaction_version": "53348",
+                  "type": "url",
+                  "url": "https://github.com/LambdaSchool/Lambda-Challenge"
+               }, {
+                  "date_added": "13164961013255647",
+                  "id": "1774",
+                  "meta_info": {
+                     "last_visited_desktop": "13165301943392363"
+                  },
+                  "name": "PreCourse",
+                  "sync_transaction_version": "53467",
+                  "type": "url",
+                  "url": "https://github.com/lambdaschool/precourse"
+               }, {
+                  "date_added": "13163599377392140",
+                  "id": "1744",
+                  "meta_info": {
+                     "last_visited_desktop": "13167689974664682"
+                  },
+                  "name": "Lambda Slack",
+                  "sync_transaction_version": "64962",
+                  "type": "url",
+                  "url": "https://lambdaschoolprep.slack.com/messages/C5EKH8V8B/"
+               }, {
+                  "date_added": "13164961663239870",
+                  "id": "1775",
+                  "meta_info": {
+                     "last_visited_desktop": "13164961663240714"
+                  },
+                  "name": "Free Online Mini Code Bootcamp ",
+                  "sync_transaction_version": "52916",
+                  "type": "url",
+                  "url": "https://lambdaschool.com/mini-bootcamp/"
+               }, {
+                  "date_added": "13166673881180616",
+                  "id": "1801",
+                  "meta_info": {
+                     "last_visited_desktop": "13166945773283308"
+                  },
+                  "name": "William Swift's HTML Homework",
+                  "sync_transaction_version": "61846",
+                  "type": "url",
+                  "url": "file:///Users/williamswift/Desktop/LambdaSchool/Precourse/Lesson2-HTML-CSS/homework/homework.html"
+               } ],
+               "date_added": "13164870848627121",
+               "date_modified": "13166740064992723",
+               "id": "1772",
+               "name": "Lambda",
+               "sync_transaction_version": "52899",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13163818930649427",
+                  "id": "1742",
+                  "meta_info": {
+                     "last_visited_desktop": "13163818930657318"
+                  },
+                  "name": "Flatiron Prep",
+                  "sync_transaction_version": "52834",
+                  "type": "url",
+                  "url": "https://flatironschool.com/programs/online-bootcamp-prep-course/?__hssc=215730632.2.1519345121134&__hstc=215730632.349e4d10f19497cc727f1abff7b7966e.1519345121133.1519345121133.1519345121133.1&__hsfp=1308098761&hsCtaTracking=061b3cff-b461-43a0-988d-293bd85ca266%7C1eb3aa7c-aa87-4d48-901a-a61da523483e"
+               }, {
+                  "date_added": "13164262280563546",
+                  "id": "1759",
+                  "meta_info": {
+                     "last_visited_desktop": "13164262280564227"
+                  },
+                  "name": "Access Labs Initiative (Flatiron)",
+                  "sync_transaction_version": "52835",
+                  "type": "url",
+                  "url": "https://www.accesslabs.org/"
+               }, {
+                  "date_added": "13166031876277853",
+                  "id": "1798",
+                  "meta_info": {
+                     "last_visited_desktop": "13166031876278668"
+                  },
+                  "name": "Learn to code online | Flatiron School",
+                  "sync_transaction_version": "57381",
+                  "type": "url",
+                  "url": "https://flatironschool.com/online-campus/"
+               } ],
+               "date_added": "13164956956127183",
+               "date_modified": "13166031879832827",
+               "id": "1773",
+               "name": "Flatiron",
+               "sync_transaction_version": "52833",
+               "type": "folder"
+            }, {
+               "date_added": "13142332740628603",
+               "id": "1421",
+               "meta_info": {
+                  "last_visited_desktop": "13163593286297038"
+               },
+               "name": "Lynda",
+               "sync_transaction_version": "48441",
+               "type": "url",
+               "url": "https://www.lynda.com/"
+            }, {
+               "date_added": "13165356097558714",
+               "id": "1778",
+               "meta_info": {
+                  "last_visited_desktop": "13165356097559892"
+               },
+               "name": "WeWork x Flatiron School — Students for Life",
+               "sync_transaction_version": "53728",
+               "type": "url",
+               "url": "https://www.wework.com/blog/posts/wework-x-flatiron-school-students-for-life"
+            }, {
+               "date_added": "13166031781180038",
+               "id": "1797",
+               "meta_info": {
+                  "last_visited_desktop": "13166031793396036"
+               },
+               "name": "SoloLearn",
+               "sync_transaction_version": "57374",
+               "type": "url",
+               "url": "https://www.sololearn.com/"
+            }, {
+               "date_added": "13166945831061622",
+               "id": "1810",
+               "meta_info": {
+                  "last_visited_desktop": "13167687855905190"
+               },
+               "name": "CSS Tutorial",
+               "sync_transaction_version": "64932",
+               "type": "url",
+               "url": "https://www.w3schools.com/css/default.asp"
+            }, {
+               "date_added": "13167632751018492",
+               "id": "1816",
+               "meta_info": {
+                  "last_visited_desktop": "13167632751019197"
+               },
+               "name": "CodePen",
+               "sync_transaction_version": "64718",
+               "type": "url",
+               "url": "https://codepen.io/pen"
+            } ],
+            "date_added": "13164096426219641",
+            "date_modified": "13167636472318925",
+            "id": "1750",
+            "name": "Code",
+            "sync_transaction_version": "48436",
+            "type": "folder"
+         }, {
+            "date_added": "13120187916214137",
+            "id": "749",
+            "meta_info": {
+               "last_visited_desktop": "13167633751062949"
+            },
+            "name": "Calendar",
+            "sync_transaction_version": "64728",
+            "type": "url",
+            "url": "https://calendar.google.com/calendar/render#main_7%7Ccustom,28"
+         }, {
+            "date_added": "13150442493271175",
+            "id": "1567",
+            "meta_info": {
+               "last_visited_desktop": "13167723097400496"
+            },
+            "name": "",
+            "sync_transaction_version": "65146",
+            "type": "url",
+            "url": "https://www.facebook.com/"
+         }, {
+            "date_added": "13150485071670053",
+            "id": "1568",
+            "meta_info": {
+               "last_visited_desktop": "13167720790460599"
+            },
+            "name": "",
+            "sync_transaction_version": "65116",
+            "type": "url",
+            "url": "https://www.google.com/"
+         }, {
+            "date_added": "13118117972432935",
+            "id": "669",
+            "meta_info": {
+               "last_visited_desktop": "13167619661865778"
+            },
+            "name": "",
+            "sync_transaction_version": "64598",
+            "type": "url",
+            "url": "https://www.strava.com/dashboard#_=_"
+         }, {
+            "date_added": "13078644712319000",
+            "id": "19",
+            "meta_info": {
+               "last_visited_desktop": "13167720350584462"
+            },
+            "name": "",
+            "sync_transaction_version": "65112",
+            "type": "url",
+            "url": "http://www.pandora.com/"
+         }, {
+            "children": [ {
+               "date_added": "13131434801652703",
+               "id": "1144",
+               "meta_info": {
+                  "last_visited_desktop": "13164188225215846"
+               },
+               "name": "Supportive Housing NYC",
+               "sync_transaction_version": "49419",
+               "type": "url",
+               "url": "http://shnny.org/learn-more/looking-for-housing/supportive-housing-in-new-york-city"
+            }, {
+               "date_added": "13141642908592136",
+               "id": "1407",
+               "meta_info": {
+                  "last_visited_desktop": "13164188288138905"
+               },
+               "name": "Homes for the Homeless NYC",
+               "sync_transaction_version": "49420",
+               "type": "url",
+               "url": "http://www.hfhnyc.org/"
+            }, {
+               "date_added": "13143946306519896",
+               "id": "1456",
+               "meta_info": {
+                  "last_visited_desktop": "13157774042132632"
+               },
+               "name": "Low Income Housing in New York City, NY Affordable Housing Online",
+               "sync_transaction_version": "19701",
+               "type": "url",
+               "url": "https://affordablehousingonline.com/housing-search/New-York/New-York-City?utm_source=Affordable+Housing+Online+Alerts&utm_campaign=578e38d840-new_york_apts_2017_07_07&utm_medium=email&utm_term=0_42bd97fd3e-578e38d840-244501397"
+            }, {
+               "date_added": "13152038625690619",
+               "id": "1584",
+               "meta_info": {
+                  "last_visited_desktop": "13152175114348866"
+               },
+               "name": "Transitional Housing & Shelter | BRC",
+               "sync_transaction_version": "81",
+               "type": "url",
+               "url": "http://www.brc.org/transitional-housing-shelter"
+            }, {
+               "date_added": "13153165159546889",
+               "id": "1597",
+               "meta_info": {
+                  "last_visited_desktop": "13157773819656114"
+               },
+               "name": "Section 8 Housing Documentary",
+               "sync_transaction_version": "19686",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=zGpE-F1HkO4"
+            }, {
+               "date_added": "13154321653224367",
+               "id": "1606",
+               "meta_info": {
+                  "last_visited_desktop": "13157773069967947"
+               },
+               "name": "Phase II of Chelsea Lottery Opens at West 29th Street | StreetEasy",
+               "sync_transaction_version": "19676",
+               "type": "url",
+               "url": "https://streeteasy.com/blog/chelsea-lottery-opens-for-affordable-apts-at-west-29th-street/"
+            }, {
+               "date_added": "13131264307181981",
+               "id": "1138",
+               "meta_info": {
+                  "last_visited_desktop": "13157773086878914"
+               },
+               "name": "Housing Services Supportive Housing",
+               "sync_transaction_version": "19684",
+               "type": "url",
+               "url": "https://www1.nyc.gov/site/doh/health/health-topics/housing-services-supportive-housing.page"
+            }, {
+               "date_added": "13155442940063221",
+               "id": "1617",
+               "meta_info": {
+                  "last_visited_desktop": "13157772982279992"
+               },
+               "name": "New Jersey Section 8 Housing | Section-8-Housing.org",
+               "sync_transaction_version": "19673",
+               "type": "url",
+               "url": "https://section-8-housing.org/New-Jersey?utm_source=google&utm_medium=cpc&gclid=CjwKCAiArrrQBRBbEiwAH_6sNBNL_xaSesHFtHge0Wvt-xrlOycFSfb4fqFeswrXbeXZp6anw"
+            }, {
+               "date_added": "13157770778081104",
+               "id": "1653",
+               "meta_info": {
+                  "last_visited_desktop": "13157770778081803"
+               },
+               "name": "turning-the-tide-on-homelessness.pdf",
+               "sync_transaction_version": "19648",
+               "type": "url",
+               "url": "http://www1.nyc.gov/assets/dhs/downloads/pdf/turning-the-tide-on-homelessness.pdf"
+            }, {
+               "date_added": "13106878669741658",
+               "id": "307",
+               "meta_info": {
+                  "last_visited_desktop": "13155977919523941"
+               },
+               "name": "Breaking Ground ",
+               "sync_transaction_version": "19708",
+               "type": "url",
+               "url": "http://www.breakingground.org/contact-us#.VyqHxhUrLVo"
+            }, {
+               "date_added": "13157772870704873",
+               "id": "1654",
+               "meta_info": {
+                  "last_visited_desktop": "13157772870705514"
+               },
+               "name": "Housing 2.0",
+               "sync_transaction_version": "19669",
+               "type": "url",
+               "url": "http://www1.nyc.gov/assets/hpd/downloads/pdf/about/hny-2.pdf"
+            }, {
+               "date_added": "13157794210040110",
+               "id": "1655",
+               "meta_info": {
+                  "last_visited_desktop": "13157794210040907"
+               },
+               "name": "Everything You Need to Know about Affordable Housing: Applying, Getting In, and Staying Put | 6sqft",
+               "sync_transaction_version": "19891",
+               "type": "url",
+               "url": "https://www.6sqft.com/everything-you-need-to-know-about-affordable-housing-qualifying-getting-in-and-staying-put/"
+            }, {
+               "date_added": "13158630122321294",
+               "id": "1672",
+               "meta_info": {
+                  "last_visited_desktop": "13164910612426962"
+               },
+               "name": "NYC Housing Preservation and Development",
+               "sync_transaction_version": "52417",
+               "type": "url",
+               "url": "http://www1.nyc.gov/site/hpd/index.page"
+            }, {
+               "date_added": "13158777077860884",
+               "id": "1674",
+               "meta_info": {
+                  "last_visited_desktop": "13158777077861810"
+               },
+               "name": "NYCHA SelfService Portal",
+               "sync_transaction_version": "25545",
+               "type": "url",
+               "url": "https://selfserve.nycha.info/eservice_enu/start.swe?SWENeedContext=false&SWECmd=GotoView&SWEVI=&SWEView=NYCHA+OUI+Home+Page+View+(eService)&SWEC=33&SWEBID=-1&SRN=&SWETS=#no-back-button"
+            }, {
+               "date_added": "13159130579323133",
+               "id": "1678",
+               "meta_info": {
+                  "last_visited_desktop": "13159130579323851"
+               },
+               "name": "The head of addordable housing in NYC",
+               "sync_transaction_version": "29297",
+               "type": "url",
+               "url": "http://www1.nyc.gov/site/hpd/about/email-the-commissioner.page"
+            }, {
+               "date_added": "13159754088257050",
+               "id": "1692",
+               "meta_info": {
+                  "last_visited_desktop": "13159754088257986"
+               },
+               "name": "Home Ownership Information | City of New York",
+               "sync_transaction_version": "30901",
+               "type": "url",
+               "url": "http://www1.nyc.gov/nyc-resources/service/1144/home-ownership-information"
+            }, {
+               "date_added": "13159857837035719",
+               "id": "1694",
+               "meta_info": {
+                  "last_visited_desktop": "13159857837036595"
+               },
+               "name": "18 New York Movies Every Guy Should See | Cool Material",
+               "sync_transaction_version": "31629",
+               "type": "url",
+               "url": "http://coolmaterial.com/media/movies/18-new-york-movies-every-guy-should-see/"
+            }, {
+               "date_added": "13160596222394765",
+               "id": "1707",
+               "meta_info": {
+                  "last_visited_desktop": "13160597247462566"
+               },
+               "name": "NYC Housing Portal",
+               "sync_transaction_version": "35551",
+               "type": "url",
+               "url": "http://www1.nyc.gov/site/housingportal/index.page"
+            }, {
+               "date_added": "13160690704275021",
+               "id": "1708",
+               "meta_info": {
+                  "last_visited_desktop": "13160690704275991"
+               },
+               "name": "Affordable housing in NYC hit record 24,536 below-market-rate apartments in 2017, de Blasio says | am New York",
+               "sync_transaction_version": "35957",
+               "type": "url",
+               "url": "https://www.amny.com/real-estate/affordable-housing-nyc-record-1.16216273"
+            }, {
+               "date_added": "13160916691632001",
+               "id": "1710",
+               "meta_info": {
+                  "last_visited_desktop": "13160916691632930"
+               },
+               "name": "How I Won the NYC Housing Lottery | StreetEasy",
+               "sync_transaction_version": "36857",
+               "type": "url",
+               "url": "https://streeteasy.com/blog/win-nyc-housing-lottery/"
+            }, {
+               "date_added": "13161116543105711",
+               "id": "1713",
+               "meta_info": {
+                  "last_visited_desktop": "13161116543106655"
+               },
+               "name": "Homeless Will Now Be Asked: Are You Fleeing Domestic Violence?",
+               "sync_transaction_version": "38048",
+               "type": "url",
+               "url": "http://www.governing.com/topics/health-human-services/sl-homeless-domestic-violence.html?utm_content=buffer751d1&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
+            }, {
+               "date_added": "13161623550415070",
+               "id": "1720",
+               "meta_info": {
+                  "last_visited_desktop": "13161682139954985"
+               },
+               "name": "Staff : National Low Income Housing Coalition",
+               "sync_transaction_version": "40476",
+               "type": "url",
+               "url": "http://nlihc.org/about/staff"
+            }, {
+               "date_added": "13161715384900487",
+               "id": "1722",
+               "meta_info": {
+                  "last_visited_desktop": "13164919673650991"
+               },
+               "name": "Why Hospitals Are Subsidizing Apartments For The Homeless",
+               "sync_transaction_version": "52561",
+               "type": "url",
+               "url": "https://www.fastcompany.com/40516121/why-hospitals-are-subsidizing-apartments-for-the-homeless"
+            }, {
+               "date_added": "13162216359232034",
+               "id": "1730",
+               "meta_info": {
+                  "last_visited_desktop": "13162216359233034"
+               },
+               "name": "Hudson Yards tower launches lottery for 63 affordable rentals from $613/month - Curbed NY",
+               "sync_transaction_version": "43193",
+               "type": "url",
+               "url": "https://ny.curbed.com/platform/amp/2018/2/2/16964824/515-west-36-hudson-yards-affordable-launch?utm_campaign=ny.curbed&utm_content=chorus&utm_medium=social&utm_source=twitter&__twitter_impression=true"
+            }, {
+               "date_added": "13162329612383838",
+               "id": "1732",
+               "meta_info": {
+                  "last_visited_desktop": "13162329612384721"
+               },
+               "name": "Housing New York Map",
+               "sync_transaction_version": "43989",
+               "type": "url",
+               "url": "http://hpd.maps.arcgis.com/apps/webappviewer/index.html?id=192d198f84e04b8896e6b9cad8760f22"
+            }, {
+               "date_added": "13162802163956816",
+               "id": "1737",
+               "meta_info": {
+                  "last_visited_desktop": "13162802163957697"
+               },
+               "name": "Don’t make the mistakes this couple made buying a home - MarketWatch",
+               "sync_transaction_version": "46085",
+               "type": "url",
+               "url": "https://www.marketwatch.com/story/dont-make-the-mistakes-this-couple-made-buying-a-home-2018-02-08?link=sfmw_tw"
+            }, {
+               "date_added": "13163831677777969",
+               "id": "1745",
+               "meta_info": {
+                  "last_visited_desktop": "13163831677779335"
+               },
+               "name": "80/20 apartment living: My life as a 20 percenter",
+               "sync_transaction_version": "47729",
+               "type": "url",
+               "url": "https://www.brickunderground.com/blog/2012/09/8020_apartment_living_my_life_as_a_20_percenter"
+            }, {
+               "date_added": "13163831737242981",
+               "id": "1746",
+               "meta_info": {
+                  "last_visited_desktop": "13163831737245401"
+               },
+               "name": "7 steps for applying to the NYC affordable housing lottery",
+               "sync_transaction_version": "47729",
+               "type": "url",
+               "url": "https://www.brickunderground.com/blog/2014/08/8020_affordable_housing_guide"
+            }, {
+               "date_added": "13163832510936935",
+               "id": "1747",
+               "meta_info": {
+                  "last_visited_desktop": "13163832510939178"
+               },
+               "name": "NYC’s hotels need homeless people to stay in business | New York Post",
+               "sync_transaction_version": "47729",
+               "type": "url",
+               "url": "https://nypost.com/2018/02/03/nycs-hotels-need-homeless-people-to-stay-in-business/"
+            }, {
+               "date_added": "13164130096715658",
+               "id": "1753",
+               "meta_info": {
+                  "last_visited_desktop": "13164130096716441"
+               },
+               "name": "NYC Department of Homeless Services: \"We're live #inTheBronx this morning for a very important announcement about #TurningtheTideNYC\"",
+               "sync_transaction_version": "49062",
+               "type": "url",
+               "url": "https://www.pscp.tv/w/1jMJgqWqgDkKL"
+            }, {
+               "date_added": "13164169360228709",
+               "id": "1755",
+               "meta_info": {
+                  "last_visited_desktop": "13164169360229509"
+               },
+               "name": "Comptroller wants to use Battery Park money to fund NYCHA | New York Post",
+               "sync_transaction_version": "49277",
+               "type": "url",
+               "url": "https://nypost.com/2018/02/25/comptroller-wants-to-use-battery-park-money-to-fund-nycha/?utm_source=twitter_sitebuttons&utm_medium=site%20buttons&utm_campaign=site%20buttons"
+            }, {
+               "date_added": "13164217357144534",
+               "id": "1757",
+               "meta_info": {
+                  "last_visited_desktop": "13164217357145661"
+               },
+               "name": "https://council.nyc.gov/live/",
+               "sync_transaction_version": "49529",
+               "type": "url",
+               "url": "https://council.nyc.gov/live/"
+            }, {
+               "date_added": "13164561482869308",
+               "id": "1764",
+               "meta_info": {
+                  "last_visited_desktop": "13164561482871918"
+               },
+               "name": "NYC Department of Homeless Services — NYC Homeless Shelter Population Flat Last Year for...",
+               "sync_transaction_version": "50946",
+               "type": "url",
+               "url": "https://nycdhs.tumblr.com/post/171385541377/nyc-homeless-shelter-population-flat-last-year-for"
+            }, {
+               "date_added": "13164695259042238",
+               "id": "1766",
+               "meta_info": {
+                  "last_visited_desktop": "13164695259043588"
+               },
+               "name": "De Blasio Bolsters Affordable Housing, but at What Price? - The New York Times",
+               "sync_transaction_version": "51587",
+               "type": "url",
+               "url": "https://www.nytimes.com/2018/03/04/nyregion/de-blasio-affordable-housing-cost.html"
+            }, {
+               "date_added": "13164739840391166",
+               "id": "1767",
+               "meta_info": {
+                  "last_visited_desktop": "13164739840397891"
+               },
+               "name": "A ‘Bright Light,’ Dimmed in the Shadows of Homelessness - The New York Times",
+               "sync_transaction_version": "51764",
+               "type": "url",
+               "url": "https://mobile.nytimes.com/2018/03/03/nyregion/nyc-homeless-nakesha-mental-illness.html?referer=https://t.co/olwJ6t3Nll?amp=1"
+            }, {
+               "date_added": "13164848191985853",
+               "id": "1769",
+               "meta_info": {
+                  "last_visited_desktop": "13164910469498702"
+               },
+               "name": "hpd-outreach",
+               "sync_transaction_version": "52414",
+               "type": "url",
+               "url": "http://www1.nyc.gov/site/hpd/community/hpd-outreach.page"
+            }, {
+               "date_added": "13165305564973891",
+               "id": "1777",
+               "meta_info": {
+                  "last_visited_desktop": "13165305564977127"
+               },
+               "name": "I Bought a NYC Condo at 27 With No Help. Here's How. | StreetEasy",
+               "sync_transaction_version": "53516",
+               "type": "url",
+               "url": "https://streeteasy.com/blog/i-bought-a-nyc-condo-at-27-with-no-help-heres-how/"
+            }, {
+               "date_added": "13165610556190481",
+               "id": "1786",
+               "meta_info": {
+                  "last_visited_desktop": "13167118002239328"
+               },
+               "name": "NYC HOUSING CONNECT",
+               "sync_transaction_version": "62495",
+               "type": "url",
+               "url": "https://a806-housingconnect.nyc.gov/nyclottery/lottery.html#home"
+            }, {
+               "date_added": "13167157972453589",
+               "id": "1812",
+               "meta_info": {
+                  "last_visited_desktop": "13167157972454480"
+               },
+               "name": "Union City Housing Authority, Union City, New Jersey - Affordable Housing Online",
+               "sync_transaction_version": "62597",
+               "type": "url",
+               "url": "https://affordablehousingonline.com/housing-authority/New-Jersey/Union-City-Housing-Authority/NJ026"
+            } ],
+            "date_added": "13112666590967381",
+            "date_modified": "13167261491425705",
+            "id": "524",
+            "name": "NYC Housing",
+            "sync_transaction_version": "48572",
+            "type": "folder"
+         }, {
+            "date_added": "13134805419528036",
+            "id": "1216",
+            "meta_info": {
+               "last_visited_desktop": "13166517233877559"
+            },
+            "name": "",
+            "sync_transaction_version": "60100",
+            "type": "url",
+            "url": "https://thepiratebay.org/"
+         }, {
+            "date_added": "13150792389720788",
+            "id": "1576",
+            "meta_info": {
+               "last_visited_desktop": "13166556126261046"
+            },
+            "name": "Reddit",
+            "sync_transaction_version": "60225",
+            "type": "url",
+            "url": "https://www.reddit.com/"
+         }, {
+            "date_added": "13153869333232054",
+            "id": "1603",
+            "meta_info": {
+               "last_visited_desktop": "13167723198437321"
+            },
+            "name": "",
+            "sync_transaction_version": "65149",
+            "type": "url",
+            "url": "https://twitter.com/"
+         }, {
+            "date_added": "13150424706497100",
+            "id": "1566",
+            "meta_info": {
+               "last_visited_desktop": "13167722829029027"
+            },
+            "name": "",
+            "sync_transaction_version": "65142",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13152386698158942",
+            "id": "1591",
+            "meta_info": {
+               "last_visited_desktop": "13167680634389413"
+            },
+            "name": "",
+            "sync_transaction_version": "64834",
+            "type": "url",
+            "url": "http://www.usdebtclock.org/"
+         }, {
+            "date_added": "13154342218206018",
+            "id": "1607",
+            "meta_info": {
+               "last_visited_desktop": "13167261716811851"
+            },
+            "name": "",
+            "sync_transaction_version": "62873",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia"
+         }, {
+            "date_added": "13161491097967970",
+            "id": "1718",
+            "meta_info": {
+               "last_visited_desktop": "13167711953915400"
+            },
+            "name": "Cryptosluts",
+            "sync_transaction_version": "65056",
+            "type": "url",
+            "url": "https://cryptosmut.slack.com/messages/C6V24H31T/convo/C6V24H31T-1516978562.000379/"
+         }, {
+            "children": [ {
+               "date_added": "13159216316368845",
+               "id": "1683",
+               "meta_info": {
+                  "last_visited_desktop": "13167713189113644"
+               },
+               "name": "Orvis",
+               "sync_transaction_version": "65077",
+               "type": "url",
+               "url": "http://www.orvis.com/"
+            }, {
+               "date_added": "13159216301945303",
+               "id": "1682",
+               "meta_info": {
+                  "last_visited_desktop": "13167680917034388"
+               },
+               "name": "Kohls",
+               "sync_transaction_version": "64857",
+               "type": "url",
+               "url": "https://www.kohls.com/"
+            }, {
+               "date_added": "13159216340797390",
+               "id": "1685",
+               "meta_info": {
+                  "last_visited_desktop": "13166987286558622"
+               },
+               "name": "BBB",
+               "sync_transaction_version": "61959",
+               "type": "url",
+               "url": "https://www.bedbathandbeyond.com/"
+            }, {
+               "date_added": "13163209922560210",
+               "id": "1739",
+               "meta_info": {
+                  "last_visited_desktop": "13167586246085559"
+               },
+               "name": "Eddie Bauer",
+               "sync_transaction_version": "64484",
+               "type": "url",
+               "url": "http://www.eddiebauer.com/"
+            }, {
+               "date_added": "13159216365220629",
+               "id": "1686",
+               "meta_info": {
+                  "last_visited_desktop": "13167713191938272"
+               },
+               "name": "Nordstroms",
+               "sync_transaction_version": "65078",
+               "type": "url",
+               "url": "https://shop.nordstrom.com/"
+            }, {
+               "date_added": "13159217414020556",
+               "id": "1688",
+               "meta_info": {
+                  "last_visited_desktop": "13167553589236059"
+               },
+               "name": "Lands' End",
+               "sync_transaction_version": "64257",
+               "type": "url",
+               "url": "https://www.landsend.com/"
+            }, {
+               "date_added": "13162610379805243",
+               "id": "1734",
+               "meta_info": {
+                  "last_visited_desktop": "13162610379806606"
+               },
+               "name": "REI ",
+               "sync_transaction_version": "45191",
+               "type": "url",
+               "url": "https://www.rei.com/"
+            }, {
+               "date_added": "13150613836805128",
+               "id": "1574",
+               "meta_info": {
+                  "last_visited_desktop": "13167718809338685"
+               },
+               "name": "Amazon",
+               "sync_transaction_version": "65093",
+               "type": "url",
+               "url": "https://www.amazon.com/"
+            } ],
+            "date_added": "13159216254469545",
+            "date_modified": "13165201298740069",
+            "id": "1680",
+            "name": "Shopping",
+            "sync_transaction_version": "48560",
+            "type": "folder"
+         }, {
+            "date_added": "13163268655829164",
+            "id": "1740",
+            "meta_info": {
+               "last_visited_desktop": "13167538726648551"
+            },
+            "name": "DTube",
+            "sync_transaction_version": "64074",
+            "type": "url",
+            "url": "https://d.tube/"
+         } ],
+         "date_added": "13096987721521185",
+         "date_modified": "13166673881180616",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13162125852925044",
+               "id": "1728",
+               "meta_info": {
+                  "last_visited_desktop": "13167722111722921"
+               },
+               "name": "Coin Market Cap",
+               "sync_transaction_version": "65139",
+               "type": "url",
+               "url": "https://coinmarketcap.com/all/views/all/"
+            }, {
+               "date_added": "13160166634018821",
+               "id": "1698",
+               "meta_info": {
+                  "last_visited_desktop": "13166078532166733"
+               },
+               "name": "Soho Forum Debate: Erik Voorhees vs. Peter Schiff Tickets, Mon, Jul 2, 2018 at 6:30 PM | Eventbrite",
+               "sync_transaction_version": "57872",
+               "type": "url",
+               "url": "https://www.eventbrite.com/e/soho-forum-debate-erik-voorhees-vs-peter-schiff-tickets-41394512100"
+            }, {
+               "date_added": "13160216624183229",
+               "id": "1700",
+               "meta_info": {
+                  "last_visited_desktop": "13162003545026455"
+               },
+               "name": "Jonas Schnelli Wants You to Run a Bitcoin Full Node - CoinDesk",
+               "sync_transaction_version": "41963",
+               "type": "url",
+               "url": "https://www.coindesk.com/jonas-schnelli-wants-run-bitcoin-full-node/?utm_content=buffer804b7&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
+            }, {
+               "date_added": "13164192835854553",
+               "id": "1756",
+               "meta_info": {
+                  "last_visited_desktop": "13164192835855280"
+               },
+               "name": "Basic security principles (must read) – Ledger",
+               "sync_transaction_version": "49474",
+               "type": "url",
+               "url": "https://support.ledgerwallet.com/hc/en-us/articles/360000641713"
+            }, {
+               "date_added": "13165623611111477",
+               "id": "1788",
+               "meta_info": {
+                  "last_visited_desktop": "13165623611112069"
+               },
+               "name": "How Segwit Murdered Bitcoin: Bitcoin Can NEVER Scale",
+               "sync_transaction_version": "54981",
+               "type": "url",
+               "url": "https://medium.com/@cryptomeds/how-segwit-murdered-bitcoin-bitcoin-can-never-scale-25777b103c56"
+            }, {
+               "date_added": "13165839882808951",
+               "id": "1791",
+               "meta_info": {
+                  "last_visited_desktop": "13165839882809863"
+               },
+               "name": "Here's a List of 29 Different Types of USB Attacks",
+               "sync_transaction_version": "56104",
+               "type": "url",
+               "url": "https://www.bleepingcomputer.com/news/security/heres-a-list-of-29-different-types-of-usb-attacks/"
+            }, {
+               "date_added": "13166740064992723",
+               "id": "1803",
+               "meta_info": {
+                  "last_visited_desktop": "13166740064993425"
+               },
+               "name": "BitDevs NYC (New York, NY) | Meetup",
+               "sync_transaction_version": "61057",
+               "type": "url",
+               "url": "https://www.meetup.com/BitDevsNYC/"
+            } ],
+            "date_added": "13126492463509058",
+            "date_modified": "13166752869588871",
+            "id": "1052",
+            "name": "Random",
+            "sync_transaction_version": "8612",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13156058623468507",
+               "id": "1629",
+               "meta_info": {
+                  "last_visited_desktop": "13162799881407467"
+               },
+               "name": "Scoliosis Spinal Fusion Surgery: Risks vs. Alternatives",
+               "sync_transaction_version": "46052",
+               "type": "url",
+               "url": "https://www.treatingscoliosis.com/scoliosis-surgery/"
+            }, {
+               "date_added": "13154933892518317",
+               "id": "1612",
+               "meta_info": {
+                  "last_visited_desktop": "13159216883903199"
+               },
+               "name": "Vasecomies & Dementia",
+               "sync_transaction_version": "28105",
+               "type": "url",
+               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3720109/"
+            }, {
+               "date_added": "13162666063404005",
+               "id": "1735",
+               "meta_info": {
+                  "last_visited_desktop": "13162799907480967"
+               },
+               "name": "Stacy London Was Clinically Depressed After Spinal Surgery Last Year | SELF",
+               "sync_transaction_version": "46054",
+               "type": "url",
+               "url": "https://www.self.com/story/stacy-london-depression-after-spinal-surgery"
+            }, {
+               "date_added": "13164517461837046",
+               "id": "1763",
+               "meta_info": {
+                  "last_visited_desktop": "13164517461837772"
+               },
+               "name": "Surgery for Kyphosis Associated with Ankylosing Spondylitis and Related Disorders | Neupsy Key",
+               "sync_transaction_version": "50853",
+               "type": "url",
+               "url": "https://neupsykey.com/surgery-for-kyphosis-associated-with-ankylosing-spondylitis-and-related-disorders-2/"
+            }, {
+               "date_added": "13165381314623122",
+               "id": "1780",
+               "meta_info": {
+                  "last_visited_desktop": "13165381320946539"
+               },
+               "name": "Magnets cured my depression | New York Post",
+               "sync_transaction_version": "53889",
+               "type": "url",
+               "url": "https://nypost.com/2016/10/27/magnets-cured-my-depression/"
+            }, {
+               "date_added": "13165480005446725",
+               "id": "1781",
+               "meta_info": {
+                  "last_visited_desktop": "13165480005448277"
+               },
+               "name": "Bilateral C5 Motor Palsy after Anterior Cervical Decompression and Fusion: A Case Report and Review of the Literature | International Journal of Spine Surgery",
+               "sync_transaction_version": "54390",
+               "type": "url",
+               "url": "http://ijssurgery.com/10.14444/4014"
+            }, {
+               "date_added": "13165593129390273",
+               "id": "1783",
+               "meta_info": {
+                  "last_visited_desktop": "13165593129392205"
+               },
+               "name": "Rate of complications in scoliosis surgery – a systematic review of the Pub Med literature | Scoliosis and Spinal Disorders | Full Text",
+               "sync_transaction_version": "54782",
+               "type": "url",
+               "url": "https://scoliosisjournal.biomedcentral.com/articles/10.1186/1748-7161-3-9"
+            }, {
+               "date_added": "13165594836113675",
+               "id": "1784",
+               "meta_info": {
+                  "last_visited_desktop": "13165594836114456"
+               },
+               "name": "Long Term Effects of ACL Reconstruction Surgery: The Procedure Destroys the Normal Wiring of the Knee - Regenexx®",
+               "sync_transaction_version": "54838",
+               "type": "url",
+               "url": "https://www.regenexx.com/long-term-effects-of-acl-reconstruction-surgery/"
+            }, {
+               "date_added": "13165689475406744",
+               "id": "1789",
+               "meta_info": {
+                  "last_visited_desktop": "13166808832733045"
+               },
+               "name": "UHC Community Plan",
+               "sync_transaction_version": "61337",
+               "type": "url",
+               "url": "https://www.uhccommunityplan.com/"
+            }, {
+               "date_added": "13166752869588871",
+               "id": "1804",
+               "meta_info": {
+                  "last_visited_desktop": "13166752869589582"
+               },
+               "name": "New Jersey - Schroth Barcelona Institute",
+               "sync_transaction_version": "61133",
+               "type": "url",
+               "url": "http://www.schroth-barcelonainstitute.com/new-jersey.html"
+            }, {
+               "date_added": "13166752970416679",
+               "id": "1805",
+               "meta_info": {
+                  "last_visited_desktop": "13166752970417469"
+               },
+               "name": "Outcome of intensive outpatient rehabilitation and bracing in an adult patient with Scheuermann’s disease evaluated by radiologic imaging—a case report | Scoliosis and Spinal Disorders | Full Text",
+               "sync_transaction_version": "61137",
+               "type": "url",
+               "url": "https://scoliosisjournal.biomedcentral.com/articles/10.1186/s13013-016-0094-7"
+            }, {
+               "date_added": "13166753017684913",
+               "id": "1806",
+               "meta_info": {
+                  "last_visited_desktop": "13166753017685612"
+               },
+               "name": "Surgery for Herniated Disc with Sciatica",
+               "sync_transaction_version": "61141",
+               "type": "url",
+               "url": "https://www.spineuniverse.com/treatments/surgery/lumbar/surgery-herniated-disc-sciatica-find-right-surgeon-ask-right-questions"
+            }, {
+               "date_added": "13166806351851431",
+               "id": "1808",
+               "meta_info": {
+                  "last_visited_desktop": "13166806437787536"
+               },
+               "name": "UnitedHealthcare Community Plan ",
+               "sync_transaction_version": "61320",
+               "type": "url",
+               "url": "http://www.americhoice.com/find_doctor/first.jsp?xplan=uhcnj&xtitle=Doctor"
+            } ],
+            "date_added": "13159216876504849",
+            "date_modified": "13166945831061622",
+            "id": "1687",
+            "name": "Medical",
+            "sync_transaction_version": "47729",
+            "type": "folder"
+         }, {
+            "date_added": "13161071347787685",
+            "id": "1712",
+            "meta_info": {
+               "last_visited_desktop": "13161071347788576"
+            },
+            "name": "2FA for Gmail",
+            "sync_transaction_version": "52855",
+            "type": "url",
+            "url": "https://www.google.com/search?q=how+to+use+2fa+for+gmail&oq=how+to+use+2fa&aqs=chrome.2.69i57j0l5.4926j0j4&sourceid=chrome&ie=UTF-8"
+         }, {
+            "date_added": "13165993245521191",
+            "id": "1795",
+            "meta_info": {
+               "last_visited_desktop": "13165993245528473"
+            },
+            "name": "Aspies for Social Success",
+            "sync_transaction_version": "57329",
+            "type": "url",
+            "url": "http://www.nyautismcommunity.org/"
+         }, {
+            "date_added": "13167261491425705",
+            "id": "1814",
+            "meta_info": {
+               "last_visited_desktop": "13167261491426704"
+            },
+            "name": "Alessandra Sollberger (@alessandra_evermore) • Instagram photos and videos",
+            "sync_transaction_version": "62870",
+            "type": "url",
+            "url": "https://www.instagram.com/alessandra_evermore/?hl=en"
+         }, {
+            "date_added": "13167636472318925",
+            "id": "1817",
+            "meta_info": {
+               "last_visited_desktop": "13167636472319728"
+            },
+            "name": "Paulina Shafir (@paulinashafir) • Instagram photos and videos",
+            "sync_transaction_version": "64756",
+            "type": "url",
+            "url": "https://www.instagram.com/p/BQCLbkCAsVT/?hl=en&taken-by=paulinashafir"
+         }, {
+            "date_added": "13167693168607060",
+            "id": "1818",
+            "meta_info": {
+               "last_visited_desktop": "13167693168608070"
+            },
+            "name": "I'm a Millennial Millionaire. Here's How I Got So Rich | Money",
+            "sync_transaction_version": "64996",
+            "type": "url",
+            "url": "http://time.com/money/5167853/im-a-millennial-millionaire-heres-how-i-got-so-rich/?utm_campaign=time&utm_source=twitter.com&utm_medium=social&xid=time_socialflow_twitter"
+         } ],
+         "date_added": "13096987721521190",
+         "date_modified": "13167693168607060",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "sync_transaction_version": "65149",
+      "synced": {
+         "children": [  ],
+         "date_added": "13096987721521191",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
