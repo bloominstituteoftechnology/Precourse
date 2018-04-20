@@ -7,14 +7,14 @@ function createUserClass() {
   // the constructor should have a method 'sayHi' on its prototype that returns the string 'Hello, my name is {{name}}'
   // {{name}} should be the name set on each instance
   // return the class
-  function User(options) {
-    this.username = username.options;
-    this.name = name.options;
-    this.email = email.options;
-    this.password = password.options;
-  };
+  function User(username, name, email, password) {
+    this.username = username;
+    this.name = name;
+    this.email = email;
+    this.password = password;
+  }
   User.prototype.sayHi = function(){
-    return ('Hello, my name is ' + this.name)
+    return ('Hello, my name is ' + this.name);
   };
   
   return User;
