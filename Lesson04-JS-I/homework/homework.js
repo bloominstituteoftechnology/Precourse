@@ -111,13 +111,13 @@ function isOdd(num) {
 function square(num) {
     // square num and return the new value
     // hint: NOT square root!
-    sum = num * num;
+    sum = Math.pow(num, 2);
     return sum;
 }
 
 function cube(num) {
     // cube num and return the new value
-    sum = num * num * num;
+    sum = Math.pow(num, 3);
     return sum;
 }
 
