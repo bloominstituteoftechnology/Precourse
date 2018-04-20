@@ -218,7 +218,7 @@ setUsersToPremium(users, true);
 
 
 
-let user = {
+user = {
   username: 'SunJieMing',
   password: 'JavaScript is awesome!',
   posts: [
