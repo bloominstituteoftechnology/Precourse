@@ -1,7 +1,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = "Fred";
+const newString = 'Fred';
 
 //create a number variable, it can be any number
 const newNum = 42;
@@ -32,25 +32,25 @@ function returnString(str) {
 function add(x, y) {
     // x and y are numbers
     // add x and y together and return the value
-    sum = x + y;
+    let sum = x + y;
     return sum;
 }
 
 function subtract(x, y) {
     // subtract y from x and return the value
-    sum = x - y;
+    let sum = x - y;
     return sum;
 }
 
 function multiply(x, y) {
     // multiply x by y and return the value
-    sum = x * y;
+    let sum = x * y;
     return sum;
 }
 
 function divide(x, y) {
     // divide x by y and return the value
-    sum = x / y;
+    let sum = x / y;
     return sum;
 }
 
@@ -88,7 +88,7 @@ function greaterThanFifty(num) {
 
 function getRemainder(x, y) {
     // return the remainder from dividing x by y
-    remainder = x % y;
+    let remainder = x % y;
     return remainder;
 }
 
@@ -111,53 +111,53 @@ function isOdd(num) {
 function square(num) {
     // square num and return the new value
     // hint: NOT square root!
-    sum = Math.pow(num, 2);
+    let sum = Math.pow(num, 2);
     return sum;
 }
 
 function cube(num) {
     // cube num and return the new value
-    sum = Math.pow(num, 3);
+    let sum = Math.pow(num, 3);
     return sum;
 }
 
 function raiseToPower(num, exponent) {
     // raise num to whatever power is passed in as exponent
-    exponentRaise = Math.pow(num, exponent);
+    let exponentRaise = Math.pow(num, exponent);
     return exponentRaise;
 }
 
 function roundNumber(num) {
     // round num and return it
-    rounding = Math.round(num);
+    let rounding = Math.round(num);
     return rounding;
 }
 
 function roundUp(num) {
     // round num up and return it
-    ceiling = Math.ceil(num);
+    let ceiling = Math.ceil(num);
     return ceiling;
 }
 
 function addExclamationPoint(str) {
     // add an exclamation point to the end of str and return the new string
     // 'hello world' -> 'hello world!'
-    newString = str + "!";
-    return newString;
+    let newName = str + '!';
+    return newName;
 }
 
 function combineNames(firstName, lastName) {
     // return firstName and lastName combined as one string and separated by a space.
     // 'Lambda', 'School' -> 'Lambda School'
-    newString = firstName + " " + lastName;
-    return newString;
+    let newName = firstName + ' ' + lastName;
+    return newName;
 }
 
 function getGreeting(name) {
     // Take the name string and concatenate other strings onto it so it takes the following form:
     // 'Sam' -> 'Hello Sam!'
-    newString = "Hello " + name + "!";
-    return newString;
+    let newName = 'Hello ' + name + '!';
+    return newName;
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -165,13 +165,13 @@ function getGreeting(name) {
 
 function getRectangleArea(length, width) {
     // return the area of the rectangle by using length and width
-    area = length * width;
+    let area = length * width;
     return area;
 }
 
 function getTriangleArea(base, height) {
     // return the area of the triangle by using base and height
-    area = (base * height) / 2;
+    let area = (base * height) / 2;
     return area;
 }
 
