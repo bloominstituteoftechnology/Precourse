@@ -1,0 +1,26 @@
+body {
+    background-image: url("hw2-background.jpg");
+    max-width: 800px;
+    margin: auto;
+}
+div {
+    margin: 0 auto;
+}
+h1 {
+    color: firebrick;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: bisque;
+    padding: 50px;
+    border: 2px solid green;
+}
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+}
+    
