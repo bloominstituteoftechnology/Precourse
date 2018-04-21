@@ -1,0 +1,13 @@
+Lesson 5 Feynman writing prompts:
+
+'for'- For loops can execute a block of code a number of times, which is handy if you want to run the
+same code over and over again, each time with a different value. This helps avoid writing repetitive code
+
+&& - Represent the logic operator AND. This returns true only if both expressions are true, and will
+return false if one or both expressions are false.
+
+|| - Represents the logic operator OR. This returns true if one or both expressions are true, and will 
+return false only if both expressions are false.
+
+! - Represents the logic operator NOT. This returns the opposite boolean value (true/false) of what is
+passed to it.
