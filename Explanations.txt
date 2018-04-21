@@ -1,0 +1,10 @@
+-Variables
+A variable is like a box. Some boxes are empty and waiting to be used while other boxes already have something in them and can be easily moved around and used for different purposes.
+-Strings
+Strings are either a single or group of letters, numbers, and/or symbols. They are like text on the page of a book though and can't be manipulated through math. The quotes around them indicate that whatever is inside of the quotes likely can't be changed easily.
+-Functions
+Functions help us to change something and/or perform a task in a variety of different ways. Functions can take in numbers, other functions, variables, etc. They can be really simple and also really complicated.
+-if statements
+If statements help us decide between two or more different things that can't be occurring at the same time. For example, if I am currently in California, then I can't also be in Pennsylvania at the same time.
+-Boolean values
+Boolean values are simply true and false. If you have ever had a true/false quiz, you know that there were never any answers that were both true and false. That is because these two can't both be right. True/false works best for things that are black and white.
