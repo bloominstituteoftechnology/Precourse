@@ -1,4 +1,6 @@
-
+body{
+background-image: url("https://images.pexels.com/photos/533937/pexels-photo-533937.jpeg");
+}
       h1{
       color: crimson;
       }
@@ -22,3 +24,6 @@
         margin: 50px;
       }
  
+.center {
+margin: auto;
+}
