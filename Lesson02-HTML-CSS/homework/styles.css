@@ -1,0 +1,24 @@
+
+      h1{
+      color: crimson;
+      }
+      
+      img{
+      width: 400px;
+      }
+      
+      #thirdDiv {
+        hieght: 600px;
+        width: 500px;
+        background-color: skyblue;
+        padding: 50px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: yellow;
+      }
+      
+      #spanId {
+        font-size: 18px;
+        margin: 50px;
+      }
+ 
