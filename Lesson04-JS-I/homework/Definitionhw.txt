@@ -1,0 +1,17 @@
+Variables- variables store information to be used later. 
+
+Strings- strings are text and are placed between 'single quotes'
+
+Functions- functions are used to perform tasks in a program.
+The most common way to define a function in JavaScript is by using the function keyword, followed by a unique function name, a list of parameters (that might be empty), and a statement block surrounded by curly braces.
+
+Arguments and parameters:-
+Arguments- the actual value you are putting in the function. 
+Parameters- the general term...like a number
+Arguments are specific and change, parameters are general.
+
+Return- is the output of the function. The result of what the code resolves to.
+
+'if' statements- are used as a way for our function to check if something is 'true' and either to run the code or move on if it is not.
+
+Boolean values ('true','false') boolean values are two choices of true or false, the concept comes from binary code. 
