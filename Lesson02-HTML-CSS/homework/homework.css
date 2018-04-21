@@ -1,0 +1,50 @@
+<!-- In this file you will complete the homework found in the homework-readme.md file -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ismail Opatola's HTML homework</title>
+    <style>
+      h1{
+      color: crimson;
+      }
+      
+      img{
+      width: 400px;
+      }
+      
+      #thirdDiv {
+        hieght: 600px;
+        width: 500px;
+        background-color: skyblue;
+        padding: 50px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: yellow;
+      }
+      
+      #spanId {
+        font-size: 18px;
+        margin: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="divClass">
+      <h1>Ismail Opatola</h1>
+      <h3>Lambda School</h3>
+      <h4>HTML/CSS homework</h4>
+    </div>
+    <div class="divClass">
+      <span id="spanId">I love Pasta</span>
+      <a href="https://www.dominospizza.com.ng" target="_blank">DOMINO PIZZA</a>    
+    </div>
+    <div id="thirdDiv">
+      <ul>
+        <li><img src="http://http://lorempixel.com/400/200/food/" /></li>
+        <li><img src="http://http://lorempixel.com/400/200/food/" /></li>
+      </ul>
+    </div>
+  
+  </body>
+
+</html>
