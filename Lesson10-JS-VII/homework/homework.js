@@ -18,6 +18,14 @@ function cacheFunction(cb) {
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
+  const storageCache = {};
+  return cb(x) {
+    if (storageCache[number] === undefined) {
+      const result = x * x;
+      storageCache[x] = result;
+    };
+    return storageCache[x];
+  };
 }
 
 // Do not modify code below this line.

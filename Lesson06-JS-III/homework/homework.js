@@ -20,8 +20,9 @@ function incrementByOne(arr) {
   // increase each integer by one
   // return the array
   for (var i = 0; i < arr.length; i++) {
-    return arr[i] + 1;
+    arr[i]++;
   }
+  return arr;
 }
 
 function addItemToArray(arr, item) {
@@ -45,8 +46,9 @@ function wordsToSentence(words) {
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
   for (var i = 0; i < words.length; i++) {
-    return (words[i] + ' ');
+    'words[i]' + ' ';
   }
+  return words;
 }
 
 function contains(arr, item) {
@@ -78,6 +80,7 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  
 }
 
 // Do not modify code below this line.
