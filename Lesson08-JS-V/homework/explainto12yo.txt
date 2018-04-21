@@ -1,0 +1,11 @@
+1. Feynman Writing Prompts- Write out explanations of the following concepts like you are explaining it to a 12
+year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on slack.
+
+- Prototype // This is an extension of an object or class. They allow the class access to a method outside the
+class. The primary purpose for this is so we can save computer memory. Everytime a function is made it takes
+up space on the computer or server, if we have a function outside of the class where the class can still access
+the information, this will greatly save storage space.
+
+-Constructors // Often called class(es), they are a way for JavaScript to access an object template, they are like
+objects but allows us to create one "master object" and continually access that information. This is usefull when
+we have very similar needs for an object but the information inside needs to be different.
