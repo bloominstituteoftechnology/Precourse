@@ -5,7 +5,13 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
-}
+  let newCounter = 0;  //this needs to be outside function not inside
+  return function(){
+   
+    return newCounter+=1;  //this adds 1 to it, don't use ++.
+  };
+  }
+
 
 function cacheFunction(cb) {
   // use closure to create a cache for the cb function
@@ -18,6 +24,14 @@ function cacheFunction(cb) {
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
+  var object = {};
+  return function(arg){
+    if(arg in object) {
+      return object[arg];
+    }
+    object[arg] = cb(arg);
+    return object[arg];
+  };
 }
 
 // Do not modify code below this line.
