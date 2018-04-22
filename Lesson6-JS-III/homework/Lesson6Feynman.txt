@@ -1,0 +1,6 @@
+Lesson 6 Feynman Writing Prompts-
+
+Arrays - Arrays are like "storage conatiners' for collections of data known as elements. Elements in
+an array can be strings, numbers, boolean values and even other arrays. An array does not have to contain 
+all the same type of elements and the elements within an array are not fixed. Arrays have methods which 
+allow us to mutate and modify the elements within them. This allows us to manipulate the data.
