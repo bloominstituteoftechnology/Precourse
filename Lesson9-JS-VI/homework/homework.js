@@ -2,12 +2,20 @@
 
 function invokeCallback(cb) {
   // invoke cb
-}
 
+ return cb(); 
+}
 function sumArray(numbers, cb) {
   // sum up all of the integers in the numbers array
   // pass the result to cb
   // no return is necessary
+
+    cb(numbers.reduce(function(accumulator, item){
+    return accumulator + item;
+  }));
+  
+
+
 }
 
 function forEach(arr, cb) {

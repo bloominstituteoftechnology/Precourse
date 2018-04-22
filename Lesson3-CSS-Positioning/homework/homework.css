@@ -8,6 +8,9 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
+  display: block;
+  text-align: center;
+
 
 }
 
@@ -15,29 +18,52 @@ in this folder, you are in the wrong place.
 /* Exercise Two: Positioning a Header Bar*/
 
 /* Place code here */
+#exerciseTwo {
+  display: none;
 
+}
 
 
 /* Exercise Three: */
 
 /* Place code here */
-
+#exerciseThree {
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
 
 
 /* Exercise Four: */
 
 /* Place code here */
-
+#exerciseFour{
+  position: absolute; 
+  top: 0px;
+  left: 0px;
+}
 
 
 /* Exercise Five */
 
 /* Place code here */
-
+#exerciseFive{
+  display: flex;
+  justify-content: space-around;
+}
 
 
 /* Exercise Six */
 
-#exerciseSeven {
+#exerciseFive {
   display: flex;
+  flex-direction: row-reverse;
 }
+
+/* Exercise Seven */
+#exerciseSeven{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+

@@ -72,7 +72,7 @@ describe('contains(arr, item)', function() {
   it('should return true if the array contains the item', function() {
     expect(contains([10, 10, 16, 12], 10)).toBe(true);
     expect(contains([97, 100, 80, 55, 72, 94], 'Hello')).toBe(false);
-    expect(contains([], true)).toBe(false);
+    expect(contains([0], true)).toBe(false);
   });
 });
 
