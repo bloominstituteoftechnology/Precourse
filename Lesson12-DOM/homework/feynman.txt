@@ -1,0 +1,5 @@
+DOM: The Document Object Model is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content.
+
+DOM element selectors: Selectors allow one to select and manipulate a specific element or elements.
+
+DOM events: Events are sent to notify code of interesting things that have taken place.
