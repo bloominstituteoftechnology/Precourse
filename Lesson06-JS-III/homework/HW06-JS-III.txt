@@ -1,0 +1,2 @@
+Arrays - Arrays are ordered data types that can be used to store different values.
+These values can include numbers, strings, boolean, other array, objects.

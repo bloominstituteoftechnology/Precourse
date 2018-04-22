@@ -1,0 +1,4 @@
+`for` - You declare how many times to do certain tasks.
+`&&` - Returns true only if both conditions are true,
+`||` - Returns true if either condition is true,
+`!` - It is the opposite of the statement. 

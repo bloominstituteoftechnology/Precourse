@@ -113,4 +113,3 @@ describe('multiplyArguments()', function () {
     expect(product5).toBe(0);
   });
 });
-
