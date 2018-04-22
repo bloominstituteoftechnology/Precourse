@@ -1,0 +1,42 @@
+body{
+  background-image:url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=350');
+}
+      
+#main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+h1{
+  color: teal;
+}
+
+img{
+  width: 400px;
+}
+
+#thirdDiv{
+  height: 600px;
+  width: 500px;
+  background-color: yellow;
+  padding: 50px;
+  border: 1px solid red;
+  /*margin: auto;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  }
+
+#spanId{
+  font-size: 18px;
+  margin: 50px;
+  }
+
+.divClass{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*text-align:center;*/
+}
