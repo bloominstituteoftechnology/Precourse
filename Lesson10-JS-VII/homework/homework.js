@@ -77,11 +77,14 @@ If the same operation is done many times, it is time consuming to run advanced c
 4. Save the result in the storageCache
 5. Return where it is stored after the first calculation
 Cache fills up/updates with use
-
+    - User never sees the cache, but it helps save time by saving the data.
+    - For passwords in the real world, more security measures are necessary
 
 Random Index in Array:
 const RandomIndex = function(length) {
 Math.floor(Math.random()*length);
 };
+
+Tip: Become comfortable to write a function within a function with practice. More resources are available in README
  
 */
