@@ -1,0 +1,53 @@
+html {
+  background-image: url("https://image.freepik.com/free-photo/traditional-background-dinner-japan-sushi_1203-4010.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: dodgerBlue;
+}
+
+img {
+  width: 300px;
+  position: relative;
+  right: 20px;
+  margin-bottom: 10px;
+}
+
+#thirdDiv {
+  background-color: dodgerBlue;
+  border: 3px solid black;
+  height: 600px;
+  width: 500px;
+  padding: 50px;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: dodgerBlue;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: blue;
+}

@@ -1,0 +1,1 @@
+A callback function which is also known as a higher order function is a function that is passed into another function. A callback is passed in as a parameter, and the callback function is called/invoked inside the function that the callback was passed into.
