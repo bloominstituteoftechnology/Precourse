@@ -27,7 +27,7 @@ function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-object[method];
+object[method]();
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
@@ -120,7 +120,12 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
-  
+  let sum = 0;
+  let arr = user.posts;
+  for (var i = 0; i < arr.length; i++) {
+    sum += arr[i].likes;
+  }
+  return sum;
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {

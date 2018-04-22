@@ -45,42 +45,65 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  for (var i = 0; i < words.length; i++) {
-    'words[i]' + ' ';
-  }
-  return words;
+  const sentence = words.reduce(function(acc, item) {
+      return acc + ' ' + item;
+  });
+  return sentence;
 }
 
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-arr.includes(item) ? true : false;
+const n = arr.includes(item);
+return n;
 }
 
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
-  for (var i = 0; i < numbers.length; i++) {
-    return Math.add(numbers[i]);
-  }
+
+  const sum = numbers.reduce(function(acc, item) {
+    return acc + item;
+  });
+  return sum;
 }
 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
-
+  const sums = testScores.reduce(function(acc, item) {
+    return acc + item;
+  });
+  const length = testScores.length;
+  const aver = sums/length;
+  return aver;
 }
 
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
+  var top = -100;
+  for (var i = 0; i < numbers.length; i++) {
+    if (numbers[i] > top) {
+      top = numbers[i];
+    }
+  }
+  return top;
 }
 
 function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
-  
+  if (arguments.length === 0) {
+    return 0;
+  } else {
+  var sum = 1;
+   for (var i = 0; i < arguments.length; i++) {
+       sum *= arguments[i];
+   }
+   return sum;
+  }
 }
 
 // Do not modify code below this line.
