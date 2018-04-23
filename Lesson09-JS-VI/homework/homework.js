@@ -11,7 +11,7 @@ function sumArray(numbers, cb) {
   // no return is necessary
   const sums = numbers.reduce(function(acc, item){
     return acc + item;
-};
+});
 }
 
 function forEach(arr, cb) {
