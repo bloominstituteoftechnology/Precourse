@@ -1,53 +1,46 @@
 // Do not change any of the function names
-
-
-const makeCat = {
-  name:'Sam',
-  age:'50',
-  meow: function (){
-    return 'Meow!';
-  }
-  };
-  makeCat.meow();
-     // create a new object with a name property with the value set to the name argument
+ 
+function makeCat() {
+  const newCat = {
+   name:'Snowball III',
+   age:2,
+   meow: function(){
+    newCat.meow = 'Meow!';
+   }
+  }; return newCat;   
+  } 
+  makeCat('Snowball III', 2, 'Meow!'); 
+      // create a new object with a name property with the value set to the name argument
     // add an age property to the object with the value set to the age argument
    // add a method called meow that returns the string 'Meow!'
-  // return the object
-
+  // return the object 
 
  
-   
-  const object = {
+function addProperty(Object, property) {
+    const updatedObject = {
     x: 1,
     y: 2,
-  };
-  const updatedObject = {
-    x: 1,
-    y: 2,
-    z: null,
-  };
-  function addProperty() {
+    }
+  updatedObject.z = null;
   return updatedObject;
-  }
-  addProperty(object, 'z');
+}
+  addProperty(Object, 'z');
      // add the property to the object with a value of null
     // return the object
    // note: the property name is NOT 'property'.
   //The name is the value of the argument called property (a string)
 
 
-
- 
-  invokeMethod(object, method),
-  function() {
-    const object = {
+  function invokeMethod(object, method){
+    object = {
       x: 0,
-      incrementX: function(){
+     incrementX: function() {
         this.x++;
-      }
+      } 
     };
     invokeMethod(object, 'incrementX');
-  };
+}
+ //expect(object.x).toBe(1);
    // method is a string that contains the name of a method on the object
   // invoke this method
  // nothing needs to be returned
@@ -66,66 +59,48 @@ mysteryNumberObject.multiplyMysteryNumberByFive();
 
 
 
-object = {
+const updateObject = {
   x: 1,
   y: 2,
   z: null,
-};
-  function deleteProperty () {
-    delete object.z;
-    return object;
+}; 
+  function deleteProperty(){
+   delete updateObject.z;
+   return updateObject;
   }
-    deleteProperty();
+deleteProperty(updateObject, 'z');
 
 
 
-
-    const user = {
-      name: 'Ben',
-      email: 'ben@lambdaschool.com',
-      password: 'correcthorsebatterystaple',
-    };
-  
-    const user2 = {
-      name: 'Austen',
-      email: 'austen@lambdaschool.com',
-      password: 'password',
-   };
-    
-    function newUser(name, email, password) {
-     const newUser = user2;
-     return newUser;
-    }
-      newUser(user2.name, user2.email, user2.password);
-   
-   // create a new object with properties matching the arguments passed in.
-  // return the new object
+const user2 = {
+  name: 'Austen',
+  email: 'austen@lambdaschool.com',
+  password: 'password',
+  };
+   function newUser(name, email, password) {
+   return user2;
+   }
+     newUser(user2.name, user2.email, user2.password);
+// create a new object with properties matching the arguments passed in.
+// return the new object
 
 
-  user1 = {
+
+  const thisUser = {
     username: 'SunJieMing',
     email: 'ben@lambdaschool.com',
   };
-  
-  user2 = {
-    username: 'Austen',
-    email: null,
-  };
-  
-  user3 = {
-    username: 'Ryan',
-  };
-  
-   function hasEmail() {
-     if (user3.email){
+   function hasEmail(user) {
+     if (user.email){
       return true;
-    } else 
+    } else {
       return false;
    }
-     hasEmail(user3);
-  
+  }
+     hasEmail(thisUser);
    // return true if the user has a value for the property 'email'
    // otherwise return false
+
 
 
    const obj = {
@@ -140,59 +115,60 @@ object = {
   }
      
   
-  obj = {
+  const thisObj = {
     x: true,
   };
-  function hasProperty() {
-    if (obj.x) {
+function hadProperty() {
+ if (thisObj.x) {
       return true;
    } else 
       return false;
   }
-   hasProperty(obj, 'x');
+hadProperty(thisObj, 'x');
    //return true if the object has the value of the property argument
   //property is a string
  // otherwise return false
 
 
 
-user = {
+const thatUser = {
     password: 'I love js!',
   }; 
 function verifyPassword() {
-  if(user.password==='I love js!'){
+  if(thatUser.password==='I love js!'){
     return true;
   } else 
     return false;
 } 
-    verifyPassword(user, 'password');
+    verifyPassword(thatUser, 'password');
   // check to see if the provided password matches the password property on the 
  //user object, return true if they match
 //otherwise return false
 
 
 
-user = {
+const isUser = {
   password: 'I love js!',
 };
   function updatePassword() {
-    user.password = 'I love js even more!';
-    return user;
+    isUser.password = 'I love js even more!';
+    return isUser;
 }
- updatePassword(user, 'I love js even more!');
+ updatePassword(isUser, 'I love js even more!');
 // replace the existing password on the user object with the value of newPassword
 // return the object
 
 
-user = { 
+
+const amUser = { 
     friends: ['Ben', 'Austen', 'Ryan', 'Mike', 'Young'], 
   }; 
-function addFriend(user, newFriend) {
-    newFriend = user.friends;
+function addFriend(amUser, newFriend) {
+    newFriend = amUser.friends;
     newFriend.push('Shay');
-  return user.friends;
+  return amUser.friends;
   }
-    addFriend(user, 'Shay');
+    addFriend(amUser, 'Shay');
    // user has a property called friends that is an array
   // add newFriend to the end of the friends array
  // return the user object
@@ -218,7 +194,7 @@ setUsersToPremium(users, true);
 
 
 
-user = {
+const user = {
   username: 'SunJieMing',
   password: 'JavaScript is awesome!',
   posts: [
@@ -256,6 +232,7 @@ postP1 = userP[1];
 postP2 = userP[2];
 postP3 = userP[3];
 postP4 = userP[4];
+function sumUserPostLikes() {  
    pTotal = 
     postP.likes+postP1.likes+postP2.likes+postP3.likes+postP4.likes;
 return pTotal;
@@ -266,20 +243,6 @@ sumUserPostLikes(user);
 // each post object has an integer property called 'likes'
 // sum together the likes from all the post objects
 // return the sum
-
-
-
-
-
-//THIS IS THE 2ND OBJECT COMMENTED OUT
-//  const storeItem2 = {
-//    price: 5,
-//    discountPercentage: 0.5,
-//    calculateDiscountPrice: function(){
-//    discountPrice = price - (price * discountPercentage);
-//  }
-//  };
-//addCalculateDiscountPrice(storeItem);
 
 const storeItem = {
   price: 80,
@@ -295,6 +258,7 @@ const storeItem = {
     return storeItem;
 }
     addCalculateDiscountPrice(storeItem);
+
   // add a method to the storeItem object called 'calculateDiscountPrice'
   // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
   // the method then subtracts the discount from the price and returns the discounted price

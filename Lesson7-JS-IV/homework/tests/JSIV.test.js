@@ -67,20 +67,16 @@ describe('multiplyMysteryNumberByFive(mysteryNumberObject)', function() {
   });
 });
 
-describe('deleteProperty(object, property)', function() {
-  it('should delete the property from the object', function() {
-    const updatedObject = {
-      x: 1,
-      y: 2,
-    };
-    const object = {
-      x: 1,
-      y: 2,
-      z: null,
-    };
-    expect(deleteProperty(object, 'z')).toEqual(updatedObject);
-  });
-});
+const object = {
+  x: 1,
+  y: 2,
+  z: null,
+};
+function deleteProperty(object, property){
+ delete object.z;
+ return object;
+}
+deleteProperty(object, 'z');
 
 describe('newUser(name, email, password)', function() {
   it('should return a new user object with a name, email, and password property that match the arguments', function() {

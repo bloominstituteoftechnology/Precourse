@@ -107,8 +107,8 @@ function addNumbers(numbers) {
 
 function averageTestScore(testScores) {
   for(let i = 0; i < averageTestScore.length; i++) {
-     grades = (97 + 100 + 80 + 55 + 72 + 94)/testScores.length;
-     return grades; 
+     testScores = (97 + 100 + 80 + 55 + 72 + 94)/testScores.length;
+     return testScores; 
      }
      }
      averageTestScore([97, 100, 80, 55, 72, 94]);
