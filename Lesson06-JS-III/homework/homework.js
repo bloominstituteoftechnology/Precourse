@@ -46,7 +46,9 @@ function wordsToSentence(words) { // words is an array of strings
 function contains(arr, item) { // check to see if item is inside of arr
     //                            return true if it is, otherwise return false
 
-    //                                                                           lol still havent done this one tough day...
+    if (arr.includes(item)) {
+        return true;
+    } else return false;
 }
 
 function addNumbers(numbers) { // numbers is an array of integers
