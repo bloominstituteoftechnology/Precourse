@@ -1,7 +1,6 @@
 @charset "utf-8";
-
 html {
-    background: url(background-image.jpg) no-repeat center center fixed; 
+    background: url(background-image.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,9 +15,7 @@ body {
 
 h1 {
     color: lemonchiffon;
-    text-shadow: 0 0 0.2em black,
-                 0 0 0.2em black,
-                 0 0 0.2em black;
+    text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
 }
 
 img {
