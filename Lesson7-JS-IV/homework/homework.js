@@ -32,19 +32,14 @@ function makeCat() {
 
 
   function invokeMethod(){
-    object = {
+    const object = {
         x: 0,
         incrementX: function() {
           x = 0;
           x++;
-        }
-    };  
-    x=0;
-    x++;
-    return x;
-  } 
-      invokeMethod('incrementX');
-    
+    }
+  };
+     invokeMethod(object, 'incrementX');
      //expect(object.x).toBe(1);
     // method is a string that contains the name of a method on the object
    // invoke this method
