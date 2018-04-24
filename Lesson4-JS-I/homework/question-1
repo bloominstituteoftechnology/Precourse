@@ -1,0 +1,7 @@
+/*
+variables are containers that can hold values
+strings are a data type that are a series characters
+booleans are a data type that are limited to either true or false
+functions are like a receipe that take certain ingredients and produce a result depending on those ingredients 
+if statements are basic logic tests that produce a true or false result when they are evaluated
+*/
