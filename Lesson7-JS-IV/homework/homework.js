@@ -8,21 +8,21 @@ function makeCat() {
     newCat.meow = 'Meow!';
    }
   }; return newCat;   
-  } 
-  makeCat('Snowball III', 2, 'Meow!'); 
+} 
+     makeCat('Snowball III', 2, 'Meow!'); 
       // create a new object with a name property with the value set to the name argument
     // add an age property to the object with the value set to the age argument
    // add a method called meow that returns the string 'Meow!'
   // return the object 
-
- 
-function addProperty(Object, property) {
+  
+  
+  function addProperty(Object, property) {
     const updatedObject = {
-    x: 1,
-    y: 2,
-    }
-  updatedObject.z = null;
-  return updatedObject;
+     x: 1,
+     y: 2,
+    };
+      updatedObject.z = null;
+      return updatedObject;
 }
   addProperty(Object, 'z');
      // add the property to the object with a value of null
@@ -40,7 +40,7 @@ function addProperty(Object, property) {
       } 
     };
     invokeMethod(object, 'incrementX');
-}
+  }
    //expect(object.x).toBe(1);
   // method is a string that contains the name of a method on the object
  // invoke this method
@@ -48,13 +48,13 @@ function addProperty(Object, property) {
 
 
 
- const mysteryNumberObject = {
+const mysteryNumberObject = {
   mysteryNumber: -5,
   multiplyMysteryNumberByFive: function(){
   return this.mysteryNumber * 5;
   }
-  };
-mysteryNumberObject.multiplyMysteryNumberByFive();
+};
+    mysteryNumberObject.multiplyMysteryNumberByFive();
  // mysteryNumberObject has a property called mysteryNumber
 // multiply the mysteryNumber property by 5 and return the product
 
@@ -75,18 +75,18 @@ deleteProperty(updateObject, 'z');
 
 function newUser(name, email, password) {
   const user = {
-name: 'Ben',
-email: 'ben@lambdaschool.com',
-password: 'correcthorsebatterystaple',
-};
-const user2 = {
-name: 'Austen',
-email: 'austen@lambdaschool.com',
-password: 'password',
-};
-return user2;
+   name: 'Ben',
+   email: 'ben@lambdaschool.com',
+   password: 'correcthorsebatterystaple',
+  };
+  const user2 = {
+   name: 'Austen',
+   email: 'austen@lambdaschool.com',
+   password: 'password',
+  };
+    return user2;
 }
-newUser('Austen', 'austen@lambdaschool.com', 'password');
+    newUser('Austen', 'austen@lambdaschool.com', 'password');
  // create a new object with properties matching the arguments passed in.
 // return the new object
 
@@ -108,8 +108,8 @@ newUser('Austen', 'austen@lambdaschool.com', 'password');
    // otherwise return false
 
 
-
-   const obj = {
+   
+  const obj = {
     x: true,
   };
   function hasProperty() {
@@ -118,19 +118,8 @@ newUser('Austen', 'austen@lambdaschool.com', 'password');
       return true;
     } else 
       return false;
-  }
-     
-  
-  const thisObj = {
-    x: true,
-  };
-function hadProperty() {
- if (thisObj.x) {
-      return true;
-   } else 
-      return false;
-  }
-hadProperty(thisObj, 'x');
+    }
+      hasProperty(obj, 'x');
    //return true if the object has the value of the property argument
   //property is a string
  // otherwise return false
@@ -138,15 +127,15 @@ hadProperty(thisObj, 'x');
 
 
 const thatUser = {
-    password: 'I love js!',
-  }; 
-function verifyPassword() {
-  if(thatUser.password==='I love js!'){
-    return true;
+  password: 'I love js!',
+}; 
+  function verifyPassword() {
+   if(thatUser.password==='I love js!'){
+     return true;
   } else 
-    return false;
-} 
-    verifyPassword(thatUser, 'password');
+     return false;
+  } 
+     verifyPassword(thatUser, 'password');
   // check to see if the provided password matches the password property on the 
  //user object, return true if they match
 //otherwise return false
