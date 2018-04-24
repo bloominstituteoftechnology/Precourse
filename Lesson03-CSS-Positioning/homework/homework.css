@@ -10,18 +10,14 @@ in this folder, you are in the wrong place.
 #excerciseOne { 
 	text-align: center;
 	display: block;
-
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
 
 #exerciseTwo {
-	display: none;
-	
+	display: none;	
 }
-
-
 
 /* Exercise Three: */
 #exerciseThree {
@@ -32,17 +28,15 @@ in this folder, you are in the wrong place.
 
 /* Place code here */
 
+
 /* Exercise Four: */
 #exerciseFour {
 	
 position: absolute;
-top: 0;
-	
-	
+top: 0;	
 }
 
 /* Place code here */
-
 
 
 /* Exercise Five */
@@ -53,15 +47,11 @@ top: 0;
 	flex-direction: row-reverse;
 }
 
-
 /* Place code here */
 
 
 
 /* Exercise Six */
-
-
-
 #exerciseSeven {
   display: flex;
   justify-content: space-around;
