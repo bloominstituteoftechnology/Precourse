@@ -1,0 +1,1 @@
+	* Callback Functions - It is a function that gets passed in a function as an argument(parameter).
