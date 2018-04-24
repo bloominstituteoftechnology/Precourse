@@ -1,0 +1,13 @@
+constructor = Constructors are used when working with objects.  I have used the example of a car as an object before
+    so I will stick with that.  Lets say we are a car lot and we have hundreds of the same car and we have created one object named car already.
+    On the object we have given it properties such as color, make, model, etc.  We are a toyota dealership so we primarily have toyota vehicles but there are
+    a few differences in them.  Instead of creating new objects by hand, we could use a constructor to grab the generic properties from an object but allows us to 
+    change or create new properties in our new object.  
+
+
+Prototype = every object in javascript has a prototype.  This is the idea that objects inherit their properties from other objects.  Think of it this way, a prototype is 
+    a pointer to another object.  If you try to look up a key on an object and it is not found, Javascript will look next at the objects prototype until it returns a null.  
+    Lets say your are looking for a car in your toyota dealership that is red.  Javascript will look through the objects until it finds one with the property value of red.  
+    If none return, it will return null.  
+
+    
