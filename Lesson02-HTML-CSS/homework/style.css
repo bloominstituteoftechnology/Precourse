@@ -1,0 +1,6 @@
+h1 {color: red;}
+img {width: 400px;}
+#thirdDiv {width: 500px; height: 600px; background-color: yellow; padding: 50px; border-color:green; border-style:solid;}
+#spanId{font-size: 18px; margin: 50px;}
+html{text-align: center; }
+body{background-image: url("https://ph-files.imgix.net/7fd3595c-04a7-4aeb-bd9c-d2f67b67079d?auto=format&auto=compress&codec=mozjpeg&cs=strip"); background-repeat: no-repeat; background-size: auto; background-position: center; }
