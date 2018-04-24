@@ -1,0 +1,15 @@
+'for' is a keyword that start loops with certain parameters and have specific syntax for them.the 'for' loop then evaluates the conditional expression. if it is true it will run again if it is false it will stop running.
+
+`for` keyword, followed by parentheses and then open and close braces. Within the parentheses we will need three things. First, we must declare a variable, this is what the loop will be looping over. Then we will have a conditional expression, the loop will continue happening until this statement is `false`. Third, we will increment our variable. All three of these statements are separated by a semi-colon.
+
+
+&&:
+This will evaluate both expressions and will return true if BOTH expressions are true. If one (or both) of them is false this operator will return false:
+
+||:
+this is the "OR" operator. it will determine if one of the expressions is 'true'. it will return 'true' if one or both of the expression is true. it will return 
+false' if BOTH expressions are 'false'
+
+
+!:
+This is the "not" operator. It will return the opposite boolean value.  
