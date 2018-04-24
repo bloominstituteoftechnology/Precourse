@@ -1,0 +1,10 @@
+ Volume in drive C is Windows
+ Volume Serial Number is D859-2422
+
+ Directory of C:\Users\benk\Precourse\Lesson13-Git
+
+04/23/2018  08:19 PM    <DIR>          .
+04/23/2018  08:19 PM    <DIR>          ..
+04/23/2018  08:19 PM                 0 newfile.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  207,489,372,160 bytes free
