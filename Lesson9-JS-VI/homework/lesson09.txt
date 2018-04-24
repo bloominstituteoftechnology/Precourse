@@ -1,0 +1,8 @@
+Callback function = javascript is a very event driven language.  What I mean by this is that, 
+    instead of running a function then moving onto the next, it listens for other events/functions.  
+    Lets use changing a tire as an example.  There are multiple parts to changing a tire.  First you must jack
+    the car off of the ground, then loosen the lug nuts, then remove lug nuts, remove tire, place new tire on, tighten lug nuts
+    and lastly lower jack.  Well you could create all of these actions as seperate functions to be completed.  The only problem is, 
+    there is no gaurantee that javascript would complete them in the correct order.  That is why we would create all of these functions
+    inside of another function.   That way, we can control the order in which they functions are completed.  
+    
