@@ -126,15 +126,16 @@ function newUser(name, email, password) {
 
 
 
-const thatUser = {
+ const thatUser = {
   password: 'I love js!',
-}; 
+};
   function verifyPassword() {
-   if(thatUser.password==='I love js!'){
+   if(thatUser.password==='I love js!') {
      return true;
-  } else 
+  } else { 
      return false;
-  } 
+     }
+  }
      verifyPassword(thatUser, 'password');
   // check to see if the provided password matches the password property on the 
  //user object, return true if they match
