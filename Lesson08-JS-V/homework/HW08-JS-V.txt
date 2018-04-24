@@ -1,0 +1,6 @@
+* `prototype` - a class property that allows you to create methods once.
+Methods created this way are available to all instances of the class.
+
+
+* Constructors - also called 'class'.  It's a template that is useful when many objects(instances)
+share the same properties and methods.
