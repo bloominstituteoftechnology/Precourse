@@ -1,0 +1,24 @@
+Objects = Lets use a real life object like a car as an example of what an object in javascript is. 
+    A car is an object, it has properties which would be color, length,  etc.  The car also has methods 
+    such as drive, stop or park.  This is similar to how an object in javascript works.  Our object can be name whatever we like. 
+    Lets go with 'Friends'.  We could give these friends a list of properties like firstName, lastName and gender.  
+
+Properties = this plays off of what I just went over.  Properties are how you "describe" objects.  In my previous example, 
+    I used a car.  I feel the care would be a great example here as well.  The car would be considered our object.  The cars color would be 
+    considered a property.  Every object has properties.  Think of an object in your everyday life and try to think about what properties it contains.  
+    The computer you are using now, your phone you just checked your snapchat or any other object you can see.  They all have properties.  
+
+Method = I mentioned method in my first example of an object.  Methods are functions (actions) that can be performed on objects.  Lets stick
+    with the car as our object.  The car has multiple methods.  We call these methods drive, stop, park, turn signal, etc.  
+    All of these are considered methods and they can be performed on the object at anytime.  
+
+For In = this loop, loops through the properties that are part of an object.  That would be the color/properties or any other properties the object holds.  
+    Which in this case is the car.  You would use a for in loop when you only want to access properties of an object.  For example, you only want to access
+    the color of the car, you could do this by using a for in loop.  
+
+Dot versues brackets notation = There are two ways that we access properties on an object.  Dot and bracket notations.  With dot notations, 
+    you can call properties that are alphanumerical.  For example, car.color.  The car is our object while color is our property.  With bracket
+    notations, we are calling for strings.  Lets say we create an object named Friends.  We then have properties listed as firstName and lastName.  
+    We could list these as strings such as 'firstName' = 'Joseph'.  To call this we could use friends[firstName].  
+
+    
