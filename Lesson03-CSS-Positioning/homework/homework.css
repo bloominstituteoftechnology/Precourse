@@ -6,16 +6,24 @@ in this folder, you are in the wrong place.
 
 /* Exercise One: Centering the text in a span */
 
-/* We will start this one off for you: */
 #exerciseOne { 
   display: block; 
   text-align: center;
-
 }
+
+
+
+
+
+/* Exercise Two: Positioning a Header Bar*/
 
 #exerciseTwo { 
   display: none;
 }
+
+
+
+/* Exercise Three: */
 
 #exerciseThree {
   position: relative;
@@ -23,11 +31,18 @@ in this folder, you are in the wrong place.
   top: 100px
 }
 
+
+/* Exercise Four: */
+
 #exerciseFour {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
 }
+
+
+/* Exercise Five */
 
 #exerciseFive {
   display: flex;
@@ -37,50 +52,53 @@ in this folder, you are in the wrong place.
 }
 
 
-/* Exercise Two: Positioning a Header Bar*/
-
-/* Place code here */
-
-
-
-/* Exercise Three: */
-
-/* Place code here */
-
-
-
-/* Exercise Four: */
-
-/* Place code here */
-
-
-
-/* Exercise Five */
-
-/* Place code here */
-
-
-
 /* Exercise Six */
 
+#exerciseFive {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+/* Exercise Seven */
+ 
 #exerciseSeven {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
+  justify-content: space-between;
+  z-index: 1;
 }
 
 #itemOne {
   color: red;
   align-self: flex-end;
+  border:5px groove;
+
 }
 
 #itemTwo {
   border: 10px solid;
   color: green;
-  align-self: center;
+  align-self: flex-start;
+  font-weight: bold;
+  height: 200px;
+  width: 100px;
 }
 
 #itemThree {
   background-color: gold;
-  align-self: flex-end
+  align-self: flex-end;
+  font-style: italic;
+  border: 5pt ridge orange;
+  height: 100px;
+  width: 100px;
+  
+  
+}
+ 
+#itemFour {
+  height: 100px;
+  width: 500px;
+  font-size: 20pt;
 }
