@@ -149,51 +149,51 @@ const isUser = {
   function updatePassword() {
     isUser.password = 'I love js even more!';
     return isUser;
-}
- updatePassword(isUser, 'I love js even more!');
-// replace the existing password on the user object with the value of newPassword
+  }
+    updatePassword(isUser, 'I love js even more!');
+ // replace the existing password on the user object with the value of newPassword
 // return the object
 
 
 
 const amUser = { 
-    friends: ['Ben', 'Austen', 'Ryan', 'Mike', 'Young'], 
-  }; 
+  friends: ['Ben', 'Austen', 'Ryan', 'Mike', 'Young'], 
+};
 function addFriend(amUser, newFriend) {
-    newFriend = amUser.friends;
-    newFriend.push('Shay');
-  return amUser.friends;
-  }
-    addFriend(amUser, 'Shay');
-   // user has a property called friends that is an array
-  // add newFriend to the end of the friends array
- // return the user object
+  newFriend = amUser.friends;
+  newFriend.push('Shay');
+   return amUser.friends;
+}
+   addFriend(amUser, 'Shay');
+  // user has a property called friends that is an array
+ // add newFriend to the end of the friends array
+// return the user object
 
 
 
- const users = [
+const users = [
   { isPremium: false }, 
   { isPremium: false }, 
   { isPremium: false }, 
   { isPremium: false }, 
   { isPremium: false }, 
 ];
-function setUsersToPremium(users) {
-users[0] = {isPremium: true};
-users[1] = {isPremium: true};
-users[2] = {isPremium: true};
-users[3] = {isPremium: true};
-users[4] = {isPremium: true};
-return users;
-}
-setUsersToPremium(users, true);
+ function setUsersToPremium(users) {
+   users[0] = {isPremium: true};
+   users[1] = {isPremium: true};
+   users[2] = {isPremium: true};
+   users[3] = {isPremium: true};
+   users[4] = {isPremium: true};
+ return users;
+ }
+   setUsersToPremium(users, true);
 
 
 
-const user = {
-  username: 'SunJieMing',
-  password: 'JavaScript is awesome!',
-  posts: [
+   const user = {
+    username: 'SunJieMing',
+    password: 'JavaScript is awesome!',
+    posts: [
     {
       id: '1',
       title: 'JS adventures!',
@@ -219,26 +219,27 @@ const user = {
       title: 'Online Education',
       likes: 99
     },  
-  ],
-};
-function sumUserPostLikes() {
-userP = user.posts;
-postP = userP[0];
-postP1 = userP[1];
-postP2 = userP[2];
-postP3 = userP[3];
-postP4 = userP[4];
-function sumUserPostLikes() {  
-   pTotal = 
-    postP.likes+postP1.likes+postP2.likes+postP3.likes+postP4.likes;
-return pTotal;
-} 
-sumUserPostLikes(user);
-// user has an array property called 'posts'
-// posts is an array of post objects
-// each post object has an integer property called 'likes'
-// sum together the likes from all the post objects
-// return the sum
+    ],
+  };
+    function sumUserPostLikes() {
+     userP = user.posts;
+     postP = userP[0];
+     postP1 = userP[1];
+     postP2 = userP[2];
+     postP3 = userP[3];
+     postP4 = userP[4];
+      pTotal = 
+       postP.likes+postP1.likes+postP2.likes+postP3.likes+postP4.likes;
+      return pTotal;
+  } 
+    sumUserPostLikes(user);
+      // user has an array property called 'posts'
+     // posts is an array of post objects
+    // each post object has an integer property called 'likes'
+   //  sum together the likes from all the post objects
+  // return the sum
+
+
 
 const storeItem = {
   price: 80,
@@ -253,16 +254,15 @@ const storeItem = {
    z = x - (x * y);
     return storeItem;
 }
-    addCalculateDiscountPrice(storeItem);
-
-  // add a method to the storeItem object called 'calculateDiscountPrice'
-  // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
-  // the method then subtracts the discount from the price and returns the discounted price
-  // return storeItem at the end of the function
-  // example: 
+  addCalculateDiscountPrice(storeItem);
+       // add a method to the storeItem object called 'calculateDiscountPrice'
+      // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
+     // the method then subtracts the discount from the price and returns the    discounted price
+    // return storeItem at the end of the function
+   // example: 
   // price -> 20
-  // discountPercentage -> .2
-  // discountPrice = 20 - (20 * .2)
+ // discountPercentage -> .2
+// discountPrice = 20 - (20 * .2)
 
 
 // Do not modify code below this line.
