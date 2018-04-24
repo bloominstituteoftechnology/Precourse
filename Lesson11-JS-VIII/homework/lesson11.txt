@@ -1,0 +1,4 @@
+Recursion = simply, it is the ability to call a function from within that function.    
+    Earlier we went on about what a for loop was.  This is a process that checks for a condition
+    a set amount of times.  With recursion, it will infinitely loop until a condition is met.  This 
+    means you must have a well defined stop condition in order for it to stop.   
