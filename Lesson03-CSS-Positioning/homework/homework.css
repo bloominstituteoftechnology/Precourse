@@ -7,8 +7,33 @@ in this folder, you are in the wrong place.
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
-#exerciseOne {
+#exerciseOne { 
+  display: block; 
+  text-align: center;
 
+}
+
+#exerciseTwo { 
+  display: none;
+}
+
+#exerciseThree {
+  position: relative;
+  left: 200px;
+  top: 100px
+}
+
+#exerciseFour {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#exerciseFive {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 
@@ -40,4 +65,22 @@ in this folder, you are in the wrong place.
 
 #exerciseSeven {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+#itemOne {
+  color: red;
+  align-self: flex-end;
+}
+
+#itemTwo {
+  border: 10px solid;
+  color: green;
+  align-self: center;
+}
+
+#itemThree {
+  background-color: gold;
+  align-self: flex-end
 }
