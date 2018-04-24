@@ -1,0 +1,3 @@
+Callback functions are functions that are executed in other functions. The function that it is called in is a higher
+order function while the function that is being called inside the other is the callback function. There are
+some array functions such as map and reduce that are callback functions. 
