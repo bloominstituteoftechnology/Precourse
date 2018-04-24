@@ -31,19 +31,20 @@ function addProperty(Object, property) {
   //The name is the value of the argument called property (a string)
 
 
-  function invokeMethod(object, method){
+  function invokeMethod(){
     object = {
       x: 0,
-     incrementX: function() {
-        this.x++;
+      incrementX: function() {
+        x = 0;
+        x++;
       } 
     };
     invokeMethod(object, 'incrementX');
 }
- //expect(object.x).toBe(1);
-   // method is a string that contains the name of a method on the object
-  // invoke this method
- // nothing needs to be returned
+   //expect(object.x).toBe(1);
+  // method is a string that contains the name of a method on the object
+ // invoke this method
+// nothing needs to be returned
 
 
 
@@ -72,16 +73,21 @@ deleteProperty(updateObject, 'z');
 
 
 
+function newUser(name, email, password) {
+  const user = {
+name: 'Ben',
+email: 'ben@lambdaschool.com',
+password: 'correcthorsebatterystaple',
+};
 const user2 = {
-  name: 'Austen',
-  email: 'austen@lambdaschool.com',
-  password: 'password',
-  };
-   function newUser(name, email, password) {
-   return user2;
-   }
-     newUser(user2.name, user2.email, user2.password);
-// create a new object with properties matching the arguments passed in.
+name: 'Austen',
+email: 'austen@lambdaschool.com',
+password: 'password',
+};
+return user2;
+}
+newUser('Austen', 'austen@lambdaschool.com', 'password');
+ // create a new object with properties matching the arguments passed in.
 // return the new object
 
 
