@@ -1,0 +1,7 @@
+Closure = this refers to the 'reach' that a function has.  For example, 
+    a function can access all variable that are defined inside of itself 
+    and a function can also access variables defined outside of that function.  
+    But the inner function cannot call on arguments object.  Lets say you create a function, 
+    inside of the function, you create another function.  The first function cannot call on 
+    inner functions variables but the second function inside of the first can call upon the outer functions
+    variables.  
