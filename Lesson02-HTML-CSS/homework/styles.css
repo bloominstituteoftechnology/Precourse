@@ -1,0 +1,31 @@
+		body {
+			background: url(https://conspiracydailyupdate.files.wordpress.com/2017/03/tsts4.jpg?w=624&h=422)
+		}
+		h1 {
+			color:crimson; 
+		}
+		h3,h4,span,a{
+			background: brown;
+		}
+		img {
+			width: 400px;
+		}
+		.container{
+			display: flex;
+			flex-direction: column;
+		}
+		#thirdDiv{
+			border: 20px solid coral;
+			height: 600px;
+			width: 500px;
+			background-color: darksalmon;
+			padding: 50px;
+		}
+		#spanId {
+			font-size: 18px;
+			margin: 50px
+		}
+		.divClass{
+			text-align: center;
+			color: darkseagreen;
+		}
