@@ -7,37 +7,81 @@ in this folder, you are in the wrong place.
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
-#exerciseOne {
-
+.exerciseOne {
+  dislay: block;
+  text-align: center;
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
 
 /* Place code here */
+.exerciseTwo{
+  display: none;
+}
 
 
 
 /* Exercise Three: */
 
 /* Place code here */
-
+.targetcontainer{
+  position: relative;
+  z-index: -1;
+}
+.exerciseThree{
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  z-index: 0;
+}
 
 
 /* Exercise Four: */
 
 /* Place code here */
-
+.exerciseFour{
+  position: fixed;
+}
 
 
 /* Exercise Five */
 
 /* Place code here */
-
+.exerciseFive{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
 /* Exercise Six */
+.exerciseFive{
+  flex-direction: column-reverse;
 
-#exerciseSeven {
+.exerciseSeven {
   display: flex;
 }
+  
+  .itemOne{
+    style="order: 4";
+    style="flex-grow: 1";
+  }
+  
+  .itemTwo{
+    style="order: 3";
+    style="flex-grow: 2";
+  }
+  
+  .itemThree{
+    style="order: 1";
+    style="flex-grow: 2";
+  }
+  
+  .itemFour{
+    style="order:2';
+    style="flex-grow: 1";
+  }
+  
+  
