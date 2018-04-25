@@ -9,14 +9,14 @@ function makeCat() {
    }
   }; return newCat;   
 } 
-     makeCat('Snowball III', 2, 'Meow!'); 
+     makeCat(); 
       // create a new object with a name property with the value set to the name argument
     // add an age property to the object with the value set to the age argument
    // add a method called meow that returns the string 'Meow!'
   // return the object 
   
   
-  function addProperty(Object, property) {
+  function addProperty() {
     const updatedObject = {
      x: 1,
      y: 2,
@@ -24,7 +24,7 @@ function makeCat() {
       updatedObject.z = null;
       return updatedObject;
 }
-  addProperty(Object, 'z');
+  addProperty();
      // add the property to the object with a value of null
     // return the object
    // note: the property name is NOT 'property'.
@@ -39,10 +39,10 @@ function makeCat() {
        x++;
        }
     };
-     invokeMethod(object, 'incrementX');
+     invokeMethod();
   }   
-     //expect(object.x).toBe(1);
-    // method is a string that contains the name of a method on the object
+      //expect(object.x).toBe(1);
+     // method is a string that contains the name of a method on the object
    // invoke this method
   // nothing needs to be returned
 
