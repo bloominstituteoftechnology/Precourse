@@ -8,7 +8,7 @@ const User = function (username, name, email, password){
   this.password = password;
 };
 const user = new User('SunJieMing', 'Ben', 'ben@lambdaschool.com', 'LS Rocks!');
-console.log(user);
+  console.log(user);
 
 
 
