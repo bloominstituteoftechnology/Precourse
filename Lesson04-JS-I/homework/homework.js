@@ -27,7 +27,7 @@ const newModulo = 21 % 5 === 1 ;
 
 function returnString(str) {
   //simply return the string provided: str
-  return str
+  return str;
 }
 
 function add(x, y) {
@@ -66,7 +66,7 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  return str1.length === str2.length
+  return str1.length === str2.length;
 }
 
 function lessThanNinety(num) {
@@ -80,13 +80,13 @@ function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
-  return num > 50
+  return num > 50;
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
-  return x % y
+  return x % y;
 }
 
 function isEven(num) {
@@ -138,14 +138,14 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  return str+'!'
+  return str+'!';
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  return firstName + ' ' + lastName
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
