@@ -33,13 +33,14 @@ function makeCat() {
 
   function invokeMethod(){
     const object = {
-        x: 0,
-        incrementX: function() {
-          x = 0;
-          x++;
-    }
-  };
+      x: 0,
+      incrementX: function() {
+       object.x = 0;
+       x++;
+       }
+    };
      invokeMethod(object, 'incrementX');
+  }   
      //expect(object.x).toBe(1);
     // method is a string that contains the name of a method on the object
    // invoke this method
@@ -47,15 +48,16 @@ function makeCat() {
 
 
 
-const mysteryNumberObject = {
-  mysteryNumber: -5,
-  multiplyMysteryNumberByFive: function(){
-  return this.mysteryNumber * 5;
-  }
-};
-    mysteryNumberObject.multiplyMysteryNumberByFive();
- // mysteryNumberObject has a property called mysteryNumber
-// multiply the mysteryNumber property by 5 and return the product
+function multiplyMysteryNumberByFive(){
+    const mysteryNumberBox = {
+     mysteryNumber: -5,
+     };
+   num = mysteryNumberBox.mysteryNumber * 5;
+   return num;
+ }
+     multiplyMysteryNumberByFive();
+  // mysteryNumberObject has a property called mysteryNumber
+ // multiply the mysteryNumber property by 5 and return the product
 
 
 
