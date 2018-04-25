@@ -9,6 +9,7 @@ function sumArray(numbers, cb) {
     // sum up all of the integers in the numbers array
     // pass the result to cb
     // no return is necessary
+
     let sum = 0;
     for (let i = 0; i < numbers.length; i++) {
         sum += numbers[i];
@@ -19,6 +20,7 @@ function sumArray(numbers, cb) {
 function forEach(arr, cb) {
     // iterate over arr and pass its values to cb one by one
     // hint: you will be invoking cb multiple times (once for each value in the array)
+
     for (let i = 0; i < arr.length; i++) {
         cb(arr[i]);
     }
