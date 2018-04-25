@@ -221,13 +221,13 @@ const users = [
     ],
   };
     function sumUserPostLikes() {
-     userP = user.posts;
-     postP = userP[0];
-     postP1 = userP[1];
-     postP2 = userP[2];
-     postP3 = userP[3];
-     postP4 = userP[4];
-      pTotal = 
+     let userP = user.posts;
+     let postP = userP[0];
+     let postP1 = userP[1];
+     let postP2 = userP[2];
+     let postP3 = userP[3];
+     let postP4 = userP[4];
+      let pTotal = 
        postP.likes+postP1.likes+postP2.likes+postP3.likes+postP4.likes;
       return pTotal;
   } 
