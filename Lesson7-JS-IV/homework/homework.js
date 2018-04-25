@@ -249,10 +249,8 @@ function addCalculateDiscountPrice(){
     calculateDiscountPrice: function(){
      discountPrice = storeItem.price - (storeItem.price * storeItem.discountPercentage);
     }
-  };   
- x = storeItem.price;
- y = storeItem.discountPercentage;
- z = x - (x * y);
+  };
+  discountPrice = storeItem.price - (storeItem.price * storeItem.discountPercentage);
   return storeItem;
 }
 addCalculateDiscountPrice();
