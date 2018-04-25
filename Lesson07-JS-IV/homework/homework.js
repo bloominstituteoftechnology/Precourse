@@ -19,7 +19,7 @@ function addProperty(object, property) {
     // add the property to the object with a value of null
     // return the object
     // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
-    object[property] = null; // call object I need to change, [property] is argument and = sets it's new value
+    object[property] = null; // call object I need to change, [property] is the argument and = sets it's new value
     return object; // 
 }
 
@@ -27,7 +27,7 @@ function invokeMethod(object, method) {
     // method is a string that contains the name of a method on the object
     // invoke this method
     // nothing needs to be returned
-    object[method](); // calls the object [method] uses key and () the value contained within as the argument
+    object[method](); // calls the object [method] ('invokes' it)
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
@@ -110,11 +110,11 @@ function sumUserPostLikes(user) {
     // each post object has an integer property called 'likes'
     // sum together the likes from all the post objects
     // return the sum
-    let postLikeSum = 0;
+    let postsLikedSum = 0;
     user.posts.forEach(function(post) {
-        postLikeSum += post.likes;
+        postsLikedSum += post.likes;
     });
-    return postLikeSum;
+    return postsLikedSum;
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
