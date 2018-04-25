@@ -1,0 +1,58 @@
+html {
+	font-family: "Lato", sans-serif;
+	background: url(https://cl.ly/2x2x0Q3R2T2v/cacio_e_pepe.png) no-repeat center center fixed;
+}
+
+h1 {
+	color: white;
+	font: 400 25px/1.8 "Lato", sans-serif;
+	padding: 15px;
+	background-color: #565656;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}	
+
+h3 {
+	font-size: 25px;
+}
+
+img {
+	width: 400px;
+}
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: #E6E6FA;
+	padding: 50px;
+	border: 3px dashed #A9A9A9;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 30px;
+
+}
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+
+div {
+	margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.divClass {
+	text-align: center;
+}
+
+li { 
+	display: inline;
+}
