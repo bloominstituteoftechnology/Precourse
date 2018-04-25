@@ -1,0 +1,24 @@
+h1
+{
+	color:plum;
+}
+
+#spanId
+{
+	font-size:18px;
+	margin: 50px
+}
+
+#thirdDiv
+{
+	background-color:mediumorchid; 
+	width:500px; 
+	height:600px; 
+	padding: 50px;
+	border:50px solid blue;
+}
+
+img
+{
+	width:400px;
+}
