@@ -61,201 +61,201 @@ function multiplyMysteryNumberByFive(){
 
 
 
-const updateObject = {
-  x: 1,
-  y: 2,
-  z: null,
-}; 
-  function deleteProperty(){
-   delete updateObject.z;
-   return updateObject;
-  }
-deleteProperty(updateObject, 'z');
+function deleteProperty(){
+  const updateObject = {
+   x: 1,
+   y: 2,
+   z: null,
+  };
+ delete updateObject.z;
+ return updateObject;
+}
+deleteProperty();
 
 
 
-function newUser(name, email, password) {
+function newUser() {
   const user = {
    name: 'Ben',
    email: 'ben@lambdaschool.com',
    password: 'correcthorsebatterystaple',
   };
-  const user2 = {
-   name: 'Austen',
-   email: 'austen@lambdaschool.com',
-   password: 'password',
-  };
-    return user2;
+  user.name = 'Austen';
+  user.email = 'austen@lambdaschool.com';
+  user.password = 'password';
+   return user;
 }
-    newUser('Austen', 'austen@lambdaschool.com', 'password');
- // create a new object with properties matching the arguments passed in.
-// return the new object
+    newUser();
+  // create a new object with properties matching the arguments passed in
+ // return the new object
+//'Austen', 'austen@lambdaschool.com', 'password'
 
 
 
+function hasEmail() {
   const thisUser = {
     username: 'SunJieMing',
     email: 'ben@lambdaschool.com',
   };
-   function hasEmail(user) {
-     if (user.email){
-      return true;
-    } else {
-      return false;
-   }
+ if (thisUser.email){
+   return true;
+ } else {
+   return false;
   }
-     hasEmail(thisUser);
-   // return true if the user has a value for the property 'email'
-   // otherwise return false
+}
+ hasEmail();
+// return true if the user has a value for the property 'email'
+// otherwise return false
 
 
-   
-  const obj = {
+
+function hasProperty() {
+   const obj = {
     x: true,
-  };
-  function hasProperty() {
-    const prop = obj.x;
-    if (prop) {
-      return true;
-    } else 
-      return false;
-    }
-      hasProperty(obj, 'x');
-   //return true if the object has the value of the property argument
-  //property is a string
- // otherwise return false
-
-
-
- const thatUser = {
-  password: 'I love js!',
-};
-  function verifyPassword() {
-   if(thatUser.password==='I love js!') {
-     return true;
-  } else { 
-     return false;
-     }
+   };
+ const prop = obj.x;
+  if (prop) {
+    return true;
+  } else 
+    return false;
   }
-     verifyPassword(thatUser, 'password');
+    hasProperty();
+ //return true if the object has the value of the property argument
+//property is a string
+// otherwise return false
+
+
+
+function verifyPassword() {
+  const thatUser = {
+   password: 'I love js!',
+  };
+ if(thatUser.password==='I love js!') {
+   return true;
+ } else { 
+   return false;
+   }
+}
+   verifyPassword();
   // check to see if the provided password matches the password property on the 
  //user object, return true if they match
 //otherwise return false
 
 
 
-const isUser = {
-  password: 'I love js!',
-};
-  function updatePassword() {
-    isUser.password = 'I love js even more!';
-    return isUser;
-  }
-    updatePassword(isUser, 'I love js even more!');
+function updatePassword() {
+  const isUser = {
+    password: 'I love js!',
+  };
+ isUser.password = 'I love js even more!';
+  return isUser;
+}
+  updatePassword();
  // replace the existing password on the user object with the value of newPassword
 // return the object
 
 
 
-const amUser = { 
-  friends: ['Ben', 'Austen', 'Ryan', 'Mike', 'Young'], 
-};
-function addFriend(amUser, newFriend) {
-  newFriend = amUser.friends;
-  newFriend.push('Shay');
+function addFriend() {
+  const amUser = { 
+    friends: ['Ben', 'Austen', 'Ryan', 'Mike', 'Young'], 
+   };
+ newFriend = amUser.friends;
+ newFriend.push('Shay');
    return amUser.friends;
 }
-   addFriend(amUser, 'Shay');
+   addFriend();
   // user has a property called friends that is an array
  // add newFriend to the end of the friends array
 // return the user object
 
 
 
-const users = [
-  { isPremium: false }, 
-  { isPremium: false }, 
-  { isPremium: false }, 
-  { isPremium: false }, 
-  { isPremium: false }, 
-];
- function setUsersToPremium(users) {
-   users[0] = {isPremium: true};
-   users[1] = {isPremium: true};
-   users[2] = {isPremium: true};
-   users[3] = {isPremium: true};
-   users[4] = {isPremium: true};
- return users;
- }
-   setUsersToPremium(users, true);
-
-
-
-   const user = {
-    username: 'SunJieMing',
-    password: 'JavaScript is awesome!',
-    posts: [
-    {
-      id: '1',
-      title: 'JS adventures!',
-      likes: 10
-    },
-    {
-      id: '2',
-      title: 'LambdaSchool forever!',
-      likes: 100
-    },
-    {
-      id: '3',
-      title: 'What is a JavaScript?',
-      likes: 35
-    },
-    {
-      id: '4',
-      title: 'JS Objects for dummies',
-      likes: 42
-    },
-    {
-      id: '5',
-      title: 'Online Education',
-      likes: 99
-    },  
-    ],
-  };
-    function sumUserPostLikes() {
-     let userP = user.posts;
-     let postP = userP[0];
-     let postP1 = userP[1];
-     let postP2 = userP[2];
-     let postP3 = userP[3];
-     let postP4 = userP[4];
-      let pTotal = 
-       postP.likes+postP1.likes+postP2.likes+postP3.likes+postP4.likes;
-      return pTotal;
-  } 
-    sumUserPostLikes(user);
-      // user has an array property called 'posts'
-     // posts is an array of post objects
-    // each post object has an integer property called 'likes'
-   //  sum together the likes from all the post objects
-  // return the sum
-
-
-
-const storeItem = {
-  price: 80,
-  discountPercentage: 0.1,
-  calculateDiscountPrice: function(){
-    discountPrice = price - (price * discountPercentage);
-  }
-  };
-  function addCalculateDiscountPrice(){
-   x = storeItem.price;
-   y = storeItem.discountPercentage;
-   z = x - (x * y);
-    return storeItem;
+function setUsersToPremium() {
+  const users = [
+   { isPremium: false }, 
+   { isPremium: false }, 
+   { isPremium: false }, 
+   { isPremium: false }, 
+   { isPremium: false }, 
+  ];
+ users[0] = {isPremium: true};
+ users[1] = {isPremium: true};
+ users[2] = {isPremium: true};
+ users[3] = {isPremium: true};
+ users[4] = {isPremium: true};
+   return users;
 }
-  addCalculateDiscountPrice(storeItem);
+  setUsersToPremium();
+
+
+
+  function sumUserPostLikes() {
+    const user = {
+      username: 'SunJieMing',
+      password: 'JavaScript is awesome!',
+      posts: [
+      {
+        id: '1',
+        title: 'JS adventures!',
+        likes: 10
+      },
+      {
+        id: '2',
+        title: 'LambdaSchool forever!',
+        likes: 100
+      },
+      {
+        id: '3',
+        title: 'What is a JavaScript?',
+        likes: 35
+      },
+      {
+        id: '4',
+        title: 'JS Objects for dummies',
+        likes: 42
+      },
+      {
+        id: '5',
+        title: 'Online Education',
+        likes: 99
+      },  
+      ],
+    };
+   let userP = user.posts;
+   let postP = userP[0];
+   let postP1 = userP[1];
+   let postP2 = userP[2];
+   let postP3 = userP[3];
+   let postP4 = userP[4];
+   let pTotal = 
+     postP.likes+postP1.likes+postP2.likes+postP3.likes+postP4.likes;
+    return pTotal;
+} 
+  sumUserPostLikes();
+    // user has an array property called 'posts'
+   // posts is an array of post objects
+  // each post object has an integer property called 'likes'
+ //  sum together the likes from all the post objects
+// return the sum
+
+
+
+  
+function addCalculateDiscountPrice(){
+  const storeItem = {
+    price: 80,
+    discountPercentage: 0.1,
+    calculateDiscountPrice: function(){
+     discountPrice = storeItem.price - (storeItem.price * storeItem.discountPercentage);
+    }
+  };   
+ x = storeItem.price;
+ y = storeItem.discountPercentage;
+ z = x - (x * y);
+  return storeItem;
+}
+addCalculateDiscountPrice();
        // add a method to the storeItem object called 'calculateDiscountPrice'
       // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
      // the method then subtracts the discount from the price and returns the    discounted price
