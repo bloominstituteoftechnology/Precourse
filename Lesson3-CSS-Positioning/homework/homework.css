@@ -8,7 +8,16 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
+display: flex;
+  
+    color: red;
+    text-align: center;
+   
+}
 
+#exerciseTwo{
+    
+    display: none;
 }
 
 
@@ -20,17 +29,40 @@ in this folder, you are in the wrong place.
 
 /* Exercise Three: */
 
+#exerciseThree{
+    position: relative;
+    left: 200px;
+    top:100px;
+    
+}
+
 /* Place code here */
 
 
 
 /* Exercise Four: */
 
-/* Place code here */
+#exerciseFour{
+    
+    position:fixed;
+    top:0;
+    left:0;
+    
+}
+
 
 
 
 /* Exercise Five */
+
+#exerciseFive{
+    display:flex;
+   justify-content: space-evenly;
+    /*main-axis*/
+    align-items:center;
+    flex-direction:row-reverse;
+    
+}
 
 /* Place code here */
 
