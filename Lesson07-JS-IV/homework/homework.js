@@ -6,13 +6,13 @@ function makeCat(name, age) {
     // add a method called meow that returns the string 'Meow!'
     // return the object
 
-    const cat = {}; // create an empty object, cat - I kept trying to fill in first
-    cat.name = name; // create a new key / value pair within my new object
+    const cat = {}; // create an empty object
+    cat.name = name; // create a new key / value pair within new object
     cat.age = age;
     cat.meow = function() { // create a new method on the object, i.e a function within
         return 'Meow!'; //     my object
     };
-    return cat; // return my newly created object with it's 3 key new value pairs
+    return cat; // return my newly created object with it's 3 new key / value pairs
 }
 
 function addProperty(object, property) {
