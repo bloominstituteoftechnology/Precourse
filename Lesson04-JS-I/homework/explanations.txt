@@ -1,0 +1,9 @@
+	* Variables - These are keywords that stand in place of something. That something can be a variety of different things, from strings to numbers and beyond.
+	
+    * Strings - These consist of any type of characters that are put together to remain exactly the way that they are. You can make strings as short or as long as you'd like. You can always tell that something is a string when it's surrounded by quotes. ('Like this' or "Like that")
+	
+    * Functions (arguments, `return`) - Functions are similar to how they operate in math! There are three main things that happen with a function— you put something in, there is something that happens to with what gets put in, and then, at the end, something gets put out, in return.
+	
+    * `if` statements - 'if' statements are conditions that, if they are met, then something can happen afterwards. If it were like looking at 'cause' and 'effect' then the 'if' is the 'cause' which can lead to the desired 'effect'.
+	
+    * Boolean values (`true`, `false`) - Booleans are types of data that come back as either true or false.
