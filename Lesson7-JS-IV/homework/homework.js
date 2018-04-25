@@ -36,11 +36,11 @@ function makeCat() {
       x: 0,
       incrementX: function() {
        object.x = 0;
-       x++;
-       }
+       object.x++;
+      }
     };
      invokeMethod();
-  }   
+ } 
       //expect(object.x).toBe(1);
      // method is a string that contains the name of a method on the object
    // invoke this method
@@ -48,12 +48,12 @@ function makeCat() {
 
 
 
-function multiplyMysteryNumberByFive(){
+  function multiplyMysteryNumberByFive(){
     const mysteryNumberBox = {
-     mysteryNumber: -5,
+     mysteryNumber: null,
      };
-   num = mysteryNumberBox.mysteryNumber * 5;
-   return num;
+   mysteryNumberBox.mysteryNumber * 5;
+   return mysteryNumberBox.mysteryNumber * 5;
  }
      multiplyMysteryNumberByFive();
   // mysteryNumberObject has a property called mysteryNumber
@@ -160,14 +160,10 @@ function addFriend() {
   const amUser = { 
     friends: ['Ben', 'Austen', 'Ryan', 'Mike', 'Young'], 
    };
- newFriend = amUser.friends;
- newFriend.push('Shay');
-   return amUser.friends;
+ amUser.friends.push('Shay');
+   return amUser;
 }
    addFriend();
-  // user has a property called friends that is an array
- // add newFriend to the end of the friends array
-// return the user object
 
 
 
@@ -241,16 +237,14 @@ function setUsersToPremium() {
 
 
 
-  
 function addCalculateDiscountPrice(){
   const storeItem = {
-    price: 80,
-    discountPercentage: 0.1,
+    price: null,
+    discountPercentage: null,
     calculateDiscountPrice: function(){
-     discountPrice = storeItem.price - (storeItem.price * storeItem.discountPercentage);
+     storeItem.discountedPrice = (storeItem.price - (storeItem.price * storeItem.discountPercentage));
     }
   };
-  discountPrice = storeItem.price - (storeItem.price * storeItem.discountPercentage);
   return storeItem;
 }
 addCalculateDiscountPrice();
