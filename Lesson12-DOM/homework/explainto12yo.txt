@@ -1,12 +1,12 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12
 year old. Doing this will help you discover any holes in your understanding. Ask your questions on slack.
 
-DOM // Means document object model. It is pretty much the template for HTML. How it is structured and how it is
-accessed and manipulated. It is a application programming interface. It allows programs to move around browsers.
+DOM // Means document object model. It is the standard of how a document is accessed. It allows programs to
+access and manipulate objects. It is a application programming interface. It allows programs to move around browsers.
 
 DOM element selectors // Allows us to access different elements within the DOM. Examples can include class, div,
 Ids, etc.
 
-DOM events // You can setup and event in the DOM, where if an action is triggered another action will take place.
+DOM events // You can setup an event in the DOM, where if an action is triggered another action will take place.
 This allows for a more interactive experience for the user. A common event is the click, which is triggered when
 the mouse button is clicked.
