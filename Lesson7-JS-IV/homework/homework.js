@@ -9,7 +9,6 @@ function makeCat() {
    }
   }; return newCat;   
 } 
-     makeCat(); 
       // create a new object with a name property with the value set to the name argument
     // add an age property to the object with the value set to the age argument
    // add a method called meow that returns the string 'Meow!'
@@ -24,7 +23,6 @@ function makeCat() {
       updatedObject.z = null;
       return updatedObject;
 }
-  addProperty();
      // add the property to the object with a value of null
     // return the object
    // note: the property name is NOT 'property'.
@@ -38,8 +36,7 @@ function makeCat() {
        object.x = 0;
        object.x++;
       }
-    };
-     invokeMethod();
+    };   
  } 
       //expect(object.x).toBe(1);
      // method is a string that contains the name of a method on the object
@@ -55,23 +52,17 @@ function makeCat() {
    mysteryNumberBox.mysteryNumber * 5;
    return mysteryNumberBox.mysteryNumber * 5;
  }
-     multiplyMysteryNumberByFive();
   // mysteryNumberObject has a property called mysteryNumber
  // multiply the mysteryNumber property by 5 and return the product
 
-
-
-function deleteProperty(){
-  const updateObject = {
+ function deleteProperty(object, property){
+  const myObject = {
    x: 1,
    y: 2,
    z: null,
   };
- delete updateObject.z;
- return updateObject;
-}
-deleteProperty();
-
+ deleteProperty(myObject, 'z');
+ }
 
 
 function newUser() {
@@ -85,7 +76,6 @@ function newUser() {
   user.password = 'password';
    return user;
 }
-    newUser();
   // create a new object with properties matching the arguments passed in
  // return the new object
 //'Austen', 'austen@lambdaschool.com', 'password'
@@ -103,7 +93,6 @@ function hasEmail() {
    return false;
   }
 }
- hasEmail();
 // return true if the user has a value for the property 'email'
 // otherwise return false
 
@@ -118,8 +107,7 @@ function hasProperty() {
     return true;
   } else 
     return false;
-  }
-    hasProperty();
+  }  
  //return true if the object has the value of the property argument
 //property is a string
 // otherwise return false
@@ -136,7 +124,6 @@ function verifyPassword() {
    return false;
    }
 }
-   verifyPassword();
   // check to see if the provided password matches the password property on the 
  //user object, return true if they match
 //otherwise return false
@@ -149,8 +136,7 @@ function updatePassword() {
   };
  isUser.password = 'I love js even more!';
   return isUser;
-}
-  updatePassword();
+} 
  // replace the existing password on the user object with the value of newPassword
 // return the object
 
@@ -163,9 +149,7 @@ function addFriend() {
  amUser.friends.push('Shay');
    return amUser;
 }
-   addFriend();
-
-
+  
 
 function setUsersToPremium() {
   const users = [
@@ -182,8 +166,6 @@ function setUsersToPremium() {
  users[4] = {isPremium: true};
    return users;
 }
-  setUsersToPremium();
-
 
 
   function sumUserPostLikes() {
@@ -228,7 +210,6 @@ function setUsersToPremium() {
      postP.likes+postP1.likes+postP2.likes+postP3.likes+postP4.likes;
     return pTotal;
 } 
-  sumUserPostLikes();
     // user has an array property called 'posts'
    // posts is an array of post objects
   // each post object has an integer property called 'likes'
@@ -237,7 +218,7 @@ function setUsersToPremium() {
 
 
 
-function addCalculateDiscountPrice(){
+function addCalculateDiscountPriceMethod(){
   const storeItem = {
     price: null,
     discountPercentage: null,
@@ -247,7 +228,6 @@ function addCalculateDiscountPrice(){
   };
   return storeItem;
 }
-addCalculateDiscountPrice();
        // add a method to the storeItem object called 'calculateDiscountPrice'
       // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
      // the method then subtracts the discount from the price and returns the    discounted price
