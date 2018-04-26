@@ -10,19 +10,26 @@ function sumArray(numbers, cb) {
   // pass the result to cb
   // no return is necessary
 
-  let sum = 0;
-  for (let i = 0; i < numbers.length; i++) {
-    sum += numbers[i];
+  function getSum(total, num) {
+    return total + num;
   }
+
+  let sum = numbers.reduce(getSum);
+//  let sum = 0;
+//  for (let i = 0; i < numbers.length; i++) {
+//    sum += numbers[i];
+//  }
   cb(sum);
 }
 
 function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
-  for (let i = 0; i < arr.length; i++) {
-    cb(arr[i]);
-  }
+
+  arr.forEach(cb);
+  // for (let i = 0; i < arr.length; i++) {
+  //   cb(arr[i]);
+  // }
 }
 
 function map(arr, cb) {
@@ -30,9 +37,10 @@ function map(arr, cb) {
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
   let newArr = [];
-  for (let i = 0; i < arr.length; i++) {
-    newArr.push(cb(arr[i]));
-  }
+  newArr = arr.map(cb);
+  // for (let i = 0; i < arr.length; i++) {
+  //   newArr.push(cb(arr[i]));
+  // }
   return newArr;
 }
 

@@ -1,0 +1,3 @@
+* Closure - It is a concept that an inner function not only can access it's own variables.  It can also access
+the variables and parameters (Though it can't access the outer function's *arguments* object.) of the outer(enclosing) function.
+The closure has three scopes: it can access it's own scope, outer function's scope and global scope.
