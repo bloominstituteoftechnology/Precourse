@@ -1,7 +1,7 @@
 # Lesson 6: Javascript III (`for` Loops continued, and Arrays)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
-In this lesson we will cover: 
+In this lesson we will cover:
 
 * Introduction to arrays
 * `for` Loops with arrays
@@ -26,7 +26,7 @@ Just like the String data type has a built in `.length` method, so does the arra
 
 ### Accessing Items in an Array
 
-We can access an item at anytime in an array, we just need to call the item by its position in the array. Items are given a numerical position (index) according to where it is in the array, in order. An array's numerical order ALWAYS starts at 0, so the first item is in the 0 index, the second in the 1 index, the third in the 2, and so on (this can be tricky at first, but just remember arrays always start at 0). 
+We can access an item at anytime in an array, we just need to call the item by its position in the array. Items are given a numerical position (index) according to where it is in the array, in order. An array's numerical order ALWAYS starts at 0, so the first item is in the 0 index, the second in the 1 index, the third in the 2, and so on (this can be tricky at first, but just remember arrays always start at 0).
 
 ```javascript
     const studentsNames = ['Dan', 'Maria', 'Sara', 'Raj'];
@@ -51,7 +51,7 @@ To dynamically access the last item in the array, we will use the `.length` meth
 
 ### Assignment
 
-We can assign and reassign any index in the array using the bracket/index and an =. 
+We can assign and reassign any index in the array using the bracket/index and an =.
 
 ```javascript
     const studentsNames = ['Dan', 'Maria', 'Sara', 'Raj'];
@@ -102,7 +102,7 @@ Two more very useful built in array methods are `.push` and `.pop`. These method
 
 ### Notes on Arrays
 
-Because Javascript is not a strongly typed language, arrays do not need to be typed either. Arrays in Javascript can contains multiple different data types in the same array. 
+Because Javascript is not a strongly typed language, arrays do not need to be typed either. Arrays in Javascript can contains multiple different data types in the same array.
 
 ## for Loops
 
