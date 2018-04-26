@@ -5,61 +5,109 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
+  const newCatObj = {
+    //
+    ////TAKES ARGUMENTS/INPUTS OF FUNCTION, WHILE USING NO '' THEREBY NOT A 'STRING'
+    name: name,
+    age: age,
+    meow: function() {
+      return 'Meow!' ;
+    },
+  };
+  return newCatObj ;
 }
 
 function addProperty(object, property) {
   // add the property to the object with a value of null
   // return the object
   // note: the property name is NOT 'property'.  The name is the value of the argument called property (a string)
+  object[property] = null ;
+  return object ;
 }
 
 function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
+  object[method]() ;
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
+  // const result ;
+  const result = mysteryNumberObject.mysteryNumber * 5 ;
+  return result ;
 }
 
 function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
+  delete object[property] ;
+  return object ;
 }
 
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
+  const newUserObj = {
+    name: arguments[0] ,
+    email: arguments[1] ,
+    password: arguments[2] , 
+  } ;
+  return newUserObj ;
 }
 
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
+  //
+  ////COMMITED OUT NEXT LINE, FOR BETTTER WAY BELOW
+  //if (user.email != null || user.email != undefined) {
+    if (user.email) {
+    return true ;
+  }else {
+    return false ;
+  }
 }
 
 function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
-}
+  for (let key in object) {
+    if (object[key] === object.hasOwnProperty(property)) {
+      return true ; 
+    }else {
+      return false ;
+    }
+  }
+} 
 
 function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
+  if (password === user.password) {
+    return true;
+  }else {
+    return false;
+  }
 }
 
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
+  user.password = newPassword ;
+  return user ;
 }
 
 function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
   // return the user object
+  user.friends.push(newFriend) ;
+  return user ;
 }
 
 function setUsersToPremium(users) {
@@ -67,7 +115,31 @@ function setUsersToPremium(users) {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
+  for(let key in users) {
+    users[key].isPremium = true ;
+  }
+  return users ;
 }
+////MY NOTES/WORK FOR ABOVE QUESTION, LISTED BELOW
+/*
+let user1 = 
+  {
+    name: 'Tristan' ,
+    isPremium: false ,
+  } ;
+let user2 = 
+  {
+    name: 'Jessica' ,
+    isPremium: false ,
+  } ;
+const users = [user1, user2];
+
+for (let key in users) {
+  users[key].isPremium = true;
+}
+console.log(users);
+*/
+
 
 function sumUserPostLikes(user) {
   // user has an array property called 'posts'
@@ -75,7 +147,39 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
+  let totalLikesAllPosts = 0 ;
+
+  for (let key in user.posts) {
+    totalLikesAllPosts = user.posts[key].likes + totalLikesAllPosts ;
+  } 
+  return totalLikesAllPosts ;
 }
+////MY NOTES/WORK FOR ABOVE QUESTION, LISTED BELOW
+/*
+  //NESTING EXAMPLE
+  const user = {
+    name: 'Tristan',
+    posts: [
+      {
+        blogId: '1',
+        title: 'This was difficult',
+        likes: 1000000 ,
+      },
+      {
+        blogId: '2',
+        title: 'Great job figuring it out!',
+        likes: 1000000000 ,
+      }      
+    ],
+  };
+//BELOW LINE SELECTS LIKES IN 1ST POST
+// user.posts[0].likes;
+//BELOW LOOP console.log'S THE LIKES IN ALL POSTS
+for (let key in user.posts) {
+  console.log('LOOP-KEY: ' + key);
+  console.log(user.posts[key].likes);
+  }
+*/
 
 function addCalculateDiscountPriceMethod(storeItem) {
   // add a method to the storeItem object called 'calculateDiscountPrice'
@@ -86,7 +190,12 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
-}
+  storeItem.calculateDiscountPrice = function (price, discountPercentage) {
+    let discountPrice = this.price - (this.price * this.discountPercentage) ;
+    return discountPrice ;
+  } ;
+  return storeItem ;
+} 
 
 // Do not modify code below this line.
 // --------------------------------
