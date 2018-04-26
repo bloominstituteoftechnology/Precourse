@@ -1,0 +1,30 @@
+for is used to create a loop that ends depending on the arguments. For example:
+for(let i = 0; i < 10; i++) 
+{
+  console.log(i);
+};
+In this for loop it starts off with 0. Then we decide when we want our loop to end, in this case as long as i is less than 10.
+Then we increment i by 1(i++). So this loop will console log 0-9.
+
+The && is an operator that checks whether 2 or more values are true(similar to and). For example:
+let i = 5;
+if(i > 1 && i < 6)
+{
+ // code
+};
+Since 5 is greater than 1 and 5 is less than 6, the code will run.
+
+The || operator is an operator that checks whether 1 or more values is true(similar to or). For example:
+let i = 5;
+if(i > 1 || i < 5)
+{
+ // code
+};
+5 is greater than 1 but 5 is not less than 5. The code will still run since 1 value is still true.
+
+The ! operator compares values to check if it does not equal another value(similar to not). For example:
+let i = 5;
+if(i !== 5)
+{
+}; 
+Since 5 does equal 5 the code will not run. But if it were any other number it would run just fine.

@@ -1,0 +1,16 @@
+An array is a way to hold a bunch of numbers, strings, and even booleans.
+Usually if you wanted to create 5 variables we would do this:
+let i = 5;
+let f = 6;
+let g = 4;
+let b = 3;
+let n = 2;
+But with an array we can do this:
+const f = [5, 6, 4, 3, 2];
+We get the value we want from an array by order, starting at 0.
+f[0] we would get 5.
+f[1] we would get 6.
+f[2] we would get 4.
+etc...
+
+You can also put strings and booleans inside with numbers but usually we want to keep them seperated into there own array.
