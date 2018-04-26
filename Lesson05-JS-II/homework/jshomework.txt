@@ -1,0 +1,7 @@
+for loop is used when a certain piece of code needs to be executed multiple number of times with different values. 
+
+&&- ‘AND’ is a logical operator and returns true if both expressions being evaluated are true. If either of the two expressions is false it returns the value false.  
+
+||- ‘OR’ is a logical operator and returns true if one of the two expressions being evaluated is true. If both the expressions are false it returns the value false.
+
+!- This is the ‘NOT’ logical operator. It is used to get the opposite value of the expression we are passing. 
