@@ -1,0 +1,65 @@
+body, html{
+  height:100%;
+  margin:auto;
+  width:50%;
+}
+
+body {
+  background-image: url('https://shortlist.imgix.net/app/uploads/2017/09/29111528/youve-been-eating-sushi-all-wrong-9.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress');
+  height:100%;
+  width:100%; 
+}
+
+h1{
+  color:seashell;
+  
+}
+
+h3{
+  color:seashell;
+}
+
+h4{
+  color:seashell;
+}  
+
+#thirdDiv { 
+  height:600px;
+  width:500px;
+  background-color:lightsalmon;
+  border: 5px solid darkseagreen;
+  border-radius:10px;
+  padding:50px;
+  margin:30px;
+  opacity:.85;
+ }
+
+.divClass{
+  background-color:lightsalmon;
+  border: 5px solid darkseagreen;
+  border-radius:10px;
+  padding:20px;
+  margin:30px;
+  opacity:.85;
+}      
+ 
+#spanId {
+  font-size:18px;
+  color:seashell;
+  margin:50px; 
+ }
+
+li{
+  color:seashell;
+  font-size:18px;
+}
+
+#img1{
+  border-radius:50px;
+}
+
+#img2{
+  border-radius:30px;
+}
+
+
