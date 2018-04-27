@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body,html {
+	height: 100%;
+}
+.bg {
+	background-image: url("https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+body {
+	background-image: url();
+}
+h1 {
+	color: fuchsia;
+}
+h1,h3,h4 {
+	text-align: center;
+}
+.divClass {
+	margin: 0 auto;
+	width: 90%;
+}
+img {
+	width: 400px;
+}
+#thirdDiv {
+	margin: 0 auto;
+	height: 600px;
+	width: 500px;
+	background-color: blue;
+	padding: 50px;
+	border: 2px solid black;
+}
+#spanId {
+	margin: 50px;
+}
