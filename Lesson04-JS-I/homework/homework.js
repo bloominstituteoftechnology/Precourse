@@ -33,10 +33,10 @@ function returnString(str) {
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
-  function add(x, y) {
   const sum = x + y;
   return sum;
 }
+
 
 function subtract(x, y) {
   // subtract y from x and return the value
@@ -46,7 +46,7 @@ function subtract(x, y) {
 
 function multiply(x, y) {
   // multiply x by y and return the value
-  const muliply = x * y;
+  const multiply = x * y;
   return multiply;
 }
 
@@ -61,8 +61,7 @@ function areEqual(x, y) {
   // otherwise return false
   if (x === y) {
   	return true;
-  }
-  return false;
+  } return false;
 }
 
 function areSameLength(str1, str2) {
@@ -70,8 +69,7 @@ function areSameLength(str1, str2) {
   // otherwise return false
   if (str1 === str2) {
   	return true;
-  }
-  return false;
+  } return false;
 }
 
 function lessThanNinety(num) {
@@ -79,8 +77,7 @@ function lessThanNinety(num) {
   // otherwise return false
   if (num < 90) {
   	return true;
-  }
-  return false;
+  } return false;
 }
 
 function greaterThanFifty(num) {
@@ -88,8 +85,7 @@ function greaterThanFifty(num) {
   // otherwise return false
   if (num > 50) {
   	return true;
-  }
-  return false;
+  } return false;
 }
 
 function getRemainder(x, y) {
@@ -103,17 +99,16 @@ function isEven(num) {
   // otherwise return false
   if (num % 2 === 0) {
   	return true;
-  }
-  return false;
+  } return false;
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   if (num % 2 === 0) {
-  	return false
+  	return false;
   }
-  return true
+  return true;
 }
 
 function square(num) {
@@ -157,14 +152,14 @@ function addExclamationPoint(str) {
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  const combine = firstName.replace (","," ");
+  const combine = firstName.replace (',','');
   return combine;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  const getGreeting = "Hello " + (name) + "!";
+  const getGreeting = 'Hello ' + (name) + '!';
   return getGreeting;
 }
 
