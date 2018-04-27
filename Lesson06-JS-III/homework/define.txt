@@ -1,0 +1,3 @@
+Arrays: Array object is used to store multiple values in a single variable. These are usually similar types of values. 
+Arrays have properties and methods.
+
