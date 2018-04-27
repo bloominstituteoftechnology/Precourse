@@ -74,13 +74,14 @@ function setUsersToPremium(users) {
 function sumUserPostLikes(user) {
   var postLikeSum = 0;
   user.posts.forEach(function(post){
-  postLikeSum += post.likes;
+    postLikeSum += post.likes;
 });
 return postLikeSum;
 
 function addCalculateDiscountPriceMethod(storeItem) {
   storeItem.calculateDiscountPrice = function(){
-    var discountPrice = this.price - (this.price * this.discountPercentage);
+    var discountPrice = this.price - (this.price * 
+    this.discountPercentage);
       return discountPrice;
   };
 }
