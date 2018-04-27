@@ -1,0 +1,17 @@
+* Objects
+Objects are containers that can store data in key-value pairs. An object can store data in any data type, including other objects.
+
+* Properties
+Properties are also called keys. These are the identifiers where values are assigned to.
+
+* Methods
+In objects, a key can also hold a function value. These are called methods of the object.
+
+* for in loop
+For in loop is a way to loop through each key of the object.
+
+* Dot notation vs bracket notation
+Dot and bracket notation are 2 different ways to access the properties of an object. There are a few differences between dot and bracket notations
+    1. Dot notation cannot be used on properties a space in it. For example: Object.first property is invalid. Need to use Object['first property']
+    2. Dot notation cannot be used on properties that start with a number. Object.1foo is invalid. Need to use Object['1foo']
+    
