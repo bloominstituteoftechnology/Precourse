@@ -1,13 +1,19 @@
 // Do not change any of the function names
 
-function createUserClass (username, name, email, password) {
-  this.username = username;
-  this.name = name;
-  this.email = email;
-  this.password = password;
-  this.sayHi = function() {
-    return 'Hello, my name is {{name}}';
-  };
+function createUserClass(){
+  class User {
+    constructor(options){
+      
+      this.username = options.username;
+      this.name = options.name;
+      this.email = options.email;
+      this.password = options.password;
+      this.sayHi = function(){
+    return ('Hello, my name is ' + this.name);
+  }; 
+    }
+  }
+   return User;
 }
 
 function addPrototypeMethod(Constructor) {
