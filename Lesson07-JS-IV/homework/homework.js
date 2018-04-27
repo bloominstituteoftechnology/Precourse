@@ -77,6 +77,7 @@ function sumUserPostLikes(user) {
     postLikeSum += post.likes;
 });
 return postLikeSum;
+}
 
 function addCalculateDiscountPriceMethod(storeItem) {
   storeItem.calculateDiscountPrice = function(){
@@ -84,6 +85,7 @@ function addCalculateDiscountPriceMethod(storeItem) {
     this.discountPercentage);
       return discountPrice;
   };
+  return storeItem;
 }
 
 // Do not modify code below this line.
