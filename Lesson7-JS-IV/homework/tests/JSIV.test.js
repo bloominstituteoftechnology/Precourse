@@ -67,16 +67,16 @@ describe('multiplyMysteryNumberByFive(mysteryNumberObject)', function() {
   });
 });
 
-const object = {
+function deleteProperty(object, property){
+  const myObject = {
   x: 1,
   y: 2,
   z: null,
 };
-function deleteProperty(object, property){
- delete object.z;
- return object;
+ delete myObject.z;
+ return myObject;
 }
-deleteProperty(object, 'z');
+deleteProperty();
 
 describe('newUser(name, email, password)', function() {
   it('should return a new user object with a name, email, and password property that match the arguments', function() {
