@@ -35,13 +35,24 @@ makeCat('Snowball III', 2, 'Meow!');
     const newObject = {
       x: 0,
       incrementX: function() {
-         let x = 0;     
-         x++;         
+         newObject.x = 0;     
+         newObject.x++;         
       }  
       
     }; 
     invokeMethod (newObject, 'x');
   }
+  //function invokeMethod(object, method){
+    //const newObject = {
+      //x: 0,
+      //incrementX: function() {
+        // let x = 0;     
+        // x++;         
+     // }  
+      
+   // }; 
+    //invokeMethod (newObject, 'x');
+  //}
       //expect(object.x).toBe(1);
      // method is a string that contains the name of a method on the object
    // invoke this method
@@ -57,6 +68,7 @@ makeCat('Snowball III', 2, 'Meow!');
     return mysteryNumberBox.mysteryNumber * 5;
   }
   multiplyMysteryNumberByFive('mysteryNumberBox');
+
 
 
   function deleteProperty(object, property){
