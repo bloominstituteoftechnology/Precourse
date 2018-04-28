@@ -1,0 +1,4 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Arrays
+	*mh: "Arrays are like storage containers for multiple pieces of data. You can put in as many as you'd like of all different types. Then you can reference that container as a single variable, look at a specific piece of data from it, and add/remove parts as needed.
