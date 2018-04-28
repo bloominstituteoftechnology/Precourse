@@ -1,0 +1,11 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Objects - Everything in Javascript is an object. However, the things that are explicitly only objects and nothing else are things that allow us to define what they are. You can do this through setting different properties (and their values) as well as making methods for these objects. It's some pretty powerful stuff!
+
+	* Properties - Objects possess properties that contain specific values to those properties. Think of a property as a key that contains can value (sometimes that value can be empty, but that will still mean that property exists on the object).
+
+	* Methods - Methods are functions. These are things that you can execute; they are more than just properties because they can be utilized (whereas a property won't inherently 'do' something; it can be read, and it will remain stored, but it wouldn't perform an action the way a method will).
+
+	* for in loop - a loop that is best used on objects; whereas a for loop will primarily work well for indexed values, a for in loop will work well for objects due to their non-indexed nature; think of it as being a way to run a loop for an un-ordered list
+
+	* Dot notation vs bracket notation - dot notation and bracket notation both are useful for calling on different properties that exist within an object; however, they both work differently— dot notation requires you to explicitly know and write the exact property name; bracket notation will be more useful when you're looking up a variable instead of the literal name of the property. Bracket notation, when looking up based off of the literal name of the property, will require the name to be a string within '', whereas dot notation is written without the quotes.
