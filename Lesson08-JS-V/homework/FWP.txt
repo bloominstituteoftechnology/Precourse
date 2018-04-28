@@ -1,0 +1,8 @@
+* `prototype`
+
+Prototype is an object of a class which can store multiple methods defined for that class. Any class object can access these methods, without creating a copy of the method in the object itself, thus saving memory.
+
+* Constructors
+
+Constructors, or class, are templates to create multiple objects that share the same properties and methods. 
+
