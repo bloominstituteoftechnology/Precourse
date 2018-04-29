@@ -1,0 +1,1 @@
+Arrays are things that contain lists of other things.
