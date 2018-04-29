@@ -1,0 +1,15 @@
+* Objects
+A collection of things called properties.
+
+* Properties
+Things with values contained within objects.
+
+* Methods
+Built-in functions that are used for objects.
+
+* for in loop
+A command used to go over properties of an object.
+
+* Dot notation vs bracket notation
+Dot notation is how you call up the property of an object.
+Bracket notation is when the property is dynamic.
