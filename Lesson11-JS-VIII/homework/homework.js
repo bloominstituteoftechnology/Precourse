@@ -7,15 +7,21 @@ function nFactorial(n) {
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
 
-  let counter = 1;
-  innerRecursion(n);
+  // let counter = 1;
+  // innerRecursion(n);
 
-  function innerRecursion(i) {
-   if (i < 1) return;
-   counter = counter * i;
-   innerRecursion(i-1);
+  // function innerRecursion(i) {
+  //  if (i < 1) return;
+  //  counter = counter * i;
+  //  innerRecursion(i-1);
+  // }
+  // return counter;
+
+  if (n < 2) {
+    return 1;
+  } else {
+    return n * nFactorial(n-1);
   }
-  return counter;
 }
 
 function nFibonacci(n) {

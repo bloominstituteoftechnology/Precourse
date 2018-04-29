@@ -1,0 +1,8 @@
+* DOM - It stands for 'document object model'.  This is a 'document' object created in Javascript when a browser
+loads a html file.  The entire html file is enbedded and accessible through the 'document' object in JS.
+
+* DOM element selectors - Javascript 'document' methods used to select HTML elements. I.e. document.querySelector('#id');,
+document.querySelectorAll('.classname'); document.getElementsByClassName('classname'); document.getElementsById('id');
+
+* DOM events - Javascript 'document' methods that can respond when an event(click, hover, ...) happens.  These methods
+make a website more dynamic.  I.e, document.addEventListener( 'click', function() { ...do something...} );
