@@ -1,22 +1,23 @@
 // Do not change any of the function names
 
-// In these first 6 questions, replace `null` with the answer
+//                             In these first 6 questions, replace `null` with the answer
 
-const newString = 'Fred'; // create a string variable, it can contain anything
+const newString = 'Fred'; //            create a string variable, it can contain anything
 
-const newNum = 42; // create a number variable, it can be any number
+const newNum = 42; //                   create a number variable, it can be any number
 
-const newBool = true; // create a boolean variable
+const newBool = true; //                create a boolean variable
 
-const newSubtract = 10 - 5 === 5; // solve the math problem
+const newSubtract = 10 - 5 === 5; //    solve the math problem
 
-const newMultiply = 10 * 4 === 40; // solve the math problem
+const newMultiply = 10 * 4 === 40; //   solve the math problem
 
-const newModulo = 21 % 5 === 1; // solve the math problem
+const newModulo = 21 % 5 === 1; //      solve the math problem
 
-// In the next 22 problems you will complete the function
-// All of your code will go inside of the function braces
-// Make sure you use return when the prompt asks you to
+
+//                  In the next 22 problems you will complete the function
+//                  All of your code will go inside of the function braces
+//                  Make sure you use return when the prompt asks you to
 
 function returnString(str) { // simply return the string provided: str
     return str;

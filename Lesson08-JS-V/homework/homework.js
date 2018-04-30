@@ -1,6 +1,7 @@
 // Do not change any of the function names
 
 function createUserClass() {
+
     // create an ES6 class or a constructor function called User
     // it should accept an options object with username, name, email, and password properties
     // in the constructor set the username, name, email, and password properties
@@ -21,6 +22,7 @@ function createUserClass() {
 }
 
 function addPrototypeMethod(Constructor) {
+
     // add a method to the constructor's prototype
     // the method should be called 'sayHi' and should return the string 'Hello World!'
 
@@ -30,6 +32,7 @@ function addPrototypeMethod(Constructor) {
 }
 
 function addReverseString() {
+
     // add a method to the string constructor's prototype that returns a reversed copy of the string
     // name this method reverse
     // hint: you will need to use 'this' inside of reverse
