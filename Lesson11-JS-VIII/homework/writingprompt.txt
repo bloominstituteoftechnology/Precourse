@@ -1,0 +1,14 @@
+Recursion:
+
+Now Recursion is by far one of the most powerful things I have found in
+programming. Think of it like this; You can use a loop or you could use
+recursion (really the same thing). The difference lays within how they are built.
+Like so, let's say there is a road infront of you, and for the next 10 miles, 
+every 5 meters, there is a small, but sharp ugly speed bump. You could drive 
+over this with normal tires, basically using a loop in programming. OR you could
+build specialty tires that have dents that excactly match the shape
+of those wretched speed bumps, and these dents are perfectly spread out so 
+that your drive for the next 10 miles is seemless, and smooth. 
+And the reason this is very important to learn is because in programming, you
+aren't going to have a choice, your going to be building a lot of specialty
+tires. 

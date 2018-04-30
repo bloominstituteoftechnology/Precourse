@@ -1,0 +1,23 @@
+Variables:
+Variables are little shortcuts for information, for example you can set 
+"var i = 'apples'" and that gives 'i' a value of the word 'apples' unless
+you change it again which is as easy as "i = 'oranges'".
+
+Strings:
+Think of strings as variables that are only text. No numbers or weird decimel
+places. For example a variables called "soup" that has a value of "The soup is 
+Good" is a string.
+
+Functions:
+Functions are like little programs inside your script. You use them to get 
+specific things done. Like checking is someone is a certain age or seeing if
+certain variables are dividable by other numbers.
+
+'if' statements:
+if statements are super useful when checking for certain things.
+For example you could have a variable called "one" that has a value of '1'
+(number not the written character "1") and you could write out a short "if"
+statement to check if 'one' is really equal to 1, and if it's not then that's
+where the good old "else" comes in, because in this case if 'one' is not equal
+to '1' then it will tell us.
+

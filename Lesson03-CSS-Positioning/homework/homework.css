@@ -8,36 +8,63 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+	text-align:center;
+	display:block;
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
 
-/* Place code here */
-
-
-
-/* Exercise Three: */
-
-/* Place code here */
-
-
-
-/* Exercise Four: */
-
-/* Place code here */
-
-
-
-/* Exercise Five */
-
-/* Place code here */
-
-
-
-/* Exercise Six */
-
-#exerciseSeven {
-  display: flex;
+#exerciseTwo{
+	display:none;
 }
+
+/* Exercise Three: Position image */
+
+#exerciseThree{
+	margin: 100px 200px;
+}
+
+/* Exercise Four: Fix header bar*/
+
+#exerciseFour{
+	position: fixed;
+	top:0px;
+	left:0px;
+	
+}
+
+/* Exercise Five: Organize header bar */
+
+#exerciseFive{
+	display:flex;
+	align-items: center;
+	justify-content: center space-around;
+}
+
+
+/* Exercise Six: Reverse header bar display */
+
+#exerciseFive {
+  display:flex;
+  flex-direction: row-reverse;
+}
+
+/* Exercise Seven: Move boxes all around */
+
+#exerciseSeven{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	align-itemOne:top right;
+	align-self: itemOne.top;
+}
+
+#itemOne{
+	display:flex;
+	align-items: top left;
+}
+
+
+
+

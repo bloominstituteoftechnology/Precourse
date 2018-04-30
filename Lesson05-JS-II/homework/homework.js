@@ -3,6 +3,9 @@
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
+	if(x > y){return x;}
+	if(y > x){return y;}
+	if(x == y){return y;}
 }
 
 function greeting(language) {
@@ -11,16 +14,24 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
+  if(language == 'German'){return 'Guten Tag!';}
+  if(language == 'Mandarin'){return 'Ni Hao!';}
+  if(language == 'Spanish'){return 'Hola!';}
+  else{return 'Hello!';}
 }
 
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
+  if(num == 10 || num == 5){return true;}
+  else{return false;}
 }
 
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
   // otherwise return false
+  if(num > 20 && num < 50){return true;}
+  else{return false;}
 }
 
 function isInteger(num) {
@@ -30,6 +41,9 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
+	if(Math.floor(num) == num){return true;}
+	else{return false;}
+
 }
 
 function fizzBuzz(num) {
@@ -37,6 +51,11 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
+  if(num % 3 === 0 && num % 5 === 0){return 'fizzbuzz';}  
+  if(num % 3 === 0){return 'fizz';}
+  if(num % 5 === 0){return 'buzz';}
+  else{return num;}
+  
 }
 
 function isPrime(num) {
@@ -45,6 +64,17 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
+	if(num == 0){return false;}
+	if(num % 10 === 0){return false;}
+	if(num % 2 === 0){return false;}
+	if(num % 4 === 0){return false;}
+	if(num % 5 === 0 && num != 5){return false;}
+	if(num % 6 === 0){return false;}
+	if(num % 8 === 0){return false;}
+	if(num <= 1){return false;}
+	else{return true;}
+
+  
 }
 
 

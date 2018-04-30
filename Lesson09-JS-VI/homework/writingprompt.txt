@@ -1,0 +1,7 @@
+Callback Functions: Callback's are when you use a variable as a function within
+a function. It sounds funky but I like to think of it like spiderman swinging
+on webs, because the functions "action" comes to a near halt and then a callback
+is used to re-initiate another function or the same one again, instantly going
+from one action to another. Most common you'll use this when you need to
+continue a function, but have it "function" different, or games or display/
+graphical programs.

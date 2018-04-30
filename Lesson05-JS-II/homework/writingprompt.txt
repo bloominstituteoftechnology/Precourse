@@ -1,0 +1,17 @@
+For:
+a 'for' loop is like saying. "for every time this thing happense, do this." So how that would sound after it's been used could be; "For every time
+an item in a list isn't apples, print "NO! I don't want that!"
+
+&&:
+The '&&' symbol looks ugly and weird, but all it's saying is "and", and that's easy to remember by thinking of Jack&TheBox, that '&' means "and." So in 
+programming all you do is use two of them to say "and".
+
+||:
+The '||' symbol also looks ugly and weird, but this one means "or". Now that can be hard to remember because this is just two straight lines. But try to remember
+"or" in programming as those two lines that don't resemble the concept of "or"
+one bit.
+
+!:
+the "!" in programming is very easy to remember. Think of it as a stop sign or
+warning whenever you see it because it literally means "not", like "1 != 2". or
+"One is not equal to two." 
