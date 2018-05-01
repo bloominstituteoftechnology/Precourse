@@ -18,11 +18,17 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language 0is undefined return 'Hello!'
-  switch (greeting){
-    case ('German') : return 'Guten Tag!';
-    case ('Mandarin') : return 'Ni Hao!';
-    case ('Spanish') : return 'Hola!';
-  }  if (language === 0)  return 'Hello!';
+    if (greeting(language == 'German')) {
+      return 'Guten Tag!';
+  }
+    else if (greeting(language == 'Mandarin')) { 
+      return 'Ni Hao!';
+    }
+    else if (greeting(language == 'Spanish')) {
+     return 'Hola!';
+  }  if (language === 0) { 
+    return 'Hello!';
+  }
 }
 
 function isTenOrFive(num) {
