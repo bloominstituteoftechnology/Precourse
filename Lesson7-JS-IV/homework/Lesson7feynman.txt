@@ -1,0 +1,20 @@
+Lesson 7 Feynman writing prompts
+
+Objects - in Javascript - objects are containers for "named values", also known as name:value pairs. They are
+similar to arrays, as they contain a collection of data, but differ in that they hold alot of information about 
+one thing. It is also organized differently, in that any value inside of an object is associated with a key
+or property.
+
+Properties - each name:value pair in an object is called a property, which consists of a key and its associated
+value.
+
+Methods - in addition to properties, objects may also contain methods. Methods are actions that can be performed
+on objects. Methods are stored in properties as functions. They allow you to manipulate date inside or being 
+passed to/from the object.
+
+For in loop - a for in loop is similar to the for loop which we learned for arrays, however this loops through
+the properties of an object. The block of code inside the loop will be executed once for each property.
+
+Dot notation vs. bracket notation - Both dot and bracket notation accomplish the same thing, however bracket
+notation is used when dealing with a variable, while dot notation is used when we explicitly know the name
+of the property or key.
