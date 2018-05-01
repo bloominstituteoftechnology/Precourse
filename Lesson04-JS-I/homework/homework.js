@@ -1,7 +1,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = 'Kansas' ;
+const newString = 'Nevada' ;
 
 //create a number variable, it can be any number
 const newNum = 25;
