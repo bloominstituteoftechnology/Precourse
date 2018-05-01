@@ -26,7 +26,7 @@ function greeting(language) {
     }
     else if (language === 'Spanish') {
      return 'Hola!';
-  }  if (language === 0) { 
+  }  else if (language === 0) { 
     return 'Hello!';
   }
 }
@@ -34,7 +34,7 @@ function greeting(language) {
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
-  if (num === 10 || 5) {
+  if (num === 10 || num ===  5) {
     return true;
   } 
   else return false;
