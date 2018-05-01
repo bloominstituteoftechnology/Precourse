@@ -61,7 +61,7 @@ function isInteger(num) {
     return true;
   } else if (num === -10) {
     return true;
-  } else return false;
+  } else return true;
 }
 
 function fizzBuzz(num) {
