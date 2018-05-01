@@ -1,0 +1,5 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `prototype` - 'prototype' is the property that is created for each and every object in Javascript. It allows for us to set new properties and methods onto objects. The prototype property allows us to save on how much memory cost exists for creating new functions, instead enabling us to use the prototype to set functions on only once rather than re-creating functions for each individual object. This is because, once a method is called on an object, if it doesn't exist in the object, then the 2nd place the computer will check is the prototype.
+
+	* Constructors - Also known as classes, constructors are objects that can be setup to make multiple objects that share common traits (and those traits may have different values). It saves on the amount of code & time that would otherwise be spent on hard coding the keys and values for objects.

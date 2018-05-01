@@ -1,0 +1,53 @@
+html,body {
+    height: 100%;
+}
+
+body  {
+    background-image: url("https://topbackgroundwallpaper.com/wp-content/uploads/2018/01/pic-for-wallpaper-pexels-photo-55787.jpg");
+    background-position: left center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: table;
+    margin: 0 auto;
+}
+
+h1 {
+    color: darkseagreen;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+img {
+    width: 400px;
+}
+
+.divClass {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    border-style: double;
+    border-width: 12px;
+    border-color: darkturquoise;
+    background-color: salmon;
+    padding: 50px;
+    text-align: center;
+}
+
+div {
+    width: 600px;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
