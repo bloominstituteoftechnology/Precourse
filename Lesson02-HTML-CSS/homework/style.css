@@ -1,0 +1,16 @@
+h1 {color: darkcyan}
+
+	img {width: 400px;}
+
+	#thirdDiv {height: 600px; width: 500px; background-color: blue; padding: 50px; border: 10px color: blue; }
+	#spanId {font-size: 18px; margin: 50px;}
+
+	div { margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;}
+
+    body {
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOsWGxZFPCk7RV3UjbPwDUW75IDEwCinELORXUPVqRbwO_eKLLqQ");
+background-repeat: no-repeat;
+   background-size: 100% 100%;}
