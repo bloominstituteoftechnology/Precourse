@@ -53,7 +53,7 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  if (num == num.floor(num)){
+  if (Math.floor(num)){
     return true;
   } else if (num === 0.8) {
     return false;
