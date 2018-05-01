@@ -69,9 +69,9 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
-  if (num === num/3) {
+  if (num/3) {
     return 'fizz';
-  } else if (num === num/5) {
+  } else if (num/5) {
     return 'buzz';
   } else if (num === num/3 && num/5) {
     return 'fizzbuzz';
