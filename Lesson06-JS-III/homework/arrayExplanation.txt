@@ -1,0 +1,19 @@
+When we want to store multiple values in a variable we use arrays. 
+
+Unlike string, numbers, and booleans which only allow one value to be stored in a variable, array allows multiple values. 
+
+It is extremely simple to build an array. All we need to do is declare a variable and set it to [] and then add as many numbers, strings, or booleans to the array each separated by a comma. 
+
+We can access individual items in an array by calling the position of the item in the array. The first item always starts at 0th position, second item at 1, third at 2 and the rest follow in numerical sequence.
+
+We can assign and reassign values to individual items in an array using an =
+
+Example. If numbers is an array of integers which has 5 items in it, we can assign a value to the 1st item in the array as shown below:
+numbers[0] = 145; where 0 is the position of the first item in the array. 
+
+2nd item can be assigned a value of 56 as shown below:
+numbers[1] = 56;
+
+Arrays have various properties associated with them such as  .length which helps to determine the length of an array. You can add items to the end of an array by using .push and delete an item by using .pop
+
+Similarly you can add an item at the start of an array by using .unshift and delete by using .shift. There are several such properties that can be applied to an array.  
