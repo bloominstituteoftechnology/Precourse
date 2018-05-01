@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+}
+
+h1{
+  color: lightgreen;
+}
+img{
+  width: 400px;
+}
+div{
+  margin: 0 auto;
+  width: 50%;
+}
+
+#thirdDiv{
+  height: 600px;
+  width: 500px;
+  background-color: paleturquoise;
+  padding: 50px;
+  border: 2px solid;
+}
+#spanId{
+  font-size: 18px;
+  margin: 50px;
+}

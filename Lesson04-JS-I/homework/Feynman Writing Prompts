@@ -1,0 +1,17 @@
+Variables:
+Variables are like containers, you can store things (values, words, equations) in them so that you can use them later in a number of different ways. 
+
+Strings:
+Strings are just plain text, they are changeable later and can be stored in variables
+
+Functions (arguments, `return`):
+Functions are a sort of blueprint, you put code into a function a then can call that function later, and as many times as needed.
+You can pass arguments (could be strings, ints, booleans, objects) that the function can then use to manipulate.
+
+`if` statements:
+If statments can move code along if a certain condition is met, for example if a number is equal to 5, then you can execute specific
+code for that outcome.
+
+Boolean values (`true`, `false`):
+Booleans are a good way to report if an outcome is met, you can set a boolean at the end of a function, then somewhere else in your code, 
+check that boolean and depending on if its true or false, perform certain actions.

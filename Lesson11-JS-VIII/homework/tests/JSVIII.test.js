@@ -9,14 +9,14 @@ describe('Test suite runs', () => {
 //   nFactorial,
 //   nFibonacci,
 // } = require('../homework');
-
+//
 // describe('nFactorial(n)', function() {
 // 	it('should return the factorial of n', function() {
 // 		expect(nFactorial(5)).toBe(120);
 // 		expect(nFactorial(15)).toBe(1307674368000);
 // 	});
 // });
-
+//
 // describe('nFibonacci(n)', function() {
 // 	it('should return the nth fibonacci number', () => {
 // 		const fib1 = nFibonacci(5);
