@@ -53,7 +53,7 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  if (num === math.floor(num)){
+  if (num == num.floor(num)){
     return true;
   } else if (num === 0.8) {
     return false;
@@ -84,7 +84,7 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  
+
 }
 
 
