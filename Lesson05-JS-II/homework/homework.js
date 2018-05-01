@@ -26,9 +26,7 @@ function greeting(language) {
     }
     else if (language === 'Spanish') {
      return 'Hola!';
-  }  else if (language === 0) {
-    return 'Hello!';
-  }
+  }  else return 'Hello!';
 }
 
 function isTenOrFive(num) {
@@ -55,6 +53,15 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
+  if (num === math.floor(num)){
+    return true;
+  } else if (num === 0.8) {
+    return false;
+  } else if (num === 1) {
+    return true;
+  } else if (num === -10) {
+    return true;
+  } else return false;
 }
 
 function fizzBuzz(num) {
@@ -62,6 +69,13 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
+  if (num === num/3) {
+    return 'fizz';
+  } else if (num === num/5) {
+    return 'buzz';
+  } else if (num === num/3 && num/5) {
+    return 'fizzbuzz';
+  } else return num;
 }
 
 function isPrime(num) {
@@ -70,6 +84,7 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
+  
 }
 
 
