@@ -70,7 +70,7 @@ makeCat('Snowball III', 2, 'Meow!');
    delete myObject.z;
    return myObject;
  }
-  deleteProperty('myObject', 'z');
+  deleteProperty();
 
 
   function newUser(name, email, password) {
