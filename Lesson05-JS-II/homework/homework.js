@@ -71,9 +71,9 @@ function fizzBuzz(num) {
   // otherwise return num
   if (num / 3) {
     return 'fizz';
-  } else if (num/5) {
+  } else if (num / 5) {
     return 'buzz';
-  } else if (num === num/3 && num/5) {
+  } else if (num/3 && num/5) {
     return 'fizzbuzz';
   } else return num;
 }
