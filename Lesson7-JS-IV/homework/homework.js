@@ -24,7 +24,7 @@ makeCat('Snowball III', 2, 'Meow!');
        updatedObject.z = null;
        return updatedObject;
   }
-    addProperty('updatedObject', 'x');
+    addProperty('object', 'z');
      // add the property to the object with a value of null
     // return the object
    // note: the property name is NOT 'property'.
@@ -42,17 +42,7 @@ makeCat('Snowball III', 2, 'Meow!');
     }; 
     invokeMethod (newObject, 'x');
   }
-  //function invokeMethod(object, method){
-    //const newObject = {
-      //x: 0,
-      //incrementX: function() {
-        // let x = 0;     
-        // x++;         
-     // }  
-      
-   // }; 
-    //invokeMethod (newObject, 'x');
-  //}
+ 
       //expect(object.x).toBe(1);
      // method is a string that contains the name of a method on the object
    // invoke this method
