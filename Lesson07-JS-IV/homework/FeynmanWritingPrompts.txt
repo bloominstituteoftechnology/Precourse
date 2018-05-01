@@ -1,0 +1,130 @@
+Objects are used to store a lot of information about one thing. It could be information about a user like their name, email, age, city etc. 
+
+Objects can be instantiated with curly brackets {}
+Example:
+var newObject = {}; 
+
+Each object has a property and a value associated with it. This combination is called the key value pair and has the syntax “key:value” 
+
+Objects can have multiple key:value pairs and they are separated by a comma. Key  names have to be unique within the object but there can be multiple keys with same values in the object. Values can be any javascript data type like string, number, or boolean. 
+
+Lets consider an example on how to create an object called user.
+var user = {
+	name:  ‘Dave’,
+    age: 25,
+    city: ‘San Francisco’,
+    likesChocolate: true
+};
+
+In the above example name, age, city, and likesChocolate are keys and ‘Dave’, 25, San Francisco, and true are values associated with the keys. 
+
+We can access values from an object by using the object name and the key. It can be done in 2 ways, dot notation and bracket notation. 
+
+With dot notation all we need to do is use the object name followed by a dot and the key name. Below is an example:
+
+user.name;     //Dave
+user.age;        //25
+
+With bracket notation if we have the key name we can simply use the key name within the bracket with quotes. Example:
+
+user[‘name’];    //Dave
+user[‘age’];       //25
+
+Instead of a key name there are times when we have access to variables that hold the key name. In this case we can simply use the variable without the quotes in the bracket. 
+Example:
+user[variable]; 
+
+In the programming world brackets are almost always used with variable. 
+ 
+We can assign values to keys in an object by using dot notation or bracket notation. 
+Example:
+user.city = ’New York’;
+user[‘city’] = ’New York’;
+
+
+Example using a variable:
+var newAge = ‘age’;
+user[newAge] = 27;
+----------------------
+Properties:
+
+If we want to remove a property of an object we can use the delete keyword. 
+
+Example:
+var user = {
+	name:  ‘Ron’,
+	age: 27;
+  city: ‘New York’,
+  likesChocolate: true
+};
+
+delete user.age;
+
+The age property from the object user will be removed.
+------------
+Methods:
+
+Object values can be set to a function and functions that are saved on an object are called methods. Let’s consider an example where we set the value of the key greeting as a function:
+
+user = {
+ greeting:  function() {
+     return (‘Hello Everyone!’);
+   },
+}
+
+We can call the function by using it’s key name (in this case greeting) on the object name (user) by using the dot notation and trailing parentheses as shown below: 
+
+user.greeting();    // Hello Everyone!
+
+There are various methods like .length, .push, .pop that are constantly used.
+
+------------------
+for in loop:
+
+There are times when we want to iterate through each key:value pair in our objects, that is when we use for in loop.
+
+In arrays we use the for loop since we have access to index values of items in an array. Since, objects don’t have index values we use the for in loop instead of the for loop. 
+
+The for in loop starts with the keyword for followed by parentheses which contains the variable that is followed by the keyword ‘in’ and the name of the object. 
+Example: 
+var user = {
+	  name:  ‘Dave’,
+    age: 25,
+    city: ‘San Francisco’,
+    likesChocolate: true
+};
+
+for(var key in user) {
+	console.log(key);
+}
+
+//name
+//age
+//city
+//likesChocolate
+
+The above for loop will go through each key in the object and finish when all the keys are done. 
+------------------
+Dot notation vs bracket notation: 
+
+We can access values from an object by using the object name and the key. It can be done in 2 ways, dot notation and bracket notation. 
+
+Dot notation:
+With dot notation all we need to do is use the object name followed by a dot and the key name. Let’s consider an example:
+
+user.name;     //Dave
+user.age;        //25
+
+Bracket Notation:  
+
+If we have the key name we can simply use the key name within the bracket with quotes. 
+Example:
+user[‘name’];    //Dave
+user[‘age’];       //25
+
+
+Instead of a key name there are times when we have access to variables that hold the key name. In this case we use the variable without the quotes in the bracket. 
+Example:
+user[variable]; 
+
+In the programming world brackets are almost always used with variable. 
