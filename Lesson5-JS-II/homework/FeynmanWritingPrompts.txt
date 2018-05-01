@@ -1,0 +1,6 @@
+#Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes i#n your understanding. Ask your questions on Slack.
+
+# For - loops through a block of code a number of times
+# && - returns a block of code if all conditions are met
+# || - returns a block of code if either or the conditions are met
+# !  - returns a false statement if the logic can be converted to true.
