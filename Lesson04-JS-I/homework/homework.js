@@ -27,7 +27,7 @@ const newModulo = 21 % 5 === 1;
 
 function returnString(str) {
   //simply return the string provided: str
-  const string = ('str')
+  const string = ('str');
   return string;
 }
 
@@ -77,7 +77,7 @@ function areSameLength(str1, str2) {
   if (str1.length === str2.length) {
     return true;
   }
-  return (str1.length !== str2.length); false;
+  return false;
 }
 
 function lessThanNinety(num) {
