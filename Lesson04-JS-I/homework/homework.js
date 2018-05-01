@@ -180,7 +180,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return name.concat (' ' ,'Sam','!');
+  return name.concat (' ' ,'Ben','!');
 }
 
 // The next three questions will have you implement math area formulas. 
