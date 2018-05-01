@@ -63,7 +63,7 @@ function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
-  if (x = y) {
+  if (x == y) {
     return true;
   }
   return false;
