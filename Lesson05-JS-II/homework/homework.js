@@ -26,7 +26,7 @@ function greeting(language) {
     }
     else if (language === 'Spanish') {
      return 'Hola!';
-  }  else if (greeting()) { 
+  }  else if (greeting(undefined)) { 
     return 'Hello!';
   }
 }
