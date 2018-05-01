@@ -18,13 +18,13 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language 0is undefined return 'Hello!'
-    if (language == 'German') {
+    if (language === 'German') {
       return 'Guten Tag!';
   }
-    else if (language == 'Mandarin') { 
+    else if (language === 'Mandarin') { 
       return 'Ni Hao!';
     }
-    else if (language == 'Spanish') {
+    else if (language === 'Spanish') {
      return 'Hola!';
   }  if (language === 0) { 
     return 'Hello!';
@@ -34,11 +34,18 @@ function greeting(language) {
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
+  if (num === 10 || 5) {
+    return true;
+  } 
+  else return false;
 }
 
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
   // otherwise return false
+  if (num < 50 && num > 20) {
+    return true;
+  } else return false;
 }
 
 function isInteger(num) {
