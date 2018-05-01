@@ -27,7 +27,7 @@ const newModulo = 21 % 5 === 1;
 
 function returnString(str) {
   //simply return the string provided: str
-  return "str";
+  return 'str';
 }
 
 function add(x, y) {
@@ -66,7 +66,7 @@ function areEqual(x, y) {
   if (x = y) {
     return true;
   }
-return false;
+  return false;
   }
 
 function areSameLength(str1, str2) {
@@ -111,7 +111,7 @@ function isEven(num) {
   // otherwise return false
   // code here
   if (num % 2 == 0){
-    return true
+    return true;
   }
   return false;
 }
@@ -130,33 +130,33 @@ function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-  return Math.pow(num, 2)
+  return Math.pow(num, 2);
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
-  return Math.pow(num, 3)
+  return Math.pow(num, 3);
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
   /*return math.pow(num, math.exp(3))*/
-  return Math.pow(num, exponent)
+  return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
-  sum =  Math.round(num);
+  const sum =  Math.round(num);
   return sum;
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
-  sum = Math.ceil(num);
+  const sum = Math.ceil(num);
   return sum;
 }
 
@@ -164,7 +164,7 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-const exclamation = "!";
+const exclamation = '!';
 return (str+exclamation);
 }
 
@@ -172,14 +172,14 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  return firstName + " " + lastName;
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return name.concat (" " ,"Sam","!");
+  return name.concat (' ' ,'Sam','!');
 }
 
 // The next three questions will have you implement math area formulas. 
