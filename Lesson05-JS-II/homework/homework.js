@@ -17,7 +17,12 @@ function greeting(language) {
   // language: 'German' -> 'Guten Tag!'
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
-  // if language is undefined return 'Hello!'
+  // if language 0is undefined return 'Hello!'
+  switch (greeting){
+    case ('German') : return 'Guten Tag!';
+    case ('Mandarin') : return 'Ni Hao!';
+    case ('Spanish') : return 'Hola!';
+  }  if (language === 0)  return 'Hello!';
 }
 
 function isTenOrFive(num) {
