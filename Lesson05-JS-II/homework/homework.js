@@ -18,13 +18,13 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language 0is undefined return 'Hello!'
-    if (greeting(language == 'German')) {
+    if (language == 'German') {
       return 'Guten Tag!';
   }
-    else if (greeting(language == 'Mandarin')) { 
+    else if (language == 'Mandarin') { 
       return 'Ni Hao!';
     }
-    else if (greeting(language == 'Spanish')) {
+    else if (language == 'Spanish') {
      return 'Hola!';
   }  if (language === 0) { 
     return 'Hello!';
