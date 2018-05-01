@@ -1,0 +1,9 @@
+Variables: A name you make to represent something.
+
+Strings: Letters and/or numbers inside quotation marks represented by variables. 
+
+Functions (arguments, return): A process that uses variables to return something.
+
+if statements: Functions that return something if a condition is true, and something else if that condition is false.
+
+Boolean values (true, false): The only two possible values of Boolean variables.

@@ -1,0 +1,5 @@
+* `prototype`
+A dot notation command that objects can use to reference properties from a "parent" object.
+
+* Constructors
+A special method used to make objects within a class.
