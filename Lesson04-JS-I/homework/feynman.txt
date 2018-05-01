@@ -1,0 +1,10 @@
+
+Variables: A variable is a named location for storing a value.
+
+Strings: Strings are sequences of characters used to represent text.
+
+Functions (arguments, `return`): A function is a code snippet that can be called by other code or by itself, or a variable that refers to the function. When a function is called, arguments are passed to the function as input, and the function can optionally  return an output.
+
+`if` statements: The if statement executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed.
+	 
+Boolean values (`true`, `false`): A boolean is a data type that can have only the values true or false.

@@ -1,0 +1,9 @@
+ `for`: The for statement creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a block statement) to be executed in the loop.
+
+ `&&`, `||`, `!`: 
+
+   `&&` is the logical AND operator. The usage is `expr1 && expr2`. Returns expr1 if it can be converted to false; otherwise, returns expr2. Thus, when used with Boolean values, `&&` returns true if both expressions are true; otherwise, returns false.
+
+   `||` is the logical OR operator. The usage is `expr1 || expr2`. Returns expr1 if it can be converted to true; otherwise, returns expr2. Thus, when used with Boolean values, `||` returns true if either expression is true.
+
+   `!` is the logical NOT operator. The usage is `!expr`. Returns false if expression can be converted to true; otherwise, returns true.

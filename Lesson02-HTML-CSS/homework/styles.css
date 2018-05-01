@@ -1,0 +1,42 @@
+body{
+	background-image: url("cake-background.jpg");
+}
+div{
+	margin-left: auto;
+	margin-right: auto; 
+	position: relative;
+	display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+h1 {
+  color: DarkBlue;
+  position: fixed;
+  background: #ffffe6;
+}
+h3 {
+  background: #ffffff;
+}
+h4 {
+  background: #ffffff;
+}
+ul {
+	margin: auto;
+	position: absolute;
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  height: 500px;
+  width: 600px;
+  background: #ffff99; 
+  padding: 50px;
+  border: 15px ridge chocolate;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+  background: #ffffcc;
+}
