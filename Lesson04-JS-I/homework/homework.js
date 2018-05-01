@@ -180,8 +180,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  name.concate('Hello, '+ name +'!');
-  return getGreeting;
+  return 'Hello ${name}!';
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -196,7 +195,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  return base*height;
+  return (base*height) * 1 / 2;
 }
 
 // Do not modify code below this line.
