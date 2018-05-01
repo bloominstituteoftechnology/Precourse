@@ -2,7 +2,7 @@
   STEP 0: Create an empty array called 'toDoItems'.
 */
 
-// code here
+const toDoItems = []// code here
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -10,7 +10,8 @@
           add your name to the END of the current innerHTML.
 */
 
-// code here
+const newSpan = document.querySelector('#createdBy');
+newSpan.innerHTML = ('Created by Robin Williams');//code here
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -18,8 +19,9 @@
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
-  // code here
+function ToDo (description) {
+this.description = description;
+this.complete = false;// code here
 }
 
 /* 
@@ -28,13 +30,33 @@ function ToDo () {
           Inside the function set the ToDo's 'complete' property to true.
 */
 
-// code here
+ToDo.prototype.completeToDo = function(){
+  this.complete = true;
+}// code here
 
-/*
-  STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
+
+  function buildToDo(toDo, index) {
+ let toDoShell = document.createElement('div');
+ toDoShell.className = ('toDoShell');
+
+ let toDoText = document.createElement('span');
+ toDoText.innerHTML = toDo.description;
+ toDoText.id = index;
+
+ toDoText.addEventListener('click', completeToDo)
+
+ if(toDo.complete === true){
+   toDoText.className = ('completeText');
+ }
+
+ toDoShell.appendChild(toDoText);
+ return toDoShell;
+}// code here
+
+/*STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
           the second is a numerical index.
            
-          Inside this function it should:
+           Inside this function it should:
             1.) Create a new 'div' element. Set this to a variable 'toDoShell'.
             2.) Give 'toDoShell' a class (for CSS) of 'toDoShell'.
             3.) Create a new 'span' element. Set this to a variable called 'toDoText'.
@@ -46,9 +68,6 @@ function ToDo () {
             8.) return toDoShell
 */
 
-function buildToDo(todo, index) {
-  // code here
-}
 
 /* 
   STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
@@ -57,7 +76,8 @@ function buildToDo(todo, index) {
 */
 
 function buildToDos(toDos) {
-  // code here
+ return toDos.map(buildToDo); 
+ // code here
 }
 
 /* 
@@ -73,7 +93,12 @@ function buildToDos(toDos) {
 */
 
 function displayToDos() {
-  // code here
+ let toDoContainer = document.getElementById('toDoContainer');
+ toDoContainer.innerHTML ='';
+ const itemList = buildToDo(toDoItems);
+ for (let i = 0; i < toDoItems.length; i++) {
+   toDoContainer.append(itemList[i]);
+ } // code here
 }
 
 /* 
@@ -89,8 +114,12 @@ function displayToDos() {
 */
 
 function addToDo() {
-  // code here
-}
+  const newToDo = document.querySelector('#toDoInput');
+  toDoItems.push(newToDo.value);
+  newToDo.value = ''
+  displayToDos();
+ }// code here
+
 
 /* 
   STEP 8: In this step we will fire addToDo everytime the 'ADD' button is clicked.
@@ -98,7 +127,8 @@ function addToDo() {
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
 
-// cod here
+let addButton = document.querySelector('#addButton');
+addButton.addEventListener('click', addToDo);// code here
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
@@ -115,9 +145,12 @@ function addToDo() {
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
-  // code here
-}
+   const index = event.target.id;
+   toDoItems[index].completeToDo();
+ displayToDos();
+}// code here
+
+
 
 /* STEP 10: Make sure ALL tests pass */
 
@@ -135,7 +168,7 @@ function completeToDo(event) {
 // ********************************************** ----------- ********************************************** //
 
 
-// Call displayToDos here (Step 6)<-----
+ displayToDos.call// Call displayToDos here (Step 6)<-----
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //

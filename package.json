@@ -19,5 +19,8 @@
   "devDependencies": {
     "eslint": "^4.13.1",
     "jest": "^22.0.3"
+  },
+  "dependencies": {
+    "npm": "^5.8.0"
   }
 }
