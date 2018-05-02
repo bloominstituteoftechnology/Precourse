@@ -1,6 +1,9 @@
 // Do not change any of the function names
 
-function invokeCallback(cb) {
+const invokeCallback = function (number) {
+  return number+2;
+};
+invokeCallback(3);
   // invoke cb
 }
 

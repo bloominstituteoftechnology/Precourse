@@ -1,5 +1,4 @@
 // Do not change any of the function names
- 
 function makeCat(name, age) {
   const newCat = {
    name:'Snowball III',
