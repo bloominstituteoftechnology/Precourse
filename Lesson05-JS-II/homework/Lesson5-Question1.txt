@@ -1,0 +1,12 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `for`
+	* `&&`, `||`, `!`
+
+A for loop is a repeating program.  You set where the program starts; when it continues until; and what same action it performs each time it runs.  It is important to instruct it to end, otherwise is will continue infinitely.  
+
+'&&' is used to compare two conditions, where the first condition AND the second have to true to continue on.
+
+'||' compares 2 conditions, where either the first condition OR second can be true to continue on.
+
+'!' is considered NOT.  It will change the condition to the opposite.  !true would be changed to a condition of false.

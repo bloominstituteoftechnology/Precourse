@@ -1,0 +1,26 @@
+﻿LAMBDA PRE-COURSE - LESSON 4 - JAVASCIPT 1
+Qustion 1:
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.                
+        * Variables
+        * Strings
+        * Functions (arguments, `return`)
+        * `if` statements
+        * Boolean values (`true`, `false`)
+
+variables: 
+Varibles store data into keywords.  That data contained within can be easily accessed by calling the keyword.
+
+strings: 
+Strings are a data type that contain letters and text.  A sentence is an example of a string.  A sentence has no numerical (or other) value, just a bunch of words stuck together.  A number (or other value) can be typed into a string, but can not be used for mathematical purposes.
+
+
+Functions (arguments, ‘return’)
+Functions are processes or programs that perform actions.  Functions take inputs, which are called arguments.  Return will allow the result of the function to be accessed outside of the self-contained function/program.  It will also stop the function process from continuing to run.
+
+
+‘if ‘ statements
+If statements run inside of a function.  These take parameters to be met, and return a result (or output).  If the parameter(s) are not met, the function will move onto the next step, doing something Else.
+
+
+Boolean values (`true`, `false`)
+These can be used for comparison and are very black or white.  Either yes or no, on or off for example..
