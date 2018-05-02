@@ -1,0 +1,29 @@
+Hey there <name>! These are the basics to understanding the programming language known as Javascript!
+
+Let's start with variables.
+
+Variables are a way to save any type of information you want to a specific name that you choose. This type
+of information could be any kind of number or letters you want.
+
+If you want to save this information as letters you have to make sure you put single or double quotations
+around the letters you want to save. Such as 'letters' or "letters". This makes sure the computer saves the
+information as letters and not numbers. The variables that are saved as letters are called strings.
+
+If you want to save special types of number or specific calculations you can use basic math aritmetic as
+you save your information. Such as saving "2 + 2" or "54 / 9" and so forth.
+
+There are ways to manipulate this information you have saved and make it do thing that you want with
+methods called functions. You can give functions whatever name you want and usually it has something to 
+do with what it is performing such as "makeFunction" or "isNumberEven". You provide the instructions for
+the function and then you either return the values manipulated or you return whether the information is 
+true or false.
+
+Sometimes you want to manipulate the information only if they meet certain requirements and for this you
+use if statements. With an if statement you can ask if a variable with conditions like is it true, false,
+if its a number greater than 20, or divisible by 5. If and only if the variable meets the conditions then
+it performs its specific instructions, otherwise the computer just keeps on reading the code.
+
+True or false in this manner are asking whether the statement you made is right such as if you ask if
+two numbers add up to a specific number than it will be true if not it will be false. Is 30 greater than
+50? No it is not, so in that argument it would be false. Is 50 greater than 25? Yes, so in the computer's
+eyes it will be true.

@@ -1,5 +1,5 @@
 # Lambda School Precourse Workshop
-This repo contains the instruction material and assignments for Lambda School's free `Web Dev 101 mini-bootcamp`.  Lambda School's free `Web Dev 101 mini-bootcamp` is a three week long course that covers the fundamentals of programming and web development.  Class is held at 5pm Pacific Time Monday through Thursday at the dates listed below.  This class is repeated and given live every month.
+This repo contains the instruction material and assignments for Lambda School's free mini-bootcamp.  Lambda School's free mini-bootcamp is a three week long course that covers the fundamentals of programming and web development.  Class is held at 5pm Pacific Time Monday through Thursday at the dates listed below.  This class is repeated and given live every month.
 
 To sign up for the program or to learn more about Lambda School's intensive Computer Science program, visit https://www.lambdaschool.com
 

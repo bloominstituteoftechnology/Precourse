@@ -1,0 +1,5 @@
+Closure in javascript are functions in which fully utilize the scope of variables within a function. A closure
+function is put inside of a function and it has access to all of its variables as well as its parameters. This
+is useful for when you want to implement specific functions that deal with similar data as a bigger function.
+That way the functions inside of the outer function can use all the same parameters and variables and have
+an scope of data that allows it to process data seamlessly.

@@ -1,0 +1,11 @@
+Prototypes in the javascript language is a manner in which you can apply new methods to an object without
+having to individually assign it to every object of the same type. The prototype is a lot more memory
+efficient in that it only applys it as an attachment. This coincides with the functionality of the class
+structure. 
+
+The class is basically a template of an object that you can use to build similar objects with
+the same properties without having to create a new object for each one individually. The prototype works
+in the same manner that all objects of the same class will be receive the method or property from the
+prototype assignment. The prototype will default to any original assignment in the class function and will
+act as a backup of sorts.
+

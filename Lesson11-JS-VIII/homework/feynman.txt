@@ -1,0 +1,6 @@
+The use of recursion is calling the use of a function inside of same function. Such as if you're using a
+multiply() function, you're using the same multiply() function inside and creating a loop of sorts. Recursion
+can act in the same way as for and while loops in that it can keep the recursion going in an infinite loop
+until a condition is satisfied. The difference is that instead of repeating while the condition is true, a
+recursion function repeats until the condition is false. This approach has its niches and may be needed 
+in different scenarios than those of the typical iteration loops.

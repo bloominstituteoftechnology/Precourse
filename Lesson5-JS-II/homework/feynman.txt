@@ -1,0 +1,18 @@
+A for loop is a lot like an if statement in that it asks for certain requirements to be met and then it
+execute the functions you ask for it to perform. The difference in a for loop is that you set a variable
+and then a limit for the variable. These could be numerical or asking if certain conditions are true or 
+false. The computer will then go the code and repeat it until the requirement you asked is met. This could 
+be that the code is ran a certain number of times or ran until a certain a variable is true or false.
+
+Logical operaters are there to help you decide if variables you want to check are true of false. Using 
+an OR operator, '||', will ask you if one statement or the other is true then run the specific code
+you want performed. This will execute the code if even if only of the requirements are met. Ex. If the
+variable is greater than 30 or if it as an even number; continue on.
+
+An AND operator, '&&', will ask if all of the statements you included are true then run the specific code.
+You can use as many arguments as you want that you want run but they must all be true in order for your
+code to run. Ex. If the variable is greater than 30 AND it is lesser than 60; continue on.
+
+An NOT operator, '!' will ask if the statement you included is not true then run the specific code.
+This to make sure that if certain things are true then you can run the code. Ex. If the variable is NOT
+even; continue on.

@@ -1,0 +1,33 @@
+h1{
+    color: orangered;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background: aqua;
+    padding: 50px;
+    border: 10px blue solid;
+    margin-left:auto;
+    margin-right:auto;
+}
+#spanId{
+    font-size: 18px;
+    color: azure;
+    margin: 50px;
+}
+body{
+    background-image : url("https://i.pinimg.com/736x/bf/7a/95/bf7a9539b68f2952505d1f861707bf60.jpg");
+    background-color: blue;
+}
+h3{
+    color: orangered;
+}
+h4{
+    color:orangered;
+}
+.divClass{
+    text-align: center;
+}
