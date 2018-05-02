@@ -1,0 +1,9 @@
+Variables are a way to store values in Javascript. The values can be anything like numbers, alphabets or any combinations. 
+
+Strings are blocks of text within quotation marks. The quotation marks can be single or double. 
+
+Function(arguments, return) is a way of processing input consistently to perform a task. The answer is the function’s output. A function starts with the key word "function"
+
+if statements are used to test if a certain condition is true or not. 
+
+Boolean values (true, false)- Booleans can only hold 2 values that is true or false. 

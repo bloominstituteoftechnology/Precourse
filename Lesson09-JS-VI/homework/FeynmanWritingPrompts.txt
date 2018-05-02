@@ -1,0 +1,13 @@
+Callbacks- In javascript we can pass a function as an argument to another function and these functions are called callbacks. They can be called anytime and passed arguments within the function. cb argument variable is used as callback for convention.
+
+Below is an example of a callback.
+
+function incrementsByOne(number){
+	return number++;
+}
+
+function increment(number, cb) {
+ return cb(number);
+}
+
+increment(67, incrementsByOne) ;  //68

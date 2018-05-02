@@ -1,0 +1,32 @@
+Prototype:
+
+It is expensive to set functions inside a class since each time a new object of the class is created the function will also be recreated which is drain on the memory. Hence, we can set methods to a class only when we need them by using the keyword prototype.
+
+Below is an example on using prototype on a class to create methods.
+
+const User = function(name, age) {
+this.name = name;
+this.age = age;
+};
+
+User.prototype.greeting = function() {
+	return ‘Hello, my name is ’ + ‘this.name’;
+};
+
+----------------------------------
+Constructors: 
+
+Instead of creating objects over and over with similar properties and methods there is an efficient way of doing it in javascript, it’s called constructors or classes. 
+
+Classes create templates that can be used to create multiple objects that share similar properties and methods. The class name starts with an uppercase name to indicate that it is a class. At the end of the day classes are simply functions in javascript. 
+
+Let’s consider an example on how to create a class:
+const User = function(name, age) {
+this.name = name;
+this.age = age;
+};
+
+We can create copies of a class by instantiating the class by using the keyword ‘new’ and pass the arguments. 
+
+Below is an example on how to create an object of the class User using the keyword new.
+const user1 = new User(‘Ron’, 25);
