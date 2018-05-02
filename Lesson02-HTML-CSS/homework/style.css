@@ -26,7 +26,7 @@ img {
 /* Extra Credit , I overrode some previous rules to make it look better */
 
 body {
-    background-image: url(img/pattern.jpg);
+    background-image: url(img/image.jpg);
     background-repeat: repeat;
     font-family: sans-serif;
 
