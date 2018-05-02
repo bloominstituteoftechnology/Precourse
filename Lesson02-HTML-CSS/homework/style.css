@@ -1,0 +1,19 @@
+  
+  h1 {color: peachpuff;}
+  img {
+    width:400px
+  }
+  
+  #thirdDiv { 
+    height:600px;
+    width:500px;
+    background-color: lightgreen;
+    padding:50px;
+    border: 30px solid peachpuff;
+    
+  }
+  
+  #spanId {
+    margin:18px;
+  }
+     

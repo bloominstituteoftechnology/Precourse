@@ -1,0 +1,9 @@
+1. Variables allow us to store the value of something. They can they be altered and refernced, to help give instructions to the computer. 
+
+2. Strings are blocks of text that can also be referenced just like variables. They are defined by using quotation marks.
+
+3. Functions are ways to alter the variable and strings to make them useful to us. We can make the copmuter perform certain actions with functions/ 
+
+4. If statements allow us to test the conditions of a statement and then perform certain actions based on whether the conditions are met.
+
+5. Boolean values are data types that only hold two values: true or false.
