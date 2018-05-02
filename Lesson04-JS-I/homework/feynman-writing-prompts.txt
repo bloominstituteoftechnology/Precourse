@@ -1,0 +1,12 @@
+* Variables: variables are like empty boxes in which you can store things.
+
+* Strings: strings are a chain of letters numbers and funny looking symbols.
+
+* Functions (arguments, `return`): functions are things which you want the computer
+                                   to do for you  an then give you something in return
+                                   when its done.
+
+
+* `if` statements: if statements are statements that only run if a condition is true.
+
+* Boolean values (`true`, `false`): there are two boolean values: true ad false.
