@@ -139,7 +139,7 @@ function completeToDo(event) {
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
-if (typeof module !== 'undefined') {
+/*if (typeof module !== 'undefined') {
   module.exports = {
     toDoItems: toDoItems,
     ToDo: ToDo,
@@ -150,3 +150,4 @@ if (typeof module !== 'undefined') {
     addToDo: addToDo
   };
 }
+*/
