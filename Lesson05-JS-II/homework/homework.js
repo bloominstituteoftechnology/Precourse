@@ -53,15 +53,10 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
-  if (Math.floor(num)){
+  if (Math.floor(num % 1 === 0)){
     return true;
-  } else if (num === 0.8) {
-    return false;
-  } else if (num === 1) {
-    return true;
-  } else if (num === -10) {
-    return true;
-  } else return false;
+  } else{
+    return false;}
 }
 
 function fizzBuzz(num) {
