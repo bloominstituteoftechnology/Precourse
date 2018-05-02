@@ -1,0 +1,12 @@
+Lesson 8 Feynman Writing Prompts
+
+Prototype - All javascript objects inherit propeties and methods from a prototype.  Javascript is often 
+described as a prototype-based language - each object has a prototype object, which acts as a template 
+object which it inherits methods and properties from. The Javascript prototype property allows you to add
+new methods and properties to object constructors. A link is made between the object instance and its 
+prototype, and the properties and methods are found by walking up the chain of prototypes.
+
+Constructors - Using an object constructor function creates a "blueprint" for creating many objects of
+the same "type". There are two types of constructors: native (aka built-in) and custom constructors which
+define properties and methods for your own type of object. Constructors can be differentiated from regular
+funcions by their capitolized name and the use of the "new" keyword to call it.
