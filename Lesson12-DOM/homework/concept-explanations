@@ -1,0 +1,5 @@
+The DOM is a model that lets Javascript find and edit elements. The DOM is like the directory to find elements.
+
+DOM element selectors let you select elements with certain classes, ids, or just tag names. We use methods from the document object such as querySelector, getElementByClassName, getElementById, and etc. Once the element has been selected, it can be changed in Javascript.
+
+DOM events create interactions so that the user can play with the website such as clicking a button or detect when a user's mouse pointer is in a certain area of the website.

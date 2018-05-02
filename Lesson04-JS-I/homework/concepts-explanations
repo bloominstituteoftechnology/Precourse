@@ -1,0 +1,9 @@
+Variables contain a value that can be used later and stays the same until the programmer changes the value of it. Lets say a cook has a measuring cup and some milk. The cook puts 4 cups in the measuring cup to use later. The measuring cup stores the 4 cups of milk until it is poured onto the other ingredients. If I used var or let, I can add or decrease the amount of milk in the measuring cup. If I use const then I would not be able to add or decrease the amount of milk, once I declare how much milk is in the measuring cup.
+
+A string is a data type, which is a variable, that can contain a character, word, phrase, or sentence as long as the value has quotes around them.
+
+Functions let you manipulate how the data will output. For example, we have a toy factory and we are trying to make some green army men. We would need the plastic and the green coloring, which are our arguments, to go through the function, which is the machine that has the equipment to make our green army men. The machine uses the mold tool to shape our green army men and it paints them green. Once the function is finished, the process is done and we now have green army men to play with.
+
+An if statement decides if we should take one path or the other. If it was raining outside, we would not want to go outside because we would get wet. If it was sunny outside then we would want to enjoy the sunshine.
+
+Boolean values return true or false. For example, we have a switch and a lightbulb, the switch is turned off so the Boolean value is false because the lightbulb is not on; we turn on the switch so the lighbulb would be turned on which makes the Boolean value true.

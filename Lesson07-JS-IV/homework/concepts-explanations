@@ -1,0 +1,10 @@
+Objects are just like arrays which uses unique keys to access certain values. An array uses an index number as the key in order to get the specific value. An object uses a string to get the value with either dot notation or bracket notation.
+
+Properties are inside objects and each property has a key and a value which is accessed with the key. The key is like the passcode for a lock in order to access what is inside the locker.
+
+Methods are functions that are inside objects. From the very beginning, when we learned how to print out hello world! in the console, we used the console.log('hello word!'); The console is the object and the .log is the method which received an argument which was a string.
+
+The for in loop is used for objects normally. Because objects don't have numerical indexes, it uses an alternative way to loop through by using the keys in the objects to get its values.
+
+
+Dot notation uses a dot to access properties. For example, person.name; will return the name of the person like Simon. This also applies to bracket notation except it uses brackets. Here is an example using the bracket notation way, person['name']. The bracket notation is usually seen more when it comes to variables.

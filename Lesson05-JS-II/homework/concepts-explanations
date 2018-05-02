@@ -1,0 +1,7 @@
+The for keyword lets the user create a loop. It takes 3 arguments: a variable with a value in it, a conditional statement, and what to do next once the loop has executed all the statements within the curly braces which usually the variable is incremented. Here is an example, lets say I have 10 boxes and want to paint a number on each box to identify which one is the oldest to the newest. The for loop would start at let i = 1; because I want to start there then I would say keep going until it reaches the number 10 so I set a conditional statement i <= 10; to repeat this process 10 times, and the last step is to increment the number by 1 so that it paints a unique number to each box.
+
+&& needs both expressions to be true in order to carry out a task. So for example if I wanted a drink of water, I would need a cup to drink out of and some water. If I'm missing one or the other then I cannot drink any water.
+
+|| only needs one expression to be true in order to carry out a task. For example, in order to write I would need a pencil or a pen, if I had either of those then I could write or else I cannot write because I don't have the appropriate tool.
+
+! has the power to negate an expression. It makes a boolean value that is true to false just by adding !. For example, 10 !== 9 is true and 10 !== 9 is false and 5 !== 9 is false.

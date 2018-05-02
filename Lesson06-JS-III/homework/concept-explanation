@@ -1,0 +1,1 @@
+An array stores multiple values in itself. Here is an example, I have three boxes which the array holds these three boxes. In order to return the value of one of these boxes, I would have to put an index number in order to get that box. In order to get box 1, I would have to put 0 as the index because the computer starts counting at 0.
