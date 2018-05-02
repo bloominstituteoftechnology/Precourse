@@ -34,10 +34,12 @@ function addReverseString() {
   // hint:
   // you will need to use 'this' inside of reverse
   String.prototype.reverse = function () {
+    // let newStr = '';
+    // for (let i = this.length - 1; i >= 0; i--) {
+    //   newStr += this.charAt(i);
+    // }
     let newStr = '';
-    for (let i = this.length - 1; i >= 0; i--) {
-      newStr += this.charAt(i);
-    }
+    newStr = this.split('').reverse().join('');
     return newStr;
   };
 }
