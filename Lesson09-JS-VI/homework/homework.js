@@ -5,6 +5,10 @@ function invokeCallback(cb) { // Do not change any of the function names
 
 
 function sumArray(numbers, cb) {
+  // let number = [numbers];
+  // numbers.reduce(function(accum, arrayItem){
+  //   cb(accum + arrayItem);
+  // });
   let result = 0;  
   for (let i = 0; i < numbers.length; i++) { 
     result += numbers[i];  // sum up all of the integers in the numbers array     
