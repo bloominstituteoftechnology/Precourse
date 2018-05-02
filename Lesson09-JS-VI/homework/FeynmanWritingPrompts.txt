@@ -1,9 +1,15 @@
 Callbacks- In javascript we can pass a function as an argument to another function and these functions are called callbacks. They can be called anytime and passed arguments.
 
-A callback must always contain a return statement in it.
+A callback must always contain a return statement in it. cb argument variable is used as callback for convention.
 
-Below is an example of a callback where a function is passed as an argument to another function.
+Below is an example of a callback.
 
-function greeting(function(){
-return 'Hello, World!';
-});
+function incrementsByOne(number){
+	return number++;
+}
+
+function increment(number, cb) {
+ return cb(number);
+}
+
+increment(67, incrementsByOne) ;  //68
