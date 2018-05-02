@@ -36,6 +36,10 @@ function map(arr, cb) {
   return newArray;
 }
 
+/*Feynman Writing Prompts
+  	* Callback Functions: function that is passed to anothe function
+*/
+
 // Do not modify code below this line.
 // --------------------------------
 

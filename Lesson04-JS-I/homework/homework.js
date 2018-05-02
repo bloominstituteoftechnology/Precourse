@@ -176,6 +176,17 @@ function getTriangleArea(base, height) {
   return (base*height)/2;
 }
 
+/*
+  Feynman Writing Prompts
+  * Variables: a variable is like a container where you can put anything you want inside 
+    with a couple of exceptions that are reserved words.
+	* Strings: is a type of data, mostly used for names
+  * Functions (arguments, `return`): functions are pieces of code that you can use and reuse
+    to do something specific.
+	* `if` statements: are called conditonal statements. this piece of code will execute if the condition is true
+	* Boolean values (`true`, `false`): true or false are keywords that indicate the value of a statement
+ */
+
 // Do not modify code below this line.
 // --------------------------------
 

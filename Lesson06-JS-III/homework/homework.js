@@ -111,6 +111,12 @@ function multiplyArguments() {
   }
 }
 
+/*
+  Feynman Writing Prompts:
+  Arrays: Arrays are arrangement of objects of same or different types that are next to each 
+  other in memory and can be accessed using numeric indexing
+ */
+
 // Do not modify code below this line.
 // --------------------------------
 

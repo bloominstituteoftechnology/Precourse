@@ -38,6 +38,12 @@ function cacheFunction(cb) {
   };
 }
 
+/*
+Feynman Writing Prompts
+* Closure: ability for a function to access other functions outside of its own scope
+
+ */
+
 // Do not modify code below this line.
 // --------------------------------
 

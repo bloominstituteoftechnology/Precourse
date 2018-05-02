@@ -210,6 +210,13 @@ function completeToDo(event) {
 displayToDos();
 
 
+/*Feynman Writing Prompts 
+* DOM: Document Object Model that the browser creates when it loads the page
+	* DOM element selectors: document methods that allow to select an element by class or id
+  * DOM events: DOM events occur after a specific action performed by the user and something inside a 
+  function is executed
+ */
+
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
   module.exports = {

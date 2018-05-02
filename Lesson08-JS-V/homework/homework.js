@@ -46,6 +46,11 @@ function addReverseString() {
 
 }
 
+/* Feynman Writing Prompts
+  * `prototype`: blueprint for an object's type that contains all the info of an object
+	* Constructors: function that allows to build object
+ */
+
 // Do not modify code below this line.
 // --------------------------------
 

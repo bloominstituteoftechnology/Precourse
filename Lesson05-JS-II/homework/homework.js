@@ -87,6 +87,18 @@ function isPrime(num) {
   }
 }
 
+/*
+Feynman Writing Prompts 
+  `for`: for is a keyword for looping. for has a start, an end and a condition. 
+    Inside the loop you can do many things. For example, printing numbers.
+  * `&&`: These signs are called Ampersands and when used together means "AND". 
+    So for example if you say [5+3 =8] and [2+3 =3], both of these statements have to be true
+    in order for you to get a true in return. 
+  `||`: similar to &&, but only one condition has to be true
+   `!`: this turns whatever you are saying into an opposite. For example if you say "true" and you add 
+   the !, "!true", you will get false in return
+*/
+
 
 
 // Do not modify code below this line.
