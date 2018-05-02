@@ -1,0 +1,35 @@
+h1 {
+    color: rgb(255, 0, 0)
+}
+
+img {
+    width: 400px
+}
+
+#thirdDiv {
+    height: 600px;
+    widows: 500px;
+    background-color: rgb(150, 40, 177);
+    padding: 50px;
+    border: rgb(40, 71, 92) dashed 5px;
+    margin: auto
+}
+
+a, #spanId {
+    color: greenyellow;
+    font-size: 18px;
+    margin: 50px
+}
+
+.divClass {
+    color: rgb(255, 0, 212);
+    margin: auto;
+    
+}
+
+body {
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/128458/pexels-photo-128458.jpeg?auto=compress&cs=tinysrgb&h=350");
+    background-color: bisque;
+    background-size: contain
+}

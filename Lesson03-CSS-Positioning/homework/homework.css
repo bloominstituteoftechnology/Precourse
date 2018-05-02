@@ -3,41 +3,84 @@ Lesson 3: CSS positioning homwork. All of your work should be done in this file.
 in this folder, you are in the wrong place. 
 */
 
-
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
+
 #exerciseOne {
-
+    display: block;
+    text-align: center
 }
-
 
 /* Exercise Two: Positioning a Header Bar*/
 
 /* Place code here */
 
-
+#exerciseTwo {
+    display: none
+}
 
 /* Exercise Three: */
 
 /* Place code here */
 
-
+#exerciseThree {
+    position: relative;
+    top: 100px;
+    left: 200px
+}
 
 /* Exercise Four: */
 
 /* Place code here */
 
-
+#exerciseFour {
+    position: fixed;
+    top: 0
+}
 
 /* Exercise Five */
 
 /* Place code here */
 
-
+#exerciseFive {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center
+}
 
 /* Exercise Six */
 
 #exerciseSeven {
-  display: flex;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+#itemOne {
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 0
+}
+
+#itemTwo {
+    background-color: rgb(0, 255, 0);
+    position: relative;
+    left: -150px
+}
+
+#itemThree {
+    background-color: rgb(0, 0, 255);
+    position: relative;
+    top: 150px;
+    left: 200px
+}
+
+#itemFour {
+    background-color: yellow
 }
