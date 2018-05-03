@@ -1,0 +1,9 @@
+Objects - Container that holds data and functions specific to that container. Everything in javascript is an object
+
+Properties - Data describing the object
+
+Methods - Functions that are specific to a object
+
+for in loop - A for loop designed to iterate thru a objects properties
+
+Dot notation vs bracket notation - Dot notation is used to access properties by their key value, while bracket notation is used to access properties using brackets and either a variable or string containing the property name.

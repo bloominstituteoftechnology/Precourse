@@ -1,0 +1,41 @@
+
+body {
+    background-image: url("pizza3.png");
+}
+
+h1{
+    color:crimson;
+}
+
+h3 {
+    color:olive;
+}
+
+h4 {
+    color:olive;
+}
+
+img{
+    width:400px;
+}
+
+#thirdDiv{
+    margin: auto;
+    border: 5px solid grey;
+    width:500px;
+    height:600px;
+    background-color:maroon;
+    padding:50px;
+}
+
+#spanId{
+    font-size:18px;
+    margin:50px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

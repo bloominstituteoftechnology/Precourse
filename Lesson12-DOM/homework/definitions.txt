@@ -1,0 +1,5 @@
+DOM - Document Object Model gives access to the web page thru Javascript
+
+DOM element selectors - Properties that allow us access to the HTML elements and attributes
+
+DOM events - Events that happen on a web page, can be accessed and handled thru javascript.

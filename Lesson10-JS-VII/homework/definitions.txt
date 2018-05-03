@@ -1,0 +1,1 @@
+Closure - A function that is returned from another function. The returned function has scope to the function that returned it.
