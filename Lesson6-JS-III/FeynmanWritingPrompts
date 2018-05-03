@@ -1,0 +1,1 @@
+Arrays - An array is a set of variables that are referenced using a single variable name combined with an index number.  Each item of an array is called an element.  An array is itself an object, an array has a fixed length that's set when the array is created.
