@@ -1,0 +1,40 @@
+Well, variables can hold multiple values such as a numbers, strings(words pretty much), and booleans(true or false).
+You can name a variable to pretty much anything you want, but it is best to name it after something it is used for.
+One way to create a variable is (const name = 5;) the variable name is 'name' and holds a value of 5. It can also hold strings
+and booleans like stated above. (const name = 'Brandon';) now the variable 'name' holds the string 'Brandon'.
+(const name = true;) the variable is now true, it can also be false. (const name = false;). The keyword const means you cannot
+change the value of the variable after you declare it. So if i tried to put (const name = 3;) it would give an error.
+You can also add variables, if I were to do (const num1 = 5; const num2 = 10; num1 + num2; ) it would add num1 which is 5
+and num2 which is 10, so you would get 15. Same thing for strings. (const name = 'Brandon'; const name2 = 'is the best';)
+(name + ' ' + name2) would print out 'Brandon is the best'. Notice i had to add a space inbetween name1 and name2 or else
+it would print out 'Brandonis the best'.
+
+You can also create something called a function. That could add strings or numbers or do anything else within possibility.
+If i wanted to make a function to add two numbers for me I would do something like this :
+
+const add2Numbers = function(num1, num2) {
+	return num1 + num2;
+}
+or
+function add2Numbers(num1, num2) {
+	return num1 + num2;
+}
+
+
+The keyword 'function' is how you declare something is a function. Both examples take 2 numbers and add them together.
+Inside the parenthesis of the function you create what is known as parameters. In this case it is num1 and num2.
+You will later use those parameters as arguments(num1, num2) you want to add. We use (return num1 + num2) to get the sum when 
+we add the two numbers. You now can call the function using the name you created for it and the parameters it takes.
+So the name is 'add2Numbers' and it takes 2 parameters(the 2 numbers you want to add). So now call the function:
+add2Numbers(5, 20); You get the sum of 25. This is a simple demonstration of functions. Usually they are used for more 
+complex things other than adding 2 numbers together.
+
+There is also an if statement, that tests whether something is true or false. For example:
+const num = 5;
+if(num > 3) {
+   // Do something
+}
+
+It tests whether num(5) is greater than 3. Which it is, so it would run code I put into the if statement. If not, it would
+move on.
+

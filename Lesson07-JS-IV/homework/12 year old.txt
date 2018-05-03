@@ -1,0 +1,45 @@
+Objects have what is known as key:value pairs. If you wanted to get a value, you would call the key. For example:
+const f = {
+  name: 'Brandon';
+};
+To call 'name' we would use either:
+f.name;
+or
+f['name'];
+Both will return 'Brandon'. Objects are good for holding information about a certain thing.
+
+Properties are like f.names, if we wanted to delete our 'name' property we would do this:
+delete f.name;
+Now name will be gone. Usually in the real world you most likely would set name to undefined rather than deleting it.
+
+We can also create methods in our objects. For example:
+const f = {
+  sayHi: function() {
+      console.log('Hi');
+   },
+};
+We created a method called sayHi that console logs 'Hi'. To call it we do:
+f.sayHi();
+Always using the key to value in objects. sayHi is the key and the function is our value.
+
+Since objects do not use numerical indexes but keys, we have to use a (for in) loop.
+Similar to a for loop there is a loop called a (for in) loop which is used to loop through objects.
+const f = {
+  name: 'Brandon';
+};
+
+for(let key in f) {
+  console.log(key);
+  console.log(f[key]);
+};
+This loop will print out our key and the value, remember key:value.
+So for every key in the object f. We want to console log the key and the value. We would get:
+name
+'Brandon'
+
+
+
+
+
+
+
