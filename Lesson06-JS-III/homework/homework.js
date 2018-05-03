@@ -44,14 +44,12 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  return words.toString();
-
+  return words.join(' ');
 }
 
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-  if (arr)
 }
 
 function addNumbers(numbers) {
