@@ -2,7 +2,7 @@
 
 function returnFirst(arr) {
   // return the first item from the array
-  return returnFirst.shift();
+  return arr.shift();
 }
 
 function returnLast(arr) {
