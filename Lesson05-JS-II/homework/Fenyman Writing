@@ -1,0 +1,9 @@
+1.) "For" is a type of loop which can repeat a command any number of times. A common use is to iterate through 
+a collection of items. It has three parts: the initialization of a counter, the condition for it to keep running, and
+something that increases the counter.
+
+
+2.) "&&" means the logical "And" which in conditionals means both sides of the and must be true for the conditional
+to be true. Both sides result in booleans as does the whole expression. "||" is the logical "Or" and means that one 
+or both of the sides of the conditional must be true for the whole expression to be true. "!" means "Not" and it will
+reverse the truthiness of the expression, so "true" becomes "false" and vice versa. 

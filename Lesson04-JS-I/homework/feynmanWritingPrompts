@@ -1,0 +1,19 @@
+1.) Variables are words that developers create to describe pieces of information. They should be descriptive. 
+The are good for when they need to store data for later use. Without storing data, it disappears as soon as it 
+is used. 
+
+2.) Strings are what we think as words in a spoken or written language. It would be like the words I am typing now.
+In programming, you have to put quotes, either double, single or backticks, to tell the computer that it is a string.
+
+3.) Functions are pieces of code that have a purpose. They could output something to the console or do some other 
+side effect or they can return a meaningful value by using the word "return." Return is a keyword in javaScript. 
+Some functions require more information or input to do their job. This input is known as arguments. 
+
+4.) If statements are what programs use for decision making. When the expression within the if statement is true,
+the code within the braces is run. When it is false, it will move down to various else if and finally run the code 
+within the else block if none of the other choices are true. This is like a fork in the road where the computer makes
+a decision. 
+
+5.) A boolean is a special data type in javaScript and also has to do with computer science. They are related to 
+the zeros and ones that make up the binary code that computers understand. A zero corresponds to false and means the 
+absence of the process. A one turns it on and does the opposite of the zero. 

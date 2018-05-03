@@ -1,0 +1,14 @@
+1.) Objects are a type of data structure which are used to describe what we might think of as everyday objects. For instance,
+a dog could be an object, and from that, there are many things we can use to say describe what a dog is. 
+
+2.) Properties are some of these "things" on objects, such as name and breed (for the dog example). They consist
+of key value pairs such as name: "Ty". 
+
+3.)  Methods are simply functions that the key of an object contains. They can be a part of objects, built-in 
+or created by the programmer.
+
+4.) For in loops are used for iterating over the keys of objects. They can be used for arrays, but are
+best to be used for plain objects.
+
+5.) Dot notation and bracket notation are two ways of accessing values on an object. Bracket notation allows for 
+accessing a key using a variable name. 

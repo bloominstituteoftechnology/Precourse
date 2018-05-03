@@ -1,0 +1,44 @@
+
+ body { 
+    background-image: url("sakecafe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static; 
+    
+} 
+
+*
+{
+    text-align: center;
+}
+
+div {
+    margin: auto; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    color: deepskyblue;
+}
+
+img {
+    width: 400px; 
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: blue; 
+    padding: 50px; 
+    border: 20px solid grey 
+}
+#spanID {
+    font-size: 18px; 
+    margin: 50px; 
+
+div {
+    margin: auto; 
+}
+
+

@@ -1,0 +1,3 @@
+A prototype is a template for a class which you can put your functions on for that class so as to
+not have to add that function to each class. A constructor is for objects which share 
+properties. It is also seen as a template which many other objects can arise from. 
