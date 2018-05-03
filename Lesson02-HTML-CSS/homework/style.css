@@ -1,0 +1,20 @@
+style.css
+.divClass h1 {
+    color: red;
+    }
+ img {
+    width: 400px;
+    }
+ #thirdDiv {
+      height: 600px;
+      width: 500px;
+      background-color: coral;
+      padding: 50px;
+      border-style: double;
+      border-width: medium;
+      border-color: cornsilk;
+    }
+ #spanId {
+      font: 18px;
+      margin: 50px;
+    }
