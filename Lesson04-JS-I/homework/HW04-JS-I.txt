@@ -1,0 +1,9 @@
+Variables - something you define so you can refer back to it later.
+
+String - any text inside ''.
+
+Functions (arguments, return) - It does something.  It can take inputs(arguments), does something to it and return the result.
+
+if statements - It's a condition. The condition can either be true of false.  If it is true, do something.  If it is false, don't do it and move on.
+
+Boolean values(true, false) - the result(return value) of a function is either 'true' or 'false'.

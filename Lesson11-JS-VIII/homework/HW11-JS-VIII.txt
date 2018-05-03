@@ -1,0 +1,4 @@
+* Recursion - Recursion is the idea that a function can call(invoke) itself as an inner function.
+The function has three parts like a 'for' and 'while' iterating function.  These are the counter(keeps track)
+of the number of times it occurs), the base case or limit(function will stop when the limit is reached),
+and the counter modification(move the counter toward the limit). 

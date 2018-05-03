@@ -157,18 +157,18 @@ describe('addFriend(user, newFriend)', function() {
 describe('setUsersToPremium(users)', function() {
   it('should return the users array with each user\'s isPremium property set to true', function() {
     const users = [
-      { isPremium: false }, 
-      { isPremium: false }, 
-      { isPremium: false }, 
-      { isPremium: false }, 
-      { isPremium: false }, 
+      { isPremium: false },
+      { isPremium: false },
+      { isPremium: false },
+      { isPremium: false },
+      { isPremium: false },
     ];
     const updatedUsers = [
-      { isPremium: true }, 
-      { isPremium: true }, 
-      { isPremium: true }, 
-      { isPremium: true }, 
-      { isPremium: true }, 
+      { isPremium: true },
+      { isPremium: true },
+      { isPremium: true },
+      { isPremium: true },
+      { isPremium: true },
     ];
     expect(setUsersToPremium(users)).toEqual(updatedUsers);
   });

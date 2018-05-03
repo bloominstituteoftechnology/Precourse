@@ -1,0 +1,14 @@
+Objects - One of the ways used to store data in an unordered format.
+It is in a key:value format.  The stored information can be of any form, i.e. number, string, array,
+object, function.
+
+Properties - It is a key:value pair in objects.  I.e. You can remove a
+property from an object by using (delete objectName.key)
+
+Methods - a function inside an object.
+
+for in loop - used for iterating through key:value in objects.  Regular
+for loops can't be used because objects has unordered indices.
+
+Dot notation vs bracket notation - used for retrieving specify value in objects.
+Dot notation (objectName.key). bracket notation (objectName['key']).

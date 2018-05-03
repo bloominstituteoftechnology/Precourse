@@ -1,0 +1,56 @@
+body {
+  background-image: url(https://i.ytimg.com/vi/GO4m2ZRBrUY/maxresdefault.jpg);
+  background-size: cover;
+}
+
+h1 {
+  color: darkturquoise;
+}
+
+img {
+  width: 400px;
+}
+
+.divClass {
+  margin: auto;
+  text-align: center;
+}
+
+#thirdDiv {
+  opacity: 0.2;
+  height: 600px;
+  width: 500px;
+  background-color: azure;
+  padding: 50px;
+  border: 10px;
+  border-width: thick;
+  border-color: red;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+.fixedPosition {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 800px;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border: 3px solid #73AD21;
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: column; /*align contents in vertically*/
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
+}

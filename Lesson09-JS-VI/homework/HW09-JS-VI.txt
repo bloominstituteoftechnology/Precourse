@@ -1,0 +1,2 @@
+	* Callback Functions - Functions that are PASSED INTO other functions as arguments(parameters).
+	* Higher Order functions - Functions that TAKE IN other functions in their aruments(parameters).
