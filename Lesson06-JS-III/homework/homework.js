@@ -50,6 +50,9 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
+  if (arr.indexOf(item[0])) {
+    return true;
+  } else false;
 }
 
 function addNumbers(numbers) {
