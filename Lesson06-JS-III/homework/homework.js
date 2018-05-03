@@ -101,15 +101,13 @@ function multiplyArguments() {
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
   var product = 1;
-  
   if (arguments.length === 0) {
-  	return 0;
+    return 0;
   } else if (arguments.length === 1) {
-  	return arguments[0];
+    return arguments[0];
   }
-  
   for (var i = 0; i < arguments.length; i++) {
-  	product *= arguments[i];
+    product *= arguments[i];
   }
   return product;
 }
