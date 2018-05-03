@@ -6,11 +6,27 @@ function nFactorial(n) {
   // return the factorial for n
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
+    var count = 1;
+  
+    while (true) {
+    if (n <= 1) {
+    return count; 
+  }
+    count *= n;
+    n--;
+    nFactorial(n);
+  }
 }
+
 
 function nFibonacci(n) {
   // fibonacci sequence: 1 2 3 5 8 13 ...
   // return the nth number in the sequence
+  if (n <= 2) {
+      return n;
+     } else {
+     return nFibonacci(n-1) + nFibonacci(n-2);
+  }
 }
 
 // Do not modify code below this line.
