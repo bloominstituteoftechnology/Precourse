@@ -87,7 +87,7 @@ function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
   var highest = 0;
-    for (i=0; i < numbers.length; i++) { 
+    for (let i=0; i < numbers.length; i++) { 
       if (numbers[i] > highest) {
         highest = numbers[i];
       }
