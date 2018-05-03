@@ -19,8 +19,8 @@ function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-for (let i = 0; i < arr.length; 1++){
-return incrementByOne([arr.length]+1);
+for (let i = 0; i < arr.length; i++){
+return (arr[i]+1);
 }
 }
 
