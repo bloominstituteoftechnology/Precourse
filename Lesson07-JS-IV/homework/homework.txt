@@ -1,0 +1,21 @@
+Feynman Writing Prompts
+	* Objects
+  Think of this as boxes that can contain
+  many different boxes with instruction and that can
+  be use to store complex information
+
+	* Properties
+  Think of this as descriptions of specific things inside of boxes
+  like Objects
+
+	* Methods
+  Think of this as a set of instruction that create a complex
+  activity inside an object
+
+	* for in loop
+	Think of this as a set of instruction that will go trough a list
+	and look for a specific property
+
+	* Dot notation vs bracket notation
+  Think of dot as looking for properties in objects and
+  of bracket to look for properties more so in an array, a list.

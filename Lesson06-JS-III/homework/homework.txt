@@ -1,0 +1,5 @@
+Feynman Writing Prompts:
+
+* Arrays
+Think of this as a box that has a list
+of items that those may or may not be other boxes.

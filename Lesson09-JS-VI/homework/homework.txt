@@ -1,0 +1,5 @@
+Feynman Writing Prompts:
+
+* Callback Functions:
+Think of this as boxes that has a set of instruction which one the instructions
+is another box with more instruction to use.

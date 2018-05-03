@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i1.wp.com/foodfidelity.com/wp-content/uploads/2018/01/mofongo-overhead.jpg?fit=825%2C550&ssl=1");
+}
+
+h1 {
+  color: #5bc864
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: #bdb66c;
+  padding: 50px;
+  border-style: dashed double none;
+  border-width: 1em;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
