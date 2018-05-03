@@ -1,0 +1,1 @@
+Callback functions are like using variables to refer to functions and then just using the variable without having to rewrite the same function repeatedly.
