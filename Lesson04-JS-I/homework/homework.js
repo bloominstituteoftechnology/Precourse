@@ -1,7 +1,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = "hello universe" ;
+const newString = 'hello universe' ;
 
 //create a number variable, it can be any number
 const newNum = 7 ;
@@ -27,32 +27,32 @@ const newModulo = 21 % 5 === 1 ;
 
 function returnString(str) {
   //simply return the string provided: str
-  return str
+  return str;
 }
 
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
-  return x + y
+  return x + y;
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-  return x - y
+  return x - y;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-  return x * y
+  return x * y;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
-  return x / y
+  return x / y;
 }
 
 function areEqual(x, y) {
@@ -60,9 +60,9 @@ function areEqual(x, y) {
   // otherwise return false
   // code here
   if (x === y) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 
 }
@@ -72,9 +72,9 @@ function areSameLength(str1, str2) {
   // otherwise return false
   // code here
   if (str1.length == str2.length) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -83,9 +83,9 @@ function lessThanNinety(num) {
   // otherwise return false
   // code here
   if (num < 90) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -94,16 +94,16 @@ function greaterThanFifty(num) {
   // otherwise return false
   // code here
   if (num > 50) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
-  return x % y
+  return x % y;
 }
 
 function isEven(num) {
@@ -111,9 +111,9 @@ function isEven(num) {
   // otherwise return false
   // code here
   if(num % 2 == 0) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -121,10 +121,10 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if (num !== 0) {
-    return true
+  if (num % 2 !== 0) {
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -132,52 +132,52 @@ function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-  return num * num
+  return num * num;
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
-  return num * num * num
+  return num * num * num;
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-  return Math.pow(num, exponent)
+  return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
-  return Math.round(num)
+  return Math.round(num);
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
-  return Math.ceil(num)
+  return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  return str + "!"
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  return firstName + " " + lastName
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return "Hello " + name
+  return 'Hello ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas.
@@ -193,7 +193,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  return .5 * (base * height)
+  return .5 * (base * height);
 }
 
 // Do not modify code below this line.
