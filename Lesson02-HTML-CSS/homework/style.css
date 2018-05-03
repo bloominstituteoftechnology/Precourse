@@ -1,0 +1,68 @@
+h1 {
+    color: turquoise;
+
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: whitesmoke;
+    padding: 50px;
+    border: 4px solid palegreen;
+    margin: 15px;
+
+}
+
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+
+}
+
+/* Extra Credit , I overrode some previous rules to make it look better */
+
+body {
+    background-image: url(img/image.jpg);
+    background-repeat: repeat;
+    font-family: sans-serif;
+
+}
+
+.flex-container {
+    height: %100;
+    display: flex;
+    width: 960px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.divClass {
+    width: 500px;
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+h1 {
+    margin-top: 0;
+
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+
+}
