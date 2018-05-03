@@ -50,30 +50,68 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-  if (arr.find(item)) {
+  let check;
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] === item) {
+        check = item;
+      }
+    }
+  if (check === item) {
     return true;
-  } else return false;
+  } else
+  return false;
 }
 
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
+  let Sum = 0;
+      for (let i = 0; i < numbers.length; i++) {
+      Sum += numbers[i];
+      }
+      return Sum;
 }
 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
+  let Sum = 0;
+    for (let i = 0; i < testScores.length; i++) {
+    Sum += testScores[i];
+  }
+   return Sum / testScores.length;
 }
+
 
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
+  var highest = 0;
+    for (i=0; i < numbers.length; i++) { 
+      if (numbers[i] > highest) {
+        highest = numbers[i];
+      }
+    }
+    return highest;
 }
+
 
 function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
+  var product = 1;
+  
+  if (arguments.length === 0) {
+  	return 0;
+  } else if (arguments.length === 1) {
+  	return arguments[0];
+  }
+  
+  for (var i = 0; i < arguments.length; i++) {
+  	product *= arguments[i];
+  }
+  return product;
 }
 
 // Do not modify code below this line.
