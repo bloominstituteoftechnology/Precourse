@@ -19,8 +19,7 @@ function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-  let sum = (1++);
-  return sum + arr;
+  return arr++;
 }
 
 function addItemToArray(arr, item) {
