@@ -1,0 +1,1 @@
+Arrays are used in javascript to simplify having multiple items like a list of clients or appointments without having to write out variables for each individual item.

@@ -1,0 +1,5 @@
+&& is for a condition in a function and both have to be true as in if a number is divisible by 2 and divisible by 4
+
+|| is for a condition in a function as an or and only one statement has to be true  as in if a number is divisible by 2 or divisible by 4
+
+! Means not as in 1 !== 2 1 is not equal to 2

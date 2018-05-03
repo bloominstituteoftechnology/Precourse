@@ -1,0 +1,9 @@
+Variables used to store data such as functions and then can be recalled by the variable
+
+Strings Strings are written inside quotes single or double. Numbers don't have quotes and can be used in math problems
+
+Functions ( arguments, 'return') a function is code that performs a task you enter an argument and the return is the value you get
+
+'If' statements if statements are used in functions to return true or false based on a condition in the function
+
+Boolean values (`true`, `false`) true or false

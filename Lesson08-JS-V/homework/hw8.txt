@@ -1,0 +1,3 @@
+Prototype Classes have a unique way of setting a method once and giving every object of that class access to those methods. This saves up memory to allow sites to run faster and saves time of having to repeat code.
+
+Constructor or class is a method of creating many objects that share properties. Simplifies code without needing to repeat
