@@ -1,0 +1,9 @@
+1. Objects variables that contain usually a few properties that have value pairs
+
+2. Properties name:value pairs such as name: 'persons name'  age: 'persons age'
+
+3. Methods are actions that can be performed on an object
+
+4. For in loops- loops through the properties of an object which is useful for something more complex like taking a few values of properties and stringing the together.
+
+5. Dot vs bracket notation dot notation and brakes notation are 2 different ways of accessing properties on an object but there are some cases where bracket notation is preferable even though it is not as neat such as when a variable resolves to a string.
