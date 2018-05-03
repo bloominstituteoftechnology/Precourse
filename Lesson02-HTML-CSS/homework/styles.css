@@ -1,0 +1,18 @@
+img {
+  height: 300px;
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: green;
+  padding: 50px;
+  border-width: 10px;
+  border-color: black;
+  border-style: double;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
