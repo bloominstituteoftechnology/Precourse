@@ -1,0 +1,7 @@
+Lesson 9 Feynman
+
+Callback functions - callbacks give you the ability to pass a function as an argument to another function.
+more specifically, a callback is an object which can be stored in variables, passed as arguments to 
+functions, created within functions, and returned from functions. Due to the fact that javascript is
+an event driven language, callbacks are a good tool to ensure certain code doesnt execute until other
+code has already finished.
