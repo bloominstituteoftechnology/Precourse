@@ -20,8 +20,8 @@ function incrementByOne(arr) {
   // increase each integer by one
   // return the array
 for (let i = 0; i < arr.length; i++){
-return (arr[i]+1);
-}
+arr[i] = arr[i]+1;
+} return arr;
 }
 
 function addItemToArray(arr, item) {
@@ -44,6 +44,7 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
+  
 }
 
 function contains(arr, item) {
