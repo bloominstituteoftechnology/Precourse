@@ -1,0 +1,15 @@
+Variables
+Variable are...
+containers that store values that can be changed or retrieved at any time
+Strings
+Strings are...
+containers storing/containing characters such as letters, numbers, or symbols
+Functions (arguments, return)
+Functions are..
+sets of statements that perfom tasks
+if statements
+if statements are...
+conditional statements that perform different tasks depending on the validity of a statement/based on different conditions
+Boolean values
+Boolean values...
+are values that can only result in true or false

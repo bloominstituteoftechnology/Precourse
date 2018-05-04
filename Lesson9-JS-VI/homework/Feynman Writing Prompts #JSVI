@@ -1,0 +1,5 @@
+Callback's are when you use a variable like a function inside
+a function. It's like a seesaw because the functions action comes to a near halt and then a callback
+is used to re-initiate another function or the same one function again, going back and forth
+from one action to another. You'll see these alot in games or things that need alot of graphics where you need to
+continue a function but need it to run differently

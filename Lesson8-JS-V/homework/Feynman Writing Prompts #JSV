@@ -1,0 +1,2 @@
+prototypes are used indirectly with objects, they allow you to change or interact with an object
+constructors are used right after you make a class, to create unique variables for that class....pretty cool

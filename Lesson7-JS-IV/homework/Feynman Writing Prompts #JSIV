@@ -1,0 +1,14 @@
+Objects are like variables but can do a lot more because they can hold any number of arrays, functions, or 
+variable types which go by properties
+
+information stored inside an object is called property(ies)
+properties can be accessed with dot notation ex. object.property
+
+methods are functions inside an object, you can do a lot with the ability to call on objects with functions
+ inside of them
+
+For in loop is a way to search for a value inside of an array or object without having to type out super long code
+
+dot and bracket notation is basically . vs []
+you use both to call on different things, dot notations is used to call properties within a function 
+bracket notation is used to call object properties as well 
