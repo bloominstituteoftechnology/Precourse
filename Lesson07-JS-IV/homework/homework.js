@@ -5,7 +5,7 @@ function makeCat(name, age) {
   // add an age property to the object with the value set to the age argument
   // add a method called meow that returns the string 'Meow!'
   // return the object
-  var name = {
+  var newObject = {
     name: name, 
     age: age,
     meow(){
@@ -34,7 +34,7 @@ function invokeMethod(object, method) {
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
-  mysteryNumberObject.MysteryNumber *= 5;
+  mysteryNumberObject.mysteryNumber *= 5;
   return mysteryNumber;
 }
 
