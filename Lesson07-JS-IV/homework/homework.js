@@ -118,8 +118,8 @@ function setUsersToPremium(users) {
   // return the users array
   for (let i = 0; i < users.length; i++){
     for(let key in i){
-      user.isPremium[key] = true;
-    };
+      users.user.isPremium[key] = true;
+    }
   }
 }
 
