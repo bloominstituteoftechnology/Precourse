@@ -3,35 +3,43 @@
 // solve these recursively
 
 
-  function nFactorial(n) {
-    // return the factorial for n
-    // example:
-    // the factorial of 3 is 6 (3 * 2 * 1)
-    if (n < 0) {
-      return -1;
-    }
-    else if (n === 0) {
-      return 1;
-    }
-    else {
-      return (n * nFactorial(n - 1));
-    }
-    //nFactorial(n);
-  }
+function nFactorial(n) {
   // return the factorial for n
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
+  if (n < 0) {
+    return -1;
+  }
+  else if (n === 0) {
+    return 1;
+  }
+  else {
+    return (n * nFactorial(n - 1));
+  }
+  nFactorial(n);
 }
+// return the factorial for n
+// exam;ple:
+// the factorial of 3 is 6 (3 * 2 * 1)
+
 
 function nFibonacci(n) {
-  // fibonacci sequence: 1 2 3 5 8 13 ...
-  // return the nth number in the sequence
+if(n<0){
+  return null;
 }
+else if(n<=1){
+  return n;
+}
+return (nFibonacci(n-1)+nFibonacci(n-2));
+}
+// fibonacci sequence: 1 2 3 5 8 13 ...
+// return the nth number in the sequence
+
 
 // Do not modify code below this line.
 // --------------------------------
 
 module.exports = {
-  nFactorial,
-  nFibonacci,
+nFactorial,
+nFibonacci,
 };
