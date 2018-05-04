@@ -106,7 +106,7 @@ function addFriend(user, newFriend) {
   // add newFriend to the end of the friends array
   // return the user object
   for(let key in user){
-    Friend.push(newFriend);
+    user.friends.push(newFriend);
   }
   return user; 
 }
