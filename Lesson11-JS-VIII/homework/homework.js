@@ -16,7 +16,7 @@
     else {
       return (n * nFactorial(n - 1));
     }
-    nFactorial(n);
+    //nFactorial(n);
   }
   // return the factorial for n
   // exam;ple:

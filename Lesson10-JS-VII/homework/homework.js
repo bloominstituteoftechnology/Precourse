@@ -6,7 +6,7 @@ function counter() {
     return counter;
   }
   const newcounter= count();
-  return newcounter
+  return newcounter;
   // Return a function that when invoked increments and returns a counter variable.
   // Example: const newCounter = counter();
   // newCounter(); // 1
