@@ -35,8 +35,7 @@ function invokeMethod(object, method) {
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   // mysteryNumberObject has a property called mysteryNumber
   // multiply the mysteryNumber property by 5 and return the product
-  mysteryNumberObject.mysteryNumber *= 5;
-  return mysteryNumber;
+  return mysteryNumberObject.mysteryNumber *= 5;
 }
 
 function deleteProperty(object, property) {
@@ -48,7 +47,7 @@ function deleteProperty(object, property) {
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
-  newUser.newObject = {
+  const newObject = {
     name,
     email,
     password,
@@ -106,10 +105,11 @@ function addFriend(user, newFriend) {
   // user has a property called friends that is an array
   // add newFriend to the end of the friends array
   // return the user object
-  for(let key in user){
+/*  for(let key in user){
     user.friends.push(newFriend);
   }
-  return user; 
+  return user; */
+  return user.friends.push(newFriend);
 }
 
 function setUsersToPremium(users) {
