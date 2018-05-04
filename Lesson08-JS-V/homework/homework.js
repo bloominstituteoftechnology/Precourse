@@ -25,7 +25,7 @@ function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
 Constructor.prototype.sayHi= function(){
-  return 'Hello world';
+  return 'Hello world!';
 };
 }
 
