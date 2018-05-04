@@ -48,7 +48,7 @@ function deleteProperty(object, property) {
 function newUser(name, email, password) {
   // create a new object with properties matching the arguments passed in.
   // return the new object
-  this.newObject = {
+  newUser.newObject = {
     name,
     email,
     password,
