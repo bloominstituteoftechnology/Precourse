@@ -67,8 +67,10 @@ function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
+  //property = "string"
+  //object = ["string"]
   for (let key in object){
-    if(object[key] === property){
+    if([key] === property){
       return true;
     }
     else if (object[key] == '0'){
