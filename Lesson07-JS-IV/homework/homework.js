@@ -94,7 +94,7 @@ function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
   //for (let key in user){
-    user.password[key] = newPassword;
+    user.password = newPassword;
   //}
   return user;
 }
