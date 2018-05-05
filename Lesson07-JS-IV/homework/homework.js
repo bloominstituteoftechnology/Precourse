@@ -27,7 +27,9 @@ function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-  object.method();
+  // method = "nameOfAMethod"
+  // nameOfAMethod = { obj1, obj2};
+  object[method]();
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
@@ -39,7 +41,7 @@ function multiplyMysteryNumberByFive(mysteryNumberObject) {
 function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
-  delete object.property;
+    delete object[property];
   return object;
 }
 
@@ -57,11 +59,12 @@ function newUser(name, email, password) {
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
-  for (let key in user){
+  /*for (let key in user){
     if(user.email[key] != null){
       return true;
     } else return false;
-  } 
+  } */
+  return user.email ? true : false;
 }
 
 function hasProperty(object, property) {
