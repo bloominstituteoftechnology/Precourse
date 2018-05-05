@@ -40,6 +40,7 @@ function deleteProperty(object, property) {
   // remove the property from the object
   // return the object
   delete object.property;
+  return object;
 }
 
 function newUser(name, email, password) {
@@ -67,10 +68,21 @@ function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
+  
   //property = "string"
   //object = ["string"]
-  for (let key in object){
-    if([key] === property){
+  
+  for (var key in object) {
+    if (key === property) {
+      return true;
+    }
+  }
+  return false;
+} 
+  
+
+  /*for (let key in object){
+    if(key === property){
       return true;
     }
     else if (object[key] == '0'){
@@ -78,7 +90,7 @@ function hasProperty(object, property) {
     }
     else return false;
   }
-}
+}*/
 
 function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
