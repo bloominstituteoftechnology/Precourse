@@ -58,7 +58,7 @@ function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
   for (let key in user){
-    if(user.email[key] !== null){
+    if(user.email[key] != null){
       return true;
     } else return false;
   } 
