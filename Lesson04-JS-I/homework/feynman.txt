@@ -1,0 +1,9 @@
+Variables:
+
+Strings:
+
+Functions (arguments, return):
+
+if statements:
+
+Boolean values (true, false):

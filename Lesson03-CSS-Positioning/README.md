@@ -86,7 +86,7 @@ Now that we have set our position method to the style we want to use, we can the
 
 ### top, left, right, and bottom
 
-After we set a positioning method we can the use top, bottom, left, and right properties to position our element. The value you give to each of these will determine how far away from the edge we want our element to be. For example, if we want our element to be in the extreme upper left corner (with a fixed position) we would use the following:
+After we set a positioning method we can use the top, bottom, left, and right properties to position our element. The value you give to each of these will determine how far away from the edge we want our element to be. For example, if we want our element to be in the extreme upper left corner (with a fixed position) we would use the following:
 
 ```css
   div {
