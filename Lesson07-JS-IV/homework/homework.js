@@ -93,9 +93,9 @@ function verifyPassword(user, password) {
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
-  for (let key in user){
+  //for (let key in user){
     user.password[key] = newPassword;
-  }
+  //}
   return user;
 }
 
@@ -107,7 +107,8 @@ function addFriend(user, newFriend) {
     user.friends.push(newFriend);
   }
   return user; */
-  return user.friends.push(newFriend);
+  user.friends.push(newFriend);
+  return user;
 }
 
 function setUsersToPremium(users) {
@@ -119,6 +120,7 @@ function setUsersToPremium(users) {
     for(let key in i){
       users.user.isPremium[key] = true;
     }
+    return users;
   }
 }
 
