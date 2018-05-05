@@ -68,7 +68,7 @@ function hasProperty(object, property) {
   // property is a string
   // otherwise return false
   for (let key in object){
-    if(object.property[key] == 0){
+    if(object.property[key] === property){
       return true;
     }
     else if (object.property[key] == '0'){
@@ -117,11 +117,10 @@ function setUsersToPremium(users) {
   // set each user's isPremium property to true
   // return the users array
   for (let i = 0; i < users.length; i++){
-    for(let key in i){
-      users.user.isPremium[key] = true;
+    //for(let key in i){
+      users[i].isPremium = true;
     }
     return users;
-  }
 }
 
 function sumUserPostLikes(user) {
