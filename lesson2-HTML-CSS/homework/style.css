@@ -1,0 +1,31 @@
+h1{color: mediumspringgreen}
+
+	img{width: 400px}
+				
+	#spanId{
+		font-size: 18px;
+		margin: 50px;
+		}
+
+	#thirdDiv{
+		height:600px;
+		width:500px;
+		background:green;
+		padding:50px;
+		border:10px solid black;
+		align-content: center;
+		}	
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+	.bg	{
+		background-image: "https://vignette.wikia.nocookie.net/steamtradingcards/images/c/cb/Lords_of_the_Black_Sun_Background_Arriving_Fleet.jpg/revision/latest?cb=20141107111323"("space.jpg")
+		height:100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:cover;
+	}
