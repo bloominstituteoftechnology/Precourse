@@ -82,12 +82,12 @@ function verifyPassword(user, password) {
   // check to see if the provided password matches the password property on the user object
   // return true if they match
   // otherwise return false
-  for (let key in user){
+  //for (let key in user){
     if (user.password[key] === this.password){
       return true;
     }
     else return false;
-  }
+ // }
 }
 
 function updatePassword(user, newPassword) {
