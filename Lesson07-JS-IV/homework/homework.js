@@ -83,7 +83,7 @@ function verifyPassword(user, password) {
   // return true if they match
   // otherwise return false
   for (let key in user){
-    if (user.password[key] === password){
+    if (user.password[key] === this.password){
       return true;
     }
     else return false;
