@@ -1,0 +1,9 @@
+for - its a loop that runs for a certain number of times. We have the starting point the ending point and the
+increment value for how much do we increase the starting point
+
+&& - logical operator AND which equals to truth only if 2 statments that we compare are true
+
+|| - logical operator OR which equals to truth if one of the statments are true can be true also if all of the statments are
+true
+
+! - logical operator NOT inverse the boolean true into false and vice versa
