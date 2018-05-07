@@ -1,0 +1,39 @@
+body{
+    background-image: url("http://www.allwhitebackground.com/images/2/2284.jpg");
+}
+
+h1{
+    color: mediumspringgreen;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+img{
+    width: 400px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    border: 2px solid cyan;
+    border-radius: 3px;
+    background-color: gray;
+}
