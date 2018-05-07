@@ -1,0 +1,19 @@
+		h1 {color: blue;
+
+		}
+		img {
+			width: 400px;
+		}
+		#thirdDiv {height: 600px; width: 500px; background-color: khaki;
+
+		}
+		#spanId {font: 18px; margin: 50px
+		}
+		#thirdDiv {padding: 50px; border-width: 2px; border-style: dotted; border-color: red}
+
+		body {background-image: url(http://flavorboulevard.com/wp-content/uploads/2010/11/sushi-ko-berkeley-sashimi.jpg);
+		}
+        .divClass {width: 15%;}
+        .divClass {margin: auto;}
+
+		#thirdDiv {margin: auto;}
