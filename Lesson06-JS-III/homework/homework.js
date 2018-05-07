@@ -51,12 +51,6 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-  /*if (arr.includes(item)) {
-    return true;
-  }
-  else {
-    return false;
-  } */
   return arr.includes(item);
 }
 
