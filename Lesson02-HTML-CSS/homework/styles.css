@@ -1,0 +1,40 @@
+h1 { 
+    color: darkblue;
+}
+img { 
+    width: 400px;
+}
+#thirdDiv{ 
+    margin: auto;
+    height: 900px; width: 480px;
+    background-color: gray; 
+    padding: 50px;
+    border: 10px;
+     }
+
+#Salmon{
+    width: 380px;
+    height: 652px;
+
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+body{
+    
+    background-image: url("https://previews.123rf.com/images/thorstenschmitt/thorstenschmitt1110/thorstenschmitt111000029/10818137-orange-bokeh-backround.jpg")
+
+} 
+#divClass{
+    text-align: center
+}
+div.center{
+    margin:auto
+}
+li.relative{
+    position: relative;
+    text-align: center;
+    margin: auto
+}
