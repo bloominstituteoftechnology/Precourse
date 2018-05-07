@@ -1,0 +1,42 @@
+h1 {
+  color: red;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: yellow;
+  padding: 50px;
+  border: 2px solid blue;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+html {
+  background: url("https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div {
+  margin: 0px auto;
+}
+
+* {
+  text-align: center !important;
+  margin: auto !important;
+  position: static;
+}
+
+.flex-container {
+  align-items: center;
+}
