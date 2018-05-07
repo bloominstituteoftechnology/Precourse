@@ -8,7 +8,8 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+  display: block;
+  text-align: center;
 }
 
 
@@ -16,28 +17,62 @@ in this folder, you are in the wrong place.
 
 /* Place code here */
 
-
+#exerciseTwo {
+  display: none;
+}
 
 /* Exercise Three: */
 
 /* Place code here */
 
-
+#exerciseThree {
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
 
 /* Exercise Four: */
 
 /* Place code here */
 
-
+#exerciseFour {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
 
 /* Exercise Five */
 
 /* Place code here */
 
-
+#exerciseFive {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
 
 /* Exercise Six */
 
 #exerciseSeven {
   display: flex;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+#itemOne {
+  align-self: flex-end;
+}
+
+#itemTwo {
+  align-self: center;
+}
+
+#itemThree {
+  align-self: center;
+}
+
+#itemFour {
+  align-self: flex-start;
 }

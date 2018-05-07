@@ -1,0 +1,35 @@
+h1, h3, h4 {
+    color: black;
+}
+span, a {
+    color: gold;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background: royalblue;
+    padding: 50px;
+    border: 2px solid firebrick;
+    margin: auto;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+body {
+    background-image: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fonwardstate.com%2Fwp-content%2Fuploads%2F2016%2F03%2Fa24b6c26-1a5b-4cff-996d-7c34ada6ec89.jpg&f=1");
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
