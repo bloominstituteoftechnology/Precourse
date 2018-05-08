@@ -1,0 +1,76 @@
+img {
+  height: 300px;
+  width: 400px;
+}
+
+#thirdDiv {
+	margin-left: auto;
+  height: 600px;
+  width: 500px;
+  background-color: green;
+  padding: 50px;
+  border-width: 10px;
+  border-color: black;
+  border-style: double;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+h1 {
+	color: red;
+  }
+
+/* Extra Credit */
+
+/* Set the background of the entire page to an image */
+body {
+	background-image: url("https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?auto=compress&cs=tinysrgb&h=350");
+}
+
+/* Center the div's on the page */
+/* div {
+	margin-right:auto;
+    margin-left:auto;
+}
+*/
+
+/* Center all of the elements on the page */
+/* div {
+	margin-right:auto;
+    margin-left:auto;
+	text-align: center;
+}
+
+h1, h3, h4 {
+	text-align:center;
+}
+*/
+
+/* Read about flexbox and use flexbox to center all of the items on the page */
+h1, h3, h4 {
+	display: flex;
+	justify-content: center;
+}
+
+
+#spanId {
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	display: flex;
+	justify-content: center;
+}
+
+#thirdDiv{
+	position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
