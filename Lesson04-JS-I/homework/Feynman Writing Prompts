@@ -1,0 +1,17 @@
+*Variable
+Variable is used to store value in order to use later.
+
+*Strings
+String is the data type that describe text. Strings are always defined with quotation marks around them, either single or double. 
+
+*Boolean Values
+Boolean values are either True or False. We use boolean to indicate if a condition is true or false. 
+
+*Functions(arguments, 'return')
+A function is a block of code which is used to execute a series of command, and return a value in the end.
+A function will have optional argument, which can be used by the code in the function.
+
+*If statement
+If statement is a programming structure to control the flow of the program. An if statement will check if the condition is true or false, then execute a block of code depends on the boolean value of the condition.
+
+

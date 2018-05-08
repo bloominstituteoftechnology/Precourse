@@ -1,0 +1,7 @@
+'For' let us loop a block of code for a known amount of time. It start with an initial value, then increase by an amount to the limit.
+
+&& and || are logical operators used to connect to boolean conditions. 
+When we need both conditions to be true or both conditions to be false, we use &&.
+When we need either condition to be true or false, we use ||
+
+! is the logical not operator. It takes an expression and evaluates it. If expression is true, then return false, and vice versa.11

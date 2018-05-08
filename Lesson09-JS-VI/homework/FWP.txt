@@ -1,0 +1,3 @@
+*Callback Functions
+
+Callback functions are functions that are passed in another function (higher order function) as argument.
