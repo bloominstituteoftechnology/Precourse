@@ -8,7 +8,8 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+	text-align: center;
+	display: block;
 }
 
 
@@ -17,27 +18,93 @@ in this folder, you are in the wrong place.
 /* Place code here */
 
 
+#exerciseTwo {
+	display: none;
+}
+#header {
+	padding-top: 250px;
+}
 
 /* Exercise Three: */
 
 /* Place code here */
-
+#exerciseThree {
+	position: absolute;
+    left: 200px;
+    top: 100px;
+}
 
 
 /* Exercise Four: */
 
 /* Place code here */
 
-
+#exerciseFour {
+	position: fixed;
+    top: 10px;
+    width: 600px;
+    top: 0px;
+    left: 0px;
+    scroll-behavior: inherit;
+    
+    
+}
 
 /* Exercise Five */
 
 /* Place code here */
 
+#exerciseFive {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-end;
+    height: 300px;
+    align-items: center;
+    align-items: flex-end;
+    align-content: space-around;
+    text-align: center;
+    padding: 25px;
+    left: 10px;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    
+}
+#exerciseFive > span {
+  width: 100px;
+  margin: 20px;
+  font-size: 20px;
+ 
 
+}
 
 /* Exercise Six */
-
-#exerciseSeven {
+/* Place code here */
+#exerciseFive {
   display: flex;
+  flex-direction: row;
+  
+
+}
+#exerciseSeven > itemOne {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 200px;
+  align-items: center;
+  align-content: space-between;
+}
+
+#itemTwo {
+  display: flex;
+  justify-content: center;
+}
+#itemThree {
+ display: flex;
+  justify-content: flex-start;
+}
+#itemFour {
+ display: flex;
+  justify-content: flex-end;
 }

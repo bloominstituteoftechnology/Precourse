@@ -1,0 +1,55 @@
+ body {
+ 	background-image: url("lambdaschool.png");
+ 	background-repeat: no-repeat;
+ 	margin-right: 200px;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    
+ }
+
+h1 {
+	color: blue;
+}
+#spanId {
+	font-size:18px; 
+	margin: 50px;
+	padding-top: -50px;
+}
+img {
+	width: 400px;
+}
+.divClass {
+	margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    display: flex;
+   align-items: vertical;
+   justify-content: center;
+   flex-direction: column;
+   padding-top: -50px;
+
+    
+}
+#thirdDiv {
+	margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    height: 600px;
+	width: 500px;
+	background-color: powderblue;
+	padding: 50px;
+	border-style: double;
+	border-color: red green blue yellow;
+	border-width: 5px;
+	display: flex;
+    align-items: center;
+    justify-content: vertical;
+
+} 
