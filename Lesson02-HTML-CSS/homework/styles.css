@@ -1,0 +1,48 @@
+
+/*.container {width: 100%;}
+.elements {
+    text-align:center;
+}
+.align{
+    position:relative;
+    top:50%;
+    transform:translateY-(50%;)
+}*/
+.align {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.divClass {
+    flex:1;
+}
+.Box2 {
+    flex:1; }
+
+.Box3 {
+    flex:1;
+}
+html {
+    background: url(https://thumbs.dreamstime.com/b/seamless-rice-pattern-abstract-vector-72581665.jpg) no-repeat center center fixed;
+    -webkit- background-size:cover;  
+    -moz- background-size:cover;
+    -o- background-size:cover;
+    background-size:cover; }
+#Great {text-align:center;}
+#Levi {text-align:center;}
+#Lambda {text-align:center;}
+#HTML {text-align:center;}
+h1 {color:darkorange;}
+img {width:400px;}
+#thirdDiv {
+    text-align: center;
+    display: inline-block;
+    height: 800px;
+    width: 500px;
+    background-color:coral;
+    padding:50px;
+    border:10px double brown; }
+#spanId {
+    margin:50px;
+    font-size:18px;
+        }
