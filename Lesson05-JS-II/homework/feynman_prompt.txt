@@ -1,0 +1,21 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding. 
+
+‘For’
+- For is similar to ‘if statement’, except it is more robust and provides you the ability to do more with in. With for, if can ‘loop’ through a text, or list, or something like it and test whether or not conditions are true. For loops generally have three parameters, and then a body function: 
+- A starting point, such as x = 0
+- An ending point, such as x = 100
+- And an incrementer, such as x+1
+- The body function is what to do at each increment step until the for loop reaches the point where x = 100 (in this example).
+
+The starting point defines which parameter will be ‘looped’ through and what value to start with (in the example above, x starts at 0). The ending point is the point at which the for loop will stop. The incrementer changes the value of the chosen parameter - in the above case ‘x’, until it reaches the ending point (sometimes, it will *never* reach the ending point). The body function is what to do for each increment of x. For instance, maybe, for each increment of x, 2 is added to y. If x is incremented by one in this circumstance, then y would be double x.
+
+For loops are all over the place in programming and can be very useful in a variety of scenarios.
+
+‘&&’
+The ‘And’ operator is useful for comparisons in js. One uses the ‘&&’ to evaluate whether or not two boolean values are both true. If they are both true, putting && will return ‘true’. If either of the two boolean values are false, or if both are false, then && will return false.
+
+‘||’
+The ‘And’ operator is also useful for comparisons in js. One uses the ‘||’ to evaluate whether or not any two boolean values are true. If either value is true, putting || between the two will return ‘true’. Only if the two boolean values are false will || return false. If the two values are both true, it will return true.
+
+‘!’
+The ‘Not’ operator inverts a boolean value. For instance if x === true, then x !== false. It’s fairly straight forward, but the syntax can be somewhat tricky
