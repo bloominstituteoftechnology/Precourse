@@ -1,0 +1,19 @@
+Concepts to Explain like you’re explaining to a 12 yo
+
+Variables:
+- A variable is something you use to change the behavior of something else. Variables are ‘stored’ for later use. You can think of a variable as a cardboard box. The variable’s name is like writing the words “Box_1” on the outside of the box. “Box_1” would be the variable name. What you put *inside* the box would be the variable’s value. For instance, let’s say you put a banana in Box_1. This would mean that the variable Box_1 would have the value of banana. Variables can be helpful because sometimes you don’t know what you want to store in the box before you create it (kinda like why you’d want a box!). When you give your variable Box_1 to the computer, it allows it to understand what you mean when you later reference Box_1 in some process, like replacing what was previously in the box (a banana) with an apple.
+
+Strings:
+- A string is a series of alpha-numeric characters and sometimes special characters that have certain special properties when read by a computer. Strings are usually represented with single or double quotes around them like: ‘apple’, “this_is_a_string”, ’42’. Some strings, especially those that are numbers, are hard to differentiate from those that are numbers. For instance, ’42’ is a string but 42 (i.e., no quotes) is a number. Computers recognize the two differently.
+
+Functions:
+- A function is something that takes in input and produces some output. That output may be nothing, or the output may be undefined. A function takes ‘parameters’ or ‘arguments’, i.e., different inputs. Sometimes, different inputs result in different outputs. A function can also be thought of as a diagram, mapping inputs to possible outputs. In computers, the output is often referred to as the ‘return’ value.
+
+If statement:
+- An “if” statement is a logical tool that checks whether or not sometime is true, and then does something else based on that answer. For instance, one my run there very own “if statement” in their head when they get up in the morning. One such program might look like this: If (it will rain today === True)
+      then (bring an umbrella with me when I leave my house)
+      else (don’t bring an umbrella with me when I leave my house)
+If statements are everywhere in programmers to control what their code does based on weather or not a certain statement was true.
+
+Boolean values:
+- A boolean values are True or False. True is often the same as the number 1. While False, in programming, is often the same as the number 0. At their lowest level, all computers are doing is doing boolean logic operations, that is, working with 1s and 0s.
