@@ -1,0 +1,42 @@
+ul {
+    list-style: none;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: lightseagreen;
+    padding: 50px;
+    border-color: lightblue;
+    border-width: 5px;
+    border-style: dotted;
+    margin: auto;
+}
+
+.divClass {
+    margin: auto;
+    text-align: center;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    display: inline-block;    
+}
+
+h1,h3,h4 {
+    color: seagreen;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+body {
+    background-image: linear-gradient(lightblue,teal);
+}
+
+p {
+    text-align: center;
+}

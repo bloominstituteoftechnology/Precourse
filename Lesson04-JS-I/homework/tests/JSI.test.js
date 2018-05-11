@@ -34,7 +34,7 @@ describe('newString', function() {
   it('should be a string', function() {
     expect(typeof newString).toBe('string');
   });
-});
+}); 
 
 describe('newNum', function() {
   it('should be a number', function() {
