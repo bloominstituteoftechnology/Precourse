@@ -7,7 +7,7 @@ Feynman Writing Prompts - Write out explanations of the following concepts like 
 	* Dot notation vs bracket notation
 
 ‘Objects’
-- Objects are the foundation of JS. Literally everything in JS is an object!! You can think of an object as a storage container. It is similar to arrays but it can handle different types of things such as strings, numbers, functions, and even other objects. Objects hold data inside curly brackets like {}. Items inside objects are not sorted by number, like in arrays. In objects, all items are stored with a key. That key is used to reference the number, string, function (or Methods), or other object. 
+- Objects are the foundation of JS. Literally everything in JS is an object!! You can think of an object as a storage container. It is similar to arrays but it can handle different types of things such as strings, numbers, functions, and even other objects. Objects hold data inside curly brackets like {}. Items inside objects are not sorted by number, like in arrays. In objects, all items are stored with a key. That key is used to reference the number, string, function (or Methods), or other object.
 
 ‘Properties’
 -Properties are one type of item that can be stored in an objects. Properties are pretty simple - they are usually just numbers are strings that say something about the object. For instance, let’s say I had an object called ‘newPerson’:
@@ -34,7 +34,7 @@ Objects are unique because not only can they store object properties, but they c
 by typing: newObject.sayHiMethod(), I will get an output of: ‘Hi Everyone!’. Pretty neat, huh?
 
 ‘For...in loop’
-- If you recall, when we were working with arrays, we found it helpful to use ‘for’ loops to ‘loop’ through each element in the array, if we want, do some comparison or add some of the elements together. Well, what if we wanted to do that with objects? Uhh… I don’t know how we would do that? There is no ‘index’ for which to reference and loop through. Nevertheless, we are okay, because there is something in JS called a ‘For… in’ loop. For…in loops loop through the key:value pairs in a JS object, similar to the way a For loop iterates over an array. 
+- If you recall, when we were working with arrays, we found it helpful to use ‘for’ loops to ‘loop’ through each element in the array, if we want, do some comparison or add some of the elements together. Well, what if we wanted to do that with objects? Uhh… I don’t know how we would do that? There is no ‘index’ for which to reference and loop through. Nevertheless, we are okay, because there is something in JS called a ‘For… in’ loop. For…in loops loop through the key:value pairs in a JS object, similar to the way a For loop iterates over an array.
 
 Let’s say we have the following object:
 
@@ -60,7 +60,7 @@ Pretty cool, huh?
 
 - Dot notation vs bracket notation
 With objects, there are two ways to access the values and methods associated with the objects key:value pairs:
-1. Via Dot notation 
+1. Via Dot notation
 2. Via bracket notation
 
 Dot notation looks like this:
@@ -69,5 +69,4 @@ Dot notation looks like this:
 
 Bracket notation looks like this:
 - newObject[‘name’]
-
-Bracket notation cannot be used for methods, only dot notation
+- newObject['methodName']()
