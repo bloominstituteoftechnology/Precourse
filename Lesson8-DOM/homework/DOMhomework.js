@@ -32,8 +32,8 @@ class ToDo{
 
 
 function ToDo(description) {  
-  this.description = description;
-  this.complete = false;
+	this.description = description;
+	this.complete = false;
 }
 
 
@@ -45,10 +45,13 @@ function ToDo(description) {
 */
 
 // code here
+
 ToDo.prototype.completeToDo = function () 
 	{ 
 		this.complete = true;
 	}
+
+	
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -70,20 +73,24 @@ ToDo.prototype.completeToDo = function ()
 function buildToDo(todo, index) {
   // code here
 	var toDoShell = document.createElement("div");
-	//toDoShelll.setAttribute('class','toDoShell');
+	toDoShell.className = "toDoShell";
+	
 	var toDoText = document.createElement("span");
-	toDoShell.className = 'toDoShell';	
+		
 	toDoText.innerHTML = todo.description;
+	toDoText.addEventListener("click", completeToDo);
 	//toDoText.setAttribute('id',index);
 	toDoText.id = index;
-	toDoText.onclick = function(){completeToDo(index);}
+	//toDoText.onclick = function(){completeToDo(index);}
 	if (todo.complete === true)
 		{
-			toDoText.classList.add('completeText');
-			//toDoText.className = 'completeText';
+			//toDoText.classList.add("completeText");
+			toDoText.className = "completeText";
+			
 		}
 	toDoShell.appendChild(toDoText);
 	return toDoShell;
+	
 }
 
 /* 
@@ -119,6 +126,7 @@ function displayToDos() {
 		toDoContainer.appendChild(tt[i]);
 		//console.log(toDoContainer.hasChildNodes());
 		console.log(tt.complete);
+		
 	}
 }
 
@@ -151,7 +159,6 @@ function addToDo() {
 // cod here
 var click = document.getElementById('addButton');
 click.onclick = function () {addToDo();}
-//click.addEventListener("mouseenter" function () {addToDo();});
 
 
 /* 
