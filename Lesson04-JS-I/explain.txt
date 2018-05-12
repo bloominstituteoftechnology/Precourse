@@ -1,0 +1,14 @@
+variables- we use variables to store a single data in them. We can put numbers,
+texts and booleans. We give a meaningfull name to variables so that we know
+what we store
+
+strings- are type of variables in which we store text
+
+funcions - are more complex concept that can do some kind of operations inside
+itself and then return value as result. We can set arguments for functions so that it
+can take some data to work with
+
+if statment- it compares two values and returns boolean true if the 
+statment is truth and if the statment is lie it returns false
+
+boolean- has two values either true or false( one or zero)
