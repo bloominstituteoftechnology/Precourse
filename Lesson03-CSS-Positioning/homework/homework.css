@@ -19,8 +19,9 @@ in this folder, you are in the wrong place.
 
 /* Exercise Three: */
 #exerciseThree{
-  position-left: 200px;
-  position-top: 100px;
+  position: relative;
+  left: 200px;
+  top: 100px;
 }
 
 
