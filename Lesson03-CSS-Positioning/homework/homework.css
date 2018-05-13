@@ -33,7 +33,7 @@ in this folder, you are in the wrong place.
 
 /* Exercise Five */
 #exerciseFive {
-  position: flex;
+  display: flex;
   justify-content: space-between;
 }
 
