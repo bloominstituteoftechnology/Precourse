@@ -27,7 +27,7 @@ in this folder, you are in the wrong place.
 /* Exercise Four: */
 #exerciseFour {
   position: fixed;
-  top: 0px;
+  bottom: 100px;
   left: 0px;
 }
 
