@@ -31,11 +31,11 @@ in this folder, you are in the wrong place.
   left: 0px;
 }
 
-
-
 /* Exercise Five */
-
-/* Place code here */
+#exerciseFive {
+  position: flex;
+  justify-content: space-between;
+}
 
 
 
