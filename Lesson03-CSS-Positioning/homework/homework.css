@@ -24,11 +24,12 @@ in this folder, you are in the wrong place.
   top: 100px;
 }
 
-
-
 /* Exercise Four: */
-
-/* Place code here */
+exerciseFour {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
 
 
 
