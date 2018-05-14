@@ -1,6 +1,7 @@
 
 		h1 {color: aqua;
-		margin: 0 auto; }
+		text-align: center; }
+
 		img {width: 400px;
 		margin: 0 auto; }
 		#thirdDiv {height: 600px;
@@ -11,8 +12,9 @@
 margin: 0 auto; 
 }
 #spanID {font-size: 18px;
-margin: 50px;
-margin: 0 auto; }
+/*margin: 50px;*/
+color: white;
+text-align: center; }
 	
 body, html {
     height: 100%;
@@ -27,9 +29,15 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.divClass {
+    margin: auto;
+    width: 50%;
+    color: white;
 
-div { margin: 0 auto; }
+    padding: 10px;
+}
 
-.flex-container {
-  display: flex;
-  justify-content: center;
+
+a {
+    color: white;
+}
