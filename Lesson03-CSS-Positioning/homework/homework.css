@@ -38,7 +38,7 @@ in this folder, you are in the wrong place.
   align-items: center;
 }
 
-
-
 /* Exercise Six */
-
+#exerciseFive {
+  flex-direction: row-reverse;
+}
