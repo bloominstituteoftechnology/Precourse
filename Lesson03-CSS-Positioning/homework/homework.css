@@ -36,10 +36,8 @@ in this folder, you are in the wrong place.
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
 }
 
 /* Exercise Six */
-#exerciseFive {
-  display: flex;
-  flex-direction: row-reverse;
-}
+
