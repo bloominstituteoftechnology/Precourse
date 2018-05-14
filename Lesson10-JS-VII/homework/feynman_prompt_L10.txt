@@ -1,0 +1,7 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.
+
+‘Closure’
+
+A closure is a unique type of function in JS. It’s special ability is that it allows a developer to access variables that might otherwise be out-of-scope in the current execution context.
+
+Think of it like this: you’re away from your house and you want to figure out whether or not you locked the door. The problem is that you don’t have any way to directly access a function that would say directly whether or not your door is unlocked. But ah ha! You’ve got a web cam in your house that looks at your door. You can see whether or not the door is locked from the web cam! So by going through the “function” ‘web cam’, you can see the variable “is_the_door_locked”. In this example, the web cam is kind of like a closure function.

@@ -1,0 +1,6 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.
+
+‘Arrays’
+- An array is a list of objects, strings, and numbers. Arrays have special properties that make them useful for using in your programs in JS. One can look up a specific item in an array (also called ‘index into’) by putting brackets after the array, such as: array1[0]. The first object in an array is referenced by array1[0], and the second is referenced by array1[2], and so on.
+
+Arrays are useful for storing data that a program will use later, and they are also useful with loops, as the array values can be ‘looped’ through.

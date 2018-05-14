@@ -1,0 +1,38 @@
+<!--
+h1 {
+  color: indigo;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: url("https://www.myholidayguru.co.uk/wp-content/uploads/2017/05/crater-vulkan-mount-eden-in-auckland-istock_12151570_large-2.jpg");
+}
+
+#thirdDiv {
+  width: 500px;
+  height: 600px;
+  background-color: lightblue;
+  padding: 50px;
+  border-color: red;
+  border-style: dotted;
+}
+
+#spanID {
+  font-size: 18px;
+  margin: 50px;
+}
+
+
+-->

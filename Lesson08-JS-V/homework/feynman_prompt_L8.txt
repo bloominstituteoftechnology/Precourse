@@ -1,0 +1,35 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.
+‘Prototype’
+- Prototypes are a very cool feature of JS. Functions created within objects can take up a lot of memory. Let say you have 12,000 members for your website and each member has 5 associated functions. That means that we would need to create and allocate 5 x 12,000 = 60,000 functions in memory. Ouch! That’s going to take up a lot of space and potentially bog down my site. This is where prototypes come in really handy.
+
+Prototypes allow for methods to be set once for a class, and then all future members of that class have access to that method. Ahh… so much more efficient! The convention for declaring prototypes is:
+
+Object.prototype.methodName = function(){
+	return ‘My name is ‘+ this.name // whatever you want the function to do here.
+}
+
+With this code in place, any objects of the type ‘Object’, will have access to the ‘methodName’ method. Pretty neat, huh?
+
+‘Constructor’
+- A constructor is like a blueprint for a house. When one has a blueprint for a house, one can still decided things like: what color the house is? what type of roof does the house have? Does the house have hardwood floors or carpeting? The blueprint also gives one a basic setup for the house. Such things that might come included with a house include things like: a front door, a doorbell, and a heating system.
+
+Constructors, often referred to as ‘classes’, give us a ‘template’ for creating some object. For instance, let’s say we spent a long time creating a cat object named ‘larry’. Larry has a bunch of properties and methods associated with it, properties and methods that we’d prefer not to have to recreate again if we want to create another cat called ‘kate’. That’s where ‘constructors’ come in! With a constructor (or a class), we don’t have to recreate larry from scratch.
+
+The following javascript creates a basic cat constructor and creates two cats, including larry and kate:
+
+```javascript
+    function Cat(name) {
+        // the new operator creates an object, 'this'
+        this.name = name;
+        this.meows = function() {
+            return 'My name is ' + this.name + ' ...Meow!';
+        }
+        // return the object 'this'
+    }
+
+    const larry = new Cat(‘Larry’);
+    const kate = new Cat(‘Kate’);
+    console.log(larry.meows()); // 'My name is Larry ...Meow!'
+    console.log(kate.meows()); // 'My name is Kate ...Meow!'
+
+``` 

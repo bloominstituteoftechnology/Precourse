@@ -1,0 +1,24 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.
+
+‘Callback Functions’
+- Callback functions are pretty sweet - these functions are functions that are passed as an arguments through other functions. Once they are passed into functions, they can be called at any time.
+
+An example of a callback function is shown below:
+
+```javascript
+    function saysHelloToUser(user) {
+        return 'Hello ' + user + '!';
+    }
+
+    function saysGoodbyeToUser(user) {
+        return 'Goodbye ' + user + '!';
+    }
+
+    function createGreeting(user, cb) {
+        return cb(user);
+    }
+
+    createGreeting('Dan', saysHelloToUser); // 'Hello Dan!'
+    createGreeting('Dan', saysGoodbyeToUser); // 'Goodbye Dan!'
+```
+In the createGreeting function, we are forced to give two arguments, (1) a name, and (2) a function (a.k.a. our callback function). The createGreeting function then allows us to call the cb function.

@@ -1,0 +1,72 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.
+
+	* Objects
+	* Properties
+	* Methods
+	* for in loop
+	* Dot notation vs bracket notation
+
+‘Objects’
+- Objects are the foundation of JS. Literally everything in JS is an object!! You can think of an object as a storage container. It is similar to arrays but it can handle different types of things such as strings, numbers, functions, and even other objects. Objects hold data inside curly brackets like {}. Items inside objects are not sorted by number, like in arrays. In objects, all items are stored with a key. That key is used to reference the number, string, function (or Methods), or other object.
+
+‘Properties’
+-Properties are one type of item that can be stored in an objects. Properties are pretty simple - they are usually just numbers are strings that say something about the object. For instance, let’s say I had an object called ‘newPerson’:
+
+const newPerson = {
+        name: Ben,
+	hair_color: brown
+    };
+
+the properties of newPerson would be name and hair_color. These properties are also referred to as ‘keys’ and the values associated with them, namely, Ben and brown are called their values. Often the pair is called a ‘key:value’ pair. This is very popular terminology in programming.
+
+‘Methods’
+- Up until now, we haven’t figured out how objects are much different from arrays. Well, it’s about to get interesting!
+
+Objects are unique because not only can they store object properties, but they can also store functions. When a function is built into an object it is referred to as a ‘method’. Methods are great because they have all of the characteristics of a function, but can be called in some pretty cool ways. For instance, let’s say I have an object like the following:
+
+```javascript
+    const newObject = {
+        sayHiMethod: function() {
+            console.log('Hi Everyone!');
+        },
+    };
+
+by typing: newObject.sayHiMethod(), I will get an output of: ‘Hi Everyone!’. Pretty neat, huh?
+
+‘For...in loop’
+- If you recall, when we were working with arrays, we found it helpful to use ‘for’ loops to ‘loop’ through each element in the array, if we want, do some comparison or add some of the elements together. Well, what if we wanted to do that with objects? Uhh… I don’t know how we would do that? There is no ‘index’ for which to reference and loop through. Nevertheless, we are okay, because there is something in JS called a ‘For… in’ loop. For…in loops loop through the key:value pairs in a JS object, similar to the way a For loop iterates over an array.
+
+Let’s say we have the following object:
+
+‘’’javascript
+	const newObject = {
+		name: Ben,
+		hair_color: brown,
+		favorite_sport: golf
+};
+
+if we wanted to print out all of the values of each property in newObject, we could use a For…in loop as follows:
+
+	for(let key in newObject){
+		console.log(user[key]);
+}
+
+What this would produce would be as follows:
+	// ‘Ben’
+   	// ‘brown’
+    	// ‘golf’
+
+Pretty cool, huh?
+
+- Dot notation vs bracket notation
+With objects, there are two ways to access the values and methods associated with the objects key:value pairs:
+1. Via Dot notation
+2. Via bracket notation
+
+Dot notation looks like this:
+- newObject.name
+- newObject.aMethodExample()
+
+Bracket notation looks like this:
+- newObject[‘name’]
+- newObject['methodName']()
