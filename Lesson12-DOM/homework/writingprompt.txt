@@ -1,0 +1,17 @@
+DOM: DOM is where you can get into some super fun stuff, more or less think of
+'DOM' as 'DOM Manipulation' because what you are doing when using it is directly 
+changing and manipulating the website. Meaning if you wanted to you could make
+most, if not all of the pretty looking stuff on a website in only javascript.
+
+DOM element selectors: Selecting elements and giving them a value in a script 
+sounds really strange and complicated, but really all you do is use a selector
+to grab an ID, class name or something similar and then make a shortcut for it
+that you could name whatever you want. These are very helpful in programming 
+
+DOM events: Events are a little more goofy than the past two. Because there is 
+a whole lot you can do with them. Most of the time however your making buttons,
+basic keyboard controls and pop ups ('alerts' if you want to be technical.)
+Pretty much DOM is a very great and important thing to learn and understand in
+javascript because it makes your job as a programmer much more simple when you
+can access important document information all in one location, compared to a 
+giant mess trying to do that same job without.
