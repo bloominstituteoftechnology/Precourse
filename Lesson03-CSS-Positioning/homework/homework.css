@@ -34,7 +34,7 @@ in this folder, you are in the wrong place.
 /* Exercise Five */
 #exerciseFive {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-betwee;
   align-items: center;
   flex-direction: row-reverse;
 }
