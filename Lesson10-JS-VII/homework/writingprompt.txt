@@ -1,0 +1,7 @@
+Closures:
+
+Closures get really confusing at first but that's mostly because people 
+tend to get way too complicated explaining them. Pretty much all it takes for
+some code to be considered a "Closure" is if it's a function, that is INSIDE
+another function. There you go that is what a closure is. These are really usful if your trying to use a loop in a function and it's just not working. You probably could make it simpler by using a Closure or Recursion instead of 
+beating a for loop into something crazy looking.

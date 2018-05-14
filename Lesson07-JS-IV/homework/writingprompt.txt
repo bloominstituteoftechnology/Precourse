@@ -1,0 +1,23 @@
+
+Objects: Objects are like bigger variables that can do a whole lot more, 
+a variable is limited to one piece of information, whether it be an array, a 
+function or just a plain old number. Object's on the other hand can hold any 
+number of any type of variables called 'Properties'
+
+Properties: Properties are the names of information stored in an object and 
+can be used by using 'object.property'.
+
+Methods: Method's are basically functions that are inside of an object. So 
+instead of calling on a property and getting an array or a string back, you would
+get an entire function returned which could itself return other information.
+
+for in loop: 'In' is a funny word in programming, every language does it a little
+bit different but it has the same literal meaning, 'in'. The most common way i've
+used 'in' with programming is when I need to search for a value or a certain 
+thing inside of an Array or Object istead of typing out really long code to 
+look for what i want.
+
+[] vs . : Dot and Bracket notation are a little funny when using Objects.
+dot notation is what you use when calling a property within a function. However 
+you can use bracket notation to call object properties as well. Like so,
+'object[methodName]();' if it's a method your needing to call.  

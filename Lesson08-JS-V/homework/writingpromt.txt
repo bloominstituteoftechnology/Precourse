@@ -1,0 +1,9 @@
+Prototypes: Prototypes can be really funky at first, they light up differnt
+colors when you type the word out and its spooky. However, prototype is just
+a word used to indirectly work with Objects, more or less 'prototype' is used
+to change or interact with an Object.
+
+Constructor: Constructors are used right after you make a class. The next
+like of code will often be 'constructor(x,y,z){ this.x = x etc...' Now that
+looks kind of intimidating, but all your doing is using constructor to create
+the variables that your class needs, and are unique to the class.

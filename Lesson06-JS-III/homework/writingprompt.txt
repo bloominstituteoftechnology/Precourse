@@ -1,0 +1,13 @@
+Arrays:
+
+An array in programming could very easily be compared to a paper grocery list.
+With only a couple weird rules to follow, array's arent too much to sweat. 
+Each item in the grocery list has a placement on the array 'groceryList'.
+except the first item isn't the first, it's the 0-ith! What that means is that
+the first item is alwayse at the position of '0' in an array, and the second
+item has a position of '1' and the third a position of '2' etc.. So a REALLY 
+easy way to remember that is to look at an array, see which item it is and just
+subract 1 before trying to use it.
+
+Array's are extrememly common and you'll get used to them extrememly quickly 
+after playing around with them.
