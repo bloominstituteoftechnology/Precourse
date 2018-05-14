@@ -40,5 +40,6 @@ in this folder, you are in the wrong place.
 
 /* Exercise Six */
 #exerciseFive {
+  display: flex;
   flex-direction: row-reverse;
 }
