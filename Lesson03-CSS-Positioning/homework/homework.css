@@ -41,6 +41,7 @@ in this folder, you are in the wrong place.
 
 /* Exercise Six */
 
-#exerciseSeven {
+#exerciseFive {
   display: flex;
+  justify-content: space-between;
 }
