@@ -44,4 +44,5 @@ in this folder, you are in the wrong place.
 #exerciseFive {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
