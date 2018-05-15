@@ -1,0 +1,4 @@
+Callback Functions:
+the ability to pass  function as an argument into another function. These functions are called callbacks. convention is to use CB for callback. 
+
+we can use higher order functions that use callback functions in js.
