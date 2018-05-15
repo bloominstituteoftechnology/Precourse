@@ -54,8 +54,10 @@ function newUser(name, email, password) {
 }
 
 function hasEmail(user) {
-  const newObj = {name, email, password};
-  return newObj;
+  if (user.email) {
+    return true;
+  }
+  return false;
   // return true if the user has a value for the property 'email'
   // otherwise return false
 }
@@ -118,7 +120,7 @@ function sumUserPostLikes(user) {
 function addCalculateDiscountPriceMethod(storeItem) {
   storeItem.calculateDiscountPrice = function() {
     return this.price - (this.price * this.discountPercentage);
- };
+  };
   return storeItem;
   // add a method to the storeItem object called 'calculateDiscountPrice'
   // this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
@@ -129,3 +131,24 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
 }
+
+
+// Do not modify code below this line.  
+// --------------------------------  
+ 
+ module.exports = {
+   makeCat: makeCat,     
+   addProperty: addProperty,     
+   invokeMethod: invokeMethod,   
+   multiplyMysteryNumberByFive: multiplyMysteryNumberByFive,  
+   deleteProperty: deleteProperty,    
+   newUser: newUser,     
+   hasEmail: hasEmail,    
+   hasProperty: hasProperty,     
+   verifyPassword: verifyPassword,    
+   updatePassword: updatePassword,   
+   addFriend: addFriend,   
+   setUsersToPremium: setUsersToPremium, 
+   sumUserPostLikes: sumUserPostLikes,    
+   addCalculateDiscountPriceMethod: addCalculateDiscountPriceMethod  
+ };  
