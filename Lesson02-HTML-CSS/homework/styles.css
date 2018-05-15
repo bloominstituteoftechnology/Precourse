@@ -1,0 +1,46 @@
+body  {
+    background-image: url("https://images4.alphacoders.com/106/106826.jpg");
+}
+
+div {
+    margin: auto;
+}
+
+h1 {
+ color: dodgerblue;
+  }
+  
+li {
+  list-style-type: none;
+}
+
+.divClass {
+  color: deeppink;
+  }
+  
+img {
+   width: 400px;
+   padding: 1px;
+   border: 5px solid limegreen;
+   background-color: red;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: dodgerblue;
+  padding: 50px;
+  border: 50px solid #021a40;
+  }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ #spanId {
+   margin: 50px;
+   font-size: 18px;
+  }
+
