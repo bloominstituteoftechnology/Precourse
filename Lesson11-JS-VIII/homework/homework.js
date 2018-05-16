@@ -13,7 +13,6 @@ function nFibonacci(n) {
     // fibonacci sequence: 1 2 3 5 8 13 ...
     // return the nth number in the sequence
 
-
 }
 
 // Do not modify code below this line.

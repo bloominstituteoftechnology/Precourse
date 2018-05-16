@@ -12,7 +12,8 @@ function counter() {
             count += 1; // count = count + 1;
             return count;
         };
-    }(0)); // give count a value to start with
+    }(0)); // give count a default value to start with, else will return 'undefined'
+
     return newCounter; // return the asked for function back to test
 }
 
@@ -30,6 +31,7 @@ function cacheFunction(cb) {
     // and return 25 directly and will not invoke cb again
 
     let cache = {}; // create an empty cache
+
     return function(arg) {
         if (cache.hasOwnProperty(arg)) {
             return cache[arg];
@@ -37,8 +39,8 @@ function cacheFunction(cb) {
             return cache[arg] = cb(arg);
         }
     };
-
 }
+
 
 // Do not modify code below this line.
 // -----------------------------------
