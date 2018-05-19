@@ -1,0 +1,34 @@
+body{
+	background-image: url(repeat.jpeg);
+	background-size: 400px 500px;
+}
+
+
+h1{
+	color: firebrick;
+}
+
+img{
+	width: 400px;
+}
+		
+#thirdDiv{
+	height: 600px; width: 500px;
+	background-color: pink;
+	padding: 50px;
+	border: ridge; border-width: 10px;  border-color: blue;
+}
+		
+#spanID{
+	font-size: 18px;
+	margin: 50px;
+}
+
+div{
+	text-align: center;
+}
+
+.content{
+	max-width: 750px;
+	margin: auto;
+}
