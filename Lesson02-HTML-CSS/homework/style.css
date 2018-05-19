@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Carolina</title>
+	</head>
+	<body>
+		<div class="divClass">
+			<h1 style="color:plum">Carolina</h1>
+			<h3>Lambda School</h3>
+			<h4>HTML/CSS</h4>
+		</div>
+		<div class="divClass"> 
+			<span id="spanId" style="font-size:18px; margin: 50px">Fish cake is made of fish and flour</span>
+			<!--This is how the "a" tag is used to link a website.-->
+			<a href="http://pempekberingin.id">My favorite restaurant</a> 
+		</div>
+		<div id="thirdDiv"
+			 style="background-color:mediumorchid; width:500px; height:600px; padding: 50px"
+			 style="border:50px bliue">
+			<ul>tasty</ul>
+			<ul>delicious</ul>
+			<img style="width:400px"src="http://lorempixel.com/400/200/food/"/>
+		</div>
+	</body>
+</html>
