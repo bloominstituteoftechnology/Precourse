@@ -1,0 +1,50 @@
+li {
+    
+}
+
+body{
+    background-image: url("giphy.gif");
+}
+
+h1{
+    color: darkorange;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    
+}
+
+h4{
+    text-align: center;
+}
+img {
+   width: 400px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto }
+}
+
+#thirdDiv{
+   height: 600px;
+   width: 500px;
+   background-color:beige;
+   padding: 50px;
+   border: 3px gray;
+}
+
+#spanID{
+   font-size: 18px;
+   margin: 50px;
+   
+}
+
+div { 
+    text-align: center; 
+}
+
+ul { 
+    display: inline-block; 
+    text-align: left; 
+}
