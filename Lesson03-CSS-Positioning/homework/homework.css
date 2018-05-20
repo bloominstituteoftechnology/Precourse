@@ -7,7 +7,10 @@ in this folder, you are in the wrong place.
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
-#exerciseOne {
+ #exerciseOne {
+
+  display: block;
+  text-align: center;
 
 }
 
@@ -15,6 +18,13 @@ in this folder, you are in the wrong place.
 /* Exercise Two: Positioning a Header Bar*/
 
 /* Place code here */
+  #exersicetwo {
+
+ display: none;
+
+}
+
+
 
 
 
@@ -22,21 +32,68 @@ in this folder, you are in the wrong place.
 
 /* Place code here */
 
+  #excersicethree {
+ 
+ position: relative; 
+ top: 100px;
+ left: 200px; 
+ 
+}
+
+
 
 
 /* Exercise Four: */
 
+
 /* Place code here */
 
+  #exersicefour{ 
+
+   position: fixed; 
+   bottom: 900px;
+
+  }
 
 
 /* Exercise Five */
 
 /* Place code here */
 
-
+  #exersicefive {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
 
 /* Exercise Six */
+
+  #exersicefive {
+
+  #sp1 {
+  
+  position: relative;
+  left: 200px; 
+ 
+  bottom: ;
+  display:
+ }
+
+ #sp2 {
+  position: ; 
+  
+ }
+
+ #sp3 {
+  
+   color: blue;
+   position: relative;
+   right: 200px;
+   
+}  
+  
+  }
 
 #exerciseSeven {
   display: flex;
