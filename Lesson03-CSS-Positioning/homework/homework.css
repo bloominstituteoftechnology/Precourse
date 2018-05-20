@@ -7,7 +7,6 @@ in this folder, you are in the wrong place.
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
- #exerciseOne {
 
   display: block;
   text-align: center;
@@ -48,7 +47,7 @@ in this folder, you are in the wrong place.
 
 /* Place code here */
 
-  #exersicefour{ 
+  #exersicefour { 
 
    position: fixed; 
    bottom: 900px;
@@ -59,7 +58,6 @@ in this folder, you are in the wrong place.
 /* Exercise Five */
 
 /* Place code here */
-
   #exersicefive {
    
     display: flex;
