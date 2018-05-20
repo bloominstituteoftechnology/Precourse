@@ -1,0 +1,9 @@
+A variable is something that stores some sort of information that can be called upon in place of the information.
+
+A string is a combination of letters or numbers inside of quotes.
+
+A function takes in variables as arguments and performs a task with the variables to return a response.
+
+If statements set a requirement to be met before doing a certain task and if that requirement is not met it can set another or just end up returning something else
+
+Boolean Values are either True or False and can be used to be set as values or in If statements as a condition to be met or to return a value.
