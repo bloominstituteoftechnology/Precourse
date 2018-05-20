@@ -40,7 +40,7 @@ function add(x, y) {
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-  return y - x ;
+  return x - y ;
 }
 
 function multiply(x, y) {
