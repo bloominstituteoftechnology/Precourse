@@ -22,7 +22,7 @@ function greeting(language) {
     return 'Guten Tag!' ;
   } else if (language === 'Mandarin') {
     return 'Ni Hao!' ;
-  } else if (language === Spanish)  {
+  } else if (language === 'Spanish')  {
     return 'Hola!' ;
   } else {
     return 'Hello!' ;
@@ -32,10 +32,12 @@ function greeting(language) {
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
-  if (num === (5 || 10))  {
+  if (num === 5 || num === 10)  {
     return true ;
   }
-  return false ;
+  else {
+    return false ;
+  }
 }
 
 function isInRange(num) {
@@ -82,13 +84,16 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  for (i = 2; i < num; i++)
-  if (num % i === 0) {
-    return false
+  let value = false;
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      value = false ;
+      break ;
+    } else {
+      value = true ;
+    }
   }
-  else  {
-    return true
-  }
+  return value ;
 }
 
 
