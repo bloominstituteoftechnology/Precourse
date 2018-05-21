@@ -1,0 +1,383 @@
+[33mcommit 310eef25dc0bdc92db7a9c90ba24991dc833ff82[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Shubham Singh <shubhamsng7@gmail.com>
+Date:   Mon Jan 29 12:37:10 2018 +0530
+
+    replaced == with ===, optimised some code
+
+[33mcommit bf6b3240653e2dabe813a4a9a63edd413995e3dd[m
+Author: Shubham Singh <shubhamsng7@gmail.com>
+Date:   Thu Jan 25 12:14:08 2018 +0530
+
+    added homework.txt and completed homewok.js 28 out of 28 passed.PASSES WITH FLYING COLORS :)
+
+[33mcommit 1011aeb553803f2b851480974567a6de9358703f[m
+Author: Shubham Singh <shubhamsng7@gmail.com>
+Date:   Tue Jan 23 12:29:29 2018 +0530
+
+    added new file, newFile.js
+
+[33mcommit 0136ec23715d1338f34e7e30f6d76ea293524c79[m
+Author: SunJieMing <bennelson@Bens-MacBook-Pro.local>
+Date:   Mon Jan 22 17:15:17 2018 -0800
+
+    Remove newFile.js
+
+[33mcommit 45c9a676d37b0aa95117c031f444c73b21f77483[m
+Merge: a7ce298 de93805
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Jan 18 18:49:28 2018 -0700
+
+    Merge pull request #23 from tetondan/master
+    
+    fake PR
+
+[33mcommit de9380537fc2b667aa7b3550f22d175f6f1c7e0d[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Jan 18 18:38:40 2018 -0700
+
+    fake PR
+
+[33mcommit a7ce298b0c922e339bdb13d96d32ddaa945aae3c[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Wed Jan 17 15:41:50 2018 -0700
+
+    fixed failing test for lesson-5
+
+[33mcommit 3b9792df6d8be728dbd1a49a6ffe55c1abdb023e[m
+Merge: 8362a03 34ede4e
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Wed Jan 10 23:52:25 2018 -0700
+
+    Merge branch 'master' of github.com:tetondan/Precourse
+
+[33mcommit 8362a037a3cf413e515e453684f7e91292fddf45[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Wed Jan 10 23:51:59 2018 -0700
+
+    added proper instructions to each homework folder on how to test, fixed numerous spelling errors.
+
+[33mcommit 34ede4e550dfc94dc733dc1db7c564729a7898cc[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Mon Jan 8 14:57:20 2018 -0700
+
+    added new file, newFile.js
+
+[33mcommit ebfa2944ab0faee5fda746bcc54b7294fd704471[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Fri Jan 5 00:31:15 2018 -0700
+
+    .
+
+[33mcommit b0bf4374f53f3229b6b23068103daea1ec91358f[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Fri Jan 5 00:13:28 2018 -0700
+
+    updating travis.yml
+
+[33mcommit 9cdc1150e02449e7640e98e8102a8699f32df7a3[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Fri Jan 5 00:03:31 2018 -0700
+
+    updating travis.yml file
+
+[33mcommit 98ba303a43ee0f51abbf9fc2aab0b433a2f964bf[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Jan 4 23:49:54 2018 -0700
+
+    updating travis.yml file
+
+[33mcommit 03a3ef39534b31d04b9dc736fbeb9353c4f7e0b3[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Jan 4 23:45:06 2018 -0700
+
+    updating travis.yml file
+
+[33mcommit a56b4fb4e82104a75804ac81cef500c3535866ec[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Jan 4 23:31:21 2018 -0700
+
+    updating travis.yml file
+
+[33mcommit fad054010a31cf071b834409d44b58856aa88399[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Jan 4 23:25:36 2018 -0700
+
+    added travisCI yaml file
+
+[33mcommit 0e97015fc31733316cf1dcdf5162da8cceb57c72[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Jan 4 23:15:00 2018 -0700
+
+    Updated JSI exercises and tests
+
+[33mcommit 55e95dd6c420a0ac0092d2fca15a113f9cbf1584[m
+Merge: 357e42b 8bf7159
+Author: Daniel Frehner <dan@mountainhub.com>
+Date:   Thu Jan 4 17:38:28 2018 -0700
+
+    Merge pull request #13 from AndjDavis/master
+    
+    Spell Check on Lesson2: intro to JS
+
+[33mcommit 8bf7159f3b58842f66935342423db4f19339c062[m
+Author: AndjDavis <andi.idavis@gmail.com>
+Date:   Thu Jan 4 17:33:54 2018 -0700
+
+    Delete newFile.js
+    
+    Just going through the lesson.  just an empty file
+
+[33mcommit 3025b70fc44ac22388f26631bd28fb4654c7d82c[m
+Author: AndjDavis <andi.idavis@gmail.com>
+Date:   Thu Jan 4 17:29:25 2018 -0700
+
+    spelling corrections in Intro to JS README
+
+[33mcommit 87c861a1056a9dbe35d6e8e74b2f6f88f794e2aa[m
+Merge: 03d25a8 357e42b
+Author: AndjDavis <andi.idavis@gmail.com>
+Date:   Wed Jan 3 14:01:49 2018 -0700
+
+    Merge branch 'master' of https://github.com/lambdaschool/precourse
+    
+    merging lambda master
+
+[33mcommit 357e42be538813d2d63b2fecec7594e684ae98e1[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Wed Jan 3 13:58:06 2018 -0700
+
+    Reorganized lesson plan and file structure
+
+[33mcommit 03d25a8fd7b82dfa2d849b2e309dd44df321c8af[m
+Author: AndjDavis <andi.idavis@gmail.com>
+Date:   Wed Jan 3 11:08:44 2018 -0700
+
+    added new file, newFile.js
+
+[33mcommit 44e926338d5f7b7ccfdec45755175eca59ad1350[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Dec 14 11:16:32 2017 -0700
+
+    added lesson 8
+
+[33mcommit 913007a6088df97cf763fe3294f253b7644a0b27[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Wed Dec 13 23:11:32 2017 -0700
+
+    adding lesson 8
+
+[33mcommit bf16ef11f09a4c85c2a7ee5f4392825993ee4ef2[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Wed Dec 13 11:56:32 2017 -0700
+
+    added undefined and null to lesson 7
+
+[33mcommit 2a438f0ccbee43d8d8f086f4bee84d7fcaade103[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Wed Dec 13 10:23:32 2017 -0700
+
+    updated eslint rules
+
+[33mcommit 365709cd62f506e191dbbba8b5b24437c54fe09d[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Wed Dec 13 10:18:19 2017 -0700
+
+    added lesson 7
+
+[33mcommit 68f4462f5e8c9498f39a90c32ac4c801a4adcc0f[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Mon Dec 11 23:45:34 2017 -0700
+
+    added lesson 6
+
+[33mcommit bd8341b535fc8ec2c6398bde76718f643cf089ad[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Mon Dec 11 11:41:09 2017 -0700
+
+    fixing more spelling/grammar
+
+[33mcommit dfe500aad3ba2829c7b888ce1797d6489ab3b0e2[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Mon Dec 11 10:59:02 2017 -0700
+
+    updated main readme
+
+[33mcommit f6d2f96f09ad0f5206bc6b75b1f6db8c2d21070b[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Mon Dec 11 10:56:26 2017 -0700
+
+    Proof read README, changed name of lesson 5 folder
+
+[33mcommit b5541c722c87d4b19ba3dc80b252cd3210295ebf[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Mon Dec 11 00:59:25 2017 -0700
+
+    added lesson 5
+
+[33mcommit 125ad8cf3ef4afb8aa2f04c4cd2f0458c05bab76[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Dec 7 17:54:42 2017 -0700
+
+    added es6 support for eslint
+
+[33mcommit 31ddcd42defa8a54703091226201d942ded6a7de[m
+Author: Daniel Frehner <dan@mountainhub.com>
+Date:   Thu Dec 7 12:07:14 2017 -0700
+
+    Delete .DS_Store
+
+[33mcommit 714b338537bb527a4641a07d598d3b131a0d412e[m
+Author: Daniel Frehner <dan@mountainhub.com>
+Date:   Thu Dec 7 12:06:58 2017 -0700
+
+    Delete .DS_Store
+
+[33mcommit 01aed93f6d5d8b39ad9c56add369aef88dafbf36[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Dec 7 12:01:31 2017 -0700
+
+    removed style.css
+
+[33mcommit 45057532677d08e2210415880c4dd3bbd7e9e977[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Dec 7 10:25:31 2017 -0700
+
+    fixed test.js
+
+[33mcommit 56a3548af15bed57df28e707c129487417a000c5[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Dec 7 09:50:05 2017 -0700
+
+    fixed spelling and grammar errors in Lesson 4
+
+[33mcommit 9d8cb6581c5f76e70176dd4505857d0957fd849d[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Dec 7 09:44:50 2017 -0700
+
+    Edited Lesson4 Readme
+
+[33mcommit fc9066e3d177a8456f0727adbbaa1ab543bc3063[m
+Merge: 36821dc 20f0b76
+Author: Daniel Frehner <dan@mountainhub.com>
+Date:   Thu Dec 7 00:16:28 2017 -0700
+
+    Merge pull request #8 from tetondan/master
+    
+    Added Lesson 4
+
+[33mcommit 20f0b766b416aad4fa2f8e49687286ca9ad3f79b[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Dec 7 00:14:01 2017 -0700
+
+    removing erroneous files
+
+[33mcommit b9e49d5b545849305af000819464d50496c36071[m
+Author: Daniel Frehner <dfrehner1@gmail.com>
+Date:   Thu Dec 7 00:13:09 2017 -0700
+
+    removing erroneous files
+
+[33mcommit f947fd65ae63caa30ea9f5f1b022373621a367e1[m
+Author: Daniel Frehner <dan-lambdaschool-mbp@Daniels-MacBook-Pro.local>
+Date:   Thu Dec 7 00:02:38 2017 -0700
+
+    Fixed spelling and grammar errors in all README's, Added Lesson 4 and the homework for lesson 4
+
+[33mcommit 36821dcc12eaf8a3f69f9210f6d819eb3f180f0c[m
+Author: Daniel Frehner <dan@mountainhub.com>
+Date:   Tue Dec 5 11:47:46 2017 -0700
+
+    Update README.md
+
+[33mcommit 19e8536edae01b6f75836c1212237b49449af2f5[m
+Merge: 6d6b99a 6f32e7f
+Author: Daniel Frehner <dan@mountainhub.com>
+Date:   Mon Dec 4 23:23:29 2017 -0700
+
+    Merge pull request #7 from tetondan/master
+    
+    added box model to lesson 2
+
+[33mcommit 6f32e7ffdba2430b421505dce96b242b39779cfc[m
+Author: Daniel Frehner <dan-lambdaschool-mbp@Daniels-MacBook-Pro.local>
+Date:   Mon Dec 4 23:18:21 2017 -0700
+
+    added box model to lesson 2
+
+[33mcommit 6d6b99ab5e6309e5d5aaf2f5dee5666702f60f30[m
+Merge: 4f5826c cc3320f
+Author: Daniel Frehner <dan@mountainhub.com>
+Date:   Sun Dec 3 23:59:19 2017 -0700
+
+    Merge pull request #2 from tetondan/master
+    
+    New Lessons
+
+[33mcommit cc3320f09770ac5f73b5e64f426f61b97f48be39[m
+Author: tetondan <dfrehner1@gmail.com>
+Date:   Sun Dec 3 23:37:59 2017 -0700
+
+    completed lesson 3
+
+[33mcommit 3198f777790960c06b5d24f5d31ad1bd42e43858[m
+Author: tetondan <dfrehner1@gmail.com>
+Date:   Thu Nov 30 17:30:20 2017 -0700
+
+    completed lesson 2
+
+[33mcommit 54a5f9e89bdb4632879718c1e4c5d73ac2ab7e8c[m
+Author: tetondan <dfrehner1@gmail.com>
+Date:   Thu Nov 30 17:28:34 2017 -0700
+
+    added lesson 2
+
+[33mcommit 4f5826c34229245c53065eb6efcd83f18ffbe46c[m
+Merge: 25b5aba 1976590
+Author: Daniel Frehner <dan@mountainhub.com>
+Date:   Wed Nov 29 15:06:05 2017 -0700
+
+    Merge pull request #1 from tetondan/master
+    
+    Lesson 1, complete
+
+[33mcommit 1976590eaf15d021488c77068abc35538eaad125[m
+Author: tetondan <dfrehner1@gmail.com>
+Date:   Wed Nov 29 14:56:23 2017 -0700
+
+    cleaned up grammatical errors
+
+[33mcommit 2785a499c118f47391b44cb85f92187d124252cc[m
+Author: tetondan <dfrehner1@gmail.com>
+Date:   Wed Nov 29 14:29:46 2017 -0700
+
+    cleaned up readme
+
+[33mcommit 36d09f90e39e5f259291e5b178af3e3b4b97a015[m
+Author: tetondan <dfrehner1@gmail.com>
+Date:   Wed Nov 29 14:04:59 2017 -0700
+
+    added Lesson 1
+
+[33mcommit 283b9dd3f6201c6fe0f711489d631155226cfda4[m
+Author: tetondan <dfrehner1@gmail.com>
+Date:   Wed Nov 29 13:57:23 2017 -0700
+
+    added git tutorial
+
+[33mcommit cccc68210582921846e42d8a05ce5ac39e07b7f8[m
+Author: tetondan <dfrehner1@gmail.com>
+Date:   Wed Nov 29 12:06:39 2017 -0700
+
+    added lesson 1 readme
+
+[33mcommit 1b4eff89ba1a056a5aa09a75f90b4729af28fd58[m
+Author: tetondan <dfrehner1@gmail.com>
+Date:   Wed Nov 29 12:05:56 2017 -0700
+
+    added lesson 1 readme
+
+[33mcommit 25b5aba8bc4e0f8d642bf60f4e960fc53b34fa9a[m
+Author: Daniel Frehner <dan@mountainhub.com>
+Date:   Wed Nov 29 11:41:42 2017 -0700
+
+    Initial commit
