@@ -1,8 +1,15 @@
 body{
     margin: 0 auto;
-    width: 90%;
+    width: 60%;
     font-size: 1.2em;
     font-family: 'Courier New', Courier, monospace; 
+    background-image: url('http://sciencerocks.info/wp-content/uploads/2016/09/best-floor-texture-bamboo-floor-texture-images-pictures-becuo-18.jpg');
+    text-align: center;
+    /* Flexbox */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 ul{
@@ -11,7 +18,7 @@ ul{
 
 /* Assignment part here */
 h1{
-    color: cornflowerblue;
+    color: cadetblue;
 }
 
  img  {
