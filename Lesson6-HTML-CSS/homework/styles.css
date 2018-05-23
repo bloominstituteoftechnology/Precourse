@@ -1,0 +1,35 @@
+body{
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+ul{
+    list-style: none;
+}
+
+/* Assignment part here */
+h1{
+    color: cornflowerblue;
+}
+
+ img  {
+    width: 400px;
+} 
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: bisque;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
+#thirdDiv{
+    padding: 50px;
+    border: 3px solid beige;
+}
