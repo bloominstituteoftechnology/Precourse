@@ -1,0 +1,27 @@
+Feynman prompts
+
+When you have logical operators you use symbols to set condtions for the equation you are working on. 
+
+1. && 
+    the symbol && is use to say that both sides of the equation must be true. 
+    For example, 10 < 100 && 5 > 2
+    both of these are true - so your conditon is met and will output "True".
+    (BOTH SIDES OF THE EQUATION MUST BE MET FOR THE OPPORATION TO PASS AS TRUE)
+
+
+2. ||
+    the symbol || is used to say that one side or the other must be true.
+    For example, 10 < 100 || 5 > 20
+    10 is larger than 100 so that means true but 5 is not larger than 20. 
+    It will still pass the conditon and run true because one of them is accurate.
+    (THE PROGRAM WILL READ AND OR STATEMENT UNTIL IT GETS IT'S "TRUE" -- MEANING THAT IT DIDNT CHECK THE 2ND CONDITON.
+    IT SAW THE 1ST ONE WAS CORRECT AND PASSED THE OPPORATION AS "TRUE")
+
+3. ! 
+The symbol ! is used to repersent not. It was says that whatever you put the ! infront of it will render the opposite.
+For example, !True = False and !False = True.
+
+
+A. for
+The word for in Javascript used to start a for-loop.
+A for loop  is a control flow statement  that allows a the code to run as long as it passes as true.

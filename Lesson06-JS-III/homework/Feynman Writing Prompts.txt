@@ -1,0 +1,8 @@
+Feynman Writing Prompts:
+
+Arrays.
+In Javascript, Arrays are used as containers to hold information that you otherwise wouldn't be able to assign to just one object.
+
+For example,
+Target = ['Milk', 'Bananas', 'Bread', 'Eggs', 'PaperTowels'];
+

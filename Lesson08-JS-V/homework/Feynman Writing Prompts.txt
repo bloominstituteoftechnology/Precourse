@@ -1,0 +1,8 @@
+Feynman Writing Prompts 
+
+Prototype-
+When you set your class with a method that renders your prototype. It saves you from recoding your class over and over for multiple entries. 
+
+Constructors-
+When you create a new object, a constructor is a method that is called and it initialize the variables/fields of an object. 
+A constructor must have the same name as the class its in.
