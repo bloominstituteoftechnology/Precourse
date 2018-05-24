@@ -1,0 +1,34 @@
+
+body{
+    background-image: url("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.flex-container{
+    justify-content: center center;
+}
+h1{
+    color:darkorange;
+}
+img{
+    width: 400px;
+}
+.divClass{
+    margin: auto;
+    text-align: center;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    border: solid black 3px;
+    background-color: turquoise;
+    text-align: center;
+    margin: auto;
+}
+#spanID{
+    font-size: 18px;
+    margin: 50px;
+    margin: auto;
+}
