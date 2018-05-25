@@ -3,6 +3,7 @@
 */
 
 // code here
+const toDoItems = [];
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -11,6 +12,10 @@
 */
 
 // code here
+const span2 = document.createElement('span');
+span2.innerHTML = ' Alina Gilgur';
+const span = document.querySelector('#createdBy');
+span.appendChild(span2);
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -18,8 +23,10 @@
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+function ToDo (description, complete) {
   // code here
+  this.description = description;
+  this.complete = false;
 }
 
 /* 
@@ -29,6 +36,9 @@ function ToDo () {
 */
 
 // code here
+ToDo.prototype.completeToDo = function(){
+    this.complete = true;
+};
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -38,6 +48,7 @@ function ToDo () {
             1.) Create a new 'div' element. Set this to a variable 'toDoShell'.
             2.) Give 'toDoShell' a class (for CSS) of 'toDoShell'.
             3.) Create a new 'span' element. Set this to a variable called 'toDoText'.
+            
             4.) Using the toDo item passed in, set the 'toDoText' innerHTML to the value of the 'description' property on the toDo object.
             5.) Set the id of 'toDoText' to the value of the index argument.
             6.) Using an if statement, check to see if the 'complete' property on the object passed as the first argument 
@@ -48,6 +59,18 @@ function ToDo () {
 
 function buildToDo(todo, index) {
   // code here
+  const toDoShell = document.createElement('div');
+  toDoShell.className = 'toDoShell';
+  const toDoText = document.createElement('span');
+  toDoText.innerHTML = ToDo.description;
+  toDoText.id = index;  
+  document.querySelector('#toDoShell');
+  
+  if (ToDo.complete = true){
+    toDoText.className = 'completeText';
+  }
+  toDoShell.appendChild(toDoText);
+  return toDoShell;
 }
 
 /* 
@@ -58,6 +81,8 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
+  let newArr = toDos.map(buildToDo);
+  return newArr;
 }
 
 /* 
@@ -74,7 +99,14 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
-}
+  const toDoContainer = document.querySelector('#toDoContainer');
+  toDoContainer.innerHTML = '';
+  let theList = buildToDos(toDoItems);
+  for(let i = 0; i< toDoItems.length;  i++){
+    toDoContainer.appendChild(theList[i]);
+  }
+  
+  }
 
 /* 
   STEP 7: This function, 'addToDo' will add a new ToDo to the 'toDoItems' array.
@@ -83,13 +115,21 @@ function displayToDos() {
           the text box on the page.
 
           1.) Using the value property on 'newToDo', create an new ToDo object using the ToDo class and pass the value as the description.
-          2.) add the object from (1) into the toDoItems array.
+          2.) add the object from (1) into the  array.
           3.) Set the value of newToDo to an empty string (this will clear the text in the box allowing the user to enter another item).
           4.) Call displayToDos to refresh the toDos displayed
 */
 
 function addToDo() {
   // code here
+  let newToDo = ToDo.value;
+  toDoItems.push(newToDo);
+  newToDo = [];
+  displayToDos();
+  const input = document.querySelector('#toDoInput').value;
+ const newToDo = new ToDo(input);
+ toDoItems.push(newToDo);
+ document.querySelector('#toDoInput').value = '';
 }
 
 /* 
@@ -98,7 +138,7 @@ function addToDo() {
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
 
-// cod here
+// code here
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
@@ -136,7 +176,7 @@ function completeToDo(event) {
 
 
 // Call displayToDos here (Step 6)<-----
-
+displayToDos();
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
