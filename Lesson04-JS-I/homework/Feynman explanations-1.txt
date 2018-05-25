@@ -1,0 +1,22 @@
+* Variables
+- Variable is like the label of a jar where you can store cookie(s) in it.
+    eg. var rollNo = 1;
+
+* Strings
+- String is the collection of characters which shows the output defined in pair of single/double quotes.
+    'Strings are the collection of a string.'
+    eg. var favoriteGame = "Chess" //output Chess;
+        
+         
+* Functions (arguments, `return`)
+- Functions are the building-block of statements which are use to perform specific tasks.
+    eg. If you are going to play football, where your 'legs' will act as a pararmeter for a function named as 'kick'. And your goal will count as `return` value which would be the argument. But if you skip the goal, then your parameter will have undefined value.
+
+* `if` statements
+- This statement checks whether a condition is matched or not. It can also be in nested form.
+    eg. You are visiting to an ice-cream shop. There you have a choice to buy any ice-cream or go to home. You'll choose to buy an ice-cream. There you've to choose the ice-cream flavor. Later you'll buy a butterscotch flavor ice-cream. 
+    In that way it can be go further until you get desired answer.
+    
+* Boolean values (`true`, `false`)
+- Boolean is like the electricity switch, having two states to be performed simultaneously. 
+    eg. If you're going to buy an Xbox One at shop, which would be out of stock. Then you'll come back to home instead of buying PS4. Perhaps, 'do it now or not'.

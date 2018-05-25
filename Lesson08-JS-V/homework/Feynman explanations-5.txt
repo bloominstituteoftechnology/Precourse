@@ -1,0 +1,4 @@
+* `prototype` : Prototype is an empty bucket which is shadow of an datatype in javascript.
+All objects inherit the properties and methods from a prototype. 
+
+* Constructors : It invokes the class immediately after initiation. It shares the same name of `Class`.

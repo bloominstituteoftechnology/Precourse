@@ -5,39 +5,55 @@ in this folder, you are in the wrong place.
 
 
 /* Exercise One: Centering the text in a span */
-
+span{
+  text-align: center;
+}
 /* We will start this one off for you: */
 #exerciseOne {
-
+  display: block;
 }
-
 
 /* Exercise Two: Positioning a Header Bar*/
 
 /* Place code here */
-
-
+#exerciseTwo{
+  display: none;
+}
 
 /* Exercise Three: */
 
 /* Place code here */
-
-
+#exerciseThree{
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
 
 /* Exercise Four: */
 
 /* Place code here */
-
+#exerciseFour{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
 
 /* Exercise Five */
 
 /* Place code here */
-
-
+#exerciseFive{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
 
 /* Exercise Six */
 
 #exerciseSeven {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
 }
