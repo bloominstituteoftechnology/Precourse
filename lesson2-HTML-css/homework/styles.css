@@ -1,7 +1,7 @@
 <!--
 body {
-	 background-image:url("http://www.nikaisland.com.mv/upload/bepibar0272%20(1).jpg"); background;
-     color:#FFFFCC; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+	 background-image:url("http://www.nikaisland.com.mv/upload/bepibar0272%20(1).jpg"); 
+	 background-color:#FFFFCC; display: flex; flex-direction: column; align-items: center; justify-content: center;}
 
 <!-- h1 {
 	 color: green;}-->
@@ -16,4 +16,4 @@ img{
 .divClass{display:flex;flex-direction: column; align-items: center; justify-content: center; 
 } 
 a{
-     color: white; }	--> OMG really so why is this not going into my forked precourse under wayne wally into the lesson 2 html homework as a new file or document styles.css OMG lol
+     color: white; }	--> 
