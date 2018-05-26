@@ -182,7 +182,7 @@ function addCalculateDiscountPriceMethod(storeItem) {
       };
     
          
-    return storeItem.calculateDiscountPrice();  
+    return storeItem;  
   
   
 }

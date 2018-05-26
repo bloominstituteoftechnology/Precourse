@@ -3,7 +3,7 @@
 */
 
 // code here
-
+const toDoItems = []; 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
@@ -11,24 +11,21 @@
 */
 
 // code here
-
+const spanSelected = document.querySelector('#createdBy');
+spanSelected.innerHTML = 'This app was created by: Michael';
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
           Add two properties to the class: 'description' which should be set equal to the description passed to the constructor, and 
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
-
-function ToDo () {
-  // code here
+function ToDo(description){
+	this.description = description;
+	this.complete = false;
 }
 
-/* 
-  STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
-          It will not take any arguemnts. 
-          Inside the function set the ToDo's 'complete' property to true.
-*/
-
-// code here
+ToDo.prototype.completeToDo = function() {
+	this.complete = true;
+}
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -48,7 +45,27 @@ function ToDo () {
 
 function buildToDo(todo, index) {
   // code here
-}
+
+  var toDoShell = document.createElement("DIV");
+
+  toDoShell.className = "toDoShell";
+
+  var toDoText = document.createElement("span");
+  
+  toDoText.innerHTML = ToDo.description;
+
+  toDoText.id = index; 
+
+  if (ToDo.complete === true) {
+    toDoText.className(completeText);
+
+  }
+
+  toDoShell.appendChild(toDoText);
+  return toDoShell;
+  }
+
+
 
 /* 
   STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
@@ -58,6 +75,8 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
+ let x = toDos.map(buildToDo);
+ return x;
 }
 
 /* 
@@ -74,6 +93,15 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // code here
+
+  var toDoContainer = document.getElementById("toDoContainer");
+  toDoContainer.innerHTML = '';
+  
+ function buildToDos(toDoItems) {
+    for(i = 0; i < toDoItems.length; i++){
+      toDoItems + toDoContainer; 
+    }
+  }
 }
 
 /* 
@@ -90,7 +118,12 @@ function displayToDos() {
 
 function addToDo() {
   // code here
-}
+var myobj = new ToDo('newToDo');
+toDoItems.push(myobj);
+myobj = '';
+displayToDos();
+  }
+
 
 /* 
   STEP 8: In this step we will fire addToDo everytime the 'ADD' button is clicked.
@@ -137,7 +170,7 @@ function completeToDo(event) {
 
 // Call displayToDos here (Step 6)<-----
 
-
+displayToDos();
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
   module.exports = {
