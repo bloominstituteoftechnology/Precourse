@@ -1,0 +1,6 @@
+Closure:
+
+
+the inner faction that has access to the enclosing/outer functions variables- scope chain. the closure has three scope chains. its own scope (variables defined between its curly brackets), it has access to the outer functions variables, and it has access to the global variables.
+
+http://javascriptissexy.com/understand-javascript-closures-with-ease/
