@@ -1,0 +1,47 @@
+
+<!--
+h1{
+  color : blue;
+  position : relative; 
+  text-align : center;
+}
+
+h2,h3,h4{
+  text-align : center;
+ }
+
+img{
+  width : 400px;
+}
+
+#thirdDiv{
+  border : 5px dashed brown;
+  height : 600px;
+  width : 500px;
+  background-color : purple;
+  padding : 50px; 
+  justify-content: center;
+} 
+
+span{
+  align-content : center;
+}
+
+#spanId {
+  font : 18px;
+  margin : 50px;
+  align : center;
+}
+.divClass{
+
+}
+
+body{
+  height : 1000px;
+  width : 60%;
+  border : 5px dashed brown;
+  margin: auto;
+  padding : 30px;
+  background-image : url("http://lorempixel.com/400/200/food/3"); 
+}
+-->
