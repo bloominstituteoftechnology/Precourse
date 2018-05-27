@@ -1,4 +1,3 @@
-
 <!--
 h1{
   color : blue;
@@ -24,24 +23,24 @@ img{
 } 
 
 span{
-  align-content : center;
+  box-align : center;
 }
 
 #spanId {
-  font : 18px;
+  font-size : 18px;
   margin : 50px;
-  align : center;
+  box-align : center;
 }
-.divClass{
 
-}
+ .divClass{
+   padding : 20px;
+} 
 
 body{
-  height : 1000px;
+  height : 1100px;
   width : 60%;
-  border : 5px dashed brown;
   margin: auto;
   padding : 30px;
+  /* border : 5px dashed brown; */
   background-image : url("http://lorempixel.com/400/200/food/3"); 
-}
--->
+} -->
