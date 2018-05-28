@@ -26,11 +26,11 @@ Lesson04-JS-1 :
 
 	* `if` statements
 
-   There are multiple things that you want, but you only have money for a few of them.
-   Each thing that you buy will lead to a different outcome. You need to select from a 
-   list of items. The selection of each of those items is a branch in the if statement
-   - a condition, and you could either get it - true, not get it - false, or decide to
-   do nothing. The true and false conditions led to different activities (outputs).  
+   There are two things that you want, but you only have money for one of them.
+   Either thing that you buy will lead to a different outcome. You need to select from
+   one of the items. The selection of one of those items is a branch in the if statement
+   - a condition, and you could either get it - true, or decide to do nothing. 
+   The true and false (not doing anything) conditions led to different activities (outputs).  
     
 
 	* Boolean values (`true`, `false`)
