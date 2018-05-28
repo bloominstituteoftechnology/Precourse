@@ -104,8 +104,7 @@ function setUsersToPremium(users) {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
-  users.isPremium = true;
-  return users;
+	return users.filter(user => user.isPremium = true);
 }
 
 function sumUserPostLikes(user) {
@@ -114,6 +113,9 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
+	return user.posts
+	.map(post => post.likes)
+	.reduce((a, b) => a + b);
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
@@ -125,7 +127,10 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // price -> 20
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
-}
+	storeItem.calculateDiscountPrice = function(){
+		return this.price - (this.price * this.discountPercentage);};
+		return storeItem;
+  }
 
 // Do not modify code below this line.
 // --------------------------------
