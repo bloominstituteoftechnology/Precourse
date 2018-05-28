@@ -1,3 +1,6 @@
+// Version 1.0 original version
+// Version 1.1 Consensed if statements to one line return statements
+ 
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
@@ -94,20 +97,14 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  if (num%2===0) {
-    return true;
-  }
-  return false;
+  return (num%2 === 0);
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if (num%2 === 1) {
-    return true;
-  }
-  return false;
+  return (!(num%2 === 0));
 }
 
 function square(num) {
