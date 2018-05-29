@@ -1,0 +1,13 @@
+1. Feynman Writing Prompts - Write out explanations of the following 
+concepts like you are explaining it to a 12 year old.  Doing this 
+will help you quickly discover any holes in your understanding.  
+Ask your questions on Slack.
+		
+	* Arrays
+    Are a series of variables grouped into a larger container.
+    Each space in the container has a unique position (an index), 
+    and the length of the object is known.
+    You can loop through each element. pop will take an item off the 
+    end, while push will insert one. Unshift will add an item to the 
+    beginning, while shift will remove one.
+    
