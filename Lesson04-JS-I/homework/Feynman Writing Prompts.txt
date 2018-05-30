@@ -1,0 +1,15 @@
+Variables
+A Variable is a value of some type that you store to use later in the program, you store it in a variable name that you define with the keywords var, const or let
+
+Strings
+String is a data type that has a value of some text, it's generally surrounded by "".
+
+Functions (arguments, return)
+Functions are blocks of code that perform some action on our program, it can return a value (return is the value that computes from the actions done by the function) or do and action that is going to be helpful to the program, like printing something to the screen or setting a value for future use. 
+functions can use arguments or not, arguments are values that you pass to the function and that are going to be used in te function's action.
+
+if statements
+If statements are conditional blocks of code ewhere there is a condition, if the condition is met it performs some action and if it doesn´t meet the condition it can perform a completely different action.
+
+Boolean values
+Boolean values are a data type, they can be true or false.
