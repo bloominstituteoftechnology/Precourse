@@ -58,6 +58,7 @@ function buildToDo(todo, index) {
   let toDoText = document.createElement('span');
   toDoText.innerHTML = todo.description;
   toDoText.setAttribute('id',index);
+  toDoText.addEventListener('click',completeToDo);
   if(todo.complete===true){
   	toDoText.setAttribute('class','completeText');
   }
@@ -74,7 +75,7 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
-  const arrayToDo = toDos.map(buildToDo);
+  const arrayToDo = toDos.map((toDo, i) => buildToDo(toDo,i));
   return arrayToDo;
 }
 
@@ -114,10 +115,11 @@ function displayToDos() {
 
 function addToDo() {
   // code here
-  let newToDo = document.getElementById('toDoInput').value;
-  toDoItems.push(newToDo);
-  let theToDo = '';
-  displayToDos();
+  const newToDo = new
+ToDo(document.getElementById('toDoInput').value);
+	  toDoItems.push(newToDo);
+	  document.querySelector('#toDoInput');
+	  displayToDos();
 }
 
 /* 
@@ -146,10 +148,12 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   const index = event.target.id;
   // code here
-  completeToDo(toDoItems[index]);
-  displayToDos();
-  document.getElementsById('toDoText').addEventListener('click',buildToDo());
+  toDoItems[index].completeToDo();
 }
+//   displayToDos();
+//   document.getElementsById('toDoText').addEventListener('click',buildToDo());
+//   buildToDo();
+// }
 
 /* STEP 10: Make sure ALL tests pass */
 
