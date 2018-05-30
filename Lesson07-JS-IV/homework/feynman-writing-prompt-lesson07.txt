@@ -1,0 +1,20 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Objects
+    Acollection of losly related items, encased in one structure.
+
+	* Properties
+    Items attributed to an object.
+
+	* Methods
+    Are functions that are attached to a datatype.
+
+	* for in loop
+    A loop that will go through every key:value pair in an object.
+
+	* Dot notation vs bracket notation
+	  These are two ways to access keys of an object. Usually dot notation will
+		be used when the element names (keys) are known, while bracket notation will 
+		be used when we do not know the key names.
+		Dot notation : objectName.key;
+		Bracket notation : objectName[key];
