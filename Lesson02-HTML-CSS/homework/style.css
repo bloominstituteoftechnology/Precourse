@@ -1,0 +1,39 @@
+        h1 
+            { 
+                color: saddlebrown
+             }
+        img 
+            {
+                width: 400px;
+                Position: sticky;
+             }
+
+        #thirdDiv 
+            {
+                height: 600px;
+                width: 500px;
+                background-color: blue;
+                padding: 50px;
+                border-block-end-width: 20px;
+            }
+        #spanId
+            {
+                font-size: 18px;
+                margin: 50px;
+            }
+
+        body  
+            {
+                background-image: url("https://www.featureshoot.com/wp-content/uploads/2015/12/Wright_Print.jpg");
+                background-color: #cccccc;
+            }
+        div
+        {
+            text-align: center;
+
+        }
+        .flex-container
+        {
+            display: flex;
+            justify-content: center;
+        }

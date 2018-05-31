@@ -1,0 +1,19 @@
+DOM- Document object model. when a browser loads a webpage, it takes all the HTML and creates a model. so JS can access and manipulate it by adding, removing elements, changing attributes of elements, and changing styling of elements. 
+
+
+DOM element selectors-
+
+document.getElementsByClassName- will find elements based on class names. it will return an array like object.
+
+document.getElementById will find a single element based on its ID. it will return the element itself. The id supplied must be a string of the id name.
+
+document.querySelector and document.querySelectorAll is a method that takes a CSS style selector as it's argument. so we use '.', '#' 
+
+
+
+DOM events
+event listener is a function that fires when an event occurs. events can be clicks, mouse entering a content area, image download finishing. 
+
+.onclick is an event listener. we set it equal to a function that we want fired when the element is clicked.
+
+to use other event listeners we will need to use .addEventListener which is a method that takes two arguments. the first is the type of event it is listening for and the second is a callback function that is called when that event happens. it is best to use.addEventListener to all event listeners including .onclick

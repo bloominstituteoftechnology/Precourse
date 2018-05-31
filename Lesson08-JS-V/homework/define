@@ -1,0 +1,5 @@
+'prototype`
+classes have a unique way of setting methods to them. These are prototypes they save memory by storing methods that all objects in the class can use.
+
+
+' Constructors'a constructor is a class. which is essentially a template that has the same functionality as regular objects.

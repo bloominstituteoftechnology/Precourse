@@ -1,0 +1,3 @@
+Recursion:
+calling a function from inside itself is called a recursion. Recursions are like russian dolls. They are a type of iteration similar to for and while loops. 
+recursions are generally used when working with data structures like trees, linked lists or graphs. 

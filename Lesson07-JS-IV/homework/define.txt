@@ -1,0 +1,24 @@
+Objects hold a lot of info about one thing. they are a list of items with keys and values.
+
+Properties: are keys which are identifiers and the value is the value we want to save to that key.
+
+Methods
+in objects values can be set to functions. functions saved on an object are called methods
+
+for in loop
+when we wan to go over each key:value pair in our object we can design a for..in loop which will loop over each key in the object and finish when all the keys have been gone over.
+
+Dot notation vs. bracket notation
+
+dot notation and bracket notation are used to access the properties on an object. dot notation is used most frequently.
+
+Dot notation:
+Property identifies can only be alphanumeric (and _ and $)
+Property identifiers cannot start with a number.
+Property identifiers cannot contain variables.
+OK — obj.prop_1, obj.prop$
+Not OK — obj.1prop, obj.prop name
+Bracket notation:
+Property identifiers have to be a String or a variable that references a String.
+It is okay to use variables, spaces, and Strings that start with numbers
+OK — obj["1prop"], obj["prop name"]
