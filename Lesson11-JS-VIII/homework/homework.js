@@ -6,6 +6,13 @@ function nFactorial(n) {
   // return the factorial for n
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
+  function rFact(n) {
+    if (n === 0){
+      return 1;
+    } else {
+      return num * rFact(num - 1);
+    }
+  }
 }
 
 function nFibonacci(n) {
