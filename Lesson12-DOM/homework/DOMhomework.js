@@ -1,8 +1,8 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-
 // code here
+const toDoItems =[];
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -11,6 +11,8 @@
 */
 
 // code here
+document.querySelector("span.createdBy");
+createdBy.innerHTML = 'This app was created by: Kaibo';
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -20,6 +22,13 @@
 
 function ToDo () {
   // code here
+  class ToDo {
+    constructor(argument){
+      this.description = argument;
+      this.complete = false;
+   }; 
+   ToDo() 
+  };
 }
 
 /* 
