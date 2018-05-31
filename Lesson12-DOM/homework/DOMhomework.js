@@ -129,7 +129,7 @@ function addToDo() {
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
 
-// cod here
+// code here
 document.getElementById("addButton").addEventListener("click", addToDo);
 
 /* 
