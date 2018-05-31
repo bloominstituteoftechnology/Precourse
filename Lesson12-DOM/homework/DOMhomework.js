@@ -127,9 +127,9 @@ function addToDo() {
   newToDo = [];
   displayToDos();
   const input = document.querySelector('#toDoInput').value;
- const newToDo = new ToDo(input);
- toDoItems.push(newToDo);
- document.querySelector('#toDoInput').value = '';
+  newToDo = new ToDo(input);
+  toDoItems.push(newToDo);
+  document.querySelector('#toDoInput').value = '';
 }
 
 /* 
@@ -139,6 +139,7 @@ function addToDo() {
 */
 
 // code here
+document.getElementById('addButton').addEventListener('click', addToDo);
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
@@ -155,9 +156,12 @@ function addToDo() {
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
-  // code here
-}
+	const index = event.target.id;
+    // code here
+    toDoItems[index].completeToDo();
+    displayToDos();
+ }
+
 
 /* STEP 10: Make sure ALL tests pass */
 
