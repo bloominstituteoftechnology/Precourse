@@ -83,9 +83,9 @@ function verifyPassword(user, password) {
 function updatePassword(user, newPassword) {
   // replace the existing password on the user object with the value of newPassword
   // return the object
-  user.password === newPassword;
-  return user;
-}
+  user.password = newPassword;
+   return user;
+  }
 
 function addFriend(user, newFriend) {
   // user has a property called friends that is an array
@@ -129,9 +129,9 @@ function addCalculateDiscountPriceMethod(storeItem) {
   // discountPercentage -> .2
   // discountPrice = 20 - (20 * .2)
   storeItem.calculateDiscountPrice = function(){
-    var discountPrice = this.price - (this.price * this.discountPercentage);
-      return discountPrice;
- };
+    return this.price - (this.price * this.discountPercentage);
+     };
+  return storeItem;
 }
 
 // Do not modify code below this line.

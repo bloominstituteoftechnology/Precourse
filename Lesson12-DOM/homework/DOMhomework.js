@@ -3,7 +3,7 @@
 */
 
 // code here
-const toDoItems = [];
+const toDoItems = ['']
 
 /*
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -12,8 +12,8 @@ const toDoItems = [];
 */
 
 // code here
- const newQuery = document.querySelector('#createdBy')
- newQuery.innerHTML = newQuery.innerHTML + 'Rachel DiCesare'
+ let name = document.querySelector('#createdBy')
+   name.innerHTML + 'Rachel DiCesare'
 
 /*
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -56,17 +56,19 @@ ToDo.prototype.completeToDo = function() {
 
 function buildToDo(todo, index) {
   // code here
-  let toDoShell = document.createElement('div');
-  toDoShell.className = 'toDoShell';
-  let toDoText = document.createElement('span');
-  toDoText.innerHTML = todo.description;
-  toDoText.id= 'index';
-  if (toDo.complete === true) {
-    toDoText.className = completeText;
+  const toDoShell = document.createElement('div');
+    toDoShell.className = 'toDoShell';
+    const toDoText = document.createElement('span');
 
-  };
-  toDoText.appendChild(toDoShell);
-  return toDoShell;
+    toDoText.innerHTML = todo.description;
+    toDoText.id = index;
+    toDoText.onclick = completeToDo;
+
+   if(ToDo.complete === true){
+     ToDo.className = 'completeText';
+   }
+   toDoShell.appendChild(toDoText);
+   return toDoShell;
 
 }
 
@@ -78,8 +80,8 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
-  const newArray = toDos.map(buildToDo);
-  return(newArray);
+  return toDos.map(buildToDo);
+
 }
 
 /*
@@ -100,6 +102,7 @@ function displayToDos() {
   document.querySelector('#toDoContainer');
   toDoContainer.innerHTML = '';
   const arr = buildToDos(toDoItems);
+
   arr.forEach(fuction(element){
     toDoContainer.appendChild(element);
   });
@@ -119,10 +122,10 @@ function displayToDos() {
 
 function addToDo() {
   // code here
-  const newToDoObj = new ToDo(document.querySelector('#toDoInput').value);
-  toDoItems.push(newToDoObj);
+  const TD = new ToDo(document.querySelector('#toDoInput').value);
+  toDoItems.push(TD);
   document.querySelector('#toDoInput').value = '';
-  displayToDos();
+ displayToDos();
 }
 
 /*
@@ -132,8 +135,8 @@ function addToDo() {
 */
 
 // code here
-const addBtn = document.querySelector('#addButton');
-addBtn.addEventListener('click', addToDo);
+addButton = document.querySelector('#addButton');
+addButton.onclick = addToDo;
 
 /*
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
@@ -153,7 +156,7 @@ function completeToDo(event) {
    const index = event.target.id;
   // code here
   toDoItems[index].completeToDo();
-  displayToDos();
+  displayToDos()
 }
 
 /* STEP 10: Make sure ALL tests pass */
@@ -173,7 +176,13 @@ function completeToDo(event) {
 
 
 // Call displayToDos here (Step 6)<-----
-displayToDos();
+desc = 'Create ToDo';
+     newToDo = new ToDo(desc);	     newToDo = new ToDo(desc);
+   });	   });
+
+   it('creates a ToDo', () => {	   it('creates a ToDo', () => {
+     expect(newToDo.description).toEqual(desc);	     expect(newToDo.description).toEqual(desc);
+     expect(newToDo.complete).toEqual(false);	     expect(newToDo.complete).toEqual(false);
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
