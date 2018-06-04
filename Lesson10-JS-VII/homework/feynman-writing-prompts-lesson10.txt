@@ -8,4 +8,5 @@ discover any holes in your understanding.  Ask your questions on Slack.
 	named variable is used, parsing will start at the inner most level 
 	until a variable of the same name is found. If the variable is not 
 	found at that nesting, it will look a level higher. 
+	For functions returning functions, and the returning function has closure.
 	
