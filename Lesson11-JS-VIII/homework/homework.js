@@ -1,16 +1,19 @@
 // Do not change any of the function names
 
 // solve these recursively
+
 let lookBack = false; 
 // lookBack is a variable to reset initial conditions when excuting the 
-//routine mutiple time with different arguments
+// routine mutiple times with possibly different arguments
 
-let product = 1; // set inital conditions for first execution
+let product = 1; // set initial conditions for first execution
+
 function nFactorial(n) {
   // return the factorial for n
   // example:
   // the factorial of 3 is 6 (3 * 2 * 1)
-  if (lookBack) {  // have we just run the routine with diferent arguments
+
+  if (lookBack) {  // we have just run the routine with diferent arguments -> reset
     product = 1;
     lookBack = false;
   }
@@ -25,20 +28,22 @@ function nFactorial(n) {
   }
 
 // set initial conditions for first execution
-let fibNum = 0; 
-lookBack = false;
-let n1=0; 
-let n2=1;
+let fibNum = 0; // set final value to zero
+lookBack = false; 
+let n1=0; // position n-2 start value 
+let n2=1; // position n-1 start value
 
 function nFibonacci(n) {
   // fibonacci sequence: 1 1 2 3 5 8 13 ...
   // return the nth number in the sequence
-  if (lookBack) {  // have we just run the routine with diferent arguments
+
+  if (lookBack) {  // we have just run the routine with diferent arguments -> reset
     fibNum = 0;
     lookBack = false;
     n1 = 0;
     n2 = 1;
   }
+  
   if (n <= 0) {
     lookBack = true;
     return fibNum;
