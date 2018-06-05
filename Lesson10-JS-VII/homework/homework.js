@@ -28,7 +28,7 @@ function cacheFunction(cb) {
     inputVar : -99,
     inputFunct : function (){},
     output : 123,
-    countCb : 0  };
+  };
 
   return function(arg) {
     if ((arg === lookBackObj.inputVar) && (cb === lookBackObj.inputFunct)) {
@@ -37,7 +37,6 @@ function cacheFunction(cb) {
       lookBackObj.output = cb(arg);
       lookBackObj.inputVar = arg;
       lookBackObj.inputFunct = cb;
-      lookBackObj.countCb = lookBackObj.countCb + 1;
       return lookBackObj.output;
     }
   };
