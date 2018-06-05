@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://cdn.shopify.com/s/files/1/0891/7528/products/web-pic-4_large.jpg?v=1505152879");
+    background-size: cover;
+}
+h1 {
+    color: rebeccapurple;
+}
+img {
+    width: 400px;
+}
+.thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: powderblue;
+    padding: 50px;
+    border: 2px solid rebeccapurple;
+}
+.spanId {
+    font-size: 18px;
+    margin: 50px;
+}
