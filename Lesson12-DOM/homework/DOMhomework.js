@@ -2,7 +2,7 @@
   STEP 0: Create an empty array called 'toDoItems'.
 */
 
-// code here
+const toDoItems = [];
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -10,7 +10,9 @@
           add your name to the END of the current innerHTML.
 */
 
-// code here
+const se = document.querySelector('#createdBy');
+se.innerHTML = `${se.createdinnerHTML} Fernando Salazar`;
+
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -19,7 +21,12 @@
 */
 
 function ToDo () {
-  // code here
+  class ToDo {
+    constructor(description) {
+      this.description = description;
+      this.complete = false;
+    }
+  }
 }
 
 /* 
@@ -28,7 +35,7 @@ function ToDo () {
           Inside the function set the ToDo's 'complete' property to true.
 */
 
-// code here
+
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
