@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8b0eaf-42c1-4ae1-9053-907b850049f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson8-JS-V/homework/README.md" afterPath="$PROJECT_DIR$/Lesson8-JS-V/homework/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson8-JS-V/homework/homework.js" afterPath="$PROJECT_DIR$/Lesson8-JS-V/homework/homework.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson9-JS-VI/homework/README.md" afterPath="$PROJECT_DIR$/Lesson9-JS-VI/homework/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson9-JS-VI/homework/homework.js" afterPath="$PROJECT_DIR$/Lesson9-JS-VI/homework/homework.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,30 +14,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson8-JS-V/homework/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="7" column="197" lean-forward="false" selection-start-line="7" selection-start-column="197" selection-end-line="7" selection-end-column="197" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson8-JS-V/README.md">
+        <entry file="file://$PROJECT_DIR$/Lesson9-JS-VI/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="646">
-                <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding>
-                  <marker date="1520124367847" expanded="true" signature="1506:1733" ph="{...}" />
-                  <marker date="1520124367847" expanded="true" signature="1620:1691" ph="{...}" />
-                  <marker date="1520124367847" expanded="true" signature="2889:2952" ph="{...}" />
-                  <marker date="1520124367847" expanded="true" signature="2998:3094" ph="{...}" />
+                  <marker date="1520124367847" expanded="true" signature="714:759" ph="{...}" />
+                  <marker date="1520124367847" expanded="true" signature="798:845" ph="{...}" />
+                  <marker date="1520124367847" expanded="true" signature="885:917" ph="{...}" />
+                  <marker date="1520124367847" expanded="true" signature="1887:1921" ph="{...}" />
+                  <marker date="1520124367847" expanded="true" signature="1929:2094" ph="//..." />
+                  <marker date="1520124367847" expanded="true" signature="2125:2159" ph="{...}" />
+                  <marker date="1520124367847" expanded="true" signature="3009:3167" ph="//..." />
+                  <marker date="1520124367847" expanded="true" signature="3216:3250" ph="{...}" />
+                  <marker date="1520124367847" expanded="true" signature="3387:3416" ph="{...}" />
+                  <marker date="1520124367847" expanded="true" signature="3476:3565" ph="//..." />
+                  <marker date="1520124367847" expanded="true" signature="3620:3660" ph="{...}" />
+                  <marker date="1520124367847" expanded="true" signature="4163:4195" ph="{...}" />
+                  <marker date="1520124367847" expanded="true" signature="4241:4273" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -47,11 +42,36 @@
         </entry>
       </file>
       <file leaf-file-name="homework.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson8-JS-V/homework/homework.js">
+        <entry file="file://$PROJECT_DIR$/Lesson9-JS-VI/homework/homework.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="646">
+              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lesson9-JS-VI/homework/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="96" lean-forward="false" selection-start-line="6" selection-start-column="96" selection-end-line="6" selection-end-column="96" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSVI.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson9-JS-VI/homework/tests/JSVI.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,6 +105,8 @@
         <option value="$PROJECT_DIR$/Lesson7-JS-IV/homework/README.md" />
         <option value="$PROJECT_DIR$/Lesson8-JS-V/homework/homework.js" />
         <option value="$PROJECT_DIR$/Lesson8-JS-V/homework/README.md" />
+        <option value="$PROJECT_DIR$/Lesson9-JS-VI/homework/homework.js" />
+        <option value="$PROJECT_DIR$/Lesson9-JS-VI/homework/README.md" />
       </list>
     </option>
   </component>
@@ -143,18 +165,18 @@
             <path>
               <item name="Precourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="Precourse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Lesson8-JS-V" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Lesson9-JS-VI" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Precourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="Precourse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Lesson8-JS-V" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Lesson9-JS-VI" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="homework" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Precourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="Precourse" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Lesson8-JS-V" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Lesson9-JS-VI" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="homework" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -212,12 +234,12 @@
       <workItem from="1525916531271" duration="122000" />
       <workItem from="1527737260435" duration="850000" />
       <workItem from="1528162255342" duration="26000" />
-      <workItem from="1528248941613" duration="4965000" />
+      <workItem from="1528248941613" duration="6763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23320000" />
+    <option name="totallyTimeSpent" value="25118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -675,11 +697,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson8-JS-V/homework/homework.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/Lesson8-JS-V/homework/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="197" lean-forward="false" selection-start-line="7" selection-start-column="197" selection-end-line="7" selection-end-column="197" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -699,11 +724,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson8-JS-V/homework/README.md">
+    <entry file="file://$PROJECT_DIR$/Lesson8-JS-V/homework/homework.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson9-JS-VI/homework/tests/JSVI.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson9-JS-VI/homework/homework.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson9-JS-VI/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="197" lean-forward="false" selection-start-line="7" selection-start-column="197" selection-end-line="7" selection-end-column="197" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1520124367847" expanded="true" signature="714:759" ph="{...}" />
+              <marker date="1520124367847" expanded="true" signature="798:845" ph="{...}" />
+              <marker date="1520124367847" expanded="true" signature="885:917" ph="{...}" />
+              <marker date="1520124367847" expanded="true" signature="1887:1921" ph="{...}" />
+              <marker date="1520124367847" expanded="true" signature="1929:2094" ph="//..." />
+              <marker date="1520124367847" expanded="true" signature="2125:2159" ph="{...}" />
+              <marker date="1520124367847" expanded="true" signature="3009:3167" ph="//..." />
+              <marker date="1520124367847" expanded="true" signature="3216:3250" ph="{...}" />
+              <marker date="1520124367847" expanded="true" signature="3387:3416" ph="{...}" />
+              <marker date="1520124367847" expanded="true" signature="3476:3565" ph="//..." />
+              <marker date="1520124367847" expanded="true" signature="3620:3660" ph="{...}" />
+              <marker date="1520124367847" expanded="true" signature="4163:4195" ph="{...}" />
+              <marker date="1520124367847" expanded="true" signature="4241:4273" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson9-JS-VI/homework/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="96" lean-forward="false" selection-start-line="6" selection-start-column="96" selection-end-line="6" selection-end-column="96" />
             <folding />
           </first_editor>
           <second_editor />
