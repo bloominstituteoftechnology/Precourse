@@ -1,0 +1,25 @@
+/*This is a css file for the first lesson*/
+body {
+    background-image: url(img/frame-3195249_1920.jpg);
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color: mediumvioletred;
+}
+img { 
+    width: 400px; 
+}
+#thirdDiv {
+    height: 600px;
+    background-color: cornsilk;
+    border: 3px dotted purple;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    padding: 50px;
+}

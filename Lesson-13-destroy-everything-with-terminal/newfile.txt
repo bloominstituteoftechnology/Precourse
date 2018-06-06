@@ -1,0 +1,28 @@
+ Volume in drive C is Windows
+ Volume Serial Number is ACF3-0F98
+
+ Directory of C:\Users\irish\Lambda\Mini-Bootcamp\Precourse
+
+04/13/2018  11:02 PM    <DIR>          .
+04/13/2018  11:02 PM    <DIR>          ..
+04/13/2018  10:49 PM               277 .eslintrc.js
+04/13/2018  10:49 PM               977 .gitignore
+04/13/2018  10:49 PM               188 .travis.yml
+04/13/2018  10:50 PM    <DIR>          Lesson-13-destroy-everything-with-terminal
+04/13/2018  10:49 PM    <DIR>          Lesson01-Git
+04/13/2018  10:49 PM    <DIR>          Lesson02-HTML-CSS
+04/13/2018  10:49 PM    <DIR>          Lesson03-CSS-Positioning
+04/13/2018  10:49 PM    <DIR>          Lesson04-JS-I
+04/13/2018  10:49 PM    <DIR>          Lesson05-JS-II
+04/13/2018  10:49 PM    <DIR>          Lesson06-JS-III
+04/13/2018  10:49 PM    <DIR>          Lesson07-JS-IV
+04/13/2018  10:49 PM    <DIR>          Lesson08-JS-V
+04/13/2018  10:49 PM    <DIR>          Lesson09-JS-VI
+04/13/2018  10:49 PM    <DIR>          Lesson10-JS-VII
+04/13/2018  10:49 PM    <DIR>          Lesson11-JS-VIII
+04/13/2018  10:49 PM    <DIR>          Lesson12-DOM
+04/13/2018  11:02 PM                 0 newfile.txt
+04/13/2018  10:49 PM               904 package.json
+04/13/2018  10:49 PM             2,465 README.md
+               6 File(s)          4,811 bytes
+              15 Dir(s)  33,727,811,584 bytes free
