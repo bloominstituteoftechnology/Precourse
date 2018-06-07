@@ -1,3 +1,6 @@
+ARRAYS- ARE CONTAINERS FOR DATA
+
+
 // Do not change any of the function names
 
 function returnFirst(arr) {
