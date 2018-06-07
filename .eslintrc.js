@@ -2,12 +2,13 @@ module.exports = {
   env: {
     browser: true,
     commonjs: true,
-    es6: true
+    es6: true,
+    jest: true
   },
-  extends: "eslint:recommended",
+  extends: 'eslint:recommended',
   rules: {
-    quotes: ["error", "single"],
-    "no-unused-vars": ["error", { vars: "all", args: "none" }],
-    semi: ["error", "always"]
+    quotes: ['error', 'single'],
+    'no-unused-vars': ['error', { vars: 'all', args: 'none' }],
+    semi: ['error', 'always']
   }
 };
