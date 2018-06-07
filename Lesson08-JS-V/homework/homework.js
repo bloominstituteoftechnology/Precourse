@@ -1,3 +1,7 @@
+CLASS- IS LIKE A JS TEMPLATE
+PROTOTYPE- IS LIKE A JS MOLD. A WAY TO CREATE A METHOD ONCE AND ASSIGNING OBJECTS ACCESS TO IT.
+
+
 // Do not change any of the function names
 
 function createUserClass() {
