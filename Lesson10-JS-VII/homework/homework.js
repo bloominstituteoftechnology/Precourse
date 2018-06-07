@@ -1,3 +1,6 @@
+CLOSURE- A FUNCTION THAT CAN BE USED WITH OTHER FUNCTIONS.
+
+
 // Do not change any of the function names
 
 function counter() {
