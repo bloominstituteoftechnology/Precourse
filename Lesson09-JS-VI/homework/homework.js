@@ -1,3 +1,5 @@
+CALLBACK FUNCTION- A FUNCTION PASSED TO ANOTHER FUNCTION AS AN ARGUMENT.
+
 // Do not change any of the function names
 
 function invokeCallback(cb) {
