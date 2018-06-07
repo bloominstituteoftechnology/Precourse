@@ -1,3 +1,9 @@
+FOR- LOOPS THROUGH CODE
+&&- THE AND OPERATOR- TRUE WHEN BOTH ARE TRUE
+||- THE OR OPERATOR- TRUE WHEN 1 OR BOTH ARE TRUE
+!- THE NOT OPERATOR- WILL RETURN OPPOSITE OF WHAT IS PASSED.
+
+
 // use the arguments keyword to multiply all of the arguments together and return the product
 // if no arguments are passed in return 0
 // if one argument is passed in just return it
