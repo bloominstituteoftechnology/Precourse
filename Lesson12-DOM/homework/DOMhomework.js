@@ -2,7 +2,7 @@
   STEP 0: Create an empty array called 'toDoItems'.
 */
 
-let toDoItems = [];
+let toDoItems = [];  // ideally this should become an array of objects
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -19,12 +19,15 @@ span.textContent = span.textContent + ' Amanda Ellis';
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
           Add two properties to the class: 'description' which should be set equal to the description passed to the constructor, and 
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
-*/
+          1. Combine this class with the array created in step 0 to create an array of classes. 
+          */
 
 function ToDo (description) {
   this.description = description;
   this.complete = false;
 }
+
+toDoItems = [ToDo];
 
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
@@ -73,9 +76,11 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   toDoItems = toDos.map(buildToDo);
+  //console.log(toDoItems);
   const toDoInput = document.querySelector('#toDoInput');
-  toDoInput.addEventListener('click', function() { completeToDo(event); });
+  toDoInput.addEventListener('click', function() { console.log('click');completeToDo(event); });
   return toDoItems;
+
 }
 
 /* 
@@ -96,6 +101,7 @@ function displayToDos() {
   // to work in Chrome and Edge
   toDoContainer.textContent = '';
   toDoItems= buildToDos(toDoItems);
+//  console.log(toDoItems);
   for(let w=0; w < toDoItems.length; w++) {
     toDoItems[w].id = 'toDoContainer';
   }
@@ -117,9 +123,12 @@ function addToDo() {
   let toDoInput = document.querySelector('#toDoInput');
   let newToDo = new  ToDo(toDoInput.value);
   toDoItems.push(newToDo) ;
+  //console.log(toDoItems);
   newToDo.textContent = '';
   displayToDos();
+
 }
+
 
 /* 
   STEP 8: In this step we will fire addToDo everytime the 'ADD' button is clicked.
@@ -128,7 +137,7 @@ function addToDo() {
 */
 
 const addButtonVar =  document.querySelector('#addButton');
-addButtonVar.addEventListener('click', function() {
+addButtonVar.addEventListener('click', function() { console.log ('add button');
   addToDo();});
 
 /* 
@@ -147,9 +156,12 @@ addButtonVar.addEventListener('click', function() {
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   const index = event.target.id;
-  buildToDo(event,index); 
-  displayToDos();
-
+  console.log(index);
+  for( key =0; key <index.length; key++)
+    if (key.target === 'toDoItem') {
+      ToDo.completeToDo(key-1);
+    }
+    displayToDos();
 }
 
 /* STEP 10: Make sure ALL tests pass */
