@@ -11,9 +11,9 @@ let toDoItems = [];  // ideally this should become an array of objects
 */
 
 const span = document.querySelector('#createdBy');
-//span.innerHTML = (span.innerHTML + ' Amanda Ellis');
+span.innerHTML = (span.innerHTML + ' Amanda Ellis');
 //works in both Edge and Chrome
-span.textContent = span.textContent + ' Amanda Ellis';
+//span.textContent = span.textContent + ' Amanda Ellis';
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -57,9 +57,9 @@ function buildToDo(todo, index) {
   const toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
   const toDoText = document.createElement('span');
-  //toDoText.innerHTML = todo.description;
+  toDoText.innerHTML = todo.description;
   // to work on Edge and Chrome
-  toDoText.textContent = todo.description;
+  //toDoText.textContent = todo.description;
   toDoText.id = index;
   if (todo.complete) {
     toDoText.class = 'completeText';
@@ -78,7 +78,7 @@ function buildToDos(toDos) {
   toDoItems = toDos.map(buildToDo);
   //console.log(toDoItems);
   const toDoInput = document.querySelector('#toDoInput');
-  toDoInput.addEventListener('click', function() { console.log('click');completeToDo(event); });
+  toDoInput.addEventListener('click', function() { completeToDo(event); });
   return toDoItems;
 
 }
@@ -97,9 +97,9 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   const toDoContainer = document.querySelector('#toDoContainer');
-  //toDoContainer.innerHTML = '';
+  toDoContainer.innerHTML = '';
   // to work in Chrome and Edge
-  toDoContainer.textContent = '';
+  //toDoContainer.textContent = '';
   toDoItems= buildToDos(toDoItems);
 //  console.log(toDoItems);
   for(let w=0; w < toDoItems.length; w++) {
@@ -137,8 +137,7 @@ function addToDo() {
 */
 
 const addButtonVar =  document.querySelector('#addButton');
-addButtonVar.addEventListener('click', function() { console.log ('add button');
-  addToDo();});
+addButtonVar.addEventListener('click', function() { addToDo(); });
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
@@ -156,7 +155,6 @@ addButtonVar.addEventListener('click', function() { console.log ('add button');
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   const index = event.target.id;
-  console.log(index);
   for( key =0; key <index.length; key++)
     if (key.target === 'toDoItem') {
       ToDo.completeToDo(key-1);
