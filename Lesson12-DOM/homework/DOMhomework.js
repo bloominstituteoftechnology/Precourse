@@ -155,7 +155,7 @@ addButtonVar.addEventListener('click', function() { addToDo(); });
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   const index = event.target.id;
-  for( key =0; key <index.length; key++)
+  for( let key =0; key <index.length; key++)
     if (key.target === 'toDoItem') {
       ToDo.completeToDo(key-1);
     }
