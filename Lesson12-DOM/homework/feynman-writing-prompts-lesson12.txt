@@ -1,5 +1,11 @@
-<html>
-<head>
-<title> test </title>
-</head>
-<body>
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. 
+Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+DOM
+  Document Object Model.
+  Defines the entire HTML page as one object called document with many children.
+
+DOM element selectors
+  Methods that allow elements of the DOM to be selected individually.
+
+DOM events
+  Allow dynamic content in the DOM. Things like buttons and checkmarks.
