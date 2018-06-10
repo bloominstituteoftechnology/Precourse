@@ -1,8 +1,85 @@
+/* After a discussion with a ta, this is the model solution I was given */
+const toDoItems = [];
+
+document.querySelector('#createdBy').innerHTML += ' Amanda Ellis';
+
+class ToDo {
+  constructor(description) {
+    this.description = description;
+    this.complete = false;
+  }
+  completeToDo() {
+    this.complete = true;
+  }
+}
+
+const buildToDo = (todo, index) => {
+  const toDoShell = document.createElement('div');
+  toDoShell.className = 'toDoShell';
+  const toDoText = document.createElement('span');
+  toDoText.innerHTML = todo.description;
+  toDoText.id = index;
+  toDoText.addEventListener('click', completeToDo);
+  if (todo.complete) toDoText.class = 'completeText';
+  toDoShell.appendChild(toDoText);
+  return toDoShell;
+};
+
+const buildToDos = toDos => toDos.map((toDo, i) => buildToDo(toDo, i));
+
+const displayToDos = () => {
+  const toDoContainer = document.getElementById('toDoContainer');
+  toDoContainer.innerHTML = '';
+  const result = buildToDos(toDoItems);
+  result.forEach(item => toDoContainer.appendChild(item));
+};
+
+const addToDo = () => {
+  const newToDo = new ToDo(document.querySelector('#toDoInput').value);
+  toDoItems.push(newToDo);
+  document.querySelector('#toDoInput').value = '';
+  displayToDos();
+};
+
+document.querySelector('#addButton').addEventListener('click', addToDo);
+
+const completeToDo = (event) => {
+  const index = event.target.id;
+  toDoItems[index].completeToDo();
+};
+
+displayToDos();
+
+// **********************************************EXTRA CREDIT:********************************************** //
+
+/*    1.) Research 'checkbox' input types. And apply that research to the buildToDo function:
+        a.) Create a checkbox in the buildToDo function. A
+        b.) Give the checkbox the id of the index, and remove the id of the index from toDoText
+        c.) Give the checkbox the 'click' event listener of completeToDo, and remove the event listener from toDoText
+        d.) Give the checkbox the class of 'completeCheckbox'
+        e.) Inside of the current 'if' statement in the buildToDo function, if true, set the attribute, 'checked' to true on the checkbox.
+        f.) Append this checkbox on the toDoShell element.
+*/
+// ********************************************** ----------- ********************************************** //
+
+
+// ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
+if (typeof module !== 'undefined') {
+  module.exports = {
+    toDoItems: toDoItems,
+    ToDo: ToDo,
+    buildToDos: buildToDos,
+    buildToDo: buildToDo,
+    completeToDo: completeToDo,
+    displayToDos: displayToDos,
+    addToDo: addToDo
+  };
+}
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
 
-let toDoItems = [];  // ideally this should become an array of objects
+//const toDoItems = [];  // ideally this should become an array of objects
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -10,8 +87,8 @@ let toDoItems = [];  // ideally this should become an array of objects
           add your name to the END of the current innerHTML.
 */
 
-const span = document.querySelector('#createdBy');
-span.innerHTML = (span.innerHTML + ' Amanda Ellis');
+//const span = document.querySelector('#createdBy');
+//span.innerHTML = (span.innerHTML + ' Amanda Ellis');
 //works in both Edge and Chrome
 //span.textContent = span.textContent + ' Amanda Ellis';
 
@@ -22,12 +99,12 @@ span.innerHTML = (span.innerHTML + ' Amanda Ellis');
           1. Combine this class with the array created in step 0 to create an array of classes. 
           */
 
-function ToDo (description) {
-  this.description = description;
-  this.complete = false;
-}
+//function ToDo (description) {
+ // this.description = description;
+ // this.complete = false;
+//}
 
-toDoItems = [ToDo];
+//toDoItems = [ToDo];
 
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
@@ -35,7 +112,7 @@ toDoItems = [ToDo];
           Inside the function set the ToDo's 'complete' property to true.
 */
 
-ToDo.prototype.completeToDo = function () { this.complete = true;};
+//ToDo.prototype.completeToDo = function () { this.complete = true;};
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -45,28 +122,30 @@ ToDo.prototype.completeToDo = function () { this.complete = true;};
             1.) Create a new 'div' element. Set this to a variable 'toDoShell'.
             2.) Give 'toDoShell' a class (for CSS) of 'toDoShell'.
             3.) Create a new 'span' element. Set this to a variable called 'toDoText'.
-            4.) Using the toDo item passed in, set the 'toDoText' innerHTML to the value of the 'description' property on the toDo object.
+            4.) Using the toDo item passed in, the 'toDoText' innerHTML to the value of the 'description' property on the toDo object.
             5.) Set the id of 'toDoText' to the value of the index argument.
+            5.5) Add an event listener for a button click for toDoText leading to a call of completeToDo
             6.) Using an if statement, check to see if the 'complete' property on the object passed as the first argument 
                   is set to true. If it is, give 'toDoText' a CSS class of 'completeText'. If it is not, do not give it a class.
             7.) Append child 'toDoText' to 'toDoShell'
             8.) return toDoShell
 */
 
-function buildToDo(todo, index) {
-  const toDoShell = document.createElement('div');
-  toDoShell.className = 'toDoShell';
-  const toDoText = document.createElement('span');
-  toDoText.innerHTML = todo.description;
+//function buildToDo(todo, index) {
+ // const toDoShell = document.createElement('div');
+  //toDoShell.className = 'toDoShell';
+  //const toDoText = document.createElement('span');
+  //toDoText.innerHTML = todo.description;
   // to work on Edge and Chrome
   //toDoText.textContent = todo.description;
-  toDoText.id = index;
-  if (todo.complete) {
-    toDoText.class = 'completeText';
-  }
-  toDoShell.appendChild = toDoText;
-  return toDoShell;
-}
+  //toDoText.addEventListener('click', completeToDo);
+  //toDoText.id = index;
+  //if (todo[index].complete) {
+   // toDoText.class = 'completeText';
+  //}
+  //toDoShell.appendChild(toDoText);
+  //return toDoShell;
+//}
 
 /* 
   STEP 5: This function will build and return an array of toDo elements. It will take an array of objects of the ToDo class as it's only argument.
@@ -74,14 +153,17 @@ function buildToDo(todo, index) {
           Return the new mapped array.
 */
 
-function buildToDos(toDos) {
-  toDoItems = toDos.map(buildToDo);
-  //console.log(toDoItems);
-  const toDoInput = document.querySelector('#toDoInput');
-  toDoInput.addEventListener('click', function() { completeToDo(event); });
-  return toDoItems;
+//function buildToDos(toDos) {
+  //return toDos.map((toDo, i) => buildToDo(toDo, i));
 
-}
+//function buildToDos(toDos) {
+   //toDoItems = toDos.map(buildToDo);
+  //console.log(toDoItems);
+  //const toDoInput = document.querySelector('#toDoInput');
+  //toDoInput.addEventListener('click', function() { completeToDo(event); });
+  //return toDoItems;
+
+//}
 
 /* 
   STEP 6: Now that we can build an array of toDo elements, we want to make these elements appear on the screen, 
@@ -95,17 +177,18 @@ function buildToDos(toDos) {
           You can now load your html file in your broswer and see your work so far.
 */
 
-function displayToDos() {
-  const toDoContainer = document.querySelector('#toDoContainer');
-  toDoContainer.innerHTML = '';
+//function displayToDos() {
+ // const toDoContainer = document.querySelector('#toDoContainer');
+  //toDoContainer.innerHTML = '';
   // to work in Chrome and Edge
   //toDoContainer.textContent = '';
-  toDoItems= buildToDos(toDoItems);
-//  console.log(toDoItems);
-  for(let w=0; w < toDoItems.length; w++) {
-    toDoItems[w].id = 'toDoContainer';
-  }
-}
+//  let toDoItems = buildToDos(toDoItems);
+//console.log(toDoItems);
+ // for(let w=0; w < toDoItems.length; w++) {
+ //   toDoItems[w].id = 'toDoContainer';
+ //const result = buildToDos(toDoItems);
+ //result.forEach(item => toDoContainer.appendChild(item));  
+//}
 
 /* 
   STEP 7: This function, 'addToDo' will add a new ToDo to the 'toDoItems' array.
@@ -119,15 +202,16 @@ function displayToDos() {
           4.) Call displayToDos to refresh the toDos displayed
 */
 
-function addToDo() {
-  let toDoInput = document.querySelector('#toDoInput');
-  let newToDo = new  ToDo(toDoInput.value);
-  toDoItems.push(newToDo) ;
+//function addToDo() {
+  //const toDoInput = document.querySelector('#toDoInput');
+  //const newToDo = new  ToDo(toDoInput.value);
+  //toDoItems.push(newToDo) ;
   //console.log(toDoItems);
-  newToDo.textContent = '';
-  displayToDos();
+  //toDoInput.value = '';
+  //newToDo.textContent = '';
+  //displayToDos();
 
-}
+//}
 
 
 /* 
@@ -136,11 +220,11 @@ function addToDo() {
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
 
-const addButtonVar =  document.querySelector('#addButton');
-addButtonVar.addEventListener('click', function() { addToDo(); });
+//const addButtonVar =  document.querySelector('#addButton');
+//addButtonVar.addEventListener('click', function() {console.log('button pushed'); addToDo;});
 
 /* 
-  STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
+  STEP 9: Finally in this step we will define the function to run when we want to complete a toDo, and add that function to the click event
             listener on the toDo element
           
           Note: We have not covered the argument every event listener receives, the 'event' object. There is a lot of data in this object, 
@@ -152,16 +236,20 @@ addButtonVar.addEventListener('click', function() { addToDo(); });
           3.) In the 'buildToDo' function add a 'click' event listener to the 'toDoInput' element, and pass this function as the callback.
 */
 
-function completeToDo(event) {
+//function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  const index = event.target.id;
-  for( let key =0; key <index.length; key++)
-    if (key.target === 'toDoItem') {
-      ToDo.completeToDo(key-1);
-    }
-    displayToDos();
-}
+ // const index = event.target.id;
+ // for( key =0; key <index.length; key++)
+ //   if (key.target === 'toDoItem') {
+  //    ToDo.completeToDo(key-1);
+   // }
+//}
+ //   const completeToDo = (event) => {
+  //    const index = event.target.id;
+   //   toDoItems[index].completeToDo();
+   // };
 
+//displayToDos();
 /* STEP 10: Make sure ALL tests pass */
 
 
