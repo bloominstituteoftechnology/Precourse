@@ -1,0 +1,9 @@
+Hey again!
+
+I hope you're enjoying spring break! Really quick, I'll tell you this cool thing I learned called an array!
+
+You know at the grocery store you get a lot of groceries? Too much to carry in your hands! So you put them in a basket or shopping cart.
+
+The array is the shopping cart. You can put a bunch of strings, numbers, variables, etc!
+
+Then you can do different actions with the arrays such as math, taking something out, putting something in, and more! It's really powerful!

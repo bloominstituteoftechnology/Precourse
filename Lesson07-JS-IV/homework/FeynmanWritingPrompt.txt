@@ -1,0 +1,18 @@
+
+Hi again!
+
+I'm going to tell you about objects, which is basically a drawer.
+
+* Objects are like a dresser. They hold things in order, just like you would have drawers for shoes, shirts, socks, underwear, etc.
+
+	* Properties are a fancy word for the items in the object. For example, the object Charles may have an property called Age. I'm turning 25 tomorrow (YAY!) so my Age property will have a value of 25.
+
+	* Methods are just like functions: It does things like, math, giving names, etc, but inside of the object. You could make a function called "sayHi" which would create computer text that says hi to you!
+
+	* for in loop: The for in loop is a special kind of loop that works with objects! Arrays use I which corresponds with numbers. The for in loop uses the name of the property & object so javascript knows what to look for.
+
+	* Dot notation vs bracket notation: Bracket notation is written as object[method] ; this works when you don't know exactly what the value is, because it will allow javascript to search for what it means.
+
+Dot notation is written as object.method, which is helpful when the properties are numbers, letters, have _, and $. But there can't be any open spaces like-->      <--that. You also can't use variables with dot notation.
+
+Bracket notation works with properties that have spaces, and any characters, and also variables! It's a better way to access properties.

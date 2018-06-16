@@ -1,0 +1,41 @@
+Hey again!
+
+Glad you've been learning your Javascript. Here's a note on a few things in Javascript.
+
+
+Javascript helps the computer make decisions by using many codes. I'll tell you about '&&', '||', and '!'.
+
+When you make a function, you can tell Javascript to check first. For example, if I write.
+
+functionYouGetDessert, I would set it up to check
+    if(youDidHomework = true && youAteDinner = true)
+
+Because of the '&&', it will ONLY say you get dessert IF youDidHomework AND you AteDinner. Have to do both before it says true/yes you get dessert.
+
+
+Let's make it easier for you to get your dessert.
+
+In this function, I'll Write
+
+functionEasyDessert
+  if(youDidHomework = true || youAteDinner = true)
+  return true
+
+  The "||" means 'or' to Javascript, so you don't have to do both in this function for it to say yes! As long as youDidHomework or youAteDinner, you get your dessert!
+
+
+Now if you were naughty, you wouldn't get dessert, would you? Take a look below.
+
+FunctionNoDessert
+  if(youDidHomework = !true)
+return false.
+
+The '!' means 'not'. If you put '!true' that means not true. If you didn't do your homework, you won't get your dessert!
+
+
+
+Last thing, in Javascript, there's something called 'for'. What am I telling you this for, you say?
+
+It helps Javascript make decisions by running a function over and over again. It's like if you wanted to find a prime number, you would multiply two numbers over and over again to make sure that number is prime. You would create the for function and set up the logic.
+
+Phew that was a lot. Time for dessert!
