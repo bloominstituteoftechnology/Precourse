@@ -1,47 +1,48 @@
 Arrays
 
-Whereas strings, booleans, and numbers are data types, arrays are data structures.
-Arrays can hold collections of similar or related data. 
-    For example, a list of important numbers, or the names of employees in a business.
-This allows us to track several data points with just one variable.
+    Whereas strings, booleans, and numbers are data types, arrays are data structures.
+    Arrays can hold collections of similar or related data. 
+        For example, a list of important numbers, or the names of employees in a business.
+    This allows us to track several data points with just one variable.
 
-To build an array, first declare your variable.
-Second, use your assignment operator to set the variable to an array with two brackets ("[]").
-Third, inside the brackets, list your data points, separated by commas.
-
-Example:
-    const passengerNames = ['Jack', 'Kate', 'James', 'Hugo', 'John', 'Claire']
-
-
-Arrays have many methods which allow us to easily manipulate, modify, and analyze an array's data points.
-Methods can tell us how many data points are in the array, which data points 
-
-
-Arrays have many built-in methods that allow us to manipulate, modify, and access the items inside. Their syntax is similar to the dot notation of the .length() method.
-
-The items in an array are indexed numerically, with the first item starting at 0.
-    Note, however, the .length() method begins counting at 1.
-    Therefore, the final item in an array with a length of 4 would be indexed as 3.
-
-Knowing how the index works is crucial to accessing items in the array:
-
-First, name the variable of your array.
-Second, without spaces, add brackets containing the index number of the item you wish to access.
+    To build an array...
+    1. Declare your variable.
+    2. Use your assignment operator to set the variable to an array with two brackets ("[]").
+    3. Inside the brackets, list your data points, separated by commas.
 
     Example:
-        return passengerNames[2];  // This would return 'James' from the array above.
+        const passengerNames = ['Jack', 'Kate', 'James', 'Hugo', 'John', 'Claire']
 
-We can also access the last item in the array without knowing its index number using the .length() method.
 
-    Example:
-        return passengerNames[passengerNames - 1]; // -1 because indexing starts at 0 and length starts at 1
+    Arrays have many methods which allow us to easily manipulate, modify, and analyze an array's data points.
+    Methods can tell us how many data points are in the array, which data points 
+
+
+    Arrays have many built-in methods that allow us to manipulate, modify, and access the items inside. Their syntax is similar to the dot notation of the .length() method.
+
+    The items in an array are indexed numerically, with the first item starting at 0.
+        Note, however, the .length() method begins counting at 1.
+        Therefore, the final item in an array with a length of 4 would be indexed as 3.
+
+    Knowing how the index works is crucial to accessing items in the array:
+
+    1. Name the variable of your array.
+    2. Without spaces, add brackets containing the index number of the item you wish to access.
+
+        Example:
+            return passengerNames[2];  // This would return 'James' from the array above.
+
+    We can also access the last item in the array without knowing its index number using the .length() method.
+
+        Example:
+            return passengerNames[passengerNames - 1]; // -1 because indexing starts at 0 and length starts at 1
                                                   // This would return 'Claire' from the array above.
 
 
-for loops can also be used to iterate over items in an array.
+    for loops can also be used to iterate over items in an array.
 
-For example, we may want to find a specific item, print all the items, or perform math functions using items in the array.
+    For example, we may want to find a specific item, print all the items, or perform math functions using items in the array.
 
-One data structure similar to the array, and useful to know when working with arrays, is "arguments".
-    "Arguments" contains all o the arguments passed into a function.
-    While "arguments" doesn't have all of the same methods as proper arrays, .length() will allow us to use a for loop to iterate over every item passed to the function.
+    One data structure similar to the array, and useful to know when working with arrays, is "arguments".
+        "Arguments" contains all o the arguments passed into a function.
+        While "arguments" doesn't have all of the same methods as proper arrays, .length() will allow us to use a for loop to iterate over every item passed to the function.

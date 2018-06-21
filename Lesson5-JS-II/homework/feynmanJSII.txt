@@ -4,11 +4,11 @@ for
     The keyword "for" starts a "for loop". This allows us to run a statement repeatedly until certain conditions are met.
     There are several steps to building a for loop:
 
-    First, we begin with the keyword "for".
-    Second, follow with an open and close parentheses. These will hold the variable, boundaries, and increment for our loop.
-    Third, inside the parentheses, declare your variable and give it a value (e.g. "let i = 1;").
-    Fourth, set the condition which must be true in order to continue running your loop, aka the bounds of your loop (e.g. "i < 100;").
-    Fifth, add the increment or decrement for your variable (e.g. "i++").
+    1. We begin with the keyword "for".
+    2. Follow with an open and close parentheses. These will hold the variable, boundaries, and increment for our loop.
+    3. Inside the parentheses, declare your variable and give it a value (e.g. "let i = 1;").
+    4. Set the condition which must be true in order to continue running your loop, aka the bounds of your loop (e.g. "i < 100;").
+    5. Add the increment or decrement for your variable (e.g. "i++").
 
         Note: the variable declaration, condition, and increment must be separated by semi-colons.
 
