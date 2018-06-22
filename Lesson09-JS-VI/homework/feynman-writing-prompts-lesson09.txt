@@ -1,0 +1,27 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Callback Functions
+  Callback functions are called from higher order functions.
+  Typically a callback function will help step through arrays, 
+  where their common function will be applied to each index. 
+  
+  A higher order function is basically one function which calls another.
+  A higher-order function is a function that can take another function 
+  as an argument, or that returns a function as a result.
+
+  Array methods that utilize callbacks include :
+
+  Each steps through an array, applying the callback function to each index. 
+  The callback can take two inputs : item, and optionally the index to the item.
+
+  forEach : doesn't have an output
+
+  map : outputs an array
+----------------------------------------------------------------------------------
+ Another type of array that utilizes callbacks is reduce.
+  reduce :  Reduce will step through an array, applying a callback function to 
+  each index with the intention of outputing one item. The first input to the
+  callback is an total-sum to date, and the second is the current item being 
+  processed. The callback must ALWAYS contain a return statement. 
+  Reduce also takes an optional second argument, which would be the starting 
+  sum.
