@@ -1,0 +1,9 @@
+1.) Variables are like nouns. They give something a name, and the name should be descriptive, but isn't required to be. 
+
+2.) Strings are non-numeric. You can put numbers in them, but JavaScript will see it like the word for the number and not the number itself. Like 3 vs three.
+
+3.) Functions are verbs, you do things with them. Even if it's something as simple as saying "say this", a function is how you do it. Ryan Gosling in Drive is a function -- you give him a time and a place, and he does the driving.
+
+4.) "if" statements, also conditional statements, are actually conditional unlike "If you need anything, my name is Jill". In JavaScript, "if" you need anything, my name is Jill. "else", my name is Beyonce.
+
+5.) Boolean values are yes/no values. You can search with them in Google too, with AND, OR, and NOT.
