@@ -118,7 +118,7 @@ function isOdd(num) {
   // otherwise return false
   // code here
 
-  return num % 2 != 0;
+  return num % 2 !== 0;
 
 
 }
