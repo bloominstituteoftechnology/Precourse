@@ -1,0 +1,34 @@
+*
+{
+text-align: center !important;
+margin: auto !important;
+}
+
+h1 {
+	color: #DC143C; 
+}
+
+img{
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	padding: 50px;
+	background-color: #ddd;
+	border-width: 1px;
+	border-color: black;
+	border: dashed;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+
+body {
+   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/funky-lines.png");
+   position: relative;
+}
+
