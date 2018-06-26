@@ -1,0 +1,39 @@
+Constructors
+
+    An object constructor, aka a class, allows us to create a template for similar objects that share properties and methods.
+    This cuts down on the amount of code that needs to be written for each object, saving both time and space (and all without a TARDIS).
+
+    Classes are created like functions:
+
+        function Hero(name) {
+            this.name = name;
+            this.announcement = function() {
+                return 'Fear not, citizen, for ' + this.name + ' is here to save the day!';
+            }
+        }
+
+    Now this template can be used to create many heroes who can announce their own names.
+
+    In Javascript, Pseudo Classical instantiation (the keyword "new") is used to create new objects based on classes:
+
+        const cap = new Hero('Captain America');
+        const kalel = new Hero('Superman');
+        const ant = new Hero('Ant-Man');
+ 
+    Classes also bring more functionality to objects, like the prototype property.
+
+
+Prototype
+
+    A prototype is a property of classes that allows the programmer to create a new property or method that is available to all objects of that class.
+    
+    To add a new property to an existing class:
+
+        Class.prototype.newProperty = "String value";
+    
+    We can also create a method on the prototype, which gives every object access to that method:
+    
+        Hero.prototype.benatarTaunt = function(){
+                return 'Hit me with your best shot!';
+        }  
+     

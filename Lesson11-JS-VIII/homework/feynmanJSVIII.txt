@@ -1,0 +1,23 @@
+Recursion
+
+    Recursion is when a function calls itself until it meets a stop condition.
+
+    A recursion without a stop condition will loop indefinitely.
+
+    Similar to a for loop, recursions need: 
+        1. a starting variable that tracks how many time it's run
+        2. a condition that sets the boundaries of the loop/recursion, and
+        3. an increment towards those boundaries.
+
+    In a recursive function, here is how those parts come together:
+
+        function countdown(num) { // num is the starting variable
+            if (num < 0) return; // the stop condition is when num is less than 0
+            console.log(num); // tracking the num and printing it to the console
+            countdown(num - 1) // decrement step towards the boundaries
+        }
+
+        countdown(5); // prints 5, 4, 3, 2, 1, 0
+
+    Although all recursions can be written as while or for loops, many situations may call for recursion as a simple, more efficient method.
+        For example, setting up a complex menu tree could require too many nested loops, taking up space and processing time.

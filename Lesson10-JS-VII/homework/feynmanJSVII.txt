@@ -1,0 +1,43 @@
+Closures
+
+    To understand closures, you must first understand scope.
+
+    Scope refers to the which variables can be accessed by each function, which is determined by where the variable is created.
+
+    A variable created outside of a function has "global" scope.
+    Variables in the global scope are available to all scripts and functions in the program.
+
+    However, a variable reated inside a function can only be accessed by that function.
+    This is known as "local" scope, i.e., local to that function.
+    
+    Example:
+        var global = "This variable and its definition is available to every function."
+
+        let function() {
+            var local = "Only this function can access this variable."
+        }
+
+        console.log(global); // Logs the variable's definition.
+        console.log(local); // Logs 'undefined'. The variable is unavailable.
+
+    
+    In the same way that a function automatically has access to the global scope, a function nested within another function automatically has access to the scope in the level(s) above/
+
+    Example:
+        let function() {
+            var local = "Only this function can access this variable."
+            return function() {
+                var sike = "Oh except this function can access it too."
+                return function() {
+                    var gotcha = "And so can this one!"     
+                }
+            }
+        }
+
+    So what is a closure? 
+    Any function that uses variables from outside its scope can be considered a closure.
+
+    A closure is created every time a function is created. 
+    When a function is returned from inside another function, or when it is passed to another function, the closure allows it private access to variables that existed when the function was created. 
+
+    Although executing the function causes these variables to technically no longer exist, the closure keeps them stored so that the returned function can still access them.

@@ -1,0 +1,47 @@
+Callback Functions
+
+    A callback function is one that is passed into another function (let's call it the "outer function") as an argument.
+    
+    This actually passes the callback's definition into the outer function's parameters, so it is not executed yet.
+    
+    Rather, the callback is able to be "called back" by the outer function at any time.
+
+    Let's say we want a program that will welcome the new generation of magical boarding school students to their houses:
+    
+    First we'll define the sorting function: 
+        
+            function sortStudent(student) {
+                if (primaryTrait === 'chivalrous' || 'reckless') {
+                    return 'Welcome to House Gryffindor, ' + user + '!';
+                }
+                
+                else if (primaryTrait === 'ambitious' || 'cunning') {
+                    return 'Welcome to House Slytherin, ' + user + '!';
+                }
+
+                else if (primaryTrait === 'fairness' || 'hardworking') {
+                    return 'Welcome to House Hufflepuff, ' + user + '!';
+                }
+
+                else if (primaryTrait === 'wit' || 'eccentricity') {
+                    return 'Welcome to House Ravenclaw, ' + user + '!';
+                }
+
+                else {
+                    return 'Sometimes I think we sort too soon.';
+                }
+                    
+            }
+
+    Now we can create a function that will welcome a specific student:
+
+        function welcomeStudent(student, cb) {     // it is conventional to use 'cb' for your callback
+            return cb(user);
+        }
+
+    When we call the welcomeStudent function, we will specify the callback function that we wish to use.
+
+        welcomeStudent('Mr. Potter', sortStudent); // 'Welcome to House Gryffindor, Mr. Potter!' 
+
+
+    
