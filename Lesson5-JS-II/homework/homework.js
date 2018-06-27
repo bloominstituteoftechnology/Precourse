@@ -155,7 +155,7 @@ function isPrime(num) {
 }
   else {
     
-    return true ;
+    return true ; 
   }
 
 
