@@ -15,7 +15,7 @@ function getBiggest(x, y) {
 
       else {
 
-        return x;
+        return x ;
       }
     }
  
