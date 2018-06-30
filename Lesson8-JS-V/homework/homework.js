@@ -8,16 +8,16 @@ function createUserClass() {
   // {{name}} should be the name set on each instance
   // return the class
 
-  // const options = {
+  const options = {
     
-  //   username: 'username',
+    username: 'username',
 
-  //   name: 'name',
+    name: 'name',
 
-  //   email: 'email',
+    email: 'email',
 
-  //   password: 'password',
-  // } ;
+    password: 'password',
+  } ;
 
 
   const user = function (options, username, name, email, password){

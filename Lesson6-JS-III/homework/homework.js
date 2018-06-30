@@ -173,8 +173,10 @@ function multiplyArguments(argument) {
       if (arguments.length === 0) {
 
     return 0;
+  
   }
-    else if (arguments.length === 1) {
+ 
+     else if (arguments.length === 1) {
 
       return argument ;
     }

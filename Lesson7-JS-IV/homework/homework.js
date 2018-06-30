@@ -147,7 +147,7 @@ function setUsersToPremium(users) {
   // return the users array
   // users is an arrays. users.forEach() would work but we have no idea how to access the objects in the array
 
-  users.forEach( for (let key in obj) {Object.isPremium = true ;} ;
+  users.forEach(for(let key in obj) {Object.isPremium = true ;} ) ;
 
  
 }
@@ -158,6 +158,8 @@ function sumUserPostLikes(user) {
   // each post object has an integer property called 'likes'
   // sum together the likes from all the post objects
   // return the sum
+
+  user.posts.forEach()
 
 
 

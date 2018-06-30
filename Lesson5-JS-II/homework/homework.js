@@ -46,7 +46,7 @@ function greeting(language) {
 
         else {
 
-         return 'Hello!' ;
+         return 'Hello!' ; 
     }
 }
 
@@ -100,16 +100,16 @@ function isInteger(num) {
 
   if (floorNum < num) {
 
-    return false; 
+    return false ; 
   }
     
     else if (floorNum === num) {
 
-      return true;
+      return true ;
     }
 
     else {
-      return false;
+      return false ;
     }
 
   
