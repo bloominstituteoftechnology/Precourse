@@ -32,7 +32,7 @@ function returnLast(arr) {
 
   const arrIndex = arr.length ;
 
-  return arr[arrIndex-1] ;
+  return arr[arrIndex-1] ; 
 }
 
 function getArrayLength(arr) {
@@ -46,7 +46,8 @@ function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-
+  
+  return arr.map(a => a + 1) ;
 
 }
 
@@ -145,21 +146,51 @@ function multiplyArguments(argument) {
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
 
-  let argVal = argVal + argument ;
+  // let argVal = argVal + argument ;
 
-  if (multiplyArguments.length !== 0) {
+  // if (multiplyArguments.length !== 0) {
 
-    return argument *= argument ;
+  //   return argument *= argument ;
+  // }
+
+  // else if (multiplyArguments.length) {
+
+  //   return false;
+  // } 
+
+  //   else {
+  //     return argVal ;
+  //   }
+
+ 
+  
+  
+  
+    
+    for (let i = 0; i < arguments.length - 1 ; i++) {
+
+
+      if (arguments.length === 0) {
+
+    return 0;
   }
+    else if (arguments.length === 1) {
 
-  else if (multiplyArguments.length) {
-
-    return false;
-  } 
-
-    else {
-      return argVal ;
+      return argument ;
     }
+
+      let sum = 1 ;
+
+      let placeHolder = arguments[i] ;
+
+      let temp = arguments[i] * sum ;
+
+      let vals = placeHolder * sum ;
+
+      return temp || vals ;
+    }
+    
+
 }
 
 // Do not modify code below this line.
