@@ -99,9 +99,9 @@ function buildToDos(toDos) {
 function displayToDos() {
   var toDoContainer = document.getElementById('toDoContainer');
   toDoContainer.innerHTML = '';
-  buildToDos(toDoItems); 
+  var newToDos = buildToDos(toDoItems); 
   for(let i = 0; i < toDoItems.length; i++){
-  toDoContainer.appendChild(buildToDos(toDoItems[i]))
+    toDoContainer.appendChild(newToDos[i]);
   }
   // code here
 }
@@ -118,12 +118,13 @@ function displayToDos() {
           4.) Call displayToDos to refresh the toDos displayed
 */
 
-function addToDo(newToDo, ToDo) {
-  var addNewToDo = Object.create(ToDo(newToDo));
-  toDoItems.push(addNewToDo);
-  addNewToDo = '';
-  displayToDos();
+function addToDo() {
   // code here
+  var newToDo = document.getElementById('toDoInput');
+  const toDoObj = new ToDo(newToDo.value);
+  toDoItems.push(toDoObj);
+  newToDo.value = '';
+  displayToDos();
 }
 
 /* 
