@@ -1,0 +1,4 @@
+Arrays: An array, usually signified by solid brackets ([]), is often referred to as a data structure, which
+effectively means that it is a container, like a variable. The main difference between arrays and regular variables,
+is that arrays can hold multiple pieces of data, and can order this data, giving the individual pieces of data what's called an index.
+The index can be thought of as each piece of data's place in line, within the array.

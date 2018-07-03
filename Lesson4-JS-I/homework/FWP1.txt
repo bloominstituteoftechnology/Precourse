@@ -1,0 +1,13 @@
+﻿Variables: A variable is basically a container that will hold something for you, so that you can sit it down now, and be able to come back and pick it up later. What makes it special is that you can change what’s in inside of it. The contents of the container may vary.
+
+
+Strings: Strings refer to the ability to represent most non-integer text, such as names, dates, responses, and similar things. In order for something to be considered a string by the computer, it must be entirely wrapped in single or double quotes. Strings can contain and do count whitespace, special characters and can even receive quote symbols as part of the string, using a ‘\’ in front of the quotes meant to be included in the string.
+
+
+Functions: A function is a specific piece of code, that usually contains several rules. It works like a machine, that when you give the function (specific piece of code), input, which may be a variable, it will work on the input according to it’s rules, and give you the result. The input is generally referred to as an argument, or arguments. So, you can think of the function as a machine that solves the ‘argument’ between you and the computer, and can optionally ‘return’ the solution to the argument, so that you and the computer can see it.
+
+
+If statements: An ‘if statement’ is a small and common code blueprint for finding out if something is true or false, often referred to as ‘checking a condition’. The if statement by default will check if the condition is true, but can be instructed to check if something is false. If statements are highly related to Booleans. If statements can be thought of as machines in the same way as functions, as they also follow instructions, depending on the condition being true or false.
+
+
+Booleans: Booleans refer to a situation where something can only be one of two different options, such as on/off, or yes/no. Put another way, if something can only be one of two things, it can be seen as, or expressed as a Boolean. Examples of real life situations that can be expressed as Boolean, are hot/cold, life/death, wet/dry. Generally though, Booleans are used to express  or find out whether something is true or false.
