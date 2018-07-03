@@ -121,14 +121,14 @@ function fizzBuzz(num) {
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
  
-  if (num % 5 === 0) {
-
-  return 'buzz' ;
-} 
-
-    else if (num % 3 === 0) {
+  if (num % 3 === 0) {
 
   return 'fizz' ;
+} 
+
+    else if (num % 5 === 0) {
+
+  return 'buzz' ;
 }
 
 if (num % 3 && 5 === 0) {
@@ -148,17 +148,18 @@ function isPrime(num) {
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
   
-  if (num % num && num % 1 !== 0) {
+  for (let i = 0 ; i <= num ; i++) {
 
-  return false ;
-  
-}
-  else {
-    
-    return true ; 
+    if (num % i !== 0) {
+
+      return true ;
+    }
+
+      else if (num % i === 0) {
+
+        return false ;
+      }
   }
-
-
 }
   
 

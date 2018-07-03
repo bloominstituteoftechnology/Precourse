@@ -163,13 +163,6 @@ function multiplyArguments(argument) {
   //   }
 
  
-  
-  
-  
-    
-    for (let i = 0; i < arguments.length - 1 ; i++) {
-
-
       if (arguments.length === 0) {
 
     return 0;
@@ -180,17 +173,32 @@ function multiplyArguments(argument) {
 
       return argument ;
     }
+  
+  
+  let sum = 1 ;
+    
+    for (let i = 0; i < arguments.length; i++) {
 
-      let sum = 1 ;
+      sum *= arguments[i] ;
+ 
+     
 
-      let placeHolder = arguments[i] ;
-
-      let temp = arguments[i] * sum ;
-
-      let vals = placeHolder * sum ;
-
-      return temp || vals ;
     }
+      return sum ;
+     
+
+
+
+    //   let sum = 1 ;
+
+    //   let placeHolder = arguments[i] ;
+
+    //   let temp = arguments[i] * sum ;
+
+    //   let vals = placeHolder * sum ;
+
+    //   return temp || vals ;
+    // }
     
 
 }

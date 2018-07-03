@@ -21,7 +21,9 @@ function forEach(arr, cb) {
   // iterate over arr and pass its values to cb one by one
   // hint: you will be invoking cb multiple times (once for each value in the array)
 
-  arr.forEach(cb(function(){for (let i = 0; i <= arr.length; i++){return arr ;}})) ;
+  // arr.forEach(cb(function(){for (let i = 0; i <= arr.length; i++){return arr ;}})) ;
+
+ 
 
   
 }
@@ -31,9 +33,9 @@ function map(arr, cb) {
   // iterate over each value in arr, pass it to cb, then place the value returned from cb into the new arr
   // the new array should be the same length as the array argument
 
-  let newArr = [] ;
+  // let newArr = [] ;
 
-  arr.map(cb())
+  // arr.map(cb())
 }
 
 // Do not modify code below this line.

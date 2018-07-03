@@ -8,36 +8,24 @@ function createUserClass() {
   // {{name}} should be the name set on each instance
   // return the class
 
-  const options = {
-    
-    username: 'username',
-
-    name: 'name',
-
-    email: 'email',
-
-    password: 'password',
-  } ;
 
 
-  const user = function (options, username, name, email, password){
-    
-    this.username = username ;
+  function User (object){
 
-    this.name = name ;
+    this.username = object.username ;
+    this.name = object.name ;
+    this.email = object.email ;
+    this.password = object.password ;
 
-    this.email = email ;
-
-    this.password = password ;
-
-    this.sayHi = function() {
+    this.sayHi = function (){
 
       return 'Hello, my name is ' + this.name ;
     } ;
 
-  } ;
 
-  return user;
+  }
+
+  return User ;
 }
 
 function addPrototypeMethod(Constructor) {
@@ -56,9 +44,11 @@ function addReverseString() {
   // hint:
   // you will need to use 'this' inside of reverse
 
-  String.prototype.reverse = function() {
+  String.prototype.reverse = function (){
+    
+    
+    return this.split('').reverse().join('');
 
-    this.split('').reverse().join('');
   } ;
     
    

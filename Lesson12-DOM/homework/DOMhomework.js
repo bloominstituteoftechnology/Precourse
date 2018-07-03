@@ -2,7 +2,7 @@
   STEP 0: Create an empty array called 'toDoItems'.
 */
 
-// code here
+const toDoItems = [] ;
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
@@ -19,7 +19,12 @@
 */
 
 function ToDo () {
-  // code here
+  
+  this.description = description;
+
+  this.complete = false;
+
+
 }
 
 /* 
@@ -28,7 +33,10 @@ function ToDo () {
           Inside the function set the ToDo's 'complete' property to true.
 */
 
-// code here
+toDoItems.prototype.completeToDo() = function(){
+
+  this.complete = true ;
+}
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
