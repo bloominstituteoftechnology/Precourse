@@ -1,0 +1,16 @@
+Lesson 2 Homework
+
+Variables:
+A variable is a setting in a code that can be used over and over.  It creates a invisible object that can be called by a name and used in the code to refer to.  You can use the commands var (old), let (new) and const (new) to set variables.  Variables set by const (constant) do not change.
+
+Strings:
+Strings in Javascript are items that are set in quotes: "example" or 'example'.  Strings define a value or name for a variable.
+
+Functions:
+A function creates a group of code contained in brackets.  The function can be used later on in the entire code by using the name set by the code.  Variables inside a function cannot be seen by items outside the function.  Variables inside a function can be used from external sources from the function.  Functions can contain arguments depending on what the result of variables are.  Such as if the variable is true then this happens or if false then this happens.  A return function stops the function and it also gives access to code outside the function.
+
+If statements:
+Allow the code to branch into two separate pieces.
+
+Boolean values:
+Means to give two choices.  Can be on or off, true or false, 0 or 1.  Work with if statements.
