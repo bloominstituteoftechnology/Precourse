@@ -1,0 +1,47 @@
+<!--
+/* First complete version 5/27/2018       */
+h1{
+  color : blue;
+  position : relative; 
+  text-align : center;
+}
+
+h2,h3,h4{
+  text-align : center;
+ }
+
+img{
+  width : 400px;
+}
+
+#thirdDiv{
+  border : 5px dashed brown;
+  height : 600px;
+  width : 500px;
+  background-color : purple;
+  padding : 50px; 
+  justify-content: center;
+} 
+
+span{
+  box-align : center;
+}
+
+#spanId {
+  font-size : 18px;
+  margin : 50px;
+  box-align : center;
+}
+
+ .divClass{
+   padding : 20px;
+} 
+
+body{
+  height : 1100px;
+  width : 60%;
+  margin: auto;
+  padding : 30px;
+  /* border : 5px dashed brown; */
+  background-image : url("http://lorempixel.com/400/200/food/3"); 
+} -->

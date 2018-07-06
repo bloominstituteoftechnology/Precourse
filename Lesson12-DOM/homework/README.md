@@ -1,4 +1,4 @@
-# Homework #JSVII
+# Homework #DOM
 
 ## Instructions
 ---
@@ -9,7 +9,7 @@
 	* DOM events
 	
 *** Stretch Goals: Everything after this line is optional ***
-*** These tests are optional, any work you do to comeplete these tests is extra. That being said, having  exposure to these concepts and attempting them is recommended. The better you understand these concepts, the better your experience will be at Lambda School. ***  
-2. Uncoment lines 7 through 108 in the file `DOM.test.js` from the `__test__` folder within this `homework` folder. Then, from the top level of your `Precourse` folder, run `npm test JSVII.test.js` to run the automated tests. You will fill out the functions in `homework.js` to make the tests pass.
+*** These tests are optional, any work you do to complete these tests is extra. That being said, having  exposure to these concepts and attempting them is recommended. The better you understand these concepts, the better your experience will be at Lambda School. ***  
+2. Uncoment lines 7 through 108 in the file `DOM.test.js` from the `__test__` folder within this `homework` folder. Then, from the top level of your `Precourse` folder, run `npm test DOM.test.js` to run the automated tests. You will fill out the functions in `DOMhomework.js` to make the tests pass.
 
 For more information about Lambda School's six month CS program visit: https://lambdaschool.com

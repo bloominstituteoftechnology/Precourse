@@ -9,35 +9,70 @@ in this folder, you are in the wrong place.
 /* We will start this one off for you: */
 #exerciseOne {
 
+  text-align : center;
+  display : block;
+   
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
 
-/* Place code here */
+#exerciseTwo {
+
+ /* visibility : hidden; */
+ display : none;
+
+}
+
 
 
 
 /* Exercise Three: */
 
-/* Place code here */
+#exerciseThree {
+
+  position : relative;
+  top : 100px;
+  left : 200px;
+
+}
 
 
 
 /* Exercise Four: */
 
-/* Place code here */
+#exerciseFour {
+
+  position : fixed;
+  top : 0px;
+  left : 0px;
+
+}
 
 
 
 /* Exercise Five */
 
-/* Place code here */
+#exerciseFive {
+
+  display : flex;
+  align-items : center;
+  justify-content : space-between;
+
+  /* Exercise Six */
+  flex-direction : row-reverse;
+
+}
 
 
-
-/* Exercise Six */
 
 #exerciseSeven {
+
   display: flex;
+  justify-content : space-around; 
+  align-items :  flex-start; 
+  align-self : center;
+  flex-direction : row-reverse;
+  flex-flow : row wrap;
+
 }

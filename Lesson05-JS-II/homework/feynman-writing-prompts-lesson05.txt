@@ -1,0 +1,23 @@
+---
+1. Feynman Writing Prompts - Write out explanations of the following 
+concepts like you are explaining it to a 12 year old.  Doing this 
+will help you quickly discover any holes in your understanding.  
+Ask your questions on Slack.
+		
+	* `for`
+    A structure that will allow you to loop through a block of code. 
+    It has inputs of an initial condition, a condition under which
+    the loop will operate, and a [final condition of a loop iteration], 
+    which is typically an increment or decriment condition.
+
+	* `&&`
+    And logical operator. If both inputs are true the output is true,
+    otherwise the output is false.
+
+  * `||`
+    Or logical operator. If both inputs are false the output will be 
+    false, otherwise the output will be true.
+
+  * `!`
+    Not logical operator. Negates the value. !true = false; 
+    !false = true.

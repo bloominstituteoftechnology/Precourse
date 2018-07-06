@@ -1,0 +1,41 @@
+Lesson04-JS-1 :
+1. Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Variables
+
+    A variable is like  a toy. Each toy is different, 
+    and has it's own space, and is used at a particular time. Toys even grow old and
+    are abandoned.
+    Each variable is named and assigned a place in memory, and at an a particular instruction
+    is used, and then left to be cleaned up. Typicially these are numbers.
+
+	* Strings
+     
+    A type of variable, i.e. it acts like a variable would except it can only be a
+    set of characters and thus must be enclosed in ' '. A character is a information unit 
+    that is not a number, and thus may be a part of the alphabet or a symbol.
+
+	* Functions (arguments, `return`)
+
+     A function is a piece (or more techinically a 'block') of code that you use 
+     frequently and that might have inputs and outputs. The inputs are parameters 
+     for the function creators [function prototype], but become arguments when one 
+     actually calls the function with real data. Arguments are also all the items 
+     contained within the () after the function name when the function is called. 
+     A return statement is the ouput from the function. 
+
+	* `if` statements
+
+   There are two things that you want, but you only have money for one of them.
+   Either thing that you buy will lead to a different outcome. You need to select from
+   one of the items. The selection of one of those items is a branch in the if statement
+   - a condition, and you could either get it - true, or decide to do nothing. 
+   The true and false (not doing anything) conditions led to different activities (outputs).  
+    
+
+	* Boolean values (`true`, `false`)
+
+    At the heart of the computer are bits and bytes. Each one of these bits can have two
+    states : excited - true, or dormant - false. 
+    
+   
