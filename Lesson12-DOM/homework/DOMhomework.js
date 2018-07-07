@@ -1,7 +1,7 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-
+const toDoItems = [];
 // code here
 
 /* 
@@ -9,6 +9,9 @@
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
           add your name to the END of the current innerHTML.
 */
+
+const createdBy = document.querySelector('#createdBy');
+createdBy.innerHTML += ' Alex Martin';
 
 // code here
 
@@ -18,7 +21,11 @@
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+class ToDo {
+  constructor(description) {
+    this.description = description;
+    this.complete = false;
+  }
   // code here
 }
 
@@ -28,6 +35,9 @@ function ToDo () {
           Inside the function set the ToDo's 'complete' property to true.
 */
 
+ToDo.prototype.completeToDo = function() {
+  this.complete = true;
+}
 // code here
 
 /*
@@ -48,6 +58,20 @@ function ToDo () {
 
 function buildToDo(todo, index) {
   // code here
+  let toDoShell = document.createElement('div');
+  toDoShell.className = 'toDoShell';
+
+  let toDoText = document.createElement('span');
+  toDoText.innerHTML = todo.description;
+  toDoText.id = index;
+
+  if (todo.complete === true) {
+    toDoText.className = 'completeText';
+  }
+
+  toDoShell.appendChild(toDoText);
+
+  return toDoShell;
 }
 
 /* 
@@ -57,6 +81,7 @@ function buildToDo(todo, index) {
 */
 
 function buildToDos(toDos) {
+    return toDos.map(buildToDo);
   // code here
 }
 
@@ -73,6 +98,12 @@ function buildToDos(toDos) {
 */
 
 function displayToDos() {
+  let toDoContainer = document.getElementById('toDoContainer');
+  toDoContainer.innerHTML = '';
+  const array = buildToDos(toDoItems);
+  for (i = 0; i < array.length; i++) {
+    toDoContainer.appendChild(array[i]);
+  }
   // code here
 }
 
@@ -90,6 +121,10 @@ function displayToDos() {
 
 function addToDo() {
   // code here
+  let newToDo = document.getElementById('toDoInput').value;
+  toDoItems.push(newToDo);
+  newToDo.value = '';
+  displayToDos;
 }
 
 /* 
@@ -97,7 +132,8 @@ function addToDo() {
           1.) Select the element with the id 'addButton'
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
-
+let button = document.getElementById('addButton');
+button.addEventListener('click', addToDo());
 // cod here
 
 /* 
@@ -114,8 +150,10 @@ function addToDo() {
 */
 
 function completeToDo(event) {
-  // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+  const index = event.target.id;
+  completeToDo(toDoItems[index]);
+  displayToDos();
+  document.getElementbyId('toDoText').addEventListener('click',buildToDo());
   // code here
 }
 
@@ -136,7 +174,7 @@ function completeToDo(event) {
 
 
 // Call displayToDos here (Step 6)<-----
-
+displayToDos();
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
 if (typeof module !== 'undefined') {
