@@ -1,14 +1,13 @@
-  h1{
+
+h1{
             color: pink;
-        }
-        
-        img{
+    }
+img{
             
-            width: 400px;
-        }
+    width: 400px;
+    }
         
-        
-         #thirdDiv{
+#thirdDiv{
             height: 600px;
             width: 400px;
             background-color: aqua;
@@ -16,8 +15,7 @@
             border: 10px solid purple;
         
         }
-        
-           #spanId{
+#spanId{
             font-size: 18px;
             margin: 50px;
         }
