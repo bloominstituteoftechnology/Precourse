@@ -6,6 +6,16 @@ function counter() {
   // newCounter(); // 1
   // newCounter(); // 2
 
+  let num = 0 ;
+  
+  return function increment(){
+
+    num++ ;
+
+    return num ;
+    
+  }
+
 
 }
 
