@@ -51,22 +51,40 @@ ToDo.prototype.completeToDo = function(){
            
           Inside this function it should:
             1.) Create a new 'div' element. Set this to a variable 'toDoShell'. [done]
-            2.) Give 'toDoShell' a class (for CSS) of 'toDoShell'.
+            2.) Give 'toDoShell' a class (for CSS) of 'toDoShell'. [done]
             3.) Create a new 'span' element. Set this to a variable called 'toDoText'. [done]
-            4.) Using the toDo item passed in, set the 'toDoText' innerHTML to the value of the 'description' property on the toDo object.
-            5.) Set the id of 'toDoText' to the value of the index argument.
+            4.) Using the toDo item passed in, set the 'toDoText' innerHTML to the value of the 'description' property on the toDo object. [done]
+            5.) Set the id of 'toDoText' to the value of the index argument. [done]
             6.) Using an if statement, check to see if the 'complete' property on the object passed as the first argument 
                   is set to true. If it is, give 'toDoText' a CSS class of 'completeText'. If it is not, do not give it a class.
-            7.) Append child 'toDoText' to 'toDoShell'
-            8.) return toDoShell
+            7.) Append child 'toDoText' to 'toDoShell' [done]
+            8.) return toDoShell [done]
 */
 
 function buildToDo(todo, index) {
 
-  const toDoShell = document.createElement = div  ;
+  const toDoShell = document.createElement("div");
 
-  const toDoText = document.createElement = span ;
+    toDoShell.className = 'toDoShell' ;
+ 
+  const toDoText = document.createElement("span");
 
+    toDoText.innerHTML = todo ;
+
+    toDoText.id = index ;
+
+  if (todo.complete === true) {
+
+    toDoText.className = 'completeText' ;
+
+  }
+    else {
+      null ;
+    }
+
+    toDoShell.appendChild(toDoText) ;
+
+    return toDoShell ;
 
 
 
@@ -81,7 +99,10 @@ function buildToDo(todo, index) {
 */
 
 function buildToDos(toDos) {
-  // code here toDos.map(buildToDo)
+  // code here 
+  
+  return toDos.map(buildToDo) ;
+
 }
 
 /* 
@@ -97,6 +118,20 @@ function buildToDos(toDos) {
 */
 
 function displayToDos() {
+
+  const toDoContainer = document.getElementById('toDoContainer') ;
+
+   toDoContainer.innerHTML = '' ;
+
+  let buildResult = buildToDos(toDoItems) ;
+
+    buildResult.forEach(function(){
+
+      document.getElementById('toDoContainer').appendChild(ToDo) ;
+
+    });
+
+
   // code here
 }
 
@@ -113,6 +148,16 @@ function displayToDos() {
 */
 
 function addToDo() {
+
+  const newTodo = document.createElement('input') ;
+
+  newTodo.value = new ToDo() ;
+
+  toDoItems.push(newTodo.value) ;
+
+  newTodo.value = '' ;
+
+  displayToDos();
   // code here
 }
 
@@ -122,7 +167,11 @@ function addToDo() {
           2.) Add a 'click' event listener to this element, passing it the addToDo function as a callback
 */
 
-// cod here
+// code here
+
+  const thisEle = document.getElementById('addButton') ;
+
+    thisEle.addEventListener(onclick, addToDo) ;
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
@@ -160,6 +209,8 @@ function completeToDo(event) {
 
 
 // Call displayToDos here (Step 6)<----- displayToDos()
+
+displayToDos() ;
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
