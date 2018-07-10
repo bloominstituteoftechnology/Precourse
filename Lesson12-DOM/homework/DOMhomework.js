@@ -6,11 +6,16 @@ const toDoItems = [] ;
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
+
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
+  
           add your name to the END of the current innerHTML.
 */
 
-// code here
+    const spanEl = document.querySelector('#createdBy')  ;
+
+    spanEl.innerHTML = 'This app was created by Lorenzo' ;
+
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -18,7 +23,7 @@ const toDoItems = [] ;
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+const ToDo = function (description) {
   
   this.description = description;
 
@@ -33,19 +38,21 @@ function ToDo () {
           Inside the function set the ToDo's 'complete' property to true.
 */
 
-toDoItems.prototype.completeToDo() = function(){
+ToDo.prototype.completeToDo = function(){
 
   this.complete = true ;
 }
 
+
+// Everything prior to this is done and passes tests
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
           the second is a numerical index.
            
           Inside this function it should:
-            1.) Create a new 'div' element. Set this to a variable 'toDoShell'.
+            1.) Create a new 'div' element. Set this to a variable 'toDoShell'. [done]
             2.) Give 'toDoShell' a class (for CSS) of 'toDoShell'.
-            3.) Create a new 'span' element. Set this to a variable called 'toDoText'.
+            3.) Create a new 'span' element. Set this to a variable called 'toDoText'. [done]
             4.) Using the toDo item passed in, set the 'toDoText' innerHTML to the value of the 'description' property on the toDo object.
             5.) Set the id of 'toDoText' to the value of the index argument.
             6.) Using an if statement, check to see if the 'complete' property on the object passed as the first argument 
@@ -55,6 +62,15 @@ toDoItems.prototype.completeToDo() = function(){
 */
 
 function buildToDo(todo, index) {
+
+  const toDoShell = document.createElement = div  ;
+
+  const toDoText = document.createElement = span ;
+
+
+
+
+
   // code here
 }
 
@@ -65,7 +81,7 @@ function buildToDo(todo, index) {
 */
 
 function buildToDos(toDos) {
-  // code here
+  // code here toDos.map(buildToDo)
 }
 
 /* 
@@ -143,7 +159,7 @@ function completeToDo(event) {
 // ********************************************** ----------- ********************************************** //
 
 
-// Call displayToDos here (Step 6)<-----
+// Call displayToDos here (Step 6)<----- displayToDos()
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
