@@ -1,4 +1,4 @@
-﻿Closure: Closure refers to an effect the relationship between global and local scope. Every function has
+﻿Closure: Closure refers to an effect the relationship between global and local scope has. Every function has
 
 it’s own scope, which is the local scope of that function. Anything declared in a function, is generally 
 only available in it’s local scope. Things declared outside of functions are generally available in the 
