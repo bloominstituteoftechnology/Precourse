@@ -14,7 +14,7 @@ function counter() {
 
     return num ;
     
-  }
+  } ;
 
 
 }
@@ -39,10 +39,12 @@ function cacheFunction(cb) {
         if (value === value){
           return value ;
         }
-      } 
 
         return cb(value) ;
-}
+} ;
+      } 
+
+        
 
 // Do not modify code below this line.
 // --------------------------------
