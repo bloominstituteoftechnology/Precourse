@@ -117,7 +117,7 @@ function buildToDos(toDos) {
           You can now load your html file in your broswer and see your work so far.
 */
 
-function displayToDos() {
+function displayToDos() { 
 
   const toDoContainer = document.getElementById('toDoContainer') ;
 
