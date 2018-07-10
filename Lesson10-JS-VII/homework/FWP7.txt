@@ -1,0 +1,16 @@
+﻿Closure: Closure refers to an effect the relationship between global and local scope. Every function has
+
+it’s own scope, which is the local scope of that function. Anything declared in a function, is generally 
+only available in it’s local scope. Things declared outside of functions are generally available in the 
+
+global scope. Closure is effectively a loophole for this rule, which works by taking advantage of the 
+
+rules of scope. A function declared inside of a function, has access to it’s own local scope, and the 
+
+scope of the outside function. Because the inner function can hold the information from the outer 
+
+function, it can work on this information, and then be returned out of the outer function, while
+
+maintaining a link to the information created there. Thus, the inner function has ‘closure’ over the 
+
+scope of the outer variable.

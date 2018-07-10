@@ -1,0 +1,13 @@
+﻿
+Objects: An object is a data structure, similar to an array, so much so that it is sometimes referred to as an associative array. Objects are declared with curly brackets, and contain pieces of data just like arrays.
+The key difference is that array elements are attached to numerical indexes representing the order of each element in the array, whereas elements in objects have keys that refer to them, and are unordered. 
+
+Properties: Properties, refer to the keys inside of an object that hold to a specific value within the same object. For example: myObj = {aProperty: aValue}.
+In this object, the property is ‘aProperty’, and the value is ‘aValue’. 
+
+Methods: A method is the term used to identify functions defined as values inside of or on an object. Methods are accessed via dot(.) notation, and called with parentheses just like regular functions.
+ 
+For In Loop: a for in loop ‘for (property in objectName)’, is the preferred way to iterate (cycle) through an objects properties, in a way similar to how for loops iterate through array elements. Because objects are unordered, for in loops can not be counted on to iterate through an object in any particular order.
+
+Dot & Bracket Notation: These are the two ways of interacting with data structures such as arrays and objects, but not limited to just those two. For arrays, dot notation is used to access array methods, in order to interact with the array, or specific elements. Bracket notation is most often used to isolate a specific index, and alter the element at that location. With objects, dot notation is used to call methods, or interact with properties on the object, whereas bracket notation is generally used when a property name is held inside of a variable, and you need to access the value within that variable. 
+

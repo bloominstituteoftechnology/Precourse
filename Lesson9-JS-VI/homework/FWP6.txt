@@ -1,0 +1,3 @@
+﻿Callback Functions: In JavaScript, a call back function, is a function that is 
+
+passed to another function as an argument. The call back function, or cb, is generally called by the function it is passed to, or returned out of that function for later use by the programmer, or future developers. The function that receives the call back function as an argument, is generally referred to as a higher order function.
