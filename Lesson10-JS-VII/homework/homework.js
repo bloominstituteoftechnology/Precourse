@@ -1,13 +1,36 @@
 // Do not change any of the function names
 
-function counter() {
+function counter(number) {
+  return function() {
+    console.log(number + 1);
+  };
   // Return a function that when invoked increments and returns a counter variable.
   // Example: const newCounter = counter();
   // newCounter(); // 1
-  // newCounter(); // 2
+  // newCounter(); // 2 
+  const newNumber = counter(2);
+  newNumber();
 }
 
 function cacheFunction(cb) {
+  const cacheArray = function() {
+    array = cacheArray.push(cb);
+    return array;
+  }
+  const multi = function(callback){
+    const check = function(){
+      for(i=0; i<array.length; i++){
+        if(i /= callback){
+          total = callback * callback;
+          return total;
+        }
+        else {
+          return callback;
+        };
+      };
+    };
+  }
+  cacheFunction(3);
   // use closure to create a cache for the cb function
   // the function that you return should accept a single argument and invoke cb with that argument
   // when the function you return is invoked with an argument it should save that argument and its result
