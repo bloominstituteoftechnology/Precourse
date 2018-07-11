@@ -73,6 +73,11 @@ function buildToDo(todo, index) {
 
     toDoText.id = index ;
 
+    // toDoText.click = function(){
+
+    //   console.log('clicked') ;
+    // }
+
   if (todo.complete === true) {
 
     toDoText.className = 'completeText' ;
@@ -136,9 +141,9 @@ function displayToDos() {
     buildResult.forEach(function(){
 
 
-      document.getElementById('#toDoContainer').appendChild(buildResult) ;
+      // document.getElementById('#toDoContainer').appendChild(buildResult) ;
 
-        toDoContainer.appendChild(toDoContainer);
+        toDoContainer.appendChild();
 
     });
 
@@ -200,6 +205,10 @@ function addToDo() {
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   // const index = event.target.id;
+
+  // completeToDo(index) ;
+
+  // displayToDos() ;
   // code here
 }
 
