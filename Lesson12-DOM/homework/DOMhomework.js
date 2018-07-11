@@ -106,12 +106,18 @@ function buildToDos(toDos) {
 }
 
 /* 
-  STEP 6: Now that we can build an array of toDo elements, we want to make these elements appear on the screen, 
+  STEP 6: Now that we can build an array of toDo elements, we want to make these elements appear on the screen,     
+
           to do this we will create a 'displayToDos' function.
+  
           1.) Select the element with the id 'toDoContainer'.  Save this to a variable: 'toDoContainer'.
+  
           2.) Set the innerHTML of 'toDoContainer' to an empty string. (This will let us refresh the elements, and display the new toDos)
+  
           3.) Using the buildToDos function pass it the array toDoItems as it's only argument.
+  
           4.) Using the result of (3), loop over the array appending each element to 'toDoContainer'.
+  
           5.) at the very end of this file, the line before the comment "DO NOT CHANGE ANY CODE BELOW THIS LINE", call this function.
 
           You can now load your html file in your broswer and see your work so far.
@@ -119,15 +125,20 @@ function buildToDos(toDos) {
 
 function displayToDos() { 
 
-  const toDoContainer = document.getElementById('toDoContainer') ;
+  const toDoContainer = document.querySelector('#toDoContainer') ;
 
    toDoContainer.innerHTML = '' ;
 
   let buildResult = buildToDos(toDoItems) ;
 
+ 
+
     buildResult.forEach(function(){
 
-      document.getElementById('toDoContainer').appendChild(ToDo) ;
+
+      document.getElementById('#toDoContainer').appendChild(buildResult) ;
+
+        toDoContainer.appendChild(toDoContainer);
 
     });
 
