@@ -74,7 +74,7 @@ function buildToDo(todo, index) {
     toDoText.id = index ;
 
     // toDoText.click = function(){
-
+    const clickFunc = toDoText.click() ;
     //   console.log('clicked') ;
     // }
 
@@ -130,26 +130,44 @@ function buildToDos(toDos) {
 
 function displayToDos() { 
 
-  const toDoContainer = document.querySelector('#toDoContainer') ;
+  // const toDoContainer = document.querySelector('#toDoContainer') ;
 
-   toDoContainer.innerHTML = '' ;
+  //  toDoContainer.innerHTML = '' ;
 
-  let buildResult = buildToDos(toDoItems) ;
+  // let buildResult = buildToDos(toDoItems[]) ;
 
  
 
-    buildResult.forEach(function(){
+  //   buildResult.forEach(function(){
 
 
-      // document.getElementById('#toDoContainer').appendChild(buildResult) ;
+  //     // document.getElementById('#toDoContainer').appendChild(toDoContainer) ;
 
-        toDoContainer.appendChild();
+  //       toDoContainer.appendChild(toDoItems);
 
-    });
+        
 
+  //   });
+    // code here
+     const toDoContainer = document.getElementById('toDoContainer');
+    
+     toDoContainer.innerHTML = '';
+    
+     const arr = buildToDos(toDoItems);
+
+     
+    
+     for (let i = 0; i < arr.length-1; i++){
+    
+      toDoContainer.appendChild(arr[i]);
+    
+   
+    }
+  
+  }
 
   // code here
-}
+
 
 /* 
   STEP 7: This function, 'addToDo' will add a new ToDo to the 'toDoItems' array.
@@ -208,7 +226,7 @@ function completeToDo(event) {
 
   // completeToDo(index) ;
 
-  // displayToDos() ;
+  // displayToDos(clickFunc) ;
   // code here
 }
 
