@@ -14,21 +14,17 @@ function counter(number) {
 
 function cacheFunction(cb) {
   const cacheArray = function() {
-    array = cacheArray.push(cb);
-    return array;
-  }
-  const multi = function(callback){
-    const check = function(){
-      for(i=0; i<array.length; i++){
-        if(i /= callback){
-          total = callback * callback;
-          return total;
-        }
-        else {
-          return callback;
-        };
-      };
-    };
+    const storageCache = {};
+
+    return function(number){
+      if(storageCache[number] === undefined) {
+        const result = number * number;
+        storageCache[number] = result;
+      }
+      
+      
+      return storageCache[number];
+    }
   }
   cacheFunction(3);
   // use closure to create a cache for the cb function
