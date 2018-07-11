@@ -28,14 +28,16 @@ function incrementByOne(arr) {
 function addItemToArray(arr, item) {
   // add the item to the end of the array
   // return the array
- arr.push(item);
+arr.push(item);
+return arr;
 }
 
 function addItemToFront(arr, item) {
   // add the item to the front of the array
   // return the array
   // hint: use the array method .unshift
- arr.unshift('item');
+arr.unshift(item);
+return arr;
 }
 
 function wordsToSentence(words) {
@@ -43,13 +45,19 @@ function wordsToSentence(words) {
   // return a string that is all of the words concatenated together
   // spaces need to be between each word
   // example: ['Hello', 'world!'] -> 'Hello world!'
-  return words.join('');
+  return words.join(' ');
 }
 
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
- return arr.indexof = [item];
+  let number = 5 && 10;
+  if(arr, item === number){
+    return true;
+  } else{
+    return false;
+  } 
+  
 }
 
 function addNumbers(numbers) {
@@ -57,8 +65,8 @@ function addNumbers(numbers) {
   // add all of the integers and return the value
   var total = 0;
 
-  for (var i = 0; i < numbers.length; i++) {
-    total += numbers[1];
+  for (var i = 0; i<numbers.length;i++) {
+    total += numbers[i];
   }
 
   return total;
@@ -71,7 +79,7 @@ function averageTestScore(testScores) {
   var total = 0;
 
   for (var i = 0; i < testScores.length; i++) {
-    total += testScores[1];
+    total += testScores[i];
   }
 
   return total / testScores.length;
@@ -80,7 +88,7 @@ function averageTestScore(testScores) {
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
-  return Math.max(numbers);
+  return Math.max.apply(null, numbers);
 }
 
 function multiplyArguments() {
