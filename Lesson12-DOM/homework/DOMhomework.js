@@ -73,11 +73,11 @@ function buildToDo(todo, index) {
 
     toDoText.id = index ;
 
-    // toDoText.click = function(){
-    const clickFunc = toDoText.click() ;
-    //   console.log('clicked') ;
-    // }
-
+    toDoText.click = function(){
+  
+      console.log('clicked') ;
+    }
+  // const clickFunc = toDoText.click() ;
   if (todo.complete === true) {
 
     toDoText.className = 'completeText' ;
@@ -176,7 +176,7 @@ function displayToDos() {
           the text box on the page.
 
           1.) Using the value property on 'newToDo', create an new ToDo object using the ToDo class and pass the value as the description.
-          2.) add the object from (1) into the toDoItems array.
+          2.) add the obtject from (1) into the toDoItems array.
           3.) Set the value of newToDo to an empty string (this will clear the text in the box allowing the user to enter another item).
           4.) Call displayToDos to refresh the toDos displayed
 */
