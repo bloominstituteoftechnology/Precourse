@@ -1,0 +1,7 @@
+Prototype
+
+The object that other related new objects are created from and connected to.  It can share its methods and qualities with every object created from it.  This saves memory and is very efficient.
+
+Constructors
+
+Houses may look different in specific style but they are all constructed with four walls, a base, and a roof.  With classes, constructors and words like `this` (which relates the the object containing these blueprints for the properties that every new object will have when made from the prototype) are a set of blueprints that are consistent and will be contained in every new object made from the prototype.  Just like the set of instructions to construct every house will have a base, four walls and a roof just as the prototype did, in this case well say that would be a model house.
