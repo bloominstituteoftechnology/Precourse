@@ -1,0 +1,10 @@
+Homework
+
+1. Feynman Writing Prompt”
+Variables: objects that are assigned with certain values and type of values by the programmers and are stored in computer memory for running program operations.
+Strings: a type of variable that contain a consecutive alphabet, special characters, and numbers with a specific order and format
+Functions (arguments, return): special programming operations that return certain value or outcome based on certain values or variables that the functions take in.
+if statements: conditional operations that allow the program to return different outcomes based on different conditions.
+Boolean values (true, false): variables with value of either true or false.
+
+
