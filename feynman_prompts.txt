@@ -1,0 +1,36 @@
+﻿Feynman Writing Prompts
+-Variables- a named container for a single value. Variables are not values themselves, but containers for values. Putting a value into a variable is referred to as assignment. Variables are named after the fact that their value can vary – a different value can be assigned to a variable at any time.
+Example: I assigned the string value “Dan” to the name variable.
+-Strings – a data type that represents string of characters or text.
+-Function (arguments, return)-  a piece of code that is run only when it is called. Functions take zero or more arguments. When a function finishes running, it returns a return value back to the code that called it.
+Example: I wrote a function that takes an array of numbers as an argument, and returns the average.
+-- Arguments in a Function – a value that is passed into a function when it is called. Arguments are said to be “passed” into a function, and functions are said to “take” arguments. Also known as a “parameter.”
+Example: That function takes two arguments.
+-- Return- it immediately stop a called function from running, possibly providing a return value. A function automatically returns once all of its code has been run. However, the code in the function definition can force the function to return at any point.
+Example: If the array is empty, the function returns early without running the rest of its code.
+-if statements – a conditional statement. A code will run only if a certain condition is met, else, a code will not run. 
+-Boolean values (true, false)- It is a type of variable. A boolean variable can only have two different values: true and false. Boolean values can be combined by using AND, OR and NOT.
+	-for- a piece of code that runs itself repeatedly (until a certain condition is met). 	Commonly used to run a piece code for every value in an array. Also known as “iteration”.
+-&&, ||, ! - denotes 'and', 'or', 'not'
+
+	- Array- a data structure consisting of a collection of elements (values or variables),  each 	identified by at least one array index or key. An array is stored such that the position of 	each element can be computed from its index. 
+
+
+	Object - a collection of related data and/or functionality, which usually consists of several 	variables and functions — which are called properties and methods when they are inside 	objects.
+Properties- The value of an object member can be pretty much anything — in our person object we've got a string, a number, two arrays, and two functions. The first four items are data items, and are referred to as the object's properties
+
+Methods- The last two items are functions that allow the object to do something with that data, and are referred to as the object's methods.
+
+For… in loop - only iterates over enumerable, non-Symbol properties. For...in should not be used to iterate over an array where the index order is important.  The loop will iterate over all enumerable properties of the object itself and those the object inherits from its constructor's prototype.
+
+Dot notation – We can access properties on an object by specifying the name of the object, followed by a dot followed by the property name. This is the syntax: objectName.propertyName. It is used used more often than Bracket notation.
+
+Bracket notation- We access properties on an object by specifying the name of the object followed by the property name in brackets. Here’s the syntax: objectName["propertyName"]. Perhaps most importantly, we can now use variables to access properties in an object. It’s important that the variable we are using references a String.
+
+	Prototype - When a function is created in JavaScript, JavaScript engine adds a prototype 	property to the function. This prototype property is an object that has a constructor 	property by default. Constructor property points back to the function on which prototype 	object is a property. We can access the function’s prototype property using the syntax 	functionName.prototype.
+
+	Constructors- like regular functions, but we use them with the "new" keyword. There are 	two types of constructors: native constructors like Array and Object, which are available 	automatically; and custom constructors, which define properties and methods for your 	own type of object. A constructor is useful when you want to create multiple similar 	objects with the same properties and methods.
+	Callback Function- A function that is passed to another function as a parameter, and the 	callback function is called (or executed) inside that other function.
+	Closure- A closure is an inner function that has access to the outer (enclosing) function’s 	variables—scope chain. The closure has three scope chains: it has access to its own 	scope 	(variables defined between its curly brackets), it has access to the outer function’s 	variables, and it has access to the global variables.
+	Recursion-  a technique in which a function calls itself. Recursion is best applied when 	you need to call the same function repeatedly with different parameters from within a loop. 	The classic example of a function where recursion can be applied is the factorial. This is 	a function that returns the value of multiplying a number again and again by each 	preceding integer, all the way down to one.
+
