@@ -8,11 +8,15 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+	display: inline-block;
+	text-align: center;	
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
+#exerciseTwo {
+	display: none;
+}
 
 /* Place code here */
 
@@ -20,20 +24,40 @@ in this folder, you are in the wrong place.
 
 /* Exercise Three: */
 
+
 /* Place code here */
+#exerciseThree {
+	display: inline-block;
+	padding-left: 200px;
+	padding-top: 100px;
+}
 
 
 
 /* Exercise Four: */
 
+
 /* Place code here */
 
+#exerciseFour {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
 
 
 /* Exercise Five */
 
 /* Place code here */
 
+
+#exerciseFive{
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row-reverse;
+}
 
 
 /* Exercise Six */
