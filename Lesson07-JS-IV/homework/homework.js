@@ -57,7 +57,7 @@ function newUser(name, email, password) {
 function hasEmail(user) {
   // return true if the user has a value for the property 'email'
   // otherwise return false
-if (user.email.length) {
+if (user.email) {
   return true;
 } else {
   return false;
@@ -68,7 +68,11 @@ function hasProperty(object, property) {
   // return true if the object has the value of the property argument
   // property is a string
   // otherwise return false
-
+  if ( object.hasOwnProperty(property)) {
+      return true;
+    }else {
+     return false;
+    }
 }
 
 function verifyPassword(user, password) {
