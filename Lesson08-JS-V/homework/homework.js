@@ -25,7 +25,10 @@ function createUserClass() {
 function addPrototypeMethod(Constructor) {
   // add a method to the constructor's prototype
   // the method should be called 'sayHi' and should return the string 'Hello World!'
-Constructor.sayHi = function() { return 'Hello World!'; };
+  Constructor.prototype.sayHi = function() {
+    return 'Hello World!';
+      };
+      return Constructor.prototype.sayHi();
 }
 
 function addReverseString() {
@@ -34,9 +37,8 @@ function addReverseString() {
   // hint:
   // you will need to use 'this' inside of reverse
   String.prototype.reverse = function() {
-    var str = this.split(' ').reverse().join(' ');
-    return str;
-  }; 
+    return this.split('').reverse().join('');
+  };
 }
 
 // Do not modify code below this line.
