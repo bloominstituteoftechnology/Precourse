@@ -12,7 +12,7 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
-   return (language === "German" ? 'Guten Tag !' :language === "Mandarin"? 'Ni Hao!':language === "Spanish"? 'Hola!':language === undefined? 'Hello' :'Hello');
+   return (language === 'German' ? 'Guten Tag!' :language === 'Mandarin'? 'Ni Hao!':language === 'Spanish'? 'Hola!':language === undefined ||(!language) ? 'Hello!' :'Hello');
    
 }
 
@@ -64,7 +64,7 @@ function isPrime(num) {
   }
   return  num > 1 ? true : false;
 
-
+}
 
 // Do not modify code below this line.
 // --------------------------------

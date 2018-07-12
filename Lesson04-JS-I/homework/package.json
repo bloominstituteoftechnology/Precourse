@@ -4,7 +4,7 @@
   "description": "This repo contains the instruction material and assignments for Lambda School's `Web Dev 101 Mini Bootcamp`.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint Lesson09-JS-VI/homework/homework.js Lesson08-JS-V/homework/homework.js Lesson07-JS-IV/homework/homework.js Lesson06-JS-III/homework/homework.js  Lesson05-JS-II/homework/homework.js Lesson04-JS-I/homework/homework.js && jest"
+    "test": "eslint  Lesson04-JS-I/homework/homework.js && jest"
   },
   "repository": {
     "type": "git",

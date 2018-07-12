@@ -80,7 +80,7 @@ function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
-  return (num <= 90 ? true : false);
+  return (num < 90 ? true : false);
   
 }
 
