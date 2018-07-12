@@ -1,0 +1,27 @@
+`for` represents the start of one type of loop (or recursive type behavior) that is seen in programming languages.
+an example of a for loop would be:
+
+for (let x = 0; x <= 10; x++) {
+  console.log(x);
+  }
+
+ which would output the following to the console:
+ //0
+ //1
+ //2
+ //3
+ //4
+ //5
+ //6
+ //7
+ //8
+ //9
+ //10
+
+ the for loop will repeat the code in the braces for each value of x that gets fed in.
+ the for loop needs to be told where to start (let x = 0)
+ the for loop needs to be told when to end (x <=10)
+ and the for loop needs to be told how to get from the start to the end (x++) - Note: x++ is just a different way to write the expression x = x + 1 and is called an increment.  it will increase x by 1 every cycle until it gets the starting value to the end
+
+
+ the symbols && , ||, ! mean the following : && (and)       || (or)          !(not)  - we can use these to include more than one condition ... so lets say  you could only go to the movies if(money !==0 && parentsApprove === true) - here we are saying that if money DOES NOT equal zero (you have money) and it is true that you parentsApprove you can go then you are going to the movies...
