@@ -146,7 +146,7 @@ function cube(num) {
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-  return num ^ exponent;
+  return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
@@ -190,7 +190,7 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
-  return 2 * length + 2 * width;
+  return length * width;
 }
 
 function getTriangleArea(base, height) {
