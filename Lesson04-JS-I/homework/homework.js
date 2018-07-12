@@ -81,8 +81,7 @@ function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
-  var x;
-  if (x < 90) {
+  if (num < 90) {
     return true;
   } else {
     return false;
