@@ -5,7 +5,12 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
+  var n = 1;
+  return function newCounter() {
+    return ++n;
+  };
 }
+
 
 function cacheFunction(cb) {
   // use closure to create a cache for the cb function
@@ -17,8 +22,19 @@ function cacheFunction(cb) {
   // cb -> function(x) { return x * x; }
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
-  // and return 25 directly and will not invoke cb again
-}
+  const myObj = {};
+  return function cache(cb) {
+    if (!myObj.hasOwnProperty(cb)) {
+      myObj[cb] = cb * cb;
+      return myObj[cb];
+    }
+    else {
+      return myObj[cb];
+    }
+  };
+  //var check = cache(cb;)
+  //cache(cb); 
+  }
 
 // Do not modify code below this line.
 // --------------------------------
