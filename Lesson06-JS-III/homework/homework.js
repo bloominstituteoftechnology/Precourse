@@ -90,6 +90,17 @@ function largestNumber(numbers) {
 
 function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
+  let product;
+  if (arguments.length === 0) {
+    return 0;
+  } else if (arguments.length === 1) {
+    return arguments[0];
+  } else {
+  for (let i = 1; i < arguments.length; i++) {
+    product = product * arguments[i];
+  }
+}
+  return product;
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
 }
