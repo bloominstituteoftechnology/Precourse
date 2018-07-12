@@ -1,0 +1,8 @@
+Homework
+
+1. Feynman Writing Prompt:
+- for: an operation that repeats until a certain condition is met
+- &&: a boolean value if both the conditions before and after '&&' are true
+- ||: a boolean value if either the conditions before or after '||' is true
+- !: an operator that negates the operator or boolean value follows it.
+
