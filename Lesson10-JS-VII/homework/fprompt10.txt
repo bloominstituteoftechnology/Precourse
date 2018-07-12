@@ -1,0 +1,10 @@
+Undeclared variables will cause JavaScript to look for them somewhere in the entire scope of the program.  JavaScript moves in one way - inside - out.
+So based on scope you have the following layers:
+
+Global (Biggest level of scope)
+#############################################
+Function (Next level under global)
+#############################################
+Block (Within functions - things like loops and conditions - etc)
+
+The tricky thing about all this is that declaring variables in global scope leaves them open to be redefined anywhere since JS will start in the block scope and move outwards to find an undeclared variable.  Because of this global scope variables are accessible by every scope; however, if a variable is defined in block scope JavaScript will stop there find it and go no further... this also means that lets say I would be looking for my friend, and my friend is stuck in block scope - well I will never see them because I am stuck miles away in the global scope.  Therefore, inner block variables are stuck or closed in to that block - this becomes very useful when we do not want to overwrite variables and this aligns with an approach known as functional programming.  There is a very complex definition of closure involving lexical scope, etc - but the biggest part of it is this - closing variables in functions are not able to be accessed globally, and closing them in blocks leaves them only accessible in that block.  Also, as a note: let and const are ways to define variables that are block scoped rather than var which was scoped to functions.
