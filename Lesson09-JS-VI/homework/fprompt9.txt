@@ -1,0 +1,7 @@
+In JavaScript functions that you have seen are called first class functions.  First class functions can take in arguments.  It turns out that functions can be arguments.
+
+When a function accepts an function as an argument we call this a higher order function and the incoming argument (which is a function) is referred to as the "callback" function.
+
+In a sense you made this function at some point in time and got it ready.  You left this function at your house and executed the program until you got to your friends.  At that point, you needed the function to come help you do something so you had to call it back from memory so it could do its job.
+
+Callbacks are essentially that - functions that are defined at one point and later used as an argument in a higher order function at some other point in time.
