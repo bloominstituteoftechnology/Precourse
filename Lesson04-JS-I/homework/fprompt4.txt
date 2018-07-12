@@ -1,0 +1,25 @@
+
+* Variables
+    A storage container for any type of data.  Variables store information and allow the computer to retrieve that information in the future and at various locations in the program.  Some examples would include:
+
+    a. var x = 2; (x in this case represents the number 2, an integer)
+    b. var dog = "Snoopy"; (in this case the variable dog represents a string, "Snoopy"
+    c. var arr = [3,4,5,5,6]; (here, the variable arr points to a collection of integers.  This collection is called an array.)
+
+
+* Strings
+    A string is a type of data (information) that is made up of characters.  Examples of strings: "cat"; "Mr. Jones"; "adfsajklwelk"; "3"; "3445"
+      Notice that strings are enclosed in double quotes.  They can also be enclosed in single quotes as well and the use of either quotation styles is determined by some fiery debate in the JS community and by certain situations which you will see as you get further in the language.  Note that digits enclosed in quotes are not numbers and digits as strings will have different behavior when working with them.
+
+
+* Functions (arguments, `return`)
+    A function is like a machine which takes in parts, follows a procedure, and puts out some thing based on the procedure followed.  In JS and programming languages that thing usually is some value/data that is returned from the function.  The stuff that goes into the machine or function are called arguments and the thing that comes out after the function operates on the arguments is referred to as the 'return' of the function.
+
+
+* `if` statements
+    if statements are ways to have computers make decisions.  Say you have two possible outcomes to a question, such as "Will I go to the movies?".  Let's say the answer to this depends only on one thing and that is if you have the money or if you don't have the money to go. One path that can happen would be if you had enough money, then you would go to the movies. So, you have money, that is true and the movies is the reality that happens. But what if you don't have the money, well then you do not go to the movies. So in this case, the condition - "do you have money" is false and a different outcome of reality happens.  In programming a conditional gives a set of possible conditions and each its own outcome when the condition is met.
+
+
+
+* Boolean values (`true`, `false`)
+    Booleans represent a very primitive set of outcomes at the heart of computers... 0,1 // no, yes // false, true // absence, presence // noise, signal
