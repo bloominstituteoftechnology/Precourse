@@ -1,0 +1,29 @@
+body{
+background-image: url("https://images.pexels.com/photos/533937/pexels-photo-533937.jpeg");
+}
+      h1{
+      color: crimson;
+      }
+      
+      img{
+      width: 400px;
+      }
+      
+      #thirdDiv {
+        hieght: 600px;
+        width: 500px;
+        background-color: skyblue;
+        padding: 50px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: yellow;
+      }
+      
+      #spanId {
+        font-size: 18px;
+        margin: 50px;
+      }
+ 
+.center {
+margin: auto;
+}
