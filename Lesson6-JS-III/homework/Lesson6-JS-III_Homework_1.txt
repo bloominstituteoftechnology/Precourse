@@ -1,0 +1,4 @@
+Homework
+
+1. Feynman Writing Prompt:
+- Arrays: sequential collections of values for organizing and fast retrieving of a specific value based on its position in the array.
