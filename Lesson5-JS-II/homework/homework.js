@@ -5,12 +5,17 @@ function multiplyArguments() {
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
   let multiple = arguments[0];
-  for (let i=1; i<arguments.length; i++){
-    multiple = multiple * arguments[i];
+  if (arguments.length === 0) {
+    return 0;
+  } else {
+    for (let i=1; i<arguments.length; i++){
+      multiple = multiple * arguments[i];
+    }
+    return multiple;
   }
-  return multiple;
+  
 }
-//multiplyArguments(2);
+//multiplyArguments();
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
@@ -30,7 +35,7 @@ function greeting(language) {
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
   if (language === 'German'){
-    return 'Guen Tag!' ;
+    return 'Guten Tag!' ;
   } else if (language === 'Mandarin') {
     return 'Ni Hao!';
   } else if (language === 'Spanish') {
@@ -39,7 +44,7 @@ function greeting(language) {
     return 'Hello!';
   }
 }
-//greeting();
+//greeting('German');
 
 function isTenOrFive(num) {
   // return true if num is 10 or 5
@@ -109,7 +114,7 @@ function isPrime(num) {
 
 // Do not modify code below this line.
 // --------------------------------
-/*
+
 module.exports = {
   multiplyArguments,
   getBiggest,
@@ -119,4 +124,4 @@ module.exports = {
   isInteger,
   fizzBuzz,
   isPrime,
-};*/
+};
