@@ -56,15 +56,21 @@ ToDo.prototype.completeToDo = function() {
 
 function buildToDo(todo, index) {
   // code here
+ // var para = document.createElement("P");
   var toDoShell = document.createElement('div');
   toDoShell.className = 'toDoShell';
   var toDoText = document.createElement('span');
+ 
   toDoText.innerHTML = todo.description;
+ 
+// alert('buildToDo item description:' + temp); 
   toDoText.id = index;
-  if (ToDo.complete = true) {
+  if (todo.complete = true) {
     toDoText.className = 'completeText';
   } 
   toDoText.addEventListener("click", completeToDo);
+  //var temp = para.appendChild(toDoText);
+  toDoShell.appendChild(toDoText);
   return toDoShell; 
   
 }
@@ -99,8 +105,9 @@ function displayToDos() {
   var toDoContainer = document.querySelector('#toDoContainer');
   toDoContainer.innerHTML = '';
   var tempItems =  buildToDos(toDoItems)
-  for (var i = 0; i < toDoItems.length; i++) {
-    toDoContainer.innerHTML += tempItems[i];
+  console.log(tempItems);
+  for (var i = 0; i < tempItems.length; i++) {
+    toDoContainer.innerHTML += tempItems[i].innerText;
     }
 }
 
@@ -122,8 +129,13 @@ function addToDo() {
   var toDoInput = document.getElementById("toDoInput");
  //toDoInput.value = '';
  var toDo1 = new ToDo();
-  toDoItems.push(toDo1);
+toDo1.description = toDoInput.value;
+ toDoItems.push(toDo1);
   toDoInput.value = '';
+// var tmp = [];
+// tmp = toDoItems;
+// console.log(toDoItems);
+//alert('section addToDo array toDoItems: ' + tmp);
   displayToDos();
 }
 
@@ -155,6 +167,7 @@ function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
   const index = event.target.id;
   // code here
+ alert("in the completeToDo!");
   displayToDos();
 }
 
