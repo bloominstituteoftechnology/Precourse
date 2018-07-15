@@ -93,10 +93,12 @@ function displayToDos() {
   // code here
   var toDoContainer = document.querySelector('#toDoContainer');
   toDoContainer.innerHTML = '';
+  toDoContainer.style.flexDirection = "column";
+  toDoContainer.style.alignItems = "center";
   var tempItems =  buildToDos(toDoItems);
   for (var i = 0; i < tempItems.length; i++) {
-    toDoContainer.innerHTML += tempItems[i].innerText;
-    }
+     toDoContainer.innerHTML += "<p>" + tempItems[i].innerText + "</p>";
+  };
 }
 /* 
   STEP 7: This function, 'addToDo' will add a new ToDo to the 'toDoItems' array.
@@ -149,6 +151,9 @@ function completeToDo(event) {
   displayToDos();
 }
 
+function toDoItems(){
+  alert('function toDoItms')
+}
 /* STEP 10: Make sure ALL tests pass */
 
 
