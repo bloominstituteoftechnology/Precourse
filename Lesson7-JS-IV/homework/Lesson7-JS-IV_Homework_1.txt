@@ -1,0 +1,8 @@
+Homework
+
+1. Feynman Writing Prompt:
+- Objects: They are groups of related values, methods, arrays,etc.
+- Properties:They are special indices of a certain object.
+- Methods: functions that are a part of an object
+- for in loop: a for loop that traverses through all the properties of an object
+- Dot notations vs bracket notations: While both for recalling a property of an object, dot notations should be used when the exact name of the property is known, whereas bracket notations can be used with a variable property name.
