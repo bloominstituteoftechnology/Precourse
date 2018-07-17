@@ -1,0 +1,5 @@
+Homework
+
+1. Feynman Writing Prompt:
+- Prototype: a function of a class that is allocated in the computer memory only when a specific class calls upon it.
+- Constructors: a general template created for a class of object with shared properties and methods
