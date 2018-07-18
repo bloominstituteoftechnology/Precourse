@@ -45,7 +45,7 @@ IV. Add, Commit and push your work to your github account.
 
 Extra credit:   
   In order to do some of this you will either need to have an understanding of CSS currently, or will need to 
-  do some further homework, I recoomend the additional resources in the README or   )
+  do some further homework, I recoomend the additional resources in the README or https://www.w3schools.com/css/default.asp)
   
   * Set the background of the entire page to an image
   * Center the div's on the page
