@@ -32,7 +32,7 @@ function returnString(str) {
 function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
-  var sum = x + y;
+  let sum = x + y;
   return sum;
 }
 
@@ -44,13 +44,13 @@ function subtract(x, y) {
 
 function multiply(x, y) {
   // multiply x by y and return the value
-  var mil = x * y;
+  let mil = x * y;
   return mil;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
-  var div = x / y;
+  let div = x / y;
   return div;
 }
 
@@ -94,7 +94,7 @@ function greaterThanFifty(num) {
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
-  var rem = x % y;
+  const rem = x % y;
   return rem;
 }
 
@@ -122,35 +122,35 @@ function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-  var sqNum = num * num;
+  let sqNum = num * num;
   return sqNum;
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here
-  var cubeNum = num * num * num;
+  let cubeNum = num * num * num;
   return cubeNum;
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-  var value = Math.pow(num, exponent);
+  let value = Math.pow(num, exponent);
   return value;
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
-  var value = Math.round(num);
+  let value = Math.round(num);
   return value;
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
-  var value = Math.ceil(num);
+  let value = Math.ceil(num);
   return value;
 }
 
