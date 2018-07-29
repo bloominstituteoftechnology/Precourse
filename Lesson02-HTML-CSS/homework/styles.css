@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://ticketspy.nl/wp-content/uploads/2013/08/Phuket.jpg");
+    background-size: 1400px 915px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: blueviolet;
+}
+h1 {
+    color: mediumaquamarine; 
+    text-align: center;
+    font-family: cursive; 
+}
+h3 {
+    color: whitesmoke;
+    text-align: center;
+}
+h4 {
+    color: whitesmoke;
+    text-align: center;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    border: 2px solid rgb(20, 139, 120);
+    height: 600px;
+    width: 500px;
+    background: rgb(199, 171, 120);
+    padding: 50px;
+    margin: 0 auto 0 auto;
+}
+#spanId {
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 50px;
+}
