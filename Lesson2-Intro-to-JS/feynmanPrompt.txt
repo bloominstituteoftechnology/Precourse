@@ -1,0 +1,40 @@
+# Feynman Writing Prompts
+
+# variables
+Variables are containers for other things. 
+If I ask for a variable, what I'm really asking for is whatever is inside the box.
+If I make a `const` variable, I'm putting something inside the box that I'm not going to change.
+If I make a `let` variable, I'm assuming that I'm going to sometimes change what's in the box.
+
+# strings
+Strings are a bunch of letters or numbers in a row.
+You don't really do anything to them.
+It's like writing on a piece of paper. You can put a string inside a variable, like putting a piece of paper in a box.
+If you call the variable later, you'll pull out that string.
+
+# functions (arguments, return)
+A function is like a set of instructions.
+If I teach you how to make a sandwich, I give you a set of instructions for making a sandwich.
+That's a function. If I give you bread and peanut butter, you know how to make a sandwich with it.
+If I give you pita bread and mayonnaise and pork, you still know how to make a sandwich with it, because as long as I give you the right information, you're able to follow the instructions the same way every time.
+The things I give you to make the sandwich, to follow the instructions, to perform the function (all the same thing) are the arguments.
+Return is when you finish following my instructions and hand back a sandwich.
+Or maybe the instruction would be to return to me whatever is left over. 
+Return is what you bring out of the room where you make the sandwich.
+If I tell you to make a sandwich, but to return with the sandwich, then that is what is returned.
+If I tell you to make a sandwich, but to return with the leftovers, then that is what is returned.
+
+# if statements
+And if statement is a fork in the road.
+It's where I give you instructions to get somewhere or do something, but I know that at some point you're going to have to make a decision.
+You have to go to grandma's house, but there's a fork in the road.
+Which one do you take?
+I can say, if this, then take the left road, but if that, then take the right road.
+Since I won't be with you while you're traveling, the if statement tells you what the right next move is even if I'm not there.
+
+# Boolean values (true, false)
+A boolean value is either true or false.
+It's the answer to a question
+In the set of instructions, for example, I can ask whether or not you have mayonnaise.
+If the answer is `false`, then I might have you make a different sandwich.
+If the answer is true, make a pork sandwich.
