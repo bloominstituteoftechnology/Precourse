@@ -9,7 +9,7 @@ In this lesson we will cover:
 
 In the previous assignment we discussed the flexibility that we have with functions in JavaScript.  Another cool aspect about functions is that we can invoke a function from inside of itself.  This is called recursion.  Recursion is a type of iteration similar to `for` and `while` loops.
 
-The code below is an example of recursion.  Don't actually run this code though because it will produce an infinite loop.  Just like with `for` loops, if we don't have something that stops the iteration the cyle will continue forever.  In the case below the function `foo` will continue to call itself until the program crashes.
+The code below is an example of recursion.  Don't actually run this code though because it will produce an infinite loop.  Just like with `for` loops, if we don't have something that stops the iteration the cycle will continue forever.  In the case below the function `foo` will continue to call itself until the program crashes.
 
 ```javascript
     function foo() {
@@ -48,9 +48,9 @@ The code above will have the same result as the `for` loop used up above.  It al
 2. Instead of a truth condition that must be `true` to keep going like in our `for` loop we have a base case.  The base case says "stop when `false`".
 3. We move towards satisfying the base case by modifying `n`.
 
-Everything that can be writter recursively can be written iteratively (with a `while` loop or a `for` loop).  There are cases where a recursive
+Everything that can be written recursively can be written iteratively (with a `while` loop or a `for` loop).  There are cases where a recursive
 solution is simpler and easier to write than an iterative solution.  Recursive functions are generally used when working with various data structures
-like trees, linked lists, or graphs.  Programming is all about tradeoffs and different approaches have different advantages.  For now we recommend that
+like trees, linked lists, or graphs.  Programming is all about tradeoffs, and different approaches have different advantages.  For now we recommend that
 you generally stick to iteration but it is good to understand how to write recursive solutions.
 
 ## Additional Resources:
