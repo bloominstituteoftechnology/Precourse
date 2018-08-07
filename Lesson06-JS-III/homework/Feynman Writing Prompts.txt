@@ -1,0 +1,1 @@
+Arrays can be thought of as indexed containers of variables (or objects). They can be manipulated by several predefined operations.

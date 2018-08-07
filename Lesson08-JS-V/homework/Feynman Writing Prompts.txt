@@ -1,0 +1,3 @@
+The prototype for a class contains executable code which is to be shared by all instantiations of the class. Generally this translates to the prototype storing non-unique functions for that the class' objects might use.
+
+What another language (such as C++ or Java) might call a constructor, Javascript uses as classes. As Javascript will implicity understand the assignment of values to undefined properties to mean that the property should be created, certain other features inherent to classes in other language are not necessary.
