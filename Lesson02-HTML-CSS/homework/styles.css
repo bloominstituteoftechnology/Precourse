@@ -1,0 +1,28 @@
+body {
+	background-color: lightgray;
+	margin: auto;
+	width: 500px;
+}
+
+h1 {
+	color: blue;
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: lightgray;
+	padding: 50px;
+	border: 25px solid darkblue;
+	margin: auto;
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+
