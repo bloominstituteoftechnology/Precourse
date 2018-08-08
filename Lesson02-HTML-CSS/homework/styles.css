@@ -1,0 +1,49 @@
+
+
+body {
+    background-image: url(http://images.kuoni.co.uk/73/plantations-of-southern-india-36928241-1423239233-ImageGalleryLightboxLarge.jpg);
+
+}
+
+h1 {
+    color: rgb(10, 159, 185);
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.divClass {
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: rgb(225, 236, 225);
+    border: 2px solid rgb(130, 190, 132);
+
+    margin: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+    background-color: darkorange;
+    padding: 50px;
+    border-color:green;
+    border-style: solid;
+    border-width: 20px;
+    margin: auto;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    margin: auto;
+    text-align: center;
+}
