@@ -1,0 +1,47 @@
+body {
+    background-image: url('bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: fixed;
+    position: relative;
+}
+h1 {
+    color: blueviolet;
+}
+
+h1, h3, h4 {
+    text-align: center;
+}
+
+ul li {
+    text-align: center;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: lightblue;
+    padding: 50px;
+    border: solid 2px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+#spanId {
+    font-size: 18px; 
+    text-align: center;           
+}
+.divClass {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
