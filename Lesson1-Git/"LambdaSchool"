@@ -1,0 +1,6 @@
+cd ~
+mkdir LambdaSchool
+$ cd LambdaSchool
+$ git clone https://github.com/hollydillon2/Precourse.git
+$ touch Lesson1-git/newFile.js
+git add Lesson-Git/newFile.js
