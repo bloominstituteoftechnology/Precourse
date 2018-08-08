@@ -1,0 +1,9 @@
+1. Feynman Writing Promps - Write out explanations of the following concepts like you are explaining it to a
+12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on slack.
+
+- closure // is the idea that when you have a function embedded in another function. The inner function, which is
+the function that is inside the outer function, is able to look into the outer function for variables that is
+needed. However, this is not true the other way around, the outside function can not call or extract the variable
+that is from the inner function. There is also an order in which the functions look towards as well, which is
+called the scope chain, the inner function looks one step out first, and then the next function until it reaches
+the global scope. The scope is kind of like the environment or layer something is in.

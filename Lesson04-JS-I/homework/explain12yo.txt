@@ -1,0 +1,32 @@
+1. Feynman Writing Prompts- Ina a seprate text file that you create,
+write out explanations of the following concepts like you are explaining it to a 12 year old.
+Doing this will help you quickly discover any holes in your understanding. Ask your questions on slack.
+
+- Variables // The word variable in math, i assume comes from the word vary. Vary means, to differ
+in size, or nature or in some degree, it essentially means not-same. Variables can be anything, it is
+a substitution or a place holder of some unit. If it is a color, it can be blue, red, yellow etc.
+If it is a number, 0, 1999, -500 etc. In coding, it works in a similar way, it is a place holder that
+can change to one's liking.
+
+- Strings // strings are always in quotes, double or single. strings in coding are literal texts
+that are transfered from input to output. Unlike variables, they do not change.
+
+- Functions // A function is like a little program that instructs the computer or compiler to do
+a certain task. the anatomy of a function is: declaring that it is a function, followed by the name 
+of the function, the argument/s and then the function body which are instructions on what kind of
+small program we wish to create, this can involve a wide variety of mathematical operations, combining
+or disassembling sub tasks, etc.
+    
+    a. arguments // arguments are the variables we input for a function
+
+    b. returns // retruns are the end product of the function, once the function recognizes
+    a return statement it will output the result of the function.
+
+- if-statements // if statements are instructions to choose between two alternative courses of action.
+if the conditions of one request is made, it will perform the operations necessary for it, if not it
+will choose the alternative course of action.
+
+- Boolean values (true, false) // boolean values are simply two choices, true or false, yes or no,
+0 or 1 in binary language. they go hand in hand with if statements.
+
+-Jeff Kang

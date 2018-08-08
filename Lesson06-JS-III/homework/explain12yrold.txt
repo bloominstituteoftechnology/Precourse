@@ -1,0 +1,7 @@
+1. Feynman writing prompts - write out explanations of the following concepts like you are explaining it to a 12
+year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on slack.
+
+- arrays // a collection of data types. compared to a varable which is only one data type, an array is a system
+of storage for many collections of data. It is like a container where you can hold a bunch of different types
+of objects. With coding they can be strings, numbers, and booleans. As long as each data type is separated by a
+comma, we can access all of the data types that are stated.

@@ -1,0 +1,7 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12
+year old. Doing this will help you quickly discover any holes in your understanding. Ask questions on slack.
+
+callback functions // This means to set a function as an argument in another function. When one creates a function,
+so far we have only set the arguments as an array, or object, or string or something else. When one of these
+arguments are set as a function we are calling back the function. This is importans because it allows the user
+to alter the other arguments via the function.

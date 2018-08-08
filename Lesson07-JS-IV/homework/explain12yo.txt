@@ -1,0 +1,24 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12
+year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on slack.
+
+-objects // Similar to the array, objects are a collection of data. However they are dissimillar as well. 
+Whereas arrays are like a list holding multiple items related to each other and are assigned a number.
+Objects hold a lot of different information about one thing and are not in a particular order. The arguments
+for objects are written in curly braces as well unlike the square brackets of the arrays.
+
+-Properties // The properties for an object are like name tags that are assigned to each of the different arguments
+for the object. Another name for them are keys. Whenever you wish to assign something for an object. Within the
+curly braces the syntax is always the key or property followed by a colon followed by the value.
+
+-methods // functions saved within an object, so it must be within the braces of the object syntax. Set a key to
+a name, and the value to a function. You can call the method afterwards.
+
+for in loop // slightly different syntax than the arrays, because there is no number index for objects. When
+defining the for loop, add an in after the variable declaration and then the name of the object. This allows the
+computer to iterate over all of the key:value pairs. You can also use the key and bracket notation to access the
+value associated with that key.
+
+dot notation vs bracket notation // the object name, dot and key name works like the .length property of an array.
+This allows us to call the value associated with the key attached to it. The bracket notation is like calling an
+item on an array, the syntax is the object and the key wrapped in brackets. This is used when accessing variables.
+Or if the key is associated with an unknown value.

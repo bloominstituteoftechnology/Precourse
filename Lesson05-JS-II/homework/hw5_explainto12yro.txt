@@ -1,0 +1,21 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly
+discover any holes in your understanding. Ask your questions on Slack.
+
+- for // The for-loop is like a simple program for javascript, that tells the computer to check if a certain condition has been met. If the condition has not been met
+the program will run over and over again until the condition is fufilled. The syntax to setup a for loop is, declaring that it will be a for loop by the word itself.
+Then parentheses, then open and closed brackets. In the parentheses there are three  things that are required for the program to run correctly. Declaring a variable,
+by setting the variable to equal something. a condition, so once that condition becomes false, the loops stops, and an increment operator that increments the variable.
+Within the brackets we write the code that will be looped.
+
+- && // The and logical operator compares two expressions. Expressions are like comparisons, numbers are compared through larger or less than or equal symbols. 
+If both expressions are true then the entire statement becomes true, if one of the expressions are false, the entire statement is false. Javascript skips redundencies 
+so if the first expression is false, the entire expression will be false.
+
+- || // The or logical operator is similar to the and logical operator but only cares if one expression is true. This will make the entire statement true.
+In addition to this, the same redundency rule applies, so if one expression is true it will not read the second expression.
+
+- ! // The not logical operator will return the opposite value of what is stated. Compared to the previous two logical operator it only evaluates one expression,
+but it will output the opposite statement. A simple example would be (!(0===0)), because 0 does equal 0 this statement is true, but because of the not operator,
+the entire statement will be false.
+
+-Jeff

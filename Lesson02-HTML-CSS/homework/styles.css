@@ -1,0 +1,29 @@
+    <!--
+    body{
+        background-image: url(https://media.istockphoto.com/photos/hexagonal-abstract-3d-background-picture-id486421008?k=6&m=486421008&s=612x612&w=0&h=OX1WaovxJRyp919voNiqHqMU0909TfSGXMNfaF_Njgc=);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;       
+    }
+    h1{ 
+        color: darkred;
+      }
+    img{ 
+        width: 400px;
+      }
+    #thirdDiv{
+        height: 600px;
+        width: 500px;
+        background-color: cadetblue;
+        padding: 50px;
+        border: 5px solid darkgoldenrod;
+        margin: auto;
+      }
+    #spanId{
+        font-size: 18px;
+        margin: 50px;
+      }
+    .divClass{
+        text-align: center;
+      }
+      -->
