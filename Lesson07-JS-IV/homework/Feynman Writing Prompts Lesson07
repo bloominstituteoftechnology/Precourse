@@ -1,0 +1,5 @@
+Objects: items that can hold data with assigned names and can have custom functions attached as well
+Properties: are . commands attached to objects that are built into javascript
+Methods: are executable actions for Objects
+for in loop: for loops used for objects instead of arrays
+Dot notation vs Bracket notation: dot notation is commonly used, bracket notation is used when a variable doesn't exist in an object

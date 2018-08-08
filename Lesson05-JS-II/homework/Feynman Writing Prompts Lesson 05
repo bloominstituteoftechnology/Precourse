@@ -1,0 +1,4 @@
+for: is a loop used to run a set of code multiple times.
+&&: is used for checking that two values are truthy.
+||: is used for checking that one or both values are truthy.
+!: is used to make a truthy a falsey OR a falsey a truthy.

@@ -1,0 +1,1 @@
+Closure: a function within a higher function that runs each time the higher function is called and cannot be ran outside that function.

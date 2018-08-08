@@ -5,7 +5,12 @@ function counter() {
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
-}
+  let newCounter = 0;
+  return function() {
+    newCounter += 1;
+    return newCounter;
+  };
+};
 
 function cacheFunction(cb) {
   // use closure to create a cache for the cb function
