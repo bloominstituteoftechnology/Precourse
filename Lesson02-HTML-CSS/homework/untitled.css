@@ -1,0 +1,28 @@
+	h1 {
+		color: red;
+	}
+	img {
+		width:400px;
+	}
+	#thirdDiv {
+		width: 500px;
+		height: 600px;
+		background-color: blue;
+		padding: 50px
+		border: 3px green solid;
+
+	}
+	#spanId {
+		font-size: 18px;
+		margin: 50px;
+	}
+	body {
+		background-image: url(https://cdn.vox-cdn.com/thumbor/nO5CBRCs2iLXNeVLFpBEt8iFQbg=/555x546:3409x2193/920x613/filters:focal(1397x851:1973x1427)/cdn.vox-cdn.com/uploads/chorus_image/image/56739839/CMG_Chorizo_Burrito.0.0.jpg);
+	}
+	div { width: 700px;
+		margin: 0px auto;
+		position: absolute;
+		
+
+
+	}
