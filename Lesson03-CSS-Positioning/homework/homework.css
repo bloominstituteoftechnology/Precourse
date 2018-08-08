@@ -8,36 +8,50 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+	text-align: center;
+	display:block;
 }
 
 
-/* Exercise Two: Positioning a Header Bar*/
-
-/* Place code here */
-
+#exerciseTwo {
+	display: none;
+ }
 
 
 /* Exercise Three: */
-
-/* Place code here */
-
-
+#exerciseThree{
+	position: relative;
+	left: 200px;
+	top:100px;
+}
 
 /* Exercise Four: */
 
-/* Place code here */
-
-
+#exerciseFour{
+	display:block;
+	position: fixed;
+	top:0px;
+	left:0px;
+}
 
 /* Exercise Five */
 
-/* Place code here */
+#exerciseFive{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 
-
+}
 
 /* Exercise Six */
 
-#exerciseSeven {
-  display: flex;
+#exerciseFive{
+	display:flex;
+	align-content: center;
+	flex-direction: row-reverse;
+}
+/* Exercise Seven */
+
+/*#exerciseSeven {
+
 }
