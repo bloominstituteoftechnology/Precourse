@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1461268300564-666e9a3c88a5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=975d5de8f30bd54ec47b680936af54cf&auto=format&fit=crop&w=1051&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color:mintcream;
+    padding: 50px;
+    border: 4px solid rebeccapurple;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
