@@ -1,0 +1,46 @@
+html { 
+  background: url("https://images7.alphacoders.com/328/328730.jpg") ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+#thirdDiv {
+    height:600px;
+    width: 500px;
+    background-color:beige;
+    padding: 50px;
+    border: 50px;
+    border-color:bisque;
+    border-style: dotted;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    position: absolute;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+h1 {
+    color:orangered;
+}
+
+#divClass {
+ 
+    width: 500px;
+    background-color:beige;
+    padding: 50px;
+    border: 50px;
+    border-color:bisque;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    position: absolute;   
+}
