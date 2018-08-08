@@ -1,0 +1,5 @@
+prototype:
+Is a way to predefine mechanisms which will be accessible to everyone in the code.
+
+Constructors:
+Are a model from which we can create similar things.

@@ -1,0 +1,18 @@
+Variables:
+A variable is the name we give to something so that we can remember it, later.
+
+
+String:
+A string is a phrase, or at least a word or letter.
+
+
+Functions (arguments, return):
+A function is like a machine in which we put one thing in one side to get something else out in the other.
+
+
+'if' statements:
+An 'if' statement is a check to decide between doing one thing or the other.
+
+
+Boolean values (true, false):
+A boolean value is one of two possibilities.

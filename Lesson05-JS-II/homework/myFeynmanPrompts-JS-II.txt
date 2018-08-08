@@ -1,0 +1,6 @@
+* `for`
+Is doing something over and over again, slightly differently each time, until we get what we want.
+
+
+* `&&`, `||`, `!`
+Are ways to find out whether all things we are looking for are happening (&&), if at least one of them is happening (||) or if what's happening isn't what we're looking for. 

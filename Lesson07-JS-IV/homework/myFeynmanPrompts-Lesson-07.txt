@@ -1,0 +1,15 @@
+Objects:
+Objects are an index card of something, listing its characteristics.
+
+
+Properties:
+Is one of the characteristics listed in a object.
+
+Methods:
+Is something that happens in a characteristic of the thing.
+
+for in loop:
+Is goigng through all of the characteristics of a thing in order to do something.
+
+Dot notation vs bracket notation:
+Dot notation: reaches a property when you know its precise name. Bracket notation: allow to reach a property which has a variable name.
