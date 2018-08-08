@@ -1,0 +1,7 @@
+prototype:
+when defining a class, it is best to keep functions that we want this class to have out ouf the class declaration itself, and add them to the prototype of the class.
+by doing so, when creating multiple instances of the class, we avoid creating multiple copies of the function (which will always be the same for any instance of the class):
+ClassName.prototype.functionName = function() {};
+
+constructors:
+after defining a class we can "construct", "create" an instance (object) of that class using the 'new' keyword: var ourNewObject = new Class();

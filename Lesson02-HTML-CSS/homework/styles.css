@@ -1,0 +1,19 @@
+h1 {
+	color: tomato;
+}
+img {
+	width: 400px;
+}
+#thirdDiv {
+	height: 600px;
+	width: 500px;
+	background-color: seashell;
+	padding: 50px;
+	border: solid;
+	border-width: 2px;
+	border-color: burlywood;
+}
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}

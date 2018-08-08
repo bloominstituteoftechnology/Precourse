@@ -1,0 +1,1 @@
+an array is an ordered collection of like items. we access its items by the index oof the item in the array, starting at 0.

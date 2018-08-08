@@ -1,0 +1,15 @@
+Variables: 
+varibles have a name that we decide, and can hold any value (number, string, bool, function, etc).
+variables can be declared as let (we can later change them) or as const (they are constant, not changeable).
+
+Strings:
+strings are holding characters, any text surrounded by quotes or double-quotes is a string. 
+
+Functions (arguments, return):
+functions can hold the logic to do something. we can make functions that take parameters, for example a number or a string. a function can return a value.
+
+if statements:
+we can write logic with if statements. only if something is true, or smaller, or bigger or equal something should the code after the if statement execute.
+
+Boolean values (true, false):
+like the 0's and 1's in our computers basic level. something can be either true or false. for example 2 == 3 is false.

@@ -1,0 +1,5 @@
+recursion is when a function calls itself inside the function definition.
+when not instructed otherwise, this will result in an infinite loop. we can
+make this a usefull tool. 
+important to remember is that in javascript, we return out of the function as many times as we entered the function in a recursion loop!
+
