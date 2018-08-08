@@ -1,0 +1,49 @@
+body {
+  background-image: linear-gradient(#888c8ca1, rgba(204, 204, 47, 0.5)), url(https://www.cicis.com/media/1243/pizza_adven_zestypepperoni.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: lightseagreen;
+}
+
+img {
+  width: 400px;
+  display: block;
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+#firstDiv {
+  position: sticky;
+  top: 5px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: white;
+  padding: 50px;
+  border: 10px solid black;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
