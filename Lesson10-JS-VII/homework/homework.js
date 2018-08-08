@@ -1,10 +1,15 @@
 // Do not change any of the function names
+const increment = 0;
 
 function counter() {
   // Return a function that when invoked increments and returns a counter variable.
   // Example: const newCounter = counter();
   // newCounter(); // 1
   // newCounter(); // 2
+  const newCounter = function() {
+    retutn increment++;
+  }
+  return newCounter();
 }
 
 function cacheFunction(cb) {
@@ -18,6 +23,15 @@ function cacheFunction(cb) {
   // if the function you return is invoked with 5 it would pass 5 to cb(5) and return 25
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
+  const cbCache = function(arg) {
+    const cache = {};
+    if(cache[arg] === undefined) {
+      result = cb(arg);
+      cache[arg] = result;
+    }
+    return cache[arg];
+  }
+  return cbCache();
 }
 
 // Do not modify code below this line.

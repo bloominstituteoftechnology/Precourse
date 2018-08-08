@@ -1,0 +1,21 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* `for`
+	* `&&`, `||`, `!`
+
+for loops are a way to run a block of code multiple times as long as the conditions put into it remain true.
+
+'&&' is the comparison operator for 'and'. You use it to add two boolean requirements.
+example (true && true) === true
+		(true && false) === false
+		(false && false) === false
+
+'||' is the comparison operator for 'or'. You use it between two boolean comparisons. the code as a result will
+run if either of the conditions are met
+example (true || true) === true 
+		(true || false) === true
+		(false || fales) === false
+
+'!' is the not operator. It is used to reverse the boolean statement or a statement that would evaluate to a boolean
+example(!true) === false
+	   (!false) === true

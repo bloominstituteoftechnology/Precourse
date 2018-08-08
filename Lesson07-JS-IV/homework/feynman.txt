@@ -1,0 +1,20 @@
+Lesson 07 Feynman Prompts
+
+OBJECTS
+Objects are a data storage type that stores values, not in a sequencial order, but identified by a Key name also known as a property.
+
+PROPERTIES
+Properties are the values stored in an object. They are identified and accessed in the object through the key name.
+
+METHODS
+Methods are functions that are stored in an object.
+
+FOR IN LOOP
+A 'for in loop' is a way to run a block of code for each property that an object has.
+
+DOT NOTATION VS BRACKET NOTATION
+Dot notation is the simplest way to access a property in an object. You use dot notation when you know the exact name of the property
+you want to look up. You access the property with the notation object.property
+
+You use bracket notation when you do not know the exact name of the property, but you have a variable that points to that name. You
+access tha property with the notation object[variable]

@@ -1,0 +1,11 @@
+1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Arrays
+
+	an array is an ordered container that stores groups of values. Typically those values will all be related or the same type but they do not have to be
+	you create an arry by placing values inside brackets []. seperate each value with a comma
+		let example = ['forty five', 46]
+	to access a value from the array you use the variable name plus the index number
+	remember that index numbers begin with 0
+		example[0] returns 'forty five'
+		example[1] returns 46
