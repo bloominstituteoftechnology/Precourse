@@ -1,0 +1,31 @@
+h1 {
+			color: darkred;
+		}
+
+		img {
+			width: 400px;
+		}
+		#thirdDiv {
+			height: 600px;
+			width: 500px;
+			background-color: darkred;
+			padding: 50px;
+			border-color: yellow;
+			border-width: 5px;
+			border-style: dashed;
+		}
+
+		#spanId {
+			font-size: 18px;
+			margin: 50px;
+		}
+
+		div {
+			position: relative;
+			left: 350px;
+			top: 100px;
+		}
+		.flexcontainer {
+			display: flex;
+			flex-direction: column;
+		}
