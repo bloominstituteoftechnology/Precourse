@@ -1,0 +1,42 @@
+<!--
+body{
+  background-image: url("http://lorempixel.com/output/nature-q-g-640-480-2.jpg");
+}
+h1{
+  color: cornflowerblue;
+  font-size: 60px;
+  font-style: italic;
+  border-style: dashed;
+  border-width: thick;
+  border-color: coral;
+  text-align: center;
+}
+#thirdDiv{
+  margin: auto;
+  align-content: center;
+  height: 600px;
+  width: 500px;
+  background-color: lightseagreen;
+  padding: 50px;
+  border: 5px dashed coral;
+}
+#spanId{
+  font-size: 18px;
+  margin: 50px;
+  color: coral;
+  font-weight: bold;
+}
+.divClass{
+  margin: auto;
+}
+h3{
+  text-align: center;
+}
+h4{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  color: coral;
+}
+-->
