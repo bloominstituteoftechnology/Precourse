@@ -1,0 +1,17 @@
+ h1 {
+     color:teal;
+}
+ #thirdDiv {
+    height:600px;
+    width:500px;
+    background:grey;
+    padding:50px;
+    border:1px solid teal;
+}
+ img {
+     width:400px; 
+}
+#spanId {
+     font-size:18px;
+     margin:50px;
+}
