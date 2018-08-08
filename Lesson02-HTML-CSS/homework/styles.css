@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Italian-cuisine-1436418_1920.jpg/1200px-Italian-cuisine-1436418_1920.jpg");
+	background-size: 100%;
+}
+
+h1{
+	color: blue;
+}
+
+img{
+	width: 400px;
+}
+
+#thirdDiv{
+	height: 400px;
+	width: 500px;
+	background-color: red; 
+	padding: 50px;
+	border-width: 1px;
+	border-color: purple;
+	border-style: solid;
+}
+
+#spanId{
+	font-size: 18px;
+	margin:  50px;
+}
