@@ -4,7 +4,7 @@
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
-	* Closure
+	* Closure is a function that can access another function
 	
 *** Stretch Goals: Everything after this line is optional ***
 *** These tests are optional, any work you do to comeplete these tests is extra. That being said, having  exposure to these concepts and attempting them is recommended. The better you understand these concepts, the better your experience will be at Lambda School. ***  
