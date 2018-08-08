@@ -1,0 +1,50 @@
+h1{
+	color: orangered;
+	}
+h3{
+	color: blue;
+	}
+h4{
+	color: white;
+	}
+span{
+	color: silver;
+	}
+img{
+	width: 400px;
+	}
+#divClass{
+		left:500px;
+	}
+#divClass1{
+		left: 570px;
+	}
+#thirdDiv{
+		height: 600px;
+		Width: 500px;
+		background-color: oldlace;			
+		padding: 50px;
+		border: 5px solid red;
+		}
+#spanId{
+		font-size: 18px;
+		margin: 50px;
+		}
+	body{
+		background-image: url("https://images3.alphacoders.com/755/75529.jpg");
+		background-size: 1500px;
+		}
+		a{
+		border: 0.5rem outset pink;
+  		outline: 0.5rem solid khaki;
+  		box-shadow: 0 0 0 2rem skyblue;
+  		border-radius: 12px;
+  		font: bold 1rem sans-serif;
+  		margin: 2rem;
+ 		padding: 1rem;
+ 		outline-offset: 0.5rem;
+		}
+		div{
+			position: relative;
+			left: 480px;
+		}
