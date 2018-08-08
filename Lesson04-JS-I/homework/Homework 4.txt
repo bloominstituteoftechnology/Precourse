@@ -1,0 +1,5 @@
+﻿Variables - Unique containers for storing data values that can be reused. Variables enable complex expressions with less clutter.  Can be a number or a string, which is text contained within quotation marks. Identifiers of variables can be short (x, y) but are preferably descriptive of their value (Birthdate, TestScores).
+Strings - Used for storing and manipulating text, contain zero or more characters written inside quotes.
+Functions (arguments, return) - A block of code designed to perform a specific task when called for.  Can be reused with different inputs, called arguments, which can save a lot of time when analyzing or comparing data.  Only return statements allow for data within a function to be accessed outside of the function.
+If statements - Will execute a block of code if a specified condition is true.  Often followed by else or else if (elif) statements in the case it is not true.
+Boolean statements (true, false) - Conditional statements used when a data type can only have one of two values, typically true or false.
