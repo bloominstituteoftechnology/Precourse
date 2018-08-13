@@ -1,0 +1,1 @@
+Arrays are lists that store multiple data types inside of them. We assign an array to a variable and we assign multiple data types to an array instead of assigning a single data type to multiple variables. Using arrays makes our code less repetitive and shorter.
