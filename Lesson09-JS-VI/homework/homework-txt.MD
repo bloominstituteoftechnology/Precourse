@@ -1,0 +1,1 @@
+Callback functions are functions that are passed as arguments to other functions. It then gets called back when the other function is called with the argument of the callback function. This makes it easier for us to run functions within other functions without having to repeat ourselves.

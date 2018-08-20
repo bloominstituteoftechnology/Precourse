@@ -1,0 +1,20 @@
+h1 {
+  color: mediumBlue;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: deepSkyBlue;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+  padding: 10px;
+  border: 3px solid deepSkyBlue;
+}
