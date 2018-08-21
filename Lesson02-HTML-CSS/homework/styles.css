@@ -1,9 +1,20 @@
+			html{
+				background-image: url('http://bdfjade.com/data/out/56/5631356-background-image.png');
+				display: flex;
+				justify-content: center;
+			}
 			h1 {
-				color: chartreuse;
+				color: blue;
 			}
 			img {
 				width: 400px;
 			}
+			div{
+				align-items: center;
+			}	
+			.divClass{
+				color: red;
+			}			
 			#thirdDiv{
 				background: chartreuse;
 				height: 600px;
