@@ -1,0 +1,27 @@
+Feynman Method Homework.
+
+Variables:
+    in programing one of the key functions is assigning values to to keys known as variables.
+    This makes it easier to call and access the associated data.
+
+Strings:
+    strings are used to store sets of characters as data. It is oe of the 3 most basic data types.
+    this is used for all sets of charecters like words, setntences, and even paragrapgs. 
+    Strings can also hold numbers (althoughy they act differntly). Strings are noted by
+    parentheses.
+
+Functions:
+    we use functions to take in some data in the for of parameters, perform some action with those
+    parameters, and return the end result. Keep in mind that the return value is the only way to
+    output. The data provided to the function to work with is then called an arguement.
+
+IF Statements:
+    If statements are how computers use basic logic to make cjoices in what to do next. By writing 
+    an if statement you tell the program which set of comands to execute by feeding in for
+    instance IF some peice of data equals this then do this, or ELSE do this. ELSE being the
+    other option.
+
+Boolean Values:
+    At the most basic level computing is all true or false. These are known as booleans.
+    
+    
