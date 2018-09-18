@@ -37,3 +37,4 @@ git pull upstream master
 You only need to add the `upstream` remote once.  If you wish to pull down updates multiple times then just use `git pull upstream master` on subsequent pulls.
 
 If you have any questions or are experiencing merge conflicts then reach out to a TA for assistance.
+
