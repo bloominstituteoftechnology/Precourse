@@ -93,14 +93,20 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  num = Number(num);
-  return num === 0 || !!(num && !(num %2));
+  if ( num % 2 = 0 ){
+    return true;
+  }
+  return false;
 }
 
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
+  if(num % 2 != 0 ) {
+  return true;
+  }
+  return false;
 }
 
 function square(num) {
@@ -138,12 +144,14 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
+  return str +'!';
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
@@ -164,6 +172,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
+  return base * height;
 }
 
 // Do not modify code below this line.
