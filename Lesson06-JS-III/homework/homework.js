@@ -2,18 +2,21 @@
 
 function returnFirst(arr) {
   // return the first item from the array
+  return arr[0];
 }
 
 function returnLast(arr) {
   // return the last item of the array
+  return arr[arr.length -1];
 }
 
 function getArrayLength(arr) {
   // return the length of the array
+  return arr.length
 }
 
 function incrementByOne(arr) {
-  // arr is an array of integers  
+  // arr is an array of integers
   // increase each integer by one
   // return the array
 }
@@ -21,6 +24,8 @@ function incrementByOne(arr) {
 function addItemToArray(arr, item) {
   // add the item to the end of the array
   // return the array
+  arr.push(item)
+  return arr;
 }
 
 function addItemToFront(arr, item) {
