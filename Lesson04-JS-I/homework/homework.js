@@ -73,8 +73,7 @@ function divide(x, y) {
 divide();
 function areEqual(x, y) {
 
-  if (x===y)
-  {
+  if (x===y){
     return true;
   }
    return false;
@@ -85,13 +84,14 @@ function areEqual(x, y) {
 areEqual();
 
 function areSameLength(str1, str2) {
-
-  if (str1.length === str2.length) {return true;}
+let string1 = "str1"
+let string2 = "str2"
+  if (string1.length === string2.length) {return true;}
   return false;
-
   // return true if the two strings have the same length
   // otherwise return false
   // code here
+  
 }
 areSameLength();
 
@@ -128,7 +128,8 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  if (num === num.isEven){return true;}
+let number = num % 2
+  if(num === number) {return true;}
   return false;
 }
 isEven();
@@ -137,8 +138,9 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if ( num === num.isOdd ){return false}
-  return false;
+  let number = num % 2
+  if ( num === number ){return false}
+  return true;
 }
 isOdd();
 
@@ -146,36 +148,36 @@ function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-  let root2 = math.pow(num,2)
-  return root2;
+  let square = Math.pow(2,3);
+  return square;
 
 }
-
+square();
 function cube(num) {
   // cube num and return the new value
   // code here
-  let root3 = math.pow(num,3)
+  let root3 = Math.pow(7,3)
   return root3 ;
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-  let raise = math.pow (num ,exponent)
+  let raise = Math.pow (num ,exponent)
   return raise ;
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
-  let roundit = math.round(num)
+  let roundIt =Math.round(num)
   return roundit ;
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
-  let roundit = math.ceil (num)
+  let roundIt = math.ceil (num)
   return roundit ;
 }
 
@@ -183,7 +185,8 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  let midstring = "hello world "+"hello world!"
+
+  let addString = "hello world "!=="hello world!"
   return midstring;
 }
 
@@ -191,15 +194,15 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  
-
+  let combineName = (Lambda,School)
+  return combineNames;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  
+  let  = Hello +(name)
 }
 
 // The next three questions will have you implement math area formulas. 
