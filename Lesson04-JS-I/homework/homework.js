@@ -106,17 +106,18 @@ function cube(num) {
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
-  // code here
+  const cube = Math.pow(num, exponent);
+  return cube;
 }
 
 function roundNumber(num) {
   // round num and return it
-  // code here
+  return Math.round(num);
 }
 
 function roundUp(num) {
   // round num up and return it
-  // code here
+  return (Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
