@@ -122,23 +122,17 @@ function combineNames(firstName, lastName) {
 
 function getGreeting(name) {
   return ('Hello ' + name + '!');
-
-  // Take the name string and concatenate other strings onto it so it takes the following form:
-  // 'Sam' -> 'Hello Sam!'
-  // code here
 }
 
 // The next three questions will have you implement math area formulas. 
 // If you can't remember these area formulas then head over to Google.
  
 function getRectangleArea(length, width) {
-  // return the area of the rectangle by using length and width
-  // code here
+  return (length * width);
 }
 
 function getTriangleArea(base, height) {
-  // return the area of the triangle by using base and height
-  // code here
+  return (base * height) / 2 ;
 }
 
 // Do not modify code below this line.
