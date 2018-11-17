@@ -97,32 +97,30 @@ function square(num) {
 }
 
 function cube(num) {
-  // cube num and return the new value
-  // code here
+  return Math.pow(num, 3);
 }
 
 function raiseToPower(num, exponent) {
-  // raise num to whatever power is passed in as exponent
-  // code here
+  return Math.pow(num, exponent);
 }
 
 function roundNumber(num) {
-  // round num and return it
-  // code here
+  return Math.round(num);
 }
 
 function roundUp(num) {
-  // round num up and return it
-  // code here
+  return Math.ceil(num);
 }
 
 function addExclamationPoint(str) {
+  return (str + "!");
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
 }
 
 function combineNames(firstName, lastName) {
+  return (firstName + lastName);
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
