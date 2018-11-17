@@ -113,7 +113,7 @@ function roundUp(num) {
 }
 
 function addExclamationPoint(str) {
-  return (str + "!");
+  return (str + '!');
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
