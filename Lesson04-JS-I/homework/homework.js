@@ -117,7 +117,7 @@ function addExclamationPoint(str) {
 }
 
 function combineNames(firstName, lastName) {
-  return (firstName + '' + lastName);
+  return (firstName + ' ' + lastName);
 }
 
 function getGreeting(name) {
