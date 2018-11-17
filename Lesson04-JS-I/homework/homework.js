@@ -75,7 +75,7 @@ function greaterThanFifty(num) {
 }
 
 function getRemainder(x, y) {
-  return (x % y)
+  return (x % y);
 }
 
 function isEven(num) {
