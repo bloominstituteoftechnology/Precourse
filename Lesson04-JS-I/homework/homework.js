@@ -47,14 +47,14 @@ function divide(x, y) {
 }
 
 function areEqual(x, y) {
-  if (x == y) {
+  if (x === y) {
     return true;
   }
     return false;
 }
 
 function areSameLength(str1, str2) {
-  if (str1 == str2) {
+  if (str1 === str2) {
     return true;
   }
     return false;
@@ -93,10 +93,7 @@ function isOdd(num) {
 }
 
 function square(num) {
-    if (num )
-  // square num and return the new value
-  // hint: NOT square root!
-  // code here
+  Math.pow(num, 2);
 }
 
 function cube(num) {
