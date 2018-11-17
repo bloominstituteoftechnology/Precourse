@@ -54,7 +54,7 @@ function areEqual(x, y) {
 }
 
 function areSameLength(str1, str2) {
-  if (str1 === str2) {
+  if (str1.length === str2.length) {
     return true;
   }
     return false;
@@ -93,7 +93,7 @@ function isOdd(num) {
 }
 
 function square(num) {
-  Math.pow(num, 2);
+  return Math.pow(num, 2);
 }
 
 function cube(num) {
