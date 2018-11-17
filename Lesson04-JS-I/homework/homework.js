@@ -91,7 +91,63 @@ function isOdd(num) {
     }
       return false;
 }
+function square(num) {
+    if (num )
+  // square num and return the new value
+  // hint: NOT square root!
+  // code here
+}
 
+function cube(num) {
+  // cube num and return the new value
+  // code here
+}
+
+function raiseToPower(num, exponent) {
+  // raise num to whatever power is passed in as exponent
+  // code here
+}
+
+function roundNumber(num) {
+  // round num and return it
+  // code here
+}
+
+function roundUp(num) {
+  // round num up and return it
+  // code here
+}
+
+function addExclamationPoint(str) {
+  // add an exclamation point to the end of str and return the new string
+  // 'hello world' -> 'hello world!'
+  // code here
+}
+
+function combineNames(firstName, lastName) {
+  // return firstName and lastName combined as one string and separated by a space.
+  // 'Lambda', 'School' -> 'Lambda School'
+  // code here
+}
+
+function getGreeting(name) {
+  // Take the name string and concatenate other strings onto it so it takes the following form:
+  // 'Sam' -> 'Hello Sam!'
+  // code here
+}
+
+// The next three questions will have you implement math area formulas. 
+// If you can't remember these area formulas then head over to Google.
+ 
+function getRectangleArea(length, width) {
+  // return the area of the rectangle by using length and width
+  // code here
+}
+
+function getTriangleArea(base, height) {
+  // return the area of the triangle by using base and height
+  // code here
+}
 
 
 // Do not modify code below this line.
