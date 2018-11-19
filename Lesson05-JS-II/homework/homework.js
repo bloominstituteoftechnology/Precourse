@@ -18,33 +18,28 @@ function greeting(language) {
 } else if (language === 'Spanish') {
     return ('Hola!');
 } else { 
-    return ('Hello!')
+    return ('Hello!');
 }
 }
 
 function isTenOrFive(num) {
   if(num === 10 || num === 5 ) {
     return true;
-  } 
-    else {
-      }
+} else {
     return false;
 }
 
 function isInRange(num) {
   if(num > 20 && num < 50) { 
     return true;
-  } 
-    else {
-      }
+} else {
     return false;
   }
 
 function isInteger(num) {
   if (Math.floor(num))  { 
     return true;
-  } else { 
-      }
+} else { 
     return false;  
 }
 
