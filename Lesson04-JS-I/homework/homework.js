@@ -91,6 +91,7 @@ function isOdd(num) {
     }
       return false;
 }
+
 function square(num) {
   return Math.pow(num, 2);
 }
@@ -133,7 +134,6 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   return (base * height) / 2 ;
 }
-
 
 // Do not modify code below this line.
 // --------------------------------
