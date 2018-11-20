@@ -72,4 +72,5 @@ module.exports = {
   isInteger,
   fizzBuzz,
   isPrime,
+  multiplyArguments
 };
