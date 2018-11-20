@@ -72,4 +72,4 @@ module.exports = {
   isInteger,
   fizzBuzz,
   isPrime,
-}
+};
