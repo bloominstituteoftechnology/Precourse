@@ -61,8 +61,6 @@ function isPrime(num) {
   return num !== 1 && num !== 0;
 }
 
-
-
 // Do not modify code below this line.
 // --------------------------------
 
