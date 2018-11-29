@@ -1,0 +1,9 @@
+* Variable a way to refer to something that can change like for example your favorite toy. Your favorite toy year ago was a teddy bear, but now it is a toy car, so your favorite toy has change from teddy bear to toy car, but you still call it 'my favorite toy'. So Variable has a name in this case it is favorite toy and variable has a value which currently is a toy car.
+
+* Strings are type of variables which value is a block of text inside a quotes either single or double. This text can contain any characters or numbers or special characters like dash, comma or brackets.
+
+* Function is a set of instructions which take an input variables and change them and return an output variable.
+
+* `'If' statement is a way for program to decide what to do when some condition occur or not occur. For example if I'll be hungry than I'll eat something, else I'll not eat.
+
+* Boolean values can have only two values `true` or `false`. It is like a simple light switch it can be only on or off.
