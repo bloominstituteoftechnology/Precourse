@@ -1,0 +1,6 @@
+* Recursion is a function which is self call from inside of its body. Its need to have a tracking variable and stop condition otherwise it will run endless. All recursion function can be implemented as for loop or while loop. E.g.
+  `function myFunc(n) {
+    // `n` is tracking variable
+    if(n > 5) return; // Stop condision
+    myFunc(n + 1); // Recursive call
+  }`
