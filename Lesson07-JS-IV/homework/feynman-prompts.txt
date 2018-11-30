@@ -1,0 +1,25 @@
+* Objects contain an informations describing one think. The information is stored in a key: value pairs. For example let describe your toy: your toy is a red car, lets take different toy, its a brown teddy bear, so both toys have propertise. Now lets create an object which can describe both toys, so the object name will be `toy` and it will have propertise color and type then we can create the object named toy with properties `color` and `type`. 
+    `const toy = {
+      color: 'red',
+      type: 'car'
+    };`
+  The keys in our object are `color` and `type` and values are `red` and `car`.
+
+* Properties are the keys in an object that have assign a value which is not a function. To access a properties we use dot notation like `toy.type` this will return string `car`;
+
+* Methods are the keys in an object that have assign a value which are a function.
+  Let add a method sayHi to your toy object.
+    `const toy = {
+      ...,
+      sayHi: function() {
+        return 'Hi, I'm a ' + this.type;
+        }
+    };`
+  To call method we use also dot notation like `toy.sayHi()'.
+
+
+* `for in` loop we can use to iterate all key:value pairs in an object, we can't use standard for loop as object don't have an numerical index like arrays so we have to use for in loop. The syntax start the same like standard for loop with decleration of the loop variable but then we use key word `in` and the name of the object. Then in the loop body can use the declered variable which will contain a key name from the object.
+
+
+* Dot notation vs bracket notation
+  The dot notation we using when we know the key name, but when we don't know the key name, but we have a variable which contain it then we have to use the bracket notation like in case of `for in` loop.
