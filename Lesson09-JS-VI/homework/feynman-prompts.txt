@@ -1,0 +1,1 @@
+* Callback Functions are function which are pass as an argument to other function or method. The callback function can be called at any time and they can pass  arguments from inside of the function where callback function is passed to.
