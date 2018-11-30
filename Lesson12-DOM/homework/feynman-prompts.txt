@@ -1,0 +1,6 @@
+* DOM stand for Document Object Model.
+  When browser load a website it will read the html file and create it representation as JavaScript object named document. Through this object JavaScript can interact with each element on the website.
+
+* DOM element selectors are methods of document object which return a object which represent an element or an array of elements.
+
+* DOM events are function which are executed every time there is any interaction on the website like mouse click, scroll, keypress and even when page has been loaded and many more.
