@@ -1,0 +1,30 @@
+body {
+  background: url(http://www.jlstms.com/data/wallpapers/110/im59160153.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  color: chocolate;
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: lightgrey;
+  padding: 50px;
+  border: 3px dashed darkgrey;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}

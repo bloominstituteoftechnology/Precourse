@@ -1,0 +1,9 @@
+* `for` is a loop which have a variable with a start value, finish value and a change of this variable value applied on each loop pass. The loop will run until the loop variable will reach the finish value or return a value from its block of instructions which are run on each loop pass.
+
+* `&&`, `||`, `!` are logical operators like plus and minus are arithmetic operators, but they are work with boolean values.
+- `&&` is `and` operator and it takes two values and return true if both values are true else it will return flase.
+e.g: `true && true` will return `true`, but `true && flase` will return `flase`
+- `||` is `or` operator and it take two values but it will return flase only when both values are flase else it will return true.
+e.g: `false || false` will return `false`, but `true || false` will return `true`.
+- '!' is `not` operator which takes one value and return the oposite of this value.
+e.g: `!ture` will return `false`

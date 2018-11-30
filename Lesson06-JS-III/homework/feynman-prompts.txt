@@ -1,0 +1,1 @@
+* Arrays are special variable type which can store multiple values (items) at the same time which also can have different types. To reference a single value from an array we use index. The first item index is 0. As array can hold multiple items it also have an propertie length return the number of items in the array.

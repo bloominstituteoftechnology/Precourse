@@ -1,0 +1,3 @@
+* `prototype` is a special property of a class which describe what methods each new object of this class will have access.
+
+* Constructor is a special method of a class called on creaton of new object of this calss. It sets the property of this call with the values passed in the arguments of the constructor or some default values.
