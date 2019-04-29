@@ -9,15 +9,15 @@ function getBiggest(x, y) {
 }
 
 function greeting(language) {
-    var greet = '';
+    let greet = '';
     if (language === 'German') {
-        var greet = 'Guten Tag!';
+        greet = 'Guten Tag!';
     } else if (language === 'Mandarin') {
-        var greet = 'Ni Hao!';
+        greet = 'Ni Hao!';
     } else if (language === 'Spanish') {
-        var greet = 'Hola!';
+        greet = 'Hola!';
     } else {
-        var greet = 'Hello!';
+        greet = 'Hello!';
     }
     return greet;
 }
@@ -33,6 +33,7 @@ function isInRange(num) {
     if (num < 50 && num > 20) {
         return true;
     }
+    return false;
 }
 
 function isInteger(num) {
@@ -43,12 +44,12 @@ function isInteger(num) {
 }
 
 function fizzBuzz(num) {
-    var phrase = '';
+    let phrase = '';
     if (num % 3 === 0) {
-        var phrase = phrase + 'fizz';
+        phrase = phrase + 'fizz';
     }
     if (num % 5 === 0) {
-        var phrase = phrase + 'buzz';
+        phrase = phrase + 'buzz';
     }
     if (phrase !== '') {
         return phrase;
