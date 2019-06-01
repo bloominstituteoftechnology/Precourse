@@ -1,7 +1,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = "Hello" ;
+const newString = 'Hello' ;
 
 //create a number variable, it an be any number
 const newNum = 3 ;
@@ -66,7 +66,7 @@ function areSameLength(str1, str2) {
   if (str1.length == str2.length){
     return true;
   }
-  else {return false}
+  else {return false;}
 }
 
 function lessThanNinety(num) {
@@ -135,19 +135,19 @@ function roundUp(num) {
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  return str + "!";
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  return firstName + " " + lastName;
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  return "Hello ".concat(name + "!");
+  return 'Hello '.concat(name + '!');
 }
 
 // The next three questions will have you implement math area formulas. 
