@@ -85,7 +85,7 @@ This also applies to the function's parameters:
     const multiplyByFive = makeMultiplier(5);
     const product1 = multiplyByFive(10);
 
-    const multiplyByTwo = makeMultiplier(5);
+    const multiplyByTwo = makeMultiplier(2);
     const product2 = multiplyByTwo(7);
 
     console.log(product1); // logs 50
