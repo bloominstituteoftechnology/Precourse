@@ -10,7 +10,6 @@ function counter() {
     count++;
     return count;
   };
-
 }
 
 function cacheFunction(cb) {
