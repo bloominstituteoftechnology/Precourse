@@ -1,0 +1,14 @@
+Assignment log:
+
+Lesson 01: ___
+Lesson 02: ___
+Lesson 03: ___
+Lesson 04: Passed
+Lesson 05: One failed
+Lesson 06: Two failed
+Lesson 07: Passed
+Lesson 08: All failed
+Lesson 09: Passed
+Lesson 10: Passed
+Lesson 11:
+Lesson 12:
