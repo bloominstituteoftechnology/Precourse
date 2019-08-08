@@ -1,0 +1,32 @@
+h1 {color:red;}
+
+img {width: 40px;}
+
+body {
+    background-color: aqua;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+li {
+    /* display: inline; */
+    display:table;
+    margin:0px auto 0px auto;
+}
+
+#thirdDiv {
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    padding: 50px;
+    border: 4px;
+    border-style: solid;
+        }
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    }
