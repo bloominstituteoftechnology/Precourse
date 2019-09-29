@@ -7,7 +7,7 @@ in this folder, you are in the wrong place.
 /* Exercise One: Centering the text in a span */
 
 /* We will start this one off for you: */
-#exerciseOne {
+#exerciseOne {display:block; text-align:center;
 
 }
 
@@ -16,11 +16,22 @@ in this folder, you are in the wrong place.
 
 /* Place code here */
 
+#exerciseTwo {
+  display:none
+}
+
 
 
 /* Exercise Three: */
 
 /* Place code here */
+
+#exerciseThree {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+
+}
 
 
 
@@ -28,16 +39,84 @@ in this folder, you are in the wrong place.
 
 /* Place code here */
 
+#exerciseFour {
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+
+}
+
 
 
 /* Exercise Five */
 
 /* Place code here */
 
+#exercisefive {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+
 
 
 /* Exercise Six */
 
+flex-direction: row-reverse;
+
+}
+
+/* Exercise Seven */
+
+
 #exerciseSeven {
   display: flex;
+  flex-direction: column-reverse;
+  width: 600px;
+  height: 500px;
+  border: 5px solid black;
+  background-color: grey;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemSpan {
+  display: block;
+  text-align: left;
+  align-self: center;
+}
+
+.items {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  background-color: white;
+
+
+}
+
+#itemOne {
+  border: 3px solid green;
+  align-self: flex-start;
+}
+
+#itemTwo {
+  width: 150px;
+  height: 150px;
+  border: 4px dashed orange;
+}
+
+#itemThree {
+  border: 3px solid blue;
+}
+
+#itemFour {
+  border: 4px dashed red;
+  align-self: flex-end;
+
+
 }
