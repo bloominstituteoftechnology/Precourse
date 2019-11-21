@@ -203,14 +203,14 @@ function getGreeting(name) {
 
 // The next three questions will have you implement math area formulas. 
 // If you can't remember these area formulas then head over to Google.
- 
+   
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
 
-   return length * width;
-}
-
+   return length * width;    
+}    
+   
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
