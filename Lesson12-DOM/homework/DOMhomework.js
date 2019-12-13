@@ -1,16 +1,17 @@
 /* 
   STEP 0: Create an empty array called 'toDoItems'.
 */
-
 // code here
+let toDoItems = [];
 
 /* 
   STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
           add your name to the END of the current innerHTML.
 */
-
 // code here
+const heading = document.querySelector('#createdBy');
+var newHeading = heading.innerHTML += ' ' + 'Paul H. Menard Jr.';
 
 /* 
   STEP 2: Create a class called 'ToDo'.  The constructor should have one string parameter called description, the description of the toDo.
@@ -18,9 +19,14 @@
           'complete' which should be set to false. Hint: use the 'this' keyword in the constructor function.
 */
 
-function ToDo () {
+function ToDo(description) {
   // code here
-}
+  
+    this.description = description;
+    this.complete = false;
+  
+
+};
 
 /* 
   STEP 3: Add a method called 'completeToDo' to the prototype of the ToDo class. 
@@ -29,6 +35,10 @@ function ToDo () {
 */
 
 // code here
+ToDo.prototype.completeToDo = function () {
+  this.complete = true;
+};
+
 
 /*
   STEP 4: This function, buildToDo, will have two parameters.  The first is an object of class ToDo and 
@@ -42,12 +52,31 @@ function ToDo () {
             5.) Set the id of 'toDoText' to the value of the index argument.
             6.) Using an if statement, check to see if the 'complete' property on the object passed as the first argument 
                   is set to true. If it is, give 'toDoText' a CSS class of 'completeText'. If it is not, do not give it a class.
+
             7.) Append child 'toDoText' to 'toDoShell'
             8.) return toDoShell
 */
 
 function buildToDo(todo, index) {
   // code here
+  var toDoShell = document.createElement('div');
+  toDoShell.className = 'toDoShell';
+
+  var toDoText = document.createElement('span');
+  toDoText.innerHTML = todo.description;
+  toDoText.id = index;
+  toDoText.addEventListener('click', completeToDo);
+
+  if (todo.complete === true) {
+    toDoText.className = 'completedText';
+  } else {
+    toDoText.style = 'none';
+  }
+
+  toDoShell.appendChild(toDoText);
+  
+  return toDoShell;
+
 }
 
 /* 
@@ -58,6 +87,9 @@ function buildToDo(todo, index) {
 
 function buildToDos(toDos) {
   // code here
+
+  let newToDos = toDos.map(buildToDo);
+  return newToDos;
 }
 
 /* 
@@ -72,8 +104,18 @@ function buildToDos(toDos) {
           You can now load your html file in your broswer and see your work so far.
 */
 
+
 function displayToDos() {
   // code here
+  const toDoContainer = document.getElementById('toDoContainer');
+
+  toDoContainer.innerHTML = '';
+  let toDosArray = buildToDos(toDoItems);
+  for (num = 0; num < toDosArray.length; num++) {
+    toDoContainer.append(toDosArray[num]);
+  }
+
+
 }
 
 /* 
@@ -90,6 +132,12 @@ function displayToDos() {
 
 function addToDo() {
   // code here
+  newItem = document.getElementById('toDoInput');
+  var newToDo = new ToDo(newItem.value);
+  toDoItems.push(newToDo);
+  newItem.value = '';
+  displayToDos();
+
 }
 
 /* 
@@ -99,6 +147,9 @@ function addToDo() {
 */
 
 // cod here
+document.getElementById('addButton').addEventListener('click', addToDo);
+
+
 
 /* 
   STEP 9: Finally in this step we will define the function to run when we want to compelte a toDo, and add that function to the click event
@@ -115,8 +166,9 @@ function addToDo() {
 
 function completeToDo(event) {
   // UNCOMMENT THE NEXT LINE
-  // const index = event.target.id;
+   const index = event.target.id;
   // code here
+console.log(index);
 }
 
 /* STEP 10: Make sure ALL tests pass */
@@ -136,6 +188,7 @@ function completeToDo(event) {
 
 
 // Call displayToDos here (Step 6)<-----
+displayToDos();
 
 
 // ---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //
