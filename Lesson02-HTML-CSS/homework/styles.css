@@ -1,0 +1,20 @@
+h1 {
+    color: lightsalmon;
+}
+
+img {
+    width: 400px;
+}
+
+.thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: lime;
+    padding: 50px;
+    border: 3px solid blue
+}
+
+#spanId {
+    font-size: 18 px;
+    margin: 50 px;
+}
