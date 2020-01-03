@@ -1,5 +1,5 @@
 # Lesson 1: Git fundamentals
-(Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
+(Attention: These are the class notes for the [Goon School] This was for a precourse I had to take to get into school a few years back so some of it is irrelevent and I can probably explain it faster but check it out anyway. 
 
 In this lesson we will cover: 
 
@@ -60,7 +60,7 @@ Within our terminal we can: traverse our file structure, add files, remove files
 
 ## Exercise
 
-In this exercise we will create a new folder titled: "LambdaSchool"
+In this exercise we will create a new folder titled: "ArmaDirectory"
 
 To get to your top level folder type:
 
@@ -71,16 +71,16 @@ To get to your top level folder type:
 and press enter. Once in your top level type:
 
 ```bash
-  mkdir LambdaSchool
+  mkdir ArmaDirectory
 ```
 
-and press enter. Congratulations you have created a directory!
+and press enter. Congratulations you have created a directory Faggot!
 
 ## Github
 
 As mentioned before, github is a central place to store, view, and download repositories, it is not synonymous with "git". You need to have a github account in order to complete this exercise. 
 
-### Forking
+### Forking (not the same as what you and your boyfriend do when alone)
 
 Github.com allows users to create their own copy of an repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo, and at a future time you may be able to reincorporate("pull") the changes you have made to this branch with the master branch you forked from.
 
@@ -93,7 +93,7 @@ In order to work on a project you must clone (download) it to your local machine
 Once you have the address copied, return to your terminal window and enter the following:
 
 ```bash
-  $ cd LambdaSchool
+  $ cd ArmaDirectory
 
   $ git clone [copied address]
 ```
@@ -171,7 +171,7 @@ You will be promped for your username and password. Enter these and then you wil
     cccc682..283b9dd  master -> master
 ```
 
-Congratulations! You just pushed your first git commit!
+Congratulations! You just pushed your first git commit, but your still a faggot so don't pat yourself on the back much!
 
 ## Pull Requests
 
