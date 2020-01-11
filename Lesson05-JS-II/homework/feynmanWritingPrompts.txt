@@ -1,5 +1,5 @@
 for {
-    The 'for loop' is a special and fundamental type of function that repeats a set of rules a given number of times. For example, suppose you want to write a program that simulates eating a pizza with 8 slices. You could use a 'for loop' to simulate eating 1 slice of pizza each time the 'for loop' runs. Set up a for loop to run 8 times, and suddenly you've simulated eating a whole pizza!
+    The 'for loop' is a special and fundamental type of function that repeats a set of rules a given number of times. For example, suppose you want to write a program that simulates eating a pizza with 8 slices. You could use a 'for loop' to simulate eating 1 slice of pizza each time the 'for loop' runs. Set up a single 'for loop' to run 8 times, and suddenly you've simulated eating a whole pizza!
 }
 
 && {
