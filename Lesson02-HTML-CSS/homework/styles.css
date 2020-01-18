@@ -1,0 +1,37 @@
+h1 {
+	color: aqua;
+}
+img {
+	width: 400px;
+}
+.thirdDiv {
+	margin: auto;
+	height: 600px;
+	width: 500px;
+	background-color: red;
+	padding: 50px;
+	border: 5px solid black;
+}
+.spanId {
+	font: 18px;
+	margin: 50px;
+}
+body {
+	background-image: url(https://www.simplyrecipes.com/wp-content/uploads/2007/01/homemade-pizza-horiz-a-1200.jpg);
+	background-size: cover;
+}
+.container {
+	justify-content: center;
+	flex-direction: center;
+	text-align: center;
+}
+section {
+	display: flex;
+	border: 5px solid black;
+	background-color: aqua;
+}
+header {
+	font-size: 36px;
+	background-color: darkorchid;
+	border: 5px solid black;
+}
