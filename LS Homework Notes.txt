@@ -1,2 +1,4 @@
 List of LS Homework issues:
 1) Can't complete Lesson06 unit tests - from the terminal, the test looks like it starts running then gets stuck in an infinite loop
+2) Can't complete Lesson07 Question 'invokeMethod' - can't seem to invoke the method properly
+3) Can't complete Lesson08 Question 3 'addReverseString' - my solution seems like it would work, but the directions aren't super clear. come back to this later.
