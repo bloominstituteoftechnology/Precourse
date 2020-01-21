@@ -27,8 +27,7 @@ function invokeMethod(object, method) {
   // method is a string that contains the name of a method on the object
   // invoke this method
   // nothing needs to be returned
-  const methodName = method;
-  object.methodName();
+  object.method();
 }
 
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
