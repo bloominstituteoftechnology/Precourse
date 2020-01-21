@@ -1,0 +1,21 @@
+Objects {
+    Everything in Javascript is an object. Strings are objects with built-in functions like .length. Objects tend to contain a lot of information about a single thing, rather than storing several instances of the same type of information. Objects are filled with key:value pairs that store information about the object. Keys need to have unique names and cannot be repeated within the object. Values can be repeated as many times as you want and need not be unique.
+}
+
+Properties {
+    Properties, a.k.a. keys, are unique names in an object that have a value stored inside them.
+}
+
+Methods {
+    Methods are functions that are inside an object. They perform a fixed task and are used as a way to simplify code by reducing the amount of repeat code. Simply call the method name and anything inside that function will execute.
+}
+
+for in loop {
+    Since objects don't have numbered indices, Javascript has a built-in function to iterate through all the key:value pairs inside an object, known as a 'for...in loop'.
+}
+
+Dot notation vs bracket notation {
+    Dot notation looks like this: methodName.property
+    Bracket notation looks like this: methodName['property']
+    Dot notation doesn't require quotes around the property name. Simply object + . + key. Bracket notation requires either a string or number, or a variable pointing to a string or number.
+}
