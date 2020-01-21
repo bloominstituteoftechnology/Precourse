@@ -1,0 +1,7 @@
+prototypes {
+    Classes are objects that are used as templates to build more complex objects. They can be distinguished from other objects by their uppercase letter at the start of the object name. Prototypes are created when each class is created. They give daughter objects access to methods in the original class, without copying each objects' methods in memory. This greatly reduces memory needs when millions of objects are instantiated from one class and results in much greater memory efficiency. 
+}
+
+constructors {
+    Constructors, or classes, have much of the same functionality as other objects and are used as templates to create similar objects that share many of the same properties and methods.
+}
