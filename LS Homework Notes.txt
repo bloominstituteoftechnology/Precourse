@@ -1,0 +1,2 @@
+List of LS Homework issues:
+1) Can't complete Lesson06 unit tests - from the terminal, the test looks like it starts running then gets stuck in an infinite loop
