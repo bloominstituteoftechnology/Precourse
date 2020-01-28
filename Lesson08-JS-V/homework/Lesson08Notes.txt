@@ -1,2 +1,2 @@
 1) defining a new object with the 'new' keyword is called 'pseudo-classical instantiation'.
-2) 
+2) *** github message test ***
