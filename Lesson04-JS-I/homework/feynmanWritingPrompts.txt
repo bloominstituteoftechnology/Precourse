@@ -1,0 +1,23 @@
+Variables {
+    Variables are essentially placeholders. You can fill them with whatever you want. It could be numbers, words, letters, or even your birthdate.
+}
+
+Strings {
+    Strings are a type of data that can be used by a computer. They are "strings" of text or a series of characters that represent text information. 
+}
+
+Functions (arguments, return){
+    Functions are rules that perform a certain task. They can do any number of useful things like adding 2 numbers, finding a name in a database, or determining if a number is prime. 
+
+    Arguments are what functions take as input. The arguments are manipulated according to the function's rules, creating an output.
+
+    The return statement is the mechanism functions used to output updated information.
+}
+
+if statements{
+    'If statements' are statements that determine whether a statement is true or false and control whether certain rules are executed.
+}
+
+Boolean values (true, false) {
+    Boolean values are a deep and fundamental computer concept. They are the input to control statements like 'if statements'. Boolean values can either be true/false, 1/0, or on/off.
+}

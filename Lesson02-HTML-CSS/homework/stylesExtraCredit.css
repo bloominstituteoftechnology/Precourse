@@ -1,0 +1,45 @@
+/* sets background on entire page to an image */
+html {
+    background: url(./background-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 241, 235);
+}
+
+.divClass {
+    color: rgb(255, 241, 235)
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: rgb(91, 156, 199);
+    padding: 50px;
+    border: 3px solid blue
+}
+
+#spanId {
+    font-size: 18 px;
+    margin: 50 px;
+    justify-content: center;
+}

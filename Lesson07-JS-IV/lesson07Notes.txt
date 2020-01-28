@@ -1,0 +1,8 @@
+1) Brackets with objects are typically reserved for using variables inside the brackets. Otherwise, string or numbers are the only data types allowed.
+    Example notation: const shayne = {};
+    const uname = 'username';
+    shayne[uname] will look for the uname variable, which is set to 'username', therefore it will return the value at the 'username' key in the object 'shayne'.
+
+2) keys in objects are also known as properties in Javascript (among other languages)
+
+3) 

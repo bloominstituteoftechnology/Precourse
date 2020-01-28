@@ -1,0 +1,3 @@
+Arrays {
+    Arrays are data structures that can store several data points into one structure. They can consist of a list of numbers, a list of words (strings), or a list of a combination of the two. Arrays are a data structure with order, meaning each data point has a certain position in the array, and they're not jumbled up.
+}
