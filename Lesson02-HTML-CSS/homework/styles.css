@@ -1,30 +1,16 @@
-
-    body {
-        background-image: url("http://lorempixel.com/400/200/food");
-        background-position: left center;
-        background-attachment: fixed;
-        background-repeat: norepeat;
-        
-        display: flex;
-        height: 300px;
-        margin: auto;
+h1 {color: darkgoldenrod;}
+    
+    img {width: 400px;}
+    
+    #thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: Lavender;
+    padding: 50px;
+    border: 1px solid black;
     }
-    li {
-       color: red;
-       }
-       img {
-       height: 600px;
-       width: 500px;
-       }
-       
-       #thirdDiv {
-       height: 600px;
-       width: 500px;
-       background-color: blue;
-       border: darkblue;
-       border: dashed;
-       }
-       #spanId {
-       font: 18px;
-       margin: 50px;
-       }
+    
+    #spanId {
+    font-size: 18px;
+    margin: 50px;
+    }
