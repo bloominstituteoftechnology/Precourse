@@ -73,18 +73,15 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  for (let i = 2; i < num; i++) {
-      if(num % i === 0 && num >= 2) {
-          return false;
-      }else {
-          return true;
-      }
-  }
+    let isPrime = false;
+    for (let i = 0; i < num.length; i++) {
+        if (num[i] % num[i] === 0 && num[i] / 1 === num) {
+            isPrime = true;
+        }else {isPrime = false;}
+    }
+    return isPrime;
 }
-/* for(let i = 2; i < num; i++)
-    if(num % i === 0) return false;
-  return num > 1;
-}*/
+
 
 
 // Do not modify code below this line.
