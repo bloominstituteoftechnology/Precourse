@@ -1,0 +1,48 @@
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dci-canada.org%2Fwp-content%2Fuploads%2F2014%2F04%2FWhite-Background-worldnews1.jpg&f=1&nofb=1);
+
+}
+
+div {
+    text-align: center;
+}
+
+* {
+    text-align: center;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px, solid rgb(236, 179, 104);
+}
+
+h1 {
+    color: salmon;
+}  
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: lightsalmon;
+    padding: 50px;
+    border: forestgreen;
+    border-width: 240px;
+    border-color:salmon;
+    border-style: dashed;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
