@@ -48,46 +48,72 @@ return difference;
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
+const product = x * y; 
+return product; 
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
+  const quotient = x / y; 
+  return quotient; 
 }
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
+  if (x===y) {
+    return true; 
+  }
+    return false; 
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
+  if (str1.length === str2.length) {
+    return true; 
+  }
+    return false; 
 }
 
 function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   // code here
+  if (num < 90) {
+    return true;
+  }
+    return false; 
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
+  if (num > 50); {
+    return true; 
+  }
+    return false; 
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
+  const remainder = x % y; 
+  return remainder; 
 }
 
 function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
+  if (num === 0); {
+    return true; 
+  }
+    return false; 
 }
 
 function isOdd(num) {

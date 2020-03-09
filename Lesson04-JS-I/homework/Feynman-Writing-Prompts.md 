@@ -1,0 +1,11 @@
+* Variables
+	* Strings: Strings are pieces of code that aren't numbers. Any word or piece of text can be a string. 
+
+	* Functions (arguments, `return`): Functions are little programs that run code or instructions that you assign to that function. 
+    Each function has some arguments or rules that you assign to it in order to return those values when you request them. 
+
+	* `if` statements: 'if' statements are conditional statements. What it means is that certain conditions in the code must be met
+    for the code to pass. A real life example would be: If you get good grades in school, then you can go to the movies on the weekend. 
+
+	* Boolean values (`true`, `false`): "Boolean values" are values that are assigned to specific parts of the code. 
+    When these pieces of code meet certain criteria then they are labeled as true or false. 
