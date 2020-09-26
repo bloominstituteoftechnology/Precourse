@@ -9,12 +9,10 @@ div {
   padding: 10px;
         }
 #thirdDiv {
-  display: flex;
   height: 600px;
   width: 500px;
-  margin:auto;
+  margin: auto;
   background-color: powderblue;
-  padding: 50px;
   border:  10px solid grey;
   text-align: left;
   }
