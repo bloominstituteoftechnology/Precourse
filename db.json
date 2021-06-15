@@ -1,0 +1,36 @@
+{
+  "posts": [
+
+    {
+      "id":  1,
+      "title": "POC title 1",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "ImgPath": "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+      "actionTxt": "Read"
+    },
+    {
+      "id": 2,
+      "title": "POC title 2",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "ImgPath": "https://mdbootstrap.com/img/new/standard/nature/023.jpg",
+      "actionTxt": "Read"
+    },
+    {
+      "id": 3,
+      "title": "POC title 3",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "ImgPath": "https://mdbootstrap.com/img/new/standard/nature/002.jpg",
+      "actionTxt": "Read"
+    },
+    {
+      "id": 4,
+      "title": "POC title 4",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "ImgPath": "https://mdbootstrap.com/img/new/standard/nature/022.jpg",
+      "actionTxt": "Read"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
