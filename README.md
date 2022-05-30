@@ -1,5 +1,5 @@
 # Lambda School Precourse Workshop
-This repo contains the instruction material and assignments for Lambda School's free mini-bootcamp.  Lambda School's free mini-bootcamp is a three week long course that covers the fundamentals of programming and web development.  Class is held at 5pm Pacific Time Monday through Thursday at the dates listed below.  This class is repeated and given live every month.
+This repo contains the instruction material and assignments for Lambda School's free `Web Dev 101 mini-bootcamp`.  Lambda School's free `Web Dev 101 mini-bootcamp` is a three week long course that covers the fundamentals of programming and web development.  Class is held at 5pm Pacific Time Monday through Thursday at the dates listed below.  This class is repeated and given live every month.
 
 To sign up for the program or to learn more about Lambda School's intensive Computer Science program, visit https://www.lambdaschool.com
 
@@ -12,18 +12,18 @@ All recordings are available on our [YouTube channel](https://www.youtube.com/ch
 
 Live stream recordings will also be listed here:
 
-* [Lesson 1 - git, terminal, and GitHub](https://youtu.be/6lLMqYxIMvw)
+* [Lesson 1 - Git, terminal, and GitHub](https://youtu.be/6lLMqYxIMvw)
 * [Lesson 2 - HTML & CSS](https://youtu.be/uLSFDk2C5WA)
 * [Lesson 3 - CSS Positioning](https://youtu.be/GNLbLG6OxxU)
 * [Lesson 4 - JavaScript I](https://youtu.be/bL-1YjvTRXQ)
-* Lesson 5 - JavaScript II - 2/12/2018
-* Lesson 6 - JavaScript III - 2/13/2018
-* Lesson 7 - JavaScript IV - 2/14/2018
-* Lesson 8 - JavaScript V - 2/15/2018
-* Lesson 9 - JavaScript VI - 2/19/2018
-* Lesson 10 - JavaScript VII - 2/20/2018
-* Lesson 11 - JavaScript VIII - 2/21/2018
-* Lesson 12- DOM - 2/22/2018
+* [Lesson 5 - JavaScript II](https://www.youtube.com/watch?v=iWeR2cXj-nQ)
+* [Lesson 6 - JavaScript III](https://www.youtube.com/watch?v=jOOL4uuCBgw)
+* [Lesson 7 - JavaScript IV](https://www.youtube.com/watch?v=6VLr-E5BM_c)
+* [Lesson 8 - JavaScript V](https://www.youtube.com/watch?v=eWO2qIThltE)
+* [Lesson 9 - JavaScript VI](https://www.youtube.com/watch?v=ucctc5-kjOo)
+* [Lesson 10 - JavaScript VII](https://www.youtube.com/watch?v=pNit3wXnsHc)
+* [Lesson 11 - JavaScript VIII](https://www.youtube.com/watch?v=YWHjh3QvEZo)
+* [Lesson 12 - DOM](https://www.youtube.com/watch?v=_0ZQCGPlsQg)
 
 #### Directions for updating your fork
 

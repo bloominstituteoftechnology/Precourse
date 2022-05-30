@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
 const {
-  multiplyArguments,
   getBiggest,
   greeting,
   isTenOrFive,
@@ -107,19 +106,4 @@ describe('isPrime(num)', function() {
     expect(isPrime(0)).toBe(false);
     expect(isPrime(1)).toBe(false);
   });
-});
-
-describe('multiplyArguments()', function() {
-	it('should return the product of all the arguments', function() {
-		const product = multiplyArguments(5, 5);
-		const product2 = multiplyArguments();
-		const product3 = multiplyArguments(3, 3, 3, 3);
-		const product4 = multiplyArguments(1);
-		const product5 = multiplyArguments(10, 0, 10);
-		expect(product).toBe(25);
-		expect(product2).toBe(0);
-		expect(product3).toBe(81);
-		expect(product4).toBe(1);
-		expect(product5).toBe(0);
-	});
 });
